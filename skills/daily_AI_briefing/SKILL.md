@@ -66,7 +66,7 @@ All text in Simplified Chinese (keep English for names, product names, company n
 
 ## Step 4: Convert to PDF and QA
 
-Save the final PDF to `daily_briefing/AI/pdf/daily-tech-ai-briefing-[YYYY-MM-DD]-cn.pdf` (relative to the working directory). Create the directory if it doesn't exist. Delete the intermediate PPTX after successful conversion. Follow the pptx skill's QA and conversion process.
+Use `daily_briefing/AI/tmp/` as the working directory for all intermediate files (JS scripts, PPTX, slide images). Create it if it doesn't exist. Save the final PDF to `daily_briefing/AI/pdf/daily-tech-ai-briefing-[YYYY-MM-DD]-cn.pdf`. Create the pdf directory if it doesn't exist. After the final PDF is successfully saved, delete the entire `daily_briefing/AI/tmp/` directory to clean up all intermediate files. Follow the pptx skill's QA and conversion process.
 
 ## Constraints
 
@@ -78,4 +78,4 @@ Save the final PDF to `daily_briefing/AI/pdf/daily-tech-ai-briefing-[YYYY-MM-DD]
 - Professional, modern formatting with gradient backgrounds
 - Respect copyright — summarize, don't reproduce full articles or tweets
 - Skip people with nothing noteworthy today
-- Only deliver the final PDF — delete intermediate PPTX after conversion
+- Only deliver the final PDF — delete `daily_briefing/AI/tmp/` after successful conversion

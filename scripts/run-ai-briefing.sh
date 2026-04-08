@@ -1,9 +1,23 @@
-#!/bin/bash
+#!/bin/bash --login
 set -euo pipefail
+
+# --login flag makes bash read ~/.profile, loading the full PATH
+# (needed because cron only has /usr/bin:/bin)
 
 # Resolve project root (scripts/ is one level under project root)
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Verify required tools are available
+for cmd in claude node npm timeout; do
+  if ! command -v "$cmd" &>/dev/null; then
+    echo "ERROR: '$cmd' not found in PATH." >&2
+    echo "  Current PATH: $PATH" >&2
+    echo "  If running from cron, ensure your shell profile (~/.profile or ~/.bash_profile)" >&2
+    echo "  adds the directory containing '$cmd' to PATH." >&2
+    exit 1
+  fi
+done
 
 # Extend per-command bash timeout (default 2min is too short for some steps)
 export BASH_DEFAULT_TIMEOUT_MS=600000   # 10 min
