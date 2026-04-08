@@ -53,7 +53,7 @@ run_stage() {
 }
 
 # Stage 1: Research (must complete before builders)
-run_stage "Research" "Run the ai_research skill for today ($DATE)" 10 || exit 1
+run_stage "Research" "Run the ai_research skill for today ($DATE)" 20 || exit 1
 
 # Stage 2 & 3: PDF Builder and Web Builder run in parallel
 log "PDF Builder & Web Builder started (parallel)"
