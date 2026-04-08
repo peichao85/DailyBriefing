@@ -19,6 +19,9 @@
         <button class="arrow" :disabled="!hasPrev" @click="prevDate">&larr;</button>
         <span class="current-date" @click="toggleCalendar" x-text="currentDate || '加载中...'"></span>
         <button class="arrow" :disabled="!hasNext" @click="nextDate">&rarr;</button>
+        <a class="pdf-download" x-show="currentDate"
+          :href="'pdf/AI/daily-tech-ai-briefing-' + currentDate + '-cn.pdf'"
+          target="_blank" rel="noopener">↓ 下载简报</a>
 
         <!-- Calendar Popup -->
         <template x-if="calendarOpen">

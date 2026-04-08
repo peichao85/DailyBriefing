@@ -117,6 +117,25 @@ header .subtitle {
   cursor: not-allowed;
 }
 
+.date-picker .pdf-download {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  border: 1px solid var(--border-subtle);
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.25s;
+  white-space: nowrap;
+  margin-left: 0.75rem;
+}
+
+.date-picker .pdf-download:hover {
+  color: var(--accent-default);
+  border-color: var(--accent-default);
+  text-decoration: none;
+}
+
 .date-picker .current-date {
   font-family: var(--font-display);
   font-size: 1.1rem;
