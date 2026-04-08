@@ -36,12 +36,12 @@ LOG="research_results/AI/logs/briefing-${DATE}.log"
 log() { echo "=== $1: $(date) ===" >> "$LOG"; }
 
 run_stage() {
-  local name="$1" prompt="$2"
+  local name="$1" prompt="$2" budget="${3:-5}"
   log "$name started"
   if timeout 1800 claude -p "$prompt" \
     --dangerously-skip-permissions \
     --model opus \
-    --max-budget-usd 5 \
+    --max-budget-usd "$budget" \
     >> "$LOG" 2>&1; then
     log "$name finished successfully"
   else
@@ -53,7 +53,7 @@ run_stage() {
 }
 
 # Stage 1: Research (must complete before builders)
-run_stage "Research" "Run the ai_research skill for today ($DATE)" || exit 1
+run_stage "Research" "Run the ai_research skill for today ($DATE)" 10 || exit 1
 
 # Stage 2 & 3: PDF Builder and Web Builder run in parallel
 log "PDF Builder & Web Builder started (parallel)"
