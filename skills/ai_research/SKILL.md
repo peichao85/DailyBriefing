@@ -1,0 +1,86 @@
+---
+name: ai_research
+description: "Research today's most significant AI news and insights from 50 key industry accounts on X/Twitter and major outlets. Curates the top items into a structured JSON dataset with images. Use this skill when the user asks to research AI news, gather AI briefing data, or run the research phase of the daily briefing pipeline."
+---
+
+# AI Research — Daily Briefing Data Collection
+
+Research today's most significant AI news and insights from 50+ key industry accounts and news sources. Output a structured JSON dataset that downstream skills (PDF builder, web builder) consume.
+
+## Step 1: Research Today's Content
+
+Use web search to find recent tweets/posts and news from ALL of the following 50 accounts. Cast a wide net — only the most significant items make the final dataset.
+
+**Category 1 — Frontier Leaders & Founders:**
+@sama (OpenAI CEO), @gdb (OpenAI Co-founder & President), @demishassabis (Google DeepMind CEO), @mustafasuleyman (Microsoft AI CEO), @ilyasut (SSI founder), @DanielaAmodei (Anthropic Co-founder), @elonmusk (xAI/Tesla/SpaceX), @aidangomez (Cohere Co-founder), @alexandr_wang (Scale AI CEO), @AravSrinivas (Perplexity CEO)
+
+**Category 2 — Product, Design & Operators:**
+@kevinweil (OpenAI CPO), @mikeyk (Anthropic CPO), @jasonfried (37signals), @levie (Box CEO), @mntruell (Cursor CEO), @ryolu_ (Cursor Chief Designer), @antonosika (Lovable CEO), @levelsio (indie dev), @joshm (The Browser Company CEO), @rauchg (Vercel CEO, v0)
+
+**Category 3 — Research & Science Leaders:**
+@JeffDean (Google DeepMind Chief Scientist), @ylecun (Meta Chief AI Scientist), @geoffreyhinton (AI pioneer), @AndrewYNg (Landing AI / DeepLearning.AI), @OriolVinyalsML (DeepMind VP Research), @soumithchintala (PyTorch co-founder), @ShaneLegg (DeepMind co-founder), @karpathy (ex-Tesla AI), @ctnzr (NVIDIA DL Research), @jackclarkSF (Anthropic co-founder)
+
+**Category 4 — Builders, Tools & Infrastructure:**
+@julien_c (Hugging Face CTO), @RichardSocher (You.com CEO), @c_valenzuelab (Runway CEO), @alexgraveley (GitHub Copilot architect), @amasad (Replit CEO), @ScottWu46 (Cognition founder), @drorwe (Tabnine co-founder), @ivanhzhao (Notion founder), @alighodsi (Databricks CEO), @JonathanRoss321 (Groq CEO)
+
+**Category 5 — Investors, Curators & Signal:**
+@lexfridman (tech podcaster), @lennysan (product podcast), @naval (entrepreneur), @garrytan (YC CEO), @pmarca (a16z co-founder), @paulg (YC co-founder), @DrJimFan (NVIDIA AI), @rasbt (ML researcher), @hwchase17 (LangChain CEO), @polynoamial (OpenAI research scientist)
+
+**Also search for:**
+- Trending AI topics on X today
+- Breaking tech and AI news from major outlets
+- Popular AI articles and blog posts gaining traction
+- Significant product launches, model releases, funding rounds, or acquisitions in AI
+
+## Step 2: Curate and Structure
+
+From all sources, pick the most important items that:
+- Announce something new or significant
+- Share a genuinely novel insight or opinion
+- Spark major community discussion
+- Are relevant to important AI/tech developments
+
+Skip routine posts, retweets of minor things, casual conversation. If someone had nothing noteworthy, skip them entirely.
+
+## Step 3: Output Structured Data
+
+Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create the directory if needed).
+
+**Output schema:**
+
+```json
+{
+  "date": "YYYY-MM-DD",
+  "category": "AI",
+  "researched_at": "ISO 8601 timestamp",
+  "sources_checked": ["@handle1", "@handle2", "..."],
+  "items": [
+    {
+      "id": "1",
+      "title": "Insight-driven title in Chinese (e.g., '代码手写时代正式终结')",
+      "source": "@handle",
+      "source_name": "Full Name",
+      "source_role": "Role/Title",
+      "summary": "Brief summary in Chinese, 1-2 sentences",
+      "detail": "Detailed analysis in Chinese, multiple paragraphs",
+      "key_quotes": ["Original quotes, can be English"],
+      "significance": "Why this matters, in Chinese",
+      "links": ["https://..."],
+      "original_language": "en|zh",
+      "tags": ["tag1", "tag2"],
+      "category": "frontier_leaders|product_operators|research|builders|trending|news"
+    }
+  ]
+}
+```
+
+Also save any relevant images (screenshots, charts, product images) to `research_results/AI/YYYY-MM-DD/img/` and reference them in the items with an `"image"` field using a relative path like `img/filename.png`.
+
+## Constraints
+
+- All titles, summaries, details, and significance in Simplified Chinese (keep English for names, product names, company names, and technical terms commonly written in English)
+- Titles must summarize the INSIGHT, not just name the person
+- Quality over quantity — only genuinely significant items
+- Respect copyright — summarize, don't reproduce full articles or tweets
+- Skip people with nothing noteworthy today
+- Do NOT delete the output directory — it is managed manually

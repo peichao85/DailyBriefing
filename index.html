@@ -4,64 +4,301 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>每日简报 | Daily Briefing</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #0A1628;
-      color: #CBD5E1;
-      min-height: 100vh;
-    }
-    header {
-      padding: 3rem 2rem 2rem;
-      text-align: center;
-      border-bottom: 1px solid #1E3A5F;
-    }
-    header h1 {
-      font-size: 2rem;
-      color: #FFFFFF;
-      margin-bottom: 0.5rem;
-    }
-    header h1 span { color: #00C2FF; }
-    header p {
-      font-size: 1rem;
-      color: #94A3B8;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
-    }
-    .card {
-      background: #132340;
-      border-left: 4px solid #00C2FF;
-      border-radius: 4px;
-      padding: 1.5rem;
-      margin-bottom: 1rem;
-    }
-    .card h3 { color: #FFFFFF; margin-bottom: 0.5rem; }
-    .card p { color: #94A3B8; font-size: 0.9rem; }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      color: #64748B;
-      font-size: 0.85rem;
-    }
-  </style>
+  <link rel="stylesheet" href="web/css/style.css">
 </head>
 <body>
-  <header>
-    <h1>每日 <span>AI</span> 简报</h1>
-    <p>Daily Tech & AI Briefing — 精选自 50+ 位 AI 领袖、研究者与建造者的动态</p>
-  </header>
-  <main>
-    <div class="card">
-      <h3>🚧 站点建设中</h3>
-      <p>每日简报网站正在搭建，敬请期待。每日 PDF 简报将在此发布。</p>
+  <div x-data="briefingApp()" x-init="init()">
+
+    <!-- Header -->
+    <header>
+      <h1>每日<span class="accent">AI</span>简报</h1>
+      <p class="subtitle">精选自 50+ 位 AI 领袖、研究者与建造者的动态</p>
+
+      <!-- Date Picker -->
+      <div class="date-picker">
+        <button class="arrow" :disabled="!hasPrev" @click="prevDate">&larr;</button>
+        <span class="current-date" @click="toggleCalendar" x-text="currentDate || '加载中...'"></span>
+        <button class="arrow" :disabled="!hasNext" @click="nextDate">&rarr;</button>
+
+        <!-- Calendar Popup -->
+        <template x-if="calendarOpen">
+          <div>
+            <div class="calendar-overlay" @click="calendarOpen = false"></div>
+            <div class="calendar">
+              <div class="calendar-header">
+                <button @click="calendarPrevMonth">&larr;</button>
+                <span class="month-label" x-text="calendarMonthLabel"></span>
+                <button @click="calendarNextMonth">&rarr;</button>
+              </div>
+              <div class="calendar-grid">
+                <template x-for="d in ['日','一','二','三','四','五','六']">
+                  <div class="weekday" x-text="d"></div>
+                </template>
+                <template x-for="day in calendarDays" :key="day.key">
+                  <div class="day"
+                    :class="{
+                      empty: !day.num,
+                      available: day.available,
+                      selected: day.dateStr === currentDate,
+                      today: day.isToday
+                    }"
+                    @click="day.available && selectDate(day.dateStr)"
+                    x-text="day.num || ''">
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+        </template>
+      </div>
+    </header>
+
+    <!-- Day Title -->
+    <div class="day-title" x-show="briefing" x-text="briefing?.title || ''"></div>
+
+    <!-- Loading -->
+    <div class="loading" x-show="loading">正在加载简报数据...</div>
+
+    <!-- Error -->
+    <div class="error-msg" x-show="error" x-text="error"></div>
+
+    <!-- Card Grid -->
+    <div class="card-grid" x-show="briefing && !loading">
+      <template x-for="item in (briefing?.items || [])" :key="item.id">
+        <div class="card"
+          :class="{ expanded: expandedId === item.id, faded: expandedId && expandedId !== item.id }"
+          @click="toggleCard(item.id, $el)"
+        >
+          <div class="card-source" x-text="item.source_name + ' ' + item.source"></div>
+          <div class="card-title" x-text="item.title"></div>
+          <div class="card-summary" x-text="item.summary"></div>
+
+          <!-- Tags -->
+          <div class="card-tags" x-show="item.tags && item.tags.length">
+            <template x-for="tag in (item.tags || [])">
+              <span x-text="tag"></span>
+            </template>
+          </div>
+
+          <!-- Expanded Detail -->
+          <div class="card-detail" x-show="expandedId === item.id" @click.stop>
+            <!-- Detail -->
+            <div class="detail-section" x-show="item.detail">
+              <div class="detail-label">详细内容</div>
+              <div class="detail-text" x-text="item.detail"></div>
+            </div>
+
+            <!-- Key Quotes -->
+            <div class="detail-section" x-show="item.key_quotes && item.key_quotes.length">
+              <div class="detail-label">关键引用</div>
+              <template x-for="q in (item.key_quotes || [])">
+                <blockquote x-text="q"></blockquote>
+              </template>
+            </div>
+
+            <!-- Significance -->
+            <div class="detail-section" x-show="item.significance">
+              <div class="detail-label">重要性</div>
+              <div class="detail-text" x-text="item.significance"></div>
+            </div>
+
+            <!-- Links -->
+            <div class="detail-section" x-show="item.links && item.links.length">
+              <div class="detail-label">相关链接</div>
+              <ul class="detail-links">
+                <template x-for="link in (item.links || [])">
+                  <li><a :href="link" target="_blank" rel="noopener" x-text="link"></a></li>
+                </template>
+              </ul>
+            </div>
+
+            <button class="close-btn" @click.stop="collapseCard()">收起</button>
+          </div>
+        </div>
+      </template>
     </div>
-  </main>
-  <footer>
-    &copy; 2026 Daily Briefing
-  </footer>
+
+    <!-- Footer -->
+    <footer>&copy; 2026 Daily Briefing</footer>
+  </div>
+
+  <script src="web/js/alpine.min.js" defer></script>
+  <script>
+    function briefingApp() {
+      return {
+        // State
+        manifest: null,
+        dates: [],
+        currentIndex: 0,
+        currentDate: null,
+        briefing: null,
+        loading: true,
+        error: null,
+        expandedId: null,
+        calendarOpen: false,
+        calendarYear: null,
+        calendarMonth: null, // 0-indexed
+
+        // Computed
+        get hasPrev() { return this.currentIndex < this.dates.length - 1; },
+        get hasNext() { return this.currentIndex > 0; },
+        get calendarMonthLabel() {
+          if (this.calendarYear == null) return '';
+          const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+          return this.calendarYear + '年 ' + months[this.calendarMonth];
+        },
+        get calendarDays() {
+          if (this.calendarYear == null) return [];
+          const year = this.calendarYear;
+          const month = this.calendarMonth;
+          const firstDay = new Date(year, month, 1).getDay();
+          const daysInMonth = new Date(year, month + 1, 0).getDate();
+          const today = new Date();
+          const todayStr = this.formatDate(today);
+          const days = [];
+
+          // Empty slots before first day
+          for (let i = 0; i < firstDay; i++) {
+            days.push({ key: 'e' + i, num: null });
+          }
+
+          // Days of month
+          for (let d = 1; d <= daysInMonth; d++) {
+            const dateStr = this.formatDate(new Date(year, month, d));
+            days.push({
+              key: dateStr,
+              num: d,
+              dateStr,
+              available: this.dates.includes(dateStr),
+              isToday: dateStr === todayStr
+            });
+          }
+          return days;
+        },
+
+        // Methods
+        async init() {
+          try {
+            const resp = await fetch('web/manifest.json');
+            if (!resp.ok) throw new Error('无法加载数据清单');
+            this.manifest = await resp.json();
+
+            // For now, only AI category
+            const aiCategory = this.manifest.categories?.AI;
+            if (!aiCategory || !aiCategory.dates.length) {
+              this.loading = false;
+              this.error = '暂无可用的简报数据';
+              return;
+            }
+
+            // Dates sorted newest first
+            this.dates = [...aiCategory.dates].sort().reverse();
+            this.currentIndex = 0;
+            this.currentDate = this.dates[0];
+
+            // Init calendar to current date's month
+            const d = this.parseDate(this.currentDate);
+            this.calendarYear = d.getFullYear();
+            this.calendarMonth = d.getMonth();
+
+            await this.loadBriefing();
+          } catch (e) {
+            this.loading = false;
+            this.error = e.message || '加载失败';
+          }
+        },
+
+        async loadBriefing() {
+          this.loading = true;
+          this.error = null;
+          this.expandedId = null;
+          try {
+            const resp = await fetch('web/AI/' + this.currentDate + '/data.json');
+            if (!resp.ok) throw new Error('无法加载 ' + this.currentDate + ' 的简报');
+            this.briefing = await resp.json();
+          } catch (e) {
+            this.briefing = null;
+            this.error = e.message || '加载失败';
+          }
+          this.loading = false;
+        },
+
+        prevDate() {
+          if (!this.hasPrev) return;
+          this.currentIndex++;
+          this.currentDate = this.dates[this.currentIndex];
+          this.loadBriefing();
+        },
+
+        nextDate() {
+          if (!this.hasNext) return;
+          this.currentIndex--;
+          this.currentDate = this.dates[this.currentIndex];
+          this.loadBriefing();
+        },
+
+        selectDate(dateStr) {
+          const idx = this.dates.indexOf(dateStr);
+          if (idx === -1) return;
+          this.currentIndex = idx;
+          this.currentDate = dateStr;
+          this.calendarOpen = false;
+          this.loadBriefing();
+        },
+
+        toggleCalendar() {
+          this.calendarOpen = !this.calendarOpen;
+          if (this.calendarOpen && this.currentDate) {
+            const d = this.parseDate(this.currentDate);
+            this.calendarYear = d.getFullYear();
+            this.calendarMonth = d.getMonth();
+          }
+        },
+
+        calendarPrevMonth() {
+          this.calendarMonth--;
+          if (this.calendarMonth < 0) {
+            this.calendarMonth = 11;
+            this.calendarYear--;
+          }
+        },
+
+        calendarNextMonth() {
+          this.calendarMonth++;
+          if (this.calendarMonth > 11) {
+            this.calendarMonth = 0;
+            this.calendarYear++;
+          }
+        },
+
+        toggleCard(id, el) {
+          if (this.expandedId === id) {
+            this.expandedId = null;
+          } else {
+            this.expandedId = id;
+            this.$nextTick(() => {
+              el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+          }
+        },
+
+        collapseCard() {
+          this.expandedId = null;
+        },
+
+        formatDate(d) {
+          const y = d.getFullYear();
+          const m = String(d.getMonth() + 1).padStart(2, '0');
+          const day = String(d.getDate()).padStart(2, '0');
+          return y + '-' + m + '-' + day;
+        },
+
+        parseDate(str) {
+          const [y, m, d] = str.split('-').map(Number);
+          return new Date(y, m - 1, d);
+        }
+      };
+    }
+  </script>
 </body>
 </html>

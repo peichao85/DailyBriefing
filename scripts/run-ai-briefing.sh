@@ -28,20 +28,74 @@ export NODE_PATH="$(npm root -g 2>/dev/null || true)"
 
 cd "$PROJECT_ROOT"
 
-# Ensure log directory exists
-mkdir -p daily_briefing/AI/logs
-
 DATE=$(date +%Y-%m-%d)
-LOG="daily_briefing/AI/logs/briefing-${DATE}.log"
+mkdir -p research_results/AI/logs
 
-echo "=== Briefing generation started: $(date) ===" >> "$LOG"
+LOG="research_results/AI/logs/briefing-${DATE}.log"
 
-timeout 1800 claude -p "create today's ai briefing with skill daily_AI_briefing" \
-  --dangerously-skip-permissions \
-  --model opus \
-  --max-budget-usd 5 \
-  >> "$LOG" 2>&1
+log() { echo "=== $1: $(date) ===" >> "$LOG"; }
 
-EXIT_CODE=$?
-echo "=== Briefing generation finished: $(date), exit code: ${EXIT_CODE} ===" >> "$LOG"
-exit $EXIT_CODE
+run_stage() {
+  local name="$1" prompt="$2"
+  log "$name started"
+  if timeout 1800 claude -p "$prompt" \
+    --dangerously-skip-permissions \
+    --model opus \
+    --max-budget-usd 5 \
+    >> "$LOG" 2>&1; then
+    log "$name finished successfully"
+  else
+    local code=$?
+    log "$name FAILED (exit code: $code)"
+    echo "ERROR: $name failed with exit code $code. Aborting." >> "$LOG"
+    return $code
+  fi
+}
+
+# Stage 1: Research (must complete before builders)
+run_stage "Research" "Run the ai_research skill for today ($DATE)" || exit 1
+
+# Stage 2 & 3: PDF Builder and Web Builder run in parallel
+log "PDF Builder & Web Builder started (parallel)"
+
+run_stage "PDF Builder" "Run the ai_pdf_builder skill for today ($DATE)" &
+PID_PDF=$!
+
+run_stage "Web Builder" "Run the ai_web_builder skill for today ($DATE)" &
+PID_WEB=$!
+
+FAILED=0
+
+if ! wait "$PID_PDF"; then
+  echo "ERROR: PDF Builder failed." >> "$LOG"
+  FAILED=1
+fi
+
+if ! wait "$PID_WEB"; then
+  echo "ERROR: Web Builder failed." >> "$LOG"
+  FAILED=1
+fi
+
+if [ "$FAILED" -ne 0 ]; then
+  log "Aborting due to builder failure(s)"
+  exit 1
+fi
+
+log "PDF Builder & Web Builder finished (parallel)"
+
+# Commit and push web/ and pdf/ changes
+log "Git commit & push started"
+git add web/ pdf/
+if git diff --cached --quiet; then
+  echo "No changes to commit." >> "$LOG"
+else
+  if ! git commit -m "Daily AI briefing: ${DATE}" >> "$LOG" 2>&1; then
+    log "Git commit FAILED"
+    exit 1
+  fi
+  if ! git push >> "$LOG" 2>&1; then
+    log "Git push FAILED"
+    exit 1
+  fi
+fi
+log "Git commit & push finished"

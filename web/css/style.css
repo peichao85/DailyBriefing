@@ -1,0 +1,356 @@
+/* === Base === */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  background: #0A1628;
+  color: #CBD5E1;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+a { color: #00C2FF; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* === Header === */
+header {
+  padding: 2rem 2rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #1E3A5F;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin-bottom: 0.25rem;
+}
+
+header h1 .accent { color: #00C2FF; }
+
+header .subtitle {
+  font-size: 0.9rem;
+  color: #64748B;
+}
+
+/* === Date Picker === */
+.date-picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0 0.5rem;
+  position: relative;
+}
+
+.date-picker .arrow {
+  background: none;
+  border: 1px solid #1E3A5F;
+  color: #94A3B8;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.date-picker .arrow:hover:not(:disabled) {
+  border-color: #00C2FF;
+  color: #00C2FF;
+}
+
+.date-picker .arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.date-picker .current-date {
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.date-picker .current-date:hover {
+  background: #132340;
+}
+
+/* === Calendar Popup === */
+.calendar-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+}
+
+.calendar {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.5rem;
+  background: #132340;
+  border: 1px solid #1E3A5F;
+  border-radius: 8px;
+  padding: 1rem;
+  z-index: 100;
+  min-width: 280px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.calendar-header .month-label {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.calendar-header button {
+  background: none;
+  border: none;
+  color: #94A3B8;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.calendar-header button:hover {
+  color: #00C2FF;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  text-align: center;
+}
+
+.calendar-grid .weekday {
+  font-size: 0.75rem;
+  color: #64748B;
+  padding: 0.25rem;
+}
+
+.calendar-grid .day {
+  padding: 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: #64748B;
+  cursor: default;
+}
+
+.calendar-grid .day.available {
+  color: #CBD5E1;
+  cursor: pointer;
+}
+
+.calendar-grid .day.available:hover {
+  background: #1E3A5F;
+}
+
+.calendar-grid .day.selected {
+  background: #00C2FF;
+  color: #0A1628;
+  font-weight: 600;
+}
+
+.calendar-grid .day.today {
+  border: 1px solid #00C2FF;
+}
+
+.calendar-grid .day.empty {
+  visibility: hidden;
+}
+
+/* === Day Title === */
+.day-title {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #94A3B8;
+  margin: 1rem 0 1.5rem;
+  padding: 0 1.5rem;
+}
+
+/* === Card Grid === */
+.card-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* === Card === */
+.card {
+  background: #132340;
+  border-left: 4px solid #00C2FF;
+  border-radius: 6px;
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background: #1a2d4d;
+}
+
+.card.expanded {
+  grid-column: 1 / -1;
+  border-left-width: 4px;
+  border-left-color: #00C2FF;
+  background: #162a4a;
+  cursor: default;
+}
+
+.card.faded {
+  opacity: 0.4;
+}
+
+.card .card-source {
+  font-size: 0.75rem;
+  color: #00C2FF;
+  margin-bottom: 0.5rem;
+}
+
+.card .card-title {
+  font-size: 1rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.card .card-summary {
+  font-size: 0.85rem;
+  color: #94A3B8;
+  line-height: 1.5;
+}
+
+.card .card-tags {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.card .card-tags span {
+  font-size: 0.7rem;
+  background: #1E3A5F;
+  color: #94A3B8;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+
+/* === Expanded Card Detail === */
+.card-detail {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #1E3A5F;
+}
+
+.card-detail .detail-section {
+  margin-bottom: 1rem;
+}
+
+.card-detail .detail-label {
+  font-size: 0.75rem;
+  color: #00C2FF;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.35rem;
+}
+
+.card-detail .detail-text {
+  font-size: 0.9rem;
+  color: #CBD5E1;
+  line-height: 1.7;
+}
+
+.card-detail blockquote {
+  border-left: 3px solid #00C2FF;
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+  color: #94A3B8;
+  font-style: italic;
+}
+
+.card-detail .detail-links {
+  list-style: none;
+}
+
+.card-detail .detail-links li {
+  margin-bottom: 0.25rem;
+}
+
+.card-detail .detail-links a {
+  font-size: 0.85rem;
+}
+
+.card .close-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+  font-size: 0.8rem;
+  color: #94A3B8;
+  border: 1px solid #1E3A5F;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card .close-btn:hover {
+  border-color: #00C2FF;
+  color: #00C2FF;
+}
+
+/* === Loading & Error States === */
+.loading, .error-msg {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #64748B;
+  font-size: 1rem;
+}
+
+.error-msg { color: #f87171; }
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #64748B;
+  font-size: 0.8rem;
+  border-top: 1px solid #1E3A5F;
+}
+
+/* === Responsive === */
+@media (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  header { padding: 1.5rem 1rem 1rem; }
+  header h1 { font-size: 1.5rem; }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem 2rem;
+  }
+
+  .calendar {
+    min-width: 260px;
+  }
+}
