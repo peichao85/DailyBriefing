@@ -64,55 +64,104 @@
 
     <!-- Card Grid -->
     <div class="card-grid" x-show="briefing && !loading">
-      <template x-for="item in (briefing?.items || [])" :key="item.id">
+      <template x-for="(item, idx) in (briefing?.items || [])" :key="item.id">
         <div class="card"
-          :class="{ expanded: expandedId === item.id, faded: expandedId && expandedId !== item.id }"
+          :class="{
+            'card-hero': idx === 0,
+            'card-featured': idx === 1 || idx === 2,
+            'card-standard': idx > 2,
+            expanded: expandedId === item.id,
+            faded: expandedId && expandedId !== item.id
+          }"
+          :style="getCardStyle(item, idx)"
           @click="toggleCard(item.id, $el)"
         >
-          <div class="card-source" x-text="item.source_name + ' ' + item.source"></div>
+          <!-- Hero Badge -->
+          <div class="badge" x-show="idx === 0"
+            :style="'background:' + getTheme(item).accent + '; color: #fff;'">
+            头条
+          </div>
+
+          <!-- Card Header: Icon + Source -->
+          <div class="card-header">
+            <div class="card-icon"
+              :style="'background:' + getTheme(item).accent + '22; color:' + getTheme(item).accent + ';'">
+              <span x-text="getTheme(item).icon"></span>
+            </div>
+            <div class="card-header-text">
+              <div class="card-source" :style="'color:' + getTheme(item).accent + ';'"
+                x-text="item.source_name + (item.source ? ' ' + item.source : '')"></div>
+            </div>
+          </div>
+
           <div class="card-title" x-text="item.title"></div>
           <div class="card-summary" x-text="item.summary"></div>
 
           <!-- Tags -->
           <div class="card-tags" x-show="item.tags && item.tags.length">
             <template x-for="tag in (item.tags || [])">
-              <span x-text="tag"></span>
+              <span x-text="tag"
+                :style="'background:' + getTheme(item).accent + '18; color:' + getTheme(item).accent + ';'">
+              </span>
             </template>
           </div>
 
+          <!-- Signal Line (collapsed only) -->
+          <div class="card-signal" x-show="expandedId !== item.id && item.significance"
+            :style="'color:' + getTheme(item).accent + 'cc;'">
+            <span class="signal-label" :style="'color:' + getTheme(item).accent + ';'">信号 ›</span>
+            <span x-text="item.significance"></span>
+          </div>
+
           <!-- Expanded Detail -->
-          <div class="card-detail" x-show="expandedId === item.id" @click.stop>
+          <div class="card-detail" x-show="expandedId === item.id" @click.stop
+            :style="'border-top: 1px solid ' + getTheme(item).accent + '33;'">
+
             <!-- Detail -->
-            <div class="detail-section" x-show="item.detail">
-              <div class="detail-label">详细内容</div>
+            <div class="detail-section" x-show="item.detail"
+              :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
+              <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">详细内容</div>
               <div class="detail-text" x-text="item.detail"></div>
             </div>
 
             <!-- Key Quotes -->
-            <div class="detail-section" x-show="item.key_quotes && item.key_quotes.length">
-              <div class="detail-label">关键引用</div>
+            <div class="detail-section" x-show="item.key_quotes && item.key_quotes.length"
+              :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
+              <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">关键引用</div>
               <template x-for="q in (item.key_quotes || [])">
-                <blockquote x-text="q"></blockquote>
+                <blockquote x-text="q"
+                  :style="'border-left: 3px solid ' + getTheme(item).accent + ';'">
+                </blockquote>
               </template>
             </div>
 
             <!-- Significance -->
-            <div class="detail-section" x-show="item.significance">
-              <div class="detail-label">重要性</div>
-              <div class="detail-text" x-text="item.significance"></div>
+            <div class="detail-section" x-show="item.significance"
+              :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
+              <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">重要性</div>
+              <div class="significance-box"
+                :style="'background:' + getTheme(item).accent + '0d; color:' + getTheme(item).accent + 'dd;'"
+                x-text="item.significance"></div>
             </div>
 
             <!-- Links -->
-            <div class="detail-section" x-show="item.links && item.links.length">
-              <div class="detail-label">相关链接</div>
+            <div class="detail-section" x-show="item.links && item.links.length"
+              :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
+              <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">相关链接</div>
               <ul class="detail-links">
                 <template x-for="link in (item.links || [])">
-                  <li><a :href="link" target="_blank" rel="noopener" x-text="link"></a></li>
+                  <li><a :href="link" target="_blank" rel="noopener"
+                    :style="'color:' + getTheme(item).accent + ';'" x-text="link"></a></li>
                 </template>
               </ul>
             </div>
 
-            <button class="close-btn" @click.stop="collapseCard()">收起</button>
+            <button class="close-btn" @click.stop="collapseCard()"
+              :style="'border-color:' + getTheme(item).accent + '44;'"
+              @mouseenter="$el.style.borderColor = getTheme(item).accent; $el.style.color = getTheme(item).accent"
+              @mouseleave="$el.style.borderColor = getTheme(item).accent + '44'; $el.style.color = ''">
+              ← 收起
+            </button>
           </div>
         </div>
       </template>
@@ -124,6 +173,27 @@
 
   <script src="web/js/alpine.min.js" defer></script>
   <script>
+    // Tag → Theme mapping
+    const TAG_THEMES = {
+      '模型发布': { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
+      'Anthropic': { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
+      'OpenAI':    { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
+      'Cursor':    { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
+      'AI编程':    { accent: '#10B981', bg1: '#0d2818', icon: '⚡' },
+      '协作':      { accent: '#10B981', bg1: '#0d2818', icon: '⚡' },
+      '框架':      { accent: '#10B981', bg1: '#0d2818', icon: '⚡' },
+      '行业趋势':  { accent: '#F59E0B', bg1: '#2a1d06', icon: '📊' },
+      '热门趋势':  { accent: '#F59E0B', bg1: '#2a1d06', icon: '📊' },
+      'AI安全':    { accent: '#EF4444', bg1: '#2a0f0f', icon: '🛡️' },
+      '治理':      { accent: '#EF4444', bg1: '#2a0f0f', icon: '🛡️' },
+      '开源':      { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
+      '多模态':    { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
+      '边缘计算':  { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
+      'Agent':     { accent: '#06B6D4', bg1: '#0a1f2a', icon: '🤖' },
+    };
+
+    const DEFAULT_THEME = { accent: '#00C2FF', bg1: '#132340', icon: '💡' };
+
     function briefingApp() {
       return {
         // State
@@ -137,7 +207,26 @@
         expandedId: null,
         calendarOpen: false,
         calendarYear: null,
-        calendarMonth: null, // 0-indexed
+        calendarMonth: null,
+
+        // Theme helpers
+        getTheme(item) {
+          if (!item.tags || !item.tags.length) return DEFAULT_THEME;
+          for (const tag of item.tags) {
+            if (TAG_THEMES[tag]) return TAG_THEMES[tag];
+          }
+          return DEFAULT_THEME;
+        },
+
+        getCardStyle(item, idx) {
+          const theme = this.getTheme(item);
+          const delay = idx * 0.07;
+          const shadow = theme.accent + '25';
+          return `border-left-color: ${theme.accent}; `
+            + `background: linear-gradient(135deg, ${theme.bg1}, #132340); `
+            + `box-shadow: 0 4px 20px ${shadow}; `
+            + `animation-delay: ${delay}s;`;
+        },
 
         // Computed
         get hasPrev() { return this.currentIndex < this.dates.length - 1; },
@@ -156,19 +245,13 @@
           const today = new Date();
           const todayStr = this.formatDate(today);
           const days = [];
-
-          // Empty slots before first day
           for (let i = 0; i < firstDay; i++) {
             days.push({ key: 'e' + i, num: null });
           }
-
-          // Days of month
           for (let d = 1; d <= daysInMonth; d++) {
             const dateStr = this.formatDate(new Date(year, month, d));
             days.push({
-              key: dateStr,
-              num: d,
-              dateStr,
+              key: dateStr, num: d, dateStr,
               available: this.dates.includes(dateStr),
               isToday: dateStr === todayStr
             });
@@ -182,25 +265,18 @@
             const resp = await fetch('web/manifest.json');
             if (!resp.ok) throw new Error('无法加载数据清单');
             this.manifest = await resp.json();
-
-            // For now, only AI category
             const aiCategory = this.manifest.categories?.AI;
             if (!aiCategory || !aiCategory.dates.length) {
               this.loading = false;
               this.error = '暂无可用的简报数据';
               return;
             }
-
-            // Dates sorted newest first
             this.dates = [...aiCategory.dates].sort().reverse();
             this.currentIndex = 0;
             this.currentDate = this.dates[0];
-
-            // Init calendar to current date's month
             const d = this.parseDate(this.currentDate);
             this.calendarYear = d.getFullYear();
             this.calendarMonth = d.getMonth();
-
             await this.loadBriefing();
           } catch (e) {
             this.loading = false;
@@ -257,18 +333,12 @@
 
         calendarPrevMonth() {
           this.calendarMonth--;
-          if (this.calendarMonth < 0) {
-            this.calendarMonth = 11;
-            this.calendarYear--;
-          }
+          if (this.calendarMonth < 0) { this.calendarMonth = 11; this.calendarYear--; }
         },
 
         calendarNextMonth() {
           this.calendarMonth++;
-          if (this.calendarMonth > 11) {
-            this.calendarMonth = 0;
-            this.calendarYear++;
-          }
+          if (this.calendarMonth > 11) { this.calendarMonth = 0; this.calendarYear++; }
         },
 
         toggleCard(id, el) {
@@ -282,9 +352,7 @@
           }
         },
 
-        collapseCard() {
-          this.expandedId = null;
-        },
+        collapseCard() { this.expandedId = null; },
 
         formatDate(d) {
           const y = d.getFullYear();
