@@ -9,7 +9,7 @@ echo "Setting up daily briefing cron jobs..."
 CRON_ENTRIES=""
 
 # Daily AI briefing at 7:00 AM
-CRON_ENTRIES+="01 00 * * * ${SCRIPT_DIR}/run-ai-briefing.sh"
+CRON_ENTRIES+="58 06 * * * ${SCRIPT_DIR}/run-ai-briefing.sh"
 echo "  [+] AI briefing: daily at 7:00 AM"
 
 # Future: add more briefing cron jobs here
