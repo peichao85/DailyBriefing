@@ -97,6 +97,14 @@
           <div class="card-title" x-text="item.title"></div>
           <div class="card-summary" x-text="item.summary"></div>
 
+          <!-- Card Image (only when present) -->
+          <template x-if="item.image">
+            <div class="card-image">
+              <img :src="'web/AI/' + currentDate + '/' + item.image"
+                :alt="item.title" loading="lazy">
+            </div>
+          </template>
+
           <!-- Tags -->
           <div class="card-tags" x-show="item.tags && item.tags.length">
             <template x-for="tag in (item.tags || [])">

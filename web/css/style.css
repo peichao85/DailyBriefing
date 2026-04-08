@@ -344,6 +344,30 @@ header .subtitle {
   border-radius: 4px;
 }
 
+/* === Card Image === */
+.card-image {
+  margin-top: 0.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  opacity: 0.92;
+  transition: opacity 0.3s;
+}
+
+.card:hover .card-image img {
+  opacity: 1;
+}
+
+.card-hero .card-image {
+  margin-top: 1rem;
+}
+
 /* === Signal Line === */
 .card-signal {
   margin-top: 0.75rem;

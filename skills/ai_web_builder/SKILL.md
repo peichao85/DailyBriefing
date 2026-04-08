@@ -45,14 +45,17 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
 - All text in Simplified Chinese (keep English for names, product names, technical terms)
 - Titles must summarize the INSIGHT, not just name the person
 
-## Step 2: Optimize Images
+## Step 2: Process Images
+
+Only some items have images — that's intentional. Do not add images to items that don't have them in the research data.
 
 If the research data includes images in `research_results/AI/YYYY-MM-DD/img/`:
-- Copy relevant images to `web/AI/YYYY-MM-DD/img/`
-- Compress/resize images for web performance (target max 200KB per image, max 800px width)
-- Update image paths in the JSON to use relative paths like `img/filename.png`
+- Copy only the images referenced by items to `web/AI/YYYY-MM-DD/img/`
+- Compress/resize for web: max 200KB per image, max 800px width, JPEG quality 85% for photos, PNG for diagrams/charts
+- Keep the `"image"` field as a relative path like `img/filename.png`
+- For items without an image, omit the `"image"` field or set it to `null`
 
-Create the `web/AI/YYYY-MM-DD/img/` directory if images exist.
+The web page displays images inside the card when present — they appear below the summary as a visual element. Not every card needs one; cards without images still look good with the colored gradient and icon.
 
 ## Step 3: Update Manifest
 
