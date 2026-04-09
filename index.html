@@ -118,14 +118,14 @@
           </div>
 
           <!-- Signal Line (collapsed only) -->
-          <div class="card-signal" x-show="expandedId !== item.id && item.significance"
+          <div class="card-signal" x-show="item.significance"
             :style="'color:' + getTheme(item).accent + 'cc;'">
             <span class="signal-label" :style="'color:' + getTheme(item).accent + ';'">信号 ›</span>
             <span x-text="item.significance"></span>
           </div>
 
           <!-- Expanded Detail -->
-          <div class="card-detail" x-cloak x-show="expandedId === item.id" @click.stop
+          <div class="card-detail" @click.stop
             :style="'border-top: 1px solid ' + getTheme(item).accent + '33;'">
 
             <!-- Detail -->
