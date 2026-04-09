@@ -1,5 +1,7 @@
 # Daily AI Briefing
 
+**[https://peichao85.github.io/DailyBriefing/](https://peichao85.github.io/DailyBriefing/)**
+
 Automated daily Tech & AI news briefing system. Researches, curates, and publishes bilingual (Chinese/English) briefings as both a polished PDF presentation and an interactive web interface — powered by Claude Code.
 
 ## How It Works
@@ -98,8 +100,6 @@ The web interface is a single-page app with:
 - **Expandable cards** — click to reveal full analysis, key quotes, and links
 - **Tag-based theming** — color-coded by topic (model releases, AI coding, safety, agents, etc.)
 - **PDF download** — direct link to the day's PDF briefing
-
-Visit the live site: [https://peichao85.github.io/DailyBriefing/](https://peichao85.github.io/DailyBriefing/)
 
 ## Configuration
 
