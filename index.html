@@ -125,7 +125,7 @@
           </div>
 
           <!-- Expanded Detail -->
-          <div class="card-detail" x-show="expandedId === item.id" @click.stop
+          <div class="card-detail" x-cloak x-show="expandedId === item.id" @click.stop
             :style="'border-top: 1px solid ' + getTheme(item).accent + '33;'">
 
             <!-- Detail -->
