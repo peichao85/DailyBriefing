@@ -411,9 +411,10 @@ header .subtitle {
   opacity: 1;
 }
 
-/* Chart in detail section — full width, natural aspect ratio */
+/* Chart in detail section — 70% width, centered */
 .card-detail-chart {
-  margin-bottom: 1.25rem;
+  margin: 0 auto 1.25rem;
+  width: 70%;
   border-radius: 6px;
   overflow: hidden;
 }
