@@ -97,8 +97,8 @@
             </div>
           </div>
 
-          <!-- Card Image (only when present, floated right as thumbnail or chart) -->
-          <template x-if="item.image">
+          <!-- Card Image: float right when expanded, below summary when collapsed -->
+          <template x-if="item.image && expandedId === item.id">
             <div :class="'card-image' + (item.image_type === 'chart' ? ' chart' : '')">
               <img :src="'web/AI/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
@@ -108,6 +108,14 @@
           <div class="card-title" x-text="item.title"></div>
           <div class="card-summary" x-text="item.summary"></div>
           <div class="card-clear"></div>
+
+          <!-- Image below summary when collapsed -->
+          <template x-if="item.image && expandedId !== item.id">
+            <div :class="'card-image collapsed' + (item.image_type === 'chart' ? ' chart' : '')">
+              <img :src="'web/AI/' + currentDate + '/' + item.image"
+                :alt="item.title" loading="lazy">
+            </div>
+          </template>
 
           <!-- Tags -->
           <div class="card-tags" x-show="item.tags && item.tags.length">

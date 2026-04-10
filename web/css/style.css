@@ -391,6 +391,26 @@ header .subtitle {
   clear: both;
 }
 
+/* Collapsed state — image below title+summary, full width */
+.card-image.collapsed {
+  float: none;
+  max-width: 100%;
+  min-width: unset;
+  margin: 0.6rem 0 0 0;
+}
+
+.card-image.collapsed img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-image.collapsed.chart img {
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+}
+
 /* Chart/data images — larger side-by-side layout */
 .card-image.chart {
   max-width: 48%;
