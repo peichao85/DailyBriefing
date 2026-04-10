@@ -109,9 +109,9 @@
           <div class="card-summary" x-text="item.summary"></div>
           <div class="card-clear"></div>
 
-          <!-- Image below summary when collapsed -->
+          <!-- Image below summary when collapsed (full card width, no float) -->
           <template x-if="item.image && expandedId !== item.id">
-            <div :class="'card-image collapsed' + (item.image_type === 'chart' ? ' chart' : '')">
+            <div class="card-image-block">
               <img :src="'web/AI/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
             </div>
