@@ -369,13 +369,13 @@ header .subtitle {
   margin: 0 0 0.5rem 0.75rem;
   border-radius: 6px;
   overflow: hidden;
-  max-width: 130px;
+  max-width: 200px;
   flex-shrink: 0;
 }
 
 .card-image img {
-  width: 130px;
-  height: 90px;
+  width: 200px;
+  height: 140px;
   object-fit: cover;
   display: block;
   border-radius: 6px;
