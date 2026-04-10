@@ -30,6 +30,7 @@ cd "$PROJECT_ROOT"
 
 DATE=$(date +%Y-%m-%d)
 mkdir -p research_results/AI/logs
+mkdir -p research_results/GitHub/logs
 
 LOG="research_results/AI/logs/briefing-${DATE}.log"
 
@@ -55,14 +56,18 @@ run_stage() {
 # Stage 1: Research (must complete before builders)
 run_stage "Research" "Run the ai_research skill for today ($DATE)" 20 || exit 1
 
-# Stage 2 & 3: PDF Builder and Web Builder run in parallel
-log "PDF Builder & Web Builder started (parallel)"
+# Stage 2, 3 & 4: PDF Builder, Web Builder, and GitHub Trending Builder run in parallel.
+# GitHub Trending is best-effort — it must not block the AI pipeline if the GitHub API hiccups.
+log "PDF Builder, Web Builder & GitHub Trending started (parallel)"
 
 run_stage "PDF Builder" "Run the ai_pdf_builder skill for today ($DATE)" &
 PID_PDF=$!
 
 run_stage "Web Builder" "Run the ai_web_builder skill for today ($DATE)" &
 PID_WEB=$!
+
+run_stage "GitHub Trending Builder" "Run the github_trending_builder skill for today ($DATE)" 3 &
+PID_GH=$!
 
 FAILED=0
 
@@ -76,12 +81,28 @@ if ! wait "$PID_WEB"; then
   FAILED=1
 fi
 
+if ! wait "$PID_GH"; then
+  # Non-fatal: GitHub Trending is best-effort. Log a warning but do NOT set FAILED.
+  echo "WARNING: GitHub Trending Builder failed (non-fatal)." >> "$LOG"
+  log "GitHub Trending Builder FAILED (non-fatal)"
+fi
+
 if [ "$FAILED" -ne 0 ]; then
   log "Aborting due to builder failure(s)"
   exit 1
 fi
 
-log "PDF Builder & Web Builder finished (parallel)"
+log "Parallel builders finished"
+
+# Rebuild the web manifest from disk. Doing this post-builders avoids any race
+# that would exist if the two web-writing skills each updated manifest.json
+# independently. Only web/manifest.json is touched by this step.
+log "Manifest rebuild started"
+if ! python3 scripts/rebuild_manifest.py >> "$LOG" 2>&1; then
+  log "Manifest rebuild FAILED"
+  exit 1
+fi
+log "Manifest rebuild finished"
 
 # Commit and push web/ and pdf/ changes
 log "Git commit & push started"

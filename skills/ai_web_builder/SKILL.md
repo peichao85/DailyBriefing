@@ -59,27 +59,14 @@ If the research data includes images in `research_results/AI/YYYY-MM-DD/img/`:
 
 The web page displays images inside the card when present — they appear below the summary as a visual element. Not every card needs one; cards without images still look good with the colored gradient and icon.
 
-## Step 3: Update Manifest
+## Step 3: Do NOT update `web/manifest.json`
 
-Read `web/manifest.json` and add the new date to the AI category's dates array. Keep dates sorted newest first. Create the manifest if it doesn't exist.
-
-**Manifest schema:**
-
-```json
-{
-  "categories": {
-    "AI": {
-      "label": "AI 科技",
-      "dates": ["2026-04-09", "2026-04-08"]
-    }
-  }
-}
-```
+The manifest is rebuilt from disk by the orchestrator (`scripts/run-ai-briefing.sh` → `scripts/rebuild_manifest.py`) as a post-step after all parallel builders finish. This avoids a write race between `ai_web_builder` and `github_trending_builder`, both of which run in parallel and would otherwise be updating the same file. Simply write the new `web/AI/<date>/data.json` and the rebuild step will pick it up automatically.
 
 ## Constraints
 
 - Web content is a superset of PDF content — more items, more detail
 - All text in Simplified Chinese (keep English for proper nouns and technical terms)
 - Images must be optimized for web (compressed, resized)
-- Always update the manifest after generating content
+- Do NOT touch `web/manifest.json` — the orchestrator handles it
 - Do NOT modify or delete research_results/ — it is managed manually

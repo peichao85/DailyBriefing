@@ -11,15 +11,25 @@
 
     <!-- Header -->
     <header>
-      <h1>每日<span class="accent">AI</span>简报</h1>
-      <p class="subtitle">精选自 50+ 位 AI 领袖、研究者与建造者的动态</p>
+      <h1>每日<span class="accent">简报</span></h1>
+
+      <!-- Tab Bar (top-level: AI / GitHub) -->
+      <nav class="tab-bar" x-show="categories.length > 1">
+        <template x-for="cat in categories" :key="cat.key">
+          <button :class="{ active: cat.key === currentCategory }"
+            @click="switchCategory(cat.key)"
+            x-text="cat.label"></button>
+        </template>
+      </nav>
+
+      <p class="subtitle" x-text="subtitle"></p>
 
       <!-- Date Picker -->
       <div class="date-picker">
         <button class="arrow" :disabled="!hasPrev" @click="prevDate">&larr;</button>
         <span class="current-date" @click="toggleCalendar" x-text="currentDate || '加载中...'"></span>
         <button class="arrow" :disabled="!hasNext" @click="nextDate">&rarr;</button>
-        <a class="pdf-download" x-show="currentDate"
+        <a class="pdf-download" x-show="currentDate && showPdfButton"
           :href="'pdf/AI/daily-tech-ai-briefing-' + currentDate + '-cn.pdf'"
           target="_blank" rel="noopener">↓ 下载简报</a>
 
@@ -65,8 +75,8 @@
     <!-- Error -->
     <div class="error-msg" x-show="error" x-text="error"></div>
 
-    <!-- Card Grid -->
-    <div class="card-grid" x-show="briefing && !loading">
+    <!-- Flat Card Grid (AI category: single items[] array) -->
+    <div class="card-grid" x-show="briefing && !loading && !isSectioned">
       <template x-for="(item, idx) in (briefing?.items || [])" :key="item.id">
         <div class="card"
           :class="{
@@ -77,15 +87,12 @@
             faded: expandedId && expandedId !== item.id
           }"
           :style="getCardStyle(item, idx)"
-          @click="toggleCard(item.id, $el)"
-        >
+          @click="toggleCard(item.id, $el)">
           <!-- Hero Badge -->
           <div class="badge" x-show="idx === 0"
-            :style="'background:' + getTheme(item).accent + '; color: #fff;'">
-            头条
-          </div>
+            :style="'background:' + getTheme(item).accent + '; color: #fff;'">头条</div>
 
-          <!-- Card Header: Icon + Source -->
+          <!-- Card Header -->
           <div class="card-header">
             <div class="card-icon"
               :style="'background:' + getTheme(item).accent + '22; color:' + getTheme(item).accent + ';'">
@@ -97,10 +104,10 @@
             </div>
           </div>
 
-          <!-- Logo images: float right when expanded -->
+          <!-- Logo image: float right when expanded -->
           <template x-if="item.image && item.image_type !== 'chart' && expandedId === item.id">
             <div class="card-image">
-              <img :src="'web/AI/' + currentDate + '/' + item.image"
+              <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
             </div>
           </template>
@@ -109,10 +116,10 @@
           <div class="card-summary" x-text="item.summary"></div>
           <div class="card-clear"></div>
 
-          <!-- Image below summary when collapsed (full card width, no float) -->
+          <!-- Image below summary when collapsed -->
           <template x-if="item.image && expandedId !== item.id">
             <div class="card-image-block">
-              <img :src="'web/AI/' + currentDate + '/' + item.image"
+              <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
             </div>
           </template>
@@ -121,12 +128,11 @@
           <div class="card-tags" x-show="item.tags && item.tags.length">
             <template x-for="tag in (item.tags || [])">
               <span x-text="tag"
-                :style="'background:' + getTheme(item).accent + '18; color:' + getTheme(item).accent + ';'">
-              </span>
+                :style="'background:' + getTheme(item).accent + '18; color:' + getTheme(item).accent + ';'"></span>
             </template>
           </div>
 
-          <!-- Signal Line (collapsed only) -->
+          <!-- Signal -->
           <div class="card-signal" x-show="item.significance"
             :style="'color:' + getTheme(item).accent + 'cc;'">
             <span class="signal-label" :style="'color:' + getTheme(item).accent + ';'">信号 ›</span>
@@ -136,34 +142,24 @@
           <!-- Expanded Detail -->
           <div class="card-detail" @click.stop
             :style="'border-top: 1px solid ' + getTheme(item).accent + '33;'">
-
-            <!-- Chart image at top of detail section -->
             <template x-if="item.image && item.image_type === 'chart' && expandedId === item.id">
               <div class="card-detail-chart">
-                <img :src="'web/AI/' + currentDate + '/' + item.image"
+                <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
                   :alt="item.title" loading="lazy">
               </div>
             </template>
-
-            <!-- Detail -->
             <div class="detail-section" x-show="item.detail"
               :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
               <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">详细内容</div>
               <div class="detail-text" x-text="item.detail"></div>
             </div>
-
-            <!-- Key Quotes -->
             <div class="detail-section" x-show="item.key_quotes && item.key_quotes.length"
               :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
               <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">关键引用</div>
               <template x-for="q in (item.key_quotes || [])">
-                <blockquote x-text="q"
-                  :style="'border-left: 3px solid ' + getTheme(item).accent + ';'">
-                </blockquote>
+                <blockquote x-text="q" :style="'border-left: 3px solid ' + getTheme(item).accent + ';'"></blockquote>
               </template>
             </div>
-
-            <!-- Significance -->
             <div class="detail-section" x-show="item.significance"
               :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
               <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">重要性</div>
@@ -171,8 +167,6 @@
                 :style="'background:' + getTheme(item).accent + '0d; color:' + getTheme(item).accent + 'dd;'"
                 x-text="item.significance"></div>
             </div>
-
-            <!-- Links -->
             <div class="detail-section" x-show="item.links && item.links.length"
               :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
               <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">相关链接</div>
@@ -183,7 +177,6 @@
                 </template>
               </ul>
             </div>
-
             <button class="close-btn" @click.stop="collapseCard()"
               :style="'border-color:' + getTheme(item).accent + '44;'"
               @mouseenter="$el.style.borderColor = getTheme(item).accent; $el.style.color = getTheme(item).accent"
@@ -192,6 +185,111 @@
             </button>
           </div>
         </div>
+      </template>
+    </div>
+
+    <!-- Sectioned Grid (GitHub category: briefing.sections with their own items[]) -->
+    <div x-show="briefing && !loading && isSectioned">
+      <!-- Sub-tab bar -->
+      <nav class="section-tabs" x-show="(briefing?.sections || []).length > 1">
+        <template x-for="section in (briefing?.sections || [])" :key="section.id">
+          <button :class="{ active: section.id === currentSectionId }"
+            @click="switchSection(section.id)">
+            <span class="section-tab-label" x-text="section.label"></span>
+            <span class="section-tab-count" x-text="(section.items || []).length"></span>
+          </button>
+        </template>
+      </nav>
+
+      <template x-if="currentSection">
+        <section class="briefing-section">
+          <div class="section-subtitle-line" x-text="currentSection.subtitle"></div>
+          <div class="card-grid">
+            <template x-for="item in (currentSection.items || [])" :key="item.id">
+              <div class="card card-standard"
+                :class="{ expanded: expandedId === item.id, faded: expandedId && expandedId !== item.id }"
+                :style="getCardStyle(item, 3)"
+                @click="toggleCard(item.id, $el)">
+
+                <!-- Card Header with GitHub meta -->
+                <div class="card-header">
+                  <div class="card-icon card-icon-avatar"
+                    :style="'background:' + getTheme(item).accent + '22; color:' + getTheme(item).accent + ';'">
+                    <template x-if="item.image">
+                      <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
+                        :alt="item.owner || item.title" loading="lazy">
+                    </template>
+                    <template x-if="!item.image">
+                      <span x-text="getTheme(item).icon"></span>
+                    </template>
+                  </div>
+                  <div class="card-header-text">
+                    <div class="card-source" :style="'color:' + getTheme(item).accent + ';'"
+                      x-text="item.source_name + (item.source ? ' ' + item.source : '')"></div>
+                    <div class="card-meta-github" x-show="item.stars != null">
+                      <span x-text="'★ ' + formatStars(item.stars)"></span>
+                      <span x-show="item.stars_gained" class="stars-gained"
+                        x-text="'+' + formatStars(item.stars_gained) + ' / 7天'"></span>
+                      <span x-show="item.language" x-text="item.language"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-title" x-text="item.title"></div>
+                <div class="card-summary" x-text="item.summary"></div>
+                <div class="card-clear"></div>
+
+                <!-- Tags -->
+                <div class="card-tags" x-show="item.tags && item.tags.length">
+                  <template x-for="tag in (item.tags || [])">
+                    <span x-text="tag"
+                      :style="'background:' + getTheme(item).accent + '18; color:' + getTheme(item).accent + ';'"></span>
+                  </template>
+                </div>
+
+                <!-- Signal -->
+                <div class="card-signal" x-show="item.significance"
+                  :style="'color:' + getTheme(item).accent + 'cc;'">
+                  <span class="signal-label" :style="'color:' + getTheme(item).accent + ';'">信号 ›</span>
+                  <span x-text="item.significance"></span>
+                </div>
+
+                <!-- Expanded Detail -->
+                <div class="card-detail" @click.stop
+                  :style="'border-top: 1px solid ' + getTheme(item).accent + '33;'">
+                  <div class="detail-section" x-show="item.detail"
+                    :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
+                    <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">详细内容</div>
+                    <div class="detail-text" x-text="item.detail"></div>
+                  </div>
+                  <div class="detail-section" x-show="item.significance"
+                    :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
+                    <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">重要性</div>
+                    <div class="significance-box"
+                      :style="'background:' + getTheme(item).accent + '0d; color:' + getTheme(item).accent + 'dd;'"
+                      x-text="item.significance"></div>
+                  </div>
+                  <div class="detail-section" x-show="item.links && item.links.length"
+                    :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
+                    <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">仓库链接</div>
+                    <ul class="detail-links">
+                      <template x-for="link in (item.links || [])">
+                        <li><a :href="link" target="_blank" rel="noopener"
+                          :style="'color:' + getTheme(item).accent + ';'" x-text="link"></a></li>
+                      </template>
+                    </ul>
+                  </div>
+                  <button class="close-btn" @click.stop="collapseCard()"
+                    :style="'border-color:' + getTheme(item).accent + '44;'"
+                    @mouseenter="$el.style.borderColor = getTheme(item).accent; $el.style.color = getTheme(item).accent"
+                    @mouseleave="$el.style.borderColor = getTheme(item).accent + '44'; $el.style.color = ''">
+                    ← 收起
+                  </button>
+                </div>
+              </div>
+            </template>
+          </div>
+        </section>
       </template>
     </div>
 
@@ -218,14 +316,27 @@
       '多模态':    { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
       '边缘计算':  { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
       'Agent':     { accent: '#06B6D4', bg1: '#0a1f2a', icon: '🤖' },
+      'AI Agent':  { accent: '#06B6D4', bg1: '#0a1f2a', icon: '🤖' },
+      'Claude Code': { accent: '#06B6D4', bg1: '#0a1f2a', icon: '🤖' },
+      '开发工具':  { accent: '#10B981', bg1: '#0d2818', icon: '🛠️' },
+      '命令行':    { accent: '#10B981', bg1: '#0d2818', icon: '🛠️' },
+      'CLI':       { accent: '#10B981', bg1: '#0d2818', icon: '🛠️' },
     };
 
     const DEFAULT_THEME = { accent: '#00C2FF', bg1: '#132340', icon: '💡' };
+
+    const CATEGORY_HEADERS = {
+      'AI':     { subtitle: '精选自 50+ 位 AI 领袖、研究者与建造者的动态' },
+      'GitHub': { subtitle: '过去 7 天 GitHub 上最热门与最快上升的 AI / 开发工具仓库' },
+    };
 
     function briefingApp() {
       return {
         // State
         manifest: null,
+        categories: [],           // [{key, label}, ...] from manifest
+        currentCategory: 'AI',    // active tab key
+        categoryState: {},        // cached {dates, currentIndex, currentDate, briefing} per category
         dates: [],
         currentIndex: 0,
         currentDate: null,
@@ -233,6 +344,7 @@
         loading: true,
         error: null,
         expandedId: null,
+        currentSectionId: null,
         calendarOpen: false,
         calendarYear: null,
         calendarMonth: null,
@@ -248,7 +360,7 @@
 
         getCardStyle(item, idx) {
           const theme = this.getTheme(item);
-          const delay = idx * 0.07;
+          const delay = (idx || 0) * 0.07;
           const shadow = theme.accent + '25';
           return `border-left-color: ${theme.accent}; `
             + `background: linear-gradient(135deg, ${theme.bg1}, #132340); `
@@ -256,9 +368,23 @@
             + `animation-delay: ${delay}s;`;
         },
 
+        formatStars(n) {
+          if (n == null) return '';
+          if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+          return String(n);
+        },
+
         // Computed
         get hasPrev() { return this.currentIndex < this.dates.length - 1; },
         get hasNext() { return this.currentIndex > 0; },
+        get isSectioned() { return !!(this.briefing && this.briefing.sections); },
+        get currentSection() {
+          const s = this.briefing?.sections;
+          if (!s || !s.length) return null;
+          return s.find(x => x.id === this.currentSectionId) || s[0];
+        },
+        get showPdfButton() { return this.currentCategory === 'AI'; },
+        get subtitle() { return (CATEGORY_HEADERS[this.currentCategory] || CATEGORY_HEADERS.AI).subtitle; },
         get calendarMonthLabel() {
           if (this.calendarYear == null) return '';
           const months = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
@@ -293,22 +419,90 @@
             const resp = await fetch('web/manifest.json');
             if (!resp.ok) throw new Error('无法加载数据清单');
             this.manifest = await resp.json();
-            const aiCategory = this.manifest.categories?.AI;
-            if (!aiCategory || !aiCategory.dates.length) {
+            const cats = this.manifest.categories || {};
+            this.categories = Object.entries(cats).map(([key, val]) => ({
+              key,
+              label: val.label || key,
+            }));
+            if (!this.categories.length) {
               this.loading = false;
               this.error = '暂无可用的简报数据';
               return;
             }
-            this.dates = [...aiCategory.dates].sort().reverse();
+            // Initial category from URL hash (#ai → AI, #github → GitHub), default to first
+            const initialKey = this.categoryFromHash() || this.categories[0].key;
+            await this.switchCategory(initialKey, { skipHash: true });
+            window.addEventListener('hashchange', () => {
+              const k = this.categoryFromHash();
+              if (k && k !== this.currentCategory) {
+                this.switchCategory(k, { skipHash: true });
+              }
+            });
+          } catch (e) {
+            this.loading = false;
+            this.error = e.message || '加载失败';
+          }
+        },
+
+        categoryFromHash() {
+          const h = (location.hash || '').replace(/^#/, '').toLowerCase();
+          if (!h) return null;
+          return this.categories.find(c => c.key.toLowerCase() === h)?.key || null;
+        },
+
+        async switchCategory(key, opts = {}) {
+          if (!this.categories.find(c => c.key === key)) return;
+          // Snapshot current state
+          if (this.currentCategory) {
+            this.categoryState[this.currentCategory] = {
+              dates: this.dates,
+              currentIndex: this.currentIndex,
+              currentDate: this.currentDate,
+              briefing: this.briefing,
+              calendarYear: this.calendarYear,
+              calendarMonth: this.calendarMonth,
+            };
+          }
+          this.currentCategory = key;
+          this.expandedId = null;
+          this.calendarOpen = false;
+
+          const cached = this.categoryState[key];
+          if (cached && cached.briefing) {
+            // Restore from cache
+            this.dates = cached.dates;
+            this.currentIndex = cached.currentIndex;
+            this.currentDate = cached.currentDate;
+            this.briefing = cached.briefing;
+            this.calendarYear = cached.calendarYear;
+            this.calendarMonth = cached.calendarMonth;
+            this.loading = false;
+            this.error = null;
+          } else {
+            // Initialize from manifest
+            const catData = this.manifest.categories?.[key];
+            if (!catData || !catData.dates || !catData.dates.length) {
+              this.dates = [];
+              this.currentIndex = 0;
+              this.currentDate = null;
+              this.briefing = null;
+              this.loading = false;
+              this.error = '暂无可用的简报数据';
+              if (!opts.skipHash) location.hash = '#' + key.toLowerCase();
+              return;
+            }
+            this.dates = [...catData.dates].sort().reverse();
             this.currentIndex = 0;
             this.currentDate = this.dates[0];
             const d = this.parseDate(this.currentDate);
             this.calendarYear = d.getFullYear();
             this.calendarMonth = d.getMonth();
             await this.loadBriefing();
-          } catch (e) {
-            this.loading = false;
-            this.error = e.message || '加载失败';
+          }
+
+          if (!opts.skipHash) {
+            const target = '#' + key.toLowerCase();
+            if (location.hash !== target) location.hash = target;
           }
         },
 
@@ -317,14 +511,28 @@
           this.error = null;
           this.expandedId = null;
           try {
-            const resp = await fetch('web/AI/' + this.currentDate + '/data.json');
+            const resp = await fetch('web/' + this.currentCategory + '/' + this.currentDate + '/data.json');
             if (!resp.ok) throw new Error('无法加载 ' + this.currentDate + ' 的简报');
             this.briefing = await resp.json();
+            // Sub-section: preserve current ID if still present, else default to first
+            const sections = this.briefing?.sections || [];
+            if (sections.length) {
+              const keep = sections.some(s => s.id === this.currentSectionId);
+              if (!keep) this.currentSectionId = sections[0].id;
+            } else {
+              this.currentSectionId = null;
+            }
           } catch (e) {
             this.briefing = null;
             this.error = e.message || '加载失败';
           }
           this.loading = false;
+        },
+
+        switchSection(id) {
+          if (this.currentSectionId === id) return;
+          this.currentSectionId = id;
+          this.expandedId = null;
         },
 
         prevDate() {

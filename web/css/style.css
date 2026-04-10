@@ -319,6 +319,24 @@ header .subtitle {
   margin-right: 0.75rem;
 }
 
+/* GitHub avatar variant — ~1.5x the default icon, image fills the box */
+.card-icon-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+.card-icon-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
 .card-header {
   display: flex;
   align-items: center;
@@ -651,5 +669,183 @@ footer {
 
   .calendar {
     min-width: 260px;
+  }
+}
+
+/* === Tab Bar === */
+.tab-bar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  max-width: 1200px;
+  margin: 1rem auto 0.75rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+.tab-bar button {
+  background: transparent;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 22px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  transition: color 150ms, background 150ms, border-color 150ms;
+}
+
+.tab-bar button:hover:not(.active) {
+  color: var(--text-body);
+  background: rgba(0, 194, 255, 0.06);
+}
+
+.tab-bar button.active {
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border-bottom-color: var(--accent-default);
+}
+
+/* === Sectioned Grid (GitHub tab) === */
+.briefing-section {
+  margin-top: 0.5rem;
+}
+
+/* Sub-tab bar (e.g. 新晋热门 / 上升之星) */
+.section-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0.5rem auto 1.25rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+.section-tabs button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 9px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 150ms, background 150ms, border-color 150ms;
+}
+
+.section-tabs button:hover:not(.active) {
+  color: var(--text-body);
+  background: rgba(0, 194, 255, 0.08);
+  border-color: rgba(0, 194, 255, 0.25);
+}
+
+.section-tabs button.active {
+  color: var(--text-primary);
+  background: rgba(0, 194, 255, 0.12);
+  border-color: var(--accent-default);
+}
+
+.section-tab-count {
+  display: inline-block;
+  min-width: 20px;
+  padding: 1px 7px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.section-tabs button.active .section-tab-count {
+  background: var(--accent-default);
+  color: #0A1628;
+}
+
+.section-subtitle-line {
+  max-width: 1200px;
+  margin: 0 auto 1.25rem;
+  padding: 0 2rem;
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .section-subtitle-line {
+    padding: 0 1rem;
+    font-size: 12px;
+  }
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto 1.25rem;
+  padding: 0 2rem 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.section-label {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.section-subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* === GitHub card meta (stars / lang / forks) === */
+.card-meta-github {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.card-meta-github .stars-gained {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 9px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 11px;
+  background: rgba(0, 194, 255, 0.18);
+  color: var(--accent-default);
+  border: 1px solid rgba(0, 194, 255, 0.35);
+}
+
+@media (max-width: 600px) {
+  .tab-bar button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .section-header {
+    padding: 0 1rem 12px;
+  }
+
+  .section-label {
+    font-size: 18px;
+  }
+
+  .section-subtitle {
+    font-size: 12px;
   }
 }
