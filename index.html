@@ -22,52 +22,54 @@
         </template>
       </nav>
 
-      <p class="subtitle" x-text="subtitle"></p>
+      <p class="subtitle" x-show="subtitle" x-text="subtitle"></p>
 
       <!-- Date Picker -->
       <div class="date-picker">
-        <button class="arrow" :disabled="!hasPrev" @click="prevDate">&larr;</button>
-        <span class="current-date" @click="toggleCalendar" x-text="currentDate || '加载中...'"></span>
-        <button class="arrow" :disabled="!hasNext" @click="nextDate">&rarr;</button>
+        <div class="date-picker-main">
+          <button class="arrow" :disabled="!hasPrev" @click="prevDate">&larr;</button>
+          <span class="current-date" @click="toggleCalendar" x-text="currentDate || '加载中...'"></span>
+          <button class="arrow" :disabled="!hasNext" @click="nextDate">&rarr;</button>
+
+          <!-- Calendar Popup -->
+          <template x-if="calendarOpen">
+            <div>
+              <div class="calendar-overlay" @click="calendarOpen = false"></div>
+              <div class="calendar">
+                <div class="calendar-header">
+                  <button @click="calendarPrevMonth">&larr;</button>
+                  <span class="month-label" x-text="calendarMonthLabel"></span>
+                  <button @click="calendarNextMonth">&rarr;</button>
+                </div>
+                <div class="calendar-grid">
+                  <template x-for="d in ['日','一','二','三','四','五','六']">
+                    <div class="weekday" x-text="d"></div>
+                  </template>
+                  <template x-for="day in calendarDays" :key="day.key">
+                    <div class="day"
+                      :class="{
+                        empty: !day.num,
+                        available: day.available,
+                        selected: day.dateStr === currentDate,
+                        today: day.isToday
+                      }"
+                      @click="day.available && selectDate(day.dateStr)"
+                      x-text="day.num || ''">
+                    </div>
+                  </template>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
         <a class="pdf-download" x-show="currentDate && showPdfButton"
           :href="'pdf/AI/daily-tech-ai-briefing-' + currentDate + '-cn.pdf'"
           target="_blank" rel="noopener">↓ 下载简报</a>
-
-        <!-- Calendar Popup -->
-        <template x-if="calendarOpen">
-          <div>
-            <div class="calendar-overlay" @click="calendarOpen = false"></div>
-            <div class="calendar">
-              <div class="calendar-header">
-                <button @click="calendarPrevMonth">&larr;</button>
-                <span class="month-label" x-text="calendarMonthLabel"></span>
-                <button @click="calendarNextMonth">&rarr;</button>
-              </div>
-              <div class="calendar-grid">
-                <template x-for="d in ['日','一','二','三','四','五','六']">
-                  <div class="weekday" x-text="d"></div>
-                </template>
-                <template x-for="day in calendarDays" :key="day.key">
-                  <div class="day"
-                    :class="{
-                      empty: !day.num,
-                      available: day.available,
-                      selected: day.dateStr === currentDate,
-                      today: day.isToday
-                    }"
-                    @click="day.available && selectDate(day.dateStr)"
-                    x-text="day.num || ''">
-                  </div>
-                </template>
-              </div>
-            </div>
-          </div>
-        </template>
       </div>
     </header>
 
-    <!-- Day Title -->
-    <div class="day-title" x-show="briefing" x-text="briefing?.title || ''"></div>
+    <!-- Day Title (hidden for sectioned briefings where the title is just a redundant label) -->
+    <div class="day-title" x-show="briefing && !isSectioned" x-text="briefing?.title || ''"></div>
 
     <!-- Loading -->
     <div class="loading" x-show="loading">正在加载简报数据...</div>
@@ -196,7 +198,6 @@
           <button :class="{ active: section.id === currentSectionId }"
             @click="switchSection(section.id)">
             <span class="section-tab-label" x-text="section.label"></span>
-            <span class="section-tab-count" x-text="(section.items || []).length"></span>
           </button>
         </template>
       </nav>
@@ -325,9 +326,31 @@
 
     const DEFAULT_THEME = { accent: '#00C2FF', bg1: '#132340', icon: '💡' };
 
+    // Language → Theme mapping (GitHub tab).
+    // The five most common languages get the five easy-to-tell-apart primary
+    // colors (blue, red, green, purple, yellow) so the page stays legible at
+    // a glance. The next five get secondary hues. HTML is markup, not a
+    // programming language, so it's neutralized to slate gray. Languages not
+    // in this map fall through to DEFAULT_THEME (cyan).
+    const LANGUAGE_THEMES = {
+      // Top 5 — primary colors
+      'Python':           { accent: '#3B82F6', bg1: '#0f1d3a' },  // blue
+      'TypeScript':       { accent: '#A855F7', bg1: '#1f1345' },  // purple
+      'JavaScript':       { accent: '#FACC15', bg1: '#2a1f0a' },  // yellow
+      'Go':               { accent: '#22C55E', bg1: '#0a2a15' },  // green
+      'Rust':             { accent: '#EF4444', bg1: '#2a0f0f' },  // red
+      // Next 5 — secondary hues
+      'C++':              { accent: '#EC4899', bg1: '#2a0f1d' },  // pink
+      'Java':             { accent: '#F97316', bg1: '#2a1606' },  // orange
+      'Jupyter Notebook': { accent: '#14B8A6', bg1: '#0a2422' },  // teal
+      'Shell':            { accent: '#84CC16', bg1: '#1a2a0a' },  // lime
+      'HTML':             { accent: '#94A3B8', bg1: '#1a2332' },  // slate gray (markup)
+    };
+
     const CATEGORY_HEADERS = {
       'AI':     { subtitle: '精选自 50+ 位 AI 领袖、研究者与建造者的动态' },
-      'GitHub': { subtitle: '过去 7 天 GitHub 上最热门与最快上升的 AI / 开发工具仓库' },
+      // GitHub sub-sections carry their own subtitles, so the category-level one is suppressed.
+      'GitHub': { subtitle: '' },
     };
 
     function briefingApp() {
@@ -351,6 +374,13 @@
 
         // Theme helpers
         getTheme(item) {
+          // GitHub tab (sectioned briefings): theme by primary language.
+          // Unmapped/null languages fall through to DEFAULT_THEME.
+          if (this.isSectioned) {
+            const langTheme = LANGUAGE_THEMES[item.language];
+            return langTheme ? { ...DEFAULT_THEME, ...langTheme } : DEFAULT_THEME;
+          }
+          // AI tab: theme by first matching tag.
           if (!item.tags || !item.tags.length) return DEFAULT_THEME;
           for (const tag of item.tags) {
             if (TAG_THEMES[tag]) return TAG_THEMES[tag];

@@ -82,12 +82,23 @@ header .subtitle {
 }
 
 /* === Date Picker === */
+/* Grid keeps the date cluster (column 2, auto width) centered between two
+   equal flex columns, so the cluster position stays stable across category
+   tabs regardless of whether the PDF download button (column 3) is visible. */
 .date-picker {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  margin: 1.5rem 0 0.5rem;
+  position: relative;
+}
+
+.date-picker-main {
+  grid-column: 2;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  margin: 1.5rem 0 0.5rem;
   position: relative;
 }
 
@@ -118,6 +129,8 @@ header .subtitle {
 }
 
 .date-picker .pdf-download {
+  grid-column: 3;
+  justify-self: start;
   font-family: var(--font-body);
   font-size: 0.78rem;
   color: var(--text-muted);
@@ -127,7 +140,7 @@ header .subtitle {
   text-decoration: none;
   transition: all 0.25s;
   white-space: nowrap;
-  margin-left: 0.75rem;
+  margin-left: 1rem;
 }
 
 .date-picker .pdf-download:hover {
@@ -750,23 +763,6 @@ footer {
   color: var(--text-primary);
   background: rgba(0, 194, 255, 0.12);
   border-color: var(--accent-default);
-}
-
-.section-tab-count {
-  display: inline-block;
-  min-width: 20px;
-  padding: 1px 7px;
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--text-muted);
-  font-size: 12px;
-  font-weight: 700;
-  border-radius: 999px;
-  text-align: center;
-}
-
-.section-tabs button.active .section-tab-count {
-  background: var(--accent-default);
-  color: #0A1628;
 }
 
 .section-subtitle-line {
