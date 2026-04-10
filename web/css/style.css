@@ -411,19 +411,20 @@ header .subtitle {
   opacity: 1;
 }
 
-/* Chart/data images — larger side-by-side layout */
-.card-image.chart {
-  max-width: 48%;
-  min-width: 220px;
+/* Chart in detail section — full width, natural aspect ratio */
+.card-detail-chart {
+  margin-bottom: 1.25rem;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
-.card-image.chart img {
+.card-detail-chart img {
   width: 100%;
   height: auto;
-  object-fit: contain;
+  display: block;
   border-radius: 6px;
+  opacity: 0.95;
 }
-
 
 /* === Signal Line === */
 .card-signal {

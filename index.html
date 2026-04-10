@@ -97,9 +97,9 @@
             </div>
           </div>
 
-          <!-- Card Image: float right when expanded, below summary when collapsed -->
-          <template x-if="item.image && expandedId === item.id">
-            <div :class="'card-image' + (item.image_type === 'chart' ? ' chart' : '')">
+          <!-- Logo images: float right when expanded -->
+          <template x-if="item.image && item.image_type !== 'chart' && expandedId === item.id">
+            <div class="card-image">
               <img :src="'web/AI/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
             </div>
@@ -136,6 +136,14 @@
           <!-- Expanded Detail -->
           <div class="card-detail" @click.stop
             :style="'border-top: 1px solid ' + getTheme(item).accent + '33;'">
+
+            <!-- Chart image at top of detail section -->
+            <template x-if="item.image && item.image_type === 'chart' && expandedId === item.id">
+              <div class="card-detail-chart">
+                <img :src="'web/AI/' + currentDate + '/' + item.image"
+                  :alt="item.title" loading="lazy">
+              </div>
+            </template>
 
             <!-- Detail -->
             <div class="detail-section" x-show="item.detail"
