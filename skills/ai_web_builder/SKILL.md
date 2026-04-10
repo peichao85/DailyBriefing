@@ -32,6 +32,7 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
       "significance": "Why this matters, in Chinese",
       "links": ["https://..."],
       "image": "img/filename.png",
+      "image_type": "logo|chart",
       "tags": ["tag1", "tag2"]
     }
   ]
@@ -53,6 +54,7 @@ If the research data includes images in `research_results/AI/YYYY-MM-DD/img/`:
 - Copy only the images referenced by items to `web/AI/YYYY-MM-DD/img/`
 - Compress/resize for web: max 200KB per image, max 800px width, JPEG quality 85% for photos, PNG for diagrams/charts
 - Keep the `"image"` field as a relative path like `img/filename.png`
+- Pass through `"image_type"` from research data (`"chart"` or `"logo"`). If missing, default to `"logo"`.
 - For items without an image, omit the `"image"` field or set it to `null`
 
 The web page displays images inside the card when present — they appear below the summary as a visual element. Not every card needs one; cards without images still look good with the colored gradient and icon.

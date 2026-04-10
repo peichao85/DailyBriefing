@@ -97,6 +97,10 @@ For items where a visual adds real value, download a relevant image to `research
 
 **File naming:** use descriptive names like `claude-mythos-architecture.png`, `sam-altman.jpg`, `gpqa-benchmark-chart.png`. Reference them in the item's `"image"` field as `img/filename.png`.
 
+**Image type classification:** Set `"image_type"` on each item with an image:
+- `"chart"` — benchmark charts, data visualizations, graphs, comparison tables, screenshots with real data/numbers. These are displayed larger so the data is readable.
+- `"logo"` — product logos, branding images, headshots, decorative graphics, product UI mockups. These are displayed as compact thumbnails.
+
 ## Constraints
 
 - All titles, summaries, details, and significance in Simplified Chinese (keep English for names, product names, company names, and technical terms commonly written in English)

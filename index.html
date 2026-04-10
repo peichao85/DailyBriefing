@@ -97,16 +97,17 @@
             </div>
           </div>
 
-          <div class="card-title" x-text="item.title"></div>
-          <div class="card-summary" x-text="item.summary"></div>
-
-          <!-- Card Image (only when present) -->
+          <!-- Card Image (only when present, floated right as thumbnail or chart) -->
           <template x-if="item.image">
-            <div class="card-image">
+            <div :class="'card-image' + (item.image_type === 'chart' ? ' chart' : '')">
               <img :src="'web/AI/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
             </div>
           </template>
+
+          <div class="card-title" x-text="item.title"></div>
+          <div class="card-summary" x-text="item.summary"></div>
+          <div class="card-clear"></div>
 
           <!-- Tags -->
           <div class="card-tags" x-show="item.tags && item.tags.length">

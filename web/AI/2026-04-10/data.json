@@ -40,6 +40,7 @@
         "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html"
       ],
       "image": "img/claude-mythos-glasswing.jpg",
+      "image_type": "chart",
       "tags": ["Anthropic", "Claude Mythos", "网络安全", "零日漏洞", "Project Glasswing", "AI安全"]
     },
     {
@@ -60,6 +61,7 @@
         "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html"
       ],
       "image": "img/meta-muse-spark.jpg",
+      "image_type": "logo",
       "tags": ["Meta", "Muse Spark", "Alexandr Wang", "AI模型", "闭源"]
     },
     {
@@ -118,6 +120,7 @@
         "https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/"
       ],
       "image": "img/claude-managed-agents.jpg",
+      "image_type": "logo",
       "tags": ["Anthropic", "Claude", "Managed Agents", "AI智能体", "企业AI"]
     },
     {
@@ -175,6 +178,7 @@
         "https://www.startuphub.ai/ai-news/startup-news/2026/replit-ceo-amjad-masad-on-400m-raise"
       ],
       "image": "img/replit-agent4.jpg",
+      "image_type": "logo",
       "tags": ["Replit", "Amjad Masad", "Vibe Coding", "融资", "AI智能体"]
     },
     {
