@@ -106,8 +106,8 @@
             </div>
           </div>
 
-          <!-- Logo image: float right when expanded -->
-          <template x-if="item.image && item.image_type !== 'chart' && expandedId === item.id">
+          <!-- Logo image: float right when expanded, or when hero (collapsed) -->
+          <template x-if="item.image && ((expandedId === item.id && item.image_type !== 'chart') || (expandedId !== item.id && idx === 0))">
             <div class="card-image">
               <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
@@ -118,8 +118,8 @@
           <div class="card-summary" x-text="item.summary"></div>
           <div class="card-clear"></div>
 
-          <!-- Image below summary when collapsed -->
-          <template x-if="item.image && expandedId !== item.id">
+          <!-- Image below summary when collapsed (non-hero only) -->
+          <template x-if="item.image && expandedId !== item.id && idx !== 0">
             <div class="card-image-block">
               <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
                 :alt="item.title" loading="lazy">
