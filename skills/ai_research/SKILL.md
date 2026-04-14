@@ -39,14 +39,14 @@ Before selecting items, pull a compact view of what has already been published i
 **Run the lookback (one jq call):**
 
 ```bash
-jq -r '.items[] | [.event_date, .story_key, .title] | @tsv' \
+jq -r '.items[] | [.event_date, .story_key, .title, .summary] | @tsv' \
   web/AI/{date-1}/data.json web/AI/{date-2}/data.json web/AI/{date-3}/data.json \
   web/AI/{date-4}/data.json web/AI/{date-5}/data.json web/AI/{date-6}/data.json \
   web/AI/{date-7}/data.json \
   2>/dev/null
 ```
 
-Substitute `{date-1}` through `{date-7}` with the 7 ISO dates preceding today. `2>/dev/null` swallows errors for dates where no briefing was published. Output is one TSV line per prior item: `event_date \t story_key \t title`. Treat this list as the "already published" set.
+Substitute `{date-1}` through `{date-7}` with the 7 ISO dates preceding today. `2>/dev/null` swallows errors for dates where no briefing was published. Output is one TSV line per prior item: `event_date \t story_key \t title \t summary`. Treat this list as the "already published" set. The title and summary are used by the returning-story filter to judge whether today's candidate contains substantively new information.
 
 **Transition note:** briefings published before this step existed lack `story_key` and `event_date` — those rows arrive with empty first two columns. For those rows only, fall back to fuzzy title matching when checking for duplicates. All new publications carry both fields and are matched structurally.
 
@@ -63,14 +63,63 @@ Skip routine posts, retweets of minor things, casual conversation. If someone ha
 **Before finalizing each candidate, assign its `story_key` and `event_date` (see field rules in Step 4), then apply the following filters in order:**
 
 1. **Freshness filter.** If `today − event_date > 3 days`, DROP. Only news whose underlying event happened within the last 3 days is eligible.
-2. **Exact-rehash filter.** If the exact `(story_key, event_date)` tuple already appears in the Step 2 lookback output, DROP. The story was already covered with this same beat.
-3. **Material update.** If `story_key` matches a prior row but `event_date` is strictly newer and within 3 days, KEEP with the following extra constraints:
+2. **Returning story filter.** If `story_key` appears in the lookback output, compare today's candidate against the previously published title(s) and summary(ies) for that `story_key`. If the candidate covers **substantively new information** (new facts, data, reactions, decisions, or developments not present in prior coverage), KEEP. If it merely rehashes or rewords what was already published, DROP. When kept, the following constraints apply:
    - `title` MUST describe ONLY the new development. Do not re-litigate the original story in the title. Prior titles for this `story_key` are available in the lookback output — read them and make sure today's title covers fresh ground.
-   - `image` MUST NOT reuse any image previously published under the same `story_key`. Select a different asset, or set `image: null` if none is available.
    - `summary` MUST be about the new development only. No recap of the original story in the one-sentence card lede.
    - `detail` leads with the new development, which takes the majority of the content. Append a short standalone paragraph clearly prefixed with **背景回顾：** (Background recap) — 1–2 sentences, ≤60 Chinese characters — naming the original story so downstream skills and readers missing prior days still have context. The recap must NOT expand into the main narrative.
    - `significance` MUST explain why the NEW development matters, not why the original story mattered. The original story's significance was already written on a prior day.
-4. **Novel story.** If `story_key` does not appear in the lookback output, KEEP as a fresh story.
+3. **Novel story.** If `story_key` does not appear in the lookback output, KEEP as a fresh story.
+
+**Filter log:** After applying all filters, save a filter decision log to `research_results/AI/YYYY-MM-DD/filter_log.json`. Record **every** candidate that was evaluated (both kept and dropped). Schema:
+
+```json
+{
+  "date": "YYYY-MM-DD",
+  "total_candidates": 45,
+  "kept": 15,
+  "dropped": 30,
+  "decisions": [
+    {
+      "story_key": "openai-gpt5-release",
+      "event_date": "2026-04-12",
+      "title": "候选标题",
+      "source": "@handle",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-10 is 4 days old (>3 day limit)"
+    },
+    {
+      "story_key": "anthropic-claude-update",
+      "event_date": "2026-04-13",
+      "title": "候选标题",
+      "source": "@handle",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-12 with title '...'. No substantive new information found."
+    },
+    {
+      "story_key": "anthropic-claude-update",
+      "event_date": "2026-04-14",
+      "title": "候选标题",
+      "source": "@handle",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 04-12. New info: pricing announced and API rate limits changed."
+    },
+    {
+      "story_key": "meta-llama4-release",
+      "event_date": "2026-04-14",
+      "title": "候选标题",
+      "source": "@handle",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback."
+    }
+  ]
+}
+```
+
+Use these `filter` values: `freshness`, `returning_story_no_update`, `returning_story_with_update`, `novel_story`. The `reason` field should be specific enough to understand the decision without looking at other files — include dates, prior titles, and what new information was (or wasn't) found.
 
 ## Step 4: Output Structured Data
 
@@ -106,7 +155,7 @@ Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create 
 }
 ```
 
-**`story_key` rules:** 3–6 words, lowercase, hyphen-separated, English. Name the story (actor + core event), not today's specific angle — so the same slug is reused across every day the story has a development. Examples: `anthropic-mythos-zerodays`, `coreweave-anthropic-cloud-deal`, `openai-public-benefit-charter`.
+**`story_key` rules:** 3–6 words, lowercase, hyphen-separated, English. Name the story (actor + core event), not today's specific angle — so the same slug is reused across every day the story has a development. **Before creating a new key, scan ALL `story_key` values in the Step 2 lookback output. If any existing key describes the same story, reuse it exactly. Only mint a new key when no existing key matches.** Examples: `anthropic-mythos-zerodays`, `coreweave-anthropic-cloud-deal`, `openai-public-benefit-charter`.
 
 **`event_date` rules:** ISO date of when the actual development covered by THIS item happened (announcement, release, incident, filing). NOT the research/publishing date. Advances only when the underlying world changes. If today's item is a follow-up to a story already published, `event_date` must be the date of the new development, not the original event.
 
