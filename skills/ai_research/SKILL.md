@@ -64,9 +64,12 @@ Skip routine posts, retweets of minor things, casual conversation. If someone ha
 
 1. **Freshness filter.** If `today − event_date > 3 days`, DROP. Only news whose underlying event happened within the last 3 days is eligible.
 2. **Exact-rehash filter.** If the exact `(story_key, event_date)` tuple already appears in the Step 2 lookback output, DROP. The story was already covered with this same beat.
-3. **Material update.** If `story_key` matches a prior row but `event_date` is strictly newer and within 3 days, KEEP with two extra constraints:
+3. **Material update.** If `story_key` matches a prior row but `event_date` is strictly newer and within 3 days, KEEP with the following extra constraints:
    - `title` MUST describe ONLY the new development. Do not re-litigate the original story in the title. Prior titles for this `story_key` are available in the lookback output — read them and make sure today's title covers fresh ground.
    - `image` MUST NOT reuse any image previously published under the same `story_key`. Select a different asset, or set `image: null` if none is available.
+   - `summary` MUST be about the new development only. No recap of the original story in the one-sentence card lede.
+   - `detail` leads with the new development, which takes the majority of the content. Append a short standalone paragraph clearly prefixed with **背景回顾：** (Background recap) — 1–2 sentences, ≤60 Chinese characters — naming the original story so downstream skills and readers missing prior days still have context. The recap must NOT expand into the main narrative.
+   - `significance` MUST explain why the NEW development matters, not why the original story mattered. The original story's significance was already written on a prior day.
 4. **Novel story.** If `story_key` does not appear in the lookback output, KEEP as a fresh story.
 
 ## Step 4: Output Structured Data
