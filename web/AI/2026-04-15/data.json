@@ -1,0 +1,159 @@
+{
+  "date": "2026-04-15",
+  "category": "AI",
+  "title": "Altman四天遇袭两次震动硅谷，Claude Code推出自动化Routines，AI营收之争撕开会计面纱",
+  "items": [
+    {
+      "id": "1",
+      "title": "Altman遇袭者被控谋杀未遂，反AI「暗杀名单」宣言曝光",
+      "source": "多方报道",
+      "source_name": "CNN / NPR / Fortune / SF Standard",
+      "story_key": "altman-house-firebombing",
+      "event_date": "2026-04-13",
+      "summary": "燃烧弹袭击嫌疑人被正式起诉两项谋杀未遂罪，FBI搜出含多名AI CEO「暗杀名单」的宣言。两天后Altman住所再遭枪击，另两名嫌疑人被捕。四天内两起独立暴力事件震动硅谷。",
+      "detail": "4月13日，旧金山检方正式对20岁的Daniel Moreno-Gama提起两项谋杀未遂指控——分别针对Sam Altman本人及其住所安保人员。联邦检方同步提出非法持有未注册枪支和使用爆炸物毁坏财产两项联邦罪名，最高可判30年监禁。\n\nFBI搜查其住所后发现一份三部分宣言：第一部分标题为「Your Last Warning」，直接宣称自己「杀死/试图杀死」Altman；第二部分以「some more words on the matter of our impending extinction」为题，详述AI对人类存亡的威胁；文末直接致信Altman，写道「if by some miracle you live, then I would take this as a sign from the divine to redeem yourself」。Fortune报道该宣言中还包含一份AI CEO「暗杀名单」。\n\n4月12日凌晨2:56，即燃烧弹事件仅两天后，Altman住所再遭枪击。一辆本田轿车停在Altman位于Russian Hill的住宅前，乘客向Lombard Street一侧开枪。旧金山警方随后逮捕25岁的Amanda Tom和23岁的Muhamad Tarik Hussein，缴获三把枪支，两人被控疏忽射击。\n\n四天内两起独立暴力事件引发硅谷安全危机讨论。多位科技高管开始加强个人安保，行业观察人士担忧反AI情绪正从网络激愤转向现实暴力。\n\n背景回顾：4月10日，Moreno-Gama向Altman旧金山住所投掷莫洛托夫鸡尾酒，引燃外墙铁门后逃跑，不到一小时后又跑到3英里外的OpenAI办公室威胁纵火，随即被捕。事件发生在OpenAI发布「AI新政」政策白皮书数天之后。",
+      "key_quotes": [
+        "If by some miracle you live, then I would take this as a sign from the divine to redeem yourself.",
+        "If I am going to advocate for others to kill and commit crimes, then I must lead by example."
+      ],
+      "significance": "四天内两起独立暴力袭击标志着反AI情绪从网络争论质变为真实人身威胁。嫌疑人宣言中的「暗杀名单」暴露了一个危险趋势：AI CEO已成为极端分子的具体目标。这对整个行业的安全实践、公众沟通和高管个人安保将产生深远影响。",
+      "links": [
+        "https://fortune.com/2026/04/14/man-charged-in-arson-attack-on-sam-altman-ai-ceo-kill-list-prosecutors-say/",
+        "https://www.cnn.com/2026/04/13/tech/sam-altman-openai-arrest-charges",
+        "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/"
+      ],
+      "image": null,
+      "image_type": null,
+      "tags": ["AI安全", "反AI暴力", "OpenAI", "Sam Altman"],
+      "category": "trending"
+    },
+    {
+      "id": "2",
+      "title": "Claude Code推出Routines：AI开发自动化从「按需响应」迈向「计划执行」",
+      "source": "Anthropic",
+      "source_name": "Anthropic / 9to5Mac",
+      "story_key": "anthropic-claude-code-routines",
+      "event_date": "2026-04-14",
+      "summary": "Anthropic发布Claude Code Routines研究预览版，开发者可配置AI Agent按计划、API调用或GitHub事件自动执行代码审查、Bug分诊和跨语言移植等任务，无需本地机器在线。",
+      "detail": "4月14日，Anthropic为Claude Code推出「Routines」功能研究预览版，这是Claude Code从交互式编程助手向自动化开发运维平台演进的关键一步。\n\nRoutines的核心特性：运行在Anthropic的Web基础设施上，用户的Mac或PC无需保持在线；支持三种触发方式——定时计划（如每晚执行）、API调用和GitHub事件（如PR提交、Issue创建）；可访问用户的代码仓库和已配置的连接器。\n\n典型应用场景包括：每晚自动Bug分诊和优先级排序、基于团队自定义检查清单的代码审查、跨编程语言的代码同步移植、部署后自动错误检查。\n\n可用性方面，Pro/Max/Team/Enterprise计划均可使用，每日运行次数限制为5到25次不等。目前仅支持GitHub事件触发，Webhook等更多触发源即将推出。\n\n这一功能将Claude Code从「开发者需要时才启动的工具」转变为「持续监控和执行的自动化引擎」，与Anthropic此前发布的Conway后台Agent和Managed Agents形成产品矩阵，分别覆盖个人工作流自动化、开发者CI/CD自动化和企业级Agent部署三个层面。",
+      "key_quotes": [],
+      "significance": "Routines标志着AI编程助手从「实时对话」模式进化为「后台自动化」模式。开发者首次可以让AI Agent在无人值守的情况下按计划执行代码维护任务，这在本质上将AI从「副驾驶」提升为「值班工程师」。对DevOps和CI/CD工作流的长期影响可能比交互式代码补全更为深远。",
+      "links": [
+        "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/",
+        "https://the-decoder.com/claude-code-routines-let-ai-fix-bugs-and-review-code-on-autopilot/"
+      ],
+      "image": null,
+      "image_type": null,
+      "tags": ["Anthropic", "Claude Code", "Routines", "Agent", "自动化", "DevOps"],
+      "category": "product_operators"
+    },
+    {
+      "id": "3",
+      "title": "NVIDIA发布Ising开源模型家族：用AI将量子计算校准从数天缩至数小时",
+      "source": "NVIDIA",
+      "source_name": "NVIDIA Newsroom",
+      "story_key": "nvidia-ising-quantum-ai",
+      "event_date": "2026-04-14",
+      "summary": "NVIDIA在世界量子日发布Ising——首批专门用于加速量子计算的开源AI模型，包含校准和纠错两大组件，可将量子处理器校准时间从数天缩至数小时，纠错精度提升3倍。",
+      "detail": "4月14日，NVIDIA在世界量子日（纪念普朗克常数4.14×10⁻¹⁵ eV·s）发布Ising模型家族，这是全球首批专为量子计算设计的开源AI模型。\n\nIsing包含两大组件：\n\n**Ising Calibration**是一个视觉语言模型，能快速解读量子处理器的测量数据并自动做出校准调整。它使AI Agent能够自动化连续校准流程，将原本需要数天的校准时间压缩到数小时。\n\n**Ising Decoding**提供两个3D卷积神经网络变体，分别针对速度和精度进行优化，用于实时量子纠错解码。相比当前开源行业标准pyMatching，Ising Decoding速度快2.5倍、精度高3倍。\n\n首批采用Ising的机构包括Academia Sinica（台湾中研院）、费米国家加速器实验室、哈佛工程学院、IQM Quantum Computers、劳伦斯伯克利国家实验室和英国国家物理实验室等。\n\nNVIDIA量子计算应用研究副总裁Krysta Svore博士在同日举办的NW Quantum Day峰会上发表闭幕主题演讲，强调AI与量子计算的融合将是通向实用量子计算机的关键路径。",
+      "key_quotes": [
+        "AI is essential to making quantum computing practical. With Ising, AI becomes the control plane — the operating system of quantum machines — transforming fragile qubits to scalable and reliable quantum-GPU systems. — Jensen Huang"
+      ],
+      "significance": "量子计算长期面临「校准慢、纠错弱」两大瓶颈。NVIDIA用AI模型直接攻击这两个痛点，并以开源方式发布，可能加速整个量子计算生态的发展。这也是NVIDIA在GPU/AI之外向量子计算基础设施延伸的重要信号——量子+AI的融合路线正在从论文走向工程实践。",
+      "links": [
+        "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
+        "https://www.nvidia.com/en-us/events/quantum-day/"
+      ],
+      "image": "img/nvidia-ising-quantum.jpg",
+      "image_type": "logo",
+      "tags": ["NVIDIA", "量子计算", "Ising", "开源", "校准", "纠错"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "Grok 4.20 Beta 2登顶医学与法律推理排行榜，幻觉率降低65%",
+      "source": "@elonmusk",
+      "source_name": "xAI",
+      "story_key": "xai-grok420-beta2",
+      "event_date": "2026-04-13",
+      "summary": "xAI发布Grok 4.20 Beta 2更新，在Text Arena医疗和BridgeBench推理基准上登顶，超越Claude Opus 4.6、GPT-5.4和Gemini 3.1 Pro。跨Agent验证机制将幻觉率从12%降至4.2%。",
+      "detail": "xAI于4月中旬发布Grok 4.20 Beta 2，这是对3月发布的Grok 4.20初始版本的重要迭代更新。\n\n**基准成绩方面**，Grok 4.20 Beta 2在多个专业领域夺冠：Text Arena Healthcare（医疗领域）第一名、BridgeBench推理基准第一名，在法律推理测试中也排名领先。在Artificial Analysis Intelligence Index上得分49（同价位推理模型中位数为31），Multi-Agent版本更达到68.7的Agentic Index，位列前茅。\n\n**技术改进方面**，Beta 2重点优化了四个方向：指令遵循精度、幻觉率降低、LaTeX排版支持和多图像渲染精度。其中最引人注目的是跨Agent验证（Cross-Agent Verification）机制——通过多个Agent互相校验输出，将幻觉率从单模型基线的约12%大幅降低至约4.2%，降幅达65%。\n\n**竞争格局方面**，Grok 4.20 Beta 2的表现证明xAI已在特定垂直领域（医疗、法律推理）建立了竞争优势。但在通用智能评估和编码能力上，Claude Opus 4.6和GPT-5.4仍保持整体领先。",
+      "key_quotes": [],
+      "significance": "Grok 4.20 Beta 2在医疗和法律领域登顶证明xAI正在通过垂直领域优化建立差异化优势，而非单纯追求通用智能排名。跨Agent验证将幻觉率降低65%的成果对高风险应用场景（如医疗诊断、法律建议）尤其关键——这类应用的最大障碍不是模型不够聪明，而是不够可靠。",
+      "links": [
+        "https://www.ibtimes.com.au/grok-420-beta-2-powers-xai-advances-model-tops-benchmarks-saves-lives-april-2026-1866556",
+        "https://artificialanalysis.ai/models/grok-4-20"
+      ],
+      "image": null,
+      "image_type": null,
+      "tags": ["xAI", "Grok", "基准测试", "幻觉率", "医疗AI", "法律AI"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "OpenAI收购个人理财AI Hiro Finance，ChatGPT金融场景布局浮出水面",
+      "source": "@sama",
+      "source_name": "OpenAI / TechCrunch",
+      "story_key": "openai-acquires-hiro-finance",
+      "event_date": "2026-04-13",
+      "summary": "OpenAI收购AI个人理财平台Hiro Finance，创始人Ethan Bloch及团队全员加入。Hiro将于4月20日关停、5月13日删除用户数据，业界视为人才收购以强化ChatGPT金融规划能力。",
+      "detail": "4月13日，AI个人理财创业公司Hiro Finance创始人Ethan Bloch在LinkedIn上宣布公司被OpenAI收购，OpenAI随后确认该消息。\n\nHiro Finance成立于2023年，提供AI驱动的个人财务规划工具——用户输入财务信息后，AI可模拟不同场景帮助做出理财决策。公司由Ribbit Capital（知名金融科技VC）、General Catalyst和Restive等机构投资。Bloch此前两次创业均成功退出：Flowtown以450万美元出售，Digit以约2.3亿美元被收购。\n\n交易条款未披露，但业界普遍将其视为一次人才收购（acqui-hire），而非产品整合。Hiro Finance将于4月20日停止接受新用户，5月13日前从服务器永久删除所有用户数据。\n\n此次收购暗示OpenAI正将ChatGPT的能力向垂直场景扩展。金融规划需要处理敏感的个人数据、建模复杂的长期情景，并提供负责任的建议——这与OpenAI当前以通用对话为主的产品形态是显著不同的挑战。",
+      "key_quotes": [],
+      "significance": "Hiro Finance收购标志着OpenAI从「通用AI平台」向「垂直场景深耕」的战略转变。金融规划是一个高信任、高监管的领域，如果ChatGPT能成功切入，将为OpenAI打开以往由传统金融科技把持的市场。这也是Altman此前提出的「AI新政」中「AI为每个人管理财务」愿景的具体落地步骤。",
+      "links": [
+        "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
+        "https://www.pymnts.com/acquisitions/2026/openai-buys-personal-finance-platform-hiro/"
+      ],
+      "image": null,
+      "image_type": null,
+      "tags": ["OpenAI", "收购", "金融AI", "Hiro Finance", "ChatGPT"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "6",
+      "title": "OpenAI高管泄露备忘录指控Anthropic虚增80亿美元营收，AI营收之争白热化",
+      "source": "泄露备忘录",
+      "source_name": "Axios / Gizmodo / The Information",
+      "story_key": "anthropic-revenue-surpasses-openai",
+      "event_date": "2026-04-13",
+      "summary": "OpenAI首席营收官在内部备忘录中指控Anthropic通过云渠道按总额确认收入虚增约80亿美元ARR。按净额口径OpenAI以250亿美元仍领先Anthropic的约220亿美元，但Ramp数据显示差距正在收窄。",
+      "detail": "4月13日（周日），OpenAI首席营收官（CRO）Denise Dresser向全员发送内部备忘录，直接指控竞争对手Anthropic的300亿美元年化营收（ARR）数字存在「80亿美元虚增」。\n\n**会计争议核心**：Anthropic将通过AWS、Azure和Google Cloud分销渠道产生的收入按总额（gross basis）确认——即将云服务商的分成也计入自己的营收数字。而OpenAI则按净额（net basis）确认微软渠道收入，Dresser称这「更符合上市公司会计标准」。按净额口径调整后，Anthropic实际ARR约为220亿美元，低于OpenAI的250亿美元。\n\nAnthropic方面回应称，公司在合作中是「交易的主体方」（principal），云服务商是「分销渠道」，因此按总额确认符合会计准则。\n\n**竞争背景**：Dresser在备忘录中透露，Ramp数据显示Anthropic正在快速侵蚀OpenAI的企业客户份额，预计两个月内将反超。备忘录还批评Anthropic的市场叙事建立在「恐惧、限制以及少数精英应控制AI的理念」之上。\n\n**市场影响**：这份泄露的备忘录暴露了两家AI巨头之间竞争的白热化程度，也引发了业界对AI公司营收「注水」问题的广泛讨论——在多家公司筹备IPO之际，营收确认方式将直接影响估值。\n\n背景回顾：Anthropic此前在2月至4月间宣布年化营收从190亿美元飙升至300亿美元，首次超越OpenAI，年付费超百万美元的企业客户从500家翻倍至1000家以上。",
+      "key_quotes": [
+        "Anthropic inflates its run rate by roughly $8 billion through gross accounting on AWS, Azure and Google Cloud billings.",
+        "Our approach is more in line with standards we would be held to as a public company."
+      ],
+      "significance": "这份泄露备忘录首次揭示了AI营收竞赛中的「会计魔术」问题。在OpenAI和Anthropic均准备IPO的背景下，营收确认方式的差异可能导致数十亿美元的估值差距。更深层地看，这标志着AI行业竞争已从模型性能比拼扩展到商业叙事和财务透明度的较量。",
+      "links": [
+        "https://www.axios.com/2026/04/13/openai-microsoft-anthropic-amazon",
+        "https://gizmodo.com/openai-exec-reveals-new-strategy-in-leaked-memo-attack-anthropic-2000745872",
+        "https://www.implicator.ai/openai-cro-tells-staff-anthropic-inflates-run-rate-by-8-billion/"
+      ],
+      "image": null,
+      "image_type": null,
+      "tags": ["OpenAI", "Anthropic", "营收", "会计", "IPO", "竞争"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "Vercel CEO首次释放IPO信号：30%应用已由AI Agent生成，ARR达3.4亿美元",
+      "source": "@rauchg",
+      "source_name": "Guillermo Rauch / TechCrunch",
+      "story_key": "vercel-v0-funding",
+      "event_date": "2026-04-13",
+      "summary": "Vercel CEO Guillermo Rauch首次公开释放IPO信号，称「公司已准备就绪」。ARR从2024年初1亿美元飙升至3.4亿美元，平台上30%的应用已由AI Agent而非人类开发者生成。",
+      "detail": "4月13日，Vercel CEO Guillermo Rauch在TechCrunch采访中首次明确释放IPO信号。Rauch表示「Vercel is very much a work-in-public company... There's no perfect timeline or quarter I can give. The company's ready and getting more ready for it every day.」\n\n**增长数据方面**，Vercel的ARR从2024年初的1亿美元飙升至2026年2月底的3.4亿美元，两年内增长3.4倍。其中AI Agent驱动的增长尤为显著：平台上30%的应用已由AI Agent而非人类开发者生成。Rauch认为AI Agent将加速软件生产，使「定制开发比购买现成软件更容易」。\n\n**IPO市场环境**：尽管2026年本被预期为IPO大年，但AI引发的软件行业恐慌性抛售实际上冻结了整个IPO管道。除SpaceX、Anthropic和OpenAI外，大多数公司的上市计划已基本暂停。Rauch选择在这个时间点释放信号，可能意味着Vercel对自身AI驱动的增长模式有充分信心。\n\n**v0的角色**：Rauch此前透露v0已拥有350万用户，企业和团队客户贡献了过半收入。v0不仅是Vercel的增长引擎，更是AI Agent生成应用的主要入口。\n\n背景回顾：Vercel于2026年4月完成3亿美元F轮融资，估值93亿美元。v0用户已达350万，Rauch表示正为Meta等公司提供基础设施。",
+      "key_quotes": [
+        "The company's ready and getting more ready for it every day.",
+        "Agents will accelerate software production by making it easier to generate custom solutions than to purchase existing software."
+      ],
+      "significance": "Vercel是第一家明确表示「AI Agent生成了平台上30%应用」的基础设施公司。这一数据点比任何基准测试都更直接地衡量了AI对软件开发的实际影响。在IPO市场因AI恐慌而冻结的背景下，Rauch的IPO信号反映了一个悖论：AI在摧毁传统软件公司估值的同时，正在为AI原生基础设施公司创造前所未有的增长。",
+      "links": [
+        "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/"
+      ],
+      "image": null,
+      "image_type": null,
+      "tags": ["Vercel", "v0", "IPO", "AI Agent", "基础设施"],
+      "category": "product_operators"
+    }
+  ]
+}

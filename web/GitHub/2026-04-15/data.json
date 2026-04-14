@@ -1,0 +1,550 @@
+{
+  "date": "2026-04-15",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-04-15",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "Hermes Agent 橙皮书：Nous Research 开源 Agent 框架实战指南",
+          "source": "@alchaincyf",
+          "source_name": "GitHub",
+          "summary": "一本面向开发者的 Hermes Agent 实战手册，由花叔编写，系统讲解 Nous Research 开源 AI Agent 框架的使用方法。",
+          "detail": "Hermes Agent 是 Nous Research 于 2026 年 2 月发布的开源 AI Agent 框架，区别于 OpenClaw 和 Claude Code，采用内置自我约束机制。本书提供中英双语 PDF，覆盖从入门到进阶的全流程。README 称其为「第一个自带缰绳的 Agent」，适合希望快速上手开源 Agent 开发的用户。",
+          "significance": "发布一周即收获 2,433 stars，位列本周新晋第一，反映社区对 Hermes Agent 生态的强烈关注。",
+          "links": [
+            "https://github.com/alchaincyf/hermes-agent-orange-book"
+          ],
+          "image": "img/alchaincyf-hermes-agent-orange-book.jpg",
+          "image_type": "logo",
+          "tags": [
+            "AI",
+            "Agent",
+            "教程",
+            "开源"
+          ],
+          "stars": 2433,
+          "stars_gained": null,
+          "language": null,
+          "forks": 256,
+          "owner": "alchaincyf",
+          "repo": "hermes-agent-orange-book"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "fireworks-tech-graph：自然语言生成专业技术架构图",
+          "source": "@yizhiyanhua-ai",
+          "source_name": "GitHub",
+          "summary": "一款 Claude Code skill，用自然语言描述即可生成出版级 SVG + PNG 技术图表，支持 8 种图表类型和 5 种视觉风格。",
+          "detail": "支持 RAG、Agentic Search、多 Agent、Tool Call 等 AI 领域常见架构模式，内置 14 种 UML 图表类型。通过 rsvg-convert 导出高分辨率 PNG，适合技术文档和演讲场景。支持中英文描述输入。",
+          "significance": "发布 5 天已获 2,370 stars，Claude Code 生态 skill 持续增长的又一例证。",
+          "links": [
+            "https://github.com/yizhiyanhua-ai/fireworks-tech-graph"
+          ],
+          "image": "img/yizhiyanhua-ai-fireworks-tech-graph.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "开发工具",
+            "Claude Code",
+            "开源"
+          ],
+          "stars": 2370,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 186,
+          "owner": "yizhiyanhua-ai",
+          "repo": "fireworks-tech-graph"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "LLM Wiki：让大模型自动构建个人知识库",
+          "source": "@nashsu",
+          "source_name": "GitHub",
+          "summary": "跨平台桌面应用，用 LLM 将文档自动整理为结构化、互相链接的持久化 Wiki，取代传统 RAG 的逐次检索模式。",
+          "detail": "与传统 RAG 每次从头检索不同，LLM Wiki 采用增量构建方式，LLM 先分析文档结构再生成 Wiki 条目，并持续维护更新。支持两步 Chain-of-Thought 摄入流程，基于 TypeScript 开发。",
+          "significance": "发布一周获 1,283 stars，体现开发者对「知识管理 + LLM」新范式的浓厚兴趣。",
+          "links": [
+            "https://github.com/nashsu/llm_wiki"
+          ],
+          "image": "img/nashsu-llm_wiki.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "RAG",
+            "知识管理",
+            "开源"
+          ],
+          "stars": 1283,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 136,
+          "owner": "nashsu",
+          "repo": "llm_wiki"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "Hermes HUD：Hermes AI Agent 的浏览器监控面板",
+          "source": "@joeynyc",
+          "source_name": "GitHub",
+          "summary": "为 Hermes AI Agent 打造的 Web UI 意识监控面板，包含 13 个标签页，实时展示 Agent 的身份、记忆、技能等状态。",
+          "detail": "从之前热门的 TUI 版本移植到浏览器端，通过 WebSocket 实时更新。覆盖 Agent 的身份、记忆、技能、会话、定时任务、项目、健康状态、成本等维度，需配合运行中的 Hermes Agent 使用。",
+          "significance": "发布 6 天收获 877 stars，Hermes Agent 生态的配套工具也在快速获得关注。",
+          "links": [
+            "https://github.com/joeynyc/hermes-hudui"
+          ],
+          "image": "img/joeynyc-hermes-hudui.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 877,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 92,
+          "owner": "joeynyc",
+          "repo": "hermes-hudui"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "Rattles：零依赖的 Rust 终端加载动画库",
+          "source": "@vyfor",
+          "source_name": "GitHub",
+          "summary": "极简的 Rust 终端 spinner 库，无任何依赖，支持 no-std 环境，不对输出方式做任何假设。",
+          "detail": "提供多种预设动画（如 waverows），支持自定义关键帧、反向播放、自定义间隔。兼容 Ratatui 生态，宏定义方式创建自定义 spinner 简洁优雅。适合需要终端动画但不想引入重依赖的 Rust 项目。",
+          "significance": "发布 5 天获 851 stars，Rust CLI 生态中小而美的工具库持续受欢迎。",
+          "links": [
+            "https://github.com/vyfor/rattles"
+          ],
+          "image": "img/vyfor-rattles.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Rust",
+            "命令行",
+            "TUI",
+            "开源"
+          ],
+          "stars": 851,
+          "stars_gained": null,
+          "language": "Rust",
+          "forks": 16,
+          "owner": "vyfor",
+          "repo": "rattles"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "CodeBurn：AI 编码 Token 消耗的可视化追踪面板",
+          "source": "@AgentSeal",
+          "source_name": "GitHub",
+          "summary": "交互式 TUI 面板，追踪 Claude Code 和 Codex 的 Token 用量与成本，帮助开发者了解 AI 编码开销。",
+          "detail": "以 npm 包形式分发，支持 Node.js 20+。提供实时的 Token 消耗可视化，覆盖 Claude Code 和 Codex 两大平台，是 AI 辅助编码成本可观测性领域的专用工具。",
+          "significance": "发布仅 2 天即获 826 stars，说明 AI 编码成本透明度是开发者迫切关注的问题。",
+          "links": [
+            "https://github.com/AgentSeal/codeburn"
+          ],
+          "image": "img/AgentSeal-codeburn.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "开发工具",
+            "命令行",
+            "开源"
+          ],
+          "stars": 826,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 66,
+          "owner": "AgentSeal",
+          "repo": "codeburn"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "talk-normal：一条 System Prompt 让 LLM 像正常人说话",
+          "source": "@hexiecs",
+          "source_name": "GitHub",
+          "summary": "一条去除 AI 套话的 system prompt，让任何大模型直接回答问题，实测在 GPT-4o-mini 上减少 73% 冗余输出。",
+          "detail": "适用于 GPT、Gemini、LLaMA 等所有模型，通过一条 system prompt 将冗长的企业风格输出转为简洁直接的回答。在 GPT-5.4 上同样测得 72% 的输出精简率，且保留所有有用信息。社区可通过 Issues 提交新规则。",
+          "significance": "发布一周获 825 stars，LLM 输出质量优化是社区长期痛点。",
+          "links": [
+            "https://github.com/hexiecs/talk-normal"
+          ],
+          "image": "img/hexiecs-talk-normal.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Shell",
+            "AI",
+            "Prompt 工程",
+            "开源"
+          ],
+          "stars": 825,
+          "stars_gained": null,
+          "language": "Shell",
+          "forks": 19,
+          "owner": "hexiecs",
+          "repo": "talk-normal"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "MOSS-TTS-Nano：仅 0.1B 参数的多语言实时语音合成模型",
+          "source": "@OpenMOSS",
+          "source_name": "GitHub",
+          "summary": "MOSI.AI 和 OpenMOSS 团队开源的超轻量 TTS 模型，0.1B 参数即可在 CPU 上实现实时多语言语音生成。",
+          "detail": "支持中英文语音合成和声音克隆，基于 audio tokenizer 架构，支持流式音频输出。无需 GPU 即可运行，适合本地演示、Web 服务和轻量级产品集成。模型在 Hugging Face 和 ModelScope 均可获取。",
+          "significance": "发布 5 天获 697 stars，端侧 TTS 方案的超低参数量引发关注。",
+          "links": [
+            "https://github.com/OpenMOSS/MOSS-TTS-Nano"
+          ],
+          "image": "img/OpenMOSS-MOSS-TTS-Nano.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "TTS",
+            "语音合成",
+            "开源"
+          ],
+          "stars": 697,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 59,
+          "owner": "OpenMOSS",
+          "repo": "MOSS-TTS-Nano"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "Anything Analyzer：操作一遍，AI 自动完成协议逆向分析",
+          "source": "@Mouseww",
+          "source_name": "GitHub",
+          "summary": "基于浏览器 CDP 抓包和 AI 分析的自动化协议逆向工具，在浏览器或应用中操作一遍即可生成完整的协议分析文档。",
+          "detail": "提供双通道抓包能力：内嵌浏览器通过 CDP 抓取网页流量，MITM 代理覆盖系统级流量（包括 curl、移动端 App 等）。两个通道的请求统一汇入同一会话，由 AI 自动分析鉴权流程、加密逻辑和 API 模式。基于 Electron + React + TypeScript 开发。",
+          "significance": "发布 3 天获 631 stars，自动化安全审计工具的需求旺盛。",
+          "links": [
+            "https://github.com/Mouseww/anything-analyzer"
+          ],
+          "image": "img/Mouseww-anything-analyzer.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "安全",
+            "逆向工程",
+            "开源"
+          ],
+          "stars": 631,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 178,
+          "owner": "Mouseww",
+          "repo": "anything-analyzer"
+        },
+        {
+          "id": "new_hot-10",
+          "title": "Material 3 Skill：Claude Code 的 Material Design 3 开发助手",
+          "source": "@hamen",
+          "source_name": "GitHub",
+          "summary": "一款 Claude Code skill，帮助生成符合 Google Material Design 3 规范的 UI 代码，覆盖 30+ 组件、设计 Token 和主题系统。",
+          "detail": "主要面向 Jetpack Compose 平台，涵盖 MaterialTheme、自适应布局、edge-to-edge 等最新模式，同时支持 Flutter。提供组件构建、主题生成、应用脚手架和 MD3 合规审计四大功能。",
+          "significance": "发布 6 天获 603 stars，Claude Code skill 生态正在向设计系统领域扩展。",
+          "links": [
+            "https://github.com/hamen/material-3-skill"
+          ],
+          "image": "img/hamen-material-3-skill.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Claude Code",
+            "Material Design",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 603,
+          "stars_gained": null,
+          "language": null,
+          "forks": 34,
+          "owner": "hamen",
+          "repo": "material-3-skill"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "OpenClaw：开源个人 AI 助手持续领跑",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "跨平台的开源个人 AI 助手，主打数据自主可控，支持所有主流操作系统。",
+          "detail": "OpenClaw 是目前增长最快的开源 AI 助手项目，总 star 数已超 35 万。支持自托管，强调用户数据隐私。社区活跃，生态持续扩展，衍生出 skill 市场和多种第三方集成。",
+          "significance": "本周新增 3,000 stars，以 35.7 万总星数稳居 AI 开源项目榜首。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "img/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "Agent",
+            "开源"
+          ],
+          "stars": 357355,
+          "stars_gained": 3000,
+          "language": "TypeScript",
+          "forks": 72559,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "Everything Claude Code：AI 编码 Agent 性能优化体系",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "Claude Code 的性能优化系统，涵盖 skill、记忆、安全和研究驱动开发等最佳实践，同时适用于 Codex、Cursor 等工具。",
+          "detail": "提供一整套 Agent harness 性能优化方案，包含 skill 编排、instinct 机制、记忆管理和安全策略。已获 Anthropic Hackathon 冠军，支持 12+ 语言生态，170+ 贡献者参与。",
+          "significance": "本周新增 3,000 stars，15.6 万总星数反映 Claude Code 用户对系统性优化方案的持续需求。",
+          "links": [
+            "https://github.com/affaan-m/everything-claude-code"
+          ],
+          "image": "img/affaan-m-everything-claude-code.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "AI",
+            "Claude Code",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 156021,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 24205,
+          "owner": "affaan-m",
+          "repo": "everything-claude-code"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "OpenCode：开源编码 Agent 快速崛起",
+          "source": "@anomalyco",
+          "source_name": "GitHub",
+          "summary": "开源 AI 编码 Agent，提供完整的代码生成和辅助编程能力。",
+          "detail": "OpenCode 是一款快速增长的开源编码 Agent，基于 TypeScript 构建。提供控制台界面和 Web 端，支持多种 LLM 后端。项目活跃度极高，几乎每天都有提交。",
+          "significance": "本周新增 3,000 stars，14.3 万总星数，开源编码 Agent 赛道竞争白热化。",
+          "links": [
+            "https://github.com/anomalyco/opencode"
+          ],
+          "image": "img/anomalyco-opencode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "编码 Agent",
+            "开源"
+          ],
+          "stars": 143228,
+          "stars_gained": 3000,
+          "language": "TypeScript",
+          "forks": 16138,
+          "owner": "anomalyco",
+          "repo": "opencode"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "prompts.chat：全球最大开源 AI Prompt 库",
+          "source": "@f",
+          "source_name": "GitHub",
+          "summary": "前身为 Awesome ChatGPT Prompts，现已发展为支持所有主流 LLM 的开源 prompt 社区平台，可自托管。",
+          "detail": "支持 ChatGPT、Claude、Gemini、LLaMA、Mistral 等模型，提供 Web 站点供用户分享、发现和收集 prompt。基于 Next.js 和 TypeScript 构建，支持组织内自托管以保障隐私。",
+          "significance": "本周新增 2,015 stars，从 ChatGPT 专属扩展为全模型通用平台后迎来新一轮增长。",
+          "links": [
+            "https://github.com/f/prompts.chat"
+          ],
+          "image": "img/f-prompts.chat.jpg",
+          "image_type": "logo",
+          "tags": [
+            "AI",
+            "Prompt 工程",
+            "开源"
+          ],
+          "stars": 159709,
+          "stars_gained": 2015,
+          "language": "HTML",
+          "forks": 20914,
+          "owner": "f",
+          "repo": "prompts.chat"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "yt-dlp：功能最丰富的命令行音视频下载器",
+          "source": "@yt-dlp",
+          "source_name": "GitHub",
+          "summary": "youtube-dl 的活跃分支，支持数千个视频网站的命令行音视频下载，功能远超原版。",
+          "detail": "基于 Python 开发，支持 SponsorBlock 集成、高级格式选择、多线程下载等特性。社区维护活跃，持续适配新站点和修复提取器。是目前最主流的开源视频下载解决方案。",
+          "significance": "本周新增 1,578 stars，作为成熟项目仍保持强劲增长，近期可能有新版本发布。",
+          "links": [
+            "https://github.com/yt-dlp/yt-dlp"
+          ],
+          "image": "img/yt-dlp-yt-dlp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "命令行",
+            "下载工具",
+            "开源"
+          ],
+          "stars": 156863,
+          "stars_gained": 1578,
+          "language": "Python",
+          "forks": 12917,
+          "owner": "yt-dlp",
+          "repo": "yt-dlp"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "n8n：内置 AI 能力的开源工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "Fair-code 工作流自动化平台，结合可视化编排与自定义代码，内置 AI 原生能力，提供 400+ 集成。",
+          "detail": "支持 JavaScript/Python 编写自定义逻辑，基于 LangChain 构建 AI Agent 工作流。提供自托管和云端两种部署方式，支持企业级权限管理、SSO 和离线部署。已成为 MCP 客户端和服务端。",
+          "significance": "本周新增 1,369 stars，18.4 万总星数，AI 原生自动化工具需求持续增长。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "img/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "自动化",
+            "MCP",
+            "开源"
+          ],
+          "stars": 184052,
+          "stars_gained": 1369,
+          "language": "TypeScript",
+          "forks": 56797,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "Ollama：本地运行开源大模型的标准方案",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "一键本地运行 DeepSeek、Qwen、Gemma、Kimi-K2.5 等开源大模型，支持 macOS/Windows/Linux/Docker。",
+          "detail": "基于 Go 开发，提供 Python 和 JavaScript SDK。持续适配最新开源模型，包括 Kimi-K2.5、GLM-5、MiniMax、gpt-oss 等。社区活跃，Discord 和 Reddit 均有大量用户讨论。",
+          "significance": "本周新增 1,127 stars，16.9 万总星数，本地大模型运行的事实标准持续获得关注。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "img/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "AI",
+            "LLM",
+            "本地部署",
+            "开源"
+          ],
+          "stars": 169000,
+          "stars_gained": 1127,
+          "language": "Go",
+          "forks": 15589,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "freeCodeCamp：全球最大免费编程学习平台",
+          "source": "@freeCodeCamp",
+          "source_name": "GitHub",
+          "summary": "开源的免费编程学习平台，涵盖全栈 Web 开发、机器学习和数学课程，已帮助超 10 万人获得首份开发者工作。",
+          "detail": "由 501(c)(3) 慈善组织运营，提供完全免费的自学课程和数千个交互式编程挑战。以 44.3 万星数位居 GitHub 所有仓库榜首，社区贡献者遍布全球。",
+          "significance": "本周新增 924 stars，作为 GitHub 星数最多的项目持续稳定增长。",
+          "links": [
+            "https://github.com/freeCodeCamp/freeCodeCamp"
+          ],
+          "image": "img/freeCodeCamp-freeCodeCamp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "教育",
+            "编程学习",
+            "开源"
+          ],
+          "stars": 442890,
+          "stars_gained": 924,
+          "language": "TypeScript",
+          "forks": 44286,
+          "owner": "freeCodeCamp",
+          "repo": "freeCodeCamp"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "Transformers：Hugging Face 的模型定义框架",
+          "source": "@huggingface",
+          "source_name": "GitHub",
+          "summary": "Hugging Face 的核心机器学习框架，支持文本、视觉、音频和多模态模型的推理与训练。",
+          "detail": "支持 DeepSeek、Gemma、GLM、Qwen 等最新模型架构，提供统一的模型加载、微调和推理接口。基于 PyTorch，与 Hugging Face Hub 深度集成，是当前 ML 社区使用最广泛的模型库。",
+          "significance": "本周新增 485 stars，15.9 万总星数，持续快速适配新模型驱动稳定增长。",
+          "links": [
+            "https://github.com/huggingface/transformers"
+          ],
+          "image": "img/huggingface-transformers.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "机器学习",
+            "深度学习",
+            "开源"
+          ],
+          "stars": 159378,
+          "stars_gained": 485,
+          "language": "Python",
+          "forks": 32869,
+          "owner": "huggingface",
+          "repo": "transformers"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "VS Code：微软开源代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软的开源代码编辑器，基于 Electron 构建，是全球使用最广泛的开发工具之一。",
+          "detail": "提供丰富的扩展生态、内置 Git 集成、调试支持和终端。持续更新 AI 编码辅助功能，与 GitHub Copilot 深度集成。TypeScript 开发，MIT 许可开源。",
+          "significance": "本周新增 381 stars，18.4 万总星数，作为开发者首选编辑器的地位依然稳固。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "img/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 183832,
+          "stars_gained": 381,
+          "language": "TypeScript",
+          "forks": 39189,
+          "owner": "microsoft",
+          "repo": "vscode"
+        }
+      ]
+    }
+  ]
+}
