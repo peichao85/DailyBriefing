@@ -35,7 +35,8 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
       "links": ["https://..."],
       "image": "img/filename.png",
       "image_type": "logo|chart",
-      "tags": ["tag1", "tag2"]
+      "tags": ["tag1", "tag2"],
+      "category": "frontier_leaders|product_operators|research|builders|trending|news"
     }
   ]
 }
@@ -47,7 +48,7 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
 - Each item's `summary` should be concise (for card display), while `detail` can be comprehensive
 - All text in Simplified Chinese (keep English for names, product names, technical terms)
 - Titles must summarize the INSIGHT, not just name the person
-- Pass through `story_key` and `event_date` from the research data unchanged. These fields are used by `ai_research` on subsequent days to detect stale news and story rehashes via a `jq` lookback over the last 7 days of web briefings — they must survive into `web/AI/YYYY-MM-DD/data.json` intact.
+- Pass through `story_key`, `event_date`, and `category` from the research data unchanged. `story_key` and `event_date` are used by `ai_research` on subsequent days to detect stale news and story rehashes via a `jq` lookback over the last 7 days of web briefings — they must survive into `web/AI/YYYY-MM-DD/data.json` intact. `category` preserves the editorial classification for potential frontend filtering.
 
 ## Step 2: Process Images
 

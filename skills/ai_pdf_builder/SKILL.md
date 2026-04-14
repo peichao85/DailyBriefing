@@ -30,7 +30,7 @@ Use `pdf/AI/tmp/` as the working directory for all intermediate files (JS script
    - Card-based layouts with shadows and colored accent bars
    - 信号 (SIGNAL) line at bottom of content slides
 
-   **Images:** Research items may carry an `image` field — resolve it as `research_results/AI/YYYY-MM-DD/<image>` and place it on that item's slide. Follow the pptx skill for layout and sizing mechanics. One domain rule on top: decorative images (filenames containing `logo`, `avatar`, `headshot`, or `portrait`) go small (≤ 1.5" tall); everything else (diagrams, charts, screenshots) goes large (~3–4" wide).
+   **Images:** Research items may carry an `image` field — resolve it as `research_results/AI/YYYY-MM-DD/<image>` and place it on that item's slide. Follow the pptx skill for layout and sizing mechanics. One domain rule on top: use the item's `image_type` field to determine sizing — `"logo"` images go small (≤ 1.5" tall); `"chart"` images go large (~3–4" wide) so the data is readable. If `image_type` is missing, default to `"logo"` (small).
 
 5. **Convert to PDF** — Convert the Chinese PPTX into PDF using LibreOffice. Save the final PDF to the outputs folder with filename `daily-tech-ai-briefing-[YYYY-MM-DD]-cn.pdf`. Delete the intermediate PPTX after successful PDF conversion.
 

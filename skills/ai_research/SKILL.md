@@ -139,7 +139,6 @@ Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create 
       "title": "Insight-driven title in Chinese (e.g., '代码手写时代正式终结')",
       "source": "@handle",
       "source_name": "Full Name",
-      "source_role": "Role/Title",
       "story_key": "stable-english-slug-for-this-story",
       "event_date": "YYYY-MM-DD",
       "summary": "Brief summary in Chinese, 1-2 sentences",
@@ -147,7 +146,6 @@ Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create 
       "key_quotes": ["Original quotes, can be English"],
       "significance": "Why this matters, in Chinese",
       "links": ["https://..."],
-      "original_language": "en|zh",
       "tags": ["tag1", "tag2"],
       "category": "frontier_leaders|product_operators|research|builders|trending|news"
     }
@@ -182,7 +180,7 @@ For items where a visual adds real value, download a relevant image to `research
 
 **File naming:** use descriptive names like `claude-mythos-architecture.png`, `sam-altman.jpg`, `gpqa-benchmark-chart.png`. Reference them in the item's `"image"` field as `img/filename.png`.
 
-**Image type classification:** Set `"image_type"` on each item with an image:
+**Image type classification (REQUIRED for every item with an image):** Set `"image_type"` on each item that has an `"image"` field. This field is mandatory — downstream skills rely on it to determine display size. Do NOT omit it.
 - `"chart"` — benchmark charts, data visualizations, graphs, comparison tables, screenshots with real data/numbers. These are displayed larger so the data is readable.
 - `"logo"` — product logos, branding images, headshots, decorative graphics, product UI mockups. These are displayed as compact thumbnails.
 

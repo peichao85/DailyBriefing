@@ -53,7 +53,7 @@ claude -p "Run the ai_web_builder skill for today"
 
 **`web/manifest.json`** — registry of available dates, sorted newest first. Updated by web builder.
 
-**`web/AI/YYYY-MM-DD/data.json`** — per-day web content with items containing: `id`, `title`, `source`, `source_name`, `summary`, `detail`, `key_quotes`, `significance`, `links`, `image`, `tags`.
+**`web/AI/YYYY-MM-DD/data.json`** — per-day web content with items containing: `id`, `title`, `source`, `source_name`, `story_key`, `event_date`, `summary`, `detail`, `key_quotes`, `significance`, `links`, `image`, `image_type`, `tags`, `category`.
 
 **`research_results/AI/YYYY-MM-DD/data.json`** — full research output consumed by both builders.
 
