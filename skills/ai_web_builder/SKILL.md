@@ -26,6 +26,8 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
       "title": "Insight-driven title in Chinese",
       "source": "@handle",
       "source_name": "Full Name",
+      "story_key": "stable-english-slug-for-this-story",
+      "event_date": "YYYY-MM-DD",
       "summary": "Brief summary for card view, 1-2 sentences in Chinese",
       "detail": "Detailed content for expanded view, multiple paragraphs in Chinese",
       "key_quotes": ["Original quotes"],
@@ -45,6 +47,7 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
 - Each item's `summary` should be concise (for card display), while `detail` can be comprehensive
 - All text in Simplified Chinese (keep English for names, product names, technical terms)
 - Titles must summarize the INSIGHT, not just name the person
+- Pass through `story_key` and `event_date` from the research data unchanged. These fields are used by `ai_research` on subsequent days to detect stale news and story rehashes via a `jq` lookback over the last 7 days of web briefings — they must survive into `web/AI/YYYY-MM-DD/data.json` intact.
 
 ## Step 2: Process Images
 

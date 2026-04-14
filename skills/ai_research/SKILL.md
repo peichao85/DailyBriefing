@@ -32,9 +32,27 @@ Use web search to find recent tweets/posts and news from ALL of the following 50
 - Popular AI articles and blog posts gaining traction
 - Significant product launches, model releases, funding rounds, or acquisitions in AI
 
-## Step 2: Curate and Structure
+## Step 2: Freshness + Dedup Lookback
 
-From all sources, pick the most important items that:
+Before selecting items, pull a compact view of what has already been published in the last 7 days. Every candidate item must be checked against this list so that stale news and rehashes never reach readers twice.
+
+**Run the lookback (one jq call):**
+
+```bash
+jq -r '.items[] | [.event_date, .story_key, .title] | @tsv' \
+  web/AI/{date-1}/data.json web/AI/{date-2}/data.json web/AI/{date-3}/data.json \
+  web/AI/{date-4}/data.json web/AI/{date-5}/data.json web/AI/{date-6}/data.json \
+  web/AI/{date-7}/data.json \
+  2>/dev/null
+```
+
+Substitute `{date-1}` through `{date-7}` with the 7 ISO dates preceding today. `2>/dev/null` swallows errors for dates where no briefing was published. Output is one TSV line per prior item: `event_date \t story_key \t title`. Treat this list as the "already published" set.
+
+**Transition note:** briefings published before this step existed lack `story_key` and `event_date` — those rows arrive with empty first two columns. For those rows only, fall back to fuzzy title matching when checking for duplicates. All new publications carry both fields and are matched structurally.
+
+## Step 3: Curate and Structure
+
+From all candidate sources, pick the most important items that:
 - Announce something new or significant
 - Share a genuinely novel insight or opinion
 - Spark major community discussion
@@ -42,7 +60,16 @@ From all sources, pick the most important items that:
 
 Skip routine posts, retweets of minor things, casual conversation. If someone had nothing noteworthy, skip them entirely.
 
-## Step 3: Output Structured Data
+**Before finalizing each candidate, assign its `story_key` and `event_date` (see field rules in Step 4), then apply the following filters in order:**
+
+1. **Freshness filter.** If `today − event_date > 3 days`, DROP. Only news whose underlying event happened within the last 3 days is eligible.
+2. **Exact-rehash filter.** If the exact `(story_key, event_date)` tuple already appears in the Step 2 lookback output, DROP. The story was already covered with this same beat.
+3. **Material update.** If `story_key` matches a prior row but `event_date` is strictly newer and within 3 days, KEEP with two extra constraints:
+   - `title` MUST describe ONLY the new development. Do not re-litigate the original story in the title. Prior titles for this `story_key` are available in the lookback output — read them and make sure today's title covers fresh ground.
+   - `image` MUST NOT reuse any image previously published under the same `story_key`. Select a different asset, or set `image: null` if none is available.
+4. **Novel story.** If `story_key` does not appear in the lookback output, KEEP as a fresh story.
+
+## Step 4: Output Structured Data
 
 Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create the directory if needed).
 
@@ -61,6 +88,8 @@ Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create 
       "source": "@handle",
       "source_name": "Full Name",
       "source_role": "Role/Title",
+      "story_key": "stable-english-slug-for-this-story",
+      "event_date": "YYYY-MM-DD",
       "summary": "Brief summary in Chinese, 1-2 sentences",
       "detail": "Detailed analysis in Chinese, multiple paragraphs",
       "key_quotes": ["Original quotes, can be English"],
@@ -74,7 +103,11 @@ Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create 
 }
 ```
 
-## Step 4: Gather Images
+**`story_key` rules:** 3–6 words, lowercase, hyphen-separated, English. Name the story (actor + core event), not today's specific angle — so the same slug is reused across every day the story has a development. Examples: `anthropic-mythos-zerodays`, `coreweave-anthropic-cloud-deal`, `openai-public-benefit-charter`.
+
+**`event_date` rules:** ISO date of when the actual development covered by THIS item happened (announcement, release, incident, filing). NOT the research/publishing date. Advances only when the underlying world changes. If today's item is a follow-up to a story already published, `event_date` must be the date of the new development, not the original event.
+
+## Step 5: Gather Images
 
 For items where a visual adds real value, download a relevant image to `research_results/AI/YYYY-MM-DD/img/`. **Not every item needs an image** — only include one when it genuinely helps the reader understand the story.
 
