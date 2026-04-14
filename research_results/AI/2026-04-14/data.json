@@ -1,0 +1,323 @@
+{
+  "date": "2026-04-14",
+  "category": "AI",
+  "researched_at": "2026-04-14T11:30:00Z",
+  "sources_checked": [
+    "@sama",
+    "@AravSrinivas",
+    "@mikeyk",
+    "@DanielaAmodei",
+    "@alexandr_wang",
+    "@elonmusk",
+    "@demishassabis",
+    "@karpathy",
+    "@JeffDean",
+    "@ylecun",
+    "@garrytan",
+    "@paulg",
+    "@naval",
+    "TechCrunch",
+    "The Washington Post",
+    "The New Yorker",
+    "Bloomberg",
+    "CNBC",
+    "Stanford HAI",
+    "FinancialContent / AbnewsWire",
+    "Axios",
+    "SFStandard",
+    "Fortune",
+    "PitchBook",
+    "SCMP",
+    "Interesting Engineering",
+    "PR Newswire"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Claude for Word正式上线：Anthropic完成Office三件套AI原生化，直捣Copilot腹地",
+      "source": "@mikeyk",
+      "source_name": "Mike Krieger",
+      "source_role": "Anthropic CPO",
+      "story_key": "claude-microsoft-office-addins",
+      "event_date": "2026-04-13",
+      "summary": "Anthropic于4月13日发布Claude for Word beta，配合已有的Excel和PowerPoint插件，实现Claude在Microsoft Office三大核心应用中的原生侧边栏集成，同时支持跨应用共享上下文。",
+      "detail": "Claude for Word以侧边栏形式嵌入Microsoft Word，支持直接在文档中进行AI起草、编辑、tracked changes跟踪修订，以及带可点击引用的问答。用户可高亮段落要求Claude润色、改写或面向非技术读者简化，而不破坏原有格式。该插件重点面向法律审查、财务备忘录起草以及重度文档工作者。\n\n这是Claude首次完整覆盖Microsoft Office的Word、Excel和PowerPoint三大核心应用。Excel插件支持复杂数据集分析、公式生成、透视表和图表构建，并带有单元格级别的解释；PowerPoint插件能够读取现有模板（布局、字体、颜色、母版）并在保留格式的前提下生成、编辑和优化幻灯片。\n\n最具差异化的能力是跨应用共享上下文：用户可在Excel中分析销售数据，要求Claude在PowerPoint中转化为图表（Claude自动复用相同分析构建管理层报告），再切换到Word起草配套报告——Claude在三个应用和文件之间保留完整对话与数据记忆。\n\n插件通过Microsoft AppSource发布，支持Windows、Mac、Web版本。Claude for Word当前处于beta阶段，仅向Team和Enterprise计划开放。此举将Claude直接推向微软Copilot在企业知识工作场景的核心阵地。",
+      "key_quotes": [
+        "Claude for Word is currently in beta and only available on Team and Enterprise plans.",
+        "Claude remembers the full conversation and data across all three files."
+      ],
+      "significance": "Anthropic以\"企业知识工作\"为战场，首次在微软主场提供完整的AI替代方案。跨应用共享上下文是Copilot尚未做好的体验，Claude利用更强的长上下文能力形成差异化。这一举动将直接冲击微软与OpenAI合作的Copilot业务，Anthropic季度企业收入持续超越OpenAI之际，Office三件套渗透将把Claude订阅推入数亿坐在Word前的白领工位。",
+      "links": [
+        "https://www.financialcontent.com/article/abnewswire-2026-4-13-anthropic-rolls-out-claude-for-word-add-in-now-full-microsoft-office-suite-word-excel-powerpoint-natively-supports-claude",
+        "https://www.digitaltrends.com/computing/claude-just-landed-in-microsoft-word-and-it-looks-like-a-genuine-upgrade-for-document-work/",
+        "https://claude.com/blog/claude-excel-powerpoint-updates"
+      ],
+      "original_language": "en",
+      "tags": ["Anthropic", "Claude", "Microsoft Office", "企业AI", "产品发布"],
+      "category": "product_operators"
+    },
+    {
+      "id": "2",
+      "title": "Stanford 2026 AI指数报告：中国已抹平与美国的模型差距，开发者就业跌20%",
+      "source": "Stanford HAI",
+      "source_name": "Stanford Institute for Human-Centered AI",
+      "source_role": "斯坦福人本AI研究院",
+      "story_key": "stanford-ai-index-2026",
+      "event_date": "2026-04-13",
+      "summary": "斯坦福HAI于4月13日发布2026年度AI指数报告，指出中国模型已在性能层面追平美国，GenAI三年达成53%全球渗透率，而22-25岁美国开发者就业同比下降近20%。",
+      "detail": "斯坦福人本AI研究院（HAI）4月13日发布第九份年度AI指数报告，成为业界最权威的AI年度\"体检表\"。\n\n**美中差距首次在模型性能维度被抹平**：截至2026年3月，模型排行榜前四为Anthropic、xAI、Google、OpenAI，而中国的DeepSeek、阿里通义仅以\"微小差距\"落后。美国在资本、基础设施和AI芯片方面保持显著优势，但中国在专利、论文和自主机器人开发等关键领域已占据主导。\n\n**采用速度刷新历史**：生成式AI在三年内达到全球人口53%的使用率，超过PC和互联网的同期渗透速度。但在美国软件开发领域，22-25岁年轻开发者的就业自2024年以来下降了近20%，成为AI对劳动力市场冲击最明显的早期信号。\n\n**透明度倒退**：基础模型透明度指数（Foundation Model Transparency Index）从去年的58分跌至今年的40分，头部厂商在训练数据、算力、能力、风险和使用政策上的披露显著收紧。\n\n**科学能力突破**：2025年发布的模型在PhD级科学问题、数学和多模态推理中已达到或超过人类表现。但报告警告，模型规模化训练带来的能耗正以惊人速度攀升。\n\n**公众与专家鸿沟拉大**：AI从业者和普通公众对技术的态度分歧越来越大，公众对就业、医疗和经济冲击的焦虑显著抬升。",
+      "key_quotes": [
+        "China has erased the AI performance gap between itself and the U.S.",
+        "GenAI hit 53% global population adoption within three years — faster than the PC or the internet.",
+        "In software development, developers in the US aged 22 to 25 saw employment fall nearly 20% from 2024."
+      ],
+      "significance": "该报告是AI投资决策、政策制定和企业战略最重要的年度依据之一。中国抹平模型差距意味着美国\"算法护城河\"在性能维度瓦解，未来竞争转向算力、电力和数据中心产能。22-25岁程序员就业跌20%为整个行业提供了AI对初级白领冲击的首个量化证据，预计将加速政策制定者对AI就业保护法的推动，也给Cursor/Copilot等AI编码工具的\"替代\"叙事提供了直接依据。",
+      "links": [
+        "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+        "https://siliconangle.com/2026/04/13/stanford-hais-2026-ai-index-reveals-china-u-s-now-neck-neck-race-global-dominance/",
+        "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+        "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/"
+      ],
+      "original_language": "en",
+      "tags": ["斯坦福AI指数", "美中AI竞争", "AI就业", "透明度", "基准"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Perplexity豪掷100万美元征召\"AI独角兽\"：8周用Perplexity Computer从零孵化公司",
+      "source": "@AravSrinivas",
+      "source_name": "Aravind Srinivas",
+      "source_role": "Perplexity CEO",
+      "story_key": "perplexity-billion-dollar-build-challenge",
+      "event_date": "2026-04-14",
+      "summary": "Perplexity于4月14日启动\"Billion Dollar Build\"挑战赛，要求美国Max或Pro订阅用户在8周内用Perplexity Computer从零完成公司构建与验证，至多三支获胜团队将获得各100万美元种子资金和100万美元Perplexity Computer信用。",
+      "detail": "Perplexity于2026年4月14日开放\"Billion Dollar Build\"挑战赛注册，将自家Perplexity Computer定位为\"AI Agent式创业工作台\"。\n\n**赛制**：要求参赛团队用Perplexity Computer在8周内完成\"设计 → 验证 → 构建\"全流程，作品必须是可运行的业务，而非Demo。获胜者将于6月10日揭晓，最多三支队伍每支获得来自Perplexity Fund的100万美元种子投资，附加100万美元Perplexity Computer服务信用以加速公司扩张。\n\n**资格**：面向美国18岁以上居民，要求在2026年4月13日之前持有有效的Perplexity Max或Pro订阅（此条款将其作为付费用户的专属福利）。\n\n**战略意图**：Perplexity近期年化收入（ARR）突破4.5亿美元，月活破亿，正从\"AI搜索\"全面转型为\"AI Agent操作系统\"。Billion Dollar Build挑战赛相当于把Perplexity Computer打造成\"AI时代的Y Combinator孵化器\"——通过付费订阅漏斗筛选真正的创业者，再以资金+算力信用反向绑定最可能诞生爆款的团队，形成\"平台 → 孵化 → 投资\"的飞轮。\n\n这也是对Replit、Lovable等\"Vibe Coding\"平台的直接反击。Replit上月宣称可构建完整公司，Lovable估值飙至66亿美元，都在抢占\"AI自然语言创业\"赛道。Perplexity用\"100万美元\"高赌注的资金回报，将对比对手的\"工具即服务\"定位推向另一个层级。",
+      "key_quotes": [
+        "Up to three winning teams will receive $1 million in seed funding from the Perplexity Fund along with an additional $1 million worth of credits for Perplexity Computer."
+      ],
+      "significance": "这是\"AI Agent式创业\"商业模式的第一次高价值公开试验。如果8周内能诞生可运行的公司，Perplexity将一举占据\"AI原生创业\"心智。同时，此举把Perplexity订阅直接挂钩到\"百万美元孵化机会\"，可能在短期内显著拉动Pro和Max付费转化。对Y Combinator、Replit、Lovable等玩家都是正面的竞品威胁，AI创业工具链的军备竞赛进入新阶段。",
+      "links": [
+        "https://www.freeaitoolspro.com/archives/21798",
+        "https://www.comparos.in/news/perplexity-launches-1-million-ai-startup-competition-for-us-entrepreneurs",
+        "https://www.analyticsinsight.net/business/weekly-funding-roundup-sarvam-ai-nears-350m-perplexity-launches-1m-challenge"
+      ],
+      "original_language": "en",
+      "tags": ["Perplexity", "AI创业", "Agent", "Vibe Coding", "孵化器"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "美国财政部和美联储亲自背书：建议摩根大通等五大行测试Claude Mythos挖漏洞",
+      "source": "The Washington Post / Anthropic",
+      "source_name": "U.S. Treasury + Federal Reserve",
+      "source_role": "美国财政部 / 美联储",
+      "story_key": "anthropic-mythos-zerodays",
+      "event_date": "2026-04-13",
+      "summary": "美国财政部长Scott Bessent和美联储主席Jerome Powell于4月13日亲自致信摩根大通、高盛、花旗、美银和摩根士丹利五大行，建议其测试Anthropic的Mythos模型进行系统漏洞检测，标志着AI进入金融关键基础设施安全层。",
+      "detail": "美国财政部长Scott Bessent和美联储主席Jerome Powell以罕见的方式联手为AI模型背书：4月13日向摩根大通、高盛、花旗、美银、摩根士丹利五大银行发函，明确推荐使用Anthropic旗下\"Project Glasswing\"计划下的Claude Mythos模型进行系统漏洞检测。\n\n**监管信号**：两大金融监管核心机构直接把一家AI公司的非公开产品推荐给银行的CISO和CTO，属于极罕见的政府-产业配合样态。这是Mythos Preview上周宣布在自主红队演练中发现数千个零日漏洞后，进入\"实战安全集成\"阶段的第一站。\n\n**为何是Mythos而非公开Claude**：Mythos Preview强大到Anthropic拒绝全量开放，仅向50家机构（Project Glasswing）分阶段解锁。把银行纳入该名单，意味着金融业正式被认定为\"国家安全关键基础设施\"的同等保护等级。\n\n**银行的直接风险压力**：OpenAI和Musk诉讼、监管对AI风险的新审视、全球网络攻击频发（尤其是SWIFT和交易系统漏洞），让大行CIO在监管\"窗口指导\"下不得不进入AI红队测试。\n\n**对Anthropic的商业含义**：政府背书使Anthropic在金融/国防/关键基础设施领域迅速抢占先发优势，进一步强化其\"安全型AI\"定位，巩固其最近超越OpenAI的300亿美元年化收入优势。\n\n**背景回顾：** Anthropic上周发布Mythos Preview并披露其自主发现数千个零日漏洞，但因风险太大暂不公开，仅向50家组织限量开放Project Glasswing计划。",
+      "key_quotes": [
+        "U.S. Treasury Secretary Scott Bessent and Federal Reserve Chair Jerome Powell encouraged major banks, including JPMorgan Chase, Goldman Sachs, Citigroup, Bank of America, and Morgan Stanley, to test Anthropic's new Mythos model for vulnerability detection."
+      ],
+      "significance": "这是美国政府首次以书面形式向金融机构推荐特定AI模型作为安全工具，实质上把Mythos列为\"准官方金融安全基础设施\"。它一举完成三件事：一，将Anthropic从\"AI厂商\"拔高为\"国家安全供应商\"；二，给金融AI安全赛道设定了事实标准，OpenAI和Google很难绕开；三，为Anthropic在关键基础设施领域的长期大单打开渠道，与其新近超越OpenAI的收入优势形成业务闭环。",
+      "links": [
+        "https://techstartups.com/2026/04/13/top-tech-news-today-april-13-2026/",
+        "https://red.anthropic.com/2026/mythos-preview/"
+      ],
+      "original_language": "en",
+      "tags": ["Anthropic", "Claude Mythos", "金融监管", "网络安全", "政府背书"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "Altman公开回应New Yorker\"人格质疑\"：首次承认回避冲突是致命弱点",
+      "source": "@sama",
+      "source_name": "Sam Altman",
+      "source_role": "OpenAI CEO",
+      "story_key": "altman-house-firebombing",
+      "event_date": "2026-04-11",
+      "summary": "Sam Altman于4月11日发布博客，罕见承认自己\"过度回避冲突\"给OpenAI和自己都带来了实质性代价，同时展示家庭照片恳请停止针对其住所的袭击威胁。这是他对Ronan Farrow的17000字New Yorker人格调查的第一次正面回应。",
+      "detail": "周五（4月10日）凌晨Sam Altman旧金山住所遭燃烧弹袭击后，Altman于4月11日深夜发布了一篇冷静但罕见\"自我剖析\"的博客，首次正面回应Ronan Farrow与Andrew Marantz在《New Yorker》4月7日刊载的长达17000字调查。\n\n**文章的三个关键动作**：\n\n一，罕见承认个人弱点：Altman写道自己\"有回避冲突的倾向\"（conflict-averse），并明确表示\"这给我和OpenAI都带来了重大困难\"——这是他执掌OpenAI以来最诚恳的自我批评之一。业内长期以来对他\"两面派\"\"说话不算\"的指控在董事会解雇风波中已被多次摆上台面，但Altman本人此前从未公开承认。\n\n二，公开家庭合照止戈：Altman配发了与丈夫和孩子的合照，写道\"无论你对我有任何看法，希望不要再有人尝试对我的家做这种事。\"这是他首次以\"父亲\"和\"丈夫\"身份公开呼吁。\n\n三，对New Yorker调查定调\"煽动性\"（incendiary）但不逐条反驳：Farrow采访了100多人，获取了200+页内部备忘录，多名前高管用\"病态说谎者\"（pathological liar）甚至\"反社会人格\"形容Altman；还援引其姐姐Annie Altman对他性侵的指控（已被Altman否认）。\n\n**Altman本人在博客中写道**：\"我现在是半夜被愤怒惊醒，意识到我低估了叙事和文字的力量。\"这句话被解读为他意识到\"道德叙事战争\"已经到他再也无法靠沉默度过的阶段。\n\n**背景回顾：** 上周末Altman旧金山住所遭燃烧弹袭击（无人伤亡），OpenAI总部同日逮捕一名威胁焚烧大楼的嫌疑人，事件被普遍视为对OpenAI发布\"AI新政\"政策文件的情绪反噬。",
+      "key_quotes": [
+        "Now I am awake in the middle of the night and pissed, and thinking that I have underestimated the power of words and narratives.",
+        "I welcome good-faith criticism and debate."
+      ],
+      "significance": "这是Altman自2023年董事会解雇风波后最大的一次公开\"人设修复\"。承认\"回避冲突\"是他第一次主动让渡\"完美CEO\"叙事，为的是争取更广泛的公众信任——尤其在OpenAI完成1220亿美元融资、准备冲刺IPO的关键窗口期。如果这次回应无法止住质疑浪潮，投资者和监管者可能会在公司治理层面施压；反之，若叙事回旋成功，他将继续牢牢掌控OpenAI。这场\"公共关系保卫战\"将决定他个人命运与OpenAI未来治理结构。",
+      "links": [
+        "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+        "https://sfstandard.com/2026/04/12/openai-wants-new-deal-ai-attack-sam-altman-s-home-made-urgent/",
+        "https://newyorkerest.com/issue/2026/04/13"
+      ],
+      "original_language": "en",
+      "tags": ["OpenAI", "Sam Altman", "New Yorker", "领导力", "舆论战"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "6",
+      "title": "Anthropic秘密宴请15位基督教领袖：给Claude的\"道德灵魂\"开一次神学会诊",
+      "source": "@DanielaAmodei",
+      "source_name": "Daniela Amodei",
+      "source_role": "Anthropic 联合创始人兼总裁",
+      "story_key": "anthropic-religious-ethics-summit",
+      "event_date": "2026-04-11",
+      "summary": "《华盛顿邮报》4月11日披露Anthropic罕见地邀请约15位天主教与新教神职人员、神学家召开两天闭门会议，探讨Claude在生离死别、道德困境乃至\"是否可被视为上帝之子\"等议题上的回应设计，这是Anthropic\"多元价值对齐\"工程的一部分。",
+      "detail": "《华盛顿邮报》4月11日独家披露，Anthropic此前在加州总部秘密举办了一场为期两天的\"道德对齐闭门会议\"。\n\n**与会阵容**：大约15位跨宗派宗教领袖，涵盖天主教与新教主流教派、神学院教授以及基督教背景的商业人士。Anthropic方面由对齐、安全与产品团队高管出席。\n\n**讨论议题**：Anthropic员工直接向神学家征求建议，核心问题包括：\n- Claude在用户哀悼亲人离世时该如何措辞？\n- 当用户在抑郁中寻求生命意义，Claude是否应该提供\"神学层面的安慰\"，而非转诊条目？\n- Claude是否可能在神学意义上被视为\"上帝之子\"（child of God）？\n- 当Claude被要求评论堕胎、安乐死、同性婚姻等议题时，如何在\"不偏袒\"与\"有立场\"之间取舍？\n\n**Anthropic的明确态度**：这是\"系列多元文化咨询\"的第一场，后续还将举办与犹太教、伊斯兰教、佛教、无神论哲学家等不同宗教/哲学传统的闭门会议。Anthropic强调这是产品对齐战略的一部分，而非营销动作。\n\n**与会者的感受**：据参与者对《华盛顿邮报》透露，他们\"离开时确信Anthropic的兴趣是真诚的、非表演性\"。\n\n**与行业对比**：OpenAI的\"AI新政\"聚焦经济福祉与权力分配，Meta刚因Muse Spark转向闭源而引发社区信任危机。Anthropic选择\"神学咨询\"作为对齐方法论的一部分，在整个行业中显得极为独特——它试图解决\"谁的价值观嵌入了AI\"这个根本追问，而不是回避。",
+      "key_quotes": [
+        "Could Claude be considered a 'child of God'?",
+        "Participants who spoke to The Washington Post said they left convinced that Anthropic's interest was genuine rather than performative."
+      ],
+      "significance": "这是首家头部AI公司把\"神学与人文咨询\"正式纳入产品对齐流程。Anthropic想解决的是比\"Constitutional AI\"更深的问题：当模型面对人类最深刻的生死议题时，它的默认价值观从哪里来？这既是哲学前沿，也是巨大的公关和政策保险——让Anthropic在保守派和宗教群体中建立独特信任感，直接对冲Altman身陷的\"人设危机\"，也为全球AI治理争议（尤其是在美国宗教保守州和欧洲宗教议题敏感区）争取监管好感度。",
+      "links": [
+        "https://www.washingtonpost.com/technology/2026/04/11/anthropic-christians-claude-morals/",
+        "https://gizmodo.com/how-do-we-make-sure-that-claude-behaves-itself-anthropic-invited-15-christians-for-a-summit-2000743766",
+        "https://premierchristian.news/us/news/article/claude-developer-hosts-christian-leaders-for-ai-summit"
+      ],
+      "original_language": "en",
+      "tags": ["Anthropic", "AI对齐", "道德伦理", "宗教", "价值观"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "7",
+      "title": "Musk诉OpenAI案\"法律伏击\"升级：4月27日开庭前13天，诉讼标的扩至1340亿美元",
+      "source": "OpenAI / 联邦法院",
+      "source_name": "OpenAI (对Musk诉状的回应)",
+      "source_role": "公开声明",
+      "story_key": "openai-musk-lawsuit",
+      "event_date": "2026-04-13",
+      "summary": "OpenAI于4月13日指控Musk在4月27日庭审前两周提出\"不当动议\"，企图对公司实施\"法律伏击\"（legal ambush）。Musk此前已将诉讼标的升级至1340亿美元并要求罢免Altman，成为AI史上最高金额个人诉讼。",
+      "detail": "OpenAI与Elon Musk的诉讼战在4月13日进入最危险的冲刺期。\n\n**OpenAI的公开声明**：公司在4月13日明确指控Musk团队在庭审前两周提出\"一系列不当程序动议\"，目的是\"对被告实施法律伏击\"，要求法官驳回相关动议并如期于4月27日开庭。\n\n**Musk方诉讼策略**：据先前披露，Musk已将诉讼标的金额升级至1340亿美元，并在诉状中新增\"罢免Sam Altman\"的救济请求。这是AI行业史上最高金额的个人诉讼，也让本案从\"创始人间合同纠纷\"演化为\"AI公司治理权之争\"。\n\n**时间表压力**：在庭审开始前两周，Altman住所遭燃烧弹袭击、New Yorker 17000字人格调查、OpenAI发布\"AI新政\"政策文件、公司完成1220亿美元融资——所有重大舆论事件叠加在一起，让这场庭审的政治温度远超法律诉讼本身。\n\n**四条核心证据线**：\n一，Musk方面掌握的早期email与短信，声称能证明OpenAI\"非营利转盈利\"违反初始约定；\n二，Musk方同时指控Altman使用\"反竞争行为\"打压xAI（此前OpenAI已主动要求加州和特拉华州总检察长对Musk进行反向调查）；\n三，Musk将罢免Altman作为救济之一，实际上把本案升级为\"少数股东诉请公司治理变更\"；\n四，OpenAI则强调Musk\"离开公司后索要权利\"的道德瑕疵。\n\n**背景回顾：** Musk于2025年底升级诉讼至1340亿美元并要求罢免Altman；4月6日OpenAI反向要求各州总检察长调查Musk的\"反竞争行为\"。",
+      "key_quotes": [
+        "OpenAI stated that Elon Musk is attempting a 'legal ambush' with improper proposals just weeks before the April 27 trial."
+      ],
+      "significance": "4月27日庭审将成为2026年AI行业最重大的治理事件之一。如果Musk胜诉或获得有利和解，OpenAI可能被迫重新评估从非营利向PBC结构转型的合法性，直接动摇其1220亿美元融资的估值根基；反之，OpenAI胜诉将为整个AI行业\"非营利转盈利\"路径提供判例支持，xAI、Anthropic等也将更有信心继续融资扩张。考虑到Altman正同时面临New Yorker人格调查、家宅袭击、AI新政批评，此案胜负将深度影响他在OpenAI的未来话语权。",
+      "links": [
+        "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
+        "https://techstartups.com/2026/04/13/top-tech-news-today-april-13-2026/",
+        "https://theaiinsider.tech/2026/04/13/openai-faces-escalating-scrutiny-as-sam-altman-responds-to-safety-concerns-and-legal-challenges/"
+      ],
+      "original_language": "en",
+      "tags": ["OpenAI", "Elon Musk", "诉讼", "AI治理", "Sam Altman"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "8",
+      "title": "Unitree把\"4370美元人形机器人\"搬上AliExpress：中国硬件一键触达北美家庭",
+      "source": "Unitree Robotics",
+      "source_name": "王兴兴",
+      "source_role": "Unitree Robotics 创始人兼CEO",
+      "story_key": "unitree-r1-global-launch",
+      "event_date": "2026-04-11",
+      "summary": "Unitree Robotics于4月11日在AliExpress上架R1人形机器人，面向北美、欧洲、日本、新加坡市场，起售价4370美元，这是全球首次把消费级人形机器人以跨境电商方式铺货海外。",
+      "detail": "杭州宇树科技（Unitree Robotics）4月11日通过AliExpress \"Brand+\"品牌频道全球上架旗下R1人形机器人，售价29,900元人民币（约4370美元），目标市场为北美、欧洲、日本、新加坡——这是全球人形机器人首次以跨境电商\"下单即收\"方式进入消费者手中。\n\n**产品参数**：R1身高123cm，重27kg，主打\"为运动而生\"（born for sport），可做侧手翻、躺倒起立、下坡奔跑等运动动作。\n\n**战略意义**：在这次上架前，人形机器人要么以企业B端/科研机构订单销售（Figure、1X），要么以Tesla Optimus的\"预订-等待\"模式发布。Unitree直接把\"跨境电商一键下单+全球退换货\"模式复制到硬件出海路径，绕开传统代理商和经销商，把中国成熟的消费电子物流网络复用到机器人品类。\n\n**Unitree的增长曲线**：2025年出货5,500台，2026年目标10,000~20,000台。Unitree与AgiBot合计占据2025-2026全球人形机器人出货量冠亚军，合计超10,000台。\n\n**与Tesla Optimus的对比**：Optimus定价2-3万美元、2026年量产目标100万台、年底才开售；R1 4370美元、即日起可下单、现货海外仓。Unitree在\"性价比维度\"对Optimus形成实质性竞品压力。\n\n**中国人形机器人IPO浪潮联动**：Unitree本月刚在上交所科创板递交42亿人民币（约6.1亿美元）IPO申请，加上MiniMax与Zhipu已在港交所上市，Biren芯片也在排队，2026年将成为中国\"人形+AI\"双赛道集中上市的元年。",
+      "key_quotes": [
+        "Unitree R1 is priced from 29,900 yuan (US$4,370), 123cm tall and weighs at least 27kg.",
+        "Marketed as 'born for sport', the R1 can do cartwheels, lie down, stand up and even run down a hill."
+      ],
+      "significance": "这是人形机器人\"消费品化\"的拐点事件。历史上，硬件品类从B端走向C端往往是一次数量级的价格压缩和分销模式变革——Unitree一举把\"4370美元、一键跨境下单\"变成标配，直接冲击美国本土的Figure、1X甚至Tesla Optimus的市场预期。叠加中国人形机器人IPO潮与Agibot的10,000台出货，全球人形机器人竞争重心在短短3个月内明显从硅谷转向长三角。对美国AI芯片禁令、机器人关税政策形成新的政治压力。",
+      "links": [
+        "https://interestingengineering.com/ai-robotics/unitree-r1-robot-aliexpress-global-debut",
+        "https://www.scmp.com/tech/article/3349489/chinas-unitree-debut-cheapest-humanoid-robot-globally-alibaba-site-sources",
+        "https://www.gizmochina.com/2026/04/10/unitree-r1-global-launch-online-humanoid-robot/"
+      ],
+      "original_language": "en",
+      "tags": ["Unitree", "人形机器人", "跨境电商", "中国硬件", "消费级AI"],
+      "category": "builders"
+    },
+    {
+      "id": "9",
+      "title": "OpenAI下狠手：4月14日从Codex彻底移除GPT-5系列旧模型，全面让路GPT-5.4",
+      "source": "OpenAI Developers",
+      "source_name": "OpenAI",
+      "source_role": "OpenAI Codex产品团队",
+      "story_key": "openai-codex-gpt5-deprecation",
+      "event_date": "2026-04-14",
+      "summary": "OpenAI于4月14日从Codex（ChatGPT登录版）正式下线gpt-5、gpt-5.1、gpt-5.1-codex全系与gpt-5.2-codex，用户被强制迁移到gpt-5.4/gpt-5.4-mini/gpt-5.3-codex。这是OpenAI模型生命周期管理史上最激进的一次强制替换。",
+      "detail": "OpenAI在Codex变更日志中宣布：自4月14日起，ChatGPT登录用户将不再能在Codex选择gpt-5、gpt-5.1、gpt-5.1-codex、gpt-5.1-codex-mini、gpt-5.1-codex-max、gpt-5.2-codex系列模型——这些型号在4月7日已从模型选择器隐藏，今日完全移除。\n\n**新的可选模型**：gpt-5.4、gpt-5.4-mini、gpt-5.3-codex、gpt-5.2。ChatGPT Pro用户额外获得gpt-5.3-codex-spark。\n\n**开发者的技术影响**：\n一，大量工作流已经绑定到5.1-codex-max（OpenAI自己之前主推的agentic coding模型）的用户，今天必须迁移到5.3-codex或5.4；\n二，内部评测脚本、CI/CD流水线、agent scaffolding依赖旧模型token化、context window或tool use行为的都需要回归测试；\n三，API使用自己Key的用户仍可通过\"model provider\"配置方式保留旧模型访问，但ChatGPT产品端彻底下架。\n\n**商业背景**：Codex上周刚宣布周活破300万，Altman同步重置用量限额。OpenAI以\"成本优化+5.4跃升\"为由加速老模型退役，本质是在Anthropic超越300亿美元年化收入、Cursor/Replit/Devin三面夹击下，把最新的5.4系列能力尽快推向最活跃的开发者群体以巩固心智。\n\n**对照Anthropic**：Anthropic一直标榜\"API向后兼容2年\"，今天的Codex退役对比之下显得突兀。部分开发者社区已开始对OpenAI\"太快弃用模型\"发起不满讨论。",
+      "key_quotes": [
+        "Starting April 7, the model picker no longer shows gpt-5.2-codex, gpt-5.1-codex-mini, gpt-5.1-codex-max, gpt-5.1-codex, gpt-5.1, or gpt-5. On April 14, we'll remove those models from Codex for ChatGPT sign-in.",
+        "Developers who still need one of the older models after the deprecation can use Codex with their own API key or configure a model provider."
+      ],
+      "significance": "这是OpenAI在AI编程市场与Anthropic、Cursor、Devin肉搏的直接武器。强制下架意味着全体Codex用户立刻升级到5.4，短期内可能抬升OpenAI在SWE-Bench/Terminal-Bench类客观指标，但也可能造成企业端因为突发迁移产生反感。\"兼容性-性能\"权衡自此出现明显分化：OpenAI选了性能，Anthropic选了兼容性。这将成为下一批企业选型AI编程模型的关键决策点。",
+      "links": [
+        "https://www.thetechoutlook.com/new-release/software-apps/openai-retiring-older-models-in-codex-from-14th-april/",
+        "https://developers.openai.com/codex/changelog",
+        "https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08"
+      ],
+      "original_language": "en",
+      "tags": ["OpenAI", "Codex", "GPT-5", "模型弃用", "开发者工具"],
+      "category": "product_operators"
+    },
+    {
+      "id": "10",
+      "title": "阿里云领投生数科技2亿美元B轮+Vidu Q3全球首发：中国\"世界模型\"路线正式押注",
+      "source": "@alibaba / 生数科技",
+      "source_name": "ShengShu Technology",
+      "source_role": "清华系多模态AI独角兽",
+      "story_key": "shengshu-vidu-q3-alibaba-world-model",
+      "event_date": "2026-04-13",
+      "summary": "生数科技（ShengShu）于4月13日宣布完成20亿人民币B轮融资（约2.9亿美元），阿里云领投，同日全球首发Vidu Q3参考视频生成模型，同步推进\"世界生成模型（WGM）\"与\"世界行动模型（WAM）\"双路线。",
+      "detail": "清华系多模态AI独角兽生数科技（ShengShu Technology）4月13日双线官宣：完成20亿人民币B轮融资（约2.9~2.93亿美元），并全球首发Vidu Q3 Reference-to-Video模型。\n\n**投资人阵容**：\n- 领投方：阿里云（Alibaba Cloud）——罕见由阿里云作为产业方直接领投而非仅做基石投资\n- 新进入：安东海棠、中国互联网投资基金、好未来（TAL Education）、Luminous Ventures\n- 老股东继续跟投：LINK-X CAPITAL、Delta Capital、百度风投\n\n**Vidu Q3技术亮点**：\n- 参考视频生成（Reference-to-Video）：用户提供参考图+prompt，生成风格和主体一致的视频\n- 扩展视觉+音频能力，在一条管线内统一音画输出\n- 主打\"品牌+广告+电影预演\"场景，已接入多家中国短视频平台与影视公司\n\n**战略双轮**：生数此轮资金将同时推进\"World Generation Model (WGM)\"与\"World Action Model (WAM)\"：\n- WGM负责\"数字世界内容\"生成（Vidu系列）\n- WAM负责\"物理世界交互\"——即机器人/具身智能\n两者目标是在统一架构下完成\"理解→预测→行动\"闭环，这与Yann LeCun（AMI Labs）的世界模型路线同构，但生数更早拿到了大规模商业化现金流。\n\n**中国AI IPO与融资联动**：这轮融资发生在Zhipu/MiniMax赴港上市、Unitree递交科创板招股书的同一周，叠加全球AI融资Q1同比翻倍（CB Insights）——中国AI厂商从\"基础模型追赶\"转向\"世界模型+机器人基础设施\"的转型已成主旋律。",
+      "key_quotes": [
+        "ShengShu raised RMB 2 billion in its Series B financing round, led by Alibaba Cloud.",
+        "The funding will support ShengShu's broader vision of building a general world model that bridges the digital and physical worlds."
+      ],
+      "significance": "这是中国AI生态系统用\"资本+算力+应用场景\"三位一体押注世界模型的标志事件。阿里云直接领投而非仅做云服务商，意味着阿里把生数绑定为\"自家世界模型技术栈的外部王牌\"，对标微软-OpenAI的闭环关系。对Yann LeCun AMI Labs也是最直接的竞争压力：生数在中国用更低成本+真实应用场景数据，把世界模型先跑通商业化。短期内将加速中国机器人厂商（尤其是具身智能方向）与世界模型的协同落地。",
+      "links": [
+        "https://www.cnbc.com/2026/04/10/alibaba-cloud-invests-world-model-ai-shengshu-vidu.html",
+        "https://www.prnewswire.com/news-releases/shengshu-launches-vidu-q3-reference-to-video-with-expanded-visual-and-audio-capabilities-302740489.html",
+        "https://letsdatascience.com/news/alibaba-invests-in-shengshus-general-world-model-e58eecda"
+      ],
+      "original_language": "en",
+      "tags": ["生数科技", "阿里云", "世界模型", "Vidu", "中国AI"],
+      "category": "builders"
+    },
+    {
+      "id": "11",
+      "title": "Fortune深度：中国进入\"token经济\"元年，AI IPO潮+Agent狂热碾压美国",
+      "source": "Fortune",
+      "source_name": "Fortune Magazine",
+      "source_role": "产业深度报道",
+      "story_key": "china-token-economy-ai-ipo-boom",
+      "event_date": "2026-04-12",
+      "summary": "Fortune 4月12日深度报道称中国AI进入\"token经济\"元年：港股AI IPO五年新高，MiniMax/Zhipu/Biren相继上市，Unitree递交6.1亿美元IPO申请，87%中国受访者信任AI（美国仅32%）。",
+      "detail": "Fortune 4月12日推出深度专题《Blazing hot IPOs, an AI agent craze, and a new word for 'token'》，用\"token经济\"（token economy）这一新词概括2026年中国AI产业的结构性跃迁。\n\n**核心数据**：\n一，**港股AI IPO五年新高**：Zhipu AI、MiniMax、Biren（壁仞芯片）相继上市，港交所AI板块一季度总募资超过2021年全年；\n二，**Unitree递交科创板IPO**：拟募资42亿人民币（约6.1亿美元），估值直逼\"中国Tesla Optimus对标物\"；\n三，**MiniMax 2025年收入7900万美元、同比+159%**，70%收入来自海外市场——这是中国AI模型首次出现\"海外收入跑赢本土\"的标志性案例；\n四，**Moonshot AI估值180亿美元**，主要由中国本土投资者支持；\n五，**信任差**：Edelman调查显示87%中国受访者信任AI，而美国仅32%——差距翻了近3倍。\n\n**\"Token经济\"的含义**：中国从\"追赶OpenAI\"的模型竞赛转向\"开源模型 + 实体应用\"的双轮战略。具体表现为：（1）Zhipu、Qwen、DeepSeek持续以Apache/商业友好许可证释放开源模型；（2）政策扶持\"token计价\"的算力消费端定价；（3）机器人、自动驾驶、AI药物研发快速吸收token作为\"生产要素\"。\n\n**物理AI的超车**：Fortune指出中国在\"物理AI\"赛道（机器人、制造、能源）借助供应链优势大幅领先——Unitree和AgiBot的出货量合计占2025年全球87%。Andreessen Horowitz合伙人Martin Casado在社交平台称中国\"机器人+AI\"的耦合速度已经\"不可逆地超越硅谷\"。\n\n**对美方的压力**：OpenAI完成1220亿美元融资、Altman遭遇New Yorker人格危机，美国AI叙事正处于\"估值狂飙+治理脆弱\"的双矛盾窗口期。Fortune暗示，如果美国继续在出口管制与监管上自缚，AI产业话语权转移可能在2-3年内发生。",
+      "key_quotes": [
+        "China's goal is now to build a 'token economy,' backed by a proliferation of efficient, open-source models and a push into real-world AI applications.",
+        "An Edelman survey from October found that 87% of Chinese respondents trust AI, against 32% in the U.S.",
+        "MiniMax reported $79 million in 2025 revenue, a 159% year-on-year jump, with 70% coming from overseas markets."
+      ],
+      "significance": "\"token经济\"是过去两年中国AI产业最具概括力的叙事框架——它把\"开源模型+物理AI+数据本地化+消费级信任\"整合成一个经济体级别的AI基建。美中在AI产业的分工正从\"模型对抗\"演化为\"经济体对抗\"。对美国AI公司而言，这意味着未来两年将面临中国厂商在海外市场（尤其是东南亚、中东、非洲）以更低成本、更高信任度的模型与机器人产品的全面渗透。Fortune把它定义为\"2026的转折点\"并不为过。",
+      "links": [
+        "https://fortune.com/2026/04/12/china-token-economy-ai-boom-big-tech-startups/",
+        "https://restofworld.org/2026/zhipu-ai-minimax-ipo/",
+        "https://www.cnbc.com/2026/01/08/china-ai-tiger-goes-ipo-zhipu-hong-kong-debut-openai-knowledge-atlas-hsi-hang-seng-listing.html"
+      ],
+      "original_language": "en",
+      "tags": ["中国AI", "IPO", "token经济", "开源模型", "美中竞争"],
+      "category": "news"
+    },
+    {
+      "id": "12",
+      "title": "YC合伙人警告：AI种子轮资本\"远远不够\"，巨头掠夺不成比例的融资份额",
+      "source": "@garrytan / YC",
+      "source_name": "Ankit Gupta",
+      "source_role": "Y Combinator General Partner",
+      "story_key": "yc-ai-seed-capital-warning",
+      "event_date": "2026-04-13",
+      "summary": "YC合伙人Ankit Gupta在4月13日的Startup School活动上警告：AI种子期资本对创业者\"远远不够\"，OpenAI的1220亿、Anthropic的300亿收入正把绝大多数AI资本吸向头部巨头，YC W26/Spring26 批次正把近50%席位押给AI Agent创业公司对冲。",
+      "detail": "4月13日YC Startup School上，Y Combinator合伙人Ankit Gupta抛出对\"AI融资结构性失衡\"的警告。\n\n**核心观点**：\n- AI领域的资本高度集中：2026 Q1全球AI融资同比翻倍到$300B，但其中OpenAI一家就吞下1220亿；\n- 种子期AI创业者面临\"单轮百亿估值\"巨头的\"虹吸效应\"，拿到500万-2000万美元种子轮并不能支撑训练/推理成本；\n- 巨头给API提供者施加\"token成本下沉+利润率挤压\"，创业公司很难在纯模型层建立壁垒。\n\n**YC的对冲策略**：\n1. **比重**：YC Spring26批次中，AI Agent公司占比接近50%——这是YC历史上最高比例的单一垂直；\n2. **模式**：YC不再鼓励\"自训基础模型\"，而是推动创业公司做\"Agent编排+领域深度+数据护城河\"；\n3. **金额**：YC标准投资额从25万升到50万美元，以匹配AI创业的算力与推理成本；\n4. **重点垂直**：医疗、金融服务占到本批次Agentic AI公司的19%。\n\n**YC CEO Garry Tan的最新态度**：本月早些时候Tan公开发帖称\"AI Doomers需要重新审视自己的价值观\"，并在SXSW公开承认\"自己因为AI agents激动到睡不着\"。YC把\"agent派\"的乐观情绪当作招牌风格，与Yann LeCun的\"LLM路线质疑\"形成鲜明对立。\n\n**市场对比**：Perplexity的\"Billion Dollar Build\"挑战赛（本轮briefing#3）把100万美元种子轮+100万美元算力信用直接搬上桌。Perplexity等平台方开始跟YC抢创业者——在AI时代，\"有算力的平台\"正在挑战\"有钱的加速器\"。",
+      "key_quotes": [
+        "Seed-stage capital in AI is not enough, large companies amassing disproportionate funding.",
+        "Y Combinator is going all-in on AI agents, making up nearly 50% of latest batch."
+      ],
+      "significance": "这是AI时代\"加速器vs平台\"商业模式之争的一个拐点信号。YC作为硅谷最老牌的创业孵化器，正在公开承认\"单纯资金+mentorship\"已不足以支撑AI创业者——需要与云厂商或AI平台深度绑定。对创业者而言，\"拿谁的钱\"开始比\"拿多少\"更重要。对Perplexity、Replit、Vercel等\"平台系孵化器\"是利好；对Sequoia、Andreessen等传统VC则是挑战——后者必须找到\"算力折扣+模型接入优先\"的方式与创业者重建杠杆。",
+      "links": [
+        "https://startupnews.fyi/2026/04/13/yc-startup-school-seed-stage-capital-in-ai-not-enough-large-companies-amassing-disproportionate-funding-says-general-partner-ankit-gupta/",
+        "https://pitchbook.com/news/articles/y-combinator-is-going-all-in-on-ai-agents-making-up-nearly-50-of-latest-batch",
+        "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/"
+      ],
+      "original_language": "en",
+      "tags": ["YC", "AI创业", "融资", "Agent", "Garry Tan"],
+      "category": "investors_curators"
+    }
+  ]
+}

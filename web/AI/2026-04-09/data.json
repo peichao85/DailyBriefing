@@ -17,7 +17,15 @@
         "https://www.eweek.com/news/meta-ai-models-alexandr-wang-launch/"
       ],
       "image": "",
-      "tags": ["Meta", "Muse Spark", "Alexandr Wang", "前沿模型", "闭源"]
+      "tags": [
+        "Meta",
+        "Muse Spark",
+        "Alexandr Wang",
+        "前沿模型",
+        "闭源"
+      ],
+      "story_key": "meta-muse-spark-launch",
+      "event_date": "2026-04-08"
     },
     {
       "id": "2",
@@ -36,7 +44,15 @@
         "https://primeaicenter.com/gpt-5-5-review/"
       ],
       "image": "",
-      "tags": ["OpenAI", "GPT-5.5", "Spud", "谄媚", "模型发布"]
+      "tags": [
+        "OpenAI",
+        "GPT-5.5",
+        "Spud",
+        "谄媚",
+        "模型发布"
+      ],
+      "story_key": "openai-spud-next-model",
+      "event_date": "2026-04-08"
     },
     {
       "id": "3",
@@ -54,7 +70,14 @@
         "https://www.geekwire.com/2026/microsoft-releases-new-ai-models-to-further-expand-beyond-openai/"
       ],
       "image": "",
-      "tags": ["Microsoft", "Scaling Laws", "算力", "超级智能"]
+      "tags": [
+        "Microsoft",
+        "Scaling Laws",
+        "算力",
+        "超级智能"
+      ],
+      "story_key": "suleyman-scaling-not-dead",
+      "event_date": "2026-04-08"
     },
     {
       "id": "4",
@@ -73,7 +96,15 @@
         "https://medium.com/@david.j.sea/anthropic-just-passed-openai-in-revenue-here-is-why-it-matters-e3dd9bb04069"
       ],
       "image": "",
-      "tags": ["Anthropic", "收入", "OpenAI", "企业AI", "融资"]
+      "tags": [
+        "Anthropic",
+        "收入",
+        "OpenAI",
+        "企业AI",
+        "融资"
+      ],
+      "story_key": "anthropic-revenue-surpasses-openai",
+      "event_date": "2026-04-08"
     },
     {
       "id": "5",
@@ -92,7 +123,14 @@
         "https://fortune.com/2026/03/21/cursor-ceo-michael-truell-ai-coding-claude-anthropic-venture-capital/"
       ],
       "image": "",
-      "tags": ["Cursor", "AI编程", "代理编排", "vibe coding"]
+      "tags": [
+        "Cursor",
+        "AI编程",
+        "代理编排",
+        "vibe coding"
+      ],
+      "story_key": "cursor-3-agents-window",
+      "event_date": "2026-04-08"
     },
     {
       "id": "6",
@@ -111,7 +149,15 @@
         "https://x.com/ylecun/status/2031268686984527936"
       ],
       "image": "",
-      "tags": ["AMI Labs", "Yann LeCun", "世界模型", "JEPA", "融资"]
+      "tags": [
+        "AMI Labs",
+        "Yann LeCun",
+        "世界模型",
+        "JEPA",
+        "融资"
+      ],
+      "story_key": "lecun-ami-labs-world-models",
+      "event_date": "2026-03-09"
     },
     {
       "id": "7",
@@ -129,7 +175,14 @@
         "https://www.analyticsvidhya.com/blog/2026/04/llm-wiki-by-andrej-karpathy/"
       ],
       "image": "",
-      "tags": ["Karpathy", "LLM Wiki", "RAG", "知识管理"]
+      "tags": [
+        "Karpathy",
+        "LLM Wiki",
+        "RAG",
+        "知识管理"
+      ],
+      "story_key": "karpathy-llm-wiki",
+      "event_date": "2026-04-03"
     },
     {
       "id": "8",
@@ -145,7 +198,14 @@
         "https://www.japantimes.co.jp/business/2026/04/07/tech/openai-anthropic-google-china-copy/"
       ],
       "image": "",
-      "tags": ["模型蒸馏", "中美AI竞赛", "知识产权", "DeepSeek"]
+      "tags": [
+        "模型蒸馏",
+        "中美AI竞赛",
+        "知识产权",
+        "DeepSeek"
+      ],
+      "story_key": "frontier-labs-anti-distillation",
+      "event_date": "2026-04-06"
     },
     {
       "id": "9",
@@ -161,7 +221,15 @@
         "https://www.techzine.eu/news/infrastructure/139653/nvidias-groq-3-lpu-targets-agentic-ai-inference-at-gtc-2026/"
       ],
       "image": "",
-      "tags": ["NVIDIA", "Groq", "LPU", "推理", "收购"]
+      "tags": [
+        "NVIDIA",
+        "Groq",
+        "LPU",
+        "推理",
+        "收购"
+      ],
+      "story_key": "nvidia-acquires-groq",
+      "event_date": "2026-03-18"
     },
     {
       "id": "10",
@@ -180,7 +248,15 @@
         "https://x.com/amasad/status/2031755113694679094"
       ],
       "image": "",
-      "tags": ["Replit", "Agent 4", "Canvas", "vibe coding", "融资"]
+      "tags": [
+        "Replit",
+        "Agent 4",
+        "Canvas",
+        "vibe coding",
+        "融资"
+      ],
+      "story_key": "replit-agent4-funding",
+      "event_date": "2026-04-08"
     },
     {
       "id": "11",
@@ -198,7 +274,14 @@
         "https://winbuzzer.com/2026/03/24/lovable-hunts-acquisitions-vibe-coding-land-grab-xcxwbn/"
       ],
       "image": "",
-      "tags": ["Lovable", "vibe coding", "增长", "收购"]
+      "tags": [
+        "Lovable",
+        "vibe coding",
+        "增长",
+        "收购"
+      ],
+      "story_key": "lovable-vibe-coding-growth",
+      "event_date": "2026-03-24"
     },
     {
       "id": "12",
@@ -214,7 +297,15 @@
         "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html"
       ],
       "image": "",
-      "tags": ["Elon Musk", "OpenAI", "诉讼", "Grok", "xAI"]
+      "tags": [
+        "Elon Musk",
+        "OpenAI",
+        "诉讼",
+        "Grok",
+        "xAI"
+      ],
+      "story_key": "openai-musk-lawsuit",
+      "event_date": "2026-04-07"
     },
     {
       "id": "13",
@@ -233,7 +324,15 @@
         "https://x.com/DrJimFan/status/2024895359236051274"
       ],
       "image": "",
-      "tags": ["NVIDIA", "机器人", "世界模型", "CaP-X", "DreamDojo"]
+      "tags": [
+        "NVIDIA",
+        "机器人",
+        "世界模型",
+        "CaP-X",
+        "DreamDojo"
+      ],
+      "story_key": "nvidia-cap-x-dreamdojo",
+      "event_date": "2026-04-07"
     },
     {
       "id": "14",
@@ -249,7 +348,14 @@
         "https://www.lennysnewsletter.com/p/how-devin-replaces-your-junior-engineers"
       ],
       "image": "",
-      "tags": ["Cognition", "Devin", "AI编程", "软件工程"]
+      "tags": [
+        "Cognition",
+        "Devin",
+        "AI编程",
+        "软件工程"
+      ],
+      "story_key": "cognition-devin-no-handwritten-code",
+      "event_date": "2026-03-24"
     },
     {
       "id": "15",
@@ -265,7 +371,14 @@
         "https://www.helpnetsecurity.com/2026/04/07/github-copilot-rubber-duck-cross-model-review/"
       ],
       "image": "",
-      "tags": ["GitHub", "Copilot", "数据隐私", "训练数据"]
+      "tags": [
+        "GitHub",
+        "Copilot",
+        "数据隐私",
+        "训练数据"
+      ],
+      "story_key": "github-copilot-training-data",
+      "event_date": "2026-04-07"
     }
   ]
 }

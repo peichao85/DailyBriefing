@@ -14,8 +14,15 @@
         "Claude 4.5 代表了我们在 AI 安全与能力平衡方面的最新成果，我们相信这将重新定义人机协作的边界。"
       ],
       "significance": "这是 Anthropic 迄今为止最强大的模型系列，直接挑战 GPT-5 在多个基准测试上的领先地位，预示着大模型竞争进入新阶段。",
-      "links": ["https://www.anthropic.com"],
-      "tags": ["模型发布", "Anthropic"]
+      "links": [
+        "https://www.anthropic.com"
+      ],
+      "tags": [
+        "模型发布",
+        "Anthropic"
+      ],
+      "story_key": "anthropic-claude45-release",
+      "event_date": "2026-04-07"
     },
     {
       "id": "2",
@@ -30,7 +37,12 @@
       ],
       "significance": "Karpathy 作为 AI 领域最具影响力的声音之一，其观点往往预示着行业趋势。这一判断与近期多项调查数据吻合。",
       "links": [],
-      "tags": ["AI编程", "行业趋势"]
+      "tags": [
+        "AI编程",
+        "行业趋势"
+      ],
+      "story_key": "ai-coding-handwriting-end",
+      "event_date": "2026-04-07"
     },
     {
       "id": "3",
@@ -44,7 +56,13 @@
       ],
       "significance": "这是 AI IDE 领域首次出现成熟的团队协作方案，可能重新定义软件团队的协作方式。",
       "links": [],
-      "tags": ["Cursor", "AI编程", "协作"]
+      "tags": [
+        "Cursor",
+        "AI编程",
+        "协作"
+      ],
+      "story_key": "cursor-team-collaboration",
+      "event_date": "2026-04-07"
     },
     {
       "id": "4",
@@ -56,7 +74,13 @@
       "key_quotes": [],
       "significance": "这标志着 OpenAI 在 AI 安全治理方面的重要转向，可能影响整个行业的安全标准制定。",
       "links": [],
-      "tags": ["OpenAI", "AI安全", "治理"]
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "治理"
+      ],
+      "story_key": "openai-safety-team-restructure",
+      "event_date": "2026-04-07"
     },
     {
       "id": "5",
@@ -70,7 +94,13 @@
       ],
       "significance": "小型高效模型的持续突破正在推动 AI 民主化，让更多开发者和场景能够使用先进的 AI 能力。",
       "links": [],
-      "tags": ["开源", "多模态", "边缘计算"]
+      "tags": [
+        "开源",
+        "多模态",
+        "边缘计算"
+      ],
+      "story_key": "huggingface-smolvlm-2b",
+      "event_date": "2026-04-07"
     },
     {
       "id": "6",
@@ -82,7 +112,13 @@
       "key_quotes": [],
       "significance": "Agent 框架的选择正在成为 AI 工程领域最重要的技术决策之一，这场辩论的走向将影响未来一年的开发实践。",
       "links": [],
-      "tags": ["Agent", "框架", "热门趋势"]
+      "tags": [
+        "Agent",
+        "框架",
+        "热门趋势"
+      ],
+      "story_key": "x-agent-framework-debate",
+      "event_date": "2026-04-07"
     }
   ]
 }

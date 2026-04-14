@@ -1,13 +1,66 @@
 {
   "date": "2026-04-11",
   "category": "AI",
-  "title": "AI基础设施大洗牌：CoreWeave收割四大巨头，Agent即服务时代正式到来",
+  "researched_at": "2026-04-11T12:00:00Z",
+  "sources_checked": [
+    "@sama",
+    "@gdb",
+    "@demishassabis",
+    "@mustafasuleyman",
+    "@ilyasut",
+    "@DanielaAmodei",
+    "@elonmusk",
+    "@aidangomez",
+    "@alexandr_wang",
+    "@AravSrinivas",
+    "@kevinweil",
+    "@mikeyk",
+    "@jasonfried",
+    "@levie",
+    "@mntruell",
+    "@ryolu_",
+    "@antonosika",
+    "@levelsio",
+    "@joshm",
+    "@rauchg",
+    "@JeffDean",
+    "@ylecun",
+    "@geoffreyhinton",
+    "@AndrewYNg",
+    "@OriolVinyalsML",
+    "@soumithchintala",
+    "@ShaneLegg",
+    "@karpathy",
+    "@ctnzr",
+    "@jackclarkSF",
+    "@julien_c",
+    "@RichardSocher",
+    "@c_valenzuelab",
+    "@alexgraveley",
+    "@amasad",
+    "@ScottWu46",
+    "@drorwe",
+    "@ivanhzhao",
+    "@alighodsi",
+    "@JonathanRoss321",
+    "@lexfridman",
+    "@lennysan",
+    "@naval",
+    "@garrytan",
+    "@pmarca",
+    "@paulg",
+    "@DrJimFan",
+    "@rasbt",
+    "@hwchase17",
+    "@polynoamial"
+  ],
   "items": [
     {
       "id": "1",
       "title": "CoreWeave拿下Anthropic大单，四大AI巨头云基础设施格局已定",
       "source": "CoreWeave/Anthropic",
       "source_name": "CoreWeave & Anthropic",
+      "source_role": "AI云基础设施 & AI模型公司",
       "summary": "CoreWeave宣布与Anthropic达成多年期协议，为Claude模型提供算力支持。至此，全球四大AI模型开发商（Anthropic、OpenAI、Google、Meta）均已成为CoreWeave客户。",
       "detail": "4月10日，CoreWeave宣布与Anthropic签署多年期云基础设施协议，Anthropic将在CoreWeave平台上以生产规模运行Claude模型的工作负载。这一消息推动CoreWeave股价大涨约13%。\n\n值得注意的是，这份协议距离CoreWeave宣布与Meta的210亿美元扩展协议仅隔一天。CoreWeave表示，随着Anthropic的加入，全球排名前十的AI模型供应商中已有九家在使用其平台，其中包括四大AI模型开发商——Anthropic、OpenAI、Google和Meta。\n\n这标志着AI基础设施市场正在快速整合。CoreWeave从一家加密货币挖矿公司转型为AI云服务商，如今已成为连接算力与AI模型的关键枢纽。基础设施的分配将直接影响各家AI公司的训练和推理能力。",
       "key_quotes": [
@@ -17,13 +70,16 @@
       "links": [
         "https://www.cnbc.com/2026/04/10/coreweave-anthropic-claude-ai-deal.html"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "infrastructure",
         "cloud",
         "Anthropic",
         "CoreWeave"
       ],
+      "category": "news",
       "story_key": "coreweave-anthropic-cloud-deal",
       "event_date": "2026-04-10"
     },
@@ -32,7 +88,8 @@
       "title": "Anthropic发布Claude Managed Agents，企业级AI Agent基础设施正式上线",
       "source": "@DanielaAmodei",
       "source_name": "Anthropic",
-      "summary": "Anthropic推出Claude Managed Agents公测版，为企业大规模部署AI Agent提供安全沙箱、长时间运行会话和工具编排等核心能力，Notion、Rakuten、Asana等已率先接入。",
+      "source_role": "AI安全公司",
+      "summary": "Anthropic于4月8日发布Claude Managed Agents，这是一套为企业大规模部署AI Agent而设计的云端基础设施服务，Notion、Rakuten、Asana等公司已率先接入。",
       "detail": "4月8日，Anthropic正式推出Claude Managed Agents公测版，这是一项全新的API服务，旨在解决企业部署AI Agent时面临的基础设施难题。该服务提供安全沙箱、长时间运行会话、权限管理、工具编排和状态追踪等核心能力。\n\n传统上，企业要部署AI Agent需要自建复杂的基础设施层，包括沙箱隔离、错误恢复、状态管理等。Managed Agents将这些能力封装为标准API，开发者只需关注Agent的业务逻辑。\n\n首批客户包括Notion、Rakuten和Asana等知名科技公司，已有多家客户将基于该服务构建的AI Agent集成到其产品中。定价为标准Claude API token费率加上每个会话小时0.08美元。\n\n同日，Anthropic还宣布了Claude Cowork企业功能的扩展，进一步完善其企业级产品矩阵。",
       "key_quotes": [
         "Managed Agents absorb infrastructure work — sandboxing, permissions, state management, and error recovery"
@@ -43,12 +100,14 @@
       ],
       "image": "img/managed-agents-arch.jpg",
       "image_type": "chart",
+      "original_language": "en",
       "tags": [
         "Anthropic",
         "agents",
         "enterprise",
         "infrastructure"
       ],
+      "category": "product_operators",
       "story_key": "anthropic-managed-agents",
       "event_date": "2026-04-08"
     },
@@ -57,7 +116,8 @@
       "title": "Meta发布Muse Spark模型，Alexandr Wang领导的超级智能实验室首秀",
       "source": "@alexandr_wang",
       "source_name": "Alexandr Wang",
-      "summary": "Meta推出Muse Spark，Alexandr Wang加入Meta后主导开发的首个AI模型，原生支持多模态推理、工具调用和多Agent协作，标志着Meta AI战略的重大转向。",
+      "source_role": "Meta超级智能实验室负责人（前Scale AI CEO）",
+      "summary": "Meta推出Muse Spark，这是Alexandr Wang加入Meta后领导开发的首个AI模型。该模型原生支持多模态推理、工具调用和多Agent协作，标志着Meta AI战略的重大转向。",
       "detail": "4月8日，Meta正式发布Muse Spark（代号Avocado），这是Meta超级智能实验室（Meta Superintelligence Labs）推出的首个Muse系列模型。作为前Scale AI CEO Alexandr Wang加入Meta后主导开发的第一款模型，Muse Spark代表了Meta AI战略的全新方向。\n\nMuse Spark是一个原生多模态推理模型，支持语音、文本和图像输入，具备工具调用和多Agent协作能力。Meta还推出了Contemplating模式，通过编排多个Agent并行推理来处理复杂问题，直接对标Google的Gemini Deep Think和OpenAI的GPT Pro。\n\n与Meta此前的Llama系列不同，Muse Spark目前不是开源模型，而是主要作为Meta内部工具使用，将逐步部署到WhatsApp、Instagram、Facebook、Messenger和AI眼镜等平台。\n\nMeta在最新财报中披露，2026年AI相关资本支出将达到1150亿至1350亿美元，几乎是去年的两倍。",
       "key_quotes": [
         "Meta debuted its first major artificial intelligence model since the costly hiring of Scale AI's Alexandr Wang"
@@ -67,13 +127,16 @@
         "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
         "https://ai.meta.com/blog/introducing-muse-spark-msl/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Meta",
         "Muse Spark",
         "multimodal",
         "Alexandr Wang"
       ],
+      "category": "frontier_leaders",
       "story_key": "meta-muse-spark-launch",
       "event_date": "2026-04-08"
     },
@@ -82,6 +145,7 @@
       "title": "OpenAI推出$100/月ChatGPT Pro计划，AI编码助手价格战全面打响",
       "source": "@sama",
       "source_name": "Sam Altman",
+      "source_role": "OpenAI CEO",
       "summary": "OpenAI在$20和$200之间新增$100/月的ChatGPT Pro订阅层级，主打5倍Codex用量，直接对标Anthropic Claude Code的定价策略。",
       "detail": "4月9日，OpenAI宣布推出全新的ChatGPT Pro计划，定价100美元/月，精准填补了此前Plus（20美元/月）和Pro（200美元/月）之间的巨大价格空白。\n\n新的Pro计划提供Plus计划5倍的Codex使用量，并作为限时促销，在5月31日前提供高达10倍的Plus用量。这一定价策略与Anthropic的Claude Max 5x计划（同为100美元/月）形成直接竞争。\n\n此举的背景是OpenAI Codex的爆发式增长——在4月8日刚刚突破300万周活用户，较三个月前增长5倍。Sam Altman宣布每增长100万用户就重置一次使用限额，直到达到1000万用户。\n\nOpenAI显然意识到AI编码助手已经成为最重要的增长引擎，通过灵活的定价策略来争夺开发者市场。",
       "key_quotes": [
@@ -92,7 +156,9 @@
       "links": [
         "https://www.cnbc.com/2026/04/09/openai-chatgpt-pro-subscription-anthropic-claude-code.html"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "OpenAI",
         "ChatGPT",
@@ -100,6 +166,7 @@
         "pricing",
         "coding"
       ],
+      "category": "product_operators",
       "story_key": "openai-chatgpt-pro-100",
       "event_date": "2026-04-09"
     },
@@ -108,7 +175,8 @@
       "title": "xAI起诉科罗拉多州，AI言论自由之争首次进入联邦法院",
       "source": "@elonmusk",
       "source_name": "Elon Musk / xAI",
-      "summary": "xAI于4月10日起诉科罗拉多州，要求阻止该州AI反歧视法生效，认为其限制了Grok聊天机器人的「言论自由」和「真理追求」目标。",
+      "source_role": "xAI创始人",
+      "summary": "Elon Musk旗下xAI公司于4月10日起诉科罗拉多州，要求阻止该州AI反歧视法生效，认为其限制了Grok聊天机器人的「言论自由」和「真理追求」目标。",
       "detail": "4月10日，xAI向科罗拉多州联邦地方法院提起诉讼，要求阻止该州参议院法案24-205的执行。该法案定于6月30日生效，要求「高风险」AI系统的开发者在就业、住房、教育、医疗和金融服务等领域保护消费者免受「算法歧视」。\n\nxAI在诉状中提出了第一修正案（言论自由）抗辩，主张该法案「禁止AI系统开发者产生科罗拉多州不喜欢的言论，同时迫使他们将言论调整为符合国家强制的正统观念」。xAI声称该法律将迫使其改变Grok聊天机器人的行为，使其「符合一种有争议的、高度政治化的观点」。\n\n这起诉讼是AI公司首次以言论自由为由在联邦法院挑战州级AI监管法案，可能为AI行业的监管框架树立重要先例。",
       "key_quotes": [
         "Its provisions prohibit developers of AI systems from producing speech that the State of Colorado dislikes"
@@ -117,13 +185,16 @@
       "links": [
         "https://thehill.com/policy/technology/5825076-xai-sues-colorado-ai-regulation/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "xAI",
         "regulation",
         "free speech",
         "legal"
       ],
+      "category": "trending",
       "story_key": "xai-sues-colorado-ai-law",
       "event_date": "2026-04-10"
     },
@@ -132,7 +203,8 @@
       "title": "Sam Altman发布AI时代「新政」蓝图：全民财富基金与自动安全网",
       "source": "@sama",
       "source_name": "Sam Altman",
-      "summary": "OpenAI发布13页政策白皮书，提出堪比罗斯福新政的经济改革方案，包括公共财富基金让每位公民分享AI红利，以及AI取代率达阈值时自动触发的社会保障机制。",
+      "source_role": "OpenAI CEO",
+      "summary": "OpenAI发布13页政策白皮书，提出堪比罗斯福新政的经济改革方案，包括建立公共财富基金让每位美国公民分享AI红利，以及当AI取代率达到预设阈值时自动触发的社会保障机制。",
       "detail": "OpenAI发布了题为《智能时代的产业政策：以人为本的构想》的13页政策白皮书，阐述了一套全面的经济改革蓝图。Sam Altman表示，AI超级智能已经近在咫尺且破坏力巨大，美国需要一个与20世纪初进步主义时代和罗斯福新政同等规模的新社会契约。\n\n白皮书的核心提案包括：\n1. 公共财富基金：让每位美国公民直接获得AI驱动经济增长的股份\n2. 自动化劳动税：对取代人类劳动的自动化系统征税\n3. 自动触发安全网：当AI就业替代指标达到预设阈值时，公共支持的临时增加将自动启动\n4. 大多数美国人免除所得税：Altman与风投Vinod Khosla一致认为，对10万美元以下收入免征所得税\n\n与此同时，OpenAI CFO Sarah Friar据报道对Altman的5年6000亿美元支出计划和2026年第四季度IPO时间表提出了内部质疑。",
       "key_quotes": [
         "AI superintelligence is so close and disruptive that America needs a new social contract on a similar scale to the Progressive Era and FDR's New Deal"
@@ -142,13 +214,16 @@
         "https://www.axios.com/2026/04/06/behind-the-curtain-sams-superintelligence-new-deal",
         "https://fortune.com/2026/04/07/sam-altman-vinod-khosla-openai-tax-code-american-income-tax-100k/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "OpenAI",
         "policy",
         "economy",
         "Sam Altman"
       ],
+      "category": "frontier_leaders",
       "story_key": "openai-ai-new-deal-policy",
       "event_date": "2026-04-06"
     },
@@ -157,7 +232,8 @@
       "title": "Cursor 3.0发布BugBot自我进化能力，AI代码审查进入自主学习时代",
       "source": "@mntruell",
       "source_name": "Michael Truell",
-      "summary": "Cursor发布重大更新，BugBot支持从PR反馈中自主学习规则并实时自我改进，MCP集成，创下最高缺陷发现率。Cursor年化收入已突破20亿美元。",
+      "source_role": "Cursor CEO",
+      "summary": "Cursor发布重大更新，BugBot现已支持从PR反馈中自主学习规则，实时自我改进，MCP集成，并创下最高缺陷发现率。Cursor年化收入已突破20亿美元。",
       "detail": "4月8日，Cursor发布了一系列重大产品更新。最引人注目的是BugBot的全面升级：\n\n1. 自主学习规则（Learned Rules）：BugBot能从真实PR反馈中学习——将开发者的反应、评论和人工审查者的意见转化为规则，持续改进未来的代码审查质量\n2. 实时自我改进：系统能根据使用反馈在运行中优化自身表现\n3. MCP支持：集成Model Context Protocol，扩展工具调用能力\n4. BugBot Autofix改进：自动修复能力显著增强\n5. 创历史最高解决率：缺陷检测准确率达到新高\n\n此前，Cursor在4月2日推出了3.0版本，引入了Background Agents、Cloud Agents和Composer 2.0，将Cursor从智能自动补全工具升级为能够跨整个代码库执行多步任务的自主编码助手。\n\n值得关注的是，Cursor的年化收入在三个月内翻倍至超过20亿美元。Fortune在3月的深度报道标题《Cursor的十字路口》却指出了AI编码助手面临的不确定未来。",
       "key_quotes": [
         "BugBot learned rules let the AI code review tool learn from real PR feedback and turn developer reactions into rules that improve future reviews"
@@ -167,13 +243,16 @@
         "https://cursor.com/changelog",
         "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Cursor",
         "coding",
         "BugBot",
         "agents"
       ],
+      "category": "builders",
       "story_key": "cursor-3-agents-window",
       "event_date": "2026-04-08"
     },
@@ -182,7 +261,8 @@
       "title": "Yann LeCun离开Meta创办AMI Labs，获10亿美元融资打造「世界模型」",
       "source": "@ylecun",
       "source_name": "Yann LeCun",
-      "summary": "图灵奖得主Yann LeCun离开效力12年的Meta，创办AMI Labs，获得超10.3亿美元融资，专注构建能理解物理世界运作方式的「世界模型」。",
+      "source_role": "AMI Labs创始人 / 前Meta首席AI科学家",
+      "summary": "图灵奖得主Yann LeCun离开效力12年的Meta，创办Advanced Machine Intelligence (AMI) Labs，获得超过10.3亿美元融资，专注于构建能理解物理世界运作方式的「世界模型」。",
       "detail": "65岁的法国AI先驱Yann LeCun在Meta效力12年后正式离职创业。当Meta CEO扎克伯格决定由28岁的前Scale AI创始人Alexandr Wang负责公司AI战略时，LeCun意识到是时候开始新的篇章了。\n\n他创办的AMI Labs（Advanced Machine Intelligence）于3月完成10.3亿美元融资，投资者阵容豪华：欧洲巨头（Hiro Capital、Cathay Innovation、达索集团）、美国科技界（Nvidia、Bezos Expeditions、Eric Schmidt）、亚洲企业（丰田、三星）。\n\nAMI Labs的核心方向是构建「世界模型」——不同于当前主流的大语言模型，世界模型旨在理解物理世界的运作规律，能完成复杂任务并预测结果。LeCun表示，他希望在3到5年内为航空发动机、汽车和机器人开发应用。\n\n在离开前的一次访谈中，LeCun曾直言ChatGPT「将AI引入了歧途」，暗示当前以语言模型为核心的AI路线存在根本局限。",
       "key_quotes": [
         "ChatGPT has led AI astray",
@@ -193,13 +273,16 @@
         "https://techcrunch.com/2026/01/23/whos-behind-ami-labs-yann-lecuns-world-model-startup/",
         "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Yann LeCun",
         "AMI Labs",
         "world models",
         "Meta"
       ],
+      "category": "research",
       "story_key": "lecun-ami-labs-world-models",
       "event_date": "2026-03-09"
     },
@@ -208,7 +291,8 @@
       "title": "Mustafa Suleyman预言算力1000倍增长，转型专注超级智能研发",
       "source": "@mustafasuleyman",
       "source_name": "Mustafa Suleyman",
-      "summary": "Microsoft AI CEO在MIT Technology Review专访中表示AI发展不会遇到天花板，预测2028年前有效算力将增长1000倍，同时其角色已转向长期超级智能研发。",
+      "source_role": "Microsoft AI CEO",
+      "summary": "Microsoft AI CEO Mustafa Suleyman在MIT Technology Review专访中表示AI发展不会遇到天花板，预测2028年前有效算力将增长1000倍。同时他的角色已从日常AI产品转向长期超级智能研发。",
       "detail": "4月8日，Mustafa Suleyman在MIT Technology Review发表重磅文章，回击AI怀疑论者。他指出，从2010年至今，前沿AI模型的训练数据量已增长了1万亿倍——从早期系统的约10^14 FLOPS增长到如今最大模型的超过10^26 FLOPS。他预测到2028年底，有效算力还将再增长1000倍。\n\n与此同时，Microsoft AI发布了三款新的基础模型：MAI-Transcribe-1（支持25种语言语音转文字，速度比Azure Fast快2.5倍）和MAI-Voice-1（可在1秒内生成60秒音频并创建自定义语音）。这些模型标志着Microsoft正在Suleyman的领导下积极开发自有模型，减少对OpenAI的依赖。\n\n在3月中旬的组织架构调整和OpenAI合同重新谈判后，Suleyman的角色已从日常AI产品管理转向专注于超级智能研发。他表示Microsoft正在「中端市场」竞争，同时扩大基础设施规模。",
       "key_quotes": [
         "AI development won't hit a wall anytime soon",
@@ -219,13 +303,16 @@
         "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
         "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Microsoft",
         "Mustafa Suleyman",
         "compute",
         "superintelligence"
       ],
+      "category": "frontier_leaders",
       "story_key": "suleyman-scaling-not-dead",
       "event_date": "2026-04-08"
     },
@@ -234,7 +321,8 @@
       "title": "Google发布Gemma 4开源模型家族，31B参数击败20倍体量的竞品",
       "source": "@demishassabis",
       "source_name": "Google DeepMind",
-      "summary": "Google发布Gemma 4模型家族，从2B到31B参数四个版本，支持256K上下文窗口、原生视觉音频处理、140+语言，以Apache 2.0开源许可发布。",
+      "source_role": "AI研究机构",
+      "summary": "Google发布Gemma 4模型家族，包含从2B到31B参数的四个版本，支持256K上下文窗口、原生视觉和音频处理、140+种语言，以Apache 2.0开源许可发布。",
       "detail": "4月2日，Google正式发布Gemma 4开源模型家族，这是迄今为止Google最智能的开源模型系列，专为高级推理和Agent工作流设计。\n\n模型家族包含四个版本：E2B（20亿参数）、E4B（40亿参数）、26B MoE（混合专家）和31B Dense（稠密）。各版本面向不同部署场景，从智能手机和Raspberry Pi到消费级GPU和云数据中心。\n\n关键特性包括：\n- 256K上下文窗口\n- 原生视觉和音频处理（所有尺寸均支持图像输入，边缘模型额外支持音频）\n- 140+种语言流利支持\n- 原生支持高级推理和Agent工作流\n\nGemma 4基于与Gemini 3相同的研究和技术，以商业友好的Apache 2.0许可发布。累计Gemma下载量已超过4亿次，基准测试成绩超越了体量20倍的模型。",
       "key_quotes": [
         "Byte for byte, the most capable open models",
@@ -247,12 +335,14 @@
       ],
       "image": "img/gemma4-benchmark.svg",
       "image_type": "chart",
+      "original_language": "en",
       "tags": [
         "Google",
         "Gemma 4",
         "open source",
         "models"
       ],
+      "category": "research",
       "story_key": "google-gemma4-open-source",
       "event_date": "2026-04-02"
     },
@@ -261,7 +351,8 @@
       "title": "Andrej Karpathy推出LLM Wiki，用AI构建第二大脑成为新范式",
       "source": "@karpathy",
       "source_name": "Andrej Karpathy",
-      "summary": "Karpathy在GitHub发布LLM Wiki项目，展示用大语言模型自动构建个人知识库的系统——一个研究课题已自动生成约100篇文章、40万字的互相链接的Wiki。",
+      "source_role": "前Tesla AI总监 / AI教育者",
+      "summary": "Andrej Karpathy在GitHub发布LLM Wiki项目，展示了一套用大语言模型自动构建和维护个人知识库的系统。一个研究课题已自动生成约100篇文章、40万字的互相链接的Wiki——无需本人撰写一个字。",
       "detail": "4月上旬，Andrej Karpathy在GitHub上发布了一个名为LLM Wiki的Gist，立刻在AI社区引发热议。这个项目展示了一种全新的知识管理范式：将原始研究材料倒入一个文件夹，指向一个LLM，由AI从零开始构建并维护整个互相链接的Wiki。\n\n在Karpathy的演示中，仅一个研究课题就已自动增长到约100篇文章、40万字——比大多数博士论文还长——而他本人没有直接撰写其中的任何一个字。\n\n与此同时，Karpathy还在4月1日展示了名为Dobby的OpenClaw AI Agent，该Agent能扫描本地网络、发现设备、逆向工程未文档化的API，并控制Sonos音响和照明等家庭系统。他还在X上写道，AI能力强用户和怀疑者之间存在巨大的认知鸿沟，双方在「对牛弹琴」。",
       "key_quotes": [
         "A single research topic had grown to roughly 100 articles and 400,000 words — longer than most PhD dissertations — without Karpathy writing a single word",
@@ -271,13 +362,16 @@
       "links": [
         "https://www.analyticsvidhya.com/blog/2026/04/llm-wiki-by-andrej-karpathy/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Karpathy",
         "LLM Wiki",
         "knowledge management",
         "personal AI"
       ],
+      "category": "research",
       "story_key": "karpathy-llm-wiki",
       "event_date": "2026-04-03"
     },
@@ -286,7 +380,8 @@
       "title": "Cohere与Aleph Alpha进入高级合并谈判，欧洲AI力量整合加速",
       "source": "@aidangomez",
       "source_name": "Aidan Gomez",
-      "summary": "加拿大AI公司Cohere与德国AI公司Aleph Alpha正进行高级合并谈判，计划成立双总部实体。Cohere年化收入已达2.4亿美元。",
+      "source_role": "Cohere CEO / Transformer论文共同作者",
+      "summary": "据Handelsblatt报道，加拿大AI公司Cohere与德国AI公司Aleph Alpha正进行高级合并谈判，计划成立双总部实体。Cohere年化收入已达2.4亿美元。",
       "detail": "4月10日，德国商报Handelsblatt报道，加拿大AI初创公司Cohere与德国AI公司Aleph Alpha正在进行高级合并谈判。两家公司的谈判始于今年早些时候，计划在加拿大和德国设立双总部。\n\nCohere由Transformer论文共同作者Aidan Gomez联合创立，专注于企业级AI服务。公司当前年化收入为2.4亿美元，年经常性收入（ARR）从5月的1亿美元增长到1.5亿美元。Gomez此前表示公司可能很快IPO，并预计在2029年前实现盈利。\n\nAleph Alpha是德国最知名的AI初创公司之一，主要服务于欧洲政府和企业客户。如果合并成功，新实体将成为西方世界最大的非美国AI模型公司之一。\n\n这笔潜在合并获得了柏林政府的支持，反映了欧洲建立AI主权能力的战略意图。",
       "key_quotes": [
         "Cohere could IPO soon",
@@ -296,13 +391,16 @@
       "links": [
         "https://www.bnnbloomberg.ca/business/2026/04/10/canadas-cohere-germanys-aleph-alpha-in-merger-talks-handelsblatt-reports/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Cohere",
         "Aleph Alpha",
         "merger",
         "Europe"
       ],
+      "category": "builders",
       "story_key": "cohere-aleph-alpha-merger",
       "event_date": "2026-04-10"
     },
@@ -311,6 +409,7 @@
       "title": "Replit发布Agent 4，宣称AI可以从零构建和运营整个公司",
       "source": "@amasad",
       "source_name": "Amjad Masad",
+      "source_role": "Replit CEO",
       "summary": "Replit完成4亿美元D轮融资，估值达90亿美元，并推出Agent 4——不仅能构建应用，还能创建pitch deck、设计Logo、连接Stripe支付，多任务并行处理。",
       "detail": "Replit宣布完成由Georgian领投的4亿美元D轮融资，公司估值跃升至90亿美元。同时推出的Agent 4代表了AI编码助手的又一次跃进。\n\nAmjad Masad大胆宣称，Agent 4不仅能构建应用程序，还能「创建和维护整个公司」。Replit现在自称为「你的商业发射控制室」，Agent 4的新能力包括：\n- 开发pitch deck和动画Logo\n- 连接Stripe等支付处理器\n- 多任务并行处理\n- Canvas功能：本质上是Agent的工作草稿板，用于存储特定项目的所有工作产物\n\n公司表示将大力投资研发，特别是在利用AI协助用户构建应用方面，包括开发更复杂的AI Agent来自动化从开发到部署再到维护的各个环节。",
       "key_quotes": [
@@ -321,13 +420,16 @@
       "links": [
         "https://www.inc.com/ben-sherry/replit-ceo-says-their-new-ai-agent-can-vibe-code-a-startup-from-scratch/91315098"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Replit",
         "Agent 4",
         "vibe coding",
         "funding"
       ],
+      "category": "builders",
       "story_key": "replit-agent4-funding",
       "event_date": "2026-04-08"
     },
@@ -336,6 +438,7 @@
       "title": "Perplexity月活破亿、ARR飙升50%至4.5亿美元，从搜索转向自主Agent",
       "source": "@AravSrinivas",
       "source_name": "Aravind Srinivas",
+      "source_role": "Perplexity AI CEO",
       "summary": "Perplexity月活用户突破1亿，年化收入在3月份单月飙升50%至4.5亿美元，公司战略重心正从AI搜索转向能完成实际任务的自主Agent。",
       "detail": "Perplexity AI正经历爆发式增长。公司年化经常性收入在3月份达到4.5亿美元，仅一个月就增长了50%。月活跃用户突破1亿，覆盖消费者和企业市场（企业订阅价格从20美元到200美元不等）。\n\n增长的核心驱动力来自战略转型——从AI搜索引擎向自主Agent平台的进化。Perplexity已不再满足于回答问题，而是要完成实际任务。公司最近还集成了Plaid，允许用户关联银行账户、信用卡和贷款，实现全面的财务追踪和AI驱动的自由查询。\n\n不过，CEO Aravind Srinivas在4月1日的一个播客中为AI驱动的裁员辩护的言论引发了广泛争议。他建议被取代的工人应该欢迎AI的到来，因为「大多数人不喜欢自己的工作」，这番话在Oracle宣布裁员3万人后遭到社交媒体的猛烈抨击。",
       "key_quotes": [
@@ -346,13 +449,16 @@
       "links": [
         "https://techstartups.com/2026/04/08/perplexity-revenue-surges-50-as-ai-startup-shifts-from-search-to-autonomous-ai-agents/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Perplexity",
         "agents",
         "search",
         "growth"
       ],
+      "category": "product_operators",
       "story_key": "perplexity-agent-growth",
       "event_date": "2026-04-08"
     },
@@ -361,7 +467,8 @@
       "title": "美国多州推进AI治疗聊天机器人禁令，98项法案覆盖34个州",
       "source": "Legislative Tracking",
       "source_name": "多州立法机构",
-      "summary": "美国掀起AI聊天机器人监管立法潮，34个州已提出98项聊天机器人专项法案。缅因州治疗机器人禁令已送交州长签署，密苏里州类似法案正在推进。",
+      "source_role": "美国州级立法",
+      "summary": "美国掀起AI聊天机器人监管立法潮，Future of Privacy Forum追踪到34个州的98项聊天机器人专项法案。缅因州治疗机器人禁令已送交州长签署，密苏里州类似法案正在推进。",
       "detail": "2026年4月，美国州级AI聊天机器人监管立法达到前所未有的密度。Future of Privacy Forum当前追踪到34个州的98项聊天机器人专项法案，以及3项联邦层面的提案。\n\n最新进展包括：\n- 缅因州：LD 2082法案已获议会通过并送交州长签署，该法案将禁止在心理健康治疗中临床使用AI，但允许行政用途\n- 密苏里州：HB 2372法案于4月2日获众议院全票通过，现移交参议院委员会审议，覆盖治疗服务、心理治疗服务或心理健康诊断，首次违规处以1万美元罚款\n- 华盛顿州：已通过AI伴侣聊天机器人法\n- 联邦层面：国会议员提出法案，禁止AI聊天机器人冒充医生、律师和其他持牌专业人士\n\n值得注意的是，这些心理健康聊天机器人法案通常聚焦于防止AI系统在没有持牌专业人士监督的情况下提供治疗。",
       "key_quotes": [
         "If there is one area of AI policy that lawmakers seem particularly eager to regulate in 2026, it's chatbots"
@@ -371,13 +478,16 @@
         "https://fpf.org/2026-chatbot-legislation-tracker/",
         "https://www.transparencycoalition.ai/news/ai-legislative-update-april10-2026"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "regulation",
         "chatbots",
         "mental health",
         "legislation"
       ],
+      "category": "trending",
       "story_key": "us-states-ai-chatbot-regulation",
       "event_date": "2026-04-10"
     },
@@ -386,7 +496,8 @@
       "title": "Notion Agent已自动构建超50%数据库，Ivan Zhao押注「按成果付费」模式",
       "source": "@ivanhzhao",
       "source_name": "Ivan Zhao",
-      "summary": "Notion推出自定义AI Agent功能，超过50%的Notion数据库现由Agent而非人类创建。一个客户Agent两周内自动回答4000个问题，节省约2000小时。",
+      "source_role": "Notion创始人兼CEO",
+      "summary": "Notion推出自定义AI Agent功能，目前超过50%的Notion数据库由Agent而非人类创建。一个客户Agent在两周内自动回答了4000个问题，节省约2000小时。",
       "detail": "Notion创始人Ivan Zhao正在推出公司史上最重要的产品更新——自定义AI Agent。这项功能聚焦三个核心场景：从知识库回答重复性问题、跨团队分类和分配工单、自动生成状态更新。\n\nRamp、Vercel、Clay和Cursor等公司已参与早期测试。一个令人印象深刻的数据：仅Ramp的一个客户Agent就在两周内自动回答了4000个问题，预估节省约2000小时的人工时间。\n\n更深层的战略转变在于商业模式：Zhao正在积极探索基于使用量的Agent定价，押注「按工作成果付费」而非「按座位收费」将解锁一个10倍于传统SaaS工具的市场。\n\nZhao还提出了一个前瞻性观点：软件公司不再只是为人类构建产品，也要为其他语言模型和Agent构建。Notion将自己定位为模型提供商之间的「瑞士」——保持中立，与所有AI模型合作。",
       "key_quotes": [
         "More than 50% of Notion databases are now built by agents rather than humans",
@@ -396,13 +507,16 @@
       "links": [
         "https://sources.news/p/notions-next-act"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "Notion",
         "agents",
         "SaaS",
         "business model"
       ],
+      "category": "builders",
       "story_key": "notion-agent-databases",
       "event_date": "2026-04-09"
     },
@@ -411,7 +525,8 @@
       "title": "YC W26批次14家公司Demo Day前达到百万美元ARR，AI驱动创业效率5倍提升",
       "source": "@garrytan",
       "source_name": "Garry Tan",
-      "summary": "YC W26批次中14家公司在Demo Day前就突破100万美元ARR，创下历史纪录。AI让10-20人团队能在10-20个月内达到千万至两千万美元年收入。",
+      "source_role": "Y Combinator CEO",
+      "summary": "YC W26批次中14家公司在Demo Day前就突破了100万美元ARR，创下历史纪录。Garry Tan指出AI让10-20人的团队能在10-20个月内达到1000-2000万美元年收入。",
       "detail": "Y Combinator Winter 2026批次创下多项纪录。在约200家入选公司中，14家在Demo Day前就达到了100万美元年化收入（约占7%），这是YC历史上的最高比例。\n\nGarry Tan指出，AI正在从根本上改变创业的速度和效率。他观察到，只有10到20人的YC团队在10到20个月内就能达到1000万到2000万美元的年收入——这在软件行业历史上前所未有。\n\nW26批次的趋势显示：\n- 医疗和生命科学正在成为热门赛道，Ruma Care、Rhizome AI和Strand AI等公司反映了创始人对受监管的医疗、生物科技和生命科学工作流的浓厚兴趣\n- 垂直AI应用正在爆发——Tan认为，最大的机会不仅在AI本身，更在于深度定制到特定行业的垂直SaaS和垂直AI应用\n- 我们正进入「智能丰富时代」，专业化解决方案能在GDP中历来被忽视的角落蓬勃发展",
       "key_quotes": [
         "YC companies with 10 or 20 people are getting to $10 or $20 million a year in revenue in 10 or 20 months — something that literally never happened before in software"
@@ -420,13 +535,16 @@
       "links": [
         "https://tremendous.blog/2026/03/25/what-the-best-yc-companies-look-like-at-demo-day/"
       ],
-      "image": null,
+      "image": "",
+      "image_type": "",
+      "original_language": "en",
       "tags": [
         "YC",
         "startups",
         "Garry Tan",
         "venture capital"
       ],
+      "category": "trending",
       "story_key": "yc-w26-demo-day-records",
       "event_date": "2026-03-25"
     }

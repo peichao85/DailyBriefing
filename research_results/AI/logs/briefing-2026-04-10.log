@@ -1,0 +1,74 @@
+=== Research started: Fri Apr 10 06:58:01 AM CST 2026 ===
+AI research for 2026-04-10 is complete. Here's a summary:
+
+**Output:** `research_results/AI/2026-04-10/data.json` (18 items, 50 sources checked)
+
+**Top stories curated today:**
+
+| # | Title | Source | Category |
+|---|-------|--------|----------|
+| 1 | Anthropic营收超越OpenAI达$300亿 | @DanielaAmodei | frontier_leaders |
+| 2 | Claude Mythos Preview发现数千个零日漏洞 | @jackclarkSF | research |
+| 3 | Meta发布Muse Spark模型（闭源转向） | @alexandr_wang | frontier_leaders |
+| 4 | OpenAI政策蓝图：机器人税+四天工作制 | @sama | frontier_leaders |
+| 5 | OpenAI ChatGPT 5.5与统一超级应用 | @sama | product_operators |
+| 6 | Claude Managed Agents公测上线 | @mikeyk | product_operators |
+| 7 | Yann LeCun离Meta创办AMI Labs | @ylecun | research |
+| 8 | Karpathy提出LLM Wiki概念 | @karpathy | research |
+| 9 | Replit $4亿D轮融资估值$90亿 | @amasad | builders |
+| 10 | DeepMind回归创业模式 | @demishassabis | frontier_leaders |
+| 11 | Garry Tan开源gstack框架 | @garrytan | trending |
+| 12 | OpenAI CFO质疑$6000亿支出计划 | @sama | news |
+| 13 | xAI推进Grok 5开发 | @elonmusk | frontier_leaders |
+| 14 | Levelsio发起Vibe Coding Game Jam | @levelsio | builders |
+| 15 | Cognition/Devin与Infosys合作 | @ScottWu46 | builders |
+| 16 | NVIDIA DreamDojo虚拟机器人训练 | @DrJimFan | research |
+| 17 | Kevin Weil转型OpenAI科学VP | @kevinweil | product_operators |
+| 18 | Lovable ARR $4亿寻求收购 | @antonosika | builders |
+
+**Images:** 4 images downloaded and optimized (Mythos chart, Muse Spark, Managed Agents, Replit/Masad)
+=== Research finished successfully: Fri Apr 10 07:15:58 AM CST 2026 ===
+=== PDF Builder & Web Builder started (parallel): Fri Apr 10 07:15:58 AM CST 2026 ===
+=== Web Builder started: Fri Apr 10 07:15:58 AM CST 2026 ===
+=== PDF Builder started: Fri Apr 10 07:15:58 AM CST 2026 ===
+Web builder complete for 2026-04-10. Here's a summary:
+
+**Output:**
+- `web/AI/2026-04-10/data.json` — 18 items (superset of PDF), all in Simplified Chinese
+- `web/AI/2026-04-10/img/` — 4 optimized images (all under 36KB, well within 200KB limit)
+- `web/manifest.json` — updated with 2026-04-10 at the front
+
+**Headline:** Anthropic营收超越OpenAI达300亿美元，Claude Mythos自主发现数千零日漏洞震撼业界
+
+**Items with images:** #2 (Claude Mythos), #3 (Meta Muse Spark), #6 (Claude Managed Agents), #9 (Replit Agent 4)
+=== Web Builder finished successfully: Fri Apr 10 07:21:57 AM CST 2026 ===
+Done. The final PDF is saved at **`pdf/AI/daily-tech-ai-briefing-2026-04-10-cn.pdf`** (432KB). The tmp directory has been cleaned up.
+
+**Summary of the 10-slide briefing:**
+
+1. **Title** — "AI格局巨变" with today's top 3 highlights
+2. **Anthropic $300亿** — Revenue surpassing OpenAI, growth timeline, key stats
+3. **Claude Mythos** — Zero-day vulnerability discovery + Project Glasswing
+4. **Altman Policy Blueprint** — Robot tax, wealth fund, 4-day workweek, safety nets (2x2 grid)
+5. **Karpathy LLM Wiki** — AI "second brain" concept with stats + quote
+6. **Trending on X** — gstack controversy, Vibe Coding Game Jam, Lovable acquisitions (3 columns)
+7. **New Models** — Meta Muse Spark + LeCun AMI Labs (stacked full-width cards)
+8. **OpenAI** — ChatGPT 5.5 super app vs. internal tensions (two columns)
+9. **AI Agents** — Claude Managed Agents, Replit Agent 4, Devin×Infosys, DreamDojo
+10. **Key Takeaways** — 5 insight bars with icons
+=== PDF Builder finished successfully: Fri Apr 10 07:34:50 AM CST 2026 ===
+=== PDF Builder & Web Builder finished (parallel): Fri Apr 10 07:34:50 AM CST 2026 ===
+=== Git commit & push started: Fri Apr 10 07:34:50 AM CST 2026 ===
+[main f3990c6] Daily AI briefing: 2026-04-10
+ 9 files changed, 353 insertions(+), 1 deletion(-)
+ create mode 100644 pdf/AI/daily-tech-ai-briefing-2026-04-09-cn.new.pdf
+ create mode 100644 pdf/AI/daily-tech-ai-briefing-2026-04-09-cn.new2.pdf
+ create mode 100644 pdf/AI/daily-tech-ai-briefing-2026-04-10-cn.pdf
+ create mode 100644 web/AI/2026-04-10/data.json
+ create mode 100644 web/AI/2026-04-10/img/claude-managed-agents.jpg
+ create mode 100644 web/AI/2026-04-10/img/claude-mythos-glasswing.jpg
+ create mode 100644 web/AI/2026-04-10/img/meta-muse-spark.jpg
+ create mode 100644 web/AI/2026-04-10/img/replit-agent4.jpg
+To github.com:peichao85/DailyBriefing.git
+   3a1158f..f3990c6  main -> main
+=== Git commit & push finished: Fri Apr 10 07:34:54 AM CST 2026 ===

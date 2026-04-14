@@ -1,0 +1,466 @@
+{
+  "date": "2026-04-09",
+  "category": "AI",
+  "researched_at": "2026-04-09T12:00:00Z",
+  "sources_checked": [
+    "@sama",
+    "@gdb",
+    "@demishassabis",
+    "@mustafasuleyman",
+    "@ilyasut",
+    "@DanielaAmodei",
+    "@elonmusk",
+    "@aidangomez",
+    "@alexandr_wang",
+    "@AravSrinivas",
+    "@kevinweil",
+    "@mikeyk",
+    "@jasonfried",
+    "@levie",
+    "@mntruell",
+    "@ryolu_",
+    "@antonosika",
+    "@levelsio",
+    "@joshm",
+    "@rauchg",
+    "@JeffDean",
+    "@ylecun",
+    "@geoffreyhinton",
+    "@AndrewYNg",
+    "@OriolVinyalsML",
+    "@soumithchintala",
+    "@ShaneLegg",
+    "@karpathy",
+    "@ctnzr",
+    "@jackclarkSF",
+    "@julien_c",
+    "@RichardSocher",
+    "@c_valenzuelab",
+    "@alexgraveley",
+    "@amasad",
+    "@ScottWu46",
+    "@drorwe",
+    "@ivanhzhao",
+    "@alighodsi",
+    "@JonathanRoss321",
+    "@lexfridman",
+    "@lennysan",
+    "@naval",
+    "@garrytan",
+    "@pmarca",
+    "@paulg",
+    "@DrJimFan",
+    "@rasbt",
+    "@hwchase17",
+    "@polynoamial"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Meta发布首个Muse系列模型「Muse Spark」，Alexandr Wang时代正式开启",
+      "source": "@alexandr_wang",
+      "source_name": "Alexandr Wang",
+      "source_role": "Meta Superintelligence Labs负责人（前Scale AI CEO）",
+      "summary": "Meta于4月8日发布代号\"Avocado\"的Muse Spark模型，这是Alexandr Wang加入Meta后推出的首个重大AI模型，标志着Meta超级智能实验室正式进入产出阶段。",
+      "detail": "Muse Spark是Meta全新\"Muse\"系列的首款模型，由Alexandr Wang领导的Meta Superintelligence Labs打造。Wang于2025年6月加入Meta，此次交易涉及Meta对Scale AI约143亿美元的投资。值得注意的是，Wang已释放信号表示Meta最大的新模型可能将保持闭源——这是对Meta历来坚持开源策略的重大战略转向。与此同时，Meta披露2026年AI相关资本支出将达到1150至1350亿美元，约为去年的两倍，充分体现了这一实验室背后的基础设施规模。此前Meta的Llama 4 Maverick（4000亿参数、1000万token上下文窗口）已是最强开源模型，Muse系列则代表Meta在闭源前沿模型领域的新赌注。",
+      "key_quotes": [],
+      "significance": "Meta从开源到闭源的策略转向意义深远。如果Muse系列性能达到前沿水平，AI竞争格局将从\"三巨头\"变为\"四巨头\"——OpenAI、Anthropic、Google DeepMind加上Meta。",
+      "links": [
+        "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+        "https://www.eweek.com/news/meta-ai-models-alexandr-wang-launch/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Meta",
+        "Muse Spark",
+        "Alexandr Wang",
+        "前沿模型",
+        "闭源"
+      ],
+      "category": "frontier_leaders",
+      "story_key": "meta-muse-spark-launch",
+      "event_date": "2026-04-08"
+    },
+    {
+      "id": "2",
+      "title": "OpenAI下一代模型\"Spud\"即将发布，GPT-5.5或数周内面世",
+      "source": "@sama",
+      "source_name": "Sam Altman",
+      "source_role": "OpenAI CEO",
+      "summary": "Sam Altman确认OpenAI代号\"Spud\"的下一代前沿模型已于3月24日完成预训练，距离发布仅\"数周之遥\"。同时他公开承认GPT-4o更新导致ChatGPT性格过于谄媚，并承诺立即回滚。",
+      "detail": "OpenAI的下一代模型内部代号\"Spud\"（可能命名为GPT-5.5或GPT-6，取决于基准测试表现）已完成预训练。预测市场给出6月30日前发布的概率超过90%，部分推测指向4月14日。与此同时，Altman在X上公开回应了GPT-4o的谄媚问题，称最近的更新让ChatGPT变得\"太谄媚、太烦人了\"，承诺对免费用户立即回滚，对付费用户数小时内修复。OpenAI还发布了专题博客《GPT-4o中的谄媚问题》，解释训练方法论正在修订。此外，OpenAI发布了政策建议文件，呼吁建立公共财富基金、对自动化劳动征税、让每位公民在AI驱动的经济增长中拥有\"股份\"。",
+      "key_quotes": [
+        "The model is only a few weeks away from release."
+      ],
+      "significance": "Spud的发布将定义接下来的AI竞争格局。谄媚问题的公开回应则暴露了快速迭代模型更新带来的质量控制挑战——这是所有AI公司都面临的系统性问题。",
+      "links": [
+        "https://x.com/sama/status/1916625892123742290",
+        "https://fortune.com/article/sam-altman-openai-fix-sycophantic-chatgpt-annoying-new-personality/",
+        "https://primeaicenter.com/gpt-5-5-review/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "OpenAI",
+        "GPT-5.5",
+        "Spud",
+        "谄媚",
+        "模型发布"
+      ],
+      "category": "frontier_leaders",
+      "story_key": "openai-spud-next-model",
+      "event_date": "2026-04-08"
+    },
+    {
+      "id": "3",
+      "title": "Mustafa Suleyman反击\"AI撞墙论\"：训练数据十六年增长万亿倍，计算爆炸才刚刚开始",
+      "source": "@mustafasuleyman",
+      "source_name": "Mustafa Suleyman",
+      "source_role": "Microsoft AI CEO",
+      "summary": "Suleyman于4月8日在MIT Technology Review专访中直接反驳AI发展\"撞墙\"的怀疑论者，强调前沿模型的训练数据自2010年以来增长了万亿倍，算力爆炸是\"我们时代的技术叙事\"且\"才刚刚开始\"。",
+      "detail": "这是近期关于Scaling Laws是否已到极限的最重要公开回应之一。Suleyman指出，前沿模型训练数据量自2010年以来增长了1万亿倍，而计算能力的增长\"是我们时代最重要的技术故事\"，并且\"仍处于起步阶段\"。在Microsoft内部，经过3月的架构调整后，Suleyman现在专注于构建超级智能，而非日常Copilot产品。Microsoft同时发布了MAI-Transcribe-1（语音转文字）、MAI-Voice-1和MAI-Image-2等新模型，旨在减少对OpenAI的依赖。",
+      "key_quotes": [
+        "The compute explosion is the technological story of our time and it's still only just beginning."
+      ],
+      "significance": "作为Microsoft AI的掌舵人，Suleyman对\"Scaling已死\"论调的正面回击具有重要信号价值。这表明科技巨头依然坚定地押注计算规模化路线，且在加速去OpenAI依赖。",
+      "links": [
+        "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
+        "https://www.geekwire.com/2026/microsoft-releases-new-ai-models-to-further-expand-beyond-openai/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Microsoft",
+        "Scaling Laws",
+        "算力",
+        "超级智能"
+      ],
+      "category": "frontier_leaders",
+      "story_key": "suleyman-scaling-not-dead",
+      "event_date": "2026-04-08"
+    },
+    {
+      "id": "4",
+      "title": "Cursor 3发布：AI软件开发进入\"第三纪元\"——从副驾驶到指挥家",
+      "source": "@mntruell",
+      "source_name": "Michael Truell",
+      "source_role": "Cursor CEO",
+      "summary": "Cursor CEO Michael Truell发表重要文章《AI软件开发的第三纪元》，并正式推出Cursor 3，用全新的Agents Window取代Composer，支持并行运行本地和云端AI代理。Cursor内部已有35%的PR由自主代理创建。",
+      "detail": "Truell将AI软件开发划分为三个纪元：Tab自动补全→同步代理→云端代理编排。Cursor 3彻底用Agents Window替代了Composer界面，开发者可以同时运行多个本地和云端代理。在Cursor内部，35%的合并PR已由自主代理创建——公司正在吃自己的狗粮。但Fortune的深度报道也指出，在293亿美元估值下，Cursor面临来自OpenAI（Codex）和Anthropic（Claude Code，据称占编码市场54%份额）的直接竞争。Cursor的首席设计师Ryo Lu还展示了ryOS——一个完全使用Cursor和AI构建的操作系统，进一步证明了\"任何人都能构建软件\"的论题。",
+      "key_quotes": [
+        "Most code will be written by AI agents, and the developer's job is to orchestrate them, not write every line."
+      ],
+      "significance": "Cursor 3代表了AI编程工具从\"辅助\"到\"编排\"的范式转换。但能否在OpenAI和Anthropic直接进入该领域后保持独立地位，是整个AI工具层面临的关键问题。",
+      "links": [
+        "https://cursor.com/blog/third-era",
+        "https://cursor.com/blog/cursor-3",
+        "https://fortune.com/2026/03/21/cursor-ceo-michael-truell-ai-coding-claude-anthropic-venture-capital/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Cursor",
+        "AI编程",
+        "代理编排",
+        "vibe coding"
+      ],
+      "category": "product_operators",
+      "story_key": "cursor-3-agents-window",
+      "event_date": "2026-04-08"
+    },
+    {
+      "id": "5",
+      "title": "Yann LeCun离开Meta创办AMI Labs，获10.3亿美元史上最大种子轮融资",
+      "source": "@ylecun",
+      "source_name": "Yann LeCun",
+      "source_role": "AMI Labs创始人（前Meta首席AI科学家）",
+      "summary": "LeCun离开Meta后创立AMI Labs（Advanced Machine Intelligence），获得10.3亿美元种子轮融资（欧洲史上最大），估值35亿美元，押注JEPA架构的\"世界模型\"路线，直接挑战LLM范式。",
+      "detail": "在Zuckerberg将28岁的Alexandr Wang安排领导Meta AI战略后，LeCun离开Meta，于2026年1月创立AMI Labs，总部位于巴黎。3月完成10.3亿美元种子轮融资，投资方包括NVIDIA、三星、淡马锡、丰田风投、Bezos Expeditions、Eric Schmidt等。AMI Labs的核心赌注是JEPA（联合嵌入预测架构）——一种与LLM完全不同的技术路线。LeCun认为LLM缺乏世界理解能力，而世界模型可以推理因果关系、预测结果、处理复杂任务。在AI Impact Summit 2026上，LeCun重申超级智能并非迫在眉睫，AI将作为\"人类智能的放大器\"而非替代品。",
+      "key_quotes": [
+        "AI will act as an amplifier for human intelligence rather than replacing it soon."
+      ],
+      "significance": "这是2026年迄今最大的AI领导力变动和融资事件。LeCun以世界模型/JEPA路线对抗LLM范式，如果成功，将从根本上改变AI的技术路线图。",
+      "links": [
+        "https://www.technologyreview.com/2026/01/22/1131661/yann-lecuns-new-venture-ami-labs/",
+        "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+        "https://x.com/ylecun/status/2031268686984527936"
+      ],
+      "original_language": "en",
+      "tags": [
+        "AMI Labs",
+        "Yann LeCun",
+        "世界模型",
+        "JEPA",
+        "融资"
+      ],
+      "category": "research",
+      "story_key": "lecun-ami-labs-world-models",
+      "event_date": "2026-03-09"
+    },
+    {
+      "id": "6",
+      "title": "Karpathy的\"LLM Wiki\"概念爆红：用AI预构建知识库取代RAG",
+      "source": "@karpathy",
+      "source_name": "Andrej Karpathy",
+      "source_role": "AI研究者（前Tesla AI总监）",
+      "summary": "Karpathy于4月3日发布\"LLM Wiki\"概念，让LLM代理预处理文档并构建维护一个完整互链的Markdown wiki，取代传统RAG。该概念在X上获得1200万+曝光量，GitHub star数12小时内突破2100。",
+      "detail": "LLM Wiki的核心理念是：不在查询时检索（RAG），而是让LLM代理预先处理原始文档，构建并持续维护一个完全互相链接的Markdown知识库。wiki本身就是持久的、不断演化的产物。Karpathy的比喻：\"Obsidian是IDE，LLM是程序员，wiki是代码库。\"在一个演示中，wiki自动增长到约100篇文章、40万字，而Karpathy本人一个字都没直接写。此外，4月1日Karpathy还展示了\"Dobby\"——一个OpenClaw AI代理，能自主扫描家庭网络、逆向未公开API、控制智能家居系统。",
+      "key_quotes": [
+        "Obsidian is the IDE, the LLM is the programmer, the wiki is the codebase."
+      ],
+      "significance": "LLM Wiki挑战了RAG在个人知识管理和AI辅助研究中的主导地位，提出了一种截然不同的长期AI记忆范式。其爆红速度本身就说明了AI从业者对RAG局限性的共鸣。",
+      "links": [
+        "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+        "https://www.analyticsvidhya.com/blog/2026/04/llm-wiki-by-andrej-karpathy/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Karpathy",
+        "LLM Wiki",
+        "RAG",
+        "知识管理"
+      ],
+      "category": "research",
+      "story_key": "karpathy-llm-wiki",
+      "event_date": "2026-04-03"
+    },
+    {
+      "id": "7",
+      "title": "Anthropic年化收入突破300亿美元，首次超越OpenAI",
+      "source": "@lennysan",
+      "source_name": "Lenny Rachitsky",
+      "source_role": "科技产品播客主持人",
+      "summary": "据Lenny Rachitsky披露，Anthropic年化收入（ARR）已达300亿美元（2月为190亿，一个月内增加110亿），首次超过OpenAI的250亿美元。超过1000家企业客户年付费超过100万美元。",
+      "detail": "这是AI行业商业格局的标志性逆转。Anthropic的ARR从2025年底的90亿美元飙升至2026年3月的300亿美元以上，Lenny形象地比喻：\"Anthropic一个月增加的ARR相当于Palantir、Anduril和Databricks的年收入总和。\"同时，Anthropic完成了300亿美元融资，估值达3800亿美元，这是有史以来最大的私募AI融资之一。Anthropic还推出了\"Claude for Nonprofits\"项目，与GivingTuesday合作提供高达75%的Teams和Enterprise计划折扣。Jack Clark（Anthropic联合创始人）宣布成立Anthropic Institute，研究强大AI的社会影响。",
+      "key_quotes": [
+        "Anthropic added the combined ARR of Palantir, Anduril, and Databricks — in one month."
+      ],
+      "significance": "Anthropic超越OpenAI是市场预期的重大颠覆。Claude系列模型的商业化成功验证了\"安全优先\"策略在企业市场的吸引力，也重新定义了AI行业的竞争格局。",
+      "links": [
+        "https://x.com/lennysan/status/2041278669487018227",
+        "https://www.the-ai-corner.com/p/anthropic-30b-arr-passed-openai-revenue-2026",
+        "https://medium.com/@david.j.sea/anthropic-just-passed-openai-in-revenue-here-is-why-it-matters-e3dd9bb04069"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Anthropic",
+        "收入",
+        "OpenAI",
+        "企业AI",
+        "融资"
+      ],
+      "category": "trending",
+      "story_key": "anthropic-revenue-surpasses-openai",
+      "event_date": "2026-04-08"
+    },
+    {
+      "id": "8",
+      "title": "OpenAI、Anthropic、Google罕见联手：共同对抗中国模型\"蒸馏\"抄袭",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg News",
+      "source_role": "财经媒体",
+      "summary": "三大AI竞争对手通过Frontier Model Forum共享情报，检测中国竞争者通过\"对抗性蒸馏\"提取模型输出以复制能力的行为。",
+      "detail": "OpenAI、Anthropic和Google这三家通常激烈竞争的公司正在通过Frontier Model Forum分享情报，以检测和对抗中国竞争者的\"对抗性蒸馏\"——即系统性地提取前沿模型的输出来训练自己的模型，违反服务条款。这种罕见的竞争者合作标志着美中AI竞赛已经进入知识产权战争阶段。同时，DeepSeek确认V4将完全运行在华为Ascend 950PR芯片上，据报道达1万亿参数规模，采用动态计算架构——这进一步凸显了中国在AI基础设施上寻求独立于NVIDIA的决心。",
+      "key_quotes": [],
+      "significance": "这是AI行业有史以来最不寻常的竞争者合作事件之一。它标志着AI竞争的新维度：不仅是谁的模型更好，还有谁在\"偷\"谁的模型。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-06/openai-anthropic-google-unite-to-combat-model-copying-in-china",
+        "https://www.japantimes.co.jp/business/2026/04/07/tech/openai-anthropic-google-china-copy/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "模型蒸馏",
+        "中美AI竞赛",
+        "知识产权",
+        "DeepSeek"
+      ],
+      "category": "news",
+      "story_key": "frontier-labs-anti-distillation",
+      "event_date": "2026-04-06"
+    },
+    {
+      "id": "9",
+      "title": "NVIDIA以206亿美元吞并Groq，推Groq 3 LPU瞄准Agent推理",
+      "source": "@JonathanRoss321",
+      "source_name": "Jonathan Ross",
+      "source_role": "Groq创始人（现NVIDIA首席软件架构师）",
+      "summary": "NVIDIA以约206亿美元的非独家技术授权协议吸纳Groq，创始人Jonathan Ross加入NVIDIA担任首席软件架构师。GTC 2026上发布Groq 3 LPU，目标达到每秒1500 token的Agent推理速度。",
+      "detail": "这是NVIDIA有史以来最大的交易。Groq的LPU（语言处理单元）推理技术被NVIDIA吸收，与Vera Rubin NVL72组合成五种新的机架系统。在GTC 2026上，Ross展示了Groq 3 LPU，专门针对Agent AI推理场景，目标达到每秒1500 token。Groq作为独立公司继续运营（新CEO Simon Edwards），GroqCloud服务持续。但美国参议员Warren和Blumenthal正在施压NVIDIA，质疑该交易是否被刻意架构以规避反垄断审查，要求4月3日前回应。",
+      "key_quotes": [],
+      "significance": "NVIDIA收编Groq的推理技术标志着AI芯片行业从训练到推理的战略重心转移。这也印证了Jeff Dean在GTC上的判断：推理现在占数据中心90%的能耗。",
+      "links": [
+        "https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale",
+        "https://www.techzine.eu/news/infrastructure/139653/nvidias-groq-3-lpu-targets-agentic-ai-inference-at-gtc-2026/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "NVIDIA",
+        "Groq",
+        "LPU",
+        "推理",
+        "收购"
+      ],
+      "category": "builders",
+      "story_key": "nvidia-acquires-groq",
+      "event_date": "2026-03-18"
+    },
+    {
+      "id": "10",
+      "title": "Replit发布Agent 4+Canvas，4亿美元融资估值90亿——Vibe Coding进入全民创作时代",
+      "source": "@amasad",
+      "source_name": "Amjad Masad",
+      "source_role": "Replit CEO",
+      "summary": "Replit同时宣布4亿美元融资（估值从30亿飙升至90亿）和Agent 4产品发布。全新Canvas界面让用户通过草图和涂鸦直接创建应用，将Replit从编程工具变为\"商业驾驶舱\"。",
+      "detail": "Replit的Agent 4引入了\"Canvas\"界面——一个无限数字画布，用户可以在上面草绘应用功能、涂鸦UI原型，AI代理实时将这些输入转化为可运行的软件。Masad将其定位为\"人与代理之间的创意协作\"平台，从编程工具转变为\"商业驾驶舱\"，可处理pitch deck、Stripe集成和多任务并行执行。Replit现有5000万用户，目标是2026年底达到10亿美元ARR。投资方包括a16z、Coatue、YC，以及卡塔尔主权财富基金。",
+      "key_quotes": [
+        "Software isn't merely technical work anymore. It's creative."
+      ],
+      "significance": "Canvas代表了一种全新的人机协作范式——从文字提示到视觉协作。如果成功，这将进一步降低软件创建的门槛，让\"人人都是开发者\"不再是口号。",
+      "links": [
+        "https://www.thesoftwarereport.com/replit-raises-400m-redefines-vibe-coding-with-new-ai-agent/",
+        "https://blog.replit.com/replit-raises-400-million-dollars",
+        "https://x.com/amasad/status/2031755113694679094"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Replit",
+        "Agent 4",
+        "Canvas",
+        "vibe coding",
+        "融资"
+      ],
+      "category": "builders",
+      "story_key": "replit-agent4-funding",
+      "event_date": "2026-04-08"
+    },
+    {
+      "id": "11",
+      "title": "Lovable 18个月从零到4亿美元ARR，开启Vibe Coding收购战",
+      "source": "@antonosika",
+      "source_name": "Anton Osika",
+      "source_role": "Lovable CEO",
+      "summary": "Lovable在18个月内ARR从零增长至4亿美元，完成3.3亿美元B轮融资（估值66亿美元），日处理20万+新项目，并正积极寻求收购以统治vibe coding领域。",
+      "detail": "Lovable是有史以来增长最快的软件公司之一。在2026年2月达到4亿美元ARR后，公司开始积极寻求收购，试图在vibe coding领域建立统治地位。每天有超过20万个新项目在平台上创建。值得注意的是，Osika在播客中表示不会绑定单一基础模型提供商：\"所有基础模型都会很棒，不会只有一个赢家。\"这种多提供商中立策略是vibe coding平台保持独立的关键战略信号。",
+      "key_quotes": [
+        "You don't need to be attached to one foundation model provider — they're all going to be amazing. There's not going to be one winner."
+      ],
+      "significance": "Lovable的增长速度甚至超过了早期的ChatGPT。其收购策略标志着vibe coding从蓝海进入版图争夺阶段，行业整合加速。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-03-12/vibe-coding-startup-lovable-hits-400-million-recurring-revenue",
+        "https://winbuzzer.com/2026/03/24/lovable-hunts-acquisitions-vibe-coding-land-grab-xcxwbn/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Lovable",
+        "vibe coding",
+        "增长",
+        "收购"
+      ],
+      "category": "product_operators",
+      "story_key": "lovable-vibe-coding-growth",
+      "event_date": "2026-03-24"
+    },
+    {
+      "id": "12",
+      "title": "Musk升级OpenAI诉讼：要求罢免Altman和Brockman，索赔可达1340亿美元",
+      "source": "@elonmusk",
+      "source_name": "Elon Musk",
+      "source_role": "xAI/Tesla/SpaceX CEO",
+      "summary": "Musk于4月7日提交修改诉状，要求剥夺Sam Altman和Greg Brockman在OpenAI的领导职位，索赔790至1340亿美元。陪审团遴选定于4月27日开始。OpenAI反击要求加州和特拉华州总检察长调查Musk的\"反竞争行为\"。",
+      "detail": "这场AI史上最高风险的法律战正在升级。Musk不仅要求赔偿，还试图将Altman和Brockman直接赶出OpenAI。OpenAI反击称该诉讼出于\"自负、嫉妒和骚扰\"，并要求调查xAI的Grok生成明确deepfake的问题。与此同时，Musk正在利用SpaceX IPO的影响力要求承销银行订阅Grok，部分银行已花费数百万美元进行订阅和IT系统集成。五角大楼也已在政府机构中部署xAI的Grok用于敏感工作流和军事行动支持。",
+      "key_quotes": [],
+      "significance": "4月27日的庭审将是AI行业的分水岭事件。无论结果如何，这场诉讼都将深刻影响OpenAI的公司治理和AI行业的竞争生态。",
+      "links": [
+        "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
+        "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Elon Musk",
+        "OpenAI",
+        "诉讼",
+        "Grok",
+        "xAI"
+      ],
+      "category": "frontier_leaders",
+      "story_key": "openai-musk-lawsuit",
+      "event_date": "2026-04-07"
+    },
+    {
+      "id": "13",
+      "title": "NVIDIA Jim Fan发布CaP-X和DreamDojo：无需物理引擎的机器人\"模拟2.0\"",
+      "source": "@DrJimFan",
+      "source_name": "Jim Fan",
+      "source_role": "NVIDIA AI高级研究科学家",
+      "summary": "Jim Fan发布CaP-X（零样本机器人控制代码生成）和DreamDojo（基于NVIDIA Cosmos的开源交互式世界模型），宣称2026年是\"世界模型元年\"，机器人模拟从物理引擎走向学习型模拟。",
+      "detail": "CaP-X（Code-as-Policies）由NVIDIA联合Berkeley、Stanford、CMU开发，实现零样本机器人控制代码生成，MIT开源许可。DreamDojo则更为颠覆——一个开源交互式世界模型，接受机器人运动控制输入，直接在像素级别生成未来场景。Jim Fan描述为\"没有引擎、没有网格、没有手工编写的动力学——这是模拟2.0。\"基于NVIDIA Cosmos（开源权重）构建。Fan宣布2026年是\"世界模型元年\"，世界模型是物理AI的第二个预训练范式，而非语言骨干网络。",
+      "key_quotes": [
+        "No engine, no meshes, no hand-authored dynamics. It's Simulation 2.0.",
+        "2026 is the year of World Models."
+      ],
+      "significance": "CaP-X和DreamDojo代表了NVIDIA在机器人模拟领域从传统物理引擎向学习型模拟的战略转向。这与LeCun的世界模型路线在理念上产生了有趣的共振。",
+      "links": [
+        "https://x.com/DrJimFan/status/2039360925606760690",
+        "https://x.com/DrJimFan/status/2024895359236051274"
+      ],
+      "original_language": "en",
+      "tags": [
+        "NVIDIA",
+        "机器人",
+        "世界模型",
+        "CaP-X",
+        "DreamDojo"
+      ],
+      "category": "research",
+      "story_key": "nvidia-cap-x-dreamdojo",
+      "event_date": "2026-04-07"
+    },
+    {
+      "id": "14",
+      "title": "Cognition工程师全面停止手写代码，Devin用量三个月超全年",
+      "source": "@ScottWu46",
+      "source_name": "Scott Wu",
+      "source_role": "Cognition创始人",
+      "summary": "Cognition创始人Scott Wu透露，公司工程师已完全停止手写代码，所有编程工作由Devin完成。2026年1-3月的Devin使用量已超过2025年全年。",
+      "detail": "在2025年7月完成Windsurf收购（增加8200万美元ARR和350+企业客户）后，Cognition持续快速扩张。Wu在近期采访中透露了一个自我指涉的里程碑：Cognition自己的工程师已停止手写代码，所有编码工作都由Devin完成——而他们现在测试和发货产品的速度比以前更快。2026年1月至3月的Devin使用增长量已超过2025年全年。Wu将这一趋势比喻为软件工程的\"Moneyball化\"——用数据和AI取代传统的人工编码。",
+      "key_quotes": [],
+      "significance": "\"AI编码代理公司的工程师自己不再写代码\"——这是目前最有力的自我证明案例，也是对\"AI将取代程序员\"论述最具说服力的数据点。",
+      "links": [
+        "https://sfstandard.com/2026/03/24/grind-sf-startup-racing-build-ai-software-engineer/",
+        "https://www.lennysnewsletter.com/p/how-devin-replaces-your-junior-engineers"
+      ],
+      "original_language": "en",
+      "tags": [
+        "Cognition",
+        "Devin",
+        "AI编程",
+        "软件工程"
+      ],
+      "category": "builders",
+      "story_key": "cognition-devin-no-handwritten-code",
+      "event_date": "2026-03-24"
+    },
+    {
+      "id": "15",
+      "title": "GitHub Copilot将默认使用用户代码训练模型，4月24日生效引发开发者反弹",
+      "source": "GitHub",
+      "source_name": "GitHub / Alex Graveley",
+      "source_role": "GitHub Copilot架构师",
+      "summary": "GitHub宣布从4月24日起，Free、Pro和Pro+用户的Copilot交互数据将默认被用于训练AI模型。收集内容包括接受的输出、代码片段、文件名和仓库结构。Business/Enterprise层级不受影响。",
+      "detail": "这是GitHub在AI数据政策上的重大转向——从之前的默认不收集变为默认收集。数据范围包括用户接受的输出、代码片段、文件名、仓库结构、导航模式和反馈。仅Business和Enterprise层级被排除。此举已引发开发者社区的显著反弹。与此同时，GitHub也推出了一个有趣的创新：\"Rubber Duck\"功能——在Copilot CLI中使用不同于主会话模型的AI系列进行交叉模型代码审查，利用模型间的\"分歧\"作为质量信号。",
+      "key_quotes": [],
+      "significance": "默认Opt-in训练数据的政策变更是AI数据权益之争的新前线。开发者的代码是否应该免费成为AI训练数据？这将引发更广泛的行业辩论。",
+      "links": [
+        "https://www.infoq.com/news/2026/04/github-copilot-training-data/",
+        "https://www.helpnetsecurity.com/2026/04/07/github-copilot-rubber-duck-cross-model-review/"
+      ],
+      "original_language": "en",
+      "tags": [
+        "GitHub",
+        "Copilot",
+        "数据隐私",
+        "训练数据"
+      ],
+      "category": "news",
+      "story_key": "github-copilot-training-data",
+      "event_date": "2026-04-07"
+    }
+  ]
+}
