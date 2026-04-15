@@ -14,7 +14,7 @@ Stage 1: Research ($20) ──→ Stage 2: PDF Builder ($5)  ──→ git commi
 ```
 
 - **Research** must complete before builders start. PDF and Web builders run in parallel.
-- Research outputs to `research_results/AI/YYYY-MM-DD/` (gitignored, temporary).
+- Research outputs to `research_results/AI/YYYY-MM-DD/` (git-tracked).
 - PDF outputs to `pdf/AI/` (git-tracked). Web outputs to `web/AI/` + `web/manifest.json` (git-tracked).
 - Each stage is a Claude Code skill in `skills/`. The orchestrator is `skills/daily_AI_briefing/`.
 
@@ -47,7 +47,7 @@ claude -p "Run the ai_web_builder skill for today"
 - **No external dependencies at runtime**: Alpine.js is vendored in `web/js/`, fonts in `web/fonts/`. No CDN calls.
 - **Dark theme**: Background `#0A1628`, accent `#00C2FF`, body text `#CBD5E1`. Defined in `web/css/style.css` and inline in `index.html`.
 - **Image optimization for web**: Max 200KB, max 800px width, JPEG quality 85%.
-- **Automatic git commit message format**: `Daily AI briefing: YYYY-MM-DD` (only commits `web/` and `pdf/` directories).
+- **Automatic git commit message format**: `Daily AI briefing: YYYY-MM-DD` (commits `research_results/`, `web/`, and `pdf/` directories).
 
 ## Data Schemas
 
