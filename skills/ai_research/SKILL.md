@@ -62,7 +62,7 @@ Skip routine posts, retweets of minor things, casual conversation. If someone ha
 
 **Before finalizing each candidate, assign its `story_key` and `event_date` (see field rules in Step 4), then apply the following filters in order:**
 
-1. **Freshness filter.** If `today − event_date > 3 days`, DROP. Only news whose underlying event happened within the last 3 days is eligible.
+1. **Freshness filter.** If `today − event_date > 5 days`, DROP. Only news whose underlying event happened within the last 5 days is eligible.
 2. **Returning story filter.** If `story_key` appears in the lookback output, compare today's candidate against the previously published title(s) and summary(ies) for that `story_key`. If the candidate covers **substantively new information** (new facts, data, reactions, decisions, or developments not present in prior coverage), KEEP. If it merely rehashes or rewords what was already published, DROP. When kept, the following constraints apply:
    - `title` MUST describe ONLY the new development. Do not re-litigate the original story in the title. Prior titles for this `story_key` are available in the lookback output — read them and make sure today's title covers fresh ground.
    - `summary` MUST be about the new development only. No recap of the original story in the one-sentence card lede.
@@ -86,7 +86,7 @@ Skip routine posts, retweets of minor things, casual conversation. If someone ha
       "source": "@handle",
       "action": "DROP",
       "filter": "freshness",
-      "reason": "event_date 2026-04-10 is 4 days old (>3 day limit)"
+      "reason": "event_date 2026-04-10 is 6 days old (>5 day limit)"
     },
     {
       "story_key": "anthropic-claude-update",
