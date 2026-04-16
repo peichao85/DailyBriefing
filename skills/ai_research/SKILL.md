@@ -214,7 +214,7 @@ Order `items[]` so the day's most important story is `id=1`. The web page render
 4. Headshot of the central person (CEO, researcher, filer) — search `"[Name] headshot"` or `"[Name] official photo"`, prefer Wikipedia or company-bio photos
 5. A press/event photo from the article that broke the story
 
-In practice, (3) or (4) is always available for any major AI story — there is effectively no excuse for the hero card to ship without an image. If you genuinely cannot find one, reorder `items[]` so a story that DOES have an image becomes `id=1`.
+In practice, (3) or (4) is always available for any major AI story — there is effectively no excuse for the hero card to ship without an image. If you genuinely cannot find one, reorder `items[]` **among the already-kept items only** so a kept story that does have an image becomes `id=1`. Never resurrect a candidate that was dropped at the Step 4 filter gate just because it had a better image — the gate is final.
 
 ### Other items (`id=2` onward)
 
@@ -240,7 +240,7 @@ If missing, downstream defaults to `"logo"`, which under-sizes chart content. Do
 ## Constraints
 
 - **Filter before you elaborate.** Never write Chinese `title`/`summary`/`detail`/`significance`/`key_quotes` or search for/download images for a candidate before the filter gate in Step 4 has approved it. Around half of candidates are typically dropped by the gate; any elaboration work done before it is wasted tokens.
-- **Hero card must have an image.** Item `id=1` renders as the full-width hero on the web page and must carry an image. If the top story genuinely has no usable image after working the Step 6 ladder, reorder `items[]` so that a story which does have one becomes `id=1`.
+- **Hero card must have an image.** Item `id=1` renders as the full-width hero on the web page and must carry an image. If the top story genuinely has no usable image after working the Step 6 ladder, reorder `items[]` **among the kept items only** so that a kept story which does have one becomes `id=1`. The Step 4 filter gate is final — never bring a dropped candidate back into `items[]` to solve a hero-image problem.
 - **Aim for 3–4 of every 10 items to carry an image.** This is a floor on effort, not a cap. Skip only after working the Step 6 ladder.
 - All titles, summaries, details, and significance in Simplified Chinese (keep English for names, product names, company names, and technical terms commonly written in English)
 - Titles must summarize the INSIGHT, not just name the person
