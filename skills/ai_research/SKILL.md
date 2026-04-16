@@ -204,9 +204,9 @@ Images are gathered only for items kept by the filter gate in Step 4. Never sear
 
 ### Item ordering and the hero card
 
-Order `items[]` so the day's most important story is `id=1`. The web page renders `items[0]` as the full-width **hero card** and anchors the entire layout on it. A hero card without an image looks broken.
+Order `items[]` by **news importance** — the day's most important story is always `id=1`, regardless of whether it has an image. The web page renders `items[0]` as the full-width **hero card**. Never demote a more important story to `id=2` just because a less important story has a better image. News priority wins.
 
-**Rule: item `id=1` MUST have an image.** Work down this ladder and stop at the first option that yields a clean, relevant image:
+**Image policy for the hero card: best effort, not mandatory.** Try hard to find a good image for `id=1` since it anchors the whole layout visually, but if none of the ladder below yields a clean, relevant image, leave the hero without one — an image-less hero is acceptable; a mis-prioritized hero is not. Work the ladder top to bottom and stop at the first option that fits:
 
 1. Official product screenshot, demo frame, or architecture diagram from the announcement
 2. Benchmark chart, data visualization, or comparison table from the story
@@ -214,7 +214,7 @@ Order `items[]` so the day's most important story is `id=1`. The web page render
 4. Headshot of the central person (CEO, researcher, filer) — search `"[Name] headshot"` or `"[Name] official photo"`, prefer Wikipedia or company-bio photos
 5. A press/event photo from the article that broke the story
 
-In practice, (3) or (4) is always available for any major AI story — there is effectively no excuse for the hero card to ship without an image. If you genuinely cannot find one, reorder `items[]` **among the already-kept items only** so a kept story that does have an image becomes `id=1`. Never resurrect a candidate that was dropped at the Step 4 filter gate just because it had a better image — the gate is final.
+In practice, (3) or (4) usually works for major AI stories, so the hero will carry an image most days — but if today's top story genuinely has nothing usable, skip the image and move on.
 
 ### Other items (`id=2` onward)
 
@@ -240,7 +240,7 @@ If missing, downstream defaults to `"logo"`, which under-sizes chart content. Do
 ## Constraints
 
 - **Filter before you elaborate.** Never write Chinese `title`/`summary`/`detail`/`significance`/`key_quotes` or search for/download images for a candidate before the filter gate in Step 4 has approved it. Around half of candidates are typically dropped by the gate; any elaboration work done before it is wasted tokens.
-- **Hero card must have an image.** Item `id=1` renders as the full-width hero on the web page and must carry an image. If the top story genuinely has no usable image after working the Step 6 ladder, reorder `items[]` **among the kept items only** so that a kept story which does have one becomes `id=1`. The Step 4 filter gate is final — never bring a dropped candidate back into `items[]` to solve a hero-image problem.
+- **Hero card is chosen by news importance, not by image availability.** Item `id=1` is always the day's most important story. Try hard to find a good image for it (see the Step 6 ladder), but if nothing fits, ship the hero without an image — never demote a more important story just to put a better-illustrated one in the hero slot.
 - **Aim for 3–4 of every 10 items to carry an image.** This is a floor on effort, not a cap. Skip only after working the Step 6 ladder.
 - All titles, summaries, details, and significance in Simplified Chinese (keep English for names, product names, company names, and technical terms commonly written in English)
 - Titles must summarize the INSIGHT, not just name the person
