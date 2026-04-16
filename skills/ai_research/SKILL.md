@@ -9,28 +9,34 @@ Research today's most significant AI news and insights from 50+ key industry acc
 
 ## Step 1: Research Today's Content
 
-Use web search to find recent tweets/posts and news from ALL of the following 50 accounts. Cast a wide net — only the most significant items make the final dataset.
+Use web search to find the latest news, announcements, and notable statements related to the following 25 key figures. These names serve as a **tracking list** — search for news *about* them from major outlets, not necessarily *from* their X accounts directly.
 
 **Category 1 — Frontier Leaders & Founders:**
-@sama (OpenAI CEO), @gdb (OpenAI Co-founder & President), @demishassabis (Google DeepMind CEO), @mustafasuleyman (Microsoft AI CEO), @ilyasut (SSI founder), @DanielaAmodei (Anthropic Co-founder), @elonmusk (xAI/Tesla/SpaceX), @aidangomez (Cohere Co-founder), @alexandr_wang (Scale AI CEO), @AravSrinivas (Perplexity CEO)
+@sama (OpenAI CEO), @demishassabis (Google DeepMind CEO), @ilyasut (SSI founder), @DanielaAmodei (Anthropic Co-founder), @elonmusk (xAI/Tesla/SpaceX), @alexandr_wang (Scale AI / Meta AI)
 
-**Category 2 — Product, Design & Operators:**
-@kevinweil (OpenAI CPO), @mikeyk (Anthropic CPO), @jasonfried (37signals), @levie (Box CEO), @mntruell (Cursor CEO), @ryolu_ (Cursor Chief Designer), @antonosika (Lovable CEO), @levelsio (indie dev), @joshm (The Browser Company CEO), @rauchg (Vercel CEO, v0)
+**Category 2 — Product & Operators:**
+@mntruell (Cursor CEO), @mikeyk (Anthropic CPO)
 
 **Category 3 — Research & Science Leaders:**
-@JeffDean (Google DeepMind Chief Scientist), @ylecun (Meta Chief AI Scientist), @geoffreyhinton (AI pioneer), @AndrewYNg (Landing AI / DeepLearning.AI), @OriolVinyalsML (DeepMind VP Research), @soumithchintala (PyTorch co-founder), @ShaneLegg (DeepMind co-founder), @karpathy (ex-Tesla AI), @ctnzr (NVIDIA DL Research), @jackclarkSF (Anthropic co-founder)
+@JeffDean (Google DeepMind Chief Scientist), @ylecun (AMI Labs / ex-Meta), @geoffreyhinton (AI pioneer), @AndrewYNg (Landing AI / DeepLearning.AI), @karpathy (Eureka Labs / ex-Tesla AI)
 
 **Category 4 — Builders, Tools & Infrastructure:**
-@julien_c (Hugging Face CTO), @RichardSocher (You.com CEO), @c_valenzuelab (Runway CEO), @alexgraveley (GitHub Copilot architect), @amasad (Replit CEO), @ScottWu46 (Cognition founder), @drorwe (Tabnine co-founder), @ivanhzhao (Notion founder), @alighodsi (Databricks CEO), @JonathanRoss321 (Groq CEO)
+@julien_c (Hugging Face CTO), @ScottWu46 (Cognition founder), @alighodsi (Databricks CEO), @JonathanRoss321 (Groq CEO)
 
 **Category 5 — Investors, Curators & Signal:**
-@lexfridman (tech podcaster), @lennysan (product podcast), @naval (entrepreneur), @garrytan (YC CEO), @pmarca (a16z co-founder), @paulg (YC co-founder), @DrJimFan (NVIDIA AI), @rasbt (ML researcher), @hwchase17 (LangChain CEO), @polynoamial (OpenAI research scientist)
+@lexfridman (tech podcaster), @garrytan (YC CEO), @DrJimFan (NVIDIA AI)
+
+**Search strategy (optimize for efficiency):**
+1. Start with 3–5 broad searches: "AI news today", "breaking AI news April 2026", "AI funding announcements this week", etc. This alone covers most major stories.
+2. Then do 3–4 grouped searches using OR operators to cover the tracking list, e.g.: `"Sam Altman" OR "Demis Hassabis" OR "Daniela Amodei" OR "Elon Musk" AI news April 2026`. Keep each group to 5–7 names.
+3. Only do targeted individual searches for people who appeared in trending topics but lacked detail.
+
+Target: ~10–12 total searches to cover everything. Do NOT search each name individually.
 
 **Also search for:**
-- Trending AI topics on X today
 - Breaking tech and AI news from major outlets
-- Popular AI articles and blog posts gaining traction
 - Significant product launches, model releases, funding rounds, or acquisitions in AI
+- Major AI policy, regulation, or legal developments
 
 ## Step 2: Freshness + Dedup Lookback
 
@@ -86,7 +92,7 @@ Skip routine posts, retweets of minor things, casual conversation. If someone ha
       "source": "@handle",
       "action": "DROP",
       "filter": "freshness",
-      "reason": "event_date 2026-04-10 is 6 days old (>5 day limit)"
+      "reason": "event_date 2026-04-10 is 4 days old (>3 day limit)"
     },
     {
       "story_key": "anthropic-claude-update",
