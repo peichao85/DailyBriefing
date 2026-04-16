@@ -1,0 +1,233 @@
+{
+  "date": "2026-04-16",
+  "total_candidates": 25,
+  "kept": 11,
+  "dropped": 14,
+  "decisions": [
+    {
+      "story_key": "anthropic-claude-nerfing-controversy",
+      "event_date": "2026-04-14",
+      "title": "Anthropic被指\"阉割\"Claude：性能下降、算力紧缺疑云与用户信任危机",
+      "source": "@DanielaAmodei",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major new controversy: Fortune, VentureBeat, The Register all reported April 14-15 that Anthropic quietly reduced Claude's default effort level, AMD senior director filed detailed GitHub issue with 6,852 sessions proving performance collapse, and April 15 outage amplified compute crunch speculation."
+    },
+    {
+      "story_key": "apple-grok-deepfake-threat",
+      "event_date": "2026-04-15",
+      "title": "Apple曾威胁下架Grok应用：NBC曝光深度伪造内容审核信函",
+      "source": "@elonmusk",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. NBC News obtained Apple's letter to senators on April 15 revealing January 2026 threat to remove Grok from App Store over sexualized deepfakes. Despite xAI changes, NBC documents Grok still generating nonconsensual imagery."
+    },
+    {
+      "story_key": "naacp-xai-pollution-lawsuit",
+      "event_date": "2026-04-14",
+      "title": "NAACP起诉xAI：孟菲斯AI数据中心非法排放威胁黑人社区健康",
+      "source": "@elonmusk",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. NAACP filed Clean Air Act lawsuit on April 14 against xAI's 27 unpermitted gas turbines in Southaven, Mississippi, emitting 1,700 tons NOx and 19 tons formaldehyde per year near Black communities."
+    },
+    {
+      "story_key": "accel-5b-ai-fund",
+      "event_date": "2026-04-15",
+      "title": "Accel募集50亿美元AI基金：Anthropic和Cursor背后的VC加倍下注",
+      "source": "@pmarca",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg reported April 15 that Accel raised $5B in new funds ($4B Leaders Fund + $650M sidecar), averaging $200M checks for late-stage AI companies. Anthropic stake has quadrupled in months."
+    },
+    {
+      "story_key": "a16z-ai-super-pac-midterms",
+      "event_date": "2026-04-15",
+      "title": "a16z领投AI超级PAC突破5000万美元：硅谷砸重金影响中期选举",
+      "source": "@pmarca",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. FEC filings released April 15 show Leading the Future super PAC now exceeds $51M, with $25M from a16z and $25M from OpenAI's Brockman. Total 2026 cycle fundraising reaches $140M across entities."
+    },
+    {
+      "story_key": "openai-stargate-norway-pullback",
+      "event_date": "2026-04-15",
+      "title": "OpenAI退出挪威Stargate数据中心：Microsoft接手，IPO前收缩基建野心",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. CNBC reported April 15 that OpenAI abandoned direct lease for 230MW Narvik facility, Microsoft taking 30,000 Vera Rubin chips. Following UK Stargate pause, signals pre-IPO spending discipline."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title": "诺和诺德联手OpenAI加速药物发现：全球市值最高药企押注AI研发",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Novo Nordisk (Wegovy/Ozempic maker) announced strategic partnership with OpenAI on April 14 to deploy AI across drug discovery, manufacturing, and operations, with full integration by end of 2026."
+    },
+    {
+      "story_key": "gemini-personal-intelligence-global",
+      "event_date": "2026-04-14",
+      "title": "Google Gemini \"个人智能\"全球上线：AI首次大规模接入用户私人数据",
+      "source": "@demishassabis",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Google rolled out Personal Intelligence globally (excluding EU) on April 14, letting Gemini access Gmail, Calendar, Drive, Photos, YouTube, Maps data to personalize responses. First AI assistant with deep personal data access at global scale."
+    },
+    {
+      "story_key": "openai-gpt54-cyber",
+      "event_date": "2026-04-14",
+      "title": "OpenAI发布GPT-5.4-Cyber：降低安全围栏的网络安全专用模型回应Mythos",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI launched GPT-5.4-Cyber on April 14, a cybersecurity-permissive fine-tune with binary reverse engineering capabilities, restricted to vetted security researchers via Trusted Access for Cyber (TAC) program. Direct response to Anthropic's Mythos."
+    },
+    {
+      "story_key": "notion-agent-databases",
+      "event_date": "2026-04-14",
+      "title": "Notion 3.4发布Skills功能：AI Agent从\"通用助手\"进化为\"专属员工\"",
+      "source": "@ivanhzhao",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 04-09 with title 'Notion Agent已自动构建超50%数据库，Ivan Zhao押注「按成果付费」模式'. New info: Notion 3.4 Part 2 released April 14 with Skills (save workflows for Agent), Calendar/Mail/Slack integration, inline document editing, n8n integration, improved Custom Agents."
+    },
+    {
+      "story_key": "anthropic-claude-code-routines",
+      "event_date": "2026-04-14",
+      "title": "Claude Code桌面端大改版：多会话并行+拖拽布局重新定义AI编程工作区",
+      "source": "@mikeyk",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 04-14 with title 'Claude Code推出Routines'. New info: Complete desktop app redesign with multi-session sidebar, drag-and-drop pane layout, integrated terminal, in-app file editor, rebuilt diff viewer. VentureBeat enterprise review. Routines have three categories (Scheduled/API/Webhook) with tier limits (5/15/25 per day)."
+    },
+    {
+      "story_key": "openai-spud-next-model",
+      "event_date": "2026-04-13",
+      "title": "OpenAI Spud仍未发布：4月14日和16日传闻落空",
+      "source": "@sama",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-13 with title 'OpenAI \"Spud\"发布在即：GPT-5.5/6预训练完成'. No substantive new information — April 14 and 16 rumored dates passed without a launch. Polymarket odds unchanged. Window shifted to April 21-May 25 but this is speculation, not new facts."
+    },
+    {
+      "story_key": "altman-house-firebombing",
+      "event_date": "2026-04-12",
+      "title": "Altman遇袭后续媒体反响",
+      "source": "@sama",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-13 with title 'Altman遇袭者被控谋杀未遂，反AI「暗杀名单」宣言曝光'. No substantive new information — Fortune April 14 articles are opinion/analysis about 'generational divide' in response to attacks, not new factual developments."
+    },
+    {
+      "story_key": "farrow-altman-new-yorker",
+      "event_date": "2026-04-08",
+      "title": "Ronan Farrow《纽约客》万字调查：Sam Altman可以被信任吗？",
+      "source": "@sama",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-08 is 8 days old (>3 day limit). Article published ~April 8, NPR interviews on April 14 are media follow-up, not new developments."
+    },
+    {
+      "story_key": "xai-xchat-grok5",
+      "event_date": "2026-04-13",
+      "title": "XChat明日上线细节",
+      "source": "@elonmusk",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-13 with title 'XChat独立App即将发布：Elon Musk超级应用梦想迈出关键一步'. Previous coverage already detailed April 17 launch, Grok integration, E2E encryption, and payment features. App Store pre-order listing is incremental, not substantively new."
+    },
+    {
+      "story_key": "openai-musk-lawsuit",
+      "event_date": "2026-04-11",
+      "title": "OpenAI指控Musk\"法律突袭\"",
+      "source": "@elonmusk",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-11 is 5 days old (>3 day limit). OpenAI's 'legal ambush' accusation and Musk's charity donation pledge are from April 11."
+    },
+    {
+      "story_key": "databricks-matei-zaharia-acm",
+      "event_date": "2026-04-08",
+      "title": "Databricks联创获ACM计算奖并宣称AGI已到来",
+      "source": "@alighodsi",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-08 is 8 days old (>3 day limit)."
+    },
+    {
+      "story_key": "openai-tbpn-acquisition",
+      "event_date": "2026-04-02",
+      "title": "OpenAI收购科技播客TBPN",
+      "source": "@sama",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-02 is 14 days old (>3 day limit)."
+    },
+    {
+      "story_key": "amazon-layoffs-ai-restructuring",
+      "event_date": "2026-01-28",
+      "title": "Amazon裁员16000人，AI自动化加速",
+      "source": "news",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-01-28 is 78 days old (>3 day limit)."
+    },
+    {
+      "story_key": "chatgpt-health-launch",
+      "event_date": "2026-01-07",
+      "title": "ChatGPT Health发布",
+      "source": "@sama",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-01-07 is 99 days old (>3 day limit)."
+    },
+    {
+      "story_key": "perplexity-amazon-shopping-ban",
+      "event_date": "2026-04-10",
+      "title": "Perplexity上诉Amazon购物代理禁令",
+      "source": "@AravSrinivas",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-10 (watchdog brief filed) is 6 days old (>3 day limit). Original appeal was April 1."
+    },
+    {
+      "story_key": "anthropic-revenue-surpasses-openai",
+      "event_date": "2026-04-13",
+      "title": "OpenAI内部备忘录指控Anthropic营收",
+      "source": "@DanielaAmodei",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-13 with title 'OpenAI高管泄露备忘录指控Anthropic虚增80亿美元营收'. No substantive new information since last coverage."
+    },
+    {
+      "story_key": "hassabis-deepmind-startup-mode",
+      "event_date": "2026-04-07",
+      "title": "Hassabis谈DeepMind回归创业文化",
+      "source": "@demishassabis",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-07 is 9 days old (>3 day limit). Podcast interviews from April 7."
+    },
+    {
+      "story_key": "chrome-gemini-skills",
+      "event_date": "2026-04-14",
+      "title": "Google Chrome推出Gemini Skills功能",
+      "source": "@demishassabis",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback but story is a minor product feature update (reusable prompts in Chrome). Not significant enough for the briefing — overshadowed by Gemini Personal Intelligence global rollout."
+    },
+    {
+      "story_key": "meta-broadcom-mtia-partnership",
+      "event_date": "2026-04-15",
+      "title": "Meta与Broadcom合作开发下一代MTIA芯片",
+      "source": "news",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback but insufficient detail found in research to construct a full briefing item. Partnership was mentioned briefly in news roundups without dedicated coverage."
+    }
+  ]
+}
