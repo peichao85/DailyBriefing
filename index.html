@@ -233,11 +233,11 @@
                   </div>
                   <div class="card-header-text">
                     <div class="card-source" :style="'color:' + getTheme(item).accent + ';'">
-                      <span class="source-label">来源: </span><span
-                        x-text="item.source_name"
-                        :class="{ 'source-link': item.source_url }"
+                      <span
+                        x-text="item.owner || item.source_name"
+                        class="source-link"
                         :style="'color:' + getTheme(item).accent + ';'"
-                        @click="if (item.source_url) { $event.stopPropagation(); window.open(item.source_url, '_blank'); }"></span>
+                        @click="if (item.links && item.links.length) { $event.stopPropagation(); window.open(item.links[0], '_blank'); }"></span>
                     </div>
                     <div class="card-meta-github" x-show="item.stars != null">
                       <span x-text="'★ ' + formatStars(item.stars)"></span>
