@@ -91,8 +91,10 @@
           :style="getCardStyle(item, idx)"
           @click="toggleCard(item.id, $el)">
           <!-- Hero Badge -->
-          <div class="badge" x-show="idx === 0"
-            :style="'background:' + getTheme(item).accent + '; color: #fff;'">头条</div>
+          <template x-if="idx === 0">
+            <div class="badge"
+              :style="'background:' + getTheme(item).accent + '; color: #fff;'">头条</div>
+          </template>
 
           <!-- Card Header -->
           <div class="card-header">
@@ -302,29 +304,29 @@
   <script>
     // Tag → Theme mapping
     const TAG_THEMES = {
-      '模型发布': { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
-      'Anthropic': { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
-      'OpenAI':    { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
-      'Cursor':    { accent: '#8B5CF6', bg1: '#1a1545', icon: '🚀' },
-      'AI编程':    { accent: '#10B981', bg1: '#0d2818', icon: '⚡' },
-      '协作':      { accent: '#10B981', bg1: '#0d2818', icon: '⚡' },
-      '框架':      { accent: '#10B981', bg1: '#0d2818', icon: '⚡' },
-      '行业趋势':  { accent: '#F59E0B', bg1: '#2a1d06', icon: '📊' },
-      '热门趋势':  { accent: '#F59E0B', bg1: '#2a1d06', icon: '📊' },
-      'AI安全':    { accent: '#EF4444', bg1: '#2a0f0f', icon: '🛡️' },
-      '治理':      { accent: '#EF4444', bg1: '#2a0f0f', icon: '🛡️' },
-      '开源':      { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
-      '多模态':    { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
-      '边缘计算':  { accent: '#EC4899', bg1: '#2a0f20', icon: '🔓' },
-      'Agent':     { accent: '#06B6D4', bg1: '#0a1f2a', icon: '🤖' },
-      'AI Agent':  { accent: '#06B6D4', bg1: '#0a1f2a', icon: '🤖' },
-      'Claude Code': { accent: '#06B6D4', bg1: '#0a1f2a', icon: '🤖' },
-      '开发工具':  { accent: '#10B981', bg1: '#0d2818', icon: '🛠️' },
-      '命令行':    { accent: '#10B981', bg1: '#0d2818', icon: '🛠️' },
-      'CLI':       { accent: '#10B981', bg1: '#0d2818', icon: '🛠️' },
+      '模型发布': { accent: '#8B5CF6', bg1: '#231c55', icon: '🚀' },
+      'Anthropic': { accent: '#8B5CF6', bg1: '#231c55', icon: '🚀' },
+      'OpenAI':    { accent: '#8B5CF6', bg1: '#231c55', icon: '🚀' },
+      'Cursor':    { accent: '#8B5CF6', bg1: '#231c55', icon: '🚀' },
+      'AI编程':    { accent: '#10B981', bg1: '#143525', icon: '⚡' },
+      '协作':      { accent: '#10B981', bg1: '#143525', icon: '⚡' },
+      '框架':      { accent: '#10B981', bg1: '#143525', icon: '⚡' },
+      '行业趋势':  { accent: '#F59E0B', bg1: '#352810', icon: '📊' },
+      '热门趋势':  { accent: '#F59E0B', bg1: '#352810', icon: '📊' },
+      'AI安全':    { accent: '#EF4444', bg1: '#351818', icon: '🛡️' },
+      '治理':      { accent: '#EF4444', bg1: '#351818', icon: '🛡️' },
+      '开源':      { accent: '#EC4899', bg1: '#35182a', icon: '🔓' },
+      '多模态':    { accent: '#EC4899', bg1: '#35182a', icon: '🔓' },
+      '边缘计算':  { accent: '#EC4899', bg1: '#35182a', icon: '🔓' },
+      'Agent':     { accent: '#06B6D4', bg1: '#122a38', icon: '🤖' },
+      'AI Agent':  { accent: '#06B6D4', bg1: '#122a38', icon: '🤖' },
+      'Claude Code': { accent: '#06B6D4', bg1: '#122a38', icon: '🤖' },
+      '开发工具':  { accent: '#10B981', bg1: '#143525', icon: '🛠️' },
+      '命令行':    { accent: '#10B981', bg1: '#143525', icon: '🛠️' },
+      'CLI':       { accent: '#10B981', bg1: '#143525', icon: '🛠️' },
     };
 
-    const DEFAULT_THEME = { accent: '#00C2FF', bg1: '#132340', icon: '💡' };
+    const DEFAULT_THEME = { accent: '#00C2FF', bg1: '#182a4a', icon: '💡' };
 
     // Language → Theme mapping (GitHub tab).
     // The five most common languages get the five easy-to-tell-apart primary
@@ -334,17 +336,17 @@
     // in this map fall through to DEFAULT_THEME (cyan).
     const LANGUAGE_THEMES = {
       // Top 5 — primary colors
-      'Python':           { accent: '#3B82F6', bg1: '#0f1d3a' },  // blue
-      'TypeScript':       { accent: '#A855F7', bg1: '#1f1345' },  // purple
-      'JavaScript':       { accent: '#FACC15', bg1: '#2a1f0a' },  // yellow
-      'Go':               { accent: '#22C55E', bg1: '#0a2a15' },  // green
-      'Rust':             { accent: '#EF4444', bg1: '#2a0f0f' },  // red
+      'Python':           { accent: '#3B82F6', bg1: '#172848' },  // blue
+      'TypeScript':       { accent: '#A855F7', bg1: '#281c55' },  // purple
+      'JavaScript':       { accent: '#FACC15', bg1: '#352a12' },  // yellow
+      'Go':               { accent: '#22C55E', bg1: '#12351e' },  // green
+      'Rust':             { accent: '#EF4444', bg1: '#351818' },  // red
       // Next 5 — secondary hues
-      'C++':              { accent: '#EC4899', bg1: '#2a0f1d' },  // pink
-      'Java':             { accent: '#F97316', bg1: '#2a1606' },  // orange
-      'Jupyter Notebook': { accent: '#14B8A6', bg1: '#0a2422' },  // teal
-      'Shell':            { accent: '#84CC16', bg1: '#1a2a0a' },  // lime
-      'HTML':             { accent: '#94A3B8', bg1: '#1a2332' },  // slate gray (markup)
+      'C++':              { accent: '#EC4899', bg1: '#351828' },  // pink
+      'Java':             { accent: '#F97316', bg1: '#35200e' },  // orange
+      'Jupyter Notebook': { accent: '#14B8A6', bg1: '#122f2c' },  // teal
+      'Shell':            { accent: '#84CC16', bg1: '#223512' },  // lime
+      'HTML':             { accent: '#94A3B8', bg1: '#222e3e' },  // slate gray (markup)
     };
 
     const CATEGORY_HEADERS = {
@@ -393,8 +395,8 @@
           const delay = (idx || 0) * 0.07;
           const shadow = theme.accent + '25';
           return `border-left-color: ${theme.accent}; `
-            + `background: linear-gradient(135deg, ${theme.bg1}, #132340); `
-            + `box-shadow: 0 4px 20px ${shadow}; `
+            + `background: linear-gradient(135deg, ${theme.bg1}, #1e3255); `
+            + `box-shadow: 0 4px 20px ${shadow}, 0 2px 0 rgba(0,0,0,0.5); `
             + `animation-delay: ${delay}s;`;
         },
 
