@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-17",
+  "total_candidates": 17,
+  "kept": 12,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "anthropic-claude-opus-47-release",
+      "event_date": "2026-04-16",
+      "title_en": "Anthropic releases Claude Opus 4.7, retakes LLM lead on SWE-Bench Pro and agentic coding",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New model release — Opus 4.7 scores 64.3% on SWE-Bench Pro (vs 53.4% on 4.6), 87.6% on SWE-Bench Verified, introduces xhigh effort tier, high-resolution vision (2576px), task budgets, cyber safeguards. Anthropic's Mythos/nerfing stories in lookback are about different issues."
+    },
+    {
+      "story_key": "snap-ai-layoffs",
+      "event_date": "2026-04-15",
+      "title_en": "Snap cuts 1000 jobs citing AI code generation efficiencies",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Snap laid off 16% of workforce, cites 65% of new code AI-generated, targets $500M annualized cost savings. First major consumer tech layoff explicitly attributed to AI-driven productivity."
+    },
+    {
+      "story_key": "xai-xchat-grok5",
+      "event_date": "2026-04-17",
+      "title_en": "XChat standalone app launches today with Grok integration",
+      "source": "xAI",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-04-13 as preview ('XChat独立App即将发布：Elon Musk超级应用梦想迈出关键一步'). Today is actual launch day (2026-04-17). New info: real-world launch observation, user reception, Grok integration feature details from live app — substantively new from preview announcement."
+    },
+    {
+      "story_key": "perplexity-personal-computer-mac",
+      "event_date": "2026-04-16",
+      "title_en": "Perplexity launches Personal Computer for Mac, turning Mac mini into always-on AI agent",
+      "source": "Perplexity",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Previous Perplexity entries were about iOS Comet and agent growth. Today's launch: Personal Computer rolls out to Mac for Max subscribers ($200/mo), accesses local files, iMessage, Mail, Calendar; company recommends dedicated Mac mini for 24/7 operation."
+    },
+    {
+      "story_key": "amex-acquires-hyper-ai",
+      "event_date": "2026-04-16",
+      "title_en": "American Express acquires Sam Altman-backed AI expense startup Hyper",
+      "source": "American Express Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. AmEx announces acquisition of Hyper (AI expense agent platform backed by Altman), closing Q2 2026. Builds on earlier Hypercard partnership. Signals traditional financial services consolidating AI-native startups."
+    },
+    {
+      "story_key": "cadence-nvidia-robotics-sim",
+      "event_date": "2026-04-15",
+      "title_en": "Cadence and NVIDIA expand partnership for robot AI simulation and Millennium M2000 supercomputer",
+      "source": "BusinessWire",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Joint CEO announcement integrates Cadence physics engines with NVIDIA Isaac and Cosmos for sim-to-real robotics training. Millennium M2000 uses HGX B200 + RTX PRO 6000 Blackwell, claims 80x EDA perf. Cadence stock surged."
+    },
+    {
+      "story_key": "apple-siri-ios27-bootcamp",
+      "event_date": "2026-04-15",
+      "title_en": "Siri engineers sent to AI coding bootcamp as Apple prepares Siri overhaul",
+      "source": "MacRumors",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Leaked internal training program — Apple sending Siri engineers through intensive AI coding bootcamp before iOS 27 WWDC unveil. Custom Gemini model, standalone Siri app, third-party chatbot integration via Siri. Shows Apple's delayed-AI catch-up strategy."
+    },
+    {
+      "story_key": "antioch-robot-simulation-seed",
+      "event_date": "2026-04-16",
+      "title_en": "Antioch raises $8.5M to be the 'Cursor for physical AI' with robot simulation platform",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Seed round led by A* and Category Ventures at $60M valuation, 4 months after $4.5M pre-seed. CEO is ex-Tesla Autopilot. Addresses sim-to-real gap — complements Cadence/NVIDIA story on same theme."
+    },
+    {
+      "story_key": "parasail-ai-supercloud",
+      "event_date": "2026-04-15",
+      "title_en": "Parasail raises $32M Series A for tokenmaxxing AI inference supercloud",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $32M Series A co-led by Touring and Kindred, Samsung NEXT participating. Processes 500B tokens/day, 30% MoM revenue. Customers include Elicit, mem0, Venice. Pay-per-token model without lock-in."
+    },
+    {
+      "story_key": "elicit-series-a-research",
+      "event_date": "2026-04-15",
+      "title_en": "Elicit raises $22M Series A at $100M valuation for scientific research AI",
+      "source": "Elicit Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $22M Series A led by Spark Capital and Footwork, existing Fifty Years and Basis Set participating. 400K monthly researchers. Expanding from academia to evidence-based reasoning across industries."
+    },
+    {
+      "story_key": "insightfinder-agent-observability",
+      "event_date": "2026-04-16",
+      "title_en": "InsightFinder raises $15M Series B for AI agent reliability observability",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $15M Series B to scale 'Autonomous Reliability Insights' product — detects, diagnoses, and prevents AI agent failures. Customers: UBS, NBCUniversal, Lenovo, Dell, Google Cloud, Comcast. Revenue 3x YoY."
+    },
+    {
+      "story_key": "google-vids-gemini-voiceovers",
+      "event_date": "2026-04-15",
+      "title_en": "Google Vids AI voiceovers expand to 16 new languages in Workspace",
+      "source": "Google Workspace Updates",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Full rollout 2026-04-15 for Rapid/Scheduled Release domains. Adds Hindi, Arabic, Bengali, Tamil, Telugu, Thai, Turkish, Ukrainian and more — major push for non-English AI voice generation in productivity."
+    },
+    {
+      "story_key": "openai-100b-ad-revenue",
+      "event_date": "2026-04-09",
+      "title_en": "OpenAI projects $100B ad revenue by 2030 in investor deck",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-09 is 8 days old (>5 day limit). Widely reported Apr 9-12."
+    },
+    {
+      "story_key": "anthropic-revenue-surpasses-openai",
+      "event_date": "2026-04-11",
+      "title_en": "Anthropic annualized revenue crosses $30B surpassing OpenAI",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-04-11, 04-13 in lookback with full detail. No new material developments in past 24 hours."
+    },
+    {
+      "story_key": "lecun-ami-labs-world-models",
+      "event_date": "2026-04-01",
+      "title_en": "Yann LeCun Brown University lecture on world models vs LLMs",
+      "source": "Brown University",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date ~2026-04-01 is 16 days old (>5 day limit). Also already extensively covered in lookback under lecun-ami-labs-world-models."
+    },
+    {
+      "story_key": "oracle-ai-layoffs",
+      "event_date": "2026-03-31",
+      "title_en": "Oracle lays off 20-30K workers to fund AI data center buildout",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-31 is 17 days old (>5 day limit)."
+    },
+    {
+      "story_key": "bloom-oracle-fuel-cells",
+      "event_date": "2026-04-09",
+      "title_en": "Bloom Energy and Oracle expand 2.8GW fuel cell partnership for AI data centers",
+      "source": "Bloom Energy IR",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-09 is 8 days old (>5 day limit)."
+    }
+  ]
+}

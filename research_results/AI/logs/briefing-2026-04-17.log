@@ -1,0 +1,50 @@
+=== Research started: Fri Apr 17 06:58:01 AM CST 2026 ===
+AI research complete for 2026-04-17.
+
+**Output:** `research_results/AI/2026-04-17/`
+- `data.json` — 12 items, 4 with images (33% image coverage)
+- `filter_log.json` — 17 candidates evaluated, 12 kept, 5 dropped (3 freshness, 1 returning_story_no_update, 1 duplicate)
+- `img/` — 4 images (Claude Opus 4.7 hero, Snap, Antioch team, Perplexity Mac)
+
+**Hero (id=1):** Claude Opus 4.7 release — biggest story of the day, with Anthropic's official hero image.
+
+**Kept items span:** Anthropic Opus 4.7, Snap AI-driven layoffs, XChat launch (returning story with substantive update), Perplexity Mac agent, AmEx→Hyper acquisition, Cadence×NVIDIA robotics, Apple Siri bootcamp, Antioch seed, Parasail/Elicit/InsightFinder funding, Google Vids multilingual.
+
+**Dropped:** OpenAI $100B ad forecast (stale), Anthropic $30B revenue (covered last week), LeCun Brown lecture (stale), Oracle layoffs (stale), Bloom/Oracle fuel cells (stale).
+=== Research finished successfully: Fri Apr 17 07:11:35 AM CST 2026 ===
+=== PDF Builder, Web Builder & GitHub Trending started (parallel): Fri Apr 17 07:11:35 AM CST 2026 ===
+=== Web Builder started: Fri Apr 17 07:11:35 AM CST 2026 ===
+=== PDF Builder started: Fri Apr 17 07:11:35 AM CST 2026 ===
+=== GitHub Trending Builder started: Fri Apr 17 07:11:35 AM CST 2026 ===
+Web build complete for 2026-04-17.
+
+- `web/AI/2026-04-17/data.json` — 12 items, headline "Claude Opus 4.7 重夺 LLM 王座；Snap 16% 裁员首次公开挂钩 AI 代码生成"
+- 4 images copied to `web/AI/2026-04-17/img/`, all under 200KB and ≤800px wide (hero PNG→JPG to fit budget)
+- `story_key`, `event_date`, `category`, `source_url` passed through intact
+- Did not touch `web/manifest.json` — orchestrator rebuilds it
+=== Web Builder finished successfully: Fri Apr 17 07:16:21 AM CST 2026 ===
+Built `web/GitHub/2026-04-17/data.json` with 10 新晋热门 + 10 上升之星 items; all 20 avatar images are in place under `img/`. Raw data is at `research_results/GitHub/2026-04-17/raw.json`. Per skill spec, manifest updates are left to the orchestrator.
+=== GitHub Trending Builder finished successfully: Fri Apr 17 07:18:41 AM CST 2026 ===
+PDF delivered. The final output is at `pdf/AI/daily-tech-ai-briefing-2026-04-17-cn.pdf` (788 KB, 12 slides). The `tmp/` working directory has been cleaned up.
+
+Summary of the deck:
+1. **Cover** — Opus 4.7 headline, 3 chip cards
+2. **Opus 4.7** — 3 stat cards + hero image + 4 feature cards
+3. **Snap layoffs** — 3 stat cards + photo + CEO quote
+4. **XChat launch** — 4 feature rows + big cyan callout
+5. **Perplexity Mac** — hero image + 4 spec cards
+6. **Amex × Hyper** — two actor cards + Altman exits timeline
+7. **Physical AI** — Cadence×NVIDIA + Antioch side-by-side
+8. **Apple Siri** — 3-step timeline + strategy panel
+9. **Parasail** — 3 big stat cards + positioning panel
+10. **Elicit + InsightFinder** — vertical Copilot vs observability
+11. **Google Vids** — giant "16" + 4×4 language grid
+12. **Takeaways** — 5 numbered rows
+=== PDF Builder finished successfully: Fri Apr 17 07:24:52 AM CST 2026 ===
+=== Parallel builders finished: Fri Apr 17 07:24:52 AM CST 2026 ===
+=== Manifest rebuild started: Fri Apr 17 07:24:52 AM CST 2026 ===
+wrote /home/ubuntu/source/DailyBriefing.git/web/manifest.json
+  AI: 10 dates (latest: 2026-04-17)
+  GitHub: 8 dates (latest: 2026-04-17)
+=== Manifest rebuild finished: Fri Apr 17 07:24:52 AM CST 2026 ===
+=== Git commit & push started: Fri Apr 17 07:24:52 AM CST 2026 ===
