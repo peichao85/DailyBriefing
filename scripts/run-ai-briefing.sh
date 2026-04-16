@@ -106,7 +106,7 @@ log "Manifest rebuild finished"
 
 # Commit and push web/ and pdf/ changes
 log "Git commit & push started"
-git add web/ pdf/
+git add web/ pdf/ research_results/
 if git diff --cached --quiet; then
   echo "No changes to commit." >> "$LOG"
 else
