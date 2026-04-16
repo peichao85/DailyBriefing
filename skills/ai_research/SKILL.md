@@ -137,8 +137,9 @@ Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create 
     {
       "id": "1",
       "title": "Insight-driven title in Chinese (e.g., '代码手写时代正式终结')",
-      "source": "@handle",
-      "source_name": "Full Name",
+      "source": "@handle (optional, related person/account for metadata only — NOT displayed in UI)",
+      "source_name": "Single most authoritative news source (see rules below)",
+      "source_url": "URL of the source_name article from the links array",
       "story_key": "stable-english-slug-for-this-story",
       "event_date": "YYYY-MM-DD",
       "summary": "Brief summary in Chinese, 1-2 sentences",
@@ -152,6 +153,21 @@ Save the research results to `research_results/AI/YYYY-MM-DD/data.json` (create 
   ]
 }
 ```
+
+**`source_name` rules:** Pick the **single most authoritative** news source for each item — NOT the person or company the story is about. This field tells the reader "where the information comes from" so they can judge credibility at a glance.
+
+| Scenario | Selection rule | Example |
+|----------|---------------|---------|
+| Company self-publishes (blog, newsroom) | Use the company's publication name | NVIDIA Newsroom, Anthropic Blog |
+| Single media exclusive | Use that outlet | TechCrunch, The Information |
+| Multiple outlets covering the story | Pick the **one** most authoritative or earliest reporter | CNN (not "CNN / Fortune / NPR") |
+| Leaked document or internal memo | Use the outlet that broke the story | Axios |
+
+Key rule: **`source_name` must be exactly one source.** Never slash-separate multiple outlets.
+
+**`source_url` rules:** Set this to the URL from the `links` array that corresponds to the `source_name` outlet. If `source_name` is "TechCrunch" and `links` contains a techcrunch.com URL, use that URL. This field powers the clickable source link on the frontend card.
+
+**`source` field (optional):** The `@handle` field is retained purely as metadata for internal categorization. It is **not displayed** in the UI. You may omit it or set it to a brief label (e.g. "@sama", "NVIDIA", "泄露备忘录") for filtering/logging purposes.
 
 **`story_key` rules:** 3–6 words, lowercase, hyphen-separated, English. Name the story (actor + core event), not today's specific angle — so the same slug is reused across every day the story has a development. **Before creating a new key, scan ALL `story_key` values in the Step 2 lookback output. If any existing key describes the same story, reuse it exactly. Only mint a new key when no existing key matches.** Examples: `anthropic-mythos-zerodays`, `coreweave-anthropic-cloud-deal`, `openai-public-benefit-charter`.
 

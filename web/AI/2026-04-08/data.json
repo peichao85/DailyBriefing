@@ -7,7 +7,7 @@
       "id": "1",
       "title": "Claude 4.5 正式发布，多模态能力大幅跃升",
       "source": "@DanielaAmodei",
-      "source_name": "Daniela Amodei",
+      "source_name": "Anthropic",
       "summary": "Anthropic 发布 Claude 4.5，在多模态理解、长上下文推理和代码生成方面取得重大突破。",
       "detail": "Anthropic 正式推出 Claude 4.5 系列模型，包含 Opus、Sonnet 和 Haiku 三个版本。新模型在视觉理解、文档分析和代码生成等关键领域表现出色，特别是在超长上下文窗口（高达 1M tokens）的支持下，能够处理前所未有的复杂任务。社区反响热烈，多位开发者报告生产环境中性能显著提升。",
       "key_quotes": [
@@ -22,7 +22,8 @@
         "Anthropic"
       ],
       "story_key": "anthropic-claude45-release",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": "https://www.anthropic.com"
     },
     {
       "id": "2",
@@ -42,7 +43,8 @@
         "行业趋势"
       ],
       "story_key": "ai-coding-handwriting-end",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": null
     },
     {
       "id": "3",
@@ -62,7 +64,8 @@
         "协作"
       ],
       "story_key": "cursor-team-collaboration",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": null
     },
     {
       "id": "4",
@@ -80,7 +83,8 @@
         "治理"
       ],
       "story_key": "openai-safety-team-restructure",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": null
     },
     {
       "id": "5",
@@ -100,7 +104,8 @@
         "边缘计算"
       ],
       "story_key": "huggingface-smolvlm-2b",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": null
     },
     {
       "id": "6",
@@ -118,7 +123,8 @@
         "热门趋势"
       ],
       "story_key": "x-agent-framework-debate",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": null
     }
   ]
 }

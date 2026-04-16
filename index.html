@@ -103,9 +103,14 @@
               <span x-text="getTheme(item).icon"></span>
             </div>
             <div class="card-header-text">
-              <div class="card-source" :style="'color:' + getTheme(item).accent + ';'"
-                x-text="item.source_name + (item.source ? ' ' + item.source : '')"></div>
-            </div>
+            <div class="card-source" :style="'color:' + getTheme(item).accent + ';'">
+                <span class="source-label">来源: </span><span
+                  x-text="item.source_name"
+                  :class="{ 'source-link': item.source_url }"
+                  :style="'color:' + getTheme(item).accent + ';'"
+                  @click="if (item.source_url) { $event.stopPropagation(); window.open(item.source_url, '_blank'); }"></span>
+              </div>
+          </div>
           </div>
 
           <!-- Logo image: float right when expanded, or when hero (collapsed) -->
@@ -227,8 +232,13 @@
                     </template>
                   </div>
                   <div class="card-header-text">
-                    <div class="card-source" :style="'color:' + getTheme(item).accent + ';'"
-                      x-text="item.source_name + (item.source ? ' ' + item.source : '')"></div>
+                    <div class="card-source" :style="'color:' + getTheme(item).accent + ';'">
+                      <span class="source-label">来源: </span><span
+                        x-text="item.source_name"
+                        :class="{ 'source-link': item.source_url }"
+                        :style="'color:' + getTheme(item).accent + ';'"
+                        @click="if (item.source_url) { $event.stopPropagation(); window.open(item.source_url, '_blank'); }"></span>
+                    </div>
                     <div class="card-meta-github" x-show="item.stars != null">
                       <span x-text="'★ ' + formatStars(item.stars)"></span>
                       <span x-show="item.stars_gained" class="stars-gained"

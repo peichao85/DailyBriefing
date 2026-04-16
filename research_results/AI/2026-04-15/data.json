@@ -3,23 +3,63 @@
   "category": "AI",
   "researched_at": "2026-04-15T12:00:00Z",
   "sources_checked": [
-    "@sama", "@gdb", "@demishassabis", "@mustafasuleyman", "@ilyasut",
-    "@DanielaAmodei", "@elonmusk", "@aidangomez", "@alexandr_wang", "@AravSrinivas",
-    "@kevinweil", "@mikeyk", "@jasonfried", "@levie", "@mntruell",
-    "@ryolu_", "@antonosika", "@levelsio", "@joshm", "@rauchg",
-    "@JeffDean", "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@OriolVinyalsML",
-    "@soumithchintala", "@ShaneLegg", "@karpathy", "@ctnzr", "@jackclarkSF",
-    "@julien_c", "@RichardSocher", "@c_valenzuelab", "@alexgraveley", "@amasad",
-    "@ScottWu46", "@drorwe", "@ivanhzhao", "@alighodsi", "@JonathanRoss321",
-    "@lexfridman", "@lennysan", "@naval", "@garrytan", "@pmarca",
-    "@paulg", "@DrJimFan", "@rasbt", "@hwchase17", "@polynoamial"
+    "@sama",
+    "@gdb",
+    "@demishassabis",
+    "@mustafasuleyman",
+    "@ilyasut",
+    "@DanielaAmodei",
+    "@elonmusk",
+    "@aidangomez",
+    "@alexandr_wang",
+    "@AravSrinivas",
+    "@kevinweil",
+    "@mikeyk",
+    "@jasonfried",
+    "@levie",
+    "@mntruell",
+    "@ryolu_",
+    "@antonosika",
+    "@levelsio",
+    "@joshm",
+    "@rauchg",
+    "@JeffDean",
+    "@ylecun",
+    "@geoffreyhinton",
+    "@AndrewYNg",
+    "@OriolVinyalsML",
+    "@soumithchintala",
+    "@ShaneLegg",
+    "@karpathy",
+    "@ctnzr",
+    "@jackclarkSF",
+    "@julien_c",
+    "@RichardSocher",
+    "@c_valenzuelab",
+    "@alexgraveley",
+    "@amasad",
+    "@ScottWu46",
+    "@drorwe",
+    "@ivanhzhao",
+    "@alighodsi",
+    "@JonathanRoss321",
+    "@lexfridman",
+    "@lennysan",
+    "@naval",
+    "@garrytan",
+    "@pmarca",
+    "@paulg",
+    "@DrJimFan",
+    "@rasbt",
+    "@hwchase17",
+    "@polynoamial"
   ],
   "items": [
     {
       "id": "1",
       "title": "Altman遇袭者被控谋杀未遂，反AI「暗杀名单」宣言曝光",
       "source": "多方报道",
-      "source_name": "CNN / NPR / Fortune / SF Standard",
+      "source_name": "CNN",
       "story_key": "altman-house-firebombing",
       "event_date": "2026-04-13",
       "summary": "燃烧弹袭击嫌疑人Daniel Moreno-Gama被正式起诉两项谋杀未遂罪，其随身宣言中包含多名AI CEO的「暗杀名单」。此前两天Altman住所再遭枪击，另两名嫌疑人被捕。",
@@ -34,14 +74,20 @@
         "https://www.cnn.com/2026/04/13/tech/sam-altman-openai-arrest-charges",
         "https://sfstandard.com/2026/04/12/sam-altman-s-home-targeted-second-attack/"
       ],
-      "tags": ["AI安全", "反AI暴力", "OpenAI", "Sam Altman"],
-      "category": "trending"
+      "tags": [
+        "AI安全",
+        "反AI暴力",
+        "OpenAI",
+        "Sam Altman"
+      ],
+      "category": "trending",
+      "source_url": "https://www.cnn.com/2026/04/13/tech/sam-altman-openai-arrest-charges"
     },
     {
       "id": "2",
       "title": "Claude Code推出Routines：AI开发自动化从「按需响应」迈向「计划执行」",
       "source": "Anthropic",
-      "source_name": "Anthropic / 9to5Mac",
+      "source_name": "9to5Mac",
       "story_key": "anthropic-claude-code-routines",
       "event_date": "2026-04-14",
       "summary": "Anthropic发布Claude Code Routines研究预览版，开发者可配置AI Agent按计划、API调用或GitHub事件自动执行代码审查、Bug分诊和跨语言移植等任务，无需本地机器在线。",
@@ -52,8 +98,16 @@
         "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/",
         "https://the-decoder.com/claude-code-routines-let-ai-fix-bugs-and-review-code-on-autopilot/"
       ],
-      "tags": ["Anthropic", "Claude Code", "Routines", "Agent", "自动化", "DevOps"],
-      "category": "product_operators"
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "Routines",
+        "Agent",
+        "自动化",
+        "DevOps"
+      ],
+      "category": "product_operators",
+      "source_url": "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/"
     },
     {
       "id": "3",
@@ -74,14 +128,22 @@
       ],
       "image": "img/nvidia-ising-quantum.jpg",
       "image_type": "logo",
-      "tags": ["NVIDIA", "量子计算", "Ising", "开源", "校准", "纠错"],
-      "category": "builders"
+      "tags": [
+        "NVIDIA",
+        "量子计算",
+        "Ising",
+        "开源",
+        "校准",
+        "纠错"
+      ],
+      "category": "builders",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers"
     },
     {
       "id": "4",
       "title": "Grok 4.20 Beta 2登顶医学与法律推理排行榜，幻觉率降低65%",
       "source": "@elonmusk",
-      "source_name": "xAI",
+      "source_name": "IBTimes",
       "story_key": "xai-grok420-beta2",
       "event_date": "2026-04-13",
       "summary": "xAI发布Grok 4.20 Beta 2更新，在Text Arena医疗和BridgeBench推理基准上登顶，超越Claude Opus 4.6、GPT-5.4和Gemini 3.1 Pro。跨Agent验证机制将幻觉率从12%降至4.2%。",
@@ -92,14 +154,22 @@
         "https://www.ibtimes.com.au/grok-420-beta-2-powers-xai-advances-model-tops-benchmarks-saves-lives-april-2026-1866556",
         "https://artificialanalysis.ai/models/grok-4-20"
       ],
-      "tags": ["xAI", "Grok", "基准测试", "幻觉率", "医疗AI", "法律AI"],
-      "category": "frontier_leaders"
+      "tags": [
+        "xAI",
+        "Grok",
+        "基准测试",
+        "幻觉率",
+        "医疗AI",
+        "法律AI"
+      ],
+      "category": "frontier_leaders",
+      "source_url": "https://www.ibtimes.com.au/grok-420-beta-2-powers-xai-advances-model-tops-benchmarks-saves-lives-april-2026-1866556"
     },
     {
       "id": "5",
       "title": "OpenAI收购个人理财AI Hiro Finance，ChatGPT金融场景布局浮出水面",
       "source": "@sama",
-      "source_name": "OpenAI / TechCrunch",
+      "source_name": "TechCrunch",
       "story_key": "openai-acquires-hiro-finance",
       "event_date": "2026-04-13",
       "summary": "OpenAI收购AI个人理财平台Hiro Finance，创始人Ethan Bloch及团队全员加入OpenAI。Hiro将于4月20日关停、5月13日删除所有用户数据，业界视为人才收购以强化ChatGPT金融规划能力。",
@@ -110,14 +180,22 @@
         "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
         "https://www.pymnts.com/acquisitions/2026/openai-buys-personal-finance-platform-hiro/"
       ],
-      "tags": ["OpenAI", "收购", "金融AI", "Hiro Finance", "ChatGPT"],
-      "category": "frontier_leaders"
+      "tags": [
+        "OpenAI",
+        "收购",
+        "金融AI",
+        "Hiro Finance",
+        "ChatGPT"
+      ],
+      "category": "frontier_leaders",
+      "source_url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/"
     },
     {
       "id": "6",
       "title": "OpenAI高管泄露备忘录指控Anthropic虚增80亿美元营收，AI营收之争白热化",
       "source": "泄露备忘录",
-      "source_name": "Axios / Gizmodo / The Information",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/04/13/openai-microsoft-anthropic-amazon",
       "story_key": "anthropic-revenue-surpasses-openai",
       "event_date": "2026-04-13",
       "summary": "OpenAI首席营收官Denise Dresser在周日内部备忘录中指控Anthropic通过云渠道按总额确认收入，虚增了约80亿美元年化营收。按净额口径，OpenAI以250亿美元仍领先于Anthropic的约220亿美元。",
@@ -132,14 +210,22 @@
         "https://gizmodo.com/openai-exec-reveals-new-strategy-in-leaked-memo-attack-anthropic-2000745872",
         "https://www.implicator.ai/openai-cro-tells-staff-anthropic-inflates-run-rate-by-8-billion/"
       ],
-      "tags": ["OpenAI", "Anthropic", "营收", "会计", "IPO", "竞争"],
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "营收",
+        "会计",
+        "IPO",
+        "竞争"
+      ],
       "category": "news"
     },
     {
       "id": "7",
       "title": "Vercel CEO首次释放IPO信号：30%应用已由AI Agent生成，ARR达3.4亿美元",
       "source": "@rauchg",
-      "source_name": "Guillermo Rauch / TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
       "story_key": "vercel-v0-funding",
       "event_date": "2026-04-13",
       "summary": "Vercel CEO Guillermo Rauch首次公开释放IPO信号，称「公司已准备就绪，并且每天都更加准备」。ARR从2024年初的1亿美元飙升至3.4亿美元，平台上30%的应用已由AI Agent而非人类开发者生成。",
@@ -152,7 +238,13 @@
       "links": [
         "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/"
       ],
-      "tags": ["Vercel", "v0", "IPO", "AI Agent", "基础设施"],
+      "tags": [
+        "Vercel",
+        "v0",
+        "IPO",
+        "AI Agent",
+        "基础设施"
+      ],
       "category": "product_operators"
     }
   ]

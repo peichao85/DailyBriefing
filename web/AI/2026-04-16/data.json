@@ -7,7 +7,7 @@
       "id": "1",
       "title": "Anthropic被指\"阉割\"Claude：6852个会话证实性能暴跌，用户信任危机爆发",
       "source": "@DanielaAmodei",
-      "source_name": "Anthropic",
+      "source_name": "Fortune",
       "story_key": "anthropic-claude-nerfing-controversy",
       "event_date": "2026-04-14",
       "summary": "Anthropic悄悄将Claude默认effort级别降至\"medium\"以节省算力，大量开发者报告模型指令遵循能力严重退化，AMD高管用6852个会话数据实锤性能崩塌。",
@@ -25,14 +25,21 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["Anthropic", "Claude", "性能降级", "算力紧缺", "用户信任"],
-      "category": "product_operators"
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "性能降级",
+        "算力紧缺",
+        "用户信任"
+      ],
+      "category": "product_operators",
+      "source_url": "https://fortune.com/2026/04/14/anthropic-claude-performance-decline-user-complaints-backlash-lack-of-transparency-accusations-compute-crunch/"
     },
     {
       "id": "2",
       "title": "Apple曾威胁下架Grok：NBC获取信函曝光深度伪造审核内幕",
       "source": "@elonmusk",
-      "source_name": "Elon Musk / xAI",
+      "source_name": "9to5Mac",
       "story_key": "apple-grok-deepfake-threat",
       "event_date": "2026-04-15",
       "summary": "NBC News获取Apple致参议员信函，揭露Apple今年1月曾因深度伪造色情内容威胁将Grok下架，xAI被迫整改但问题仍未根绝。",
@@ -49,14 +56,22 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["Apple", "xAI", "Grok", "深度伪造", "内容审核", "App Store"],
-      "category": "trending"
+      "tags": [
+        "Apple",
+        "xAI",
+        "Grok",
+        "深度伪造",
+        "内容审核",
+        "App Store"
+      ],
+      "category": "trending",
+      "source_url": "https://9to5mac.com/2026/04/14/apple-reportedly-threatened-to-remove-grok-from-the-app-store-over-sexualized-deepfakes/"
     },
     {
       "id": "3",
       "title": "NAACP起诉xAI：孟菲斯数据中心非法排放1700吨氮氧化物威胁黑人社区",
       "source": "@elonmusk",
-      "source_name": "xAI / NAACP",
+      "source_name": "CNBC",
       "story_key": "naacp-xai-pollution-lawsuit",
       "event_date": "2026-04-14",
       "summary": "NAACP以违反《清洁空气法》为由起诉xAI，指控其在孟菲斯地区未经许可安装27台燃气轮机，年排放1700吨氮氧化物和19吨致癌甲醛。",
@@ -73,14 +88,22 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["xAI", "NAACP", "环境诉讼", "数据中心", "清洁空气法", "环境正义"],
-      "category": "trending"
+      "tags": [
+        "xAI",
+        "NAACP",
+        "环境诉讼",
+        "数据中心",
+        "清洁空气法",
+        "环境正义"
+      ],
+      "category": "trending",
+      "source_url": "https://www.cnbc.com/2026/04/14/elon-musk-xai-memphis-data-centers.html"
     },
     {
       "id": "4",
       "title": "OpenAI发布GPT-5.4-Cyber：降低安全围栏的网络安全专用模型正面回应Mythos",
       "source": "@sama",
-      "source_name": "OpenAI",
+      "source_name": "SiliconAngle",
       "story_key": "openai-gpt54-cyber",
       "event_date": "2026-04-14",
       "summary": "OpenAI推出GPT-5.4-Cyber——专为防御性网络安全优化的受限模型，支持二进制逆向工程，仅向经过审查的安全研究人员开放，是对Anthropic Mythos的直接回应。",
@@ -97,14 +120,21 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["OpenAI", "GPT-5.4-Cyber", "网络安全", "Mythos", "受限访问"],
-      "category": "frontier_leaders"
+      "tags": [
+        "OpenAI",
+        "GPT-5.4-Cyber",
+        "网络安全",
+        "Mythos",
+        "受限访问"
+      ],
+      "category": "frontier_leaders",
+      "source_url": "https://siliconangle.com/2026/04/14/openai-launches-gpt-5-4-cyber-model-vetted-security-professionals/"
     },
     {
       "id": "5",
       "title": "OpenAI退出挪威Stargate：Microsoft接手北极圈数据中心，IPO前基建收缩",
       "source": "@sama",
-      "source_name": "OpenAI",
+      "source_name": "Bloomberg",
       "story_key": "openai-stargate-norway-pullback",
       "event_date": "2026-04-15",
       "summary": "OpenAI放弃北极圈Narvik 230MW数据中心直租计划，Microsoft接手3万块Vera Rubin芯片。继UK Stargate暂停后，OpenAI在IPO前显著收缩基础设施野心。",
@@ -121,14 +151,22 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["OpenAI", "Microsoft", "Stargate", "数据中心", "IPO", "基础设施"],
-      "category": "builders"
+      "tags": [
+        "OpenAI",
+        "Microsoft",
+        "Stargate",
+        "数据中心",
+        "IPO",
+        "基础设施"
+      ],
+      "category": "builders",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-14/microsoft-takes-over-norway-openai-data-center-capacity"
     },
     {
       "id": "6",
       "title": "Google Gemini \"个人智能\"全球上线：AI首次大规模接入用户私人数据生态",
       "source": "@demishassabis",
-      "source_name": "Google DeepMind",
+      "source_name": "9to5google.com",
       "story_key": "gemini-personal-intelligence-global",
       "event_date": "2026-04-14",
       "summary": "Google于4月14日将Personal Intelligence功能推向全球（欧洲除外），Gemini可直接访问Gmail、Calendar、Drive、Photos、YouTube、Maps等数据，无需额外提示即可个性化回答。",
@@ -145,14 +183,22 @@
       ],
       "image": "img/gemini-personal-intelligence.jpg",
       "image_type": "logo",
-      "tags": ["Google", "Gemini", "个人智能", "数据隐私", "个性化", "全球上线"],
-      "category": "product_operators"
+      "tags": [
+        "Google",
+        "Gemini",
+        "个人智能",
+        "数据隐私",
+        "个性化",
+        "全球上线"
+      ],
+      "category": "product_operators",
+      "source_url": "https://9to5google.com/2026/04/14/gemini-personal-intelligence-global/"
     },
     {
       "id": "7",
       "title": "诺和诺德联手OpenAI：全球最大药企押注AI加速药物发现",
       "source": "@sama",
-      "source_name": "Novo Nordisk / OpenAI",
+      "source_name": "CNBC",
       "story_key": "novo-nordisk-openai-partnership",
       "event_date": "2026-04-14",
       "summary": "Wegovy/Ozempic制造商诺和诺德与OpenAI建立战略合作，将AI部署到药物发现、制造和运营全链路，2026年底前完成全面整合。",
@@ -169,14 +215,21 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["OpenAI", "诺和诺德", "药物发现", "AI医疗", "企业合作"],
-      "category": "news"
+      "tags": [
+        "OpenAI",
+        "诺和诺德",
+        "药物发现",
+        "AI医疗",
+        "企业合作"
+      ],
+      "category": "news",
+      "source_url": "https://www.cnbc.com/2026/04/14/novo-nordisk-openai-ai-drug-discovery-healthcare-nvo.html"
     },
     {
       "id": "8",
       "title": "Accel募集50亿美元AI基金：Anthropic和Cursor幕后金主加倍下注",
       "source": "@pmarca",
-      "source_name": "Accel",
+      "source_name": "Bloomberg",
       "story_key": "accel-5b-ai-fund",
       "event_date": "2026-04-15",
       "summary": "Anthropic和Cursor的早期投资方Accel宣布募集50亿美元新基金，其中40亿美元用于AI后期投资，平均每笔2亿美元，Anthropic持仓价值已翻四倍。",
@@ -193,14 +246,21 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["Accel", "风险投资", "AI融资", "Anthropic", "Cursor"],
-      "category": "trending"
+      "tags": [
+        "Accel",
+        "风险投资",
+        "AI融资",
+        "Anthropic",
+        "Cursor"
+      ],
+      "category": "trending",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-15/anthropic-cursor-backer-accel-raises-5-billion-for-big-ai-bets"
     },
     {
       "id": "9",
       "title": "a16z领投AI超级PAC突破5000万美元：硅谷砸重金塑造中期选举AI政策",
       "source": "@pmarca",
-      "source_name": "Andreessen Horowitz",
+      "source_name": "Bloomberg",
       "story_key": "a16z-ai-super-pac-midterms",
       "event_date": "2026-04-15",
       "summary": "FEC文件显示a16z联合OpenAI总裁Brockman投资的AI超级PAC \"Leading the Future\"现金已超5100万美元，2026选举周期总募资达1.4亿美元。",
@@ -216,14 +276,22 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["a16z", "OpenAI", "政治捐赠", "AI监管", "中期选举", "超级PAC"],
-      "category": "trending"
+      "tags": [
+        "a16z",
+        "OpenAI",
+        "政治捐赠",
+        "AI监管",
+        "中期选举",
+        "超级PAC"
+      ],
+      "category": "trending",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-15/andreessen-horowitz-boost-ai-super-pac-cash-to-over-50-million"
     },
     {
       "id": "10",
       "title": "Notion 3.4发布Skills功能：AI Agent从\"通用助手\"进化为\"专属员工\"",
       "source": "@ivanhzhao",
-      "source_name": "Ivan Zhao / Notion",
+      "source_name": "notion.com",
       "story_key": "notion-agent-databases",
       "event_date": "2026-04-14",
       "summary": "Notion 3.4 Part 2发布Skills功能，用户可将常用AI工作流保存为可复用技能；同时Agent打通Calendar、Mail、Slack，并支持n8n集成和文档内联编辑。",
@@ -238,14 +306,21 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["Notion", "AI Agent", "Skills", "工作流自动化", "n8n"],
-      "category": "product_operators"
+      "tags": [
+        "Notion",
+        "AI Agent",
+        "Skills",
+        "工作流自动化",
+        "n8n"
+      ],
+      "category": "product_operators",
+      "source_url": "https://www.notion.com/releases/2026-04-14"
     },
     {
       "id": "11",
       "title": "Claude Code桌面端全面改版：多会话并行+拖拽布局打造AI编程工作站",
       "source": "@mikeyk",
-      "source_name": "Anthropic",
+      "source_name": "9to5Mac",
       "story_key": "anthropic-claude-code-routines",
       "event_date": "2026-04-14",
       "summary": "Anthropic对Claude Code桌面应用进行全面重设计，新增多会话侧栏、拖拽窗格布局、集成终端和文件编辑器；Routines分为计划任务、API和Webhook三类，每日配额5-25次。",
@@ -262,8 +337,16 @@
       ],
       "image": "img/claude-code-desktop-redesign.png",
       "image_type": "chart",
-      "tags": ["Anthropic", "Claude Code", "桌面应用", "Routines", "多会话", "开发工具"],
-      "category": "builders"
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "桌面应用",
+        "Routines",
+        "多会话",
+        "开发工具"
+      ],
+      "category": "builders",
+      "source_url": "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/"
     }
   ]
 }

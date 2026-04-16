@@ -7,7 +7,8 @@
       "id": "1",
       "title": "Altman遇袭者被控谋杀未遂，反AI「暗杀名单」宣言曝光",
       "source": "多方报道",
-      "source_name": "CNN / NPR / Fortune / SF Standard",
+      "source_name": "CNN",
+      "source_url": "https://www.cnn.com/2026/04/13/tech/sam-altman-openai-arrest-charges",
       "story_key": "altman-house-firebombing",
       "event_date": "2026-04-13",
       "summary": "燃烧弹袭击嫌疑人被正式起诉两项谋杀未遂罪，FBI搜出含多名AI CEO「暗杀名单」的宣言。两天后Altman住所再遭枪击，另两名嫌疑人被捕。四天内两起独立暴力事件震动硅谷。",
@@ -24,14 +25,20 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["AI安全", "反AI暴力", "OpenAI", "Sam Altman"],
+      "tags": [
+        "AI安全",
+        "反AI暴力",
+        "OpenAI",
+        "Sam Altman"
+      ],
       "category": "trending"
     },
     {
       "id": "2",
       "title": "Claude Code推出Routines：AI开发自动化从「按需响应」迈向「计划执行」",
       "source": "Anthropic",
-      "source_name": "Anthropic / 9to5Mac",
+      "source_name": "9to5Mac",
+      "source_url": "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/",
       "story_key": "anthropic-claude-code-routines",
       "event_date": "2026-04-14",
       "summary": "Anthropic发布Claude Code Routines研究预览版，开发者可配置AI Agent按计划、API调用或GitHub事件自动执行代码审查、Bug分诊和跨语言移植等任务，无需本地机器在线。",
@@ -44,7 +51,14 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["Anthropic", "Claude Code", "Routines", "Agent", "自动化", "DevOps"],
+      "tags": [
+        "Anthropic",
+        "Claude Code",
+        "Routines",
+        "Agent",
+        "自动化",
+        "DevOps"
+      ],
       "category": "product_operators"
     },
     {
@@ -52,6 +66,7 @@
       "title": "NVIDIA发布Ising开源模型家族：用AI将量子计算校准从数天缩至数小时",
       "source": "NVIDIA",
       "source_name": "NVIDIA Newsroom",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers",
       "story_key": "nvidia-ising-quantum-ai",
       "event_date": "2026-04-14",
       "summary": "NVIDIA在世界量子日发布Ising——首批专门用于加速量子计算的开源AI模型，包含校准和纠错两大组件，可将量子处理器校准时间从数天缩至数小时，纠错精度提升3倍。",
@@ -66,14 +81,22 @@
       ],
       "image": "img/nvidia-ising-quantum.jpg",
       "image_type": "logo",
-      "tags": ["NVIDIA", "量子计算", "Ising", "开源", "校准", "纠错"],
+      "tags": [
+        "NVIDIA",
+        "量子计算",
+        "Ising",
+        "开源",
+        "校准",
+        "纠错"
+      ],
       "category": "builders"
     },
     {
       "id": "4",
       "title": "Grok 4.20 Beta 2登顶医学与法律推理排行榜，幻觉率降低65%",
       "source": "@elonmusk",
-      "source_name": "xAI",
+      "source_name": "IBTimes",
+      "source_url": "https://www.ibtimes.com.au/grok-420-beta-2-powers-xai-advances-model-tops-benchmarks-saves-lives-april-2026-1866556",
       "story_key": "xai-grok420-beta2",
       "event_date": "2026-04-13",
       "summary": "xAI发布Grok 4.20 Beta 2更新，在Text Arena医疗和BridgeBench推理基准上登顶，超越Claude Opus 4.6、GPT-5.4和Gemini 3.1 Pro。跨Agent验证机制将幻觉率从12%降至4.2%。",
@@ -86,14 +109,22 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["xAI", "Grok", "基准测试", "幻觉率", "医疗AI", "法律AI"],
+      "tags": [
+        "xAI",
+        "Grok",
+        "基准测试",
+        "幻觉率",
+        "医疗AI",
+        "法律AI"
+      ],
       "category": "frontier_leaders"
     },
     {
       "id": "5",
       "title": "OpenAI收购个人理财AI Hiro Finance，ChatGPT金融场景布局浮出水面",
       "source": "@sama",
-      "source_name": "OpenAI / TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/",
       "story_key": "openai-acquires-hiro-finance",
       "event_date": "2026-04-13",
       "summary": "OpenAI收购AI个人理财平台Hiro Finance，创始人Ethan Bloch及团队全员加入。Hiro将于4月20日关停、5月13日删除用户数据，业界视为人才收购以强化ChatGPT金融规划能力。",
@@ -106,14 +137,21 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["OpenAI", "收购", "金融AI", "Hiro Finance", "ChatGPT"],
+      "tags": [
+        "OpenAI",
+        "收购",
+        "金融AI",
+        "Hiro Finance",
+        "ChatGPT"
+      ],
       "category": "frontier_leaders"
     },
     {
       "id": "6",
       "title": "OpenAI高管泄露备忘录指控Anthropic虚增80亿美元营收，AI营收之争白热化",
       "source": "泄露备忘录",
-      "source_name": "Axios / Gizmodo / The Information",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/04/13/openai-microsoft-anthropic-amazon",
       "story_key": "anthropic-revenue-surpasses-openai",
       "event_date": "2026-04-13",
       "summary": "OpenAI首席营收官在内部备忘录中指控Anthropic通过云渠道按总额确认收入虚增约80亿美元ARR。按净额口径OpenAI以250亿美元仍领先Anthropic的约220亿美元，但Ramp数据显示差距正在收窄。",
@@ -130,14 +168,22 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["OpenAI", "Anthropic", "营收", "会计", "IPO", "竞争"],
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "营收",
+        "会计",
+        "IPO",
+        "竞争"
+      ],
       "category": "news"
     },
     {
       "id": "7",
       "title": "Vercel CEO首次释放IPO信号：30%应用已由AI Agent生成，ARR达3.4亿美元",
       "source": "@rauchg",
-      "source_name": "Guillermo Rauch / TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/",
       "story_key": "vercel-v0-funding",
       "event_date": "2026-04-13",
       "summary": "Vercel CEO Guillermo Rauch首次公开释放IPO信号，称「公司已准备就绪」。ARR从2024年初1亿美元飙升至3.4亿美元，平台上30%的应用已由AI Agent而非人类开发者生成。",
@@ -152,7 +198,13 @@
       ],
       "image": null,
       "image_type": null,
-      "tags": ["Vercel", "v0", "IPO", "AI Agent", "基础设施"],
+      "tags": [
+        "Vercel",
+        "v0",
+        "IPO",
+        "AI Agent",
+        "基础设施"
+      ],
       "category": "product_operators"
     }
   ]

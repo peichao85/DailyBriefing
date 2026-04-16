@@ -7,7 +7,7 @@
       "id": "1",
       "title": "斯坦福AI Index 2026：中国已抹平美国AI领先优势，Anthropic榜首仅领先2.7%",
       "source": "Stanford HAI",
-      "source_name": "Stanford Institute for Human-Centered AI",
+      "source_name": "MIT Technology Review",
       "summary": "Stanford HAI于4月13日发布超400页的《2026 AI Index》年度报告，核心结论是：美国在AI模型性能上的领先优势已经被中国基本抹平。截至2026年3月，榜首的Anthropic最佳模型仅比中国最强模型领先2.7%，美中顶级模型在Arena榜单上已多次易位。",
       "detail": "报告覆盖模型能力、投资、公共感知、透明度等12大维度，其中最震动行业的是中美模型性能差距的消失。\n\n性能追赶：DeepSeek、通义Qwen、GLM、Kimi、MiniMax五家中国实验室持续发布MIT许可的世界级开源模型，让中国在Arena等社区评测上与美国模型交替登顶。报告指出，美国前沿模型与中国最强模型的差距已从2024年两位数百分点压缩到2.7%。\n\n透明度下降：Foundation Model Transparency Index年度平均分从58分跌至40分，头部实验室越来越不公开训练代码、数据规模和参数量。\n\n投入对比：2025年美国私人AI投资2859亿美元，仍是中国(124亿美元)的23.1倍，说明资本密度上的领先不再直接等于模型能力领先。\n\n采用速度：生成式AI用3年时间达到全球53%人口渗透率，快于PC和互联网。全球59%民众对AI带来的益处感到乐观（上年52%），但紧张感也同步上升到52%。\n\nMIT Tech Review与TechCrunch同步报道指出，报告揭示一个\"越来越扩大的鸿沟\"——身处AI核心圈的研究者与普通民众对AI的感受正在两极化。",
       "key_quotes": [
@@ -29,13 +29,14 @@
         "开源"
       ],
       "story_key": "stanford-ai-index-2026",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/"
     },
     {
       "id": "2",
       "title": "Anthropic追加3.5GW TPU订单，年化营收站上300亿美元",
       "source": "@DanielaAmodei",
-      "source_name": "Anthropic",
+      "source_name": "TechCrunch",
       "summary": "Anthropic与Google、Broadcom签署扩展合作协议，追加多个吉瓦级下一代TPU算力。Broadcom SEC备案披露容量达3.5GW，从2027年开始交付，在原有2026年1GW Google Cloud合同之外。同时官方确认年化收入已突破300亿美元，是2025年底的3倍多。",
       "detail": "4月6日Broadcom SEC文件首先曝光该合同，4月7日Anthropic官方博客正式宣布。关键数字：\n\n- 3.5GW TPU容量：以Google第六代TPUv7 Ironwood及之后世代为主，大部分数据中心将位于美国本土\n- 2027年起交付：叠加在2026年已在上线的1GW Google Cloud基础之上\n- 年化营收300亿美元：较2025年底约90亿美元增长3倍多，1000家企业客户年度消费超100万美元\n- 企业客户加速：Salesforce、Zoom、Notion等新签大单驱动增长\n\nCFO Krishna Rao表示：\"这是我们迄今为止对算力最重大的承诺\"。Next Platform分析指出，交易结构让Broadcom锁定2027-2031年高确定性营收，Google也通过TPU外部输出摊薄自用成本，\"三家都是赢家\"。\n\n对OpenAI-Microsoft-NVIDIA联盟构成最直接的反向基础设施联盟：Google定制硅+Broadcom封装+Anthropic模型形成垂直整合的挑战。",
       "key_quotes": [
@@ -56,13 +57,14 @@
         "算力"
       ],
       "story_key": "anthropic-revenue-surpasses-openai",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/"
     },
     {
       "id": "3",
       "title": "Z.ai GLM-5.1登顶SWE-Bench Pro，成首个超越闭源模型的开源代码模型",
       "source": "Z.ai (智谱)",
-      "source_name": "Z.ai",
+      "source_name": "oflight.co.jp",
       "summary": "Z.ai（智谱AI）于4月7日以MIT许可开源GLM-5.1，在SWE-Bench Pro代码测试上得分58.4%，超越GPT-5.4的57.7%和Claude Opus 4.6的57.3%，成为历史上第一个登顶权威编码基准的开源模型。744B总参数MoE架构，推理时仅激活40B。",
       "detail": "GLM-5.1是GLM-5基础模型的后训练升级版，专为长程软件工程任务设计：\n\n- 架构：744B总参数，40B激活，MoE\n- 基准：SWE-Bench Pro 58.4%（首次有开源模型登顶该榜）、Terminal-Bench开源第一、NL2Repo开源第一\n- 自主性：可连续自主运行长达8小时的编码任务，用于仓库级代码改造、CI修复、多文件重构\n- 许可：MIT，企业可商用、二次训练、蒸馏、微调\n- 价格：API定价显著低于闭源竞品，GitHub Copilot、Cline、Continue等IDE已接入\n\n更大的意义在于验证了\"中国开源系\"五雄（DeepSeek、Qwen、GLM、Kimi、MiniMax）的持续交付能力。在Anthropic Mythos因过于强大而不公开、OpenAI Spud延期的背景下，GLM-5.1代表\"最强可用模型\"在短期内可能第一次由开源社区持有。",
       "key_quotes": [
@@ -83,13 +85,14 @@
         "代码模型"
       ],
       "story_key": "zai-glm51-swe-bench",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://www.oflight.co.jp/en/columns/glm-5-1-open-source-swebench-leader-2026"
     },
     {
       "id": "4",
       "title": "OpenAI Codex周活突破300万，三个月5倍增长重写开发者工具格局",
       "source": "@sama",
-      "source_name": "Sam Altman",
+      "source_name": "TNW",
       "summary": "OpenAI于4月8日官方披露：Codex周活跃用户4月已突破300万，过去3个月增长5倍、环比月增70%。企业客户在ChatGPT Business/Enterprise中使用Codex的人数自1月以来增长6倍。Codex pay-as-you-go面向企业全面开放，不设速率限制。",
       "detail": "OpenAI《Next Phase of Enterprise AI》公告数据：\n\n- Codex周活：300万+ （3个月5倍，月增70%）\n- 企业Codex席位：较1月增长6倍\n- API Token：15亿tokens/分钟峰值\n- 付费订阅：5000万+ ；企业订阅占总营收超40%，预计2026年底与消费端持平\n- 单月收入：20亿美元\n\n同日上线的pay-as-you-go按token计费模式，取消固定席位限制，直接对标Cursor、Cline和Anthropic的Claude Code。OpenAI同时结束了6款旧版Codex模型（含gpt-5、gpt-5.1、gpt-5.2-codex）的支持，强制用户升级到5.4。\n\nVentureBeat与TheNextWeb报道，Codex增长的直接受益者是企业自动化代码审查、回归测试和CI修复，而非全新项目编写，这与Cursor Bugbot 80%解决率的趋势一致——AI编码的重心正在从\"写代码\"转向\"运维代码\"。",
       "key_quotes": [
@@ -110,13 +113,14 @@
         "用户增长"
       ],
       "story_key": "openai-codex-gpt5-deprecation",
-      "event_date": "2026-04-14"
+      "event_date": "2026-04-14",
+      "source_url": "https://thenextweb.com/news/openais-new-100-chatgpt-pro-plan-targets-claude-max-with-five-times-the-codex-access"
     },
     {
       "id": "5",
       "title": "OpenAI \"Spud\"发布在即：GPT-5.5/6预训练完成，Polymarket给出4月30日前78%概率",
       "source": "@gdb",
-      "source_name": "Greg Brockman",
+      "source_name": "lumichats.com",
       "summary": "OpenAI内部代号\"Spud\"的下一代旗舰模型已于3月24日在Stargate数据中心完成预训练。Greg Brockman描述其为\"两年研究的产物，不是渐进改进而是模型范式转变\"。Polymarket给出78%概率4月30日前发布，坊间盛传4月14日为首选窗口。",
       "detail": "关键事实：\n\n- 预训练完成：2026-03-24，由Sam Altman在内部全员信中确认\n- 启用名：Spud（土豆），最终商品名可能是GPT-5.5或GPT-6，取决于相对5.4的能力跳变大小\n- Brockman评语：\"Two years of research... a significant change in the way we think about model development\"\n- Altman评语：\"非常强的模型，可能真的加速经济\"\n- 公开时间窗：3-6周惯例对应2026-04-14至2026-05-05\n- 定位：与ChatGPT、Codex、Atlas融合的\"超级应用\"底层模型\n- 关键风险：OpenAI官方尚未披露参数、评测、价格或定档日期\n\n对整个行业的连锁反应：\n- 如在\"神秘星期二\"（4/14）发布，将直接对标Anthropic Mythos Preview（仅定向开放）与Google Gemini 3.1\n- 一旦发布，Codex、企业侧调用将再出现阶梯式增长，进一步吃掉Cursor、Windsurf等中间层工具的市场\n- 若推迟，开源阵营（尤其GLM-5.1、DeepSeek V3）可能在此窗口内完成心智占领",
       "key_quotes": [
@@ -137,13 +141,14 @@
         "模型发布"
       ],
       "story_key": "openai-spud-next-model",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://lumichats.com/blog/gpt-5-5-spud-openai-release-date-features-april-2026-complete-guide"
     },
     {
       "id": "6",
       "title": "Anthropic Conway曝光：Claude走向\"永远在线\"后台Agent",
       "source": "@mikeyk",
-      "source_name": "Mike Krieger",
+      "source_name": "dataconomy.com",
       "summary": "TestingCatalog与Dataconomy在4月3日曝光Anthropic正在秘密测试的新平台\"Conway\"——Claude mobile的后台常驻Agent。与现有\"被提示才响应\"模式不同，Conway可被Webhook、邮件、数据库变化等事件唤醒，无需人工输入即可执行Claude Code、操作Chrome、调用第三方连接器。",
       "detail": "目前Conway仍在隐藏feature flag测试，核心能力：\n\n- 事件触发：外部服务可通过公开Webhook URL唤醒Claude实例，邮件、日历、CRM、CI事件等均可作为触发源\n- 原生Claude Code：直接在后台执行多步代码/运维任务\n- Chrome自动化：内置浏览器执行能力\n- 推送通知：任务完成后主动推消息给用户\n- 扩展格式：settings支持拖入\".cnw.zip\"，暗示第三方插件生态（\"Conway AppStore\"）\n\n战略含义：Anthropic此前4月初已发布企业级Claude Managed Agents；Conway则是把同样能力带到消费者/开发者的Claude手机App。在Perplexity Computer、OpenAI Atlas、Vercel v0等竞品都在押注\"长时自主工作流\"的背景下，Conway把Claude从\"一次对话\"重新定义为\"一个后台同事\"。\n\n对MCP生态的意义：Conway依赖MCP连接器，将直接扩大MCP安装量（已超9700万），进一步巩固Anthropic主导的AI Agent开放协议地位。",
       "key_quotes": [
@@ -164,13 +169,14 @@
         "手机AI"
       ],
       "story_key": "anthropic-conway-background-agent",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://dataconomy.com/2026/04/03/anthropic-tests-conway-platform-for-continuous-claude/"
     },
     {
       "id": "7",
       "title": "AI基建融资狂潮：Firmus $5.05亿、SiFive $4亿一周到账",
       "source": "@JonathanRoss321",
-      "source_name": "AI Infra Tracker",
+      "source_name": "Bloomberg",
       "summary": "4月6日澳大利亚AI数据中心厂商Firmus获Coatue领投、NVIDIA跟投的$5.05亿融资，估值$55亿；4月9日RISC-V芯片厂商SiFive获Atreides领投、NVIDIA、Apollo、Point72跟投的$4亿G轮，估值$36.5亿。两笔融资共同指向：AI算力已从GPU单一瓶颈扩展到\"定制硅+浸没式液冷数据中心\"的全栈投资主题。",
       "detail": "Firmus ($505M @ $5.5B)：\n- 澳大利亚Geelong总部，\"AI Factory\"概念：高密度液冷GPU集群，NVIDIA参考架构\n- 六个月内第三轮股权融资，累计13.5亿美元\n- 瞄准亚太地区AI主权算力需求，将在ASX IPO\n\nSiFive ($400M @ $3.65B)：\n- RISC-V架构芯片厂，瞄准AI数据中心CPU及加速器\n- 超额认购，NVIDIA参与意味着RISC-V与CUDA生态协同\n- 资金用于AI数据中心处理器扩展、与Arm/Intel生态对冲\n\n一周另外三个$10亿级AI基建事件：\n- Hermeus国防航空$3.5亿C轮\n- OpenAI $122亿巨额融资完成（NVIDIA $300亿认购）\n- Wedbush推出AI Power & Infrastructure ETF\n\nCrunchbase数据：2026年Q1全球创投$3000亿，同比和环比均涨150%+，创历史新高；其中foundational AI初创融资是2025全年的两倍。",
       "key_quotes": [
@@ -192,13 +198,14 @@
         "RISC-V"
       ],
       "story_key": "ai-infra-funding-firmus-sifive",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-06/nvidia-backed-data-center-builder-firmus-raises-505-million"
     },
     {
       "id": "8",
       "title": "微软三连发MAI：语音、转写、图像，与OpenAI的\"解绑\"进入产品层",
       "source": "@mustafasuleyman",
-      "source_name": "Mustafa Suleyman",
+      "source_name": "TechCrunch",
       "summary": "Microsoft AI在4月2日一次性发布MAI-Voice-1、MAI-Transcribe-1、MAI-Image-2三款自研模型，均已上架Microsoft Foundry和Bing/Office等一方产品。MAI-Voice-1可在1秒内合成60秒音频，MAI-Image-2进入Arena图像生成榜前三。",
       "detail": "三款模型能力：\n\n- MAI-Voice-1：支持短样本克隆自定义音色，1秒生成60秒语音，面向播客、呼叫中心\n- MAI-Transcribe-1：25种主流语言，针对嘈杂环境优化，集成Teams、Copilot会议\n- MAI-Image-2：强调摄影真实感（皮肤纹理、自然光、图内文字），Arena图像榜Top-3，已在Bing Image Creator、PowerPoint Designer发布\n\n战略含义：\n- 这是微软自2025年底MAI-1（聊天模型）、MAI-Voice-Beta后最完整的一次\"产品线对齐\"——覆盖OpenAI对应的GPT-Voice、Whisper、DALL·E三大API\n- 一方产品Copilot、Teams、Office、Bing现在具备\"全部自研\"的替代方案，成为对OpenAI谈判的筹码\n- Foundry平台上，开发者可自由混搭MAI与OpenAI模型，但微软加大自研的定价优势和SLA保证\n\n配合微软2026 Q1资本开支$250亿+、与OpenAI续约中的股权/分成谈判，MAI系列是微软\"不把全部未来押给一家合作伙伴\"的明确信号。",
       "key_quotes": [
@@ -219,13 +226,14 @@
         "图像"
       ],
       "story_key": "suleyman-microsoft-mai-models",
-      "event_date": "2026-04-02"
+      "event_date": "2026-04-02",
+      "source_url": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/"
     },
     {
       "id": "9",
       "title": "Elon Musk超级App梦向前一步：XChat独立版4月17日上线",
       "source": "@elonmusk",
-      "source_name": "Elon Musk",
+      "source_name": "IBTimes",
       "summary": "X官方App Store页面确认，独立XChat通讯App将于4月17日正式上线，首批支持iOS与Android，集成Grok直接对话、端到端加密消息、跨平台通话和原生支付。这是Musk把X改造成\"美版微信\"超级App战略的最关键一步。",
       "detail": "功能要点：\n- Grok-Native：每条消息可召唤Grok回答、总结、翻译，Grok结果可直接在对话中展开、二次编辑\n- 端到端加密：全部1对1与群组消息默认E2EE\n- 跨平台通话：视频与音频通话，后续打通Tesla车机、Neuralink后端\n- 内嵌XPay：4月17日起美国部分州先行\n- 跨App身份：一个X账号 = XChat + X（推文）+ 未来XMoney\n\n此前剧本：\n- 2月Musk宣布X已完成XChat核心E2EE架构\n- 3月底Beta开放给Premium+订阅者（每月40美元）\n- 4月初Musk要求与SpaceX IPO合作的投行必须订阅Grok，间接绑定XChat生态\n\n与竞品差异化：相比Telegram、WhatsApp，XChat拥抱AI优先（Grok 4.20）；相比Meta AI+WhatsApp，XChat自带推文动态+支付。其成败主要看4月17日之后的美国用户留存率。",
       "key_quotes": [
@@ -244,13 +252,14 @@
         "超级App"
       ],
       "story_key": "xai-xchat-grok5",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://www.ibtimes.com.au/xchat-standalone-app-set-april-17-2026-release-elon-musk-pushes-x-toward-super-app-status-1866240"
     },
     {
       "id": "10",
       "title": "三星押注8亿台Gemini设备：AI联盟对抗Apple Intelligence",
       "source": "Samsung",
-      "source_name": "Samsung Electronics",
+      "source_name": "news.samsung.com",
       "summary": "三星在CES 2026正式承诺：2026年底Galaxy AI覆盖设备翻倍至8亿台，智能手机、平板、冰箱、电视、可穿戴全部接入Google Gemini 3/3 Flash。首款Exynos 2600采用2nm GAA工艺，NPU性能是上代6倍，支持端侧运行MoE模型。",
       "detail": "核心指标：\n- 覆盖规模：从2025年4亿台 → 2026年8亿台，是Apple Intelligence设备基数的数倍\n- 云+端混合：Gemini 3处理复杂任务，端侧用Samsung Gauss 2或Gemini Nano 2\n- 家电AI：Bespoke AI Refrigerator Family Hub内置Gemini AI Vision，无需手动注册即可识别预处理食材\n- 新平台：Samsung AI TV打通Google Photos，\"大屏记忆回放\"\n\n联盟战略：\n- Google：通过Samsung拿到8亿台前装分发，抵消iPhone上Apple Intelligence的封闭劣势\n- 三星：不花自研巨资即可让所有产品线\"AI化\"，进一步绑死Android生态领导者地位\n- Apple：仍在与OpenAI、Anthropic谈判Siri升级，但设备层与三星+Google的整合度差距正扩大\n\n战略层面，这是\"Gemini Everywhere\"的现实落地，也是Google在AI Index报告中继续保持第一梯队的流量与数据抓手。",
       "key_quotes": [
@@ -270,13 +279,14 @@
         "移动AI"
       ],
       "story_key": "samsung-gemini-ai-alliance",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://news.samsung.com/us/samsung-unveil-ai-vision-google-gemini-ces-2026"
     },
     {
       "id": "11",
       "title": "Demis Hassabis罕见受访：AI科学发现迭代\"从年缩到天\"",
       "source": "@demishassabis",
-      "source_name": "Demis Hassabis",
+      "source_name": "Google DeepMind",
       "summary": "Hassabis在4月7日《The Economist Babbage》播客与4月中旬Cleo Abram《HUGE Conversations》连续两次深度对话，中心论点：AI Co-Scientist让\"假设→实验→验证\"循环从数年压缩到数天，将首先在药物研发、材料和气候三个领域产生\"十倍级\"经济价值。",
       "detail": "关键观点：\n\n1) AI Co-Scientist已全面接入美国17所国家实验室：这是Google DeepMind \"Genesis Mission\"的一部分，Gemini驱动的多Agent系统能并行提出数百种假设、设计实验、解释结果\n2) \"再过5年，每个博士生都有一个比他更聪明的助手\"：Hassabis预测AI将先替代\"实验员+分析师\"角色，而不是科学家本身\n3) 对中国开源模型的态度：\"非常impressed by GLM、DeepSeek\"，承认Google需要平衡开源（Gemma 4）与闭源Gemini两条线\n4) 对AI安全：重申Google DeepMind研究投入超过300人专注alignment，但也强调\"开源派 vs 闭源派\"争议可能被夸大——真正的风险在部署阶段\n\nCleo Abram节目中用Jenga积木形象化展示：AlphaFold、AlphaGenome、AI Co-Scientist、Gemini 3是\"科学塔\"的四根底柱，抽掉任何一根都会延后整体进展。\n\n与Karpathy近期的\"post-AGI\"评论形成对照：Karpathy感叹作为开发者\"从未如此落后\"，Hassabis则从研究端确认\"科研自动化\"已进入规模化阶段。",
       "key_quotes": [
@@ -296,13 +306,14 @@
         "科研自动化"
       ],
       "story_key": "hassabis-deepmind-startup-mode",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://deepmind.google/discover/the-podcast/demis-hassabis-the-interview/"
     },
     {
       "id": "12",
       "title": "PwC全球AI调研：75%经济收益被20%企业捕获，\"赢家通吃\"加速",
       "source": "PwC",
-      "source_name": "PwC",
+      "source_name": "pwc.com",
       "summary": "PwC发布2026年度AI表现研究，对全球4000家企业调研显示：AI经济收益高度集中，75%增值由20%\"领跑型\"企业创造，这些企业的共同点不是节省成本，而是把AI用在新增长业务上。中小企业正在被结构性甩开。",
       "detail": "关键结论：\n- 领跑20%：用AI做营收增长（新产品、新市场、新定价），营收增速比同行高3.4倍\n- 追赶50%：用AI做降本，毛利率提升但营收增速没差别\n- 掉队30%：尚未规模化部署AI，ROI为负\n- 行业差异：制药、金融、软件、广告领跑最明显；传统制造、零售、公共部门与头部差距最大\n\n决定差距的3个变量（按权重）：\n1) CEO级领导力：22%（AI战略由CEO而非CTO推动）\n2) 数据成熟度：19%（过去5年数据治理投入）\n3) 组织再造：17%（流程+人员同步重塑，而不仅仅接入模型）\n\nPwC同期推出\"AI Performance Playbook\"，与微软、埃森哲合作落地。本次调研与斯坦福AI Index的\"AI insiders vs everyone else\"论点形成共振——AI的经济收益分配比技术扩散更不均衡。",
       "key_quotes": [
@@ -321,13 +332,14 @@
         "调研"
       ],
       "story_key": "pwc-ai-winner-takes-all",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-performance-study.html"
     },
     {
       "id": "13",
       "title": "Agibot一万台出厂：中国人形机器人进入规模化量产元年",
       "source": "@DrJimFan",
-      "source_name": "Agibot (智元机器人) / 业界",
+      "source_name": "IBTimes",
       "summary": "中国人形机器人厂商Agibot（智元）于3月底宣布第10000台人形机器人下线——其中5000台是最近3个月交付的。与之对比，Tesla Optimus Gen 3在Fremont工厂\"尚未做任何有用工作\"，Figure 02单价仍在10万美元以上。2026被业界普遍称为\"人形机器人量产元年\"。",
       "detail": "行业格局：\n- Agibot：10000台累计交付，单台成本已降至约人民币19.9万元，主要卖给工业/物流客户\n- Unitree：G1/H1系列总出货量超8000台，面向科研和开发者\n- Fourier、Leju、Xpeng Iron：2026年启动或计划启动量产\n- Huawei：供应链方案（芯片+视觉+语音）为中国中小厂提供标准化方案\n- Tesla Optimus Gen 3：2月披露50关节手部，Fremont转产中，但CEO承认尚未做有用工作\n- Figure：Figure 02在BMW仓储试点，报价>$100K\n\nJim Fan（NVIDIA）发表观点：\"中国人形机器人的'DJI时刻'即将到来\"，供应链+政府补贴+场景密度三叠加，让中国可能在2026年占全球人形出货量60%+。Agibot同日公布将使用Cosmos世界模型进行多机器人RL训练。\n\n关键挑战：硬件量产已经\"跑通\"，但软件泛化（多任务通用策略）仍落后，需要和基础模型层（Gemini Robotics、Cosmos、RT-X）深度协作。",
       "key_quotes": [
@@ -347,13 +359,14 @@
         "物理AI"
       ],
       "story_key": "unitree-r1-global-launch",
-      "event_date": "2026-04-11"
+      "event_date": "2026-04-11",
+      "source_url": "https://www.ibtimes.com.au/top-10-best-humanoid-robot-manufacturers-2026-tesla-optimus-figure-ai-chinese-leaders-dominate-1865762"
     },
     {
       "id": "14",
       "title": "Perplexity Comet iOS免费版冲上App Store第3：浏览器 = Agent",
       "source": "@AravSrinivas",
-      "source_name": "Aravind Srinivas",
+      "source_name": "macrumors.com",
       "summary": "Perplexity将原定$200/月的Comet AI浏览器在iOS端彻底免费，48小时内冲到美区App Store总榜第3，Srinivas称\"浏览器本质上就是Agent\"。该动作逆转了公司此前的严格付费墙策略，是对Apple Intelligence和Chrome的直接正面冲击。",
       "detail": "产品节奏：\n- 2025年Q4：Comet桌面版首发，$200/月\n- 2026-02：Android免费\n- 2026-03-18：iOS免费版发布，比官方承诺推迟约一周\n- 48小时：美区App Store总榜第3（紧随ChatGPT、TikTok）\n- 功能：可设为iOS默认浏览器，内置Deep Research、语音模式、页面总结、购物代理、表单填写\n\n商业模型转向：Comet免费版不做广告，而是把ARR增长转移到$200/月Perplexity Computer（Agent编排19个前沿模型）。月活破1亿、ARR $4.5亿（3月环比+50%）支撑这一免费押注。\n\nSrinivas公开表态：\"未来3年浏览器 = Agent。Chrome 30%+的全球份额将被重新分配。\"目标明确是抢在Google/Apple原生Agent化之前吃下用户习惯。",
       "key_quotes": [
@@ -373,13 +386,14 @@
         "iOS"
       ],
       "story_key": "perplexity-comet-ios",
-      "event_date": "2026-04-14"
+      "event_date": "2026-04-14",
+      "source_url": "https://www.macrumors.com/2026/03/18/perplexity-comet-browser-iphone/"
     },
     {
       "id": "15",
       "title": "Karpathy再次\"被AGI震撼\"：测试新Agent后称\"我这周基本没写代码\"",
       "source": "@karpathy",
-      "source_name": "Andrej Karpathy",
+      "source_name": "blockchain.news",
       "summary": "Karpathy在本周X帖子中说，他测试了某个未命名的Agent系统后整周\"没亲自打键盘\"，全部任务由Agent自主串起来完成。他再度使用\"这就是post-AGI的感觉\"一词，强调开发者工具链必须为Agent重写，而非为人类优化。",
       "detail": "核心观点：\n- 开发范式：\"从人写代码、AI辅助\"彻底转向\"Agent自主编排、人类做评审\"\n- 工具链重构：传统IDE、Lint、CI对Agent不是最优输出；需要\"Agent-first\"交互（结构化API、可回放日志、多Agent白板）\n- 英语是最新的编程语言：所有人都可以用自然语言定义需求，但专业工程师必须学会\"为Agent构建基础设施\"\n- 反思：2024年他还认为Copilot只能让生产力+20%，现在他承认长时任务可以100%交给Agent\n- 个人节奏：\"我本周几乎没碰键盘，这就是post-AGI的感觉\"\n\n社区反响：Cursor创始人Michael Truell、Replit CEO Amjad Masad、Vercel Guillermo Rauch均转发，表示正在按Karpathy的指引调整产品方向——从\"写代码助手\"转向\"Agent编排平台\"。\n\n与Hassabis的\"AI Co-Scientist\"观点形成呼应：研究端和工程端都指向\"自动化长程任务\"成为2026核心主题。",
       "key_quotes": [
@@ -398,7 +412,8 @@
         "AI编码"
       ],
       "story_key": "karpathy-autoresearch",
-      "event_date": "2026-04-13"
+      "event_date": "2026-04-13",
+      "source_url": "https://blockchain.news/ainews/andrej-karpathy-hints-at-post-agi-experience-analysis-of-autonomous-ai-systems-and-2026-trends"
     }
   ]
 }

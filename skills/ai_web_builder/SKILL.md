@@ -24,8 +24,9 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
     {
       "id": "1",
       "title": "Insight-driven title in Chinese",
-      "source": "@handle",
-      "source_name": "Full Name",
+      "source": "@handle (optional, related person/account — not displayed in UI)",
+      "source_name": "Single most authoritative news source",
+      "source_url": "URL of the source_name article from the links array",
       "story_key": "stable-english-slug-for-this-story",
       "event_date": "YYYY-MM-DD",
       "summary": "Brief summary for card view, 1-2 sentences in Chinese",
@@ -48,7 +49,7 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
 - Each item's `summary` should be concise (for card display), while `detail` can be comprehensive
 - All text in Simplified Chinese (keep English for names, product names, technical terms)
 - Titles must summarize the INSIGHT, not just name the person
-- Pass through `story_key`, `event_date`, and `category` from the research data unchanged. `story_key` and `event_date` are used by `ai_research` on subsequent days to detect stale news and story rehashes via a `jq` lookback over the last 7 days of web briefings — they must survive into `web/AI/YYYY-MM-DD/data.json` intact. `category` preserves the editorial classification for potential frontend filtering.
+- Pass through `story_key`, `event_date`, `category`, `source_url` from the research data unchanged. `story_key` and `event_date` are used by `ai_research` on subsequent days to detect stale news and story rehashes via a `jq` lookback over the last 7 days of web briefings — they must survive into `web/AI/YYYY-MM-DD/data.json` intact. `category` preserves the editorial classification for potential frontend filtering. `source_url` powers the clickable source link on the card.
 
 ## Step 2: Process Images
 

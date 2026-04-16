@@ -7,7 +7,7 @@
       "id": "1",
       "title": "Anthropic营收突破300亿美元超越OpenAI，企业客户两个月翻倍",
       "source": "@DanielaAmodei",
-      "source_name": "Daniela Amodei",
+      "source_name": "Sherwood News",
       "summary": "Anthropic年化营收飙升至300亿美元，超越OpenAI的240亿美元。年消费超百万美元的企业客户从500家翻倍至1000家以上，仅用不到两个月。",
       "detail": "Anthropic的营收增长速度令人震惊。2025年初营收约10亿美元，年中45亿，年底90亿，2026年2月Series G融资时已达140亿，到4月更是飙升至300亿美元年化收入——仅四个月就翻了一倍多。\n\n这一增长主要由企业客户驱动。年消费超过百万美元的企业客户数量从2月的500家在不到两个月内翻倍至超过1000家。为支撑这一爆发式增长，Anthropic与Google和Broadcom签署了扩大的芯片合作协议，将从2027年开始获得3.5吉瓦的TPU算力。\n\nAnthropic的营收已经超越了OpenAI在2026年2月公布的250亿美元数字，这标志着AI行业商业格局的重大转变。Claude模型在企业市场的强劲表现，特别是在代码生成和智能体应用领域，是推动增长的核心因素。",
       "key_quotes": [
@@ -29,13 +29,14 @@
         "Broadcom"
       ],
       "story_key": "anthropic-revenue-surpasses-openai",
-      "event_date": "2026-04-08"
+      "event_date": "2026-04-08",
+      "source_url": "https://sherwood.news/markets/anthropic-revenue-run-rate-30-billion-google-broadcom-partnership/"
     },
     {
       "id": "2",
       "title": "Claude Mythos Preview自主发现数千零日漏洞，Anthropic限制公开发布",
       "source": "@jackclarkSF",
-      "source_name": "Jack Clark",
+      "source_name": "The Hacker News",
       "summary": "Anthropic发布Claude Mythos Preview，自主发现主流操作系统和浏览器中数千个零日漏洞，包括一个存在17年的FreeBSD远程代码执行漏洞。因能力过强不公开发布。",
       "detail": "4月7日，Anthropic发布了Claude Mythos Preview——一个在网络安全领域表现异常突出的新一代模型。该模型最令人震惊的能力是：在无人干预的情况下，完全自主地识别并利用了一个存在17年的FreeBSD远程代码执行漏洞，从发现到利用全过程无需任何人类参与。\n\n在过去几周的测试中，Anthropic使用Mythos Preview在所有主流操作系统和主流浏览器中发现了数千个零日漏洞。这一能力远超此前任何AI模型在安全领域的表现。\n\n为应对这一前所未有的能力带来的风险，Anthropic推出了Project Glasswing计划——仅向AWS、Apple、Broadcom、Cisco、CrowdStrike、Google、JPMorganChase、Microsoft和NVIDIA等机构提供Mythos Preview的有限访问权限，用于防御性安全研究。Anthropic明确表示不打算向公众开放该模型。\n\n这引发了安全社区的广泛讨论：一个能力如此强大的模型，既是防御利器也是潜在威胁——被Simon Willison称为「Glasswing悖论」。",
       "key_quotes": [
@@ -59,13 +60,14 @@
         "AI安全"
       ],
       "story_key": "anthropic-mythos-zerodays",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html"
     },
     {
       "id": "3",
       "title": "Meta发布Muse Spark：Alexandr Wang加入后首个重大AI成果，放弃开源路线",
       "source": "@alexandr_wang",
-      "source_name": "Alexandr Wang",
+      "source_name": "CNBC",
       "summary": "Meta发布Muse Spark模型，由Alexandr Wang领导开发。将部署到WhatsApp、Instagram等全平台，但不同于以往Llama系列，Muse Spark不开源。",
       "detail": "4月8日，Meta正式发布了Muse Spark（内部代号Avocado），这是自Alexandr Wang以140亿美元交易加入Meta担任AI负责人以来的首个重大产品。该模型由Wang带领团队历时九个月开发完成。\n\nMuse Spark接替Llama 4成为Meta旗下最强AI模型，将为Meta AI助手、智能眼镜以及Facebook、Instagram、WhatsApp、Messenger等全平台提供支持。模型支持语音、文本和图像输入，目前仅输出文本。\n\n在性能方面，Muse Spark在Artificial Analysis Intelligence Index上得分52，仅次于Gemini 3.1 Pro、GPT-5.4和Claude Opus 4.6。模型提供快速模式用于日常对话，以及多种推理模式用于复杂任务。\n\n值得注意的是，与Meta此前推崇的开源路线不同，Muse Spark目前不公开权重，仅作为Meta的内部工具使用。这标志着Meta AI战略在Wang领导下的重大转向——从开源优先转向产品竞争力优先。",
       "key_quotes": [
@@ -88,13 +90,14 @@
         "闭源"
       ],
       "story_key": "meta-muse-spark-launch",
-      "event_date": "2026-04-08"
+      "event_date": "2026-04-08",
+      "source_url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html"
     },
     {
       "id": "4",
       "title": "Sam Altman发布超级智能政策蓝图：机器人税、全民财富基金和四天工作制",
       "source": "@sama",
-      "source_name": "Sam Altman",
+      "source_name": "The Hill",
       "summary": "Sam Altman发布13页政策文件《智能时代的产业政策》，提出机器人税、全民AI财富基金和32小时工作制等建议，为超级智能时代描绘经济蓝图。",
       "detail": "4月6日，OpenAI CEO Sam Altman发布了一份名为《智能时代的产业政策：以人为本的理念》（Industrial Policy for the Intelligence Age: Ideas to keep people first）的13页政策文件，提出了一系列应对AI引发的经济变革的政策建议。\n\n核心提议包括：\n\n1. 机器人税：提出与自动化劳动相关的税收，将税基从工资和薪资转向资本利得和企业所得，因为AI可能掏空支撑社会保障体系的工资税收入。\n\n2. 全民AI财富基金：建立由AI公司部分出资的国家管理基金，投资于多元化长期资产，让每个美国公民直接分享AI驱动的经济增长收益。\n\n3. 四天工作制试点：建议企业试行32小时工作制并支付40小时工资，将AI带来的效率提升转化为员工的时间红利。\n\n4. 自动安全网触发机制：当AI导致的失业指标达到预设阈值时，失业金和工资保险等福利将自动增加。\n\n这份文件发布的时机恰逢美国国会即将就AI立法展开辩论，被媒体称为Altman版的「超级智能新政」。",
       "key_quotes": [
@@ -116,13 +119,14 @@
         "超级智能"
       ],
       "story_key": "openai-ai-new-deal-policy",
-      "event_date": "2026-04-06"
+      "event_date": "2026-04-06",
+      "source_url": "https://thehill.com/policy/technology/5817906-openai-ai-policy-recommendations/"
     },
     {
       "id": "5",
       "title": "OpenAI推出ChatGPT 5.5与统一超级应用：整合聊天、编程与浏览",
       "source": "@sama",
-      "source_name": "Sam Altman",
+      "source_name": "OpenAI",
       "summary": "OpenAI发布ChatGPT 5.5并推出统一桌面超级应用，将ChatGPT、Codex编程助手和Atlas浏览器合并为单一平台，标志着AI工具从分散走向融合。",
       "detail": "4月6日，OpenAI正式发布了ChatGPT 5.5模型更新和全新的统一桌面超级应用。此前OpenAI已关闭视频生成器Sora并放弃了与迪士尼的10亿美元投资合作，将资源集中投向统一AI超级应用方向。\n\nChatGPT 5.5的改进包括：更好的记忆管理，可在长会话中保留更多用户上下文；改进的任务连续性，在切换任务时更好地保持状态；更精确的指令遵循，减少复杂多步骤请求的解读错误。OpenAI将其定位为通向GPT-6（代号Spud）的过渡桥梁。\n\n超级应用的核心理念是一个窗口、一个账户、多种能力——用户可以在同一个应用中无缝切换写作、编程和浏览，无需在不同工具间反复跳转。应用整合了ChatGPT的对话能力、Codex的代码能力和Atlas的浏览能力。\n\n这一举措背后是OpenAI刚完成的1220亿美元融资，估值达8520亿美元，投资方包括Amazon、NVIDIA、SoftBank和Microsoft。",
       "key_quotes": [
@@ -143,13 +147,14 @@
         "Atlas"
       ],
       "story_key": "openai-superapp-chatgpt55",
-      "event_date": "2026-04-06"
+      "event_date": "2026-04-06",
+      "source_url": "https://openai.com/index/accelerating-the-next-phase-ai/"
     },
     {
       "id": "6",
       "title": "Claude Managed Agents公测：企业AI智能体从原型到生产只需数天",
       "source": "@mikeyk",
-      "source_name": "Mike Krieger",
+      "source_name": "9to5Mac",
       "summary": "Anthropic推出Claude Managed Agents公测版，提供全托管AI智能体基础设施。Notion、Rakuten、Asana等已成为首批用户。按标准API费率加每会话小时$0.08计费。",
       "detail": "4月8日，Anthropic正式推出Claude Managed Agents公测版——一套用于构建和部署云端AI智能体的可组合API套件。\n\n此前，构建生产级AI智能体意味着开发者需要投入大量时间处理安全基础设施、状态管理、权限控制，以及在每次模型升级时重新调整智能体循环逻辑。Managed Agents将这一过程从数月缩短到数天。\n\n核心功能包括：沙箱化代码执行、检查点机制、凭证管理、范围化权限控制、端到端追踪。服务按标准Claude API token费率计费，另加每会话小时$0.08。\n\n首批用户包括Notion、Rakuten和Asana等知名科技公司。这些公司正利用Managed Agents将AI智能体深度集成到企业工作流中。\n\n与此同时，Claude Cowork（桌面端AI助手）也正式结束研究预览阶段，面向所有付费订阅者推出macOS和Windows正式版，并增加了企业级功能。",
       "key_quotes": [
@@ -172,13 +177,14 @@
         "企业AI"
       ],
       "story_key": "anthropic-managed-agents",
-      "event_date": "2026-04-08"
+      "event_date": "2026-04-08",
+      "source_url": "https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/"
     },
     {
       "id": "7",
       "title": "Yann LeCun离开Meta创办AMI Labs：融资超10亿美元打造「世界模型」",
       "source": "@ylecun",
-      "source_name": "Yann LeCun",
+      "source_name": "TechCrunch",
       "summary": "图灵奖得主Yann LeCun离开工作12年的Meta，创办AMI Labs，已融资超10亿美元，专注开发超越大语言模型的「世界模型」。",
       "detail": "在Meta工作了12年的Yann LeCun——2018年图灵奖得主、Meta前首席AI科学家——正式创办了自己的公司Advanced Machine Intelligence（AMI）Labs。4月7日，公司宣布已完成超过10亿美元的种子轮融资。\n\n离开Meta的原因令人瞩目：当CEO Mark Zuckerberg决定让28岁的Scale AI创始人Alexandr Wang来主管Meta的AI战略时，65岁的LeCun认为是时候离开了。\n\nAMI Labs的核心方向是开发「世界模型」（World Models）——能够理解世界运作方式、完成复杂任务并预测结果的AI系统。LeCun长期以来批评大语言模型的局限性，认为真正的通用智能需要超越文本生成。\n\n投资者阵容豪华：包括NVIDIA、Bezos Expeditions、Eric Schmidt（美国）；丰田、三星（亚洲）；Hiro Capital、Groupe Industriel Marcel Dassault（欧洲）。公司总部设在巴黎。\n\nLeCun表示，希望在三到五年内为飞机引擎、汽车和机器人开发应用。",
       "key_quotes": [
@@ -200,13 +206,14 @@
         "创业"
       ],
       "story_key": "lecun-ami-labs-world-models",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
     },
     {
       "id": "8",
       "title": "Karpathy提出LLM Wiki：用AI构建自动生长的「第二大脑」知识库",
       "source": "@karpathy",
-      "source_name": "Andrej Karpathy",
+      "source_name": "Analytics Vidhya",
       "summary": "Andrej Karpathy分享LLM Wiki系统——将原始资料倒入文件夹，LLM自动构建互相链接的知识维基，单个主题已生长到100篇文章、40万字。",
       "detail": "4月3日，Karpathy在X上分享了他最近的一个洞察：他越来越少用AI来写代码，而是转向用AI来组织知识。这条推文引发了远超AI社区日常讨论的广泛关注。\n\n核心系统的工作方式是：将原始研究资料倒入一个文件夹，让LLM对其进行处理——自动撰写文章、创建概念间的反向链接、分类整理，并持续更新维护整个知识体系。Karpathy的一个单一主题研究维基已经自动生长到约100篇文章、40万字的规模。\n\n次日，他在GitHub Gist上发布了完整的架构设计，标题简洁地叫做LLM Wiki。这份设计文档详细描述了系统架构，迅速在AI社区引发热烈讨论。\n\n与此同时，Karpathy还发了一条引人深思的感叹：作为程序员，我从未感到如此落后。这个职业正在被剧烈地重构，程序员贡献的比特正变得越来越稀疏。我感觉如果能正确地串联起过去一年涌现的所有工具，我的能力可以提升10倍。",
       "key_quotes": [
@@ -227,13 +234,14 @@
         "编程"
       ],
       "story_key": "karpathy-llm-wiki",
-      "event_date": "2026-04-03"
+      "event_date": "2026-04-03",
+      "source_url": "https://www.analyticsvidhya.com/blog/2026/04/llm-wiki-by-andrej-karpathy/"
     },
     {
       "id": "9",
       "title": "Replit估值90亿完成D轮融资：Agent 4号称能运行整个公司",
       "source": "@amasad",
-      "source_name": "Amjad Masad",
+      "source_name": "TechCrunch",
       "summary": "Replit以90亿美元估值完成4亿美元D轮融资，六个月内估值翻三倍。同时发布Agent 4，号称不仅能构建应用，还能创建和维护整个企业。",
       "detail": "Replit宣布完成4亿美元D轮融资，由Georgian Partners领投，公司估值达到90亿美元——仅六个月前这一数字还是30亿美元，翻了三倍。\n\n更引人注目的是同步发布的Agent 4。Masad称其不仅能构建应用，还能创建和维护整个公司。他将Replit定位为你的商业发射控制台。\n\n增长目标极其激进：Masad明确表示希望在2026年底前达到10亿美元年化收入。资金将主要用于产品创新和全球扩张，特别是印度、日本、韩国以及中东市场（包括与Saudi Aramco的合作伙伴关系）。\n\nReplit的故事也充满戏剧性。Masad曾因种族歧视被人称为恐怖分子同情者，如今已成为亿万富翁，公司估值在一年内从30亿飙升至90亿美元。",
       "key_quotes": [
@@ -255,13 +263,14 @@
         "AI智能体"
       ],
       "story_key": "replit-agent4-funding",
-      "event_date": "2026-04-08"
+      "event_date": "2026-04-08",
+      "source_url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/"
     },
     {
       "id": "10",
       "title": "Demis Hassabis回归创业模式：DeepMind加速运转成为Alphabet核心",
       "source": "@demishassabis",
-      "source_name": "Demis Hassabis",
+      "source_name": "NPR",
       "summary": "Hassabis透露Google DeepMind通过回归创业心态显著加速研发，每天与Alphabet CEO Pichai沟通。同时管理Isomorphic Labs药物发现公司，传记《The Infinity Machine》出版。",
       "detail": "在4月初的20VC播客访谈中，Demis Hassabis分享了Google DeepMind过去两三年如何通过与Google Brain合并后的资源整合显著提速。\n\n回归创业心态是关键。Hassabis表示DeepMind需要重新变得更灵活、更拼，将Google Brain的海量计算资源与DeepMind的研究优势结合。他透露每天都与Alphabet CEO Sundar Pichai保持沟通，这反映出DeepMind现在在Alphabet产品和研究战略中的核心地位。\n\nIsomorphic Labs方面，Hassabis在领导DeepMind之余还管理着这家AI制药公司——每晚10点开始他的第二个工作日，专注于药物发现研究。2026年2月发布的IsoDDE药物设计工具号称在生成候选药物方面准确度是AlphaFold 3的两倍。\n\n传记出版：Sebastian Mallaby基于超过30小时的采访撰写的Hassabis传记《The Infinity Machine》于3月31日出版。\n\n关于AI财富分配，Hassabis认为人们可以通过参与养老基金或主权财富基金来分享AI带来的增值。",
       "key_quotes": [
@@ -281,13 +290,14 @@
         "AlphaFold"
       ],
       "story_key": "hassabis-deepmind-startup-mode",
-      "event_date": "2026-04-06"
+      "event_date": "2026-04-06",
+      "source_url": "https://www.npr.org/2026/04/06/nx-s1-5749365/infinity-machine-explores-the-journey-of-ai-innovator-demis-hassabis"
     },
     {
       "id": "11",
       "title": "YC CEO Garry Tan开源gstack：用Claude Code模拟高效能软件团队引发争议",
       "source": "@garrytan",
-      "source_name": "Garry Tan",
+      "source_name": "TechCrunch",
       "summary": "Garry Tan开源gstack技能集，GitHub迅速获得12000+星标。核心是让LLM扮演不同角色模拟团队协作，但也引发代码膨胀争议——有人发现7.84万行AI生成的臃肿代码。",
       "detail": "YC CEO Garry Tan将他个人的Claude Code技能集gstack开源后，项目在GitHub上几天内就获得了超过12000颗星标，引发了AI编程社区的广泛关注。\n\ngstack的核心哲学是「认知换挡」（cognitive gearing）：强制让大语言模型进入不同角色——CEO、工程经理、QA工程师——以模拟高效能软件团队的工作流程。这代表了一种新的AI编程范式，从单一助手进化到虚拟团队。\n\nTan宣称自己每天通过智能体工程横跨5个项目输出3.7万行代码。然而，这一说法也引发了争议：一位开发者在审查后指出，他的网站中存在7.84万行AI生成的臃肿代码，充斥着明显的浪费和初级错误。\n\n这一事件折射出当前AI辅助编程的核心张力：AI确实能大幅提高输出速度，但代码质量和可维护性的问题仍然突出。",
       "key_quotes": [
@@ -309,13 +319,14 @@
         "Vibe Coding"
       ],
       "story_key": "garrytan-gstack-claude-code",
-      "event_date": "2026-03-17"
+      "event_date": "2026-03-17",
+      "source_url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/"
     },
     {
       "id": "12",
       "title": "OpenAI内部分歧：CFO质疑Altman 6000亿支出计划与IPO时间表",
       "source": "@sama",
-      "source_name": "Sam Altman",
+      "source_name": "Fortune",
       "summary": "路透社报道OpenAI CFO对CEO Altman五年6000亿美元支出计划和2026年Q4 IPO时间表提出质疑。Musk诉讼同时要求罢免Altman并拆除营利化转型。",
       "detail": "据路透社报道，OpenAI CFO Sarah Friar在内部对CEO Sam Altman的两大关键决策提出了质疑：一是五年内高达6000亿美元的巨额支出计划，二是最早在2026年第四季度推进IPO的时间表。\n\n这一分歧曝光的时机尤为敏感。OpenAI正处于多重压力之下：\n\n法律战线：Elon Musk的诉讼不仅要求阻止OpenAI的营利化转型，更要求直接罢免Altman的CEO和董事会成员职位。Musk声称诉讼目的是解除OpenAI的营利化转换和重组。同时，OpenAI已向加州和特拉华州要求调查Musk的反竞争行为。\n\n战略调整：Altman已关闭视频生成器Sora并放弃了与迪士尼的10亿美元合作，将资源集中投入统一超级应用战略。\n\n融资背景：OpenAI刚完成1220亿美元融资，估值8520亿美元。但CFO的质疑暗示，即使在这一历史性融资规模下，6000亿美元的支出计划也面临可持续性疑问。",
       "key_quotes": [
@@ -336,13 +347,14 @@
         "内部分歧"
       ],
       "story_key": "openai-internal-ipo-dispute",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": "https://fortune.com/2026/04/07/openai-drama-sam-altman-ipo-anthropic-cybersecurity-risks-eye-on-ai/"
     },
     {
       "id": "13",
       "title": "xAI推进Grok 5开发：超级集群扩容至1.5GW，模型每周更新两次",
       "source": "@elonmusk",
-      "source_name": "Elon Musk",
+      "source_name": "NXCode",
       "summary": "Grok 5错过Q1截止日期，目标推迟至Q2。Colossus 2正从1GW扩容至1.5GW。Musk表示Grok模型更新频率已达每周两次。",
       "detail": "xAI正在加速推进Grok 5的开发。该模型原计划在2026年Q1发布，但未能如期完成，新的目标指向Q2。\n\n基础设施升级是关键推动力。xAI的超级计算集群Colossus 2正在从1GW扩容到1.5GW，预计4月完成。这一升级与Grok 5的主要训练运行相配合。SpaceX在2月收购了xAI，Musk称这将实现太阳能供电的天基AI。\n\n产品迭代加速：4月3日发布的新版Grok应用在性能上相比Beta 1有显著提升。Musk在X上展示了Grok在图像和视频生成提示方面的改进能力，该帖获得超过160万次浏览。Musk表示xAI通常每周推送两次模型更新。\n\n组织调整：Andrew Milich和Jason Ginsburg于3月加入xAI，将领导Grok Main、Grok Voice和Grok Imagine的产品团队。\n\n与此同时，Musk的法律团队要求SpaceX IPO的承销银行成为Grok订阅客户，显示了他将Grok推广到商业生态系统的意图。",
       "key_quotes": [
@@ -363,13 +375,14 @@
         "算力"
       ],
       "story_key": "xai-grok5-colossus",
-      "event_date": "2026-04-03"
+      "event_date": "2026-04-03",
+      "source_url": "https://www.nxcode.io/resources/news/grok-5-release-date-latest-news-2026"
     },
     {
       "id": "14",
       "title": "Levelsio发起Vibe Coding Game Jam：Cursor和Bolt赞助，金牌奖2万美元",
       "source": "@levelsio",
-      "source_name": "Pieter Levels",
+      "source_name": "levels.io",
       "summary": "独立开发者Pieter Levels发起2026 Vibe Coding Game Jam，由Cursor AI和Bolt赞助，金牌奖金2万美元。他的多个AI产品组合月收入持续超过20万美元，零员工。",
       "detail": "知名独立开发者Pieter Levels发起了2026 Vibe Coding Game Jam，邀请开发者使用AI编程工具创建游戏。\n\n赞助方包括Cursor AI和Bolt，金牌奖金2万美元，截止日期为2026年5月1日。这一活动将Vibe Coding（AI辅助的即兴编程风格）的概念从工具层面推向了竞赛和社区建设。\n\nLevels本人继续证明了一人公司的可能性。他的产品组合月收入表现强劲：PhotoAI（$106K/月）、Pieter.com（$65K/月）、InteriorAI.com（$43K/月）、RemoteOK.com（$43K/月）、IdeasAI.com（$22K/月）等多个产品每月合计超过20万美元收入，且全部由他一人运营——零员工。\n\n这位以12个月12个创业闻名的数字游民已经累计设计、开发和运营了超过40个创业项目。",
       "key_quotes": [
@@ -390,13 +403,14 @@
         "Cursor"
       ],
       "story_key": "levelsio-vibe-coding-gamejam",
-      "event_date": "2026-04-08"
+      "event_date": "2026-04-08",
+      "source_url": "https://levels.io/"
     },
     {
       "id": "15",
       "title": "Cognition与Infosys战略合作：AI工程师Devin进军大型企业",
       "source": "@ScottWu46",
-      "source_name": "Scott Wu",
+      "source_name": "Cognition",
       "summary": "Cognition（Devin AI开发者）与IT巨头Infosys达成战略合作，将自主AI软件工程师Devin引入大型企业。收购Windsurf后ARR已翻倍。",
       "detail": "Cognition——全球首个AI软件工程师Devin的创造者——于4月9日宣布与IT服务巨头Infosys达成战略合作，将自主AI工程能力引入大型全球企业。\n\nScott Wu表示，此次合作将Cognition的自主AI工程能力与Infosys的Exponential Engineering服务相结合，重新定义软件的构建方式。\n\n收购Windsurf的成果显著：去年Cognition以2.5亿美元收购了Windsurf（在OpenAI和Google的争夺战后），此后Cognition的ARR翻了一倍多，合并后的企业ARR增长超过30%。Windsurf作为独立品牌继续运营。\n\nDevin被定位为不知疲倦的队友，可以与工程师并肩工作，也可以独立完成任务后提交审查。这与传统AI编程助手的辅助式定位有本质区别——Devin追求的是端到端的自主工程。",
       "key_quotes": [
@@ -418,13 +432,14 @@
         "Windsurf"
       ],
       "story_key": "cognition-devin-infosys",
-      "event_date": "2026-04-09"
+      "event_date": "2026-04-09",
+      "source_url": "https://cognition.ai/"
     },
     {
       "id": "16",
       "title": "NVIDIA DreamDojo：在AI生成的「梦境」中实时遥控机器人",
       "source": "@DrJimFan",
-      "source_name": "Jim Fan",
+      "source_name": "NVIDIA",
       "summary": "NVIDIA Jim Fan展示DreamDojo——基于Cosmos的开放权重系统，通过VR控制器在AI生成的虚拟环境中实时遥控机器人。同时发布CaP-Bench评估12个前沿模型。",
       "detail": "NVIDIA AI总监Jim Fan在4月分享了多项重要的AI智能体和机器人研究进展。\n\nDreamDojo是最引人注目的项目。基于开放权重的NVIDIA Cosmos，DreamDojo能够让用户在AI生成的虚拟「梦境」环境中进行实时遥控操作——连接VR控制器，通过PICO头显和一块RTX 5090显卡，就能在虚拟世界中实时操控Unitree G1人形机器人。这代表了虚拟训练环境的重要突破。\n\nCaP-Bench则是一个评估AI编程智能体能力的综合基准，横跨8个评估层级测试了12个前沿大语言/视觉模型（包括Gemini、GPT、Opus、Qwen、DeepSeek、Kimi等）。其中CaP-Agent0是一个无需训练的智能体框架，在7个任务中有4个达到或超过了人类专家的代码水平。\n\nFan将2026年定义为物理AI的世界模型元年。",
       "key_quotes": [
@@ -446,13 +461,14 @@
         "Cosmos"
       ],
       "story_key": "nvidia-cap-x-dreamdojo",
-      "event_date": "2026-04-07"
+      "event_date": "2026-04-07",
+      "source_url": "https://research.nvidia.com/labs/gear/"
     },
     {
       "id": "17",
       "title": "Kevin Weil转型OpenAI科学副总裁：构建AI驱动的科学发现平台",
       "source": "@kevinweil",
-      "source_name": "Kevin Weil",
+      "source_name": "linkedin.com",
       "summary": "Kevin Weil从OpenAI CPO转任科学副总裁，正在构建OpenAI for Science——AI驱动的科学发现加速平台。此前他主导了ChatGPT从聊天工具到企业产品的转型。",
       "detail": "Kevin Weil在OpenAI内部完成了一次重要的角色转变。从CPO（首席产品官）职位转任科学副总裁，他现在的使命是构建OpenAI for Science——一个利用AI加速科学发现的专门平台。\n\n在担任CPO期间，Weil领导了ChatGPT产品团队，推动了消费者、开发者和企业产品的发展。他的履历包括Twitter产品负责人、Instagram产品负责人、Planet总裁，以及Facebook Libra加密货币项目的联合创建者。\n\n他最近在LinkedIn上发布了一条激动的消息，宣布在OpenAI内部启动了一个新项目，暗示OpenAI for Science正在进入一个新阶段。\n\n这一职位变动也暗示OpenAI的战略正在从纯商业应用扩展到科学研究领域，追随DeepMind在科学AI方面的成功路径（如AlphaFold）。",
       "key_quotes": [
@@ -472,13 +488,14 @@
         "科学发现"
       ],
       "story_key": "kevin-weil-openai-science",
-      "event_date": "2026-04-08"
+      "event_date": "2026-04-08",
+      "source_url": "https://www.linkedin.com/posts/kevinweil_im-starting-something-new-inside-openai-activity-7368704715615891456-cIG3"
     },
     {
       "id": "18",
       "title": "Lovable估值66亿寻求收购：日均20万Vibe Coding项目，ARR达4亿美元",
       "source": "@antonosika",
-      "source_name": "Anton Osika",
+      "source_name": "Bloomberg",
       "summary": "AI应用构建平台Lovable正在寻找收购目标。ARR从2亿增至4亿美元，每天产生超过20万个新项目。CEO认为AI将打破软件垄断。",
       "detail": "最后估值66亿美元的Lovable正在猎寻收购标的。CEO Anton Osika在X上宣布公司正在寻找更多优秀的团队和创业公司加入Lovable。\n\n增长数据惊人：ARR从2025年底的2亿美元增长至4亿美元，翻了一倍。平台每天有超过20万个新的Vibe Coding项目被创建。Osika在彭博社采访中表示，让任何人都能构建软件，将侵蚀科技垄断、迫使现有巨头创新并削减其利润。\n\n从CERN粒子物理学家到Sana Labs第一号员工，再到创建历史上增长最快的创业公司之一，Osika的经历本身就是一个传奇。Lovable的日留存率（85%的Day 30留存）甚至超过了ChatGPT。\n\nLovable的收购动作表明Vibe Coding赛道正在进入整合阶段——资金最充裕、增长最快的玩家开始吸纳更小的团队和技术。",
       "key_quotes": [
@@ -499,7 +516,8 @@
         "软件民主化"
       ],
       "story_key": "lovable-vibe-coding-growth",
-      "event_date": "2026-03-23"
+      "event_date": "2026-03-23",
+      "source_url": "https://www.bloomberg.com/news/videos/2026-03-13/lovable-ceo-says-ai-will-break-software-monopolies"
     }
   ]
 }

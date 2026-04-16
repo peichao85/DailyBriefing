@@ -36,7 +36,7 @@
       "id": "1",
       "title": "Claude for Word正式上线：Anthropic完成Office三件套AI原生化，直捣Copilot腹地",
       "source": "@mikeyk",
-      "source_name": "Mike Krieger",
+      "source_name": "Anthropic",
       "source_role": "Anthropic CPO",
       "story_key": "claude-microsoft-office-addins",
       "event_date": "2026-04-13",
@@ -53,14 +53,21 @@
         "https://claude.com/blog/claude-excel-powerpoint-updates"
       ],
       "original_language": "en",
-      "tags": ["Anthropic", "Claude", "Microsoft Office", "企业AI", "产品发布"],
-      "category": "product_operators"
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Microsoft Office",
+        "企业AI",
+        "产品发布"
+      ],
+      "category": "product_operators",
+      "source_url": "https://claude.com/blog/claude-excel-powerpoint-updates"
     },
     {
       "id": "2",
       "title": "Stanford 2026 AI指数报告：中国已抹平与美国的模型差距，开发者就业跌20%",
       "source": "Stanford HAI",
-      "source_name": "Stanford Institute for Human-Centered AI",
+      "source_name": "TechCrunch",
       "source_role": "斯坦福人本AI研究院",
       "story_key": "stanford-ai-index-2026",
       "event_date": "2026-04-13",
@@ -79,14 +86,21 @@
         "https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/"
       ],
       "original_language": "en",
-      "tags": ["斯坦福AI指数", "美中AI竞争", "AI就业", "透明度", "基准"],
-      "category": "news"
+      "tags": [
+        "斯坦福AI指数",
+        "美中AI竞争",
+        "AI就业",
+        "透明度",
+        "基准"
+      ],
+      "category": "news",
+      "source_url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/"
     },
     {
       "id": "3",
       "title": "Perplexity豪掷100万美元征召\"AI独角兽\"：8周用Perplexity Computer从零孵化公司",
       "source": "@AravSrinivas",
-      "source_name": "Aravind Srinivas",
+      "source_name": "freeaitoolspro.com",
       "source_role": "Perplexity CEO",
       "story_key": "perplexity-billion-dollar-build-challenge",
       "event_date": "2026-04-14",
@@ -102,14 +116,21 @@
         "https://www.analyticsinsight.net/business/weekly-funding-roundup-sarvam-ai-nears-350m-perplexity-launches-1m-challenge"
       ],
       "original_language": "en",
-      "tags": ["Perplexity", "AI创业", "Agent", "Vibe Coding", "孵化器"],
-      "category": "product_operators"
+      "tags": [
+        "Perplexity",
+        "AI创业",
+        "Agent",
+        "Vibe Coding",
+        "孵化器"
+      ],
+      "category": "product_operators",
+      "source_url": "https://www.freeaitoolspro.com/archives/21798"
     },
     {
       "id": "4",
       "title": "美国财政部和美联储亲自背书：建议摩根大通等五大行测试Claude Mythos挖漏洞",
       "source": "The Washington Post / Anthropic",
-      "source_name": "U.S. Treasury + Federal Reserve",
+      "source_name": "TechStartups",
       "source_role": "美国财政部 / 美联储",
       "story_key": "anthropic-mythos-zerodays",
       "event_date": "2026-04-13",
@@ -124,14 +145,21 @@
         "https://red.anthropic.com/2026/mythos-preview/"
       ],
       "original_language": "en",
-      "tags": ["Anthropic", "Claude Mythos", "金融监管", "网络安全", "政府背书"],
-      "category": "frontier_leaders"
+      "tags": [
+        "Anthropic",
+        "Claude Mythos",
+        "金融监管",
+        "网络安全",
+        "政府背书"
+      ],
+      "category": "frontier_leaders",
+      "source_url": "https://techstartups.com/2026/04/13/top-tech-news-today-april-13-2026/"
     },
     {
       "id": "5",
       "title": "Altman公开回应New Yorker\"人格质疑\"：首次承认回避冲突是致命弱点",
       "source": "@sama",
-      "source_name": "Sam Altman",
+      "source_name": "TechCrunch",
       "source_role": "OpenAI CEO",
       "story_key": "altman-house-firebombing",
       "event_date": "2026-04-11",
@@ -148,14 +176,21 @@
         "https://newyorkerest.com/issue/2026/04/13"
       ],
       "original_language": "en",
-      "tags": ["OpenAI", "Sam Altman", "New Yorker", "领导力", "舆论战"],
-      "category": "frontier_leaders"
+      "tags": [
+        "OpenAI",
+        "Sam Altman",
+        "New Yorker",
+        "领导力",
+        "舆论战"
+      ],
+      "category": "frontier_leaders",
+      "source_url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/"
     },
     {
       "id": "6",
       "title": "Anthropic秘密宴请15位基督教领袖：给Claude的\"道德灵魂\"开一次神学会诊",
       "source": "@DanielaAmodei",
-      "source_name": "Daniela Amodei",
+      "source_name": "Washington Post",
       "source_role": "Anthropic 联合创始人兼总裁",
       "story_key": "anthropic-religious-ethics-summit",
       "event_date": "2026-04-11",
@@ -172,14 +207,21 @@
         "https://premierchristian.news/us/news/article/claude-developer-hosts-christian-leaders-for-ai-summit"
       ],
       "original_language": "en",
-      "tags": ["Anthropic", "AI对齐", "道德伦理", "宗教", "价值观"],
-      "category": "frontier_leaders"
+      "tags": [
+        "Anthropic",
+        "AI对齐",
+        "道德伦理",
+        "宗教",
+        "价值观"
+      ],
+      "category": "frontier_leaders",
+      "source_url": "https://www.washingtonpost.com/technology/2026/04/11/anthropic-christians-claude-morals/"
     },
     {
       "id": "7",
       "title": "Musk诉OpenAI案\"法律伏击\"升级：4月27日开庭前13天，诉讼标的扩至1340亿美元",
       "source": "OpenAI / 联邦法院",
-      "source_name": "OpenAI (对Musk诉状的回应)",
+      "source_name": "CNBC",
       "source_role": "公开声明",
       "story_key": "openai-musk-lawsuit",
       "event_date": "2026-04-13",
@@ -195,14 +237,21 @@
         "https://theaiinsider.tech/2026/04/13/openai-faces-escalating-scrutiny-as-sam-altman-responds-to-safety-concerns-and-legal-challenges/"
       ],
       "original_language": "en",
-      "tags": ["OpenAI", "Elon Musk", "诉讼", "AI治理", "Sam Altman"],
-      "category": "frontier_leaders"
+      "tags": [
+        "OpenAI",
+        "Elon Musk",
+        "诉讼",
+        "AI治理",
+        "Sam Altman"
+      ],
+      "category": "frontier_leaders",
+      "source_url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html"
     },
     {
       "id": "8",
       "title": "Unitree把\"4370美元人形机器人\"搬上AliExpress：中国硬件一键触达北美家庭",
       "source": "Unitree Robotics",
-      "source_name": "王兴兴",
+      "source_name": "interestingengineering.com",
       "source_role": "Unitree Robotics 创始人兼CEO",
       "story_key": "unitree-r1-global-launch",
       "event_date": "2026-04-11",
@@ -219,8 +268,15 @@
         "https://www.gizmochina.com/2026/04/10/unitree-r1-global-launch-online-humanoid-robot/"
       ],
       "original_language": "en",
-      "tags": ["Unitree", "人形机器人", "跨境电商", "中国硬件", "消费级AI"],
-      "category": "builders"
+      "tags": [
+        "Unitree",
+        "人形机器人",
+        "跨境电商",
+        "中国硬件",
+        "消费级AI"
+      ],
+      "category": "builders",
+      "source_url": "https://interestingengineering.com/ai-robotics/unitree-r1-robot-aliexpress-global-debut"
     },
     {
       "id": "9",
@@ -243,14 +299,21 @@
         "https://www.businesstoday.in/technology/story/openai-codex-celebrates-3-million-weekly-users-ceo-sam-altman-resets-usage-limits-524717-2026-04-08"
       ],
       "original_language": "en",
-      "tags": ["OpenAI", "Codex", "GPT-5", "模型弃用", "开发者工具"],
-      "category": "product_operators"
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "GPT-5",
+        "模型弃用",
+        "开发者工具"
+      ],
+      "category": "product_operators",
+      "source_url": "https://developers.openai.com/codex/changelog"
     },
     {
       "id": "10",
       "title": "阿里云领投生数科技2亿美元B轮+Vidu Q3全球首发：中国\"世界模型\"路线正式押注",
       "source": "@alibaba / 生数科技",
-      "source_name": "ShengShu Technology",
+      "source_name": "CNBC",
       "source_role": "清华系多模态AI独角兽",
       "story_key": "shengshu-vidu-q3-alibaba-world-model",
       "event_date": "2026-04-13",
@@ -267,14 +330,21 @@
         "https://letsdatascience.com/news/alibaba-invests-in-shengshus-general-world-model-e58eecda"
       ],
       "original_language": "en",
-      "tags": ["生数科技", "阿里云", "世界模型", "Vidu", "中国AI"],
-      "category": "builders"
+      "tags": [
+        "生数科技",
+        "阿里云",
+        "世界模型",
+        "Vidu",
+        "中国AI"
+      ],
+      "category": "builders",
+      "source_url": "https://www.cnbc.com/2026/04/10/alibaba-cloud-invests-world-model-ai-shengshu-vidu.html"
     },
     {
       "id": "11",
       "title": "Fortune深度：中国进入\"token经济\"元年，AI IPO潮+Agent狂热碾压美国",
       "source": "Fortune",
-      "source_name": "Fortune Magazine",
+      "source_name": "Fortune",
       "source_role": "产业深度报道",
       "story_key": "china-token-economy-ai-ipo-boom",
       "event_date": "2026-04-12",
@@ -292,14 +362,21 @@
         "https://www.cnbc.com/2026/01/08/china-ai-tiger-goes-ipo-zhipu-hong-kong-debut-openai-knowledge-atlas-hsi-hang-seng-listing.html"
       ],
       "original_language": "en",
-      "tags": ["中国AI", "IPO", "token经济", "开源模型", "美中竞争"],
-      "category": "news"
+      "tags": [
+        "中国AI",
+        "IPO",
+        "token经济",
+        "开源模型",
+        "美中竞争"
+      ],
+      "category": "news",
+      "source_url": "https://fortune.com/2026/04/12/china-token-economy-ai-boom-big-tech-startups/"
     },
     {
       "id": "12",
       "title": "YC合伙人警告：AI种子轮资本\"远远不够\"，巨头掠夺不成比例的融资份额",
       "source": "@garrytan / YC",
-      "source_name": "Ankit Gupta",
+      "source_name": "startupnews.fyi",
       "source_role": "Y Combinator General Partner",
       "story_key": "yc-ai-seed-capital-warning",
       "event_date": "2026-04-13",
@@ -316,8 +393,15 @@
         "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/"
       ],
       "original_language": "en",
-      "tags": ["YC", "AI创业", "融资", "Agent", "Garry Tan"],
-      "category": "investors_curators"
+      "tags": [
+        "YC",
+        "AI创业",
+        "融资",
+        "Agent",
+        "Garry Tan"
+      ],
+      "category": "investors_curators",
+      "source_url": "https://startupnews.fyi/2026/04/13/yc-startup-school-seed-stage-capital-in-ai-not-enough-large-companies-amassing-disproportionate-funding-says-general-partner-ankit-gupta/"
     }
   ]
 }

@@ -386,6 +386,19 @@ header .subtitle {
   letter-spacing: 0.02em;
 }
 
+.card .card-source .source-label {
+  color: var(--text-dim);
+  margin-right: 0.15em;
+}
+
+.card .card-source .source-link {
+  cursor: pointer;
+}
+
+.card .card-source .source-link:hover {
+  text-decoration: underline;
+}
+
 .card .card-title {
   font-size: 1rem;
   color: var(--text-primary);
