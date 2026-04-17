@@ -712,6 +712,24 @@ footer {
     font-size: 1.25rem;
   }
 
+  /* Badge: move below header instead of overlapping title */
+  .card-hero .badge {
+    position: static;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Images: full width on mobile instead of 25% float */
+  .card-image {
+    float: none;
+    width: 100%;
+    margin: 0.75rem 0;
+  }
+
+  .card-detail-chart {
+    width: 100%;
+  }
+
   .calendar {
     min-width: 260px;
   }
