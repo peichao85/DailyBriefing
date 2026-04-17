@@ -48,3 +48,43 @@ wrote /home/ubuntu/source/DailyBriefing.git/web/manifest.json
   GitHub: 8 dates (latest: 2026-04-17)
 === Manifest rebuild finished: Fri Apr 17 07:24:52 AM CST 2026 ===
 === Git commit & push started: Fri Apr 17 07:24:52 AM CST 2026 ===
+[main 21e67f6] Daily AI briefing: 2026-04-17
+ 36 files changed, 1747 insertions(+)
+ create mode 100644 pdf/AI/daily-tech-ai-briefing-2026-04-17-cn.pdf
+ create mode 100644 research_results/AI/2026-04-17/data.json
+ create mode 100644 research_results/AI/2026-04-17/filter_log.json
+ create mode 100644 research_results/AI/2026-04-17/img/antioch-team.jpg
+ create mode 100644 research_results/AI/2026-04-17/img/claude-opus-47-hero.png
+ create mode 100644 research_results/AI/2026-04-17/img/perplexity-mac.jpg
+ create mode 100644 research_results/AI/2026-04-17/img/snap-getty.jpg
+ create mode 100644 research_results/AI/logs/briefing-2026-04-17.log
+ create mode 100644 research_results/GitHub/2026-04-17/raw.json
+ create mode 100644 web/AI/2026-04-17/data.json
+ create mode 100644 web/AI/2026-04-17/img/antioch-team.jpg
+ create mode 100644 web/AI/2026-04-17/img/claude-opus-47-hero.jpg
+ create mode 100644 web/AI/2026-04-17/img/perplexity-mac.jpg
+ create mode 100644 web/AI/2026-04-17/img/snap-getty.jpg
+ create mode 100644 web/GitHub/2026-04-17/data.json
+ create mode 100644 web/GitHub/2026-04-17/img/AMAP-ML-SkillClaw.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/AgentSeal-codeburn.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/BuilderPulse-BuilderPulse.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/EbookFoundation-free-programming-books.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/Mouseww-anything-analyzer.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/OpenMOSS-MOSS-TTS-Nano.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/Tencent-Hunyuan-HY-World-2.0.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/affaan-m-everything-claude-code.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/alchaincyf-darwin-skill.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/f-prompts.chat.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/freeCodeCamp-freeCodeCamp.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/huggingface-transformers.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/microsoft-vscode.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/n8n-io-n8n.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/ollama-ollama.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/openclaw-openclaw.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/vyfor-rattles.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/yaojingang-GEOFlow.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/yizhiyanhua-ai-fireworks-tech-graph.jpg
+ create mode 100644 web/GitHub/2026-04-17/img/yt-dlp-yt-dlp.jpg
+To github.com:peichao85/DailyBriefing.git
+   3c69367..21e67f6  main -> main
+=== Git commit & push finished: Fri Apr 17 07:24:57 AM CST 2026 ===

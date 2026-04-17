@@ -1,0 +1,116 @@
+{
+  "date": "2026-04-18",
+  "total_candidates": 12,
+  "kept": 9,
+  "dropped": 3,
+  "decisions": [
+    {
+      "story_key": "cursor-50b-valuation",
+      "event_date": "2026-04-17",
+      "title_en": "Cursor in talks to raise $2B at $50B valuation, Nvidia joining round",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Cursor previously covered around $29B post-money; this doubles valuation in 6 months and adds Nvidia as strategic investor."
+    },
+    {
+      "story_key": "anthropic-claude-design-launch",
+      "event_date": "2026-04-17",
+      "title_en": "Anthropic launches Claude Design; Figma stock falls 7%",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First major horizontal product launch from Anthropic beyond core Claude; direct threat to Figma/Canva."
+    },
+    {
+      "story_key": "anthropic-mythos-zerodays",
+      "event_date": "2026-04-17",
+      "title_en": "White House pushing to give federal agencies access to Claude Mythos; Amodei meets Bessent/Wiles at WH",
+      "source": "NYT DealBook",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 04-07 ('AI first discovered thousands of zero-days'). New info: OMB email to cabinets setting up protections to use Mythos, Dario Amodei meets Susie Wiles, Treasury Scott Bessent, and Cyber Director Cairncross at the WH. Policy-level development distinct from original disclosure."
+    },
+    {
+      "story_key": "cerebras-ipo-openai-warrant-deal",
+      "event_date": "2026-04-17",
+      "title_en": "Cerebras files for IPO same day OpenAI commits $20B+ and takes warrant stake",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Dual event: IPO filing under CBRS ticker + $20-30B OpenAI commitment convertible into up to 10% equity."
+    },
+    {
+      "story_key": "openai-gpt-rosalind-bio",
+      "event_date": "2026-04-16",
+      "title_en": "OpenAI launches GPT-Rosalind for life sciences",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First OpenAI vertical model; topped BixBench, beat GPT-5.4 on 6/11 LABBench2 tasks; Amgen, Moderna, Thermo Fisher as launch customers."
+    },
+    {
+      "story_key": "meta-quest-vr-ram-price-hike",
+      "event_date": "2026-04-16",
+      "title_en": "Meta raises Quest 3/3S prices citing AI-driven RAM shortage",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First consumer hardware company to pass AI data-center demand through to end-consumer prices. Symbolic of AI capex spillover."
+    },
+    {
+      "story_key": "openai-agents-sdk-sandbox",
+      "event_date": "2026-04-16",
+      "title_en": "OpenAI updates Agents SDK with model-native harness and native sandbox execution",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New sandbox, configurable memory, skills, AGENTS.md, apply_patch tools; subagents and code mode coming."
+    },
+    {
+      "story_key": "altman-side-hustle-conflicts",
+      "event_date": "2026-04-17",
+      "title_en": "Reports surface on Altman pushing OpenAI to fund Helion and Stoke Space, where he holds stakes",
+      "source": "WSJ / Gizmodo",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Different from altman-house-firebombing. Shareholder dissent surfaces ahead of $850B IPO; Bret Taylor named possible alternate CEO."
+    },
+    {
+      "story_key": "stellantis-microsoft-ai-pact",
+      "event_date": "2026-04-16",
+      "title_en": "Stellantis and Microsoft sign 5-year AI partnership covering 100+ AI initiatives and global cyberdefense center",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major automotive-cloud AI deal, Azure migration targeting 60% datacenter footprint cut, 20k Copilot licenses."
+    },
+    {
+      "story_key": "anthropic-800b-valuation-offers",
+      "event_date": "2026-04-14",
+      "title_en": "Anthropic fielding VC offers at up to $800B valuation",
+      "source": "Business Insider",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Not in lookback under this key, but $800B valuation story widely published 04-14/04-15 (outside our 7-day window for this specific key but inside recent news cycle). Closely related to already-published anthropic-revenue-surpasses-openai on 04-11/04-13. No new public development on 04-17/04-18; keeping out to avoid recap."
+    },
+    {
+      "story_key": "microsoft-japan-10b-investment",
+      "event_date": "2026-04-03",
+      "title_en": "Microsoft commits $10B in Japan AI infrastructure 2026-2029",
+      "source": "Microsoft Source Asia",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-03 is 15 days old (>5 day limit)."
+    },
+    {
+      "story_key": "gemini-3-1-flash-lite-preview",
+      "event_date": "2026-03-03",
+      "title_en": "Google launches Gemini 3.1 Flash-Lite in preview",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-03 is 46 days old (>5 day limit)."
+    }
+  ]
+}
