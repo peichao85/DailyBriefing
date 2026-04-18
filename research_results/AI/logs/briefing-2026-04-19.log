@@ -1,0 +1,62 @@
+=== Research started: Sun Apr 19 06:58:01 AM CST 2026 ===
+Research complete. Summary of today's AI briefing for 2026-04-19:
+
+**Output:**
+- `research_results/AI/2026-04-19/data.json` — 7 kept items
+- `research_results/AI/2026-04-19/filter_log.json` — 13 candidates evaluated (7 kept, 6 dropped)
+- `research_results/AI/2026-04-19/img/` — 4 logo images (4/7 = 57%, above the 3–4/10 floor)
+
+**Kept stories (ordered by news importance):**
+1. **Hero** — Anthropic rejects $800B valuation offers; IPO talks with Goldman/JPM/MS (Apr 15)
+2. Jane Street commits $6B to CoreWeave + $1B equity buy (Apr 15)
+3. Meta + Broadcom extend MTIA partnership, 4-gen roadmap through 2029 (Apr 15)
+4. Adobe Firefly AI Assistant launches cross-app Creative Cloud agent (Apr 15)
+5. Physical Intelligence π0.7 robot brain with compositional generalization (Apr 16)
+6. Microsoft MAI-Image-2-Efficient — 41% cheaper, 22% faster (Apr 14, returning story w/update)
+7. Anthropic moves to per-token billing, Amodei's "cone of uncertainty" (Apr 17)
+
+**Dropped:** 3 freshness (Oracle layoffs Mar 31, Nemotron 3 Super Apr 3, Gemini 3.1 Flash-Lite Mar 3, Nature AI-agents Apr 13), 2 returning-no-update (Mike Krieger/Figma board → same as anthropic-claude-design-launch; OpenAI Spud → no new development).
+=== Research finished successfully: Sun Apr 19 07:06:28 AM CST 2026 ===
+=== PDF Builder, Web Builder & GitHub Trending started (parallel): Sun Apr 19 07:06:28 AM CST 2026 ===
+=== Web Builder started: Sun Apr 19 07:06:28 AM CST 2026 ===
+=== GitHub Trending Builder started: Sun Apr 19 07:06:28 AM CST 2026 ===
+=== PDF Builder started: Sun Apr 19 07:06:28 AM CST 2026 ===
+Done. Web build for 2026-04-19 complete:
+
+- `web/AI/2026-04-19/data.json` — 7 items (Anthropic $800B valuation, Jane Street×CoreWeave deal, Meta×Broadcom MTIA, Adobe Firefly AI Assistant, Physical Intelligence π0.7, Microsoft MAI-Image-2-Efficient, Anthropic per-token billing)
+- `web/AI/2026-04-19/img/` — 4 logos copied (all already <13KB, no recompression needed)
+- `web/manifest.json` untouched (orchestrator rebuilds it)
+=== Web Builder finished successfully: Sun Apr 19 07:10:16 AM CST 2026 ===
+Done. Generated `web/GitHub/2026-04-19/data.json` with:
+- **新晋热门** — 10 repos (CodeBurn, LingBot-Map, RedSun, wterm, Anything Analyzer, video-use, darwin-skill, design-extract, BuilderPulse, Weft)
+- **上升之星** — 10 repos ranked by 7-day star gains (OpenClaw +3000, everything-claude-code +3000, n8n +1169, Ollama +920, prompts.chat +845, freeCodeCamp, developer-roadmap, free-programming-books, transformers, vscode)
+
+All 20 owner avatars downloaded to `web/GitHub/2026-04-19/img/`. Per skill spec, `manifest.json` will be rebuilt by the orchestrator.
+=== GitHub Trending Builder finished successfully: Sun Apr 19 07:13:19 AM CST 2026 ===
+PDF generated successfully:
+
+- **Output**: `pdf/AI/daily-tech-ai-briefing-2026-04-19-cn.pdf` (504KB, 11 slides)
+- **Tmp cleaned**: `pdf/AI/tmp/` removed
+
+**Slide deck contents:**
+1. Title — "Anthropic 婉拒 $8000 亿 — AI 资本周期进入降温信号"
+2. Anthropic $800B valuation — 4 stat callouts + capital action vs OpenAI compare
+3. Per-token billing — Amodei "不确定锥形" quote + Anthropic vs flat-rate compare
+4. CoreWeave × Jane Street $60B + $1B
+5. Meta × Broadcom MTIA 4-chip roadmap
+6. Microsoft MAI-Image-2-Efficient pricing/perf
+7. Adobe Firefly AI Assistant capabilities
+8. Physical Intelligence π0.7 robotics
+9. Trending in AI — capital cooling signals
+10. 5 key takeaways
+11. End slide
+
+Two QA cycles fixed all critical issues (top-edge crop, signal-bar overlap, MTIA pill leak, title wraps, $30B+ clipping).
+=== PDF Builder finished successfully: Sun Apr 19 07:17:42 AM CST 2026 ===
+=== Parallel builders finished: Sun Apr 19 07:17:42 AM CST 2026 ===
+=== Manifest rebuild started: Sun Apr 19 07:17:42 AM CST 2026 ===
+wrote /home/ubuntu/source/DailyBriefing.git/web/manifest.json
+  AI: 12 dates (latest: 2026-04-19)
+  GitHub: 10 dates (latest: 2026-04-19)
+=== Manifest rebuild finished: Sun Apr 19 07:17:42 AM CST 2026 ===
+=== Git commit & push started: Sun Apr 19 07:17:42 AM CST 2026 ===

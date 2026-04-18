@@ -48,3 +48,47 @@ wrote /home/ubuntu/source/DailyBriefing.git/web/manifest.json
   GitHub: 9 dates (latest: 2026-04-18)
 === Manifest rebuild finished: Sat Apr 18 07:17:05 AM CST 2026 ===
 === Git commit & push started: Sat Apr 18 07:17:05 AM CST 2026 ===
+[main c45d58d] Daily AI briefing: 2026-04-18
+ 41 files changed, 1643 insertions(+)
+ create mode 100644 pdf/AI/daily-tech-ai-briefing-2026-04-18-cn.pdf
+ create mode 100644 research_results/AI/2026-04-18/data.json
+ create mode 100644 research_results/AI/2026-04-18/filter_log.json
+ create mode 100644 research_results/AI/2026-04-18/img/cerebras-logo.png
+ create mode 100644 research_results/AI/2026-04-18/img/claude-design.png
+ create mode 100644 research_results/AI/2026-04-18/img/cursor-logo.png
+ create mode 100644 research_results/AI/2026-04-18/img/dario-amodei.jpg
+ create mode 100644 research_results/AI/2026-04-18/img/gpt-rosalind.png
+ create mode 100644 research_results/AI/2026-04-18/img/sam-altman.jpg
+ create mode 100644 research_results/AI/logs/briefing-2026-04-18.log
+ create mode 100644 research_results/GitHub/2026-04-18/raw.json
+ create mode 100644 web/AI/2026-04-18/data.json
+ create mode 100644 web/AI/2026-04-18/img/cerebras-logo.png
+ create mode 100644 web/AI/2026-04-18/img/claude-design.png
+ create mode 100644 web/AI/2026-04-18/img/cursor-logo.png
+ create mode 100644 web/AI/2026-04-18/img/dario-amodei.jpg
+ create mode 100644 web/AI/2026-04-18/img/gpt-rosalind.png
+ create mode 100644 web/AI/2026-04-18/img/sam-altman.jpg
+ create mode 100644 web/GitHub/2026-04-18/data.json
+ create mode 100644 web/GitHub/2026-04-18/img/AgentSeal-codeburn.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/BuilderPulse-BuilderPulse.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/EbookFoundation-free-programming-books.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/Manavarya09-design-extract.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/Mouseww-anything-analyzer.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/Nightmare-Eclipse-RedSun.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/affaan-m-everything-claude-code.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/alchaincyf-darwin-skill.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/browser-use-video-use.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/f-prompts.chat.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/freeCodeCamp-freeCodeCamp.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/huggingface-transformers.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/kamranahmedse-developer-roadmap.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/lewislulu-html-ppt-skill.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/microsoft-vscode.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/n8n-io-n8n.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/ollama-ollama.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/openclaw-openclaw.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/vercel-labs-wterm.jpg
+ create mode 100644 web/GitHub/2026-04-18/img/yaojingang-GEOFlow.jpg
+To github.com:peichao85/DailyBriefing.git
+   dfb4d4c..c45d58d  main -> main
+=== Git commit & push finished: Sat Apr 18 07:17:09 AM CST 2026 ===

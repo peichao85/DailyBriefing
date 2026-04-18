@@ -1,0 +1,125 @@
+{
+  "date": "2026-04-19",
+  "total_candidates": 13,
+  "kept": 7,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "anthropic-800b-valuation",
+      "event_date": "2026-04-15",
+      "title_en": "Anthropic resists $800B investor offers, more than 2x Feb round",
+      "source": "Bloomberg / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Prior Apr 13 item anthropic-revenue-surpasses-openai covered the $30B ARR milestone; this is a distinct story about investors offering 2x+ the February valuation, which Anthropic is turning down — new facts (offer level, IPO-bank talks with Goldman/JPM/MS for Oct 2026) not covered before."
+    },
+    {
+      "story_key": "janestreet-coreweave-cloud-deal",
+      "event_date": "2026-04-15",
+      "title_en": "Jane Street commits $6B to CoreWeave + $1B equity buy",
+      "source": "CoreWeave / Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from prior coreweave-anthropic-cloud-deal (Apr 10) — this is a new customer (Jane Street quant trading), first non-AI-lab/non-Meta customer at this scale, plus $1B direct equity purchase at $109/share."
+    },
+    {
+      "story_key": "meta-broadcom-mtia-chips",
+      "event_date": "2026-04-15",
+      "title_en": "Meta + Broadcom unveil 4 generations of MTIA chips, 1GW to multi-GW",
+      "source": "Meta Newsroom / DCD",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Prior meta-quest-vr-ram-price-hike (Apr 16) covered consumer price hike; this is a separate silicon-strategy story — extended Broadcom partnership to 2029, roadmap to MTIA 500, hundreds of thousands of chips already deployed."
+    },
+    {
+      "story_key": "physical-intelligence-pi07",
+      "event_date": "2026-04-16",
+      "title_en": "Physical Intelligence releases pi0.7 robot brain with compositional generalization",
+      "source": "TechCrunch / Physical Intelligence",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New robotics foundation model claiming 'mix-and-match' skill composition for tasks never seen in training — distinct from prior NVIDIA Cosmos / GR00T items."
+    },
+    {
+      "story_key": "adobe-firefly-ai-assistant",
+      "event_date": "2026-04-15",
+      "title_en": "Adobe launches Firefly AI Assistant for cross-app Creative Cloud workflows",
+      "source": "Adobe Newsroom / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major creative-suite agentic AI launch, single prompt drives Photoshop/Premiere/Illustrator/Lightroom; ships with Anthropic Claude integration — distinct from previously covered AI coding agents."
+    },
+    {
+      "story_key": "suleyman-microsoft-mai-models",
+      "event_date": "2026-04-14",
+      "title_en": "Microsoft MAI-Image-2-Efficient: 41% cheaper, 22% faster, 4x throughput",
+      "source": "Microsoft AI / VentureBeat",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key in lookback on Apr 2 covering original MAI-Voice-1/Transcribe-1/Image-2 launch. Today's item is a substantively NEW variant: 41% price cut, 22% speed boost, 4x per-GPU throughput, and new benchmark claim of beating Gemini 3 Pro Image by 40% on latency. Treat as new development, prior recap required."
+    },
+    {
+      "story_key": "anthropic-per-token-billing",
+      "event_date": "2026-04-17",
+      "title_en": "Anthropic moves to per-token billing, Amodei warns of AI demand 'cone of uncertainty'",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from revenue story — this is a pricing-model and CEO-stance piece. Amodei's 'cone of uncertainty' framing and Anthropic's switch from flat-rate enterprise pricing to per-token (vs OpenAI's larger headline numbers) is a strategic bet worth covering."
+    },
+    {
+      "story_key": "anthropic-claude-design-launch",
+      "event_date": "2026-04-14",
+      "title_en": "Mike Krieger steps down from Figma board ahead of Claude Design launch",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "story_key already published on 2026-04-17 with title 'Anthropic 推出 Claude Design 挑战 Figma'. The board departure is the lead-up disclosure to that same launch — no substantively new information beyond what prior item already covered (Figma stock drop, Claude Design app launch, Krieger's role)."
+    },
+    {
+      "story_key": "openai-spud-next-model",
+      "event_date": "2026-04-12",
+      "title_en": "OpenAI Spud model still not released, Polymarket 78% by Apr 30",
+      "source": "The Decoder / FinancialContent",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "story_key already published on 2026-04-13. No new development — model still not released, Polymarket odds unchanged. Merely rehashes prior facts."
+    },
+    {
+      "story_key": "oracle-30k-layoffs-ai",
+      "event_date": "2026-03-31",
+      "title_en": "Oracle cuts 30,000 jobs globally to fund $156B AI data-center buildout",
+      "source": "Medium / IBTimes / Open Magazine",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-31 is 19 days old (> 5 day limit)."
+    },
+    {
+      "story_key": "nvidia-nemotron3-super-open",
+      "event_date": "2026-04-03",
+      "title_en": "NVIDIA debuts open Nemotron 3 Super with 1M context, 5x throughput",
+      "source": "NVIDIA Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-03 is 16 days old (> 5 day limit)."
+    },
+    {
+      "story_key": "google-gemini-31-flash-lite",
+      "event_date": "2026-03-03",
+      "title_en": "Google launches Gemini 3.1 Flash-Lite at 1/8 cost of Pro",
+      "source": "Google Blog / VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-03 is 47 days old (> 5 day limit)."
+    },
+    {
+      "story_key": "nature-ai-agents-vs-scientists",
+      "event_date": "2026-04-13",
+      "title_en": "Nature: human scientists beat top AI agents on complex tasks",
+      "source": "Nature",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-13 is 6 days old (> 5 day limit)."
+    }
+  ]
+}
