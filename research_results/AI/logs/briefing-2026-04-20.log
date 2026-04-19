@@ -1,0 +1,59 @@
+=== Research started: Mon Apr 20 06:58:01 AM CST 2026 ===
+Research complete for 2026-04-20. 17 candidates evaluated, 8 kept and elaborated in Chinese with images.
+
+**Items (by news importance):**
+1. **NSA using Anthropic Mythos** (hero, returning story with major update) — Axios scoop that NSA is actively using Mythos despite the Pentagon's own supply-chain-risk blacklist.
+2. **Allbirds → NewBird AI GPU pivot** (novel) — rug company pivots to GPU-as-a-Service, stock surges 600%.
+3. **Opus 4.7 hidden price hike** (returning with update) — community measurement reveals new tokenizer uses up to 47% more tokens.
+4. **Alibaba open-sources Qwen3.6-35B-A3B** (novel) — 73.4% on SWE-Bench Verified, beats Gemma 4 on every coding benchmark.
+5. **Grok 4.3 beta to SuperGrok Heavy $300/mo** (novel) — Musk corrects initial 1T-parameter claim.
+6. **Gemini 3.1 Flash TTS** (novel) — 200+ audio tags inline, 70+ languages, 1211 Elo.
+7. **ChatGPT ads live in AU/NZ/Canada** (novel) — first multi-country ads surface; Free + $8 Go tier only.
+8. **Cloudflare Agent Memory private beta** (novel) — managed memory infrastructure for AI agents.
+
+Written to `research_results/AI/2026-04-20/data.json` and `filter_log.json`, with 7 logo PNGs in `img/`.
+=== Research finished successfully: Mon Apr 20 07:10:38 AM CST 2026 ===
+=== PDF Builder, Web Builder & GitHub Trending started (parallel): Mon Apr 20 07:10:38 AM CST 2026 ===
+=== PDF Builder started: Mon Apr 20 07:10:38 AM CST 2026 ===
+=== Web Builder started: Mon Apr 20 07:10:38 AM CST 2026 ===
+=== GitHub Trending Builder started: Mon Apr 20 07:10:38 AM CST 2026 ===
+Web builder complete for 2026-04-20.
+
+- `web/AI/2026-04-20/data.json` written (8 items, all with `story_key`, `event_date`, `source_url`, `category` preserved)
+- 7 logo images copied to `web/AI/2026-04-20/img/` (all already ≤58KB, ≤800px wide — no recompression needed)
+- Headline: NSA 已在用 Anthropic Mythos，五角大楼封杀令名存实亡
+- `web/manifest.json` left untouched; orchestrator will rebuild it.
+=== Web Builder finished successfully: Mon Apr 20 07:14:34 AM CST 2026 ===
+Validated: JSON parses cleanly with 10 items in each section.
+
+**GitHub trending builder complete for 2026-04-20:**
+- `research_results/GitHub/2026-04-20/raw.json` — 20 repos fetched from GitHub REST API
+- `web/GitHub/2026-04-20/data.json` — Chinese content for **新晋热门** (10) + **上升之星** (10)
+- `web/GitHub/2026-04-20/img/` — 20 owner avatars downloaded
+
+Highlights: `getagentseal/codeburn` tops new_hot with 2,860 stars in a week; `openclaw/openclaw` and `affaan-m/everything-claude-code` lead rising_stars with +3,000 each. Per skill spec, `web/manifest.json` will be rebuilt by the orchestrator.
+=== GitHub Trending Builder finished successfully: Mon Apr 20 07:20:26 AM CST 2026 ===
+PDF delivered successfully.
+
+**Output:** `pdf/AI/daily-tech-ai-briefing-2026-04-20-cn.pdf` (565 KB, 11 slides, tmp/ cleaned up).
+
+**Slide deck:**
+1. Title — 前沿 AI 的三张牌同时被翻开
+2. NSA × Anthropic Mythos（政策对抗）
+3. Allbirds → NewBird AI（+600% 股价）
+4. Opus 4.7 新 tokenizer 隐性提价 35–47%
+5. Qwen3.6-35B-A3B 开源封顶 Gemma 4
+6. Grok 4.3 按训练 checkpoint 收费
+7. Gemini 3.1 Flash TTS + SynthID
+8. ChatGPT 广告跨国（$100M ARR）
+9. Cloudflare Agent Memory
+10. X Trending 三条热话题
+11. Key Takeaways 5 信号
+=== PDF Builder finished successfully: Mon Apr 20 07:20:28 AM CST 2026 ===
+=== Parallel builders finished: Mon Apr 20 07:20:28 AM CST 2026 ===
+=== Manifest rebuild started: Mon Apr 20 07:20:28 AM CST 2026 ===
+wrote /home/ubuntu/source/DailyBriefing.git/web/manifest.json
+  AI: 13 dates (latest: 2026-04-20)
+  GitHub: 11 dates (latest: 2026-04-20)
+=== Manifest rebuild finished: Mon Apr 20 07:20:28 AM CST 2026 ===
+=== Git commit & push started: Mon Apr 20 07:20:28 AM CST 2026 ===

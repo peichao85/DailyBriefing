@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-20",
+  "total_candidates": 17,
+  "kept": 8,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "anthropic-mythos-zerodays",
+      "event_date": "2026-04-19",
+      "title_en": "NSA revealed using Anthropic Mythos despite Pentagon blacklist",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 04-17 about Dario Amodei meeting White House chief of staff. New on 04-19: Axios scoop that NSA is actively using Mythos despite Pentagon's 'supply chain risk' designation; 40 organizations have access with 12 named; military agency contradicting DoD's own lawsuit position."
+    },
+    {
+      "story_key": "anthropic-mythos-zerodays",
+      "event_date": "2026-04-18",
+      "title_en": "Indian fintechs push Anthropic for Mythos access",
+      "source": "Bloomberg via startupnews",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Same story_key as NSA scoop (anthropic-mythos-zerodays). NSA development on 04-19 is more significant; India fintech pressure is a narrower angle on the same access-control theme that's already covered by today's NSA entry."
+    },
+    {
+      "story_key": "allbirds-newbird-ai-pivot",
+      "event_date": "2026-04-15",
+      "title_en": "Allbirds pivots to NewBird AI GPUaaS, stock surges 600%",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Allbirds sold shoe business and announced $50M convertible to pivot into GPU-as-a-Service; stock surged ~600% intraday. Symbolic of AI compute gold rush swallowing legacy consumer brands."
+    },
+    {
+      "story_key": "xai-grok43-release",
+      "event_date": "2026-04-17",
+      "title_en": "xAI drops Grok 4.3 beta to SuperGrok Heavy, Musk corrects 1T claim",
+      "source": "PiunikaWeb",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback (04-17 lookback entry 'xai-xchat-grok5' was about XChat app launch, different story). This is the Grok 4.3 model release. 0.5T checkpoint locked behind $300/mo paywall; Musk corrected initial 1T parameter claim."
+    },
+    {
+      "story_key": "alibaba-qwen36-opensource",
+      "event_date": "2026-04-16",
+      "title_en": "Alibaba open-sources Qwen3.6-35B-A3B, beats Gemma 4 on every coding benchmark",
+      "source": "The Decoder",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 35B total / 3B active MoE under Apache 2.0; 73.4% SWE-Bench Verified beats Google Gemma 4-31B at 52.0 on every coding benchmark; runs on consumer hardware."
+    },
+    {
+      "story_key": "google-gemini31-flash-tts",
+      "event_date": "2026-04-15",
+      "title_en": "Google launches Gemini 3.1 Flash TTS with 200+ audio tags, 70+ languages",
+      "source": "Google Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 1,211 Elo on TTS leaderboard; 200+ audio tags for vocal style/pace control; 70+ languages with SynthID watermarking; available on Google AI Studio, Vertex AI, Google Vids."
+    },
+    {
+      "story_key": "anthropic-claude-opus-47-release",
+      "event_date": "2026-04-17",
+      "title_en": "Opus 4.7 tokenizer uses up to 47% more tokens, flat price hides cost jump",
+      "source": "The Decoder",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 04-16 covered Opus 4.7 launch and SWE-Bench Pro 64.3% score. New on 04-17: token-count analyses (Pawel Jozefiak, ClaudeCodeCamp, decoder.com) reveal new tokenizer breaks same text into 1.32-1.47x more tokens — same nominal $5/$25 rate but real cost rises 0-47% per request, effectively an undisclosed price hike."
+    },
+    {
+      "story_key": "openai-chatgpt-ads-rollout",
+      "event_date": "2026-04-17",
+      "title_en": "ChatGPT ads go live in Australia/NZ/Canada for Free and Go tiers",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First multi-country ad surface for ChatGPT; Free + $8/mo Go tiers only; 600+ advertisers; contextual (not behavioral) targeting; pilot already hit $100M ARR in 2 months."
+    },
+    {
+      "story_key": "cloudflare-agent-memory",
+      "event_date": "2026-04-17",
+      "title_en": "Cloudflare Agent Memory private beta shipped at Agents Week 2026",
+      "source": "Cloudflare Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Managed service that extracts and recalls information from agent conversations without filling context window; accessible via Worker binding or REST API; closes a core gap for production AI agents."
+    },
+    {
+      "story_key": "anthropic-claude-design-launch",
+      "event_date": "2026-04-18",
+      "title_en": "Claude Design rollout to Pro/Max/Team/Enterprise",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 04-17 with title 'Anthropic 推出 Claude Design 挑战 Figma'. The 04-18 rollout is just the broader-plan availability, no substantive new information beyond the 04-17 launch coverage."
+    },
+    {
+      "story_key": "cerebras-ipo-openai-warrant-deal",
+      "event_date": "2026-04-17",
+      "title_en": "OpenAI-Cerebras $20B chip deal detailed",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 04-17 in lookback: 'Cerebras 当日二度申报 IPO，OpenAI 同时曝出 $200 亿采购+最高 10% 股权 warrant'. Same deal covered with same details."
+    },
+    {
+      "story_key": "naacp-xai-pollution-lawsuit",
+      "event_date": "2026-04-14",
+      "title_en": "NAACP sues xAI over Memphis data center emissions",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 6 days old (>5 day limit). Also already in lookback 04-14 as naacp-xai-pollution-lawsuit."
+    },
+    {
+      "story_key": "google-marvell-mpu-tpu",
+      "event_date": "2026-04-14",
+      "title_en": "Google in talks with Marvell on MPU + inference TPU",
+      "source": "The Next Web",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "shield-ai-series-g",
+      "event_date": "2026-03-26",
+      "title_en": "Shield AI closes $1.5B Series G at $12.7B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-26 is 25 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-pentagon-appeals-ruling",
+      "event_date": "2026-04-08",
+      "title_en": "Appeals court denies Anthropic stay on Pentagon blacklist",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-08 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-gpt-rosalind-bio",
+      "event_date": "2026-04-16",
+      "title_en": "OpenAI GPT-Rosalind enterprise advisory partners detailed",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 04-16 in lookback as openai-gpt-rosalind-bio. McKinsey/BCG/Bain advisory partners is a minor follow-up, not substantively new."
+    },
+    {
+      "story_key": "microsoft-windows11-ai-agents-taskbar",
+      "event_date": "2026-04-14",
+      "title_en": "Microsoft brings AI agents to Windows 11 taskbar",
+      "source": "Neowin",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date approximately 2026-04-14 is 6 days old (>5 day limit) and publication dating is ambiguous."
+    }
+  ]
+}
