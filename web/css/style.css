@@ -450,6 +450,13 @@ header .subtitle {
   opacity: 1;
 }
 
+/* Logo with transparent bg: add white background */
+.logo-bg img {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
 .card-clear {
   clear: both;
 }
