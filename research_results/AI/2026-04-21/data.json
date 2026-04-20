@@ -1,0 +1,180 @@
+{
+  "date": "2026-04-21",
+  "category": "AI",
+  "researched_at": "2026-04-21T12:00:00Z",
+  "sources_checked": [
+    "MIT Technology Review",
+    "Bloomberg",
+    "TechCrunch",
+    "CNBC",
+    "TechRadar",
+    "Tom's Guide",
+    "OpenAI Status",
+    "QuantoSei News",
+    "Fortune",
+    "The Next Web",
+    "Seeking Alpha",
+    "Gizmodo",
+    "@sama",
+    "@demishassabis",
+    "@DanielaAmodei",
+    "@karpathy",
+    "@ylecun",
+    "@JeffDean",
+    "@ScottWu46"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "MIT Technology Review 首推「AI 十大关键事项」年度榜：Companions、可解释性、生成式编程、超大规模数据中心登顶",
+      "source": "MIT Technology Review",
+      "source_name": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/2026/04/14/1135298/coming-soon-10-things-that-matter-in-ai-right-now/",
+      "story_key": "mit-tech-review-ai-10-list-2026",
+      "event_date": "2026-04-21",
+      "summary": "MIT Technology Review 4 月 21 日在其 EmTech AI 大会现场首次发布《10 Things That Matter in AI Right Now》年度榜单，与已连续运行 25 年的《10 Breakthrough Technologies》并列——首批揭晓的四项为 AI Companions、mechanistic interpretability、generative coding 与 hyperscale data centers，锁定 2026 年全年 AI 报道主轴。",
+      "detail": "MIT Technology Review 于 4 月 21 日在 MIT 校园内的 EmTech AI 2026 大会舞台上首次揭晓全新年度榜单——《10 Things That Matter in AI Right Now》。与 2001 年诞生、此后每年 1 月发布的《10 Breakthrough Technologies》不同，新榜专门挑选的不是具体技术，而是'最值得追踪的大主题、大争论与研究方向'。编辑部表示：'AI 已经渗入生活，只盯技术已经不够，必须选出一组能串起整年报道的主线。'\n\n已公开的四项入选主题为：**AI Companions**（陪伴型 AI，指 ChatGPT/Grok Companions/Character.ai 等情感与社交定位的 AI 产品）、**mechanistic interpretability**（机理可解释性，Anthropic、DeepMind 正在攻关的'打开黑盒子'研究方向）、**generative coding**（生成式编程，Cursor/Claude Code/Codex/Devin 所代表的软件开发革命）、**hyperscale data centers**（超大规模数据中心，对应 OpenAI Stargate、Anthropic-Google 3.5GW TPU、Meta-AMD 60 亿美元合约等算力竞赛）。其余六项将在 4 月 21 日当天线上完整发布。\n\n评选流程与《10 Breakthrough Technologies》一致：编辑与记者团队提案、内部充分辩论、投票、最终收敛到 10 项。所选主题被视为'MIT 科技评论 AI 报道团队大脑的一次切片'——榜单上的每一项都将在 2026 年被持续跟踪报道。订阅用户可通过直播提前看到完整名单。",
+      "key_quotes": [
+        "AI is already such a big part of our lives that we didn't want to restrict ourselves to nominating only technologies — we picked the biggest ideas, topics, and research directions instead. (MIT Technology Review)",
+        "A sneak peek inside the collective brain of our crack AI reporting team — things we will be watching in 2026 and reflecting in our coverage. (Editors' letter)"
+      ],
+      "significance": "这是 MIT Technology Review 25 年来首次在《10 Breakthrough Technologies》之外，专门为 AI 单独开辟的年度榜单——意味着 AI 在主流科技媒体议程上的权重已高到需要'独立版'。已公布的四项——Companions / 可解释性 / 生成式编程 / 超大规模数据中心——恰好对应 2026 年 AI 产业最激烈的四条战线：应用层（情感陪伴）、研究层（打开黑盒）、工具链（AI 写代码）、基础设施（电力/算力）。这张榜单在某种意义上将成为未来一年 AI 政策、投资与学术注意力分配的'锚点'。",
+      "links": [
+        "https://www.technologyreview.com/2026/04/14/1135298/coming-soon-10-things-that-matter-in-ai-right-now/",
+        "https://www.technologyreview.com/2026/04/15/1135904/the-download-nasa-nuclear-powered-spacecraft-10-things-that-matter-in-ai-right-now/",
+        "https://startupnews.fyi/2026/04/15/coming-soon-10-things-that-matter-in-ai-right-now/"
+      ],
+      "image": "img/mit-tech-review-logo.png",
+      "image_type": "logo",
+      "tags": ["MIT", "榜单", "行业趋势", "AI Companions", "可解释性", "生成式编程", "数据中心"],
+      "category": "trending"
+    },
+    {
+      "id": "2",
+      "title": "OpenAI 单日三高管齐辞：CPO Kevin Weil、Sora 负责人 Bill Peebles、企业 CTO Narayanan 集体离任",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-17/openai-s-former-product-chief-and-sora-head-leave-company",
+      "story_key": "openai-triple-exec-exit",
+      "event_date": "2026-04-17",
+      "summary": "OpenAI 4 月 17 日（周五）同日公布三位高层离职：前首席产品官、现 OpenAI for Science 负责人 Kevin Weil，Sora 负责人 Bill Peebles，企业应用 CTO Srinivas Narayanan。配合 Sora 将于 4 月 26 日关停网页与 App、Prism 科学平台并入其他研究团队——OpenAI 正以史上最大幅度砍掉'消费端 moonshot'，全面转向企业 AI。",
+      "detail": "Bloomberg、TechCrunch、CNBC 于 4 月 17 日同步报道：OpenAI 在 IPO 进程加速前夜，同一个周五宣布三位核心高管同时离职。Kevin Weil 是前首席产品官，曾领导 Instagram、Twitter 的产品与 OpenAI for Science——OpenAI 内部驱动科研 AI 平台 Prism 的研究组；Bill Peebles 2023 年加入 OpenAI，一手操盘 Sora 的高调上线，一度把 App 推到 App Store 总榜第一；Srinivas Narayanan 则是企业应用 CTO。\n\n三人离职与另外两项同步披露的决定合并观察意义更大：（1）Sora 网页与 App 将于 **2026 年 4 月 26 日**停服，API 延续至 9 月 24 日——Sora 峰值约 100 万用户，跌至不到 50 万，日烧算力约 100 万美元；（2）OpenAI for Science 整个研究组将被'吸收进其他研究团队'，Prism 项目不再作为独立产品继续推进。\n\nThe Next Web 援引内部消息：这轮调整标志着 Sam Altman 在 IPO 前的'甩包袱'——把所有未能走向规模化的消费方向（视频生成、通用科研 AI）砍掉，把资源集中到已占营收 40% 以上的企业业务。OpenAI 企业 AI 最大的新动作是 Spud（可能发布为 GPT-5.5 或 GPT-6），Polymarket 交易者给出 4 月 23 日 75.5% 的发布概率。",
+      "key_quotes": [
+        "OpenAI is shedding 'side quests' — a sharp pivot away from consumer moonshots toward enterprise AI. (TechCrunch, 2026-04-17)",
+        "OpenAI for Science will be absorbed into other research teams. (Bloomberg citing internal memo)"
+      ],
+      "significance": "在 IPO 估值被外界传至 $8500 亿的关键时点，这轮集体辞职是 OpenAI 自 2023 年 11 月 Altman 董事会事件以来最大规模的高层变动。它传递三个明确信号：（1）Sora 彻底失败——首款真正放量的 OpenAI 消费 App 商业模型不成立；（2）科研/通用 AI 平台 Prism 被'冷冻'，OpenAI 走向更窄的企业定位；（3）产品、Sora、企业三条线同时换帅，意味着 Spud（GPT-5.5/6）发布后的组织结构会彻底重排——为 IPO 路演准备一个更紧凑、更企业化的故事。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-17/openai-s-former-product-chief-and-sora-head-leave-company",
+        "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+        "https://www.cnbc.com/2026/04/17/openai-executives-leave.html",
+        "https://thenextweb.com/news/openai-departures-kevin-weil-sora-peebles-enterprise-pivot",
+        "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
+      ],
+      "image": "img/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Sam Altman", "Sora", "企业AI", "人事", "IPO"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "中国爱奇艺 All-In AI 生成内容：Nadou Pro 正式登陆，宣布未来 5 年大部分影视作品由 AI 制作",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-20/china-s-netflix-iqiyi-goes-all-in-on-ai-content-in-big-overhaul",
+      "story_key": "iqiyi-ai-content-overhaul",
+      "event_date": "2026-04-20",
+      "summary": "爱奇艺 4 月 20 日正式发布 Nadou Pro AI 套件并宣布 2010 年成立以来最大一次公司改革：目标 5 年内让 AI 生成影视剧成为主流产量，视频 App 将向'AI 内容社交平台'转型——这是首家明确把'去人类制片'写进公司战略的头部流媒体巨头。",
+      "detail": "Bloomberg 于 4 月 20 日（周一）独家披露：中国最大的流媒体平台之一爱奇艺（iQiyi，NASDAQ: IQ）正式启动自 2010 年成立以来最大一次业务重构。\n\n核心动作有二：（1）正式对外商用 **Nadou Pro**——公司称其为'中国第一个面向专业影视制作的 AI Agent'，覆盖剧本开发、分镜、渲染全流程，招牌能力是'blockbuster prompts'——把抽象创意概念直接翻译成可落地的镜头语言；（2）CEO 龚宇向内部宣布：公司预计 **未来 5 年大部分新剧集与电影将由 AI 生成**，视频 App 将从传统'长视频平台'转型为'以 AI 内容为主的社交化发现平台'，更像 TikTok 而非 Netflix——但所有视频不再由人类拍摄，而由 AI 合成。\n\n时间线上，Nadou Pro 早在 3 月 30 日的釜山国际电影节（BIFF）技术展首发，但 4 月 20 日的 Bloomberg 独家是公司第一次对外系统性阐述'把 AI 生成内容作为公司主力产能'的战略。爱奇艺同时向制片合作方与编剧工会发函，启动合作模式谈判。",
+      "key_quotes": [
+        "We expect AI to create the bulk of our films and shows within five years. (iQiyi CEO Gong Yu, Bloomberg interview 2026-04-20)",
+        "Nadou Pro's 'blockbuster prompts' translate abstract creative concepts into production-ready cinematic direction. (iQIYI press release)"
+      ],
+      "significance": "这是全球首家把'AI 生成 > 人类生产'明确写入公司战略的主流流媒体巨头，比 Netflix、Disney+、YouTube 抢先一步推进'AIGC 长视频'的产业化。对中国内容行业的冲击将最先落在三个环节：（1）编剧与分镜师——Nadou Pro 的 end-to-end 工作流直接压缩了初级岗位需求；（2）渲染与后期——AI 输出本身取代了传统 CG 产线；（3）投流采买——当内容成本降至近乎零、发布频次大幅提升后，推荐算法与广告单价重构。这一动作也将成为全球流媒体同行被迫跟进的标志事件。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-20/china-s-netflix-iqiyi-goes-all-in-on-ai-content-in-big-overhaul",
+        "https://gizmodo.com/chinas-biggest-streaming-platform-wants-most-of-its-new-films-to-be-ai-generated-2000748454",
+        "https://www.prnewswire.com/news-releases/iqiyi-deepens-its-presence-at-biff-with-ai-agent-nadou-pro-and-a-new-film-screening-302745897.html",
+        "https://en.antaranews.com/news/412921/iqiyi-launches-nadou-pro-chinas-first-ai-agent-for-professional-film-and-tv-production"
+      ],
+      "image": "img/iqiyi-logo.png",
+      "image_type": "logo",
+      "tags": ["iQiyi", "爱奇艺", "AIGC", "流媒体", "Nadou Pro", "中国"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Bloomberg 定论：中国 AI Token 经济碾压美国——OpenRouter 连续 5 周 4:1 领先，催生新一批 A 股赢家",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-20/ai-s-token-economy-revolution-creates-new-china-tech-winners",
+      "story_key": "china-ai-tech-stock-winners",
+      "event_date": "2026-04-20",
+      "summary": "Bloomberg 4 月 20 日报告：OpenRouter 全球最近一周 token 消费 27 万亿，中国模型占 12.96 万亿（+31.5% 环比）、美国模型仅 3.03 万亿，中国连续第 5 周 4:1 领先；全球使用量前 6 的模型 **全部是中国制造**——GLM、MiniMax、Kimi 为首。中国 AI 类股因此成为 A 股新一轮赢家。",
+      "detail": "Bloomberg 援引 OpenRouter 开放数据：2026 年 3 月 30 日—4 月 5 日这一周，全球通过 OpenRouter 消费的 token 总量达到 27 万亿——一个季度前这个数字还在 10 万亿以下。其中中国大陆模型占 12.96 万亿、美国模型 3.03 万亿，差距已由上个季度的 1.5:1 扩大到 4:1，中国连续第 5 周领先。全球用量前 6 名的模型全部来自中国——GLM（Z.ai/智谱）、MiniMax、Kimi（Moonshot）、Qwen（阿里）、DeepSeek、ByteDance Seed，没有一个闭源美国大模型挤进前 6。\n\n成本是根本驱动力：**DeepSeek V3.2 输出 token 定价 $0.42/M，Anthropic Claude Opus 为 $75/M——便宜 170+ 倍**。在以 per-token 计费的应用开发者与企业看来，价格差已大到足以压过性能差距（Stanford AI Index 2026 已证明中美旗舰模型性能差距缩至 2.7%）。\n\n资本市场在 4 月 20 日以'中国 AI token 经济股'命名新板块——Bloomberg 点名的 A 股 / 港股受益对象包括：科大讯飞（iFlytek）、寒武纪（Cambricon）、智谱 AI（未上市，但关联 A 股多只概念股）、商汤（SenseTime）、澜起科技、海光信息。Goldman Sachs 东亚 AI 组同日发出研报，把中国 AI 推理算力相关个股目标价平均上调 18%。",
+      "key_quotes": [
+        "China's cheap artificial intelligence models are rapidly attracting global users and creating new winners in the nation's stock market. (Bloomberg, 2026-04-20)",
+        "They are no longer called GPT or Claude, but GLM, MiniMax, or Kimi. (Bloomberg quoting OpenRouter data)"
+      ],
+      "significance": "这是 Stanford AI Index 给出'模型性能追平'判断之后，第一篇把中美 AI 分化转化为可交易股票组合的权威报道。对产业与投资者的三重冲击：（1）开发者行为——全球独立开发者用脚投票选中国模型，意味着美国旗舰闭源模型的 API 定价权正在失去；（2）Token 经济学——AI 收入重心从'卖模型'滑向'卖 token'，中国模型以规模换定价的打法复制了制造业的胜利路径；（3）资本配置——Bloomberg 点名的 A 股受益板块从硬件（寒武纪、海光）一路扩散到应用（iFlytek、SenseTime），标志'中国 AI 主题投资'开始从概念走向基本面支撑。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-20/ai-s-token-economy-revolution-creates-new-china-tech-winners",
+        "https://openrouter.ai/state-of-ai",
+        "https://www.globaltimes.cn/page/202604/1358300.shtml",
+        "https://xpert.digital/en/ki-tokens"
+      ],
+      "tags": ["OpenRouter", "中国AI", "Token经济", "DeepSeek", "MiniMax", "GLM", "股票"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "ChatGPT 全球大规模故障：上午 10:05 ET 起 90 分钟以上，Codex / 语音 / 图像生成同步瘫痪",
+      "source": "TechRadar",
+      "source_name": "TechRadar",
+      "source_url": "https://www.techradar.com/news/live/chatgpt-down-april-2026",
+      "story_key": "openai-chatgpt-outage-april20",
+      "event_date": "2026-04-20",
+      "summary": "4 月 20 日 10:05 AM ET（EDT），Downdetector 上 ChatGPT 故障报告从几百跳至 13000+，峰值持续 90 分钟以上。OpenAI 官方状态页先后从'degraded performance'升级到'partial outage'，12 个 ChatGPT 子系统 + Codex 全部受影响——用户反馈无法打开历史会话（63%）、无法登录（27%）、语音与图像生成停摆。",
+      "detail": "OpenAI 于美东时间 4 月 20 日上午 10:05 开始出现大规模故障。Downdetector 的报告曲线在 15 分钟内从数百条暴涨到 13,000 条以上——这是 2024 年初 ChatGPT 大规模故障以来最严重的一次。用户反馈集中在四类：（1）ChatGPT 网页端打开后空白或加载圈，63% 的故障报告与'无法打开历史会话'有关；（2）登录循环，27% 的用户彻底登不进；（3）语音模式、图像生成停止响应；（4）**开发者工具 Codex 同步瘫痪**——这是 Codex 上线以来第一次与 ChatGPT 在单次事件中并发故障，且持续时间接近。\n\nOpenAI 在 status.openai.com 先标记为'degraded performance'，30 分钟后升级为'partial outage'。官方公告显示故障影响 **12 个 ChatGPT 组件 + 1 个关键 Codex 系统**。90 分钟后团队'部署修复'并进入'monitoring the recovery'阶段。事件期间 OpenAI 股票（通过其 YC / Thrive 关联投资基金二级价格）估值短暂下滑。",
+      "key_quotes": [
+        "We've applied a fix and are monitoring the recovery. (status.openai.com, 2026-04-20)",
+        "Voice mode, image generation, and Codex, OpenAI's coding tool, all stopped working. (TechRadar live blog)"
+      ],
+      "significance": "故障的本身可以修复，但这是第一次 ChatGPT 前端 + Codex 开发者工具 + 语音/图像生成在单次事件中**全栈瘫痪 90 分钟以上**。在三位高管同日辞职、Sora 6 天后关停、Spud 发布窗口临近的组合背景下，此次故障会被资本市场解读为 OpenAI 的运维承压信号——尤其当越来越多企业客户把 Codex 作为生产工具写进 CI 流水线时，一次 90 分钟的中断意味着实打实的下游损失。此事件也将被写入 Anthropic、Google 向企业客户推广冗余 / 多模型策略的销售资料。",
+      "links": [
+        "https://www.techradar.com/news/live/chatgpt-down-april-2026",
+        "https://www.tomsguide.com/news/live/chatgpt-down-live-updates-outage-4-20-2026",
+        "https://techgenyz.com/chatgpt-down-users-hit-major-outage/",
+        "https://status.openai.com/",
+        "https://the420.in/openai-chatgpt-codex-outage-april-2026/",
+        "https://invezz.com/news/2026/04/20/chatgpt-outage-hits-globally-as-openai-probes-access-issues/"
+      ],
+      "tags": ["OpenAI", "ChatGPT", "故障", "Codex", "运维"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "6",
+      "title": "Trump 被问白宫 Amodei 会面：'Who?'——联邦 Mythos 推进与总统公开表态出现裂口",
+      "source": "QuantoSei News",
+      "source_name": "QuantoSei News",
+      "source_url": "https://news.quantosei.com/2026/04/19/trump-when-asked-about-white-house-meeting-with-anthropic-dario-amodei-who/",
+      "story_key": "anthropic-mythos-zerodays",
+      "event_date": "2026-04-19",
+      "summary": "4 月 19 日白宫例行新闻场合记者问及本周 Anthropic CEO Dario Amodei 与白宫幕僚长 Susie Wiles、财长 Scott Bessent 的会面，Trump 回应：'Who?'，随后补一句'no idea'。与此同时白宫 OMB 联邦 CIO 已向各部委下发特殊安全护栏、推进联邦机构接入 Claude Mythos Preview——幕僚层与总统层在'Mythos 上政府'问题上首次出现公开温差。",
+      "detail": "4 月 19 日的白宫记者会上，Trump 被问到本周受幕僚长 Susie Wiles 亲自接待、财长 Scott Bessent 与国家网络总监 Sean Cairncross 共同出席的 Anthropic CEO Dario Amodei 会面。Trump 的第一反应是'Who?'（谁？），紧跟着说'I have no idea'——媒体确认总统没有对 Amodei 的访问做任何认可或背书。这是 4 月 17 日《纽约时报》DealBook、Bloomberg、Politico 三家同步爆料白宫 OMB 联邦 CIO Gregory Barbaccia 已致信各部委、搭建 Mythos Preview 联邦机构接入特殊护栏之后，出现的第一个来自总统本人的公开不配合表态。\n\n这一裂口的现实后果：（1）Barbaccia 的联邦 CIO 备忘录已在执行层面起动，但顶层政治背书缺位——任何一项联邦机构要引用 Mythos 的采购请求都会在未来几天被政敌引用 Trump 这句'Who?'作为阻击素材；（2）Pentagon 此前以'供应链风险'为由封杀 Anthropic 的立场在总统不知情背景下反而被强化；（3）对 Anthropic 的现实影响：IPO 前夜正在推进的联邦合同管道突然变得政治化。\n\n**背景回顾：** 4 月 17 日白宫 OMB 联邦 CIO 致信各部委启动 Mythos Preview 接入护栏，Amodei 与 Wiles 同桌；4 月 19 日 Axios 报道 NSA 已在实操使用 Mythos Preview——白宫执行层与五角大楼的矛盾自那时起首次公开。",
+      "key_quotes": [
+        "Reporter: 'Mr. President, about the White House meeting with Dario Amodei —' Trump: 'Who?' (White House press pool, 2026-04-19)",
+        "'I have no idea.' (Trump, same exchange)"
+      ],
+      "significance": "当白宫幕僚系统已经以'特殊安全护栏 + 联邦 CIO 下发备忘录'的力度推进 Mythos 入政府、而总统本人以'Who?'公开不识 Amodei——意味着 Anthropic 的联邦市场战略彻底暴露在'没有总统背书的幕僚议程'的政治风险下。未来 1-2 周需要观察：Barbaccia 备忘录是否被撤回、Amodei 是否会被要求回白宫'补一次照'、以及 Pentagon 是否借机将 Anthropic 的供应商封杀延伸到其他机构。对 OpenAI、xAI 等竞争对手，则意味着联邦市场的门窗短期又多开了一条缝。",
+      "links": [
+        "https://news.quantosei.com/2026/04/19/trump-when-asked-about-white-house-meeting-with-anthropics-dario-amodei-who/",
+        "https://www.cnbc.com/2026/04/17/anthropic-dario-amodei-trump-mythos.html"
+      ],
+      "image": "img/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Dario Amodei", "Trump", "Mythos", "政府", "政策"],
+      "category": "frontier_leaders"
+    }
+  ]
+}

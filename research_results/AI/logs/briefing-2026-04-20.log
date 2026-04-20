@@ -57,3 +57,49 @@ wrote /home/ubuntu/source/DailyBriefing.git/web/manifest.json
   GitHub: 11 dates (latest: 2026-04-20)
 === Manifest rebuild finished: Mon Apr 20 07:20:28 AM CST 2026 ===
 === Git commit & push started: Mon Apr 20 07:20:28 AM CST 2026 ===
+[main a18754f] Daily AI briefing: 2026-04-20
+ 43 files changed, 1635 insertions(+)
+ create mode 100644 pdf/AI/daily-tech-ai-briefing-2026-04-20-cn.pdf
+ create mode 100644 research_results/AI/2026-04-20/data.json
+ create mode 100644 research_results/AI/2026-04-20/filter_log.json
+ create mode 100644 research_results/AI/2026-04-20/img/allbirds-logo.png
+ create mode 100644 research_results/AI/2026-04-20/img/anthropic-logo.png
+ create mode 100644 research_results/AI/2026-04-20/img/cloudflare-logo.png
+ create mode 100644 research_results/AI/2026-04-20/img/gemini-logo.png
+ create mode 100644 research_results/AI/2026-04-20/img/grok-logo.png
+ create mode 100644 research_results/AI/2026-04-20/img/openai-logo.png
+ create mode 100644 research_results/AI/2026-04-20/img/qwen-logo.png
+ create mode 100644 research_results/AI/logs/briefing-2026-04-20.log
+ create mode 100644 research_results/GitHub/2026-04-20/raw.json
+ create mode 100644 web/AI/2026-04-20/data.json
+ create mode 100644 web/AI/2026-04-20/img/allbirds-logo.png
+ create mode 100644 web/AI/2026-04-20/img/anthropic-logo.png
+ create mode 100644 web/AI/2026-04-20/img/cloudflare-logo.png
+ create mode 100644 web/AI/2026-04-20/img/gemini-logo.png
+ create mode 100644 web/AI/2026-04-20/img/grok-logo.png
+ create mode 100644 web/AI/2026-04-20/img/openai-logo.png
+ create mode 100644 web/AI/2026-04-20/img/qwen-logo.png
+ create mode 100644 web/GitHub/2026-04-20/data.json
+ create mode 100644 web/GitHub/2026-04-20/img/BuilderPulse-BuilderPulse.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/EbookFoundation-free-programming-books.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/Manavarya09-design-extract.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/Robbyant-lingbot-map.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/WeaveMindAI-weft.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/affaan-m-everything-claude-code.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/alchaincyf-darwin-skill.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/cathrynlavery-diagram-design.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/codejunkie99-agentic-stack.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/f-prompts.chat.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/freeCodeCamp-freeCodeCamp.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/getagentseal-codeburn.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/huggingface-transformers.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/kyegomez-OpenMythos.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/n8n-io-n8n.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/ollama-ollama.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/openclaw-openclaw.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/sindresorhus-awesome.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/yaojingang-GEOFlow.jpg
+ create mode 100644 web/GitHub/2026-04-20/img/yt-dlp-yt-dlp.jpg
+To github.com:peichao85/DailyBriefing.git
+   2f99972..a18754f  main -> main
+=== Git commit & push finished: Mon Apr 20 07:20:32 AM CST 2026 ===

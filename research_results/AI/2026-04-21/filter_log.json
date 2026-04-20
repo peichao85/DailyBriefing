@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-21",
+  "total_candidates": 17,
+  "kept": 6,
+  "dropped": 11,
+  "decisions": [
+    {
+      "story_key": "mit-tech-review-ai-10-list-2026",
+      "event_date": "2026-04-21",
+      "title_en": "MIT Technology Review unveils inaugural '10 Things That Matter in AI Right Now' list at EmTech AI",
+      "source": "MIT Technology Review",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in 7-day lookback; publication date is today (2026-04-21); strategic landscape piece naming AI companions, mechanistic interpretability, generative coding, and hyperscale data centers among the 10 themes MIT's AI team will cover in 2026."
+    },
+    {
+      "story_key": "openai-chatgpt-outage-april20",
+      "event_date": "2026-04-20",
+      "title_en": "ChatGPT suffers global partial outage for 90+ minutes, Codex and image gen also affected",
+      "source": "TechRadar / Tom's Guide / OpenAI status",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; event yesterday (1 day old). Downdetector spiked to 13k+ reports starting 10:05am ET; 63% reported issues accessing old conversations, 27% sign-in failures; OpenAI confirmed partial outage affecting 12 ChatGPT components and Codex."
+    },
+    {
+      "story_key": "openai-triple-exec-exit",
+      "event_date": "2026-04-17",
+      "title_en": "OpenAI loses CPO Kevin Weil, Sora head Bill Peebles, enterprise CTO Narayanan in single-day triple exit",
+      "source": "Bloomberg / TechCrunch / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; 4 days old (within 5-day window). Kevin Weil (former CPO leading OpenAI for Science), Bill Peebles (Sora head), and Srinivas Narayanan (enterprise CTO) all announced exits same Friday; Sora web/app shuts down April 26, API Sept 24. Signals sharp consumer-to-enterprise pivot."
+    },
+    {
+      "story_key": "iqiyi-ai-content-overhaul",
+      "event_date": "2026-04-20",
+      "title_en": "iQiyi goes all-in on AI content, debuts Nadou Pro suite in biggest overhaul since 2010 founding",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; Bloomberg reported Monday April 20 that China's Netflix-like iQiyi expects AI to create the bulk of its shows in five years, launched Nadou Pro AI toolkit, and will restructure video app into social destination hosting AI-generated content. Nadou Pro soft-launched March 30 but April 20 is the strategic overhaul + public stakeout."
+    },
+    {
+      "story_key": "china-ai-tech-stock-winners",
+      "event_date": "2026-04-20",
+      "title_en": "Bloomberg: China's cheap AI models create new tech stock winners, surpass US on OpenRouter for 5th week",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; Bloomberg April 20 piece framed this as a stock-market winners story. Chinese AI token consumption on OpenRouter now 12.96T vs US 3.03T weekly (4x lead); top 6 most-used models globally are all Chinese (GLM/MiniMax/Kimi); DeepSeek V3.2 at $0.42/M tokens vs Claude Opus $75 (170x cheaper). Stanford AI Index from 04-13 covered a different angle (model quality parity)."
+    },
+    {
+      "story_key": "anthropic-mythos-zerodays",
+      "event_date": "2026-04-19",
+      "title_en": "Trump says 'Who?' when asked about Amodei's White House Mythos meeting",
+      "source": "QuantoSei News / NYT DealBook press gaggle",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 04-17 (White House opens Mythos to federal agencies; Amodei meets Wiles/Bessent/Cairncross) and 04-19 (NSA uses Mythos while Pentagon bans Anthropic). NEW development: when reporters asked Trump about the Amodei meeting that his own chief of staff hosted, he responded 'Who?' and 'no idea' — a public disavowal suggesting the federal Mythos access push is happening without presidential buy-in. Distinct political development, not a rehash."
+    },
+    {
+      "story_key": "karpathy-dgx-station-gb300",
+      "event_date": "2026-03-18",
+      "title_en": "Jensen Huang hand-delivers first DGX Station GB300 to Karpathy for Clawbot Dobby",
+      "source": "NVIDIA AI Developer / Karpathy X post",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-18 is 34 days old (>5 day limit). Story is charming but very stale."
+    },
+    {
+      "story_key": "meta-muse-spark-launch",
+      "event_date": "2026-04-08",
+      "title_en": "Meta launches Muse Spark from Superintelligence Labs — first model under Alexandr Wang",
+      "source": "Meta AI Blog / TechCrunch / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-08 is 13 days old (>5 day limit)."
+    },
+    {
+      "story_key": "microsoft-japan-10b-investment",
+      "event_date": "2026-04-03",
+      "title_en": "Microsoft commits $10B to Japan for AI infrastructure, partners with SoftBank and Sakura",
+      "source": "Microsoft / Bloomberg / Nikkei",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-03 is 18 days old (>5 day limit)."
+    },
+    {
+      "story_key": "deepseek-v4-launch",
+      "event_date": "unreleased",
+      "title_en": "DeepSeek V4 rumors intensify, expected to run on Huawei chips",
+      "source": "Taipei Times / The Information",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "No actual release event yet — only speculation and rumors. Nothing concrete to cover until V4 actually ships."
+    },
+    {
+      "story_key": "openai-spud-polymarket",
+      "event_date": "speculation",
+      "title_en": "Polymarket assigns 75% odds GPT-5.5 Spud releases April 23",
+      "source": "Polymarket / various",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Already covered on 04-13 as 'openai-spud-next-model' with similar 78% probability framing. Today's update is only a shifted probability; no actual release event."
+    },
+    {
+      "story_key": "anthropic-per-token-billing",
+      "event_date": "2026-04-17",
+      "title_en": "Anthropic moves enterprise to per-token billing, Claude Pro/Max users lose plan access for agent tools",
+      "source": "CNBC / VentureBeat / PYMNTS",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-17 with title 'Anthropic 推行 per-token 计费 + Amodei 警告...'. Today's coverage rehashes same facts about per-token shift and April 4 Claude Pro/Max restrictions."
+    },
+    {
+      "story_key": "cursor-50b-valuation",
+      "event_date": "2026-04-17",
+      "title_en": "Cursor in talks to raise $2B at $50B valuation, NVIDIA joins as strategic investor",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-17 with title 'Cursor 一年涨三倍：$2B 新轮把估值顶到 $500 亿'. April 19 CNBC piece is same round, no new info."
+    },
+    {
+      "story_key": "boston-dynamics-spot-gemini-robotics-er",
+      "event_date": "2026-04-14",
+      "title_en": "Boston Dynamics Spot + Gemini Robotics-ER 1.6 reads power plant gauge",
+      "source": "DeepMind blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 7 days old (>5 day limit)."
+    },
+    {
+      "story_key": "tesla-spring-2026-hey-grok",
+      "event_date": "2026-04-14",
+      "title_en": "Tesla Spring 2026 OTA deepens Grok integration: hands-free 'Hey Grok' launch",
+      "source": "gearmusk / notateslaapp",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 7 days old (>5 day limit)."
+    },
+    {
+      "story_key": "alibaba-token-hub-reorg",
+      "event_date": "2026-04-12",
+      "title_en": "Alibaba consolidates Tongyi/Qwen/Wukong units into 'Token Hub', opens 10k-chip data center",
+      "source": "Fortune / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-12 is 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "iowa-state-ai-anthropomorphize-study",
+      "event_date": "2026-04-17",
+      "title_en": "Iowa State study: news media rarely anthropomorphizes AI but certain phrases still shape perception",
+      "source": "ScienceDaily / Technical Communication Quarterly",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within freshness window (4 days old) but low signal for a daily AI briefing — academic corpus study with no actionable industry impact; not strong enough to make cut vs stronger candidates."
+    }
+  ]
+}
