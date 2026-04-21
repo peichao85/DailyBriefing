@@ -1,0 +1,116 @@
+{
+  "date": "2026-04-22",
+  "total_candidates": 12,
+  "kept": 9,
+  "dropped": 3,
+  "decisions": [
+    {
+      "story_key": "amazon-anthropic-25b-compute-deal",
+      "event_date": "2026-04-20",
+      "title_en": "Amazon to invest up to $25B more in Anthropic, 5GW compute deal",
+      "source": "Anthropic Blog / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "New deal announced 04-20: $5B upfront + $20B milestone-tied at $380B valuation; Anthropic commits >$100B to AWS over 10 years; 5GW Trainium capacity. Not in lookback."
+    },
+    {
+      "story_key": "moonshot-kimi-k26-release",
+      "event_date": "2026-04-21",
+      "title_en": "Moonshot launches Kimi K2.6: 1T param, 58.6% SWE-Bench Pro, 300 sub-agents",
+      "source": "Moonshot AI / SCMP / MarkTechPost",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Open-source release 04-21. 1T param MoE, 32B activated, beats GPT-5.4/Claude Opus 4.6 on SWE-Bench Pro. 300 parallel sub-agents, 4000 step chains. Not in lookback."
+    },
+    {
+      "story_key": "anthropic-revenue-surpasses-openai",
+      "event_date": "2026-04-21",
+      "title_en": "Anthropic $30B ARR tops OpenAI $24B on enterprise spend",
+      "source": "Axios / Sherwood News",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 04-13 as 'OpenAI高管泄露备忘录指控Anthropic虚增80亿美元营收' based on leaked OpenAI memo. New development 04-21: fresh Ramp/Menlo Ventures data confirms Anthropic has actually surpassed OpenAI on enterprise gen-AI spend with $30B ARR vs OpenAI's $24B. Axios and Sherwood both covered the business win with new data points (share of enterprise spending, consumer use surge). Substantively new information."
+    },
+    {
+      "story_key": "github-copilot-token-billing",
+      "event_date": "2026-04-20",
+      "title_en": "Microsoft shifts GitHub Copilot to token-based billing, pauses new sign-ups",
+      "source": "wheresyoured.at / GitHub Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "GitHub announced 04-20: pauses new Copilot Pro/Pro+/student sign-ups, shifts to token-based billing. Reason: agentic workflows doubled WoW cost. Not in lookback."
+    },
+    {
+      "story_key": "anthropic-openai-lobbying-q1",
+      "event_date": "2026-04-21",
+      "title_en": "Anthropic Q1 lobbying $1.6M beats OpenAI $1M, biggest quarter ever for both",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Q1 2026 federal lobbying disclosures released 04-21: Anthropic $1.6M, OpenAI $1M — biggest-ever quarters for both, Anthropic outspends for the first time. Not in lookback. Distinct from revenue/enterprise narrative."
+    },
+    {
+      "story_key": "youtube-likeness-detection-celebs",
+      "event_date": "2026-04-21",
+      "title_en": "YouTube expands AI likeness detection to celebrities, talent agencies",
+      "source": "TechCrunch / YouTube Blog / Hollywood Reporter",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "YouTube announced 04-21: deepfake detection tool expanded from creators to celebrities, with CAA, UTA, WME, Untitled Management on board. Not in lookback."
+    },
+    {
+      "story_key": "soundhound-liveperson-acquisition",
+      "event_date": "2026-04-21",
+      "title_en": "SoundHound buys LivePerson for $43M to merge voice AI with 1B/mo messages",
+      "source": "SoundHound AI PR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "All-stock M&A announced 04-21: $43M equity, $250M enterprise value, projected $350-400M 2027 revenue. Not in lookback."
+    },
+    {
+      "story_key": "tesla-unsupervised-robotaxi-dallas-houston",
+      "event_date": "2026-04-18",
+      "title_en": "Tesla launches fully unsupervised Robotaxi in Dallas and Houston",
+      "source": "Tesla / Electrek / Eletric-Vehicles.com",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Service launched 04-18 (within 5-day window). First no-human-monitor robotaxi rollout in Texas cities where Waymo already operates, 573 vehicles, timed ahead of 04-22 Q1 earnings. Not in lookback."
+    },
+    {
+      "story_key": "x-square-robot-series-b",
+      "event_date": "2026-04-20",
+      "title_en": "China X Square Robot closes ~$276M Series B for embodied AI",
+      "source": "Chinese tech press",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "RMB 2B (~$276M) Series B closed 04-20 — one of the day's largest deep-tech financings, embodied AI for general-purpose robots. Not in lookback."
+    },
+    {
+      "story_key": "openai-codex-for-almost-everything",
+      "event_date": "2026-04-16",
+      "title_en": "OpenAI ships 'Codex for (Almost) Everything' with background Computer Use",
+      "source": "OpenAI / Hacker News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-16 is 6 days old (>5 day limit). Rollout covered by other channels."
+    },
+    {
+      "story_key": "anthropic-claude-id-verification",
+      "event_date": "2026-04-16",
+      "title_en": "Anthropic requires government ID + live selfie for some Claude users",
+      "source": "The Register / Biometric Update",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-16 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "google-pentagon-gemini-classified",
+      "event_date": "2026-04-16",
+      "title_en": "Google in talks to deploy Gemini in Pentagon classified settings",
+      "source": "The Information / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-16 is 6 days old (>5 day limit). Negotiations still ongoing; no new breakthrough to report."
+    }
+  ]
+}

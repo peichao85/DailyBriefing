@@ -1,0 +1,241 @@
+{
+  "date": "2026-04-22",
+  "category": "AI",
+  "title": "Amazon 再掷 $250 亿押注 Anthropic、锁定 10 年 $1000 亿 AWS 算力长约；Anthropic $300 亿 ARR 首超 OpenAI；Moonshot 开源 Kimi K2.6 以 1T 参数 MoE 抢占 SWE-Bench Pro 头名",
+  "items": [
+    {
+      "id": "1",
+      "title": "Amazon 加码 $250 亿再押 Anthropic，锁定 5GW Trainium 算力——Claude 十年 $1000 亿买 AWS",
+      "source": "Anthropic",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+      "story_key": "amazon-anthropic-25b-compute-deal",
+      "event_date": "2026-04-20",
+      "summary": "Amazon 4 月 20 日宣布在已投入的 $80 亿基础上，再向 Anthropic 追加最多 $250 亿美元，其中 $50 亿立即到账、$200 亿与商业里程碑挂钩——以 Anthropic 最新 $3800 亿估值入场；作为对价，Anthropic 承诺未来十年向 AWS 采购超 $1000 亿美元算力，并锁定从 Trainium2 一路延伸到尚未发布的 Trainium4 的 5GW 级容量。",
+      "detail": "Amazon 与 Anthropic 4 月 20 日联合发布扩大合作声明：亚马逊将在 Anthropic 最新 $3800 亿美元估值基础上追加最高 $250 亿美元投资，其中 $50 亿当前注入、另 $200 亿与多项商业里程碑绑定分阶段释放，累计在 Anthropic 身上投入 $330 亿美元，等同于 Amazon 迄今为止最大的单一公司股权敞口。\n\n对价一侧的对等承诺同样惊人：Anthropic 签下一份未来十年超 $1000 亿美元的 AWS 算力采购合同，覆盖训练与推理 Claude 所需的整体基础设施。本合作同步锁定至少 5GW 级别的 Trainium 专用容量，芯片范围横跨 Trainium2、Trainium3 以及尚未发布的 Trainium4，并附带 Graviton 通用核心。Anthropic 披露其 run-rate 营收 2026 年 Q1 已超过 $300 亿美元，相比 2025 年底的约 $90 亿翻升逾 3 倍——企业、开发者和消费者三端需求同时加速推高算力饥渴。\n\n对 Amazon 而言，本次协议是其 AI 战略的三重加码：一方面把自研 Trainium 路线图推到第四代并锁定 Anthropic 作为超大单一客户；另一方面借 Anthropic 的飞涨营收间接分享 Claude 增长红利；第三是以 $1000 亿长约稳住 AWS 在 AI 云市场的统治地位——这一数字已超过 OpenAI 最近与 Microsoft、NVIDIA 敲定的同类承诺。",
+      "key_quotes": [
+        "Up to $25 billion in new capital on top of Anthropic's latest $380 billion valuation",
+        "$5 billion now, up to $20 billion tied to certain commercial milestones",
+        "Securing up to 5GW of new capacity to train and run Claude",
+        "Run-rate revenue has now surpassed $30 billion, up from approximately $9 billion at the end of 2025"
+      ],
+      "significance": "单笔 $250 亿美元注资将 Amazon 对 Anthropic 的累计敞口推至 $330 亿美元，并以十年 $1000 亿算力采购承诺把 AWS Trainium 路线图绑上 Anthropic 飞轮。这是继 Anthropic 传出 $8000 亿估值、Cerebras 曝 $200 亿 warrant 合约之后，AI 算力军备竞赛又一次被量级级放大——Claude 的单公司长约规模已逼近某些国家的年度 AI 基础设施预算。",
+      "links": [
+        "https://www.anthropic.com/news/anthropic-amazon-compute",
+        "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html",
+        "https://www.pymnts.com/artificial-intelligence-2/2026/amazon-and-anthropic-deepen-ties-with-investment-and-hardware-pact/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Amazon", "AWS", "Trainium", "融资", "AI 基础设施"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Moonshot 开源 Kimi K2.6：1T 参数 MoE 抢占 SWE-Bench Pro 头名，单任务调度 300 个子 Agent",
+      "source": "Moonshot AI",
+      "source_name": "South China Morning Post",
+      "source_url": "https://www.scmp.com/tech/big-tech/article/3350887/moonshot-ai-releases-flagship-model-open-source-push-continues",
+      "story_key": "moonshot-kimi-k26-release",
+      "event_date": "2026-04-21",
+      "summary": "Moonshot AI 于 4 月 21 日以修改版 MIT 协议开源 Kimi K2.6——1 万亿参数原生多模态 MoE 模型，每 token 激活 32B。SWE-Bench Pro 得分 58.6%，压过 GPT-5.4（57.7%）和 Claude Opus 4.6（53.4%）；任务编排层把并发 sub-agent 数从 100 扩到 300，每个 agent 可执行长达 4000 步工具链。",
+      "detail": "中国 AI 初创 Moonshot AI（月之暗面）4 月 21 日正式发布并开源 Kimi K2.6，为其去年 7 月 K2 模型以来最激进的一次跃升。K2.6 是 1T 总参数的原生多模态 MoE，每 token 激活约 32B，重点优化长程编码、前端动效生成与 Agent 工作流。\n\nSWE-Bench Pro 综合得分 58.6%，超过 OpenAI GPT-5.4 的 57.7% 与 Anthropic Claude Opus 4.6 的 53.4%，成为当前通用可下载模型在 agentic coding 基准上的新王者。Moonshot 同步发布 task orchestration 层：单任务可横向铺开最多 300 个独立 sub-agent，每个 agent 运行长达 4000 步的工具调用链——是 K2 时代上限 100 的 3 倍。真实案例中 K2.6 自主重构一套 8 年龄的金融撮合引擎耗时 13 小时，中位吞吐跃升 185%、性能吞吐跃升 133%。\n\n模型权重已通过 Hugging Face 以修改版 MIT 协议发布，商用无需额外授权；Kimi.com、App、API 及 Kimi Code CLI 同步上线。目前 OpenRouter 全球 token 消耗榜前三全部是中国模型（小米 MiMo、阿里 Qwen、DeepSeek），MiniMax 排第四。K2.6 的加入将进一步扩大中国开源阵营对 Claude/GPT 闭源付费栈的价格差——MiniMax 输出定价已只有 Claude 的 1/15。",
+      "key_quotes": [
+        "Kimi K2.6: 1-trillion-parameter native multimodal MoE with 32B activated per token",
+        "58.6% on SWE-Bench Pro - ahead of GPT-5.4 at 57.7% and Claude Opus 4.6 at 53.4%",
+        "Agent swarm capacity from 100 to 300 simultaneous sub-agents, up to 4,000 steps per chain",
+        "Autonomously overhauled an 8-year-old financial matching engine over 13 hours, delivering a 185% medium throughput leap"
+      ],
+      "significance": "Kimi K2.6 把'中国开源大模型总分超越顶级闭源'从 SWE-Bench 轻量级扩展到 SWE-Bench Pro，并且首次把单任务 300 并发 sub-agent、4000 步工具链的 agentic 深度带到可自由下载的权重里。配合 OpenRouter 前三全为中国模型、MiniMax 价格仅为 Claude 1/15 的现状，这意味着全球开发者只要愿意自建推理栈，就能以 1/10 成本跑性能持平甚至更强的旗舰级 Agent 工作流——Claude Opus 4.7 发布仅一周就被来自北京的对手以开源方式抹平性价比。",
+      "links": [
+        "https://kimi-k2.org/blog/24-kimi-k2-6-release",
+        "https://www.scmp.com/tech/big-tech/article/3350887/moonshot-ai-releases-flagship-model-open-source-push-continues",
+        "https://www.marktechpost.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-with-long-horizon-coding-agent-swarm-scaling-to-300-sub-agents-and-4000-coordinated-steps/",
+        "https://siliconangle.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-model-1t-parameters-attention-optimizations/"
+      ],
+      "image": "img/kimi-logo.png",
+      "image_type": "logo",
+      "tags": ["Kimi", "Moonshot AI", "开源", "agentic", "中国 AI"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Anthropic 企业市场最新数据：run-rate $300 亿反超 OpenAI $240 亿，Q1 抢食 gen-AI 最大份额",
+      "source": "Sherwood News",
+      "source_name": "Sherwood News",
+      "source_url": "https://sherwood.news/tech/anthropics-revenue-run-rate-just-topped-usd30-billion-thats-ahead-of-openai/",
+      "story_key": "anthropic-revenue-surpasses-openai",
+      "event_date": "2026-04-21",
+      "summary": "Axios / Sherwood News 4 月 21 日同步披露：Anthropic 当前 run-rate 营收已突破 $300 亿美元，较 2025 年底 $90 亿翻升逾 3 倍——按 ARR 口径首次真实超过 OpenAI 3 月底披露的约 $240 亿美元。Ramp 和 Menlo Ventures 企业消费数据显示 Anthropic 在企业 gen-AI 软件支出占比上同样已领先 OpenAI。",
+      "detail": "Sherwood News 与 Axios 4 月 21 日基于 Anthropic 给投资人的最新通讯确认：Claude run-rate 营收正式突破 $300 亿美元，较 2025 年底 $90 亿飙升逾 3 倍；同期 OpenAI 3 月末披露的 ARR 为 $240 亿。按官方口径，Anthropic 首次真实反超 OpenAI 的收入跑率——而非仅是渠道中转销售的虚高。\n\n同日 Ramp（企业信用卡消费数据）与 Menlo Ventures 新一期企业 gen-AI 支出调查都证实：Anthropic 在企业侧的 gen-AI 软件支出份额已压过 OpenAI，核心工作负载集中在编码、电子表格分析与幻灯片生产。另一边 OpenAI 回应称自己在算力体量上仍领先 Anthropic（暗指 Anthropic CEO Amodei 本月早些时候'不确定锥形'的保守扩容论），并正动员各地咨询合作伙伴回抢企业客户。双方距离秋季潜在 IPO 仅剩六个月不到。\n\n**背景回顾：** 4 月 13 日 CNBC 爆出 OpenAI 首席营收官内部备忘录，指控 Anthropic 通过云渠道按总额口径虚增约 $80 亿美元 ARR。当时按净额口径 OpenAI 仍以 $250 亿领先 Anthropic 约 $220 亿。4 月 21 日两家媒体的新数据基本否定了 OpenAI 这一指控——Anthropic 即使按净额也已反超。",
+      "key_quotes": [
+        "Run-rate revenue has now surpassed $30 billion, up from approximately $9 billion at the end of 2025",
+        "Anthropic's annual revenue run rate… places the Claude maker ahead of OpenAI, at least on paper",
+        "OpenAI says it's ahead of Anthropic on compute capacity, which it highlighted in a recent investor letter",
+        "OpenAI is mobilizing consulting partners and touting its compute edge to claw back enterprise customers"
+      ],
+      "significance": "距离双方可能的秋季 IPO 不到六个月，'谁是 AI 商业化第一'的实证数据第一次把 Anthropic 推到了榜首。Ramp 与 Menlo 的企业支出数据结合 Anthropic 公开的 run-rate 数字，事实上驳回了 4 月 13 日 OpenAI 内部备忘录中'Anthropic 虚增 $80 亿'的说法。路演估值、投资人话语权与企业单子谈判筹码都因这次数据公开被重新加权。",
+      "links": [
+        "https://www.axios.com/2026/04/21/openai-anthropic-enterprise-rivalry-heats-up",
+        "https://sherwood.news/tech/anthropics-revenue-run-rate-just-topped-usd30-billion-thats-ahead-of-openai/",
+        "https://sherwood.news/tech/anthropic-has-surged-past-openai-in-capturing-business-spending-on-generative-ai-software/",
+        "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-gains-on-openai-amid-rising-adoption-among-enterprises/"
+      ],
+      "tags": ["Anthropic", "OpenAI", "ARR", "企业 AI", "IPO"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "GitHub 暂停 Copilot Pro 新用户注册，全量切换到 token 计费——agent 工作流把算力账单按周翻倍",
+      "source": "GitHub / Microsoft",
+      "source_name": "GitHub Blog",
+      "source_url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+      "story_key": "github-copilot-token-billing",
+      "event_date": "2026-04-20",
+      "summary": "GitHub 4 月 20 日宣布暂停 Copilot Pro、Pro+ 与学生版新用户注册，并对存量用户启动限流收紧；同时向 token-based 计费全面过渡——取代沿用多年的'requests'计量单位。幕后原因：agent 工作流把 Copilot 的周度算力开销在三个月内翻倍，旧定价结构已支撑不住。",
+      "detail": "GitHub 4 月 20 日在官方博客与 Microsoft 同步通报：自当天起 Copilot Pro、Copilot Pro+ 以及学生免费版停止接受新用户注册，现有用户的会话级与 7 天周度使用限额都将被调紧；同时 GitHub Copilot 整体转向 token-based 计费——按用户真实 token 消耗出账，取代此前'per request'的抽象度量。\n\nGitHub 在说明中把根因归结为 agentic workflows 对算力需求的重塑：长跑、并发、工具调用密集的 agent 会话在一次请求里动辄消耗几十倍的底层 token，传统按次计费已无法把成本差异传导给消费者。独立评论人 Ed Zitron（wheresyoured.at）报道 Copilot 的 week-over-week 成本从 1 月起已近乎翻倍——这也是 Microsoft 近期在 Foundry 推出 MAI-Image-2-Efficient（较旗舰便宜 41%）、并频繁以自研 MAI 模型替换部分 OpenAI 调用的同一条成本曲线的两个正面。\n\n对开发者端的直接影响：使用 agent mode、Copilot Code 长跑任务的重度用户账单将显著上升，但低频用户的'请求数不够'焦虑也会消失；对 AI 编程竞争格局而言，这是 Cursor（$500 亿估值、刚官宣 NVIDIA 战略入股）把'Pro seat + 透明 token 池'模型长期施压 GitHub 的具体结果。",
+      "key_quotes": [
+        "Starting April 20, 2026, new sign-ups for Copilot Pro, Copilot Pro+, and student plans are temporarily paused",
+        "Agents are doing more work, and more customers are hitting usage limits designed to maintain service reliability",
+        "The week-over-week cost of running GitHub Copilot nearly doubled since January",
+        "Moving to 'token-based billing' would mean that instead of using 'requests', GitHub Copilot users would pay for the actual cost of tokens"
+      ],
+      "significance": "GitHub 不得不暂停新注册、改用 token 计费，是 agentic coding 从营销概念落地为真实成本结构的首个大型平台级信号——原有 SaaS'无限次+固定月费'的单元经济在 agent 时代彻底失效。这也侧面验证了 Anthropic CEO Dario Amodei 上周提出的'不确定锥形'论：AI 需求暴涨 vs 数据中心建设 1-2 年滞后，一切订阅型玩家都要在短期内被迫重新定价。",
+      "links": [
+        "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+        "https://www.wheresyoured.at/news-microsoft-to-shift-github-copilot-users-to-token-based-billing-reduce-rate-limits-2/",
+        "https://www.thurrott.com/a-i/github-copilot/335125/report-microsoft-to-bring-token-based-billing-to-github-copilot",
+        "https://www.theregister.com/2026/04/15/github_copilot_rate_limiting_bug/"
+      ],
+      "image": "img/github-logo.png",
+      "image_type": "logo",
+      "tags": ["GitHub Copilot", "Microsoft", "token 计费", "agentic", "定价"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Q1 联邦游说：Anthropic 单季 $160 万首超 OpenAI $100 万，两家双双史上最高",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/04/21/anthropic-outspends-openai-biggest-lobbying-quarter",
+      "story_key": "anthropic-openai-lobbying-q1",
+      "event_date": "2026-04-21",
+      "summary": "最新披露的 Q1 2026 联邦游说报告显示：Anthropic 单季支出 $160 万、OpenAI 单季支出 $100 万——两家均创各自史上最高单季游说开支，Anthropic 第一次在游说体量上超过老对手 OpenAI。",
+      "detail": "Axios 4 月 21 日基于美国国会刚公开的联邦游说披露文件报道：Anthropic 在 2026 年第一季度向华盛顿投入 $160 万美元、OpenAI 投入 $100 万美元——两家都是自各自成立以来的单季最高值，Anthropic 则是首次在绝对金额上反超 OpenAI。\n\nAnthropic Q1 游说议题集中在四块：AI 采购（government procurement）、国防部 AI 合同细则（Defense Department procurement）、供应链风险（supply chain risk）、可接受使用政策（acceptable use policy）——这和今年 1-3 月 Anthropic 与五角大楼在 Claude Mythos '红线'上的拉锯战、NSA 被爆偷偷使用 Mythos 等事件一一对应。OpenAI 本季在伊利诺斯州 AI 责任法案上公开支持、Anthropic 则反对——两家在州层面的博弈也把游说开支一起推高。\n\n背景放大：2026 年 Q1 OpenAI、Anthropic、Google 三家 AI 龙头各自的游说开支，都超过整个 AI 安全研究领域在一个季度内获得的研究拨款总和。",
+      "key_quotes": [
+        "Anthropic at $1.6 million and OpenAI at $1 million, per federal lobbying disclosures",
+        "Biggest-ever lobbying spends in the first quarter of 2026",
+        "Topics including AI procurement, Defense Department procurement, supply chain risk and acceptable use policy"
+      ],
+      "significance": "Anthropic 首次在联邦游说体量上超过 OpenAI，证实其在华府从曾经的'稍微安静一些'的第二梯队升级为和 OpenAI 同量级的政策玩家——配合其 Mythos 政府接入、Pentagon 合同纠纷与近期反超企业 ARR 的态势，Anthropic 正在把'技术领先 + 政治领先'两条战线同时推到 OpenAI 面前。而两家合计超过整个 AI 安全研究季度拨款的游说预算，也让'安全优先'的公众承诺与真实资源投向之间出现更大落差。",
+      "links": [
+        "https://www.axios.com/2026/04/21/anthropic-outspends-openai-biggest-lobbying-quarter",
+        "https://awesomeagents.ai/news/openai-anthropic-125m-battle-congress-2026/",
+        "https://www.breitbart.com/politics/2026/04/15/anthropic-opposes-illinois-ai-liability-bill-backed-by-openai/"
+      ],
+      "tags": ["Anthropic", "OpenAI", "游说", "政策", "华盛顿"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "YouTube 把 AI 人脸识别开放给整个好莱坞：CAA/UTA/WME 首批接入，deepfake 直接下架通道打通",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/",
+      "story_key": "youtube-likeness-detection-celebs",
+      "event_date": "2026-04-21",
+      "summary": "YouTube 4 月 21 日宣布将 AI Likeness Detection 工具扩展到名人与娱乐行业：CAA、UTA、WME、Untitled Management 等顶级经纪公司首批接入；其艺人无需拥有 YouTube 频道，即可直接发起 deepfake 视频的隐私违规或版权下架请求。",
+      "detail": "YouTube 4 月 21 日通过官方博客与 Hollywood Reporter、TechCrunch 等媒体同步宣布：其 AI Likeness Detection（AI 相貌识别）工具从此前只服务于头部创作者的测试阶段，正式扩展到名人和娱乐行业。首批合作的经纪公司包括 CAA、UTA、WME 和 Untitled Management——四家联合代理了好莱坞绝大多数 A-list 演员、音乐人与运动员。\n\n技术层面工具的运作方式与 YouTube 老牌 Content ID 一致：艺人本人或代理入册后，系统会对 YouTube 上新上传视频做人脸比对，命中即通知权利人；权利人可选三条处置路径——隐私违规下架申请、版权侵权下架申请，或放任不管。入册的艺人无需自己拥有 YouTube 频道。YouTube 同时声明：依平台政策保留的戏仿、讽刺等合理使用不会被移除；工具下一步将支持 AI 生成音频的匹配。\n\n本次扩容填补了过去一年好莱坞对 Google 的最大痛点：Taylor Swift、Scarlett Johansson 等名人在 AI 色情 / 广告 deepfake 事件后，针对平台的法律威胁与国会立法推动都在加速。YouTube 是主流平台中第一个把 AI 相貌检测做到全好莱坞-免费-自助的。",
+      "key_quotes": [
+        "YouTube is expanding its AI likeness detection tool to celebrities, giving talent and their reps a way to find and remove deepfakes",
+        "The company has support from major agencies like CAA, UTA, WME, and Untitled Management",
+        "Use of the likeness detection tool does not require entertainers to have their own YouTube channels",
+        "In the future, the technology will support audio as well"
+      ],
+      "significance": "YouTube 把一条从过去只服务于头部 YouTuber 的内部工具，直接铺设为整个好莱坞的免费反 deepfake 基础设施。配合 Apple 此前威胁下架 Grok、NBC 曝出 Apple-xAI 深度伪造内幕，表明主流平台在立法真正落地之前，已经开始通过'自愿接入'的方式抢占名人肖像治理主导权——这既是公关防御，也是利用 AI 检测能力建立的新型护城河。",
+      "links": [
+        "https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/",
+        "https://blog.youtube/news-and-events/youtube-likeness-detection-ai-protection/",
+        "https://www.hollywoodreporter.com/business/digital/youtube-ai-deepfake-detection-tool-1236569593/",
+        "https://www.tubefilter.com/2026/04/21/youtube-ai-deepfake-likeness-detection-tool-hollywood-studios/"
+      ],
+      "image": "img/youtube-logo.png",
+      "image_type": "logo",
+      "tags": ["YouTube", "deepfake", "Likeness Detection", "好莱坞", "CAA"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "特斯拉 Dallas / Houston 砍掉副驾安全员：Tesla Robotaxi 首次真刀真枪对标 Waymo",
+      "source": "Tesla",
+      "source_name": "Electrek",
+      "source_url": "https://electrek.co/2026/04/19/tesla-robotaxi-expansion-dallas-houston-stock-pump-earnings/",
+      "story_key": "tesla-unsupervised-robotaxi-dallas-houston",
+      "event_date": "2026-04-18",
+      "summary": "特斯拉 4 月 18 日在德州 Dallas 与 Houston 同步启动'完全无人监管（unsupervised）'的 Robotaxi 商业运营——首批 573 辆车、无副驾安全员——进入两座 Waymo 已提前两个月商业运营的城市，正面对决。",
+      "detail": "特斯拉 4 月 18 日在德州 Dallas 与 Houston 同步启动其首批'完全无人监管'Robotaxi 商业服务：与 2025 年 6 月 Austin 首轮试点仍保留副驾安全员不同，本次 Dallas / Houston 车队 573 辆车上完全没有人类监督员，是特斯拉成立以来最激进的一次自动驾驶商业化节点。\n\n时间选择高度战略化——启用日恰在公司 4 月 22 日 Q1 2026 财报电话会前四天，借此让管理层在财报场给投资人一个'AI 公司'的具体里程碑。消息发布后 4 月 14–17 日四个交易日 TSLA 股价累计涨约 12% 至 $400.62。Wedbush 的 Dan Ives 也公开提示这是特斯拉估值从'车厂'切换到'AI + 机器人平台'的关键锚点，同时把其对 xAI 的 $20 亿入股、2026 年 2 月 xAI 合并案一起纳入 Tesla 估值模型。\n\n但 Dallas 与 Houston 恰恰是 Waymo 两个月前已进入全商业运营的同一批城市——特斯拉是在别人已经跑通盈利路径的地盘上正面对决，而非开辟新市场。Q1 交付 358,023 辆对市场预期 365,645 辆缺口 7,600 辆、库存溢出约 50,000 辆、能源储能部署 8.8GWh 远低于 12.45GWh 的预期——这些负面已经进场，今晚电话会的焦点全部押在 Robotaxi 商业化时间表、FSD 订阅渗透、Optimus v3 量产节奏与 Terafab（万亿美元级 AI 计算工厂）的新指引上。",
+      "key_quotes": [
+        "Tesla launched its first fully unsupervised robotaxi service in Dallas and Houston on April 18, 2026",
+        "Unlike the Austin pilot that began in June 2025 with safety monitors in the front seat, the Dallas and Houston rollout features no human supervision whatsoever",
+        "Waymo has already been operating fully commercialized Robotaxi services in those same two cities for two months",
+        "TSLA surged approximately 12% over four trading sessions from April 14 to April 17, 2026, closing at $400.62"
+      ],
+      "significance": "特斯拉首次把'副驾零监督'Robotaxi 直接铺到 Waymo 已有两个月商业化先发的 Dallas / Houston，是 FSD 能力 vs Waymo 传感器方案两条路径线第一次在同一个市场做消费者侧对比。其时间点刻意压在 Q1 财报前夜，加重了 Elon 把 Tesla 估值重叙为'AI/机器人/Robotaxi'综合体的公开赌博——如果财报之后交付与 FSD 订阅等主业数据持续疲软，这一次 Robotaxi 更像预设好的叙事救生筏。",
+      "links": [
+        "https://electrek.co/2026/04/19/tesla-robotaxi-expansion-dallas-houston-stock-pump-earnings/",
+        "https://eletric-vehicles.com/tesla/tesla-launches-unsupervised-robotaxi-in-dallas-and-houston/",
+        "https://tech-insider.org/tesla-robotaxi-dallas-houston-unsupervised-launch-2026/",
+        "https://en.wikipedia.org/wiki/Tesla_Robotaxi"
+      ],
+      "tags": ["Tesla", "Robotaxi", "Waymo", "FSD", "自动驾驶"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "SoundHound $4300 万买 LivePerson：语音 Agent 端 + 10 亿条月度消息端首次合体",
+      "source": "SoundHound AI",
+      "source_name": "SoundHound AI Press Release",
+      "source_url": "https://www.globenewswire.com/news-release/2026/04/21/3278086/0/en/soundhound-ai-to-acquire-liveperson-combining-proprietary-voice-agentic-ai-and-digital-messaging-to-create-a-world-leading-end-to-end-omnichannel-conversational-ai-platform.html",
+      "story_key": "soundhound-liveperson-acquisition",
+      "event_date": "2026-04-21",
+      "summary": "SoundHound AI 4 月 21 日宣布以 $4300 万美元股权对价（隐含 $2.5 亿美元企业价值）全股票收购 LivePerson——把自家语音 / agentic AI 平台与对方每月 10 亿条企业客户消息的文字通道整合成首个端到端全渠道对话 AI 平台；管理层预计合并公司 2027 年营收 $3.5-4 亿美元，交叉销售可推高至 $5 亿美元。",
+      "detail": "SoundHound AI（NASDAQ: SOUN）4 月 21 日与企业对话 AI 先驱 LivePerson（NASDAQ: LPSN）签署最终收购协议：SoundHound 以全股票方式按约 $4300 万美元股权对价收购 LivePerson，对应目标公司过去 30 日加权均价约 22% 的溢价；交易隐含 $2.5 亿美元企业价值（含 LivePerson 待重组债务）。\n\n战略面：SoundHound 在语音端（Voice AI）+ agentic Workflow 平台上已是独立路线领先者；LivePerson 的核心资产是每月 10 亿条企业对消费者文字消息流量，以及在 25 家财富 100 强、15 家全球顶级银行中 12 家的深度客户关系。合并后的公司将成为首个端到端全渠道（语音 + 文字 + agent）企业对话 AI 平台——管理层指引 2027 年营收 $3.5-4 亿美元，如果交叉销售全部兑现，可推高到 $5 亿美元。\n\n市场反应分裂：公告日 SoundHound 股价因稀释效应下跌约 5.65%，LivePerson 则应声上涨。公司表示交易将在 2026 下半年完成，需等待常规监管审批，合并公司资产负债表将保持无息债务。与 OpenAI 的 Frontier、Cloudflare 的 Agent Memory、Anthropic 的 Claude Design 一同构成企业 AI 近两周最密集的纵向整合动作。",
+      "key_quotes": [
+        "SoundHound is acquiring LivePerson for an equity value of $43M, representing approximately a 22% premium over the corresponding 30-day volume-weighted average value",
+        "The transaction implies a total enterprise value of $250M",
+        "LivePerson's digital engagement capabilities, which power one billion customer messages per month",
+        "Combined company will generate between $350 million and $400 million in revenue in 2027"
+      ],
+      "significance": "语音 AI 龙头公开以股票吞并传统企业文字聊天平台，把每月 10 亿条消息的 Fortune 100 分发渠道一次性纳入自己的 agentic 框架——这是 ChatGPT / Claude 之外、企业对话 AI 纵向整合的首笔上市公司级并购。对 OpenAI Frontier、Anthropic Claude Design 等在企业侧扩张的通用模型玩家而言，SoundHound 选择了截然相反的路径：先绑死分发、再用自家模型接管底层——未来 18 个月的企业合同争夺将明显向'谁拥有分发管线'倾斜。",
+      "links": [
+        "https://www.globenewswire.com/news-release/2026/04/21/3278086/0/en/soundhound-ai-to-acquire-liveperson-combining-proprietary-voice-agentic-ai-and-digital-messaging-to-create-a-world-leading-end-to-end-omnichannel-conversational-ai-platform.html",
+        "https://seekingalpha.com/news/4577162-soundhound-ai-to-buy-liveperson-for-43m",
+        "https://www.stocktitan.net/news/SOUN/sound-hound-ai-to-acquire-live-person-combining-proprietary-voice-ildt4cd2tyz0.html"
+      ],
+      "tags": ["SoundHound", "LivePerson", "Voice AI", "并购", "对话 AI"],
+      "category": "news"
+    },
+    {
+      "id": "9",
+      "title": "X Square Robot 单日拿下 ~$2.76 亿 B 轮：中国具身 AI 单笔最大轮次之一",
+      "source": "@DrJimFan",
+      "source_name": "Tech Startups",
+      "source_url": "https://techstartups.com/2026/04/20/top-startup-and-tech-funding-news-april-20-2025/",
+      "story_key": "x-square-robot-series-b",
+      "event_date": "2026-04-20",
+      "summary": "中国通用具身智能初创 X Square Robot 4 月 20 日宣布完成近 20 亿人民币（约 $2.76 亿美元）B 轮融资——单日同批完成的最大单笔深度科技融资之一；公司主攻把基础模型接到真实世界机器人部署。",
+      "detail": "X Square Robot 4 月 20 日宣布完成近 20 亿人民币（约 $2.76 亿美元）B 轮融资，是当天全球深度科技领域最大的单笔融资之一。公司主攻通用具身 AI（general-purpose embodied AI）——即把基础模型能力接驳到真实世界的机器人部署上，属于 Physical Intelligence（π0.7）、Figure、Antioch 等近期密集融资玩家同一赛道。\n\n本轮完成几乎紧挨着另外两笔公告：4 月 16 日美国 Antioch 完成 $850 万美元种子轮、估值 $6000 万美元（创始人 Harry Mellsop 为 Tesla Autopilot 前工程师）；4 月 16 日 Physical Intelligence 发布 π0.7——首篇论文级证据表明通用机器人模型可做'组合泛化'（compositional generalization）。与 Meta MTIA 路线图、NVIDIA × Cadence Millennium M2000 超算的 sim-to-real 工具链一起，把'把 foundation model 装到身体里'这条技术叙事在 4 月下旬推向第二个融资高点。\n\n对中国侧的意义尤其明显：在 Kimi K2.6 开源 / Qwen3.6 / MiniMax / DeepSeek 把纯软件 LLM 价格压到地板的背景下，中国资本开始把同等级资金密集地投向'硬件化 AI'赛道——X Square 这笔 $2.76 亿是 2026 年 Q2 开局至今该赛道中国侧单笔最大。",
+      "key_quotes": [
+        "X Square Robot completed a Series B of nearly RMB 2 billion, or about $276 million",
+        "One of the day's largest deep-tech financings",
+        "Building general-purpose embodied AI systems, an area that has become one of the most strategically contested parts of the broader AI stack"
+      ],
+      "significance": "$2.76 亿美元 B 轮把中国具身 AI 单笔融资第一次推到美国 Physical Intelligence 同量级，宣告'把 LLM 接驳到真实机器人'已经成为资本对中国 AI 竞争力的下一个押注方向——软件侧价格战已进入极卷状态，中国资本正把同等级现金流转移到'硬件 + 物理世界'这个 Claude/GPT 难以直接覆盖的赛道。",
+      "links": [
+        "https://techstartups.com/2026/04/20/top-startup-and-tech-funding-news-april-20-2025/"
+      ],
+      "tags": ["具身 AI", "机器人", "中国", "融资", "深度科技"],
+      "category": "news"
+    }
+  ]
+}

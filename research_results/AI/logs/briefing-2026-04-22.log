@@ -1,0 +1,70 @@
+=== Research started: Wed Apr 22 06:58:01 AM CST 2026 ===
+Research complete for 2026-04-22.
+
+**Pipeline summary:**
+- 12 candidates evaluated → 9 kept, 3 dropped on freshness (>5 days)
+- 1 returning story (`anthropic-revenue-surpasses-openai`, prior 04-13 OpenAI memo) elaborated with new ARR data and 背景回顾 recap
+- 4/9 items carry images (anthropic-logo cached + kimi/github/youtube logos downloaded)
+- Files written:
+  - `research_results/AI/2026-04-22/filter_log.json`
+  - `research_results/AI/2026-04-22/data.json`
+  - `research_results/AI/2026-04-22/img/{kimi,github,youtube}-logo.png`
+
+**Today's lineup (id 1→9):**
+1. Amazon $25B / 5GW Trainium deal with Anthropic (hero)
+2. Moonshot Kimi K2.6 open-source release (1T param, 58.6% SWE-Bench Pro)
+3. Anthropic $30B ARR officially passes OpenAI on enterprise spend
+4. GitHub Copilot pauses sign-ups, shifts to token-based billing
+5. Anthropic outspends OpenAI in Q1 federal lobbying ($1.6M vs $1M)
+6. YouTube AI likeness detection expanded to Hollywood (CAA/UTA/WME)
+7. Tesla launches unsupervised Robotaxi in Dallas/Houston (vs Waymo)
+8. SoundHound buys LivePerson for $43M to merge voice + 1B messages/mo
+9. China's X Square Robot closes ~$276M Series B for embodied AI
+=== Research finished successfully: Wed Apr 22 07:10:25 AM CST 2026 ===
+=== PDF Builder, Web Builder & GitHub Trending started (parallel): Wed Apr 22 07:10:25 AM CST 2026 ===
+=== Web Builder started: Wed Apr 22 07:10:25 AM CST 2026 ===
+=== PDF Builder started: Wed Apr 22 07:10:25 AM CST 2026 ===
+=== GitHub Trending Builder started: Wed Apr 22 07:10:25 AM CST 2026 ===
+Web build complete for 2026-04-22.
+
+- `web/AI/2026-04-22/data.json` — 9 items, validated JSON; top-level `title` summarizes the day's three biggest stories (Amazon→Anthropic $25B + $100B AWS long-term contract; Anthropic $30B ARR passing OpenAI; Moonshot Kimi K2.6 topping SWE-Bench Pro).
+- `web/AI/2026-04-22/img/` — copied 3 referenced images (github-logo, kimi-logo, youtube-logo). All already under 20KB and ≤460px, so no further compression needed.
+- Item 1 (Anthropic) passes through `assets/logos/anthropic-logo.png` unchanged (globally cached logo).
+- `story_key`, `event_date`, `source_url`, `category`, `image_type` all preserved from research data.
+- `web/manifest.json` intentionally not touched — orchestrator rebuilds it post-step.
+=== Web Builder finished successfully: Wed Apr 22 07:15:14 AM CST 2026 ===
+GitHub trending builder complete for 2026-04-22.
+
+**Output:**
+- `research_results/GitHub/2026-04-22/raw.json` — fetched by the Python helper (10 new_hot + 10 rising_stars)
+- `web/GitHub/2026-04-22/data.json` — 20 items with Chinese title/summary/detail/significance/tags
+
+**Top new_hot:** OpenMythos (6,703★, Claude Mythos 架构复刻), browser-harness (4,374★, LLM 驱动浏览器), LingBot-Map (3,875★, 3D 基础模型).
+
+**Top rising_stars:** openclaw/openclaw (+3,000), everything-claude-code (+3,000), sindresorhus/awesome (+2,570).
+
+All avatars resolve to the global cache at `assets/github-avatars/…`. Per the skill, I did not touch `web/manifest.json` — the orchestrator rebuilds it.
+=== GitHub Trending Builder finished successfully: Wed Apr 22 07:20:30 AM CST 2026 ===
+Done. The final PDF is saved at `pdf/AI/daily-tech-ai-briefing-2026-04-22-cn.pdf` (12 slides, 405 KB) and the `pdf/AI/tmp/` working directory has been removed.
+
+**Deck summary:**
+1. **Title** — "AI 战局巨变" with 3 headline stat cards ($250亿 / $300亿 / 58.6%)
+2. **Amazon × Anthropic** — $250亿 追加投资 / 5GW Trainium 十年长约
+3. **Anthropic ARR 反超 OpenAI** — $300亿 vs $240亿
+4. **Q1 联邦游说** — Anthropic $160万 首超 OpenAI
+5. **Kimi K2.6 开源登顶** — SWE-Bench Pro 58.6% (logo included)
+6. **GitHub Copilot token 计费** — 周度算力 ×2 (logo included)
+7. **YouTube × 好莱坞** — AI 人脸识别扩至 4 家经纪公司 (logo included)
+8. **Tesla Robotaxi** — Dallas/Houston 573 辆零监督
+9. **SoundHound × LivePerson** — $4300万 吞 10亿月度消息
+10. **X Square Robot** — $2.76亿 B 轮
+11. **今日 AI 主题信号** — 算力新货币 / 中国开源抹平溢价 / Anthropic 三线反超
+12. **Key Takeaways** — 5 件事总结
+=== PDF Builder finished successfully: Wed Apr 22 07:21:36 AM CST 2026 ===
+=== Parallel builders finished: Wed Apr 22 07:21:36 AM CST 2026 ===
+=== Manifest rebuild started: Wed Apr 22 07:21:36 AM CST 2026 ===
+wrote /home/ubuntu/source/DailyBriefing.git/web/manifest.json
+  AI: 15 dates (latest: 2026-04-22)
+  GitHub: 13 dates (latest: 2026-04-22)
+=== Manifest rebuild finished: Wed Apr 22 07:21:36 AM CST 2026 ===
+=== Git commit & push started: Wed Apr 22 07:21:36 AM CST 2026 ===
