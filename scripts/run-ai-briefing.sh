@@ -114,6 +114,17 @@ else
     log "Git commit FAILED"
     exit 1
   fi
+  # Pull first to avoid "rejected: fetch first" when remote has new commits
+  if ! git pull --rebase origin main >> "$LOG" 2>&1; then
+    log "Git pull --rebase FAILED"
+    # If rebase left the repo in an intermediate state, abort to keep it clean
+    if [ -d "$(git rev-parse --git-path rebase-merge)" ] || [ -d "$(git rev-parse --git-path rebase-apply)" ]; then
+      echo "Rebase in progress, aborting..." >> "$LOG"
+      git rebase --abort >> "$LOG" 2>&1 || true
+    fi
+    log "Git push skipped due to rebase failure"
+    exit 1
+  fi
   if ! git push >> "$LOG" 2>&1; then
     log "Git push FAILED"
     exit 1

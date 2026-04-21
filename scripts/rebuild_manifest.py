@@ -41,7 +41,7 @@ def rebuild(project_root: Path) -> dict:
             continue
         category = category_dir.name
         # Skip non-category subdirs like css, js, fonts, shared/
-        if category in {"css", "js", "fonts"} or category.startswith("."):
+        if category in {"css", "js", "fonts", "assets"} or category.startswith("."):
             continue
 
         dates = []

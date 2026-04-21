@@ -110,7 +110,7 @@
           <!-- Logo image: float right when expanded, or when hero (collapsed) -->
           <template x-if="item.image && ((expandedId === item.id && item.image_type !== 'chart') || (expandedId !== item.id && idx === 0))">
             <div class="card-image" :class="{'logo-bg': item.image_type === 'logo'}">
-              <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
+              <img :src="imageSrc(item)"
                 :alt="item.title" loading="lazy">
             </div>
           </template>
@@ -128,7 +128,7 @@
           <!-- Image below summary when collapsed (non-hero only) -->
           <template x-if="item.image && expandedId !== item.id && idx !== 0">
             <div class="card-image-block" :class="{'logo-bg': item.image_type === 'logo'}">
-              <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
+              <img :src="imageSrc(item)"
                 :alt="item.title" loading="lazy">
             </div>
           </template>
@@ -414,6 +414,14 @@
           if (n == null) return '';
           if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
           return String(n);
+        },
+
+        imageSrc(item) {
+          if (!item.image) return '';
+          if (item.image.startsWith('assets/')) {
+            return 'web/' + item.image;
+          }
+          return 'web/' + this.currentCategory + '/' + this.currentDate + '/' + item.image;
         },
 
         // Computed

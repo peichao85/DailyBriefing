@@ -420,11 +420,18 @@ def fetch_readme_excerpt(session: requests.Session, repo: Repo, max_chars: int =
     return text.strip()[:max_chars]
 
 
-def download_avatar(session: requests.Session, repo: Repo, out_dir: Path) -> str | None:
+def download_avatar(session: requests.Session, repo: Repo,
+                    cache_dir: Path) -> str | None:
     if not repo.avatar_url:
         return None
     out_name = f"{repo.owner}-{repo.repo}.jpg"
-    out_path = out_dir / out_name
+    cache_path = cache_dir / out_name
+    
+    # Check global cache first
+    if cache_path.exists():
+        log.info("avatar cache hit for %s", repo.full_name)
+        return f"assets/github-avatars/{out_name}"
+    
     try:
         # Avatar CDN doesn't need our auth and is outside the api.github.com host.
         r = requests.get(repo.avatar_url, timeout=15,
@@ -432,9 +439,10 @@ def download_avatar(session: requests.Session, repo: Repo, out_dir: Path) -> str
         r.raise_for_status()
         img = Image.open(BytesIO(r.content)).convert("RGB")
         img = img.resize((256, 256), Image.LANCZOS)
-        out_dir.mkdir(parents=True, exist_ok=True)
-        img.save(out_path, "JPEG", quality=85, optimize=True)
-        return f"img/{out_name}"
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        img.save(cache_path, "JPEG", quality=85, optimize=True)
+        log.info("avatar cached for %s", repo.full_name)
+        return f"assets/github-avatars/{out_name}"
     except Exception as e:
         log.warning("avatar download failed for %s: %s", repo.full_name, e)
         return None
@@ -487,11 +495,11 @@ def run(date_str: str, project_root: Path) -> dict:
     rising = [r for r in rising_candidates if (r.stars_gained or 0) > 0][:PICK_PER_SECTION]
 
     # 6. Enrich all picks with README excerpts + avatar downloads
-    web_img_dir = project_root / "web" / "GitHub" / date_str / "img"
+    avatar_cache_dir = project_root / "web" / "assets" / "github-avatars"
     selected = new_hot + rising
     for r in selected:
         r.readme_excerpt = fetch_readme_excerpt(session, r)
-        r.avatar_path = download_avatar(session, r, web_img_dir)
+        r.avatar_path = download_avatar(session, r, avatar_cache_dir)
 
     # 7. Write raw.json (inputs for Chinese-summary pass)
     raw_dir = project_root / "research_results" / "GitHub" / date_str
