@@ -1,0 +1,107 @@
+{
+  "date": "2026-04-23",
+  "total_candidates": 11,
+  "kept": 8,
+  "dropped": 3,
+  "decisions": [
+    {
+      "story_key": "spacex-cursor-acquisition-option",
+      "event_date": "2026-04-21",
+      "title_en": "SpaceX signs deal for $60B option to acquire Cursor or pay $10B",
+      "source": "TechCrunch / Bloomberg / The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New actor (SpaceX) and new core event (acquisition option) distinct from prior cursor-50b-valuation story (fundraise). SpaceX preempted Cursor's $2B/$50B fundraise with a $60B buyout option exercisable later in 2026 or a $10B payment for collaboration."
+    },
+    {
+      "story_key": "google-cloud-next-agent-platform",
+      "event_date": "2026-04-22",
+      "title_en": "Google unveils Gemini Enterprise Agent Platform at Cloud Next 2026",
+      "source": "Google Cloud Blog / SiliconANGLE / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Google rebranded/evolved Vertex AI into Gemini Enterprise Agent Platform with Agent Studio, Agent Registry, A2A protocol, managed MCP, 200+ models including Anthropic Claude; ADK + no-code low-code builder."
+    },
+    {
+      "story_key": "google-tpu-v8-split-chips",
+      "event_date": "2026-04-22",
+      "title_en": "Google previews TPU 8t (Broadcom training) + TPU 8i (MediaTek inference) on 2nm",
+      "source": "TechCrunch / TheNextWeb",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Google first-ever split training/inference TPU: TPU 8t 'Sunfish' by Broadcom (121 EFLOPS, 9,600-chip superpod) + TPU 8i 'Zebrafish' by MediaTek (384MB SRAM, 288GB HBM, 80% better perf/$). TSMC 2nm, late 2027. New architectural strategy."
+    },
+    {
+      "story_key": "openai-chatgpt-workspace-agents",
+      "event_date": "2026-04-22",
+      "title_en": "OpenAI launches Codex-powered Workspace Agents for ChatGPT teams",
+      "source": "9to5Mac / Seeking Alpha",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. OpenAI introduced shared 'workspace agents' in ChatGPT powered by Codex, explicitly replacing Custom GPTs. Teams can create shared long-running agents with enterprise permissioning."
+    },
+    {
+      "story_key": "deepseek-20b-valuation",
+      "event_date": "2026-04-22",
+      "title_en": "Tencent and Alibaba in talks to invest in DeepSeek at $20B+ valuation",
+      "source": "The Information / Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. DeepSeek valuation doubled from $10B to $20B+ in 5 days as Tencent and Alibaba joined funding talks with High-Flyer. First outside capital for the firm, driven by inference/infrastructure shift."
+    },
+    {
+      "story_key": "tesla-q1-2026-earnings",
+      "event_date": "2026-04-22",
+      "title_en": "Tesla Q1 2026 earnings beat; Musk commits to unsupervised FSD in 'dozen states' by year-end",
+      "source": "Electrek / Bloomberg / Drive Tesla",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Prior tesla-unsupervised-robotaxi-dallas-houston covered the robotaxi launch specifically; this is the Q1 earnings release with $22.387B revenue, $0.41 EPS beat, and new Musk commitment to dozen-state unsupervised robotaxi rollout by end-2026. Distinct event."
+    },
+    {
+      "story_key": "google-workspace-intelligence",
+      "event_date": "2026-04-22",
+      "title_en": "Google launches Workspace Intelligence with agentic mini-apps in Sheets/Docs",
+      "source": "Google Workspace Blog / SiliconANGLE",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Separate product from Gemini Enterprise Agent Platform: Workspace Intelligence brings unified semantic understanding across Docs/Slides/Gmail plus canvas mini-apps (dashboards, kanban), skills-based automation, and agent governance controls."
+    },
+    {
+      "story_key": "project-prometheus-10b-raise",
+      "event_date": "2026-04-22",
+      "title_en": "Bezos-backed Project Prometheus nears $10B raise at $38B valuation",
+      "source": "The AI Insider / Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Jeff Bezos's AI venture Project Prometheus close to closing $10B funding at $38B valuation — first major Bezos-led AI vehicle stepping into frontier model ring on funding scale comparable to xAI early rounds."
+    },
+    {
+      "story_key": "apple-siri-ios27-bootcamp",
+      "event_date": "2026-04-22",
+      "title_en": "Google's Thomas Kurian formally confirms Gemini-powered Siri at Cloud Next",
+      "source": "MacRumors / 9to5Mac",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Previously published 2026-04-15 with title 'Apple Siri 工程师被送去 AI「训练营」：iOS 27 Siri 2.0 已是最后一次机会' which already named Gemini as the engine behind Siri 2.0. The Thomas Kurian on-stage confirmation and 'preferred cloud provider' framing add Google-side PR color but no new substantive fact about the partnership terms, timeline or product. Rehash."
+    },
+    {
+      "story_key": "nvidia-ising-quantum-ai",
+      "event_date": "2026-04-14",
+      "title_en": "NVIDIA launches Ising open quantum AI models",
+      "source": "NVIDIA Newsroom / Tom's Hardware",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 9 days old (>5 day limit). Original launch was April 14, not April 22 as initially mis-indexed."
+    },
+    {
+      "story_key": "google-cloud-partners-750m-fund",
+      "event_date": "2026-04-22",
+      "title_en": "Google Cloud commits $750M to accelerate partners' agentic AI",
+      "source": "Google Cloud Press Corner",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback so filter pass is novel_story, but editorial judgment: $750M partner fund is an incremental funding mechanism beneath the larger Gemini Enterprise Agent Platform story already kept. Better covered as a paragraph inside google-cloud-next-agent-platform than as its own card. Consolidated, not published separately."
+    }
+  ]
+}

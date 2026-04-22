@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-23",
+  "category": "AI",
+  "researched_at": "2026-04-23T07:15:00Z",
+  "sources_checked": [
+    "TechCrunch",
+    "Bloomberg",
+    "The Information",
+    "CNBC",
+    "Fortune",
+    "9to5Mac",
+    "MacRumors",
+    "SiliconANGLE",
+    "Google Cloud Blog",
+    "Google Workspace Blog",
+    "TheNextWeb",
+    "Electrek",
+    "Drive Tesla",
+    "Seeking Alpha",
+    "Reuters",
+    "@sama",
+    "@elonmusk",
+    "@DarioAmodei",
+    "@mntruell",
+    "@demishassabis",
+    "@sundarpichai",
+    "@karpathy"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "SpaceX 用 $60B 期权锁死 Cursor：一纸协议直接盖过 A16Z 的 $2B 新轮",
+      "source": "SpaceX / Cursor",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
+      "story_key": "spacex-cursor-acquisition-option",
+      "event_date": "2026-04-21",
+      "summary": "SpaceX 4 月 21 日宣布与 AI 编程明星 Cursor 达成合作协议，并拿到今年晚些时候以 $600 亿美元全股收购 Cursor 的独家期权——若不行权，则按协议直接向 Cursor 支付 $100 亿美元作为合作对价。消息直接抢在 A16Z / Thrive / NVIDIA 领投的 $20 亿美元、$500 亿估值新轮落地之前。",
+      "detail": "SpaceX 正式对外披露：已与 AI 编程工具 Cursor 达成合作协议，联合利用 Cursor 的产品 + 开发者分发与 SpaceX 自有 Colossus 训练集群（号称百万张 H100 等效算力）共同打造'新一代编程与知识工作 AI 模型'。\n\n协议核心是一份结构非常罕见的二选一期权：SpaceX 将在今年晚些时候做出决定——要么按 **$600 亿美元** 全股对价收购 Cursor，要么按 **$100 亿美元** 一次性支付给 Cursor 作为本次合作的劳务/技术对价。Bloomberg、The Information 与 TechCrunch 均独立确认这一结构。SpaceX 将此次安排的最终交割时间推迟到自身今年夏天的 IPO 之后——主要原因是避免在 S-1 静默期内修改保密财务披露，并希望用上市后的公开股票来支付 $600 亿美元对价。\n\n对 Cursor 的影响是决定性的：根据此前 CNBC 报道，Cursor 正与 A16Z、Thrive Capital 牵头的投资人讨论一轮 $20 亿美元、投前估值约 $500 亿美元的融资，NVIDIA 首次以战投身份入局。SpaceX 的这份 $600 亿期权事实上把这轮融资的估值上限提前盖死，并让 Cursor 在未来 6-9 个月被锁定为 SpaceX 生态的战略资产；对 A16Z 与 NVIDIA 而言，这一轮的角色从'主导资本'事实性降级为 SpaceX 下一个超级并购案的桥梁出资。\n\n这同时是 Elon Musk 阵营对 AI 编程赛道第一次真正意义上的垂直合并尝试——xAI 已并入 SpaceX、XChat 独立上线、Grok 4.3 在 SuperGrok Heavy 档位上对标 Claude Opus 4.7，而 Cursor 若最终被吞并，将为 Musk 提供一条直连 400 万付费开发者的分发管道。",
+      "key_quotes": [
+        "Later this year, SpaceX will either pay Cursor $10 billion for its work or acquire the company for $60 billion.",
+        "The combination of Cursor's leading product and distribution to expert software engineers with SpaceX's million H100 equivalent Colossus training supercomputer will allow the companies to build the world's most useful models."
+      ],
+      "significance": "AI 编程赛道的估值定价权首次被'非财务投资人'抢走。过去 18 个月 Cursor 先后接受 A16Z、Thrive、NVIDIA 的战略注资，本以为即将以 $500 亿美元估值完成新一轮；SpaceX 绕开财务轮直接抛出 $600 亿美元收购期权，等于用'平台整合'逻辑压过'纯财务融资'逻辑。对整个 AI 应用层：这是第一次有 *非* 前沿模型厂商（非 OpenAI / 非 Anthropic / 非 Google）通过收购把 AI 编程头部工具纳入自家基础设施——SpaceX IPO 后，Musk 将以唯一 CEO 身份同时掌握 xAI、Grok、XChat、Colossus 与（潜在的）Cursor，全栈 AI 化程度超越 Meta 与 Apple。",
+      "links": [
+        "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
+        "https://www.theinformation.com/briefings/spacex-says-can-buy-cursor-60-billion-later-year",
+        "https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion",
+        "https://www.cnbc.com/2026/04/21/spacex-says-it-can-buy-cursor-later-this-year-for-60-billion-or-pay-10-billion-for-our-work-together.html",
+        "https://fortune.com/2026/04/22/spacex-strikes-60-billion-deal-cursor/"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": ["SpaceX", "Cursor", "AI编程", "并购", "xAI"],
+      "category": "product_operators"
+    },
+    {
+      "id": "2",
+      "title": "Google Cloud Next 一口气把 Vertex AI 改名 Gemini Enterprise Agent Platform：Agent Studio、A2A、200+ 模型、$7.5 亿合作伙伴基金全端一次发齐",
+      "source": "@sundarpichai",
+      "source_name": "Google Cloud Blog",
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform",
+      "story_key": "google-cloud-next-agent-platform",
+      "event_date": "2026-04-22",
+      "summary": "Google Cloud Next 2026 4 月 22 日拉斯维加斯主会场开幕，Sundar Pichai 与 Thomas Kurian 联合揭幕 Gemini Enterprise Agent Platform——直接以 Vertex AI 的替代品形象上线。Agent Studio、Agent Registry、Agent Gateway、Agent Observability、Agent Identity + A2A 协议 + 200+ 模型 Model Garden（含 Claude、Gemma 4、Gemini 3.1 Pro）一次全端发齐，同步追加 $7.5 亿美元合作伙伴基金。",
+      "detail": "Gemini Enterprise Agent Platform 是 Google 把过去三年分散的 Vertex AI、Agent Builder、Agent Space 与 Gemini for Google Cloud 全部重新打包，形成**一个**企业级 agent 全生命周期平台：\n\n- **Build**：增强版 Agent Development Kit（ADK）允许把 agent 组织成'子 agent 网络'，配合低代码 **Agent Studio** 可视化画布供业务部门搭建；\n- **Model Garden**：一键调用 200+ 模型，包含 Gemini 3.1 Pro、Gemini 3.1 Flash Image、Lyria 3 三款 Google 自研旗舰，以及 **Anthropic Claude**（这是 Google Cloud 第一次在首页展示 Anthropic 模型作为一等公民）、Llama、Gemma 4 等开放权重；\n- **Orchestrate**：原生支持 **A2A（Agent-to-Agent）协议**与 MCP（Model Context Protocol），让跨厂商 agent 可直接互相调用；\n- **Govern**：Agent Identity、Agent Registry、Agent Gateway、Agent Observability 共同构成企业 agent 的身份 / 可观测 / 审计 / 安全四件套；\n- **Deploy**：同日公布 $7.5 亿美元合作伙伴基金，向 Accenture、BCG、Deloitte、McKinsey 等咨询巨头 + Altimetrik / Artefact / Tryolabs 等 AI-native SI 发放，用于 POC、forward-deployed engineer、Cloud credits 与部署返点。\n\nGoogle 同时公布 Project Mariner 进入生产：一个托管的浏览网页 agent，可直接通过 A2A 调用，被定位为和 OpenAI Operator 直接对标的产品。Thomas Kurian 在主 keynote 上直言：'企业 agent 的下一阶段不再是单一模型秀肌肉，而是平台级的身份、治理、互操作。'",
+      "key_quotes": [
+        "Gemini Enterprise Agent Platform is the evolution of Vertex AI.",
+        "First-class access to more than 200 of the world's leading models through Model Garden, including Gemini 3.1 Pro alongside open models like Gemma 4 and Anthropic's Claude."
+      ],
+      "significance": "Google 这次发布的战略信号高于单一产品：它把 Anthropic Claude 正式放进自家 Model Garden 首页，等于承认'纯 Gemini 路线'的企业市场说服力不够——要用 Claude 补位。这是第一次有一家前沿大模型厂商把主要竞争对手的模型默认集成进自家 PaaS 首屏，直接改写企业 AI 采购格局。对 OpenAI / Anthropic / Microsoft 的连锁影响：企业 agent 平台战场从'哪个 API 最强'转到'哪个 Registry 最全、哪套 governance 工具最能进银行合规条线'。A2A 协议与 MCP 同时内置，也基本宣告 2026 下半年 agent-to-agent 互操作成为 hyperscaler 的底座级标准。",
+      "links": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform",
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/",
+        "https://siliconangle.com/2026/04/22/google-brings-agentic-development-optimization-governance-one-roof-gemini-enterprise-agent-platform/",
+        "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
+        "https://www.googlecloudpresscorner.com/2026-04-22-Google-Cloud-Commits-750-Million-to-Accelerate-Partners-Agentic-AI-Development"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google Cloud", "Gemini", "企业AI", "Agent", "A2A"],
+      "category": "builders"
+    },
+    {
+      "id": "3",
+      "title": "OpenAI 把 Custom GPTs 悄悄换掉：Codex 驱动的 Workspace Agents 今日上线 ChatGPT Business，共享 / 长运行 / 企业权限三件套",
+      "source": "@sama",
+      "source_name": "9to5Mac",
+      "source_url": "https://9to5mac.com/2026/04/22/openai-updates-chatgpt-with-codex-powered-workspace-agents-for-teams/",
+      "story_key": "openai-chatgpt-workspace-agents",
+      "event_date": "2026-04-22",
+      "summary": "OpenAI 4 月 22 日在 ChatGPT Business 上线'Workspace Agents'，由 Codex 引擎驱动，团队可直接创建共享、长时运行、带组织级权限的 agent——这是 Custom GPTs 正式被官方'继任产品'取代。",
+      "detail": "Workspace Agents 是 OpenAI 企业产品线 **Launch Week** 第三天的主打发布：\n\n- 每个 agent 由 Codex（沿用 GPT-5.4-Codex 底座）执行，可长时间后台运行，处理写代码、做报告、回消息等实际工作流任务；\n- 与 Custom GPTs 不同，Workspace Agents 支持**团队共享**，可跨成员复用——等于把'个人 prompt 组合'升级为'企业级数字员工'；\n- 与企业身份绑定，继承 ChatGPT Business 的文件权限、审计与 SSO 策略，agent 执行时只能访问调用者可见的企业资源；\n- 与本周一上线的 Chronicle（Codex 后台任务编排）+ 周二发布的 ChatGPT Images 2 + 上周四的 Codex for Mac 构成完整的'Agent + 代码 + 图像'企业套件。\n\nOpenAI 内部同步发邮件通知 Custom GPTs 开发者，将逐步引导迁移至 Workspace Agents。9to5Mac 与 Seeking Alpha 独立确认，这被 OpenAI 产品负责人 Nick Turley 定性为'企业版的 Custom GPT 2.0——目标是让 agent 真正走进日常工作流'。",
+      "key_quotes": [
+        "Codex technology powers the new workspace agents, which can take on many of the tasks people already do at work—from preparing reports, to writing code, to responding to messages."
+      ],
+      "significance": "这是 OpenAI 第一次公开承认 Custom GPTs 的企业化失败——Custom GPTs 上线两年未能进入真实工作流，这次发布直接把它下架。Workspace Agents 的发布恰好发生在 Google Cloud Next 揭幕 Gemini Enterprise Agent Platform 的同一天，两家几乎同步押注'企业 agent 平台'这一新战场，且均把长时运行 + 身份 + 共享作为核心卖点。对企业买家而言，Custom GPT → Workspace Agent 的迁移意味着过去两年做出来的 prompt 资产将需要重新打包为 agent；对 Anthropic Projects / Claude Teams 则构成直接产品级压力。",
+      "links": [
+        "https://9to5mac.com/2026/04/22/openai-updates-chatgpt-with-codex-powered-workspace-agents-for-teams/",
+        "https://seekingalpha.com/news/4578128-openai-brings-workspace-agents-to-chatgpt",
+        "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "ChatGPT", "Agent", "Codex", "企业AI"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "TPU v8 官宣拆成两颗芯：Broadcom 做训练版 Sunfish、MediaTek 做推理版 Zebrafish——Google 第一次承认训练 / 推理需要完全不同的硅",
+      "source": "Google Cloud",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
+      "story_key": "google-tpu-v8-split-chips",
+      "event_date": "2026-04-22",
+      "summary": "Google 在 Cloud Next 2026 预览了第八代 TPU 的两颗独立芯片：训练专用 **TPU 8t（代号 Sunfish）** 由 Broadcom 设计，推理专用 **TPU 8i（代号 Zebrafish）** 由 MediaTek 设计，同采 TSMC 2nm，2027 年末上线。同时，第七代 Ironwood 今天正式全面可用。",
+      "detail": "这是 Google 自 2015 年推出首代 TPU 以来，**首次**把训练和推理拆成两颗完全独立的芯片并采用两家不同的设计合作伙伴：\n\n- **TPU 8t 'Sunfish'（训练）**：由 Broadcom 设计，定位高吞吐 AI 训练；单超 pod 容纳 **9600 颗芯片**，提供 **121 ExaFLOPS** 总算力与 **2PB 共享内存**，对比上一代整体算力提升接近 3 倍；\n- **TPU 8i 'Zebrafish'（推理）**：由 MediaTek 设计，主打超低延迟推理与强化学习；**片上 SRAM 扩至 384MB（前代 3 倍）、HBM 容量 288GB**，声称推理 **perf/$ 提升 80%**。\n\n两颗芯片均在 TSMC **2 纳米**工艺上流片，目标 **2027 年底**商业可用。与此同时，Google 宣布今天起将**Ironwood（TPU v7）全面普遍可用（GA）**，给所有 Google Cloud 企业客户；并披露新一代 **Virgo Network** 是支撑 AI Hypercomputer 的 megascale 数据中心 fabric，将在未来十年持续扩展。\n\n分析视角：把 Broadcom 拿回训练、MediaTek 签入推理，等价于 Google 承认过去几代 TPU 以单一 SoC 同时兼容训练 + 推理是妥协；而随着 Claude 等企业客户把推理 TCO（每 token 成本）压到显微镜下，推理芯片需要与训练芯片走完全不同的路径——MediaTek 擅长高能效/SRAM 密集设计，正好补位。",
+      "key_quotes": [
+        "TPU 8t delivers nearly 3x higher compute performance than previous generations.",
+        "TPU 8i triples on-chip SRAM to 384 MB and delivers 80% better performance per dollar for inference."
+      ],
+      "significance": "Google 这一步直接回应 NVIDIA Rubin 推理版（NVL576）与 AWS Trainium/Inferentia 拆分策略。更关键的是对 Anthropic 的影响：Anthropic 4 月 6 日已和 Google + Broadcom 签下 3.5GW 的多 GW 级 TPU 供给合约（2027 年上线），当时合同里的 TPU 指代模糊，现在答案揭晓——Anthropic 2027 年的 3.5GW 中，训练部分是 Broadcom-designed TPU 8t，推理部分是 MediaTek-designed TPU 8i。也等于 Broadcom 一单同时吃下 Google 训练硅 + Anthropic 训练硅，半导体板块最大受益方。",
+      "links": [
+        "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
+        "https://thenextweb.com/news/google-ironwood-tpu-inference-cloud-next",
+        "https://siliconangle.com/2026/04/22/google-unveils-new-tpus-power-next-wave-ai-training-inference/",
+        "https://wccftech.com/google-splits-tpuv8-strategy-two-chips-broadcom-training-mediatek-inference-duties/",
+        "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26"
+      ],
+      "tags": ["Google", "TPU", "Broadcom", "MediaTek", "AI芯片"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "DeepSeek 估值 5 天翻倍到 $200 亿+：腾讯、阿里双双入场，首次外部融资把 Wenfeng 推向公开资本市场",
+      "source": "The Information",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-22/deepseek-in-talks-to-raise-at-20-billion-value-the-information",
+      "story_key": "deepseek-20b-valuation",
+      "event_date": "2026-04-22",
+      "summary": "The Information 4 月 22 日独家、Bloomberg 随即跟进：中国顶级开源大模型公司 DeepSeek 正就首轮外部融资进行谈判，估值已抬到**超过 $200 亿美元**——距离其 4 月 17 日首次对外 pitch（$3 亿规模 / $100 亿估值）仅过去 5 天。腾讯与阿里双双加入领投谈判。",
+      "detail": "DeepSeek 由量化对冲基金 High-Flyer Capital Management（幻方量化）完全自有，创始人 **梁文锋**此前以个人资金 + High-Flyer 出资覆盖了几乎全部训练成本（旗舰模型据报道训练支出约 $560 万美元）。此次首轮外部融资谈判披露出两个显著变化：\n\n1. **估值跳空**：4 月 17 日首次外部 pitch 的定价是 $3 亿美元 / $100 亿估值，5 天后涨到 $200 亿+ 估值（+100%），直接进入国内第一梯队开源大模型公司的定价带宽；\n2. **战略投资方升级**：最早一轮的潜在投资人以国内人民币基金为主；本轮跳单加入了 **腾讯** 与 **阿里巴巴**——两家同时也是国内 AI 云 / 模型赛道的直接竞争对手。\n\nThe Information 给出的解读是：DeepSeek 的支出结构已经从'一次性训练'切换到'持续推理 + 基础设施 + 产品集成'，后者根本无法靠 High-Flyer 继续自给自足。梁文锋本人尚未对外置评。Bloomberg 侧引用多位知情人士表示：DeepSeek V4 正使用华为 Ascend 芯片而非 NVIDIA 训练，华为工程师已嵌入团队协助排查训练稳定性——这让国内云厂商（腾讯、阿里）对其算力绑定价值的计算发生根本性改变。",
+      "key_quotes": [
+        "DeepSeek's valuation doubled in 5 days after its first outside pitch drew heavy domestic investor demand.",
+        "DeepSeek's spending is understood to have shifted from one-off training to ongoing inference, infrastructure, and product integration."
+      ],
+      "significance": "这是中国开源大模型阵营第一次有非国家队背景的头部选手被**公开资本市场**真正定价。腾讯 + 阿里同时入场意味着国内云巨头愿意先接受 DeepSeek 的估值而非继续自研追赶——对 Moonshot（Kimi K2.6 本周开源）、智谱、MiniMax 的下一轮融资形成压力性 benchmark。对美股 / 美市场：DeepSeek 以 $200 亿估值入场时，它在 OpenRouter 全球 token 消费中的占比已稳居第二，仅次于 Anthropic Claude，高于 OpenAI 全系——这给'中国模型只在中国用'的投资叙事首次提供了反证。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-22/deepseek-in-talks-to-raise-at-20-billion-value-the-information",
+        "https://www.theinformation.com/briefings/spacex-says-can-buy-cursor-60-billion-later-year",
+        "https://theedgemalaysia.com/node/800903",
+        "https://techstartups.com/2026/04/22/tencent-alibaba-in-talks-to-invest-in-deepseek-at-20-billion-plus-valuation/",
+        "https://www.implicator.ai/tencent-alibaba-in-talks-to-back-deepseek-at-20-billion-valuation-report-says/"
+      ],
+      "tags": ["DeepSeek", "腾讯", "阿里", "融资", "中国AI"],
+      "category": "trending"
+    },
+    {
+      "id": "6",
+      "title": "Tesla Q1 财报意外双超预期：营收 $223.9 亿 / EPS $0.41；Musk 当场承诺'无监管 Robotaxi 年底覆盖 12 个州'",
+      "source": "Tesla",
+      "source_name": "Electrek",
+      "source_url": "https://electrek.co/2026/04/22/tesla-tsla-q1-2026-financial-results/",
+      "story_key": "tesla-q1-2026-earnings",
+      "event_date": "2026-04-22",
+      "summary": "Tesla 4 月 22 日盘后公布 Q1 2026 财报：营收 **$223.87 亿美元**（预期 $219.2 亿）、EPS **$0.41**（预期 $0.37）双双超预期；Elon Musk 在电话会议上承诺全无监管 FSD / Robotaxi **年底覆盖 12 个州**，并首次公开 Austin 车队以 $4.20 固定票价运营 31 辆 Model Y 的单车日收入数据。",
+      "detail": "核心财务：Q1 2026 营收 $223.87 亿美元，同比环比均 rebound；EPS $0.41 击穿 Wall Street 共识；毛利率与自由现金流同步回升。Electrek、Bloomberg 与 Drive Tesla 独立确认这是'连续两个季度缩表'后的首次利润端反弹。\n\nRobotaxi / 具身 AI 维度的披露尤其重磅：\n- **Austin**：Robotaxi 车队已扩至 31 辆 Model Y，全无监管（无安全员），单日单车完成订单数未披露但'已进入 double digits'，票价长期锁定 **$4.20**；\n- **Dallas / Houston**：4 月 18 日启动的全无监管商业运营已扩至'多辆'规模（从上线日首 1 辆扩至 2+ 辆）；\n- **年内路线图**：Musk 当场承诺**2026 年底全无监管 Robotaxi / FSD 将覆盖约 12 个州**——在已经运营的 Austin / Dallas / Houston 之外，追加 Phoenix、Miami、Orlando、Tampa、Las Vegas 五城确认，其余城市 Musk 未点名。\n- **Optimus / Cybercab / Semi / Megapack 3**：均'on schedule for volume production starting in 2026'。Optimus Gen 3 夏季低产能 production，2027 年放量。\n\n**背景回顾：** 4 月 18 日 Tesla 在 Dallas / Houston 砍掉安全员全面无监管 Robotaxi 商业化，初期仅 1 车 1 城。",
+      "key_quotes": [
+        "We hope to have unsupervised FSD and robotaxi operating in a dozen or so states by the end of the year.",
+        "Tesla continued to make meaningful progress on the build-out of the infrastructure and AI software that underpins its Robotaxi and future robotics businesses."
+      ],
+      "significance": "Q1 财报是 Tesla '造车公司' vs 'AI 公司'定价切换的关键测试节点——Musk 选择在业绩 rebound 的同一天给出 12-state 时间表，等于主动用 Robotaxi / AI 指标锁定市场对公司第二增长曲线的估值逻辑。对 Waymo / Zoox / Mobileye：Tesla 已从 Austin 单城运营升级为 3 城无监管 + 12 州年底路线图，首次在'商业无监管城市数量'这个维度领先 Waymo（目前 Phoenix / SF / LA / Austin 等约 5 城、仍配远程 teleop 监督）。对整个具身 AI 板块：Optimus 2026 年放量、Cybercab / Semi 量产时间表均被当场确认，意味着 Q3 开始 Tesla 将进入财报里首次出现'机器人业务线营收'的季度。",
+      "links": [
+        "https://electrek.co/2026/04/22/tesla-tsla-q1-2026-financial-results/",
+        "https://www.bloomberg.com/news/live-blog/2026-04-22/tesla-first-quarter-earnings",
+        "https://driveteslacanada.ca/news/tesla-q1-2026-earnings-beat-expectations-as-margins-cash-flow-rebound/",
+        "https://www.shacknews.com/article/148805/tesla-tsla-q1-2026-earnings-call-transcript"
+      ],
+      "image": "assets/logos/tesla-logo.png",
+      "image_type": "logo",
+      "tags": ["Tesla", "财报", "Robotaxi", "FSD", "Musk"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "Google Workspace Intelligence 正式上线：Sheets / Docs 变可执行 canvas，'Ask Gemini in Chat' 统一命令行跨 App 自动完成任务",
+      "source": "Google Workspace",
+      "source_name": "Google Workspace Blog",
+      "source_url": "https://workspace.google.com/blog/product-announcements/introducing-workspace-intelligence",
+      "story_key": "google-workspace-intelligence",
+      "event_date": "2026-04-22",
+      "summary": "Google 4 月 22 日在 Cloud Next 同步发布 Workspace Intelligence：在 Docs / Sheets / Slides / Gmail 等 App 上叠加统一语义理解层，用户可在 Sheets canvas 中直接搭建可交互 dashboard / heat map / kanban；新增 'Ask Gemini in Chat' 统一命令行可跨 App 接力完成任务；同日上线 Workspace Studio 多 skill 自动化编排 + AI Control Center 治理能力。",
+      "detail": "Workspace Intelligence 不是一个新产品，而是把过去散落在 Docs / Sheets / Slides / Gmail / Calendar 的 Gemini 能力**升级为一个语义统一层**——它能实时理解：用户当前的活跃项目 / 合作者 / 所属组织的领域知识 / 跨 App 的语义关系。产品面上最显著的四点：\n\n1. **Sheets canvas 变成可执行小应用**：用户在 canvas 中一句 prompt 即可生成 dashboard、heat map、kanban，并保留 Sheets 原生的数据安全权限边界；同类交互即将扩展到 Docs / Slides，可在 Gemini Enterprise App 内直接创建与编辑。\n2. **'Ask Gemini in Chat' 统一命令行**：在 Google Chat 中一句话说'帮我把上周销售漏斗生成 PPT 发给 region head'，Gemini 会在后台跨 Sheets / Slides / Gmail 多 App 编排完成，直接把成品 PPT 贴回 Chat。\n3. **Workspace Skills 正式上线**：支持将常用自动化工作流封装为可复用 skill，例如'每天对比入箱发票 vs 历史发票、标记异常'；skills 可以跨部门分发并由 Agent 编排调用。\n4. **AI Control Center + Workspace Studio 新治理控件**：企业管理员可以监控 / 限制 / 审计 agent 对公司数据的访问，显著降低间接 prompt injection、oversharing 与数据外泄风险。\n\nWorkspace Intelligence 与同日发布的 **Gemini Enterprise Agent Platform** 互为 yin-yang：后者面向开发者 / IT，前者面向终端员工。Google 把这两者并列放在 Next 2026 头条，是要向企业买家说'从 user-facing Copilot 到底层 agent infra 我们一家全包'。",
+      "key_quotes": [
+        "Workspace Intelligence is a secure, dynamic system that inherently understands complex semantic relationships within your Workspace apps (such as Docs, Slides, or Gmail).",
+        "Ask Gemini in Chat is a unified command line for all of your work."
+      ],
+      "significance": "对 Microsoft 365 Copilot 构成正面冲击——Copilot 发布两年、按席位收费但渗透率一直低于预期；Google 这次把'Agent + canvas 小应用 + skills'打包进 Workspace 原生，定价继续沿用 Workspace Business / Enterprise 套餐，等于用捆绑价抢 Copilot 的付费用户。对 Notion / Airtable：Sheets canvas 中的 dashboard / kanban 定位与前者严重重叠，但底座是一张 10 亿 Google Workspace 活跃账户的分发网。对企业 IT：AI Control Center + agent governance 首次把 agent 权限管理并入既有 Admin Console，绕过 Microsoft Purview / Azure AI Studio 的控制面。",
+      "links": [
+        "https://workspace.google.com/blog/product-announcements/introducing-workspace-intelligence",
+        "https://workspace.google.com/blog/product-announcements/10-more-announcements-workspace-at-next-2026",
+        "https://siliconangle.com/2026/04/22/googles-productivity-suite-gets-ai-smarts-workspace-intelligence/",
+        "https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Workspace", "Gemini", "Copilot", "企业AI"],
+      "category": "builders"
+    },
+    {
+      "id": "8",
+      "title": "Bezos 出手：Project Prometheus 接近完成 $100 亿融资，投前估值 $380 亿——首个非 Musk 系亿万富翁亲建的 AI 前沿实验室",
+      "source": "@JeffBezos",
+      "source_name": "The AI Insider",
+      "source_url": "https://theaiinsider.tech/2026/04/22/jeff-bezos-backed-ai-startup-project-prometheus-nears-10b-raise-at-38b-valuation/",
+      "story_key": "project-prometheus-10b-raise",
+      "event_date": "2026-04-22",
+      "summary": "Jeff Bezos 亲自背书的 AI 初创公司 Project Prometheus 正接近完成 **$100 亿美元** 融资轮，投前估值约 **$380 亿美元**——这是继 xAI（Musk）与 SSI（Ilya）之后，又一家由顶级富豪 / 创始人直接组局的新一代前沿模型实验室，也是第一家由 **非 Musk 系** 亿万富翁亲自主导的前沿 AI 实验室。",
+      "detail": "Project Prometheus 首次进入主流视野：The AI Insider 与多家财经媒体 4 月 22 日同步披露，这家由 Jeff Bezos 本人在 2025 年底注资孵化的 AI 实验室目前已接近完成 $100 亿美元融资，投前估值约 $380 亿美元——这个规模放在一年前相当于一家独角兽整个 C 轮的年融资总量。\n\n关键信息（基于公开报道汇总）：\n- 创始人与核心团队目前保持'stealth'状态，已知 Bezos 本人为主要注资方，其余 LP 包括中东主权基金与部分 Big Tech 前高管；\n- 公司定位为'通用前沿模型 + 长时推理'，可能借助 AWS / Blue Origin 的基础设施协同（Bezos 同时是 AWS 母公司 Amazon 第一大个人股东）；\n- 与 Ilya Sutskever 的 SSI（Safe Superintelligence，2024 年成立）主打安全、SSI 超级智能路线不同，Prometheus 强调'可商业化的通用智能'，竞争对手直接锁定 OpenAI / Anthropic / xAI。\n\n时间窗口上，Prometheus 的这一轮正好赶在 OpenAI 3 月 31 日完成 $1220 亿 / $8520 亿估值的超级轮之后，以及 xAI 3 月完成 $200 亿轮次之后——Bezos 选择此刻从 stealth 中半步走出，战略意图明显：在 2026 下半年的基础设施抢购潮（Trainium / TPU / Rubin）开始前卡进供给端。",
+      "key_quotes": [
+        "Project Prometheus is close to closing a $10 billion funding round that would value the startup at $38 billion."
+      ],
+      "significance": "这意味着前沿 AI 实验室的头部名单从过去 18 个月的 '四巨头（OpenAI / Anthropic / Google DeepMind / xAI）+ SSI' 5 家，扩展到 6 家。更重要的是资本结构：Prometheus 是第一家由**单一自然人（Bezos）** 直接背书主导的前沿模型公司，不依赖 VC / 战投 / 主权基金 syndicate，等于 Musk 式'我亲自出钱 + 亲自控制'结构被复制。对 Amazon 的连锁影响：Amazon 已经在 Anthropic 上押下 $330 亿美元（上周 $250 亿追投），Bezos 个人再押 Prometheus——两家被股东视为'同一 LP 的两条船'，未来 Anthropic 与 Prometheus 的边界划分将成为 AWS 战略的首要问题。",
+      "links": [
+        "https://theaiinsider.tech/2026/04/22/jeff-bezos-backed-ai-startup-project-prometheus-nears-10b-raise-at-38b-valuation/",
+        "https://aifundingtracker.com/ai-startup-funding-news-today/"
+      ],
+      "tags": ["Bezos", "Prometheus", "前沿AI", "融资", "新实验室"],
+      "category": "frontier_leaders"
+    }
+  ]
+}
