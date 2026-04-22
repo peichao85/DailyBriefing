@@ -107,6 +107,8 @@ log "Manifest rebuild finished"
 # Commit and push web/ and pdf/ changes
 log "Git commit & push started"
 git add web/ pdf/ research_results/
+# Unstage log files so they are never pushed to remote
+git reset HEAD research_results/AI/logs/ research_results/GitHub/logs/ >/dev/null 2>&1 || true
 if git diff --cached --quiet; then
   echo "No changes to commit." >> "$LOG"
 else

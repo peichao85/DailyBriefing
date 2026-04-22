@@ -3,3 +3,5 @@
 .playwright-cli/
 pdf/AI/tmp/
 .claude/
+# Local runtime logs — not meant for remote
+research_results/*/logs/
