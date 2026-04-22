@@ -224,7 +224,7 @@
                   <div class="card-icon card-icon-avatar"
                     :style="'background:' + getTheme(item).accent + '22; color:' + getTheme(item).accent + ';'">
                     <template x-if="item.image">
-                      <img :src="'web/' + currentCategory + '/' + currentDate + '/' + item.image"
+                      <img :src="imageSrc(item)"
                         :alt="item.owner || item.title" loading="lazy">
                     </template>
                     <template x-if="!item.image">
