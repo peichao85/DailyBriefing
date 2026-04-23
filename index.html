@@ -122,7 +122,7 @@
               :style="'color:' + getTheme(item).accent + ';'"
               @click="if (item.source_url) { $event.stopPropagation(); window.open(item.source_url, '_blank'); }"></span>
           </div>
-          <div class="card-summary" x-text="item.summary"></div>
+          <div class="card-summary" x-html="renderMarkdown(item.summary)"></div>
           <div class="card-clear"></div>
 
           <!-- Image below summary when collapsed (non-hero only) -->
@@ -145,7 +145,7 @@
           <div class="card-signal" x-show="item.significance"
             :style="'color:' + getTheme(item).accent + 'cc;'">
             <span class="signal-label" :style="'color:' + getTheme(item).accent + ';'">信号 ›</span>
-            <span x-text="item.significance"></span>
+            <span x-html="renderMarkdown(item.significance)"></span>
           </div>
 
           <!-- Expanded Detail -->
@@ -160,13 +160,13 @@
             <div class="detail-section" x-show="item.detail"
               :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
               <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">详细内容</div>
-              <div class="detail-text" x-text="item.detail"></div>
+              <div class="detail-text" x-html="renderMarkdown(item.detail)"></div>
             </div>
             <div class="detail-section" x-show="item.key_quotes && item.key_quotes.length"
               :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
               <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">关键引用</div>
               <template x-for="q in (item.key_quotes || [])">
-                <blockquote x-text="q" :style="'border-left: 3px solid ' + getTheme(item).accent + ';'"></blockquote>
+                <blockquote x-html="renderMarkdown(q)" :style="'border-left: 3px solid ' + getTheme(item).accent + ';'"></blockquote>
               </template>
             </div>
             <div class="detail-section" x-show="item.significance"
@@ -174,7 +174,7 @@
               <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">重要性</div>
               <div class="significance-box"
                 :style="'background:' + getTheme(item).accent + '0d; color:' + getTheme(item).accent + 'dd;'"
-                x-text="item.significance"></div>
+                x-html="renderMarkdown(item.significance)"></div>
             </div>
             <div class="detail-section" x-show="item.links && item.links.length"
               :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
@@ -249,7 +249,7 @@
                 </div>
 
                 <div class="card-title" x-text="item.title"></div>
-                <div class="card-summary" x-text="item.summary"></div>
+                <div class="card-summary" x-html="renderMarkdown(item.summary)"></div>
                 <div class="card-clear"></div>
 
                 <!-- Tags -->
@@ -264,7 +264,7 @@
                 <div class="card-signal" x-show="item.significance"
                   :style="'color:' + getTheme(item).accent + 'cc;'">
                   <span class="signal-label" :style="'color:' + getTheme(item).accent + ';'">信号 ›</span>
-                  <span x-text="item.significance"></span>
+                  <span x-html="renderMarkdown(item.significance)"></span>
                 </div>
 
                 <!-- Expanded Detail -->
@@ -273,14 +273,14 @@
                   <div class="detail-section" x-show="item.detail"
                     :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
                     <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">详细内容</div>
-                    <div class="detail-text" x-text="item.detail"></div>
+                    <div class="detail-text" x-html="renderMarkdown(item.detail)"></div>
                   </div>
                   <div class="detail-section" x-show="item.significance"
                     :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
                     <div class="detail-label" :style="'color:' + getTheme(item).accent + ';'">重要性</div>
                     <div class="significance-box"
                       :style="'background:' + getTheme(item).accent + '0d; color:' + getTheme(item).accent + 'dd;'"
-                      x-text="item.significance"></div>
+                      x-html="renderMarkdown(item.significance)"></div>
                   </div>
                   <div class="detail-section" x-show="item.links && item.links.length"
                     :style="'border-left: 3px solid ' + getTheme(item).accent + '44;'">
@@ -414,6 +414,36 @@
           if (n == null) return '';
           if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
           return String(n);
+        },
+
+        renderMarkdown(text) {
+          if (!text) return '';
+          text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+          const blocks = text.split(/\n\s*\n/);
+          return blocks.map(block => {
+            block = block.trim();
+            if (!block) return '';
+
+            const lines = block.split('\n');
+            const isList = lines.every(l => l.trim() === '' || l.trim().startsWith('- '));
+
+            if (isList && lines.some(l => l.trim().startsWith('- '))) {
+              const items = lines
+                .filter(l => l.trim().startsWith('- '))
+                .map(l => '<li>' + this.renderInline(l.trim().substring(2)) + '</li>');
+              return '<ul>' + items.join('') + '</ul>';
+            }
+
+            return '<p>' + this.renderInline(block) + '</p>';
+          }).join('');
+        },
+
+        renderInline(text) {
+          return text
+            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\*(.+?)\*/g, '<em>$1</em>')
+            .replace(/\n/g, '<br>');
         },
 
         imageSrc(item) {
