@@ -1,0 +1,89 @@
+{
+  "date": "2026-04-24",
+  "total_candidates": 9,
+  "kept": 8,
+  "dropped": 1,
+  "decisions": [
+    {
+      "story_key": "openai-gpt55-release",
+      "event_date": "2026-04-23",
+      "title_en": "OpenAI releases GPT-5.5 agentic model with 82.7% Terminal-Bench, 84.9% GDPval",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fully-retrained agentic model released 2026-04-23 to Plus/Pro/Business/Enterprise. Price unchanged at $5/$30 per M tokens. 60% hallucination reduction. Clearly the day's hero."
+    },
+    {
+      "story_key": "tesla-2b-ai-hardware-acquisition",
+      "event_date": "2026-04-23",
+      "title_en": "Tesla discloses $2B AI hardware acquisition in single sentence of 10-Q filing",
+      "source": "Electrek / 10-Q Note 14",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Separate from `tesla-q1-2026-earnings` story already published 04-22. This is the M&A disclosure buried in subsequent-events note and not mentioned in earnings call. $200M guaranteed, $1.8B milestone-contingent, paid in stock. Unnamed target."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-23",
+      "title_en": "Musk v. Altman trial begins April 27: $134B claim, Musk asks to remove Altman and unwind for-profit",
+      "source": "Washington Post",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Washington Post published major trial-preview 04-23 with fresh detail on Musk's amended demands: all winnings to OpenAI nonprofit, Altman removal, for-profit unwind. Jury selection begins 04-27. Testimony expected from Musk, Altman, Brockman, Nadella."
+    },
+    {
+      "story_key": "thinking-machines-google-gb300-deal",
+      "event_date": "2026-04-22",
+      "title_en": "Mira Murati's Thinking Machines Lab signs multi-billion-dollar Google Cloud deal for GB300 chips",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. TechCrunch exclusive 04-22: single-digit-billions deal covering Nvidia GB300 access plus Google Cloud infrastructure. Expands 2025 relationship, not exclusive. TMG can still use other clouds."
+    },
+    {
+      "story_key": "goldman-sachs-world-model-report",
+      "event_date": "2026-04-23",
+      "title_en": "Goldman Sachs Global Institute report frames 'world model' as AI's next decisive leap",
+      "source": "Fortune / Goldman Sachs",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Report co-authored by George Lee and Dan Keyserling 04-23. Two tracks: physical world models (physics simulation) and organizational/economic models (multi-agent human systems). Thought-leadership piece framing the post-LLM agenda and tying together LeCun / Fei-Fei Li / DeepMind work."
+    },
+    {
+      "story_key": "meta-8000-layoffs-ai-push",
+      "event_date": "2026-04-23",
+      "title_en": "Meta to cut 8,000 jobs (10% of workforce) to fund AI push, layoffs begin May 20",
+      "source": "Variety / CBS News",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Meta announced 04-23 it will lay off roughly 8,000 employees starting May 20. Explicitly framed as cost-cutting to fund AI capex. Second major AI-driven workforce reduction this month after Oracle's 30,000 cut."
+    },
+    {
+      "story_key": "anthropic-claude-code-pro-flipflop",
+      "event_date": "2026-04-22",
+      "title_en": "Anthropic briefly strips Claude Code from Pro plan, reverses after backlash; opens self-serve Enterprise",
+      "source": "Simon Willison / 9to5Mac",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. 04-22 quiet pricing-page change removing Claude Code from $20 Pro plan sparked outcry; Anthropic reversed within hours. Same day GA'd Claude Cowork and opened self-serve Enterprise purchase (previously sales-only). Captures pricing / go-to-market tension."
+    },
+    {
+      "story_key": "tsmc-a13-n2u-ai-chip-tech",
+      "event_date": "2026-04-22",
+      "title_en": "TSMC unveils A13 and N2U manufacturing tech targeting AI chips; Q1 profit +58%",
+      "source": "Seeking Alpha / GuruFocus",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. TSMC 04-22 debuted A13 and N2U nodes aimed at AI workloads. Q1 2026 net profit +58% YoY, full-year sales growth forecast >30%. Important foundry-side counterpoint to all the NVIDIA / Broadcom / custom-silicon stories on the demand side."
+    },
+    {
+      "story_key": "amazon-health-ai-agent",
+      "event_date": "2026-03-10",
+      "title_en": "Amazon launches Health AI agent for Prime members on website and app",
+      "source": "Amazon",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Original launch was 2026-03-10, roughly 45 days before today. Well outside the 5-day freshness window. No new April 23-24 development found."
+    }
+  ]
+}

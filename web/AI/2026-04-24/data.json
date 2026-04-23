@@ -1,0 +1,212 @@
+{
+  "date": "2026-04-24",
+  "category": "AI",
+  "title": "OpenAI 6 周再发 GPT-5.5 同价不涨、Terminal-Bench 2.0 飙至 82.7%；Tesla 10-Q 藏 $20 亿 AI 硬件收购电话会只字未提；Musk v. Altman $1340 亿索赔周一开庭 Nadella 出庭；Goldman Sachs 首次把'世界模型'列为 AI 下一跃迁；Mira Murati 与 Google Cloud 再签'数十亿美元'GB300 长约；Meta 裁员 8000 人首次官宣'为 AI 让路'",
+  "items": [
+    {
+      "id": "1",
+      "title": "OpenAI 挥刀再发 GPT-5.5：距 5.4 只隔 6 周，Terminal-Bench 2.0 飙到 82.7% 同价不涨价",
+      "source": "OpenAI",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-gpt-5-5/",
+      "story_key": "openai-gpt55-release",
+      "event_date": "2026-04-23",
+      "summary": "OpenAI 4 月 23 日上线 **GPT-5.5**——一款完全重训的 agentic 模型：Terminal-Bench 2.0 跑到 **82.7%**、GDPval 到 **84.9%**、OSWorld-Verified 到 **78.7%**，与 GPT-5.4 同 per-token 延迟、**同价不涨价**（$5/M 输入 + $30/M 输出），距 GPT-5.4 首发仅 6 周。",
+      "detail": "**发布时点与分发范围：** OpenAI 于美东时间 4 月 23 日周四下午向付费订阅用户推送 GPT-5.5，同步上线 ChatGPT Plus / Pro / Business / Enterprise 以及 Codex。GPT-5.5 Pro 作为推理增强版仅面向 Pro / Business / Enterprise 开放，API 将于'数周内'开放，沿用与 GPT-5.4 相同的 **$5 / M 输入 + $30 / M 输出** 定价——这是 GPT-5 系列发布以来第一次在升级新档位时不涨价。\n\n**benchmark 全面刷新：** 核心的 agentic 代码基准 Terminal-Bench 2.0 得分 **82.7%**（SOTA），SWE-Bench Pro 做到 **58.6%**，内部长程工程评测 Expert-SWE 超越 GPT-5.4。知识工作侧，覆盖 44 个职业的 GDPval 跑到 **84.9%**，操作系统级 agent 评测 OSWorld-Verified 到 **78.7%**。Fast Company、MarkTechPost、Decrypt 同步报道：模型在 agent 工具链全体评测里位列 112 款模型中的 #2，平均分 99.2。\n\n**'更聪明、不更慢、少用 token'：** OpenAI 官方特别强调 GPT-5.5 在真实服务下 per-token 延迟与 GPT-5.4 相同，完成同等 Codex 任务**消耗的 token 数反而更少**。Decrypt 比对显示幻觉率较前代进一步下降 60%。同步推出的 GPT-5.5 Pro 默认支持 **1M token 上下文**，已可在 ChatGPT 选择器直接切换。\n\n**节奏信号：** 距 3 月 12 日 GPT-5.4 首发仅 **6 周**。这是 OpenAI 在 GPT-5 系列内的最短迭代间隔——意味着 $8500 亿 IPO 前夜、IPO 路演窗口前，OpenAI 必须以'月级'而非'季级'节奏释放模型进度来稳住企业需求与估值。",
+      "key_quotes": [
+        "GPT-5.5 matches GPT-5.4 per-token latency in real-world serving, while performing at a much higher level of intelligence.",
+        "It excels at writing and debugging code, researching online, analyzing data, creating documents and spreadsheets, operating software, and moving across tools until a task is finished."
+      ],
+      "significance": "这是 OpenAI 与 Anthropic Claude Opus 4.7 在 SWE-Bench Pro / Terminal-Bench / GDPval 三条核心 agent 赛道首次真刀真枪回击——**6 周一代**的节奏意味着前沿 LLM 已进入按月竞赛。更关键的是：**同价发布、延迟不变**，将整个行业的成本曲线继续压低，同时把'agent 完成任务使用更少 token'写进卖点——这直接挑战 Anthropic 上周刚刚因 tokenizer 变更被社区抓出的隐性涨价。",
+      "links": [
+        "https://openai.com/index/introducing-gpt-5-5/",
+        "https://www.bloomberg.com/news/articles/2026-04-23/openai-unveils-gpt-5-5-to-field-tasks-with-limited-instructions",
+        "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+        "https://www.marktechpost.com/2026/04/23/openai-releases-gpt-5-5-a-fully-retrained-agentic-model-that-scores-82-7-on-terminal-bench-2-0-and-84-9-on-gdpval/",
+        "https://decrypt.co/365333/openai-gpt-5-5-release-agentic-coding-benchmarks",
+        "https://fortune.com/2026/04/23/openai-releases-gpt-5-5/",
+        "https://interestingengineering.com/ai-robotics/opanai-gpt-5-5-agentic-coding-gains"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-5.5", "agentic", "Terminal-Bench", "SWE-Bench Pro", "Codex"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Tesla 10-Q 藏着一句话：$20 亿股权收购一家 AI 硬件公司——电话会议只字未提",
+      "source": "Electrek / Tesla 10-Q",
+      "source_name": "Electrek",
+      "source_url": "https://electrek.co/2026/04/23/tesla-tsla-quietly-discloses-2-billion-ai-hardware-acquisition-10q/",
+      "story_key": "tesla-2b-ai-hardware-acquisition",
+      "event_date": "2026-04-23",
+      "summary": "Tesla 4 月 23 日披露的 Q1 2026 10-Q 文件，在最后一条'后续事项'里用**一句话**交代：同意以最高 **$20 亿美元股权** 收购一家未具名 AI 硬件公司——$2 亿立即兑现、$18 亿与技术'成功部署'里程碑挂钩；电话会议与股东信只字未提。",
+      "detail": "**隐藏式披露：** 这是 Tesla 历史上最昂贵的一句话。Q1 2026 10-Q 的 Note 14 Subsequent Events 全部内容就一行：公司在报告期后同意以总价最高 **$20 亿美元股权及股票激励**收购一家未命名 AI 硬件公司。Electrek / Gizmodo / The Information 分别独立核实文件——4 月 22 日的 Q1 电话会议上 Musk 及 CFO 均未提及。\n\n**结构设计：** 仅 **$2 亿美元保底**，剩余 **$18 亿美元**绑定'服务条件 + 公司技术成功部署'的里程碑。这等于明确暗示'目标公司的技术此前尚未规模化落地'——内行读作'把研发团队锁进 Tesla、把产品节点押回来'，并非成熟商品采购。支付方式是**股票而非现金**，尽管 Tesla 手握 **$447 亿现金**——可见 Musk 选择稀释股东而不是动用现金储备。\n\n**背景链条：** 同一份 10-Q 同步披露 2026 年资本支出将从 2025 年的 $85 亿翻至 **$250 亿美元**，其中大头投向 AI 软件、自研芯片与 Optimus / Robotaxi 基础设施。本周二电话会议上 Musk 刚刚承诺 FSD / Robotaxi 年底覆盖 12 个州，把 Tesla 对 AI 硬件栈的控制力再度写入资本叙事。\n\n**候选猜测：** 分析师第一时间把候选锁在三个方向——一家面向 Dojo 的专用训练芯片团队、一家 Optimus 驱动伺服 / 力矩传感器公司、或一家 in-cabin 推理芯片 startup。目前无任何官方候选名单，Tesla 也未回应追问。",
+      "key_quotes": [
+        "On April 9, 2026, the Company entered into an agreement to acquire an artificial intelligence hardware company for up to approximately $2.0 billion in Company common stock and equity awards.",
+        "Only $200 million of the consideration is not contingent on future services; the remainder is subject to service conditions and successful deployment of the acquired technology."
+      ],
+      "significance": "一句话披露 $20 亿美元 M&A，且在电话会议上被主动'忽略'——这是非常规信号：Tesla 要么在抢一件不想让竞对知道的东西，要么目标公司尚未稳态、不愿被市场对齐估值。叠加 $250 亿 capex 与年底 12 州 Robotaxi 承诺，这笔交易把 Tesla 的 AI 转型从'买 NVIDIA 卡 + 自研 Dojo'进一步扩展到'买走整支工程师团队'——一种只有这一档现金流公司才玩得起的前沿 AI 基建姿态。",
+      "links": [
+        "https://electrek.co/2026/04/23/tesla-tsla-quietly-discloses-2-billion-ai-hardware-acquisition-10q/",
+        "https://gizmodo.com/tesla-reveals-mysterious-2-billion-ai-hardware-deal-in-sec-filing-2000750025",
+        "https://www.inc.com/leila-sheridan/tesla-just-placed-a-2-billion-bet-on-ai-hardware-with-almost-no-details/91335316",
+        "https://www.theinformation.com/briefings/tesla-discloses-2-billion-deal-unnamed-ai-hardware-company"
+      ],
+      "image": "assets/logos/tesla-logo.png",
+      "image_type": "logo",
+      "tags": ["Tesla", "acquisition", "AI hardware", "10-Q", "Musk"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "Musk v. Altman 周一开庭：$1340 亿索赔、要求罢免 Altman、撤销营利转换——Nadella / Brockman 将现身证人席",
+      "source": "Washington Post",
+      "source_name": "Washington Post",
+      "source_url": "https://www.washingtonpost.com/technology/2026/04/23/musk-altman-lawsuit-trial-openai/",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-23",
+      "summary": "Musk 诉 Altman / OpenAI 一案将于 **4 月 27 日**开始陪审团选任——Washington Post 4 月 23 日独家报道案前阶段：Musk 最新修订诉求包括索赔 **$1340 亿**全额注入 OpenAI 慈善非营利部分、**罢免 Sam Altman**、**撤销 OpenAI 的营利转换**；预计 Musk、Altman、Brockman、Nadella 均将出庭作证。",
+      "detail": "**开庭在即：** 加州 Oakland 联邦法院定于 4 月 27 日开始陪审团选任，庭审预计持续 **4 周**。WaPo 4 月 23 日晚刊出约 6000 字的庭前深度报道：披露诉讼 discovery 阶段送出的 Musk、Altman、Brockman 及其他 OpenAI 创始成员之间 **2015-2019 年** 电邮 / 私信 / 私人日记片段——此前从未见光。\n\n**Musk 新诉求：** 在今年 4 月初提交的修改请求中，Musk 做出关键让步——**要求任何胜诉赔偿全额流入 OpenAI 的 501(c)(3) 慈善非营利实体，而非 Musk 本人或 xAI**。这使案件从'亿万富翁个人恩怨'直接转为'公益受托人诉讼'，大幅拉高说服陪审团的可能性。除金钱外，Musk 还要求：(1) 罢免 Altman 并禁止其担任 OpenAI 关联实体领导职位；(2) **撤销 OpenAI 2019 年后的营利结构转换**，恢复非营利形式；(3) 剥夺 Microsoft 与 OpenAI 营利分支的合同优先权。\n\n**证人名单：** Elon Musk、Sam Altman、Greg Brockman、**Microsoft CEO Satya Nadella**——预计四人将先后出庭。另有 OpenAI 早期研究员、原董事会成员、Reid Hoffman 等被列为可能被传唤的人选。\n\n**金额来源：** Musk 法律团队主张 OpenAI 非营利资产被低估转入营利实体时损失约 $1340 亿美元——略低于美国民事陪审团有史以来最大金额 $1450 亿（佛州烟草案，后被上诉撤销）。这也是美 AI 行业首次有可能在法庭上被全程公开作证的庭审级冲突。",
+      "key_quotes": [
+        "Musk has amended his filings so that any monetary award would flow entirely into OpenAI's charitable nonprofit arm, not to him personally.",
+        "Testimony is anticipated from Musk, Altman, Brockman and Microsoft CEO Satya Nadella."
+      ],
+      "significance": "如果 Musk 哪怕拿下'撤销营利转换'这一项禁令性救济——OpenAI 的 $8500 亿 IPO、Microsoft $1300 亿投资、Cerebras $200 亿 warrant 合作、所有企业客户的商业关系都将被连根摇动。WaPo 当日披露的 discovery 细节还可能把 Altman 2019-2021 期间内部沟通在公开法庭上逐段展出——Altman 的个人商业诚信（Helion / Stoke Space / Hyper 等参投冲突问题）已在上周被股东开始讨论'Bret Taylor 接棒'，这场庭审将是 Altman 前所未有的公共压力测试。",
+      "links": [
+        "https://www.washingtonpost.com/technology/2026/04/23/musk-altman-lawsuit-trial-openai/",
+        "https://localnewsmatters.org/2026/04/23/musk-v-altman-trial-date-looms-as-judge-hands-wins-and-setbacks-to-both-sides/",
+        "https://www.theringer.com/2026/04/20/tech/sam-altman-elon-musk-trial-openai-primer",
+        "https://www.michaelrcronin.com/post/musk-vs-openai-fraud-trial-134b-battle-set-for-april-27-2026"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Musk", "Altman", "lawsuit", "134B", "Nadella", "trial"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Goldman Sachs 首次把'世界模型'列为 AI 下一跃迁：物理 + 人类系统双轨，LeCun / Fei-Fei Li / DeepMind 同桌",
+      "source": "Fortune / Goldman Sachs Global Institute",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/04/23/goldman-sachs-ai-world-model-missing-link/",
+      "story_key": "goldman-sachs-world-model-report",
+      "event_date": "2026-04-23",
+      "summary": "Goldman Sachs Global Institute 4 月 23 日发布长篇报告《When AI Learns How the World Works》，由合伙人 **George Lee** 与董事总经理 **Dan Keyserling** 联署，首次把'world model（世界模型）'正式列为 AI 下一跃迁——把 LeCun AMI Labs、Fei-Fei Li World Labs 与 DeepMind Genie 归入同一条路线图。",
+      "detail": "**报告定调：** 全文把'世界模型'从 LeCun / Fei-Fei Li 的学术概念首次翻译成**银行向企业 CEO 与主权财富基金的投资语言**——认为若 LLM 代表'语言的压缩'，world model 代表'**因果的压缩**'，是 AGI 前最大一次范式切换，且美中双方都已下场。\n\n**两条并行轨：**\n- **物理世界模型**：通过模拟学习重力、摩擦、热力学、流体——DeepMind Genie、NVIDIA Cosmos、Physical Intelligence π0.7、World Labs 等均归入此列；核心用途包括机器人、具身 AI、自动驾驶的'离线训练、在线执行'。\n- **组织 / 经济世界模型**：以多 agent 模拟'活的人类系统'——企业如何回应竞对、市场如何解读信号、董事会如何在压力下反应；Lee 写道'企业早已在花大量精力猜测他人反应，multi-agent 模拟给出的是一个接近活的人类系统模型'。\n\n**投资视角：** 报告强调物理 world model 已经展现工程级落地（机器人、仓储、自动驾驶），而组织世界模型仍处概念期、但一旦成立将彻底重写企业咨询业——并点名 McKinsey / BCG / Bain 的模拟 / 压力测试业务将最先被影响。\n\n**背景回顾：** 4 月 16 日 Physical Intelligence π0.7 首次在'组合泛化'上给出论文级证据——可将不同任务的子技能重新组合到完全没见过的新任务上，被视为 world model 赛道的首个工程里程碑。\n\n**政策角度：** 报告还点名中国在空间智能与 world model 上的进度不可小觑，特别提到'AI 教母'李飞飞在 World Labs 的路线与国内阿里、字节在空间智能上的追赶共振。",
+      "key_quotes": [
+        "Enterprises already spend enormous effort guessing how others will respond, how competitors will move, how markets will interpret signals, how boards will react under pressure. Multi-agent simulations offer something closer to a living model of human systems.",
+        "Solving the world model represents the next decisive leap in artificial intelligence."
+      ],
+      "significance": "Goldman 这份报告的意义不在科学突破，而在**话语权转移**——把 Yann LeCun、Fei-Fei Li、DeepMind、Physical Intelligence 从学术圈的'旁门路线'抬进顶级投行给主权资本 / 大客户的年度主推清单，等于宣布下一轮 $200 亿+ 级 AI 基础模型融资将向'不是 LLM'的方向倾斜。对于正在集中资源赌 LLM 规模化的 OpenAI / Anthropic 而言，这份报告是**第一次来自华尔街顶层的结构性质疑信号**。",
+      "links": [
+        "https://fortune.com/2026/04/23/goldman-sachs-ai-world-model-missing-link/",
+        "https://www.goldmansachs.com/insights/articles/when-ai-learns-how-the-world-works",
+        "https://www.aol.com/articles/goldman-tackles-ai-missing-world-130000090.html",
+        "https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence"
+      ],
+      "tags": ["world model", "Goldman Sachs", "LeCun", "Fei-Fei Li", "DeepMind", "Physical Intelligence"],
+      "category": "research"
+    },
+    {
+      "id": "5",
+      "title": "Mira Murati 押注 GB300：Thinking Machines 与 Google Cloud 再签'数十亿美元'长约，非独家",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+      "story_key": "thinking-machines-google-gb300-deal",
+      "event_date": "2026-04-22",
+      "summary": "TechCrunch 4 月 22 日独家：前 OpenAI CTO Mira Murati 创办的 **Thinking Machines Lab** 与 **Google Cloud** 再签一笔**数十亿美元级**长约，拿下 NVIDIA 新一代 **GB300** 训练集群；协议非独家，Thinking Machines 可继续使用其他云厂商。",
+      "detail": "**合同规模：** 知情人士对 TechCrunch 与 SiliconANGLE 透露，合同金额在'single-digit billions'（数十亿美元以内）量级，覆盖 Google Cloud 基于 NVIDIA 新 **GB300 GPU** 的 AI 系统访问权 + 模型训练 / 部署所需的基础设施服务——GB300 宣称可使训练速度翻倍。双方均未披露合同精确总额与 GPU 数量。\n\n**非独家结构：** 本轮合同是 Thinking Machines 与 Google Cloud 2025 年合作关系的**扩展版**，**明确保留非独家** —— Murati 团队可以继续使用 AWS、Azure 等其他云厂商。这与 Anthropic 把 Google TPU、AWS Trainium、Broadcom ASIC 三条路线并行使用的多云战略完全一致。\n\n**背景回顾：** Thinking Machines 于 2025 年 2 月由 Mira Murati 创办，已完成 $20 亿美元种子轮、估值 $120 亿美元；首款产品 Tinker 是一款简化开源模型 fine-tune 的 API（LoRA 工具化），2025 年 10 月首发，原计划 2026 年内推出多模态并发布自研前沿模型。\n\n**对比视角：** 过去 30 天里，Google Cloud 连续斩获三笔前沿 AI 客户的长期合同——Anthropic 3.5GW 的多 GW TPU + Broadcom 合作（4 月 6-7 日）、Meta Broadcom MTIA 路线图（4 月 15 日）、以及本次 Thinking Machines 合同。加上 Cloud Next 2026 上 **Gemini Enterprise Agent Platform** 的全端发布，Google 正把'训练云 + agent 平台 + 自研 TPU v8'打成一个可以直接替换 OpenAI / Azure 的全栈堆栈。",
+      "key_quotes": [
+        "Thinking Machines gets access to Google's powerful AI tools and Google Cloud AI infrastructure powered by NVIDIA's GB300 chips.",
+        "The agreement expands a Google Cloud relationship that began in 2025 and is not exclusive."
+      ],
+      "significance": "一周之内，Google Cloud 接连签下 Anthropic 多 GW TPU 合同、Meta MTIA 延长至 2029、Thinking Machines GB300 长约——把三家最具象征意义的前沿 AI 玩家（一家 OpenAI 对手、一家 Meta 自研、一家 OpenAI 分家）同时钉死在 GCP 上。对 Murati 而言，这笔合同解决了'第一个 Thinking Machines 前沿模型'的训练算力瓶颈；对 Google 而言，这是**'$70B ARR → $100B'关键冲刺**中最具话题性的客户公告。",
+      "links": [
+        "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+        "https://siliconangle.com/2026/04/22/google-cloud-inks-ai-infrastructure-deal-thinking-machines/",
+        "https://www.eweek.com/news/google-cloud-deal-mira-murati-thinking-machines-lab/",
+        "https://www.implicator.ai/google-cloud-locks-in-thinking-machines-lab-with-multi-billion-gb300-deal/"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Thinking Machines", "Mira Murati", "Google Cloud", "GB300", "NVIDIA"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "Meta 砍 8000 人：占全员 10%、5 月 20 日启动——首次官方用'为 AI 让路'作为正式裁员理由",
+      "source": "Variety",
+      "source_name": "Variety",
+      "source_url": "https://variety.com/2026/digital/news/meta-layoffs-8000-employees-ai-1236729003/",
+      "story_key": "meta-8000-layoffs-ai-push",
+      "event_date": "2026-04-23",
+      "summary": "Meta 于 4 月 23 日宣布将裁员约 **8,000 人**、占全员约 **10%**，并**首次在公开声明中将'加码 AI'列为正式理由**；裁员将于 **5 月 20 日**启动。",
+      "detail": "**裁员规模：** 根据 Variety、CBS News、Nikkei Asia 4 月 23 日同步披露——Meta 计划裁员约 **8,000 人**，占公司全员约 10%，是继 2022 年 11,000 人、2023 年 10,000 人之后，扎克伯格'效率之年'框架外的又一次大规模裁员；5 月 20 日起分批通知。\n\n**官方理由：** 与 Snap 4 月 15 日用 AI 写代码比例（65%）直接作为裁员理由不同，Meta 首次在公开声明中把'加码 AI 资本支出'写入裁员原因——明确列出 Meta Superintelligence Labs（Alexandr Wang 领军）与 Meta × Broadcom MTIA 合作（4 月 15 日延至 2029）为主要资本开支承接方。根据 Q4 2025 财报，Meta 2026 年 capex 将达 $1350 亿美元，较 2025 年翻近一倍。\n\n**覆盖部门：** 初步披露将砍向广告运营、中层内容审核、企业内部 IT，并在 Reality Labs 继续瘦身——与过去两年'砍硬件保软件'的趋势一致。Alexandr Wang 领导的 Meta Superintelligence Labs **不在裁员范围内**。\n\n**行业共振：** 叠加 Oracle 3 月 31 日裁员 30,000 人（占全员 18%）以释放 $560 亿美元 AI 数据中心资本支出、以及 Snap 4 月 15 日裁员 1,000 人，**美国科技业 Q1 累计裁员已达 78,557 人**，其中 Nikkei 核算约 48% 直接归因于 AI。Meta 本轮一次性把这个比例再往上推。",
+      "key_quotes": [
+        "The layoffs will start on May 20 as Meta pushes deeper into artificial intelligence.",
+        "The company is reallocating workforce spend toward AI compute and the Superintelligence Labs program."
+      ],
+      "significance": "Meta 这次的信号意义甚至超过人数本身——它把'为 AI 让路'从 Snap 这类中型互联网公司的专属剧本，升级为 FAANG 级公司的**官方裁员理由**。叠加 Oracle 与 Snap，Q2 开始科技业'AI 替代 + 资本再分配'的裁员节奏已经公开化，对 Microsoft、Alphabet 下一份财报前的裁员前瞻形成直接压力。",
+      "links": [
+        "https://variety.com/2026/digital/news/meta-layoffs-8000-employees-ai-1236729003/",
+        "https://www.cbsnews.com/news/meta-layoffs-8000-ai-job-cuts/",
+        "https://www.tomshardware.com/tech-industry/tech-industry-lays-off-nearly-80-000-employees-in-the-first-quarter-of-2026-almost-50-percent-of-affected-positions-cut-due-to-ai",
+        "https://fortune.com/2026/04/20/ai-layoff-trap-cutting-headcount-could-backfire/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "layoffs", "AI", "Superintelligence", "capex"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "Anthropic 一天两反转：先悄悄把 Claude Code 从 $20 Pro 档移出，被骂后又塞回来；同日放开 Enterprise 自助购买",
+      "source": "Simon Willison / 9to5Mac",
+      "source_name": "Simon Willison",
+      "source_url": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/",
+      "story_key": "anthropic-claude-code-pro-flipflop",
+      "event_date": "2026-04-22",
+      "summary": "Anthropic 4 月 22 日悄悄把 **Claude Code** 从 **$20/月 Pro 订阅**里拿掉——社区数小时内炸锅，Anthropic 随后把对应勾选框放回 pricing 页；同日把 **Enterprise 自助购买**通道首次上线，无需联系销售。",
+      "detail": "**反转始末：** 独立开发者 Simon Willison 与多位 Reddit / HN 用户于 4 月 22 日上午发现 Anthropic 官网 /pricing 页面的 Pro 列中 Claude Code 勾选框消失——意味着 $20/月 Pro 订阅自即刻起不再含 Claude Code，必须单独按 token 计费或升级到 Max（$200/月）。推特及 HN 一边倒反对声中，Anthropic 数小时内悄悄恢复了原勾选框，但始终未发布正式澄清声明。\n\n**背景回顾：** 4 月 17 日刚刚爆出'Opus 4.7 名义同价、新 tokenizer 让同样 prompt 的 token 消耗涨 32-47%'的隐性涨价争议；本周一又传出 Anthropic 单方面切断某家 60 人公司的 Claude 企业访问——连续的'产品结构 / 计费'小动作正在透支开发者社区信任。\n\n**Claude Cowork GA + Enterprise 自助：** 同日 Anthropic 正式把 Claude Cowork 从'research preview'升级到 GA，支持 macOS / Windows 桌面；首次在 Claude Web 页面直接放开 **Enterprise 自助购买**入口（此前仅销售对接），并新增 OpenTelemetry 集成与基于角色的访问控制（RBAC）。同期上线的 Claude Managed Agents 与上周发布的 Claude Design、Claude Opus 4.7、本月 Claude Mythos Preview 共同构成 Anthropic 2026 春季产品矩阵。\n\n**社区侧影响：** Claude Code 是 Cursor 与 Codex 之外的第三条核心 AI 编码生态；$20 Pro 档是其开发者获客主力。本次乌龙之后，Cursor（已在 A16Z / Thrive / NVIDIA $20 亿轮前冲 $500 亿估值）和 OpenAI Codex（Workspace Agents 化后成为 ChatGPT Business 主力）都在可预见的一周内拿下一批犹豫中的 Anthropic 开发者。",
+      "key_quotes": [
+        "It's all very confusing — the checkbox for Claude Code disappeared from the Pro column, then reappeared hours later with no official statement.",
+        "Now, any organization can purchase an Enterprise plan directly on the website with no Sales conversation required."
+      ],
+      "significance": "表面是定价乌龙，实质是 Anthropic 在'$300 亿 run-rate + $8000 亿估值筹备 IPO'节点上的**定价压力外漏**——高端企业市场已上顶，现在需要从中小订阅用户身上榨出更多 per-token 收入。但连续三次 tokenizer / 企业切断 / Claude Code 事件已经让社区信任度下降——而对手（Cursor / Codex）的下一批订阅窗口正好打开。",
+      "links": [
+        "https://simonwillison.net/2026/Apr/22/claude-code-confusion/",
+        "https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/",
+        "https://www.thefpsreview.com/2026/04/22/anthropic-cuts-claude-access-for-a-companys-60-employees-then-quietly-pulls-claude-code-from-pro-plan/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude Code", "pricing", "Enterprise", "developers"],
+      "category": "product_operators"
+    },
+    {
+      "id": "8",
+      "title": "TSMC 抢发 A13 与 N2U 节点：专攻 AI 工作负载，Q1 净利暴涨 58%",
+      "source": "Seeking Alpha / GuruFocus",
+      "source_name": "Seeking Alpha",
+      "source_url": "https://seekingalpha.com/news/4578186-tsmc-debuts-new-a13-n2u-chip-manufacturing-technology",
+      "story_key": "tsmc-a13-n2u-ai-chip-tech",
+      "event_date": "2026-04-22",
+      "summary": "台积电 4 月 22 日在北美技术研讨会上首次披露新一代制程：**A13**（1.3nm 等效）与 **N2U**——直接对准 AI 工作负载；同日公布 Q1 2026 净利同比暴涨 **58%**，全年营收增速指引上调至 **30%+**。",
+      "detail": "**工艺路线图：** 在北美技术研讨会上，TSMC 同时披露两条并行节点——**A13**（1.3nm 等效 angstrom 级）定位 2027 下半年量产，专攻大模型训练；**N2U（N2 Ultra）** 于 N2 之上加一颗更高密度的 backside-power-delivery 变体，目标加速 AI / HPC 推理芯片，2026 年末试产、2027 上半年大批出货。\n\n**Q1 财报护航：** 同日 TSMC 确认 Q1 2026 净利同比 **+58%**，全年营收增长指引由年初的 20-25% 上调至 **30%+**。The Next Platform 独立测算：AI 相关制造业务将在 2026 年贡献 TSMC **约 33%** 的收入——这也是首次有分析师把'AI 制造'作为单独 segment 写入模型。\n\n**客户清单：** 在台积电 2nm 客户队列里，NVIDIA（Blackwell Next、GB300）、AMD、Apple、Broadcom（MTIA / TPU v8t Sunfish）、MediaTek（TPU v8i Zebrafish）已悉数确认；Amazon Trainium4 也选中 2nm 家族。A13 与 N2U 是在这批客户稳拿 2nm 后，TSMC 向'下一代训练 + 下一代推理'分别开出的差异化产品。\n\n**对比意义：** 当所有前沿模型厂商都在加码 GPU / TPU / ASIC 专用芯片时，**唯一的瓶颈回到了制程 / 产能**。TSMC 的节点路线图 + Q1 财务数据组合，既是 AI 基建侧最真实的需求信号，也是硅谷所有'多云 / 多芯' 策略背后真正的单点脆弱性。",
+      "key_quotes": [
+        "TSMC unveiled its newest generation of chip manufacturing technology aimed at creating smaller and faster chips, especially for artificial intelligence.",
+        "Analysts expect TSMC's revenue to rise from around $163.9 billion in 2026 to nearly $204.4 billion in 2027."
+      ],
+      "significance": "前沿芯片制造**只有一个供应商**这件事，在 Anthropic / Google / Meta / Tesla 的自研芯片潮流里正在被反复压测。TSMC 今天的节点路线图 + 盈利验证，把'AI 制造'作为结构性单一供给的事实再次钉在桌面上——这也是 Intel / Samsung 2027 2nm 的节点提前量、以及'2030 年代亚利桑那 / 日本 fabs'全球产能重整为什么在过去两周被反复提起的直接原因。",
+      "links": [
+        "https://seekingalpha.com/news/4578186-tsmc-debuts-new-a13-n2u-chip-manufacturing-technology",
+        "https://www.gurufocus.com/news/8810609/tsmc-unveils-advanced-chip-technologies-to-boost-ai-capabilities-tsm",
+        "https://www.nextplatform.com/compute/2026/04/20/ai-will-soon-drive-a-third-of-tsmcs-business/5218375"
+      ],
+      "tags": ["TSMC", "A13", "N2U", "chipmaking", "2nm", "AI infrastructure"],
+      "category": "builders"
+    }
+  ]
+}
