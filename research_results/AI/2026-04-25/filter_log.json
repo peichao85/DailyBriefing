@@ -1,0 +1,89 @@
+{
+  "date": "2026-04-25",
+  "total_candidates": 9,
+  "kept": 5,
+  "dropped": 4,
+  "decisions": [
+    {
+      "story_key": "google-anthropic-40b-investment",
+      "event_date": "2026-04-24",
+      "title_en": "Google commits up to $40B to Anthropic; $10B now at $350B valuation, 5GW Google Cloud over 5 years",
+      "source": "Bloomberg / TechCrunch / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Massive structural shift: Google joins Amazon ($25B last week) in dual-funding Anthropic, who now sits at $350B with run-rate >$30B."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek launches V4 (1.6T MoE Pro + 284B Flash), 1M token context, hybrid attention, MIT license",
+      "source": "Bloomberg / Hugging Face",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Biggest open-source model release since DeepSeek V3; new Hybrid Attention Architecture (CSA + HCA) cuts KV cache to 10% at 1M tokens. Distinct from `deepseek-20b-valuation` story (funding) — this is the model release."
+    },
+    {
+      "story_key": "anthropic-claude-app-connectors",
+      "event_date": "2026-04-24",
+      "title_en": "Anthropic adds 16 consumer app connectors to Claude (Spotify, Uber, Instacart, TurboTax, Booking.com, AllTrails, Audible, Resy, StubHub, Taskrabbit, Thumbtack, TripAdvisor, Viator, Credit Karma, Uber Eats)",
+      "source": "Engadget / 9to5Mac",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First time Claude meaningfully extends into consumer/lifestyle apps; positions Claude as 'front door' to daily life apps competing with ChatGPT consumer push."
+    },
+    {
+      "story_key": "anthropic-claude-code-postmortem",
+      "event_date": "2026-04-24",
+      "title_en": "Anthropic acknowledges 3 specific engineering bugs caused Claude Code's month-long quality decline; March 4 reasoning cut, March 26 caching bug, April 16 system prompt cap",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct from `anthropic-claude-code-pro-flipflop` (Apr 22 pricing flip-flop). This is a technical postmortem on the long-running 'nerfing' controversy with specific dates of code regressions."
+    },
+    {
+      "story_key": "iclr-2026-outstanding-papers",
+      "event_date": "2026-04-23",
+      "title_en": "ICLR 2026 announces Outstanding Papers in Rio de Janeiro: 'Transformers are Inherently Succinct' takes top theoretical award; multi-turn LLM eval paper second",
+      "source": "ICLR Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. ICLR 2026 (Apr 23-27) is the year's premier ML venue; outstanding papers anchor near-term research direction."
+    },
+    {
+      "story_key": "deepseek-20b-valuation",
+      "event_date": "2026-04-24",
+      "title_en": "Bloomberg reports Tencent proposes 20% stake in DeepSeek $20B+ funding round",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-04-22 ('DeepSeek 估值 5 天翻倍到 $200 亿+：腾讯、阿里双双入场'). Today's Bloomberg piece adds the 20% stake detail but the substantive development (Tencent/Alibaba entering the round at $20B+ valuation) was already reported. The percentage figure is incremental, not a new development."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-24",
+      "title_en": "CNBC trial preview: Musk v. Altman jury selection begins April 27, 4-week trial",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-04-23 ('Musk v. Altman 周一开庭：$1340 亿索赔、要求罢免 Altman、撤销营利转换'). Today's CNBC piece is a near-trial preview that rehashes claims/witnesses already covered. Wait for actual courtroom developments."
+    },
+    {
+      "story_key": "google-turboquant-iclr2026",
+      "event_date": "2026-03-25",
+      "title_en": "Google's TurboQuant gets ICLR 2026 poster session April 25; 6x KV cache reduction at 3-bit",
+      "source": "Google Research",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying news (TurboQuant blog/paper) was March 25 — 31 days old, exceeds 5-day freshness window. The ICLR 2026 poster session today is a venue presentation, not a new development."
+    },
+    {
+      "story_key": "apple-ternus-succession",
+      "event_date": "2026-04-24",
+      "title_en": "Apple John Ternus reportedly preparing to succeed Tim Cook amid AI strategy challenges",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Story is too speculative and not concretely AI-pillar — succession reporting without concrete announcement, mostly recycles known Apple AI lag narrative. Skip until firmer development."
+    }
+  ]
+}

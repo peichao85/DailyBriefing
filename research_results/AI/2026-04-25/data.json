@@ -1,0 +1,139 @@
+{
+  "date": "2026-04-25",
+  "category": "AI",
+  "researched_at": "2026-04-25T07:05:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@karpathy",
+    "@julien_c", "@ScottWu46", "@alighodsi", "@JonathanRoss321",
+    "@lexfridman", "@garrytan", "@DrJimFan",
+    "Bloomberg", "TechCrunch", "CNBC", "Fortune", "Engadget", "9to5Mac",
+    "Hugging Face", "ICLR Blog", "Anthropic Engineering Blog"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Google 一笔 $400 亿砸向 Anthropic：Amazon 刚下 $250 亿仅过 4 天，Anthropic 同时被两大 cloud 双重押注、估值定 $3500 亿",
+      "source": "Anthropic / Google Cloud",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+      "story_key": "google-anthropic-40b-investment",
+      "event_date": "2026-04-24",
+      "summary": "Google 4 月 24 日宣布将向 Anthropic 注资最高 $400 亿美元——其中 $100 亿即时到账（按 **$3500 亿美元估值**），剩余 $300 亿与商业里程碑挂钩；同步签下 5 年 **5GW** Google Cloud 算力长约。距 Amazon $250 亿追加仅 4 天，Anthropic 成为史上首家同时被两大 hyperscaler 数百亿美元级别绑定的 AI 实验室。",
+      "detail": "Google parent Alphabet 4 月 24 日正式确认对 Anthropic 的最大单笔投资：**$100 亿美元现金即时入账**，按 **$3500 亿美元估值**；另 **$300 亿美元**与未明示的'商业里程碑'挂钩、分阶段拨付。作为对价，Google Cloud 承诺向 Anthropic 交付 **5 年 5GW** 计算容量，并保留'未来若干 GW 扩展'的选项。\n\n这是 4 月 20 日 Amazon 宣布对 Anthropic 追加最高 $250 亿美元（其中 $50 亿即时到账，Anthropic 承诺十年向 AWS 采购 $1000 亿+ 算力）之后**仅 4 天**。Anthropic 同时被 AWS 与 Google Cloud 两大 hyperscaler 用'股权 + 长约'方式深度绑定——AWS 锁 Trainium 芯片到 2030 年代，Google Cloud 锁定 TPU + 双方迁移路径。Anthropic 公司 run-rate 营收已突破 **$300 亿美元**，远高于 2025 年底的 $90 亿。\n\n这次注资的微妙处在于**Google 同时是 Anthropic 的客户、投资人、竞争对手**——Anthropic 的 Claude 是 Google Cloud 上的明星模型，但 Anthropic 与 Google 自己的 Gemini 在企业市场短兵相接。Bloomberg 评论 Google 此举 'spreads its AI bets'：与 Microsoft 把 OpenAI 当独门基石不同，Google 选择两条腿走路——既倾全力做 Gemini，又同时在 Anthropic 持有重大股权。",
+      "key_quotes": [
+        "Google will invest $10 billion now at a $350 billion valuation, with another $30 billion to follow if Anthropic hits certain performance targets.",
+        "Google Cloud has agreed to deliver five gigawatts of computing power to Anthropic across a five-year window."
+      ],
+      "significance": "Anthropic 成为**首家同时被 AWS + Google Cloud 数百亿股权 + 数千亿长约双重锁定**的 AI 实验室——这是 OpenAI / Microsoft 独占式绑定后，AI 基础设施竞争走出的新一种结构。两大 hyperscaler 同时'对冲式'押注 Anthropic 也意味着：在 OpenAI 之外建立一个独立可商用的前沿 AI 供应链，已成为 Big Tech 的战略共识；同时也把 Anthropic 估值的天花板进一步向 $5000-$8000 亿区间推高，距 Bloomberg 此前披露的'Anthropic 婉拒 $8000 亿估值'只剩一步。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+        "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+        "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+        "https://www.axios.com/2026/04/24/google-amazon-anthropic-investment"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Google", "Investment", "Cloud", "Compute", "Valuation"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "DeepSeek V4 突袭开源：1.6T MoE Pro + 284B Flash，1M token 上下文、KV cache 砍到 10%，每百万输入仅 $1.74",
+      "source": "DeepSeek",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "summary": "DeepSeek 4 月 24 日无预告同步推送 **V4 Pro（1.6T MoE，激活 49B）+ V4 Flash（284B）**，**1M token 上下文窗口**首次完全开源；自研'Hybrid Attention Architecture'（CSA + HCA）让 1M 上下文场景下推理 FLOPs 降至 27%、KV cache 降至 10%。API 价格 **$1.74 / $3.48 per 1M tokens**，权重以 MIT 协议放上 Hugging Face。",
+      "detail": "DeepSeek 在 4 月 24 日没发任何预热的情况下，把 V4 Preview 同步上线官方 API、发布技术报告、开源权重至 Hugging Face：\n\n**两款 SKU 同步亮相：**\n- **V4-Pro**：1.6 万亿参数 MoE、每 token 激活 49B、原生 **1M token 上下文窗口**；\n- **V4-Flash**：2840 亿参数稠密版本，性价比向小型团队 / 端侧推理。\n\n**Hybrid Attention Architecture** 是技术报告核心创新——把 **Compressed Sparse Attention（CSA）** 与 **Heavily Compressed Attention（HCA）** 串联组合：在 1M token 上下文下，单 token 推理 FLOPs 仅为 V3.2 的 **27%**、KV cache 仅为 **10%**。这意味着同样硬件可以容纳约 10× 用户并发或上下文长度，是 long-context agentic 工作流被实际部署的关键节点。\n\n**基准与定价**：MMLU 88.4%、Humanities-X 92.1%——技术报告称匹配或略超 GPT-5 与 Claude 4 Opus 此前同季水平。API 定价 **$1.74 / $3.48 per 1M tokens（输入 / 输出）**——比 Claude Opus、GPT-5.5 同档便宜 5-10×；权重以 **MIT 协议** 全量开源。Tencent + Alibaba 数日前开始的 $200 亿+ 估值融资谈判，由此被推上更高议价位。",
+      "key_quotes": [
+        "DeepSeek-V4-Pro requires only 27% of single-token inference FLOPs and 10% of KV cache compared with DeepSeek-V3.2 at the 1M-token context setting.",
+        "We are pushing the 1 million-token context window — a leap that allows entire codebases or long documents to be sent as a single prompt."
+      ],
+      "significance": "V4 解决的是**真正使长上下文 agentic 工作流可经济部署**的工程问题——不是把上下文窗口从 32K 推到 128K 这种边际改进，而是 1M token 场景下 KV cache 砍 10× 的结构突破。在 GPT-5.5 与 Claude Opus 4.7 都在闭源端涨价的当周，DeepSeek 用 MIT 协议把同档能力以 1/5 - 1/10 价格放出——这是中国开源阵营从'追赶'转向'定义价格底线'的标志，也是 OpenRouter 上中国模型连续 5 周以 4:1 token 消费量碾压美国模型的根本驱动。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+        "https://api-docs.deepseek.com/news/news260424",
+        "https://huggingface.co/blog/deepseekv4"
+      ],
+      "image": "img/deepseek-logo.png",
+      "image_type": "logo",
+      "tags": ["DeepSeek", "Open Source", "MoE", "Long Context", "China"],
+      "category": "research"
+    },
+    {
+      "id": "3",
+      "title": "Claude 把自己变成 super-app 'front door'：一次接 16 款消费级 App——Spotify / Uber / Instacart / TurboTax / Booking 全在内",
+      "source": "Anthropic",
+      "source_name": "Engadget",
+      "source_url": "https://www.engadget.com/ai/claude-can-now-connect-to-spotify-instacart-and-alltrails-225510552.html",
+      "story_key": "anthropic-claude-app-connectors",
+      "event_date": "2026-04-24",
+      "summary": "Anthropic 4 月 24 日给 Claude 端到端打通 **16 款消费级 App**——含 Spotify、Uber、Uber Eats、Instacart、TurboTax、Credit Karma、AllTrails、Audible、Booking.com、Resy、StubHub、Taskrabbit、Thumbtack、TripAdvisor、Viator——实质把 Claude 从'写文章/写代码'专业助手扩展为日常消费 super-app 'front door'，所有 Claude plan 全开放。",
+      "detail": "Anthropic 4 月 24 日把 Claude 的'connectors'目录从企业 SaaS（GitHub、Notion、Slack 等）一次性向消费端扩张：用户在 settings → connectors 直接连接 16 款日常 App，Claude 在对话过程中根据上下文自动建议合适动作。\n\n首批入选的 16 款服务：\n- 出行 / 本地：**Uber、Uber Eats、Resy、AllTrails**\n- 内容 / 娱乐：**Spotify、Audible、StubHub**\n- 购物 / 餐饮：**Instacart、Taskrabbit、Thumbtack**\n- 旅行 / 住宿：**Booking.com、TripAdvisor、Viator**\n- 财务 / 报税：**Intuit TurboTax、Intuit Credit Karma**\n\n**关键产品语义**：Claude 不是被动'查询' App 的内容——它会主动'建议并接力'：用户聊到周末徒步，Claude 同时调起 AllTrails 找路线、Spotify 排播放列表、Uber 安排接送、Resy 订晚餐。**任何'下单 / 付款 / 预订' 类操作 Claude 都会先二次确认**，且消费端数据不进训练集、单 App 不互通历史。功能在 Free / Pro / Max 全 plan 同步上线。",
+      "key_quotes": [
+        "Once connected, Claude can surface relevant app-based actions or information within conversations.",
+        "User data from connected apps is not used to train its models, and individual apps do not have access to conversations outside their specific interactions."
+      ],
+      "significance": "这是 Claude 第一次走出'代码 / 写作 / 知识工作'专业边界，正面进入 ChatGPT 在消费端深耕一年多的赛道，也是 OpenAI 'Apps in ChatGPT' 体系的直面对标。从产品层面看，Anthropic 同时做了两件事：（1）把 Claude 卡位为'一个对话式入口管所有日常 App'，把 super-app 模型从中国（微信 / 支付宝）搬到美国市场；（2）以隐私保护策略（数据不训练、跨 App 不互通）正面对比 ChatGPT 的广告化路线，争取那批担心商业化模型的用户。配合本周 Google $400 亿与 Amazon $250 亿的双重输血——Anthropic 第一次有了消费端业务的现金底气。",
+      "links": [
+        "https://www.engadget.com/ai/claude-can-now-connect-to-spotify-instacart-and-alltrails-225510552.html",
+        "https://9to5mac.com/2026/04/24/spotify-isnt-the-only-service-now-integrated-with-anthropics-claude/",
+        "https://www.digitaltrends.com/computing/tired-of-gemini-and-chatgpt-claude-now-has-your-back-with-spotify-uber-and-more-connectors/",
+        "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-turns-claude-into-a-front-door-for-daily-apps/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude", "Connectors", "Consumer", "Super-App"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic 终于公开 Claude Code 三处真实 bug：March 4 推理预算被砍 / March 26 缓存 bug / April 16 系统 prompt 限到 25 字",
+      "source": "Anthropic Engineering",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/04/24/anthropic-engineering-missteps-claude-code-performance-decline-user-backlash/",
+      "story_key": "anthropic-claude-code-postmortem",
+      "event_date": "2026-04-24",
+      "summary": "Anthropic 4 月 24 日发布工程 postmortem，正面承认 Claude Code 过去一个月的'变笨'是三起真实工程事故叠加：**3 月 4 日**默认推理预算被悄悄下调；**3 月 26 日**一处缓存 bug 导致模型调用时丢弃推理历史；**4 月 16 日**一项系统 prompt 改动把工具调用之间的回复字数硬性限制在 25 字。三项均已于 4 月 20 日全部修复，API 全程未受影响。",
+      "detail": "Anthropic 4 月 24 日由工程负责人在 Fortune / TechBriefly / Dataconomy 同步发声，第一次完整披露 Claude Code 过去一个月被社区指责'变笨'的根因——并非传闻中的'故意降智 / 节省算力'，而是三起独立工程事故的叠加：\n\n1. **March 4**：默认 reasoning effort（思考预算）被悄悄下调，导致 chain-of-thought 步骤变浅；\n2. **March 26**：一项缓存层 bug 让模型在跨 tool call 时**丢弃推理上下文**——这是用户反映 Claude Code'失忆 / 执行不连贯'的最直接原因；\n3. **April 16**：一项系统 prompt 改动把每次 tool call 之间的文字回复**硬性限制在 25 字以内**，让 IDE 体验里的 Claude 显得'惜字如金、敷衍'。\n\n**所有三处问题在 4 月 20 日前已全部修复**；**API 直接调用全程不受影响**——只有 Claude Code 客户端用户被命中。Anthropic 同时再次否认存在'故意降低 Pro 用户模型质量'的市场猜测。这一 postmortem 配合 4 月 22 日的 Pro 订阅 flip-flop 事件构成本周第二次紧急公关行动。",
+      "key_quotes": [
+        "We acknowledge engineering missteps were behind the decline in Claude Code's performance over the past month.",
+        "All three issues were resolved as of April 20. The API was unaffected throughout."
+      ],
+      "significance": "这是 Claude Opus 4.7 / Code 系列 4 月以来连续两轮危机公关后的第一次**正式技术披露**——也是 Anthropic 在 Google $400 亿 + Amazon $250 亿 + IPO 临近三重压力下，被迫从'静默更新'转向**透明工程沟通**的关键转折。对开发者社区的具体含义：（1）'Claude 变笨'不是阴谋而是真实工程事故，社区直觉是对的；（2）API 用户没有被影响，Pro 用户与 Code 客户端用户才是受害方——意味着 Anthropic 的 release engineering 在新订阅形态上仍有薄弱环节；（3）事后透明披露三处具体 bug 的做法，给同行（OpenAI / Google）施加了披露压力。",
+      "links": [
+        "https://fortune.com/2026/04/24/anthropic-engineering-missteps-claude-code-performance-decline-user-backlash/",
+        "https://techbriefly.com/2026/04/24/anthropic-resolves-claude-code-bugs-after-nerfing-allegations/",
+        "https://dataconomy.com/2026/04/24/anthropic-denies-intentional-slowdown-of-claude-code/"
+      ],
+      "tags": ["Anthropic", "Claude Code", "Postmortem", "Engineering", "Transparency"],
+      "category": "product_operators"
+    },
+    {
+      "id": "5",
+      "title": "ICLR 2026 揭晓 Outstanding Papers：'Transformers are Inherently Succinct'拿下理论最高荣誉——首次把 Transformer 表达力定量框死",
+      "source": "ICLR Program Chairs",
+      "source_name": "ICLR Blog",
+      "source_url": "https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/",
+      "story_key": "iclr-2026-outstanding-papers",
+      "event_date": "2026-04-23",
+      "summary": "ICLR 2026 4 月 23 日在 Rio de Janeiro 公布 Outstanding Papers——共 2 篇：**'Transformers are Inherently Succinct'**（Bergsträßer / Cotterell / Lin）从形式语言理论给 Transformer 表达力定量边界、首次正面解释了'为什么 Transformer 比 RNN 强'；另一篇专注多轮 LLM 评测，构建了对真实 deployment 场景更贴近的 benchmark 框架。会议持续至 4 月 27 日。",
+      "detail": "ICLR 2026 是连续第三年作为 NeurIPS / ICML 之后的全球第三大 ML 旗舰会议，4 月 23-27 日在巴西 Rio de Janeiro 的 Riocentro 举行。Outstanding Paper Committee 4 月 23 日揭晓本届年度最佳论文：\n\n**Outstanding Paper #1 — 'Transformers are Inherently Succinct'**（Pascal Bergsträßer / Ryan Cotterell / Anthony Widjaja Lin）：从**形式语言与计算理论**视角给 Transformer 表达力建立首个 succinctness 形式化框架——证明 Transformer 在描述某些概念（特别是层级化、有选择性结构的语言）时比 RNN / Markov 链等替代架构具有可证明的'指数级简洁'。这是过去 8 年关于'为什么 Transformer 工作'的诸多解释中**第一个被顶级会议正式背书的理论**。\n\n**Outstanding Paper #2** — 多轮 LLM 评测论文：指出'当前 LLM 训练数据的统计分布与真实 deployment 时的多轮交互分布有显著 dissonant gap'，并设计了一套可扩展、贴近真实使用场景的多轮评测方法论，发现已有强模型在多轮场景下表现下滑明显。\n\n本届 ICLR 共录用 **3,500+ 篇论文**（接收率 31.4%），同步亮相的还有 Google TurboQuant（4 月 25 日 poster）、DeepMind RNN 大规模训练新架构、SSM 改进、单图 3D 场景重建、新蛋白结构预测等代表性工作。",
+      "key_quotes": [
+        "Transformers are inherently succinct compared to alternative models such as RNNs.",
+        "There is a dissonant gap between most of the data used for LLM training and how they are deployed."
+      ],
+      "significance": "这次 Outstanding Paper 选择有两层信号意义：（1）**理论 ML 重新被推到聚光灯下**——过去 5 年 ICLR 顶奖几乎被 scaling / agent 工程论文垄断，2026 年首奖给了一篇形式语言理论文章，意味着社区对'为什么 Transformer 行'的理论解释焦虑达到顶点；（2）**多轮评测研究上桌**——主流 benchmarks（MMLU、GSM8K）几乎都是单轮，而所有 agent 落地场景都是多轮，这是 2025-2026 年学界对'benchmark 失真'的集体反弹。两篇 Outstanding Papers 共同把 2026 年下半年研究方向引向：理论可解释性 + 多轮交互评测。",
+      "links": [
+        "https://blog.iclr.cc/2026/04/23/announcing-the-iclr-2026-outstanding-papers/",
+        "https://iclr.cc",
+        "https://www.paperdigest.org/2026/04/iclr-2026-papers-with-code-data/"
+      ],
+      "tags": ["ICLR", "Research", "Transformers", "Benchmarks", "Theory"],
+      "category": "research"
+    }
+  ]
+}
