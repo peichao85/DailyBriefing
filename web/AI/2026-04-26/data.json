@@ -1,0 +1,114 @@
+{
+  "date": "2026-04-26",
+  "category": "AI",
+  "title": "Anthropic 把 Claude 推上 $4000 真钱 agent-to-agent 市场实测——强模型用户多赚 $2.68/件、弱模型用户'输了都不知道'；Musk 开庭前夜砍掉 24 项指控、撤回全部欺诈罪名，$1340 亿索赔仍在桌面、周一 Oakland 选陪审团；DeepSeek V4 把 NVIDIA 排出门外，只给 Huawei / Cambricon 早期优化窗口、Ascend 950 supernode 已正式跑通 V4；xAI 静悄悄把 Grok Auto / Expert 两档对免费用户灰掉——4 月 21 日大停摆 4 天后第一道'变现修复'",
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic 把 Claude 放进自家公司跑'真钱真货'交易实验：69 名员工 / 186 单 / $4000——首份 Agent-to-Agent 商业实证报告，强模型用户多赚 $2.68/件、弱模型用户'输了都不知道'",
+      "source": "Anthropic",
+      "source_name": "Anthropic Blog",
+      "source_url": "https://www.anthropic.com/features/project-deal",
+      "story_key": "anthropic-project-deal-marketplace",
+      "event_date": "2026-04-24",
+      "summary": "Anthropic 4 月 24 日公开 **'Project Deal'**：在自家旧金山办公室搞了一周封闭式 Craigslist——每位参与员工拿 **$100** 礼品卡预算、由 Claude 全权代理在 500+ 物品中讨价还价，**全程不询问人类**。最终 **69 名员工的 agent 自主达成 186 笔交易、总额 $4,000+**；同步 A/B 实验显示，被 Opus 代理的卖家**每件多收 $2.68**、买家**每件少花 $2.45**、总成交多 2.07 单——而被弱模型代理的人**没有一个察觉自己被'吃了'**。",
+      "detail": "Project Deal 把 Claude 第一次推上'真金白银的代理人'位置——Anthropic 先在 2025 年 12 月由 Claude 一对一访谈员工，问出每个人愿意卖什么、可能想买什么；然后把每位员工的预算（$100 礼品卡）和偏好交给一个独立 agent，agent 之间在内部市场中**自主撮合、出价、还价、敲单**，全程没有对话弹回给人类确认。\n\n规则上没有任何预制的协议——没有规定的报价语法、没有强制的拍卖机制、没有'保留价格'底线。所有的撮合都在自然语言中完成，每个 agent 自行决定何时让步、何时坚持。一周后，**69 个 agent 在 500+ 件挂单中达成 186 笔交易，总成交额刚过 $4,000**；46% 的参与者在事后调查里表示**愿意为这种代理服务付费**。\n\n真正具有研究意义的是平行的 A/B 对照实验：Anthropic 在受控条件下让一部分用户被 **Claude Opus（旗舰）** 代理、另一部分被较弱模型代理。结果非常一致——Opus 卖家**平均每件多收 $2.68**、Opus 买家**平均每件少花 $2.45**、Opus 用户**总成交单数多 2.07 单**。Anthropic 在博客中点名指出最不寻常的发现：\"people on the losing end might not realize they're worse off\"——**被弱模型代理的人在事后调查里普遍认为成交结果是'公平的'，没有意识到自己处于结构性劣势**。\n\nAnthropic 把这件事称作 **'agent quality gap'**：当代理人的智力差距被嵌入到日常商业交互中，市场上会出现一种新的、**当事人无法察觉的隐性福利再分配**。这是首份由前沿实验室公开发布、带有真实交易数据的 agent-to-agent 商业实验报告——为正在迅速成型的 agentic commerce 协议层（Google AP2、Coinbase x402、Stripe 标准草案）提供了第一手实证基础。",
+      "key_quotes": [
+        "In short, this worked. Our digital barterers agreed on 186 deals, at a total transaction volume of over $4,000.",
+        "people on the losing end might not realize they're worse off",
+        "Opus-represented sellers earned $2.68 more per item on average, while buyers saved $2.45 per item, and Opus users completed approximately 2.07 more deals overall."
+      ],
+      "significance": "这是头部前沿实验室第一次发布**带真实交易数据**的 agent-to-agent 商业实验报告，把 agentic commerce 从协议草案推到'实测有效'阶段。最具杀伤力的发现不是 186 笔交易本身——是**模型质量差距会在用户无感知的情况下转化为可量化的财富转移**，这意味着未来'用谁家 agent 替你买卖'将成为一个**你看不见、但持续吃亏**的核心选择。监管者、消费者保护机构与协议设计者第一次拿到了量化数据——agent commerce 的'公平性'问题不再是抽象哲学，而是 $2.68/件的现实差额。",
+      "links": [
+        "https://www.anthropic.com/features/project-deal",
+        "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+        "https://the-decoder.com/anthropic-says-stronger-ai-models-cut-better-deals-and-the-losers-dont-even-notice/",
+        "https://cybersecuritynews.com/claude-ai-agents-close-deals/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude", "Agent Commerce", "Project Deal", "AI Agents", "Research"],
+      "category": "research"
+    },
+    {
+      "id": "2",
+      "title": "Musk 法庭前夜砍掉 24 项指控、撤回所有'欺诈'罪名：26 项诉求只剩'不当得利 + 慈善信托违约'两条——周一 Oakland 开庭，$1340 亿索赔仍在桌面",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-25/musk-drops-fraud-claims-against-openai-altman-ahead-of-trial",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-25",
+      "summary": "美国加州北区联邦地方法院法官 **Yvonne Gonzalez Rogers** 4 月 25 日（周五）批准 Elon Musk 的'精简案件'申请——Musk 主动撤回**全部欺诈指控（fraud claims）**，并放弃 2024 年 11 月起诉时 26 项诉求中的 24 项。开庭前最后一个工作日，案件被压缩到只剩 **'不当得利（unjust enrichment）+ 违反慈善信托（breach of charitable trust）'两条核心诉求**——但 **$1340 亿美元索赔金额、罢免 Sam Altman、撤销 OpenAI 营利转换**三大终极诉求**仍在桌面**。陪审团选任 4 月 27 日（周一）在 Oakland 联邦法庭启动。",
+      "detail": "**新进展**：4 月 25 日下午，Musk 律师团向法庭递交修订诉状，主动撤回针对 OpenAI、Sam Altman、Greg Brockman 的**全部欺诈类指控**——包括最具杀伤力的'故意虚假陈述'与'共谋欺诈'。法官 Yvonne Gonzalez Rogers 当天即批准请求，案件从原 26 项诉求**精简至 2 项**：**unjust enrichment（不当得利）** 与 **breach of charitable trust（违反慈善信托）**。\n\nMusk 此举的策略含义清晰：**欺诈类指控举证门槛最高（需证明明知 + 故意），保留它们意味着 jury 可能在更具体的争点上失分**；放弃后，剩下的两项更容易在事实层面证明——只要陪审团认为 OpenAI 当初的捐款被以非慈善目的使用、或核心创始人因此私人获益，赔付义务就可成立。Musk 仍在向陪审团索赔 **$1340 亿美元**（要求全部注入 OpenAI 的慈善非营利部分），并继续要求**罢免 Sam Altman、撤销 OpenAI 的营利转换**——这两项才是 Musk 的真实战略目标，而非金钱。\n\n**程序时间表**：周一（4 月 27 日）启动陪审团选任，正式审理预计在选任完成后的同一周内开始。Sam Altman、Greg Brockman、Sundar Pichai、Satya Nadella 均在出庭证人名单上。Musk 方亦表示 Musk 本人将亲自出庭作证。\n\n**背景回顾：** 4 月 23 日 Washington Post 独家报道案前阶段：Musk 起诉 Altman / OpenAI / Brockman 称其背叛 OpenAI 创立时'永久非营利'承诺，索赔 $1340 亿、要求罢免 Altman、撤销营利转换。",
+      "key_quotes": [
+        "the case has been streamlined to two claims to proceed to trial — unjust enrichment and breach of charitable trust",
+        "Musk is seeking as much as $134 billion in damages that he has asked be directed to OpenAI's charitable arm"
+      ],
+      "significance": "撤销欺诈指控让案件'更窄但更锋利'：Musk 放弃了最难证明的部分，把战场集中到 jury 最容易理解的'OpenAI 拿了慈善捐款却走向私人盈利'叙事——这恰恰是普通陪审员凭直觉就能判定的故事。$1340 亿索赔与'罢免 Altman + 撤销营利转换'的核心诉求**完整保留**，意味着即便胜诉规模缩水，Musk 仍可拿到针对 OpenAI 治理结构的法庭命令。对 OpenAI 即将启动的 IPO（计划 Q4 2026、目标 $1 万亿估值）而言，本案的任何不利裁决都可能直接打断上市窗口——这是 Altman 上市路线图上未被定价的最大变量。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-25/musk-drops-fraud-claims-against-openai-altman-ahead-of-trial",
+        "https://fortune.com/2026/04/25/elon-musk-fraud-claims-openai-sam-altman-trial/",
+        "https://www.cnbc.com/2026/04/24/musk-v-altman-trial-openai-lawsuit-xai.html",
+        "https://www.washingtonpost.com/technology/2026/04/23/musk-altman-lawsuit-trial-openai/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["Musk", "OpenAI", "Sam Altman", "Trial", "Lawsuit", "Legal"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "DeepSeek V4 把 NVIDIA 排出门外：Huawei Ascend 950 supernode 已正式跑通 V4，Reuters 实锤——Cambricon / Huawei 拿到独家早期优化窗口、NVIDIA 被技术'断电'",
+      "source": "Reuters",
+      "source_name": "Reuters",
+      "source_url": "https://fortune.com/2026/04/24/deepseek-v4-ai-model-price-performance-china-open-source/",
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-25",
+      "summary": "DeepSeek V4 发布后数小时，**Huawei 官方确认 V4 已被其 Ascend 950 supernode 集群完全支持**，且**自家 Ascend 芯片承担了 V4-Flash 的部分训练**。同日 **Reuters** 跟进独家报道：DeepSeek 这次**只对 Huawei、Cambricon 等中国本土芯片厂开放 V4 早期优化窗口，主动把 NVIDIA 与其他西方硅厂排除在外**——与去年 V3 时代'与 NVIDIA 工程团队紧密协作'的做法形成 180° 翻转。Ascend 950 supernode 量产铺开后（2026 H2），V4-Pro 推理 API 价格将进一步下调。",
+      "detail": "**新进展**：4 月 25 日 Huawei Compute 官方账号在 V4 preview 推送后**几小时内**确认：V4 的 Pro 与 Flash 两个版本均**已在 Ascend 950-based supernode 集群上完整支持**，且**Ascend 自研芯片承担了 V4-Flash 训练流水线中的一部分计算**。Huawei 同时披露——一旦 Ascend 950 supernode 在 2026 下半年完成大规模量产部署，**V4-Pro 的 API 价格还将出现一次显著下调**。\n\n**真正的政策性变化**来自 **Reuters** 同日的独家：与 V3 时代 DeepSeek '主动与 NVIDIA 工程团队紧密协作、为 H100 / H800 优化每一层算子'的做法相反，**V4 的早期优化窗口（pre-release access）只对 Huawei Ascend、Cambricon Siyuan 等中国本土加速器开放**——NVIDIA、AMD 与其他西方硅厂被**主动排除在外**。这意味着 NVIDIA 用户在拿到公开权重之前没有任何机会做内核级 fusion / 算子调优；当下用 H100 / H200 跑 V4 的吞吐与延迟会**显著落后于** Ascend 950 supernode 的 reference 实现。\n\n**为什么这是一次真正的策略转向**：DeepSeek 的 V3 把 NVIDIA 推上了'即使在出口管制下、中国 AI 仍要靠 NVIDIA'的叙事；V4 用同一个剧本反向操作——通过**只让中国本土硅厂参与早期 co-design**，把世界级开源模型的'最佳推理性能'锁定在 Huawei Ascend 上。配合 Ascend 950 supernode 的量产时间表（2026 H2），中国客户将首次拥有'最强开源模型 + 最强国产算力'的完整 stack，**绕过 NVIDIA 整条供应链**。\n\n**背景回顾：** 4 月 24 日 DeepSeek 突袭开源 V4 Pro（1.6T MoE 激活 49B）+ V4 Flash（284B），1M token 上下文窗口首次完全开源；API $1.74 / $3.48 per 1M tokens，权重以 MIT 协议放上 Hugging Face。",
+      "key_quotes": [
+        "Huawei said its chips were used in some of the V4's training process",
+        "Reuters reported that DeepSeek had not shared its new model with U.S. chipmakers for performance tuning, instead granting early access to domestic companies such as Huawei",
+        "After the Ascend 950 supernodes are mass-produced and deployed in the second half of the year, the price of the Pro version will also reduce significantly."
+      ],
+      "significance": "这是中国 AI 软硬件 stack 第一次完成一次**带攻击性的 vertical lock-in**——不是被动受出口管制压迫，而是**主动放弃 NVIDIA 兼容性、把开源王者锁定到国产硅上**。短期意义：用 H100 跑 V4 的客户将面对持续的性能落差；中期意义：当 Ascend 950 supernode 量产铺开，'用国产芯片跑顶级开源模型'第一次成为可量化的现实选择，对 NVIDIA 在中国 datacenter 市场的份额构成直接威胁。OpenAI 与 Anthropic 即便不开源，也将被迫面对一个客观事实——**世界上最强的开源 LLM 现在已经技术性脱钩 NVIDIA**。",
+      "links": [
+        "https://fortune.com/2026/04/24/deepseek-v4-ai-model-price-performance-china-open-source/",
+        "https://www.huaweicentral.com/ascend-ai-supernode-fully-supports-deepseek-v4-model-huawei/",
+        "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+        "https://www.manilatimes.net/2026/04/26/business/top-business/deepseek-unveils-new-ai-model-tailored-for-huawei-chips-as-china-pushes-for-tech-autonomy/2328596",
+        "https://techwireasia.com/2026/04/deepseek-v4-points-to-growing-use-of-huawei-chips-in-ai-models/"
+      ],
+      "image": "assets/logos/deepseek-logo.png",
+      "image_type": "logo",
+      "tags": ["DeepSeek", "Huawei", "Ascend 950", "NVIDIA", "China AI", "Open Source"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "xAI 静悄悄收紧 Grok 免费档：Auto / Expert 双档对非付费用户全面灰掉——4 月 21 日大停摆 4 天后第一道'变现修复'",
+      "source": "@elonmusk",
+      "source_name": "PiunikaWeb",
+      "source_url": "https://piunikaweb.com/2026/04/25/xai-quietly-locks-out-free-users-advanced-grok-models/",
+      "story_key": "xai-grok-paywall-restrictions",
+      "event_date": "2026-04-25",
+      "summary": "xAI 4 月 25 日**静悄悄、不发公告**地把 Grok 最强的两档——**Auto** 与 **Expert**——对所有非付费账号灰掉：免费用户在模型选择器里仍能看到这两个名字，但点击会被引导至订阅页。这一调整发生在 **4 月 21 日 Grok 大规模停摆的第 4 天**——彼时 xAI 把'容量过载'列为根因，承诺修复后没有任何动作；4 月 25 日的免费档收紧是 xAI 上线后**第一次正式收回非付费用户的高端模型权限**，也是 SpaceX $600 亿期权收购 Cursor 之后 Musk 系 AI 业务第一道'真金白银的现金流修复'。",
+      "detail": "**事件本身**：4 月 25 日凌晨开始，海外用户在 X / Reddit 报告 Grok 的模型选择器里 **Auto** 与 **Expert** 两档变成灰色——免费账号可以点击但无法选中，弹窗引导到 SuperGrok（$30/月）或 SuperGrok Heavy（$300/月）订阅页。xAI 官方账号未发任何公告，Help Center 页面也未更新，**只在 pricing 页底部多了一行'Auto and Expert routing requires a SuperGrok plan'的小字**。\n\n**背景**：4 月 21 日上午 EDT，Grok 出现大面积故障——用户报告**无法发送对话、无法生成图像、Grok Imagine 视频生成完全停摆**。xAI 把根因列为'容量过载（capacity overload）'，并预告会在数日内修复。但截至 4 月 24 日，问题**仍未恢复正常**——许多用户开始转向 ChatGPT 与 Claude。4 月 25 日的免费档收紧，本质上是 xAI 用'**砍掉一半免费需求**'来腾出 GPU 容量给付费用户的应急手段。\n\n**与 Musk 系战略的关联**：4 月 21 日 SpaceX 用 $600 亿期权 + $100 亿合作金锁死 Cursor，被市场广泛解读为'Musk 承认 xAI 在 coding 赛道无法独立突围'。短短 4 天后 xAI 又通过收紧免费档来挤出现金流——两个动作同步指向同一个判断：**Grok 业务自由现金流不足以支撑当前用户增长曲线**，必须靠收购（Cursor）+ 削减免费补贴（Auto / Expert paywall）双线修复。Musk 本人在 4 月 25 日仅在 X 上发布一句'Grok is getting faster and smarter every week'，未对收紧免费档发表评论。",
+      "key_quotes": [
+        "xAI has put the best parts of its Grok chatbot behind a paywall, with free users finding their options severely restricted",
+        "the platform graying out its Auto and Expert models for non-paying accounts",
+        "Grok is getting faster and smarter every week — Elon Musk"
+      ],
+      "significance": "Grok 上线 18 个月以来一直以'全免费 + 全模型'对抗 ChatGPT 免费档，4 月 25 日是 xAI **第一次正式收回非付费用户高端权限**——这意味着 xAI 把'用免费档抢市场份额'的早期路线判定为不可持续。配合 4 月 21 日 SpaceX 出 $600 亿期权'救援' Cursor，Musk 系 AI 业务在一周内连出两记'承认现实'的动作：**xAI 既没有足够的 GPU 容量、也没有足够的 coding 模型质量去独立竞争**。短期对 Grok 用户体验是直接打击，中期对前沿 LLM 竞争格局意味着**只剩 OpenAI、Anthropic、Google 三家有能力维持完整免费档**。",
+      "links": [
+        "https://piunikaweb.com/2026/04/25/xai-quietly-locks-out-free-users-advanced-grok-models/",
+        "https://www.ibtimes.com/grok-service-outages-spark-frustration-2026-xai-struggles-explosive-demand-3801803",
+        "https://www.washingtonpost.com/business/2026/04/22/spacex-cursor-xai-grok-ai-coding/6a0b48d2-3e5c-11f1-bb46-ed564688d953_story.html"
+      ],
+      "image": "assets/logos/grok-logo.png",
+      "image_type": "logo",
+      "tags": ["xAI", "Grok", "Elon Musk", "Pricing", "AI Pricing"],
+      "category": "product_operators"
+    }
+  ]
+}

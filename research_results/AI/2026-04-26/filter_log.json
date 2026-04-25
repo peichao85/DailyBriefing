@@ -1,0 +1,107 @@
+{
+  "date": "2026-04-26",
+  "total_candidates": 11,
+  "kept": 4,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "anthropic-project-deal-marketplace",
+      "event_date": "2026-04-24",
+      "title_en": "Anthropic publishes Project Deal: 69 employees + Claude agents transact $4,000 across 186 deals",
+      "source": "Anthropic Blog / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First documented agent-on-agent commerce trial at scale by a frontier lab; Anthropic published Project Deal April 24 detailing 69 employees with $100 budgets, 500+ listings, 186 closed deals at $4k+ value, plus the finding that more advanced models extract better outcomes ($2.68/item more for sellers, $2.45/item less for buyers) without losers noticing."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-25",
+      "title_en": "Musk drops 24 of 26 claims, including all fraud allegations, on eve of OpenAI trial",
+      "source": "Bloomberg / Fortune",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 2026-04-23 with title about $134B claim and demand to reinstate Altman / undo for-profit conversion. New info on April 25: Judge Yvonne Gonzalez Rogers granted Musk's request to streamline the case, fraud claims withdrawn, only unjust enrichment + breach of charitable trust remain. Trial / jury selection begins Monday April 27 in Oakland. Substantive new development."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-25",
+      "title_en": "DeepSeek V4 confirmed running on Huawei Ascend 950 supernode; Reuters reports DeepSeek gave Chinese chipmakers exclusive early-optimization access, denied NVIDIA",
+      "source": "Reuters / Fortune / MIT Tech Review",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 2026-04-24 covering the model release / pricing / 1M context. New info April 25-26: Huawei officially confirmed V4 fully supported on Ascend 950 supernode clusters and used for part of Flash training; Reuters scoop that DeepSeek deliberately gave Chinese chipmakers (Huawei, Cambricon) early optimization access while denying that window to NVIDIA and other Western silicon. Major geopolitical / supply chain story shift."
+    },
+    {
+      "story_key": "xai-grok-paywall-restrictions",
+      "event_date": "2026-04-25",
+      "title_en": "xAI quietly locks free Grok users out of Auto and Expert models after 4-day outage",
+      "source": "PiunikaWeb / IBTimes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. After widespread Grok outage starting April 21 that lasted into April 24, xAI quietly removed access to its best Auto and Expert models for free-tier users on April 25, graying them out in the model picker. Distinct from prior xai-grok43-release coverage which was about the model itself, not access tier changes."
+    },
+    {
+      "story_key": "openai-sora-shutdown",
+      "event_date": "2026-04-26",
+      "title_en": "Sora app and web officially discontinued today",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Pre-announced March 24 and explicitly mentioned in our April 17 'openai-triple-exec-exit' briefing as 'Sora将于4月26日关停网页与App'. Today the timer expired; no new information beyond what was published. API still available until September 24."
+    },
+    {
+      "story_key": "google-anthropic-40b-investment",
+      "event_date": "2026-04-24",
+      "title_en": "Google's $40B Anthropic investment continues coverage",
+      "source": "AfterDawn",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-04-24 with full detail on $10B immediate / $30B milestone / 5GW Google Cloud deal."
+    },
+    {
+      "story_key": "tesla-q1-2026-earnings",
+      "event_date": "2026-04-24",
+      "title_en": "Tesla raises 2026 capex to $25B+ for FSD/Optimus/Robotaxi",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-04-22 covering Q1 earnings beat and Robotaxi 12-state commitment. Capex raise is a downstream financial detail in same earnings cycle, not a substantively new development."
+    },
+    {
+      "story_key": "google-cloud-next-agent-platform",
+      "event_date": "2026-04-22",
+      "title_en": "Google Cloud Next agent platform recap continues",
+      "source": "TheNextWeb",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-04-22 with full detail on Gemini Enterprise Agent Platform launch; recent coverage is recap."
+    },
+    {
+      "story_key": "anthropic-claude-app-connectors",
+      "event_date": "2026-04-24",
+      "title_en": "Anthropic 16 consumer app connectors continues",
+      "source": "Various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-04-24."
+    },
+    {
+      "story_key": "india-ai-summit-2026",
+      "event_date": "2026-02-19",
+      "title_en": "India AI Impact Summit 2026 retrospective",
+      "source": "Various",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Summit was held Feb 16-21 2026 — well outside the 5-day freshness window."
+    },
+    {
+      "story_key": "broadcom-anthropic-3.5gw-deal",
+      "event_date": "2026-04-14",
+      "title_en": "Broadcom 3.5GW chip supply deal with Anthropic",
+      "source": "Manufacturing Dive",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Deal disclosed earlier April; >5 days old (today − event_date = 12 days)."
+    }
+  ]
+}
