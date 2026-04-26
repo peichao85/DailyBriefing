@@ -1,0 +1,125 @@
+{
+  "date": "2026-04-27",
+  "total_candidates": 13,
+  "kept": 7,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-27",
+      "title_en": "Musk v Altman jury selection day 1 in Oakland with 9-juror, two-phase trial structure revealed",
+      "source": "CNBC / SF Standard / Reuters",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 04-23 (trial preview) and 04-25 (Musk drops fraud claims). Today: trial actually begins with jury selection. New procedural facts: 9 jurors no alternates, court Mon-Thu 8:30am-1:40pm, two-phase liability+remedies structure, jury verdict is advisory-only, expected through mid-May, each side gets ~20 hrs of trial time, Microsoft gets 5 hrs. These are substantively new operational facts not in prior coverage."
+    },
+    {
+      "story_key": "us-state-dept-china-ai-theft-cable",
+      "event_date": "2026-04-24",
+      "title_en": "US State Dept dispatches global diplomatic cable warning about Chinese AI labs distilling US models",
+      "source": "Reuters / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Cable dated April 24 instructs all diplomatic posts to raise concerns about DeepSeek/Moonshot/MiniMax extracting US AI models via distillation."
+    },
+    {
+      "story_key": "spacex-ai-first-ipo-filing",
+      "event_date": "2026-04-24",
+      "title_en": "SpaceX IPO pitch reveals AI-first pivot, $75B raise at $1.75T, xAI absorbed posted $6.4B operating loss",
+      "source": "Bloomberg / Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Bloomberg analysis April 24: SpaceX confidentially filed June IPO, pitches itself to investors as AI company with $28.5T TAM. xAI unit (absorbed Feb 2026) had $6.4B operating loss in 2025 with $12.7B capex. Different from cursor-acquisition-option (04-21) and tesla-2b-ai-hardware-acquisition (04-23)."
+    },
+    {
+      "story_key": "cohere-aleph-alpha-merger",
+      "event_date": "2026-04-24",
+      "title_en": "Canada's Cohere acquires Germany's Aleph Alpha to form sovereign AI giant; ~$20B Cohere valuation",
+      "source": "CNBC / Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Endorsed by both German + Canadian governments. Schwarz Group invests $600M in upcoming Cohere Series E. HQ Toronto + Berlin. Major sovereign-AI consolidation play."
+    },
+    {
+      "story_key": "white-house-fires-anthropic-alum",
+      "event_date": "2026-04-23",
+      "title_en": "Commerce Department fires Collin Burns from Center for AI Standards 4 days into job over Anthropic ties",
+      "source": "Washington Post",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New episode in Anthropic-WH tension series after anthropic-mythos-zerodays (04-19). Burns started Monday, was pushed out Thursday after WH hadn't been briefed; replaced by Chris Fall. Distinct from prior Mythos coverage — this is about a personnel decision, not Mythos itself."
+    },
+    {
+      "story_key": "openai-sora-shutdown-final",
+      "event_date": "2026-04-26",
+      "title_en": "OpenAI's Sora app/web actually shuts down; Disney $1B partnership ends",
+      "source": "Variety / OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from openai-triple-exec-exit (04-17) which previewed the date but did not cover the actual execution or the Disney $1B deal cancellation. Today the consumer app/web is actually offline, with Disney's $1B partnership/character-licensing deal collapsing. API remains live until Sept 24."
+    },
+    {
+      "story_key": "trump-ai-eo-missed-deadlines",
+      "event_date": "2026-04-24",
+      "title_en": "Trump's December AI executive order deadlines all blown — FTC/DOJ/NTIA actions overdue",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Three provisions due March 11 (FTC consumer-protection guidance, DOJ litigation task force, NTIA BEAD-funding policy notice) all past due more than a month. Raises doubts about state-AI-law preemption push."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek V4 weekend follow-up coverage",
+      "source": "Multiple",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 04-24 (V4 release + Huawei Ascend deal) and 04-25 (further Huawei/Ascend confirmation). Weekend coverage is just rehash with no substantive new developments."
+    },
+    {
+      "story_key": "anthropic-claude-ad-free",
+      "event_date": "2026-02-04",
+      "title_en": "Anthropic publishes 'Claude is a space to think', commits ad-free",
+      "source": "Anthropic blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Original post is February 4, 2026. April 21 medium articles are recap/republish, not new info. event_date 2026-02-04 is 82 days ago, far beyond 5-day limit."
+    },
+    {
+      "story_key": "perplexity-personal-computer-mac",
+      "event_date": "2026-04-16",
+      "title_en": "Perplexity launches Personal Computer for Mac (Mac mini always-on agent)",
+      "source": "MacRumors / 9to5Mac",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-16 is 11 days ago, beyond 5-day limit."
+    },
+    {
+      "story_key": "microsoft-mai-models-launch",
+      "event_date": "2026-04-02",
+      "title_en": "Microsoft launches three MAI in-house models",
+      "source": "TechCrunch / Microsoft AI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-02 is 25 days ago, beyond 5-day limit."
+    },
+    {
+      "story_key": "anthropic-managed-agents-launch",
+      "event_date": "2026-04-08",
+      "title_en": "Anthropic launches Claude Managed Agents in public beta",
+      "source": "SiliconAngle / Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-08 is 19 days ago, beyond 5-day limit."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk + OpenAI strategic partnership announcement",
+      "source": "CNBC / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 13 days ago, beyond 5-day limit."
+    }
+  ]
+}

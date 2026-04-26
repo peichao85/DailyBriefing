@@ -1,0 +1,198 @@
+{
+  "date": "2026-04-27",
+  "category": "AI",
+  "researched_at": "2026-04-27T07:05:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@ilyasut", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk",
+    "@JeffDean", "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@karpathy",
+    "@julien_c", "@ScottWu46", "@alighodsi", "@JonathanRoss321",
+    "@lexfridman", "@garrytan", "@DrJimFan",
+    "Reuters", "Bloomberg", "CNBC", "Washington Post", "TechCrunch", "Variety",
+    "Axios", "SF Standard", "Fortune", "The Information", "CNN",
+    "Anthropic", "OpenAI", "DeepSeek", "Cohere"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Musk v. Altman 周一 Oakland 正式开庭：9 名陪审员 / 无替补 / 周一至周四仅 5 小时——最终判决仅作'参考'，结果留给法官",
+      "source": "@elonmusk / @sama",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/24/musk-v-altman-trial-openai-lawsuit-xai.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-27",
+      "summary": "Musk v. Altman 案 4 月 27 日上午 8:30 在 Oakland 联邦法庭由法官 Yvonne Gonzalez Rogers 主持开庭并启动陪审团选任——9 名陪审员、无替补、每周一至周四仅开庭 5 小时（8:30am–1:40pm PT），双方各拿 ~20 小时陈述时间、Microsoft 单独 5 小时，全案预计审至 5 月中旬。最关键的程序变化：审判被一拆为二（liability 责任阶段 + remedies 救济阶段），陪审团仅参与责任阶段且其判决为 advisory（参考性），最终是否 unjust enrichment / breach of charitable trust 成立、要不要罢免 Altman、要不要撤销营利转换，全部由法官独立裁定。",
+      "detail": "**今天发生了什么。** 4 月 27 日（周一）上午 8:30，加州北区联邦地方法院 Judge **Yvonne Gonzalez Rogers** 在 Oakland 主持的 *Musk v. Altman et al.* 案件正式开庭。第一天全天用于 9 名陪审员的选任（voir dire），不设替补——任何一名陪审员中途退出都将直接削弱审判合法性。开庭安排为周一至周四、每天 8:30am 至 1:40pm PT、合计 5 小时，无周五开庭。双方在责任阶段各分配约 **20 小时**的陈述与盘问时间，Microsoft 作为关联方独立分到 **5 小时**。预计审判持续到 **2026 年 5 月中旬**。\n\n**程序结构是核心变量。** Gonzalez Rogers 法官将本案拆成两阶段：(1) **liability 阶段** 由陪审团聆讯，回答'是否构成 unjust enrichment（不当得利）或 breach of charitable trust（违反慈善信托）'；(2) **remedies 阶段**——若责任成立——由法官单独裁定救济措施。**关键限制：陪审团的判决是 advisory（参考性）、不具约束力**，意味着即便 9 人一致裁定 Altman / OpenAI 败诉，最终是否罢免 Altman、是否撤销营利转换、是否将 $1340 亿索赔判付 OpenAI 慈善实体，仍由法官独立判定。\n\n**作证名单已大致明确。** 预计出庭作证的核心证人包括 **Elon Musk、Sam Altman、Greg Brockman、Satya Nadella**——四人将逐一站上证人席。Musk 一方主张：OpenAI 把 2015 年成立时承诺的 nonprofit 信托结构悄然转换为以 Microsoft 商业利益为导向的 capped-profit 结构，构成对慈善宗旨的背叛与 Altman / Brockman 等创始人对自身职位与股权安排的不当得利。\n\n**背景回顾：** Musk 于 2024 年 11 月对 Altman / OpenAI / Brockman 提起 26 项诉求；4 月 25 日（开庭前最后一个工作日）主动撤回全部'欺诈'指控、案件被压缩到仅剩 unjust enrichment + breach of charitable trust 两条核心诉求；$1340 亿索赔与罢免 Altman 三大终极请求仍在桌面。",
+      "key_quotes": [
+        "Each side gets roughly 20 hours; Microsoft gets 5 hours.",
+        "Nine jurors, no alternates. The Court anticipates that jury selection will proceed all day.",
+        "The jury will weigh in during the liability phase only, and its verdict will be advisory."
+      ],
+      "significance": "陪审团'参考性判决'意味着这场被冠以'AI 世纪审判'的对决，最终命运握在一名法官手中而非 9 名公民手中——大幅降低了陪审团情绪化判决的杠杆，也让 Musk 一方'通过媒体造势影响陪审团、再借陪审团逼法官'的传统大型民事诉讼策略失效。同样关键的是程序的两阶段拆分：即便 OpenAI 在责任阶段败诉，是否真的被迫撤销营利转换、是否罢免 Altman，全部留给救济阶段由法官从公司治理与慈善信托法理出发独立裁量——这从根本上为 OpenAI 的营利转型保留了'即便输官司也能保住公司'的法律退路。",
+      "links": [
+        "https://www.cnbc.com/2026/04/24/musk-v-altman-trial-openai-lawsuit-xai.html",
+        "https://sfstandard.com/2026/04/24/elon-openai-trial/",
+        "https://fortune.com/2026/04/25/elon-musk-fraud-claims-openai-sam-altman-trial/",
+        "https://www.implicator.ai/musk-v-altman-trial-opens-monday-with-150-billion-and-openai-nonprofit-at-stake/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Elon Musk", "Sam Altman", "诉讼", "AI 治理"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "美国国务院发出全球外交照会：要求 180+ 使馆向所在国通报 DeepSeek / Moonshot / MiniMax 通过 distillation '萃取'美国 AI 模型",
+      "source": "@DeepSeek_AI",
+      "source_name": "Reuters",
+      "source_url": "https://www.cnbc.com/2026/04/25/us-global-warning-alleged-china-ai-theft.html",
+      "story_key": "us-state-dept-china-ai-theft-cable",
+      "event_date": "2026-04-24",
+      "summary": "美国国务院 4 月 24 日向全球外交、领事馆所发出 diplomatic cable（外交照会）正式确认：要求 180 多个驻外使馆主动向所在国对口部门通报'对手通过 distillation 技术 extraction 美国 AI 模型'的安全担忧——首次以**点名**形式同时列出 DeepSeek / Moonshot / MiniMax 三家中国头部 AI 公司。中国驻美使馆当日否认指控为'毫无根据'。",
+      "detail": "**今天发生了什么。** Reuters 4 月 25 日独家披露的国务院外部照会显示：4 月 24 日由 Foggy Bottom 总部发出的 cable，被同步分送至全球 180+ 美国驻外使馆与领事馆。照会指示外交人员主动与所在国对口安全 / 科技 / 贸易官员沟通，传达'对 adversaries' extraction and distillation of US AI models 的国家安全担忧'——并首次在政府机密通讯中**点名** DeepSeek、Moonshot AI（月之暗面）、MiniMax（稀宇科技）三家中国 AI 公司。\n\n**'distillation' 是这次外交动作的技术核心。** Cable 描述的核心担忧是：用更便宜的小模型，通过对大模型 API 的成千上万次 query 来'萃取'其能力——一种典型的 knowledge distillation 工程方法。这同时也是 OpenAI 自 2 月起向美国国会反复警告 DeepSeek '复制 ChatGPT 行为'的同一指控。\n\n**与 4 月 24 日 DeepSeek V4 发布日完美重合。** Cable 发出当天，正是 DeepSeek 公开 V4 Pro / V4 Flash 并由 Huawei Ascend 950 supernode 完整支持的同一日。同日 V4-Flash 训练任务也被披露由 Huawei 自家芯片承担——美国政府选择这个时点把 DeepSeek 同时列入'国家安全担忧名单'，时间链条不可能更紧。\n\n**北京当日反驳。** 中国驻美使馆 Liu Pengyu 发言人当日回复：'指控中国实体窃取美国 AI 知识产权毫无根据，是对中国 AI 产业进步的故意攻击。' 中国外交部 4 月 25 日跟进表态'攻击性指控、反对将 AI 政治化'。",
+      "key_quotes": [
+        "concerns over adversaries' extraction and distillation of US AI models",
+        "The allegations that Chinese entities are stealing American AI intellectual property are groundless",
+        "DeepSeek, Moonshot AI, and MiniMax (named in the cable)"
+      ],
+      "significance": "这是美国第一次把对中国 AI 的'国家安全担忧'升级为**全球性外交诉求**——而不再只是国内立法或出口管制层面的动作。Cable 通过 180+ 使馆向盟友与第三国施压，相当于把'封堵中国 AI 模型'的战场从硅谷与华盛顿延伸到欧洲、东南亚、中东、拉美的政府监管层。这一动作配合 4 月 24 日同日的 DeepSeek V4 发布、4 月 24 日 Cohere + Aleph Alpha 的 sovereign-AI 合并案，标志着 AI 已经成为继 5G、半导体、关键矿产之后**第四条系统性中美技术冷战正面战线**——而且首次把战火从制造端推向了模型权重本身。",
+      "links": [
+        "https://www.cnbc.com/2026/04/25/us-global-warning-alleged-china-ai-theft.html",
+        "https://www.malaymail.com/news/world/2026/04/25/us-state-dept-orders-global-warning-about-alleged-ai-thefts-by-deepseek-other-chinese-firms/217606",
+        "https://www.dawn.com/news/1995029/us-state-department-orders-global-warning-about-alleged-ai-theft-by-deepseek-other-chinese-firms"
+      ],
+      "image": "assets/logos/deepseek-logo.png",
+      "image_type": "logo",
+      "tags": ["国务院", "DeepSeek", "Moonshot", "MiniMax", "中美 AI 战", "外交"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "SpaceX IPO 招股书首次曝光：把自己卖成'AI 公司'，喊价 $1.75 万亿——但融资 $750 亿正是为了填 xAI 一年烧掉的 $64 亿 operating loss",
+      "source": "@elonmusk",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/04/24/at-spacex-ai-is-burning-the-cash-that-starlink-earns/",
+      "story_key": "spacex-ai-first-ipo-filing",
+      "event_date": "2026-04-24",
+      "summary": "Bloomberg 4 月 24 日独家：SpaceX 4 月 1 日已秘密提交 IPO 申请、目标 6 月挂牌——融资 **$750 亿美元 / 估值 $1.75 万亿美元**，将成为有史以来最大单笔 IPO（Saudi Aramco $290 亿的 2.5 倍以上）。招股书透露 SpaceX 已正式把自己重新定位为 **AI-first 公司**，可寻址市场 $28.5 万亿——但 2 月吸收的 xAI 业务部门 2025 全年 operating loss **$64 亿美元**、capex **$127 亿美元**，单单 xAI 一项就吃掉 Starlink 全年利润的全部增量。",
+      "detail": "**最新动作。** Bloomberg 4 月 24 日（同日 Reuters 跟进）披露 SpaceX 已于 **4 月 1 日**向 SEC 完成 IPO 保密提交。目标 **6 月挂牌**——即 OpenAI、Anthropic 之前。预计融资 **$750 亿美元**、估值 **$1.75 万亿美元**——若成真，将刷新 2019 年 Saudi Aramco $290 亿的全球最大 IPO 纪录、达 2.5 倍以上。\n\n**招股书的核心叙事：'SpaceX 不是火箭公司，是 AI 公司'。** Musk 团队在投资者推介书里把 SpaceX 的可寻址市场定义为 **$28.5 万亿美元**——其中绝大部分锁定在 'AI for businesses'。这是把 2 月并入的 xAI 业务、Starlink 卫星网络、未来卫星数据中心 constellation 三个故事合并讲成同一个 AI infrastructure 故事。\n\n**但财务数据揭穿了'AI 公司'故事的残酷一面。** 同一天 Bloomberg 跟进的财务分析显示：SpaceX 吸收的 xAI 业务 **2025 全年 operating loss = $64 亿美元、capex = $127 亿美元**——单单 xAI 一项的 capex 就超过了 SpaceX 火箭 + 卫星业务总和。同时 Starlink 业务 2025 年 operating income 翻倍至 **$44.2 亿美元**——刚好覆盖 xAI 的亏损，但已无任何余裕。SpaceX 全年 capex 同比翻倍、超过营收约 $20 亿美元；招股书警告：若投入与营收增速不变，公司可能在 IPO 后几年内**再次回到资本市场融资**。\n\n**$750 亿融资的真实用途。** 显而易见的市场判断是：这次 IPO 不是'胜利退出'，而是 Musk 找市场为 xAI 的烧钱速度续命。'SpaceX 用 $1.75 万亿估值卖自己'+'xAI 一年吞 $127 亿 capex'，加上 4 月 21 日 SpaceX 用 $600 亿期权锁定 Cursor，整个 Musk-AI 体系正在把 Starlink 火箭收入、IPO 融资、Cursor 期权三股现金流叠加，专门用来撑住一个尚未盈利的 frontier AI 实验室。",
+      "key_quotes": [
+        "SpaceX is bankrolling its push with revenue from rockets and satellites, leaving it with a cash-burn profile closer to a late-stage startup than a trillion-dollar incumbent.",
+        "The xAI unit SpaceX absorbed in February posted a $6.4 billion operating loss in 2025 and swallowed $12.7 billion of capital expenditure, more than rockets and satellites combined.",
+        "The company may have to return to the markets in a few years if capital spending growth continues to outpace that of revenue."
+      ],
+      "significance": "Musk 第一次让 SpaceX 在公开资本市场上完整暴露其 AI 业务的真实财务结构——这把 Anthropic（Google + Amazon $650 亿背书）、OpenAI（$3000 亿 ARR + IPO 路径）、SpaceX（$1.75 万亿 IPO + xAI 业务）三条 frontier AI 资本路径**第一次摆在投资者同一张桌子上比较**。Musk 选择'用 IPO 公开稀释'而非'继续 private round'，等于承认 xAI 的烧钱速度已经超过任何私募市场单轮可承接的体量。同时这也使得 OpenAI / Anthropic 各自的 IPO 节奏被动加速——三家 AI 巨头同年内 IPO 排期挤入同一窗口的'估值挤兑'风险首次成为现实。",
+      "links": [
+        "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/04/24/at-spacex-ai-is-burning-the-cash-that-starlink-earns/",
+        "https://www.cnbc.com/2026/04/01/spacex-confidentially-files-for-ipo-setting-stage-for-record-offering.html",
+        "https://www.fool.com/investing/2026/04/26/the-175-trillion-launch-is-spacexs-ipo-a-generatio/",
+        "https://www.technology.org/2026/04/24/spacex-targets-28-5-trillion-ai-market-in-record-breaking-ipo-filing/"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": ["SpaceX", "xAI", "Elon Musk", "IPO", "Starlink"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "4",
+      "title": "Cohere $200 亿估值同日并购德国 Aleph Alpha：加 / 德两国政府同声背书，第一家'跨大西洋 sovereign-AI'实验室成型",
+      "source": "Cohere",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html",
+      "story_key": "cohere-aleph-alpha-merger",
+      "event_date": "2026-04-24",
+      "summary": "加拿大 Cohere（CEO Aidan Gomez 是 *Attention Is All You Need* 共同作者）4 月 24 日宣布与德国 Aleph Alpha 合并——交易使 Cohere 估值锁定在约 **$200 亿美元**。德国零售寡头 Schwarz Group（Lidl 母公司、Aleph Alpha 主投资人）承诺向 Cohere 即将关闭的 Series E 注入 $6 亿美元；总部双轨：全球 HQ Toronto、欧洲 HQ Berlin。**德国与加拿大政府双双正式背书**——成为美中两极之外、第一家由两个 G7 政府共同认可的 sovereign-AI 实验室。",
+      "detail": "**今天发生了什么。** 4 月 24 日 Cohere 与 Aleph Alpha 同步发布合并公告——结合 Series E 融资同步完成后，Cohere 估值锁定在约 **$200 亿美元**。交易涉及股权置换 + Schwarz Group **$6 亿美元** 现金注入新一轮 Series E（预计 2026 年内关闭）。\n\n**合并后的双总部 + 双政府背书架构。** 全球总部仍设 Toronto，欧洲总部正式落 Berlin。德国联邦经济与气候保护部、加拿大工业部双双发表声明确认这是各自国家'AI 主权'战略的重要组成。Schwarz Group（Lidl / Kaufland 母公司、欧洲零售业最大私有企业之一）原本是 Aleph Alpha 在 2023 年 $5 亿轮的领投方，本次相当于'移仓'到 Cohere。\n\n**'sovereign AI'是这次合并的卖点。** Cohere 与 Aleph Alpha 都是面向**政府 + 受监管行业（金融、国防、能源、电信、医疗）**的 LLM 公司——相比面向消费者市场的 OpenAI / Anthropic，他们的核心承诺是'数据完整本地化、模型权重和训练数据可审计、不经过任何美国 hyperscaler 转码'。合并体声称将服务于'多极世界'——明确把自己定位为**美国 OpenAI / Anthropic 与中国 DeepSeek / Moonshot 之外的第三极**。\n\n**与同日国务院 cable 的时间巧合。** 同一天美国国务院发出指控 DeepSeek / Moonshot / MiniMax 萃取美国 AI 模型的全球外交照会——欧洲与加拿大刚好用 sovereign-AI 合并案给出'我们的答案不是选边站，是建第三极'。这两条新闻同日落地，在地缘 AI 格局中具有**直接呼应**意义。",
+      "key_quotes": [
+        "Cohere and Aleph Alpha are two trusted sovereign AI providers for governments and regulated industries.",
+        "Schwarz Group plans to invest $600 million in Cohere's upcoming Series E round.",
+        "Sovereign AI for the World — global headquarters in Toronto, European headquarters in Berlin."
+      ],
+      "significance": "这是第一次有两个 G7 政府（德、加）同步背书一家私营 AI 实验室——把'sovereign AI'从口号正式落地到资本市场结构。合并把欧洲已被边缘化的 Aleph Alpha 与北美最被低估的 frontier-lab Cohere 拼成一张牌：对外可与 OpenAI / Anthropic / DeepSeek 在受监管行业的本地化采购上正面竞争，对内把欧洲、加拿大、英国、日本等中等国的 AI 主权预算向同一个体系整合。如果 4 月 24 日同日的国务院 cable 是'冷战式封堵'，Cohere–Aleph Alpha 合并就是欧美'多极化反应'——美中之外的第三阵营第一次有了真正的资本与产品载体。",
+      "links": [
+        "https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html",
+        "https://www.axios.com/2026/04/24/cohere-20-billion-aleph-alpha-europe",
+        "https://www.businesswire.com/news/home/20260424174908/en/Sovereign-AI-for-the-World-Cohere-and-Aleph-Alpha-to-Form-Global-AI-Powerhouse-as-Nations-and-Enterprises-Demand-Control-Over-Their-Technology",
+        "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/"
+      ],
+      "image": "img/cohere-logo.png",
+      "image_type": "logo",
+      "tags": ["Cohere", "Aleph Alpha", "sovereign AI", "Schwarz Group", "并购"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "白宫 4 天闪电赶走 Anthropic 旧将：商务部刚到任的 AI 标准中心负责人 Collin Burns 因'Anthropic 背景'被强制下岗",
+      "source": "Anthropic",
+      "source_name": "Washington Post",
+      "source_url": "https://www.washingtonpost.com/technology/2026/04/24/white-house-fires-ai-official-anthropic/",
+      "story_key": "white-house-fires-anthropic-alum",
+      "event_date": "2026-04-23",
+      "summary": "Washington Post 4 月 24 日独家：商务部本周一刚刚任命的 **Center for AI Standards and Innovation 负责人 Collin Burns**——一位 Anthropic 前研究员——周四被白宫直接干预下岗，仅在职 **4 天**。白宫称事先未被告知任命，认为其'与 Anthropic 的关系'与当前政府对 Anthropic 的对立立场冲突；继任者由资深科学家 Chris Fall 接手。",
+      "detail": "**今天发生了什么。** WaPo 4 月 24 日独家报道：商务部于本周一（4 月 20 日）正式任命 **Collin Burns** 出任 Center for AI Standards and Innovation（CAISI）负责人——CAISI 是 Trump 政府 12 月行政令下属的核心 AI 标准制定机构。Burns 曾是 Anthropic 的研究员，专攻 AI 评估与基础研究。\n\n**4 天后周四被白宫直接干预下岗。** WaPo 援引内部官员称：白宫**事先未获悉**这项任命，得知后立刻向商务部施压——理由是 Anthropic 在过去数月与 Trump 政府就 Mythos 模型部署、联邦机构使用 Claude 等问题处于'激烈对立'，让 Anthropic 旧将主导制定全联邦 AI 标准被视为不可接受的风险。\n\n**继任者：Chris Fall。** 一位职业横跨多个联邦机构与学术界的资深科学家，被认为更符合白宫'政治可信度'要求。但这一次任命被外部 AI 政策界普遍解读为'政府正在主动驱逐拥有真实 AI 一线经验的人才'——CAISI 的任务包括撰写联邦 AI 风险评估标准、监管 frontier model deployment，缺乏 frontier lab 实战背景被认为将削弱该机构的产出质量。\n\n**与白宫–Anthropic 紧张关系一脉相承。** 4 月 17 日 Anthropic CEO Dario Amodei 访问白宫与幕僚长 Wiles、财长 Bessent 私下会晤，4 月 19 日 Trump 在记者会被问及此事时回答 'Who? No idea'，4 月 24 日今日 Burns 被驱逐——三周内 Anthropic 与白宫的公开温差持续扩大。\n\n**背景回顾：** 4 月 19 日已报道 NSA 已私下使用 Anthropic Mythos Preview，但同属国防部的五角大楼以'供应链风险'封杀 Anthropic——美国政府内部对 Anthropic 的态度长期自相矛盾（见 4 月 19 日 anthropic-mythos-zerodays 报道）。",
+      "key_quotes": [
+        "An AI researcher hired by the Commerce Department to run a key federal technology center lasted just four days on the job before being replaced.",
+        "Officials raised concerns over his previous work at AI firm Anthropic.",
+        "The White House had not been briefed on Burns's selection in advance."
+      ],
+      "significance": "白宫越过商务部、用 4 天时间清场一名顶级 AI 实验室出身的官员，以最直白的方式宣示：在 Trump 政府 AI 政策圈里，**与 Anthropic 的任何技术联系等于政治不可接受**。这同时也意味着 Center for AI Standards and Innovation——一个理论上将主导联邦 AI 标准制定的核心机构——将被刻意'去 frontier-lab 化'。在 Anthropic 已掌握 NSA、却被五角大楼封杀的政府分裂格局下，白宫的这一动作进一步把'AI 治理标准制定权'与'frontier 实验室经验'强制分离，可能造成未来联邦 AI 监管输出与产业现实严重脱节。",
+      "links": [
+        "https://www.washingtonpost.com/technology/2026/04/24/white-house-fires-ai-official-anthropic/",
+        "https://yro.slashdot.org/story/26/04/25/0348249/white-house-pushed-out-new-ai-official-after-just-four-days-on-the-job",
+        "https://completeaitraining.com/news/white-house-removes-ai-official-after-four-days-over-his/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["白宫", "Anthropic", "商务部", "CAISI", "AI 监管"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "Sora App 昨日正式断电：日活从 100 万跌至 50 万、每日烧 $100 万 / Disney $10 亿入股协议同步作废——OpenAI 消费视频整代产品归零",
+      "source": "OpenAI",
+      "source_name": "Variety",
+      "source_url": "https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/",
+      "story_key": "openai-sora-shutdown-final",
+      "event_date": "2026-04-26",
+      "summary": "OpenAI Sora 网页与 App 4 月 26 日（周日）正式关闭——比预定时间未做最后一刻反悔。Variety 同步证实：原本与 Disney 谈判中的 **$10 亿美元入股 + 角色 IP 授权**协议**正式作废**。Sora 退出消费市场的根因首次被 OpenAI 内部承认：日活用户从巅峰 **100 万跌至不到 50 万**、每日运营成本约 **$100 万美元**、Disney IP 谈判因版权挑战陷入僵局——三件事同时发生，OpenAI 选择整代产品断舍。Sora API 仍保留至 9 月 24 日。",
+      "detail": "**今天发生了什么。** OpenAI 在 3 月 24 日正式公告 Sora 消费产品将于 4 月 26 日关停后，按既定计划于昨日（北美时间）让 sora.chatgpt.com 与 Sora iOS / Android App **全部下线**。用户被要求在 4 月 26 日前通过 sora.chatgpt.com/exports/me 自助导出生成的视频；导出处理后会以 email 形式回传链接。\n\n**Disney $10 亿协议同步取消。** Variety 4 月 26 日独家报道：Disney 与 OpenAI 此前正在洽谈的**$10 亿美元入股 + 漫威 / 皮克斯 / 卢卡斯影业角色 IP 授权进入 Sora**协议——**正式被 Disney 撤回**。Disney 内部消息源援引'AI 角色生成的版权风险与品牌完整性顾虑'作为退出理由。这是 OpenAI 与好莱坞主要 IP 持有者之间最大规模的合作努力第一次完全告吹。\n\n**OpenAI 罕见承认数据：日活半年腰斩、每日烧 $100 万。** TechCrunch 4 月底引用 OpenAI 内部数据：Sora 全球日活用户峰值约 100 万（2025 Q4），到 2026 Q2 已跌至**不足 50 万**；每天的 GPU 运算 + 存储 + bandwidth 成本约 **$100 万美元**。算下来：每个日活用户每天给 OpenAI 带来约 $2 的运营成本，但 Sora 的订阅 ARPU 远不足以覆盖。\n\n**API 留给企业市场。** Sora API 不在本次断电范围内，将运行至 **2026 年 9 月 24 日**。期间企业客户、第三方视频平台（如 Pixo、CyberLink）仍可通过 API 持续生成视频，但消费品牌'Sora App'与 sora.chatgpt.com 网页域名整体退出。",
+      "key_quotes": [
+        "The Sora web and app experiences are being discontinued on April 26, 2026.",
+        "Disney has now ended its partnership with OpenAI, which included plans for the media conglomerate to take a $1 billion stake in the artificial-intelligence company.",
+        "Sora's worldwide users peaked at around a million before declining to fewer than 500,000, while the service cost an estimated $1 million per day to operate."
+      ],
+      "significance": "Sora 是 OpenAI 史上第一个在公开市场被宣告'失败并整代产品断电'的旗舰消费产品——同时第一次对外承认日活、每日运营成本、IP 授权失败这三个商业敏感数据。Disney $10 亿入股协议作废，意味着好莱坞主要 IP 持有者与 frontier AI 的合作模式要从'入股 + IP 授权'退回到'按帧授权'。从战略角度，Sora 关停 + Custom GPTs 被 Workspace Agents 取代 + Kevin Weil / Bill Peebles / Narayanan 三高管离任，标志 OpenAI 在 IPO 前夜把所有'消费端 moonshot'砍干净，全面押注企业 AI 与 Codex 工程线。",
+      "links": [
+        "https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/",
+        "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+        "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/",
+        "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/"
+      ],
+      "tags": ["OpenAI", "Sora", "Disney", "消费 AI", "视频生成"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "7",
+      "title": "Trump 12 月 AI 行政令三大 March 11 截止日期全部错过：FTC、DOJ、NTIA 集体哑火——'州 AI 法预占'路径已停摆 6 周",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/04/24/trump-missed-ai-deadlines",
+      "story_key": "trump-ai-eo-missed-deadlines",
+      "event_date": "2026-04-24",
+      "summary": "Axios 4 月 24 日独家：Trump 总统 2025 年 12 月签署的'消除州法对国家 AI 政策阻碍'行政令，所设定的三项关键 **3 月 11 日截止日期**全部未能达成——FTC 应发布的 AI 消费保护指南、DOJ 应组建的 AI 诉讼专项工作组、NTIA 应公布的 BEAD 联邦宽带资金条件政策，均**逾期超过 6 周**仍无任何公开动作。这意味着白宫'用联邦法律预占（preempt）州 AI 法'的整套执行路径已实质性卡死。",
+      "detail": "**今天发生了什么。** Axios 4 月 24 日发布的政府动态分析揭示：2025 年 12 月 11 日 Trump 签署的 **'Eliminating State Law Obstruction of National AI Policy'** 行政令——这份本应让联邦覆盖加州、纽约、科罗拉多等州正在通过的强力 AI 法的总统令——所设定的三项 March 11 deadlines **全部错过**。\n\n**三项关键 March 11 deadlines 全部哑火。**\n1. **FTC AI 消费保护指南**——本应明确联邦消费保护法适用于 AI 模型的边界，并直接给出何时可'凌驾'于州监管之上的判断标准。截至 4 月 24 日**未发布、未公告草稿**。\n2. **DOJ AI 诉讼专项工作组**——本应在 30 天内组建，准备以'违反州际商业条款 / 受联邦法预占 / 其他不合法'为由起诉各州 AI 法。**未公开成立**。\n3. **NTIA BEAD 资金条件政策**——本应在 90 天内发布 Policy Notice，把 BEAD 联邦宽带 $425 亿美元分配挂钩'各州不执行特定 AI 法'。**未发布**。\n\n**'AI 教育'纪念日成最大可见动作。** 4 月白宫 OSTP 唯一公开庆祝的 AI 政策动作，是为'AI 教育给青少年'行政令一周年举办纪念活动——而真正涉及联邦预占州法的硬实质动作，至今没有任何公开行动。\n\n**与今日其他动作对照。** 同日 WaPo 报道商务部 CAISI 负责人 Collin Burns 4 天被白宫赶走、Reuters 报道国务院 cable 被全球分发——白宫在'对外打中国 AI''对内驱逐 Anthropic 旧将'两条战线非常活跃，但**对各州自身的 AI 监管法律几乎毫无对策**。",
+      "key_quotes": [
+        "Three provisions that were due on March 11 per the December order have not been completed or publicly announced.",
+        "The missed deadlines are raising doubts about how forcefully the administration can follow through on its push to rein in states on AI regulation.",
+        "Key deadlines set out in President Trump's executive order targeting state AI laws have passed."
+      ],
+      "significance": "这是 Trump AI 政策路径首次出现公开、可追溯的执行失败信号。各州（加州、纽约、科罗拉多、康涅狄格、伊利诺伊）的强 AI 监管立法本来面临联邦的统一回击；现在 FTC / DOJ / NTIA 的 6 周哑火，给了各州 AI 法在事实上'独立运行'的窗口期——这意味着 OpenAI、Anthropic、Microsoft、Google 等接下来要面对的，不是一个统一的联邦 AI 监管框架，而是 **10+ 个州各行其是的拼图式规则**。对 frontier 实验室而言，'多州合规成本'将取代'联邦合规成本'成为接下来 12 个月最大的政策风险变量。",
+      "links": [
+        "https://www.axios.com/2026/04/24/trump-missed-ai-deadlines",
+        "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/"
+      ],
+      "tags": ["白宫", "Trump", "AI 监管", "FTC", "DOJ", "NTIA", "BEAD"],
+      "category": "news"
+    }
+  ]
+}
