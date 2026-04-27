@@ -1,0 +1,165 @@
+{
+  "date": "2026-04-28",
+  "category": "AI",
+  "researched_at": "2026-04-28T08:00:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@geoffreyhinton",
+    "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46", "@alighodsi",
+    "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan",
+    "Microsoft Blog", "OpenAI Blog", "Bloomberg", "Washington Post",
+    "CNBC", "TechCrunch", "Reuters", "Axios", "AWS Blog",
+    "Alibaba Cloud", "NPR", "CBS News", "The Information", "Fortune"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "微软放手 OpenAI：IP 独家性终结、Azure 不再独占、营收分成被锁顶——2032 年许可保留但 OpenAI 即可去任何云",
+      "source": "Microsoft / OpenAI",
+      "source_name": "Microsoft Blog",
+      "source_url": "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+      "story_key": "microsoft-openai-partnership-restructure",
+      "event_date": "2026-04-27",
+      "summary": "Microsoft 与 OpenAI 4 月 27 日同步官宣重写七年合作框架——Microsoft 对 OpenAI IP 的独家访问权正式终止、改为非独家许可至 2032 年；OpenAI 即日起可向任何云厂商交付产品；OpenAI 向 Microsoft 支付的营收分成首次被设总额上限至 2030 年；Microsoft 不再向 OpenAI 反向支付分成。MSFT 当日盘中一度跌 5%、收盘 -2%。",
+      "detail": "**Microsoft** 与 **OpenAI** 于美东时间 4 月 27 日同时在各自官方博客发出长文，正式宣布双方合作进入'下一阶段'——七年来支撑全球 AI 商业化的最关键一对绑定关系被全面松动：\n\n**核心条款变化：**\n- **IP 独家性终结**：Microsoft 仍持有 OpenAI 模型与产品的 IP 许可至 **2032 年**，但许可协议**首次改为非独家**——OpenAI 现可自由把同一份 IP 授权给 Google、Amazon、Oracle 等任何竞品云厂商。\n- **多云交付**：Microsoft 仍是 OpenAI 'primary cloud partner'、产品仍 **'first ship on Azure'**；唯一例外条款：当 Microsoft '无法或选择不支持所需能力'时，OpenAI 可先在他云交付。OpenAI 即日起可向**任何云的任何客户**交付全产品。\n- **营收分成天花板**：OpenAI 向 Microsoft 支付的营收分成比例不变、持续至 **2030 年**，但**首次被设定一个总额上限**（具体金额未披露），且独立于 OpenAI 的技术进展（即不再随 AGI 触发条款重置）。\n- **Microsoft 取消反向分成**：双方合作初期 Microsoft 对 OpenAI 营收的反向分成机制**正式取消**——OpenAI 不再从 Azure 上的 Microsoft 服务获得任何分成回流。\n\n**市场即时反应：**\n- MSFT 当日盘中最低触及 **$404、跌幅约 5%**，随后快速回升至 **-2% 收盘**——市场对失去独家性的负面反应被'营收上限确定 + Microsoft 不再反向付款'的双重利好部分对冲。\n- AMZN 同日上涨约 **1%**，反映市场预期 AWS 将成为 OpenAI 多云策略的最大赢家之一（OpenAI 此前已签下 Amazon $500 亿合作，现合规化）。\n\n**剥离的旧约束：**\n- TechCrunch 同日报道，Microsoft 此前对 OpenAI 与 Amazon $500 亿合作存在的法律阻碍**正式清除**——OpenAI 在新框架下可顺畅履行 AWS / Trainium / Anthropic 排除条款失效后的全部多云承诺。\n- 双方将在 datacenter capacity、silicon、cybersecurity 三个方向继续保持深度合作。",
+      "key_quotes": [
+        "Microsoft remains OpenAI's primary cloud partner, and OpenAI products will ship first on Azure.",
+        "OpenAI can now serve all its products to customers across any cloud provider.",
+        "Revenue share payments from OpenAI to Microsoft will be subject to a total cap, but they will continue through 2030, independent of OpenAI's technology progress."
+      ],
+      "significance": "这是七年来对全球最重要 AI 合作关系最激进一次重写。三个含义：(1) **OpenAI 的产品 distribution 自由**——可借 AWS / Google Cloud 把 ChatGPT 卖给原本被 Azure 锁死的用户群体（含 GCP 上的全球大客户），收入天花板被打破；(2) **Microsoft 的 AI moat 折价**——独家 IP 一度是 Azure AI 服务最强卖点，现 Anthropic Claude / Mistral / OpenAI 三家对 Azure 一视同仁；(3) **AGI 触发条款实质性失效**——'营收上限独立于技术进展'一句直接抹掉了 OpenAI '若达成 AGI、Microsoft 失去 IP'的旧条款风险，把双方关系从'对赌'改写为'封顶租约'。这为 OpenAI 今年下半年的 IPO 路径、和 Microsoft 摆脱 Pentagon Anthropic-DOD 类约束移植自家闭源模型，铺平了合规与法律基础。",
+      "links": [
+        "https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/",
+        "https://openai.com/index/next-phase-of-microsoft-partnership/",
+        "https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html",
+        "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "OpenAI", "合作重写", "多云", "营收分成", "IP 许可"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "中国 NDRC 直接否决 Meta $20 亿收购 Manus：120 天审查结案、要求双方撤回交易——Zuckerberg 的 Agent 战略遭最大一击",
+      "source": "@elonmusk @mikeyk (Meta)",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-27/china-blocks-meta-s-2-billion-acquisition-of-ai-startup-manus",
+      "story_key": "china-blocks-meta-manus-acquisition",
+      "event_date": "2026-04-27",
+      "summary": "中国国家发改委（NDRC）4 月 27 日发出一句话公告——勒令 Meta 撤回 2025 年 12 月宣布的 **$20 亿美元** Manus AI 收购案，理由不公开。Manus 是 2022 年北京注册、2025 年中迁总部至新加坡的具身 / Agent AI 公司，3 月已有约 100 名员工被迁入 Meta 新加坡办公室。Meta 回应'交易完全合法'。",
+      "detail": "中国国家发改委（**National Development and Reform Commission, NDRC**）于北京时间 4 月 27 日通过一句简短公告，正式否决 **Meta** 对**新加坡注册、北京起源**的 Agent AI 创业公司 **Manus** 的收购案——这是中国监管机构罕见地在交易宣布 4 个月后**主动叫停**外资收购的案例。\n\n**关键细节：**\n- **交易规模**：Meta 在 **2025 年 12 月**宣布以约 **$20 亿美元**（部分报道至 $30 亿）收购 Manus，目标是把其 Agent 技术直接整合进 Meta AI；公告时由 Mark Zuckerberg 个人推动。\n- **审查路径**：2026 年 1 月，**中国商务部**先启动对该交易是否符合出口管制、技术进出口、海外投资法的评估——并未立即给出结论；4 月 27 日由**更上层的 NDRC**直接给出否决，跳过了正常的批准 / 否决流程，仅以一行通知形式交付。\n- **Manus 公司画像**：2022 年成立于北京（创始人**萧弘 / 季逸超 / 张涛**为中国工程师），2025 年中将总部迁至新加坡——这一'迁移'本意是规避中国出口管制审查。\n- **执行进度被打断**：根据 3 月公开数据，Meta 已将约 **100 名 Manus 员工**搬入自家新加坡办公室；交易此前进度已接近完成。\n\n**Meta 回应：**\n- 公司声明称交易 **'完全合法（complied fully with applicable law）'**，'预期将获得适当的解决方案'，但未明确是否会将该案诉诸 WTO 或国际仲裁。\n\n**地缘背景：**\n- 这是继 2025 年 12 月美国国务院 *DeepSeek/Moonshot/MiniMax distillation 外交照会*之后，中美 AI 领域监管对峙的又一次升级——中方此次**主动否决一项已经签字的外资收购**，事实上把'技术外流'判断从 distillation（模型蒸馏）扩展到**人才与组织外流**的同等级别。\n- 与此同时本周一 OpenAI / Anthropic / Google 三家通过 *Frontier Model Forum* 联合行动以阻止中国'萃取'美国模型。两条路径在 4 月 27 日同日交汇。",
+      "key_quotes": [
+        "The transaction complied fully with applicable law, and we anticipate an appropriate resolution to the inquiry.",
+        "NDRC has required the parties involved to withdraw the acquisition transaction."
+      ],
+      "significance": "对 Meta 是 Zuckerberg 4 月已实施 8000 人 AI-driven 裁员、All-In Agent 战略中最大一次对外受挫——失去 Manus 意味着 Meta AI 在 Agent 这条线上要从内部从头搭建团队（已迁入 100 人现需重新分流）。对中美 AI 博弈是**第一次**出现 '中方主动否决外资收购 AI 团队 / 资产' 的样本，对照本月初美国国务院发出的 DeepSeek 外交照会，意味着双方都开始把 AI 监管从'数据 / 模型'扩展到'公司 / 人才所有权'层面。新加坡作为'中转地'的中立性也被实质性削弱——下一批想用'迁总部 + 改国籍'路径绕开监管的中国 AI 公司将被迫重新评估。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-27/china-blocks-meta-s-2-billion-acquisition-of-ai-startup-manus",
+        "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+        "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+        "https://www.washingtonpost.com/world/2026/04/27/china-ai-meta-manus/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "Manus", "中国", "NDRC", "并购监管", "Agent AI"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "560+ Google 员工集体上书 Pichai：拒绝把 Gemini 卖给 Pentagon 用作机密任务——DeepMind 研究员领衔，距 Pentagon 切掉 Anthropic 仅 2 个月",
+      "source": "Google DeepMind",
+      "source_name": "Washington Post",
+      "source_url": "https://www.washingtonpost.com/technology/2026/04/27/google-employees-letter-ai-pentagon/",
+      "story_key": "google-employees-pentagon-ai-letter",
+      "event_date": "2026-04-27",
+      "summary": "4 月 27 日，超过 **560 名 Google 员工**（含 **DeepMind 研究员**、**18 名 principal/director/VP** 级别高管）联署公开信致 CEO Sundar Pichai——要求公司拒绝向美国国防部部署 Gemini 用于机密军事工作；信明确指明反对'lethal autonomous weapons + 大规模监控'两条红线。",
+      "detail": "**560+ 名 Google 员工**于 4 月 27 日同日向 CEO **Sundar Pichai** 递交一封公开信——通过 *Washington Post* 与 *Bloomberg* 同步外泄；这是自 2018 年 *Project Maven* 抗议以来 Google 内部针对国防合同最大规模的一次签名行动。\n\n**签名构成：**\n- 总数 **超过 560 人**（部分报道至 580 +）；\n- 由 **Google DeepMind 员工**牵头组织；\n- 大约 **40%** 在 AI 部门、**40%** 在 Cloud 部门、其余分布在 Alphabet 各业务；\n- 包括 **18 名以上**带 'principal / director / VP' 头衔的资深员工签署——这是与 2018 年 Maven 抗议最大不同：本次有大量**资深领导层**直接参与。\n\n**信的核心诉求：**\n> 'We feel that our proximity to this technology creates a responsibility to highlight and prevent its most unethical and dangerous uses... We want to see AI benefit humanity, not being used in inhumane or extremely harmful ways.'\n\n要求 Pichai 在与 Pentagon 谈判中**明确禁止 Gemini 用于'机密 workloads'**，并明确反对：\n- **lethal autonomous weapons**（致命自主武器）\n- **mass surveillance**（大规模监控）\n\n**触发背景：**\n- 当前 Google 与美国国防部正在**积极谈判**部署 Gemini 旗舰模型用于机密用途；信明确要求 Pichai 在签字前撤回。\n- 两个月前（约 2 月），**Anthropic 因坚持类似条款限制**（拒绝放开'国内监控 + 完全自主武器'禁令），被 DOD 切除合作并被国防部长指定为 'supply chain risk'——Google 员工担心 Pichai 为避免重蹈 Anthropic 覆辙、可能选择主动放弃此前的 AI Principles 中相关红线。\n- OpenAI 则在 2025 年与 Pentagon 签约时主动接受了相似的 carve-out，被 Anthropic 公开点名为'安全剧院（safety theater）'。",
+      "key_quotes": [
+        "We feel that our proximity to this technology creates a responsibility to highlight and prevent its most unethical and dangerous uses.",
+        "We want to see AI benefit humanity, not being used in inhumane or extremely harmful ways. This includes lethal autonomous weapons and mass surveillance, but extends beyond."
+      ],
+      "significance": "这是 2024 年 Google 撤回 'AI 不用于武器' 承诺以来内部反弹最显著的一次，三个直接含义：(1) **Pichai 必须在 'Pentagon 合同 vs 内部资深 AI 人才留存'之间二选一**——18 名 VP 级别签署意味着如果硬推，可能引发新一轮 DeepMind 顶级研究员流失（去年 Demis Hassabis 已多次提及内部 ethics 边界）；(2) **Anthropic / OpenAI / Google 三家对 Pentagon 的态度形成清晰光谱**：Anthropic 拒接受、OpenAI 全面接受、Google 内部分裂——这意味着接下来 Pentagon 主要 AI 合作伙伴选择，本质上是在三种公司治理哲学中选择；(3) **AI Principles 2.0 风险**——2024 年 Google 已悄悄撤回'不用于武器'红线，本次员工上书是对该撤回的实质性反对，可能迫使 Pichai 在 Cloud Next 之后再次公开重申 AI 红线。",
+      "links": [
+        "https://www.washingtonpost.com/technology/2026/04/27/google-employees-letter-ai-pentagon/",
+        "https://www.bloomberg.com/news/articles/2026-04-27/google-staff-urge-pichai-to-refuse-classified-military-ai-work",
+        "https://www.cbsnews.com/news/google-ai-pentagon-classified-use-employee-letter/",
+        "https://thenextweb.com/news/google-employees-classified-military-ai-pentagon"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "DeepMind", "Pentagon", "Pichai", "AI 伦理", "员工运动"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic 把训练放到 AWS Trainium：直接到硅级别与 Annapurna Labs 共写 kernel——Claude Cowork 同日 Bedrock GA、Claude Platform on AWS 也已预告",
+      "source": "@DanielaAmodei (Anthropic)",
+      "source_name": "AWS Blog",
+      "source_url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-anthropic-meta-partnership-aws-lambda-s3-files-amazon-bedrock-agentcore-cli-and-more-april-27-2026/",
+      "story_key": "anthropic-aws-trainium-deepening",
+      "event_date": "2026-04-27",
+      "summary": "AWS 4 月 27 日宣布与 Anthropic 在产品层面进一步整合——Anthropic 自家**最先进**基础模型现已**正式在 AWS Trainium / Graviton 上训练**，与 **Annapurna Labs** 在硅级别 co-engineer、共同编写 low-level kernel 并贡献 AWS Neuron 软件栈；Claude Cowork 同日在 Amazon Bedrock 全面可用（GA）；Claude Platform on AWS 'coming soon'。这是 4 月 20 日 $250 亿 + $1000 亿算力承诺**正式落地执行**的标志。",
+      "detail": "继 4 月 20 日 **Amazon $250 亿追加 + Anthropic 承诺十年 $1000 亿 AWS 算力 / 5GW Trainium 容量**之后，**AWS 4 月 27 日 Weekly Roundup** 首次给出**具体执行进度**——这个被很多分析师认为'纸面合作'的协议已**进入实质生产部署阶段**：\n\n**训练栈迁移：**\n- Anthropic **'最先进的（most advanced）'foundation models** 现**正式**在 **AWS Trainium**（训练）+ **Graviton**（推理 CPU 工作负载）上训练；这是 Anthropic 第一次官方确认旗舰模型脱离 NVIDIA-only 训练栈。\n- 与 Amazon 旗下 **Annapurna Labs** 进入'硅级别 co-engineering'——Anthropic 工程师与 Annapurna 芯片设计团队**共同编写 low-level kernel**，**直接对接 Trainium 硅**；产品贡献回 **AWS Neuron 软件栈**。\n- 协议覆盖 Trainium2（H1 2026 上线）、**Trainium3**（2026 年底约 1GW 容量）、以及未来代次 **Trainium4**——5 GW 总容量上限。\n\n**Claude Cowork 同日 GA：**\n- **Claude Cowork**（Anthropic 团队协作版 Claude）**今日在 Amazon Bedrock 全面可用**——企业可在自家 AWS 环境内部署、数据不出 AWS。\n- 定位：把 Claude 从'单人助手'升级为'团队 collaborator'——共享 context、共享记忆、共享工具调用、组织级权限管理。这是 Anthropic 4 月 24 日给 Claude 接 16 款消费 App 之后，对**企业市场**的对照动作。\n\n**Claude Platform on AWS：**\n- AWS 同日预告 **'Claude Platform on AWS'** 即将上线——'unified developer experience to build, deploy, and scale Claude-powered applications without leaving AWS'。这预示 Anthropic 即将在 AWS 提供与 Bedrock 平行的、原生 Claude 一站式开发栈，进一步加深 lock-in。\n\n**Meta 平行动向：**\n- 同日 AWS 公告还透露 **Meta 与 AWS** 签下 **数千万核 Graviton** 部署协议、专攻 'CPU-intensive agentic AI workloads'——AWS 把 Anthropic 与 Meta 在同一份 Roundup 同时披露，意在向市场展示 Trainium / Graviton 双轨已正式从'OpenAI 替代品试验'升级为'Pentagon 级 AI workload 通用平台'。",
+      "key_quotes": [
+        "Anthropic is now training its most advanced foundation models on AWS Trainium and Graviton infrastructure, co-engineering directly at the silicon level with Annapurna Labs.",
+        "Claude Cowork is now available in Amazon Bedrock — Claude Cowork brings Anthropic's collaborative AI capabilities directly to enterprise builders within the AWS ecosystem.",
+        "Claude Platform on AWS is coming soon, providing a unified developer experience to build, deploy, and scale Claude-powered applications without leaving AWS."
+      ],
+      "significance": "**背景回顾：** 4 月 20 日 Amazon 追加 $250 亿绑定 Anthropic、十年 $1000 亿 AWS 采购 + 5GW Trainium 容量；4 月 24 日 Google 再叠加 $400 亿 / 5GW 算力。\n\n本日落地三大含义：(1) **Anthropic 是第一家把旗舰模型脱离 NVIDIA / Microsoft 训练栈的前沿实验室**——这对 NVIDIA 的训练硅 monopoly 是实质性裂口，对 Trainium 是技术合法性的最大背书；(2) **AWS 把'$1000 亿合同'转成'co-design 关系'**——和 NVIDIA / Microsoft 与 OpenAI 那种深度绑定同形态、Anthropic 与 AWS 在硅设计层面的合作正式启动；(3) **Microsoft-OpenAI 当日松绑 + Anthropic-AWS 当日深耕**形成精准对照——市场迅速把 AMZN 视为 Microsoft 失去独家性后最大赢家（AMZN 当日上涨 1%），AWS 实际上同日完成了'OpenAI 多云访问'与'Anthropic 深度绑定'的两手抓动作。",
+      "links": [
+        "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-anthropic-meta-partnership-aws-lambda-s3-files-amazon-bedrock-agentcore-cli-and-more-april-27-2026/",
+        "https://www.anthropic.com/news/anthropic-amazon-trainium",
+        "https://futurumgroup.com/insights/is-anthropics-100-billion-pact-for-aws-silicon-a-bargain-in-a-supply-constrained-market/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "AWS", "Trainium", "Annapurna", "Claude Cowork", "Bedrock"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "阿里 HappyHorse-1.0 视频模型 4 月 27 日开企业 API 测试：15B Transfusion 架构 / 联合音视频生成 / 1080p / 多语言对口型——Artificial Analysis 双榜第一",
+      "source": "Alibaba ATH",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-10/stealth-alibaba-video-ai-model-tops-global-ranking-on-debut",
+      "story_key": "alibaba-happyhorse-launch",
+      "event_date": "2026-04-27",
+      "summary": "阿里巴巴 ATH AI 创新单元 4 月 27 日正式宣布旗下 **HappyHorse-1.0** 视频生成模型在 **Alibaba Cloud Bailian** 平台开启**企业级 API 测试**，5 月正式商用上线。模型自 4 月 7 日匿名登顶 *Artificial Analysis* text-to-video 与 image-to-video 双榜，一直未公开身份直至本月 10 日由 Alibaba 官方承认归属。",
+      "detail": "**阿里巴巴 ATH 单元**（Alibaba Cloud 旗下 AI 创新部门）4 月 27 日通过 Bailian 平台正式开启 **HappyHorse-1.0** 视频生成模型的**企业级 API 测试**——首批仅向受邀企业客户开放，**5 月**对全球开发者商用上线。\n\n**技术规格：**\n- **15B 参数**统一 Transformer\n- 自研 **'Transfusion'**（统一多模态）架构——把**离散文本 modeling** 与**连续视觉信号**深度融合在单一框架内，与传统 'text encoder + video diffusion' 双塔分离架构形成对照\n- **1080p** 输出分辨率\n- **多语言 lip-sync**（支持中英日韩等主流语言对口型）\n- **Joint audio-video 生成**——音频与画面同时由同一模型一次出，无需后期对齐\n\n**进入路径：**\n- **4 月 7 日**：HappyHorse-1.0 在 *Artificial Analysis* 平台**匿名出现**，立即在 text-to-video 和 image-to-video **双榜双第一**\n- **4 月 10 日**：阿里 ATH 单元**官方承认**归属，揭开身份\n- **4 月 26 日**：fal.ai 平台上线（晚 9 PM PST）\n- **4 月 27 日**：Alibaba Cloud Bailian **企业 API 开放测试**\n- **5 月**：全球商用上线\n\n**对比阵营：**\n- 在 *Artificial Analysis* 当前榜单上，HappyHorse-1.0 已超过 OpenAI Sora（已于 4 月 26 日消费端断电）、Google Veo 3、Runway Gen-4——是 **Sora 退出消费市场后第一个稳定占据 video benchmark 第一的模型**。",
+      "key_quotes": [
+        "HappyHorse-1.0 will gradually open its API testing through the Alibaba Cloud Bailian platform starting April 27th, with enterprise customers being the first batch of invited testers.",
+        "After the open testing at the end of April, HappyHorse-1.0 will be officially released for commercial use in May."
+      ],
+      "significance": "三个含义：(1) **OpenAI Sora 4 月 26 日刚断电、HappyHorse 4 月 27 日开 API**——消费视频生成市场两天内完成中美权力交接；(2) **Transfusion 架构是中国 AI 第一次在'多模态原生统一'方向上拿下 SOTA**，区别于 Veo / Sora 的 text-encoder + diffusion 双塔范式，技术路径分化已实质形成；(3) **阿里把 HappyHorse 放进 Bailian 而非自家通义品牌**，预示阿里正在用 ATH 这个新单元**绕过通义包袱**重新设计 AI 商业化路径——5 月商用定价将是观察阿里能否从'追赶 OpenAI'切换到'定义视频 AI 价格'的第一个窗口。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-10/stealth-alibaba-video-ai-model-tops-global-ranking-on-debut",
+        "https://www.gurufocus.com/news/8819556/alibaba-baba-launches-happy-horse-ai-model-in-beta-amid-stock-decline",
+        "https://www.cnbc.com/2026/04/10/alibaba-happyhorse-ai-video-model-benchmark-reveal.html",
+        "https://fal.ai/learn/devs/happyhorse-1-0-what-do-we-know-so-far"
+      ],
+      "tags": ["Alibaba", "HappyHorse", "视频生成", "Transfusion", "Sora", "中国 AI"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "德国 Sereact 拿下 $1.1 亿 B 轮：教仓储机器人'预测自身动作的物理后果'——欧洲具身 AI 单笔最大轮次之一",
+      "source": "Sereact",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-27/ai-startup-sereact-raises-110-million-for-robots-that-predict-consequences",
+      "story_key": "sereact-110m-series-b",
+      "event_date": "2026-04-27",
+      "summary": "*Bloomberg* 4 月 27 日独家：德国机器人软件公司 **Sereact** 完成 **$1.1 亿美元** B 轮融资——专攻让机器人**在执行前预测自身行动的物理后果**的 AI 模型，主要部署场景为工业仓储 / 拣选。这是继中国 X Square Robot $2.76 亿之后又一笔欧洲具身智能显著轮次。",
+      "detail": "**Sereact**（成立于德国斯图加特、CEO Ralf Gulde）4 月 27 日通过 *Bloomberg* 独家披露完成 **$1.1 亿美元** B 轮融资——本轮把公司估值推到独角兽边缘。\n\n**技术差异：**\n- 区别于 Boston Dynamics 等传统机器人公司的'感知 → 控制'链路，Sereact 训练的模型**先预测自身动作的物理后果**（物体会不会倒、抓取力度是否够、邻近物会不会被推动），再执行——本质上是把**世界模型 + 强化学习的 imagined rollout** 引入到工业机器人决策层。\n- 公司主攻**仓储 / 拣选 / 包装**场景（Amazon / DHL 类客户），客户告警在场的差异化是：Sereact 的机器人在面对**未见过的奇形物体**（unstructured / mixed SKU）时不需要重新训练即可适应。\n\n**资本背景：**\n- 4 月以来欧洲 AI 投资明显加速——本轮属于自 Goldman Sachs 4 月 23 日把'world models'列为 AI 下一跃迁后，**第一个有物理 world model 实际部署能力的西方初创**完成大型融资。\n- 与 NVIDIA 的 GR00T、Figure 02、X Square Robot 同处 2026 年具身智能赛道——但 Sereact 的差异是不卖硬件、只卖模型，更接近 'Anthropic-of-robots' 的定位。",
+      "key_quotes": [
+        "Sereact has raised $110 million in fresh funding to develop its artificial intelligence model that makes robots smarter and more adaptable to different tasks."
+      ],
+      "significance": "三点：(1) **欧洲具身 AI 终于有了一笔上亿美元规模的代表性轮次**，与 Cohere/Aleph Alpha 4 月 24 日合并形成的 sovereign-AI 联盟形成**软件层 + 硬件层的同月双击**；(2) **'预测后果型' 机器人 AI** 是 LeCun AMI Labs 早就主张的路径——本轮融资意味着市场首次为这种'world model + planning'范式买单，而非传统'端到端模仿学习'；(3) Sereact 不卖硬件、只卖模型——直接对标 NVIDIA Isaac / Cosmos 平台的潜在挑战者，预示具身智能战场正在从'谁造人形机器人'分化成'谁造机器人大脑'。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-27/ai-startup-sereact-raises-110-million-for-robots-that-predict-consequences"
+      ],
+      "tags": ["Sereact", "具身智能", "机器人", "B 轮融资", "World Model", "欧洲 AI"],
+      "category": "trending"
+    }
+  ]
+}

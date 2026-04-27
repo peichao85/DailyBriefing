@@ -1,0 +1,116 @@
+{
+  "date": "2026-04-28",
+  "total_candidates": 12,
+  "kept": 6,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "microsoft-openai-partnership-restructure",
+      "event_date": "2026-04-27",
+      "title_en": "Microsoft and OpenAI rewrite partnership: license becomes non-exclusive, multi-cloud allowed, revenue share capped",
+      "source": "Microsoft Blog / OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; landmark restructuring of the most important AI partnership in tech: non-exclusive IP license through 2032, multi-cloud allowed, revenue-share now capped, Microsoft no longer pays revenue share to OpenAI. MSFT shares slipped intraday on the news."
+    },
+    {
+      "story_key": "china-blocks-meta-manus-acquisition",
+      "event_date": "2026-04-27",
+      "title_en": "China NDRC blocks Meta's $2B Manus acquisition after months-long probe",
+      "source": "Bloomberg / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; major geopolitical AI deal blocked after months-long investigation by NDRC; significant setback to Meta's AI agent strategy."
+    },
+    {
+      "story_key": "google-employees-pentagon-ai-letter",
+      "event_date": "2026-04-27",
+      "title_en": "560+ Google employees demand Pichai refuse classified Pentagon AI deal",
+      "source": "Washington Post / Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; 560+ Google employees including DeepMind researchers and 18 senior staff sign open letter, two months after Pentagon dropped Anthropic over similar contractual restrictions."
+    },
+    {
+      "story_key": "anthropic-aws-trainium-deepening",
+      "event_date": "2026-04-27",
+      "title_en": "Anthropic now training advanced foundation models on AWS Trainium/Graviton; Claude Cowork GA on Bedrock",
+      "source": "AWS Blog",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Related to lookback story 'amazon-anthropic-25b-compute-deal' (04-20). Substantively new: Anthropic actively training advanced foundation models on Trainium/Graviton (silicon-level co-engineering with Annapurna Labs, contributing to AWS Neuron stack), Claude Cowork goes GA on Bedrock, Claude Platform on AWS announced. New story_key chosen to reflect the operational milestone separate from the original $100B/5GW capacity deal."
+    },
+    {
+      "story_key": "alibaba-happyhorse-launch",
+      "event_date": "2026-04-27",
+      "title_en": "Alibaba opens HappyHorse-1.0 video model API to enterprise testers via Bailian",
+      "source": "Alibaba Cloud / GuruFocus",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; Alibaba ATH unit officially opens API testing for the #1 video model on Artificial Analysis benchmarks; 15B Transfusion arch with joint audio-video, 1080p, multilingual lip-sync; commercial release scheduled for May 2026."
+    },
+    {
+      "story_key": "sereact-110m-series-b",
+      "event_date": "2026-04-27",
+      "title_en": "Sereact raises $110M Series B for predictive embodied AI",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; German robotics-software startup raises $110M for AI model that predicts consequences of robot actions, signaling continued momentum for European embodied-AI plays."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-27",
+      "title_en": "Musk v Altman jury seated Monday; opening statements begin Tuesday April 28",
+      "source": "CNBC / NPR / CBS",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-23, 04-25, and 04-27 with story_key 'musk-altman-openai-trial'. Today's news (jury of 9 seated Monday, opening statements scheduled for Tuesday, expected witnesses Nadella/Murati/Brockman/Zilis, trial wrap by May 21) is procedurally consistent with what was already reported in the 04-27 entry which detailed jury size, schedule, and witness list. No substantive new information beyond confirmation of expected events."
+    },
+    {
+      "story_key": "cohere-aleph-alpha-merger",
+      "event_date": "2026-04-27",
+      "title_en": "Cohere and Aleph Alpha official press release on transatlantic sovereign-AI partnership",
+      "source": "AIwire / HPCwire",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-24 with story_key 'cohere-aleph-alpha-merger'. The 04-27 announcement is the formal joint press release of the previously announced deal; no substantively new information beyond what was already covered (Schwarz Group €500M financing equivalent to $600M was already covered, $20B valuation was already covered, transatlantic sovereign-AI thesis was already covered)."
+    },
+    {
+      "story_key": "anthropic-project-deal-marketplace",
+      "event_date": "2026-04-25",
+      "title_en": "TechCrunch deep-dive on Anthropic's Project Deal agent marketplace experiment",
+      "source": "TechCrunch / ArtificialLawyer",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-24 with story_key 'anthropic-project-deal-marketplace'. The 04-25 TechCrunch and 04-27 ArtificialLawyer articles are commentary on the previously announced experiment; the 04-24 entry already covered the 69 employees, 186 transactions, $4,000+ total, $2.68 differential between Opus and Haiku users, and the invisibility of model quality to participants. No substantively new information."
+    },
+    {
+      "story_key": "softbank-openai-margin-loan",
+      "event_date": "2026-04-23",
+      "title_en": "SoftBank seeks $10B margin loan backed by OpenAI shares",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-23 is 5 days from today's 2026-04-28 (right at boundary). Not previously published, but story is moderately interesting only — not strong enough to justify reaching back to the boundary; better to lead with fresher 04-27 stories."
+    },
+    {
+      "story_key": "tesla-cybercab-production-start",
+      "event_date": "2026-04-24",
+      "title_en": "Musk says Tesla has started Cybercab pilot production at Giga Texas",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 4 days old (within window) but the news was bundled into Tesla Q1 2026 earnings coverage already published as 'tesla-q1-2026-earnings' on 04-22. Cybercab production start is a footnote that does not warrant a fresh story today; main 04-22 entry already foreshadowed Cybercab/FSD trajectory."
+    },
+    {
+      "story_key": "sundar-pichai-lex-fridman-podcast",
+      "event_date": "2026-04-23",
+      "title_en": "Sundar Pichai on Lex Fridman podcast on AI-generated code velocity",
+      "source": "Lex Fridman Podcast",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Podcast appearance with no breaking news content; quotes about engineering velocity and AI-written code are general commentary, not actionable industry developments. Better candidates available."
+    }
+  ]
+}
