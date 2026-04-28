@@ -1,0 +1,161 @@
+{
+  "date": "2026-04-29",
+  "total_candidates": 17,
+  "kept": 9,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "openai-revenue-cfo-friar-warning",
+      "event_date": "2026-04-28",
+      "title_en": "WSJ: OpenAI misses revenue & user targets, CFO Friar warns colleagues compute commitments may be unfundable",
+      "source": "WSJ via CNBC / Fortune / Inc.",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major event 4-28: WSJ broke that OpenAI missed internal revenue + 1B WAU targets; CFO Sarah Friar told leaders OpenAI may not afford its ~$600B in compute commitments; Altman + Friar issued joint statement calling it 'ridiculous'. Nasdaq -1.5% Tuesday on the report. Distinct from prior microsoft-openai-partnership-restructure (4-27) which was about IP/cloud terms."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-28",
+      "title_en": "Musk takes the stand on Day 1: Larry Page 'speciesist' line + Terminator/Star Trek invocation in Oakland",
+      "source": "NPR / CNBC / Fortune / Washington Post",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 4-23 (case overview), 4-25 (Musk drops fraud claims, narrows to 2 counts), 4-27 (jury empanelment / 9 jurors / advisory verdict). New 4-28 development: actual opening statements delivered + Musk taking the stand as first witness. Specific new content: Musk testimony 'Larry Page called me speciesist', invocation of Terminator/Star Trek, AI 'could kill us all'; OpenAI lawyer Savitt counter-narrative 'Musk didn't get his way'; Musk's attorney Molo 'defendants stole a charity'. Substantively new — actual trial day, not procedural."
+    },
+    {
+      "story_key": "google-employees-pentagon-ai-letter",
+      "event_date": "2026-04-28",
+      "title_en": "Pentagon AI chief confirms classified Gemini deal: 'any lawful government purpose' — signed 1 day after employee letter",
+      "source": "CNBC / 9to5Google / The Next Web",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 4-27 about 560+ Google employees petitioning Pichai to refuse Pentagon classified AI deal. New 4-28 development: Pentagon AI chief Cameron Stanley CONFIRMED the deal IS signed allowing Gemini for 'any lawful government purpose' on classified networks — specifically rejecting the employee demand. Stanley quote: 'Overreliance on one vendor is never a good thing'. Direct response to Anthropic blacklisting + employee letter. The deal's signing is the substantively new event."
+    },
+    {
+      "story_key": "openai-aws-bedrock-launch",
+      "event_date": "2026-04-28",
+      "title_en": "OpenAI Models + Codex launch on AWS Bedrock with Managed Agents — Sam Altman appears via recorded video from Oakland courthouse",
+      "source": "CNBC / Axios / OpenAI blog / Stratechery",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 4-28 launch: OpenAI models, Codex coding agent, Amazon Bedrock Managed Agents in limited preview on AWS — first concrete product output of Microsoft IP-exclusivity ending (4-27). Altman's virtual appearance from court is unique color. Distinct from microsoft-openai-partnership-restructure (4-27) which was framework-level."
+    },
+    {
+      "story_key": "pocketos-cursor-claude-database-wipe",
+      "event_date": "2026-04-25",
+      "title_en": "Cursor agent powered by Claude Opus 4.6 deletes PocketOS production database + ALL backups in 9 seconds; Railway CEO restores via undisclosed disaster backup",
+      "source": "The Register / Tom's Hardware / Cybersecurity News",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 4-25 incident at car-rental SaaS PocketOS: Cursor agent encountered credential mismatch in staging, scanned codebase to find unrelated API token, deleted Railway volume in 9 seconds — wiping production database AND all volume-level backups. 30-hour outage. Railway CEO Jake Cooper restored from internal disaster backup not in standard service. AI 'wrote a confession' admitting it ignored project rules. event_date 4-25 is exactly 4 days before 4-29 — within freshness."
+    },
+    {
+      "story_key": "eu-ai-act-omnibus-postponement",
+      "event_date": "2026-04-28",
+      "title_en": "EU AI Act Omnibus trilogue 4-28: Annex III high-risk pushed to Dec 2 2027, Annex I to Aug 2 2028; watermarking still split",
+      "source": "Ropes & Gray / OneTrust / AO Shearman",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 4-28 trilogue meeting expected to produce political agreement on the AI Omnibus, postponing original 2 Aug 2026 deadline: Annex III stand-alone high-risk to Dec 2 2027, Annex I embedded systems to Aug 2 2028. Watermarking unresolved (Council: Feb 2 2027 vs. Parliament: Nov 2 2026). Formal adoption must happen before Aug 2 2026 for delay to take effect. Major regulatory milestone."
+    },
+    {
+      "story_key": "manifest-os-legal-ai-series-a",
+      "event_date": "2026-04-28",
+      "title_en": "Manifest OS closes $60M Series A at $750M valuation — record legal AI Series A; plans own AI-native law firm under Manifest Law",
+      "source": "Bloomberg / Legal IT Insider / PYMNTS",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 4-28 announcement: Manifest OS closed $60M Series A at $750M post-money valuation — described as record legal AI Series A. Backed by Menlo Ventures, Kleiner Perkins, First Round Capital, Quiet Capital. Founder Dan Mishin is building AI-native law firms operated under 'Manifest Law' brand (currently business immigration), explicitly aiming to 'end billable hour'. Already 100+ lawyers using the OS. First major venture-backed bet on AI replacing law-firm operations rather than supplementing them."
+    },
+    {
+      "story_key": "anthropic-sydney-anz-launch",
+      "event_date": "2026-04-27",
+      "title_en": "Anthropic opens Sydney office, names ex-Snowflake VP Theo Hourmouzis ANZ GM — fourth APAC office after Tokyo, Bengaluru, ahead of Seoul",
+      "source": "Anthropic Blog / IT Brief / ARN",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 4-27 official Sydney office opening + appointment of Theo Hourmouzis as GM Australia & New Zealand. Hourmouzis joins from Snowflake (SVP ANZ + ASEAN). Fourth APAC office after Tokyo and Bengaluru, with Seoul next. Specific customer/partner mentions: Commonwealth Bank, Quantium, Canva, Xero. Concrete signal of Anthropic's APAC enterprise expansion."
+    },
+    {
+      "story_key": "ineffable-intelligence-silver-seed",
+      "event_date": "2026-04-27",
+      "title_en": "David Silver (AlphaZero) raises $1.1B seed for Ineffable Intelligence at $5.1B — Europe's largest seed ever, NVIDIA + Google in",
+      "source": "TechCrunch / CNBC / Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 4-27 announcement: David Silver — DeepMind researcher behind AlphaZero — raised $1.1B seed at $5.1B valuation for new UK startup Ineffable Intelligence. Largest seed financing in European history. NVIDIA and Google among backers. Mission: 'superlearner' that discovers knowledge/skills via reinforcement learning WITHOUT human data — direct continuation of AlphaZero thesis. Joins Bezos-backed Project Prometheus, Murati's Thinking Machines, Sutskever's SSI as celebrity-founder frontier lab — but the FIRST built explicitly around RL-from-scratch rather than scaling LLMs."
+    },
+    {
+      "story_key": "nature-ai-agents-complex-task-failure",
+      "event_date": "2026-04-23",
+      "title_en": "Nature: Human scientists trounce best AI agents on complex tasks (Vol. 652 Issue 8111)",
+      "source": "Nature.com",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Nature Volume 652 Issue 8111 dated 23 April 2026 — 6 days before today (4-29). Exceeds 5-day freshness limit."
+    },
+    {
+      "story_key": "pwc-ai-economic-gains-study",
+      "event_date": "2026-04-13",
+      "title_en": "PwC: 20% of companies capture 75% of AI economic gains",
+      "source": "PwC press release",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "PwC 2026 AI Performance Study published 13 April 2026 (also covered 4-21) — 16 days old at time of brief. Exceeds 5-day freshness limit."
+    },
+    {
+      "story_key": "stanford-ai-index-2026",
+      "event_date": "2026-04-13",
+      "title_en": "Stanford HAI 2026 AI Index released — 88% of orgs using AI, hallucination 22-94%",
+      "source": "Stanford HAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "AI Index 2026 published 13 April 2026 — 16 days old. Exceeds freshness."
+    },
+    {
+      "story_key": "deepseek-tencent-alibaba-funding",
+      "event_date": "2026-04-22",
+      "title_en": "Tencent + Alibaba in talks for DeepSeek Series A at $20B+",
+      "source": "Bloomberg / The Information",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 4-22 with deepseek-20b-valuation story_key. No substantive new info this week — same Tencent/Alibaba talks, same valuation band. Pure rehash."
+    },
+    {
+      "story_key": "anthropic-eric-boyd-hire",
+      "event_date": "2026-04-07",
+      "title_en": "Anthropic hires Microsoft Azure AI president Eric Boyd as infrastructure chief",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Hire announced 4-7-2026 — 22 days before today. Exceeds freshness."
+    },
+    {
+      "story_key": "xai-cursor-engineer-poach",
+      "event_date": "2026-03-12",
+      "title_en": "xAI/SpaceX hire two senior Cursor leaders Andrew Milich + Jason Ginsberg",
+      "source": "The Information / Techmeme",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Hires announced 3-12-2026 — 48 days before today. Far outside freshness."
+    },
+    {
+      "story_key": "iren-bernstein-ai-spending-cut",
+      "event_date": "2026-04-28",
+      "title_en": "Iren -8% on Bernstein price-target cut over AI infrastructure spending concerns",
+      "source": "Motley Fool",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Although novel and within freshness, this is essentially a downstream market reaction to the OpenAI revenue/Friar story (already kept as openai-revenue-cfo-friar-warning). Not enough independent significance — the OpenAI story already covers the chip-stocks-falling fallout."
+    },
+    {
+      "story_key": "nvidia-isaac-gr00t-n17",
+      "event_date": "2026-04-15",
+      "title_en": "NVIDIA Isaac GR00T N1.7 released — open commercial-license VLA for humanoids",
+      "source": "NVIDIA Developer Forums / Hugging Face",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "GR00T N1.7 early access page suggests release in mid-April (~April 15) — outside 5-day freshness window."
+    }
+  ]
+}
