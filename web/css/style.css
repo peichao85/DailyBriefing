@@ -742,6 +742,45 @@ footer {
   }
 }
 
+/* === GitHub Link === */
+.github-link {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-family: var(--font-display);
+  transition: color 0.25s;
+  z-index: 10;
+}
+
+.github-link:hover {
+  color: var(--accent-default);
+  text-decoration: none;
+}
+
+.github-link svg {
+  opacity: 0.8;
+  transition: opacity 0.25s;
+}
+
+.github-link:hover svg {
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .github-link {
+    top: 1rem;
+    right: 1rem;
+  }
+  .github-link span {
+    display: none;
+  }
+}
+
 /* === Tab Bar === */
 .tab-bar {
   display: flex;
