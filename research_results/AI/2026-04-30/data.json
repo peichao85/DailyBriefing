@@ -1,0 +1,154 @@
+{
+  "date": "2026-04-30",
+  "category": "AI",
+  "researched_at": "2026-04-30T07:10:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk",
+    "Bloomberg", "CNBC", "Reuters", "TechCrunch", "Fortune",
+    "WSJ", "Axios", "NPR", "NBC News", "CNN Business",
+    "Microsoft IR", "Alphabet IR", "Meta IR", "Amazon IR"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic 启动 $9000 亿估值新一轮谈判：单从估值已逼近反超 OpenAI——距 Bloomberg 报 $8000 亿仅 15 天，从 $1830 亿翻 5 倍只用了 6 个月",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-29/anthropic-considering-funding-offers-at-over-900-billion-value",
+      "story_key": "anthropic-900b-valuation",
+      "event_date": "2026-04-29",
+      "summary": "Bloomberg 4 月 29 日独家：Anthropic 已开始权衡一笔将公司估值推至 **$9000 亿美元以上** 的新一轮融资——这一估值若成局将首次反超 OpenAI 当前 ~$8500 亿美元的最新估值，使 Anthropic 成为全球最有价值的 AI 初创公司。距 4 月 14 日 Bloomberg 上报 $8000 亿估值 offers 仅过去 15 天。",
+      "detail": "Bloomberg 周三（4 月 29 日）援引知情人士独家披露：Anthropic 已开始评估多家投资人提交的、按照 **$9000 亿美元以上** 估值认购公司新一轮股权的报价——这一估值是 Anthropic 当前账面估值的 **2 倍以上**，并将首次让一家 AI 实验室在估值上正式超越 OpenAI（最近一轮约 $8500 亿）。Anthropic 当前并未表态接受任何报价，被披露事件描述为 'at a very early stage'。\n\nAnthropic 估值的快速跃迁路径：2025 年底约 $1830 亿 → 2026 年 3 月 $3500 亿（Google 主导一笔投资，4 月 24 日宣布的 $400 亿融资中 $100 亿即时到账按此估值）→ 4 月 14 日 Bloomberg 报 $8000 亿 offers → 4 月 29 日 $9000 亿+ offers。这相当于 6 个月内估值跃升约 **5 倍**——而同期其 run-rate 营收从 $9B 推至 $30B+，业务规模也增长了 ~3.3 倍。\n\n这一估值跃迁的产业语境：（1）4 月 24 日 Google 宣布最高 $400 亿投资 Anthropic + 5GW Cloud 算力长约；（2）4 月 20 日 AWS 宣布 $250 亿+ 投资 Anthropic + 10 年 $1000 亿 Trainium 长约；（3）4 月 27 日 Anthropic 模型已被部署在 AWS Bedrock GA、训练放上 Trainium，与 Annapurna Labs 联合写 kernel；（4）4 月 27-28 日 OpenAI 与 Microsoft 重写七年合作框架，IP 独家性终结、Azure 不再独占；（5）4 月 28 日 WSJ 独家：OpenAI CFO Sarah Friar 私下警告同事 OpenAI 可能 '付不起' $6000 亿算力账单，Altman + Friar 联名发声明称 '荒谬'。\n\n反转的市场含义：在 OpenAI 因 Microsoft 独家许可终结、Friar/Altman 内部分歧、营收 miss 三件事同时被市场重新计价的时刻，Anthropic 完成了对最强对手在估值层面的首次完整反超——同时双双被 Google + AWS 两家 hyperscaler 数百亿美元级别绑定，是史上首家被两大 cloud 同步深度押注的 AI 实验室。Anthropic 当前 1000+ 企业客户每家年化支出超 $1M、不到两个月内翻倍，是 $9000 亿估值最坚实的一个支撑数据。",
+      "key_quotes": [
+        "Anthropic is entertaining offers from investors that would more than double its current valuation. The considerations are at a very early stage and the company has yet to accept any offers."
+      ],
+      "significance": "这是 AI 资本市场领导地位首次出现实质性反转——Anthropic 在过去 6 个月里走完了从 ~$1830 亿到 $9000 亿+ 的 5 倍估值跃迁，run-rate 营收从 $9B 推至 $30B+，几乎与 OpenAI 在同期的扩张速度持平，但路径完全不同：不向 Microsoft 让 IP、不让 OpenAI 那样向单一 cloud 让营收分成，而是与 Google + AWS 双押注算力、自建客户级 Bedrock 入口。如果 $9000 亿成局，将首次出现一家 AI 实验室在主流资本市场上估值高于 OpenAI 的局面，也意味着投资人开始把 '不被 hyperscaler 绑死 + 与多家 cloud 多重深度绑定' 这条路径视为比 OpenAI/Microsoft 模型更优的资产。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-29/anthropic-considering-funding-offers-at-over-900-billion-value",
+        "https://www.cnbc.com/2026/04/29/anthropic-weighs-raising-funds-at-900b-valuation-topping-openai.html"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["anthropic", "valuation", "funding", "openai", "ai-race"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Alphabet Q1 一记重锤：Google Cloud 单季暴增 63% 破 $200 亿、积压订单一季翻倍至 $4600 亿——Pichai 当面承认'算力不够卖'，2026 capex 上调到 $190 亿",
+      "source": "Alphabet IR",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+      "story_key": "alphabet-q1-2026-earnings",
+      "event_date": "2026-04-29",
+      "summary": "Alphabet 4 月 29 日盘后公布 Q1 2026 财报：营收 **$1099 亿（+22%）**、EPS **$5.11**（远超预期 $2.62）、净利 **$626 亿**（同比近翻倍）；**Google Cloud 收入飙至 $200 亿（+63%）**，订单积压（backlog）季环比近翻倍至 **$4600 亿**；CEO Sundar Pichai 在电话会议上首次正面承认 'we are compute constrained in the near term'，并把 2026 全年 capex 指引从 $175-185B 上调至 **$180-190B**。",
+      "detail": "Alphabet Q1 2026 是本周 4 大 hyperscaler 财报中分量最重的一份——营收 $1099 亿同比 +22%，远超 Wall Street 预期 $1071 亿；EPS $5.11 几乎是预期 $2.62 的两倍；净利 $626 亿同比 +81%，几近翻倍。\n\nGoogle Cloud 是核心驱动：单季营收 **$20.03 亿** 同比 +63%（远超预期 $18.4 亿），是 Cloud 业务有史以来首次单季破 $200 亿——并且 backlog 从 ~$240 亿一季内近翻倍至 **$4600 亿**，相当于 Cloud 当前 ARR 的 ~6 倍。Pichai 在电话会议上明言：'We are compute constrained in the near term. Our cloud revenue would have been higher if we were able to meet the demand.'——首次官方承认 Google Cloud 与 AWS / Azure 一样卡在算力供应端。\n\nGenAI 与 Gemini Enterprise 数据点：基于自家 GenAI 模型构建的产品同比收入 **+800%**；Gemini Enterprise 付费 MAU 季环比 +40%；同期 Search 营收增长 **+19%**（AI Overviews 拉高搜索查询量到历史新高），YouTube 广告 $98.8 亿。\n\nCapex 与未来展望：Q1 单季 capex **$357 亿**（YoY +107%），2026 全年指引从 $175-185B 上调至 **$180-190B**，并明确预告 '2027 显著进一步提高'——这是 Pichai 首次给出 2027 capex 加码信号，提示 hyperscaler 资本支出顶部远未到来。同时这也间接证实 4 月 24 日宣布的 Google + Anthropic $400 亿合作 + 5GW 算力长约背后是 Google 自家 Cloud 业务对 Anthropic 算力的兑现需求。",
+      "key_quotes": [
+        "We are compute constrained in the near term.",
+        "Our cloud revenue would have been higher if we were able to meet the demand."
+      ],
+      "significance": "Q1 2026 是 Google Cloud 第一次以 +63% 单季增速、$4600 亿 backlog 这种数据公开兑现自己作为 hyperscaler '第三极' 的地位——本季 Cloud 增速已远高于 Azure（+40%）与 AWS（+28%），并使 Cloud 单季营收首次接近 YouTube。Pichai 公开承认 'compute constrained' 与 capex 上调到 $190B + 预告 2027 进一步加码，意味着 hyperscaler 资本支出周期还未达顶；同时市场首次看到 GenAI 营收（+800% YoY）+ Gemini Enterprise 付费用户（+40% QoQ）作为单独 KPI 列出，使 Google AI 商业化的可见度达到历史最高，是对 4 月初 Gemini 3.0 + Gemini Enterprise Agent Platform 战略的最直接兑现。",
+      "links": [
+        "https://www.cnbc.com/2026/04/29/alphabet-googl-q1-2026-earnings.html",
+        "https://9to5google.com/2026/04/29/alphabet-q1-2026-earnings/",
+        "https://www.constellationr.com/insights/news/google-cloud-revenue-growth-hits-63-q1-20-billion"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["alphabet", "google-cloud", "earnings", "capex", "gemini"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Microsoft FY26 Q3 大涨：Azure 增 40%（超指引上限）、Copilot 付费席位破 2000 万——但 capex 全年被推到 $1900 亿，'内存涨价'是单一最大涨价元凶",
+      "source": "Microsoft IR",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+      "story_key": "microsoft-q3-fy26-earnings",
+      "event_date": "2026-04-29",
+      "summary": "Microsoft 4 月 29 日盘后公布 FY2026 Q3（自然年 Q1）财报：营收 **$829 亿（+18%）**、EPS **$4.27**（预期 $4.06），**Azure 与其他 cloud 业务收入同比 +40%**（恒定汇率 +39%，超 37-38% 指引上限）。CFO 同时把 2026 财年 capex 指引推到 **$1900 亿**——比 Visible Alpha 共识（$1546 亿）多 $354 亿，原因首次被官方点名：**'memory pricing'（HBM 涨价）**。",
+      "detail": "Microsoft Q3 2026 财年（自然年 Q1）的核心数据：总营收 $829 亿同比 +18%、EPS $4.27 vs 预期 $4.06、Microsoft Cloud 收入 $545 亿（+29%）、商业 RPO（remaining performance obligation）同比 **+99% 至 $6270 亿**——RPO 单季近翻倍是市场最直接的 AI 需求兑现信号。\n\nAzure 与其他 cloud 服务收入 **+40%**、恒定汇率下 **+39%**——比管理层在 Q2 财报会上给出的 37-38% 指引上限再高 1 个点，CFO Amy Hood 在电话会议上明言：'demand for Azure AI capacity than there is capacity to serve it'，正式承认 Azure 处于 supply-constrained 状态。Copilot 商业付费席位首次披露突破 **2000 万**，是 Microsoft 365 Copilot 自 2023 年发布以来的最高单一渗透数据。\n\nCapex 一年内被推到 $1900 亿（Visible Alpha 共识 $1546 亿，预期外多 $354 亿）；Q1 单季 capex 含 finance lease $319 亿，比预期 $352.9 亿少 $34 亿——后者被市场解读为 '基础设施 footprint 增速正在受限于 NAND/HBM 供应'，是 Microsoft 第一次在公开财报中明确把 'memory pricing' 作为单一最大 capex 上调原因。\n\nOpenAI 关系换轨已落地：4 月 27 日两公司同步官宣 OpenAI 对 Microsoft 的 IP 独家访问权终止、改非独家许可至 2032，OpenAI 即日起可向任何云厂商交付产品，Microsoft 不再向 OpenAI 反向支付分成；本季 Azure 的 +40% 增速完全是在 'no longer exclusive' 前提下取得，Wall Street 视为 Microsoft 已经成功摆脱对 OpenAI 单一来源的过度依赖。",
+      "key_quotes": [
+        "There is more demand for Azure AI capacity than there is capacity to serve it."
+      ],
+      "significance": "Microsoft 第一次在公开财报中把全年 capex 数字从 ~$80B 抬到 $190B，单季增量来自'memory pricing'（HBM 与 NAND 涨价）成本飙升而非新增数据中心 footprint——这意味着即使 footprint 不变，hyperscaler 的 AI 资本开支会被存储链涨价被动放大。同时 Azure 40% 增长 + 容量饱和 + Copilot 2000 万付费席位三件事同时落地，意味着 Microsoft 正以 '独家被剥夺'（4 月 27 日 OpenAI IP 独家终结）的代价换 Azure 独立健康——结果是 Q3 这份财报市场认可：Azure 不需要 OpenAI 独家也跑得比指引上限快。",
+      "links": [
+        "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html",
+        "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/press-release-webcast"
+      ],
+      "tags": ["microsoft", "azure", "earnings", "capex", "copilot"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Amazon Q1 重燃：AWS +28% 三年新高，自研 Trainium / Graviton / Nitro 芯片业务突破 $200 亿运行率——Bedrock 单季处理 token 量超 '历年所有季度总和'",
+      "source": "Amazon IR",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html",
+      "story_key": "amazon-q1-2026-earnings",
+      "event_date": "2026-04-29",
+      "summary": "Amazon 4 月 29 日盘后公布 Q1 2026 财报：营收 **$1815 亿（+17%）**、EPS **$2.78**（预期 $1.64）双双大超；**AWS 营收 $375.9 亿同比 +28%**——三年多以来最快增速；自研芯片业务（**Trainium + Graviton + Nitro**）首次以单独 KPI 形式公开，运行率突破 **$200 亿**、三位数百分比同比增长；Bedrock 平台 Q1 处理 token 量 **超过此前所有季度总和**，客户支出季环比 +170%。",
+      "detail": "AWS 的 28% 增长（vs Wall Street 预期 26%）是过去三年最高，第一次让市场看到 AWS 重新加速；Q1 AWS 单季营收 $375.9 亿、营业利润 $141.6 亿（+23%、远超 StreetAccount 共识 $128.4 亿）。这一加速明显与近期一系列 OpenAI / Anthropic 相关的 cloud 合作直接挂钩：4 月 27 日 OpenAI 把模型 + Codex 上线 AWS Bedrock；4 月 27 日 Anthropic 训练落到 AWS Trainium；4 月 24 日 Anthropic Claude 16 款消费级 App 接入。\n\n**自研芯片首次公开**：Trainium + Graviton + Nitro 三条产品线合计**运行率突破 $200 亿**、三位数百分比同比增长——这是 Amazon 第一次把自家硅基础设施作为单独披露 KPI，等于公开声明：hyperscaler 在 AI 算力供应链中已不再被 NVIDIA 单独垄断。Bedrock 平台数据更具冲击力：Q1 处理的 token 量 **超过此前所有季度的总和**，客户支出季环比 **+170%**——直接证明 4 月以来 Anthropic / OpenAI / Cohere 三家在 Bedrock 上的部署正在以非线性速度兑现。\n\nCapex 与现金流：Q1 单季 capex **$442 亿**（YoY 从 $250 亿）、TTM 自由现金流降至 $12 亿（vs 一年前 $259 亿），财产与设备购置 YoY 多花 $593 亿——Amazon 的 capex 投入强度终于追平 Microsoft / Alphabet / Meta 同等水平，并以一份 AWS +28% 的财报兑现了短期回报。\n\n资本开支最终落点信号：CFO Brian Olsavsky 在电话会议上未给出 2026 全年 capex 指引上限，只确认 'Q1 444 亿' 是新基线——意味着年化 capex 已被推过 $1700 亿等级，与 Microsoft / Alphabet 同梯队。",
+      "key_quotes": [
+        "More tokens were processed through its Bedrock platform in Q1 2026 than in all prior years combined."
+      ],
+      "significance": "AWS +28% 是过去 3 年最高增速，**第一次**让市场看到 AWS 重回 hyperscaler 主航道——背后驱动是 4 月 27 日 OpenAI 上 Bedrock + Anthropic 训练落 Trainium 两笔合作的实际转化。更重要的是 Amazon 自研芯片业务（Trainium / Graviton / Nitro）首次以 $200 亿+ 单独 KPI 形式公开，三位数同比增长——这是 hyperscaler 第一次正面声明：AI 算力供应链已不再被 NVIDIA 单独垄断。Bedrock 单季 token 量超历史总和、客户支出季环比 +170% 等数据点意味着，AI 推理量正在以非线性速度向 hyperscaler 自家平台聚集。",
+      "links": [
+        "https://www.cnbc.com/2026/04/29/aws-earnings-q1-2026.html",
+        "https://www.aboutamazon.com/news/company-news/amazon-earnings-q1-2026-report",
+        "https://finance.yahoo.com/markets/stocks/articles/amazon-q1-2026-earnings-beat-203149838.html"
+      ],
+      "tags": ["amazon", "aws", "earnings", "trainium", "bedrock"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Meta Q1：营收 +33% 全面超预期、capex 上调到 $1450 亿——但 DAP 用户增长 miss + Llama 仍排末位，盘后股价 -7%",
+      "source": "Meta IR",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+      "story_key": "meta-q1-2026-earnings",
+      "event_date": "2026-04-29",
+      "summary": "Meta 4 月 29 日盘后公布 Q1 2026 财报：营收 **$563.1 亿（+33%）**、EPS **$7.31**（预期 $6.79）双双超预期；2026 全年 capex 指引从 $115-135B 上调至 **$125-145B**；但 DAP（Daily Active People）用户增长不及预期，叠加 Llama 5 在主流榜单上仍排在 OpenAI / Anthropic / Google / xAI 之后——盘后股价 **-7%**，是 4 大 hyperscaler 中**唯一**被股价惩罚 AI 投入的公司。",
+      "detail": "Meta Q1 2026 财报数字：营收 $563.1 亿（YoY +33%，vs 共识 $554.5 亿）、EPS $7.31（vs 共识 $6.79）、净利同比近翻倍——这一切看上去都好，但盘后股价 **-7%** 给出了非常清晰的市场判断：投资人对 $135B+ AI capex 没有匹配的 AI 营收兑现感到担忧。\n\n三个负面信号同时落地：（1）**DAP 增长 miss**——Meta 没有具体披露 DAP 数字，但市场基于现有 family-of-apps 数据估算低于预期；（2）capex 指引上调到 $125-145B（原 $115-135B）—— 高 capex 加 DAP miss 是市场最不能容忍的组合；（3）**Llama 仍排末位**——Llama 5 于 4 月初发布、600B+ 参数、号称多模态 + 递归自改进，但在 Artificial Analysis 等独立榜单上仍排在 OpenAI、Anthropic、Google、xAI 之后；公司同时推出闭源 Muse Spark 'agentic' AI 模型驱动 WhatsApp / Instagram 个人助手——这是 Meta 首次正式偏离 Llama 开源传统。\n\nZuckerberg 的电话会议口径：'We had a milestone quarter with strong momentum across our apps and the release of our first model from Meta Superintelligence Labs. We're on track to deliver personal superintelligence to billions of people.'——直接把战略主导权从 Llama / FAIR 团队收编进 'Meta Superintelligence Labs'，但市场显然不买账。\n\n背景：4 月 23 日 Meta 已宣布将裁员 8000 人（占全员 ~10%）、5 月 20 日启动，**首次官方将 '加码 AI' 列为正式裁员理由**——Q1 财报后股价 -7% 意味着市场仍在为这条 '砍人省钱填 AI capex' 路径定价不确定性。",
+      "key_quotes": [
+        "We had a milestone quarter with strong momentum across our apps and the release of our first model from Meta Superintelligence Labs.",
+        "We're on track to deliver personal superintelligence to billions of people."
+      ],
+      "significance": "Meta 是 4 大 hyperscaler 中**唯一**在 capex 加码后股价遭抛售的——三个负面信号叠加：DAP 用户增长 miss、capex 上调到 $145B、Llama 5 在独立榜单上仍排末位。Zuckerberg 把战略主导权从 Llama / FAIR 团队收编进 'Meta Superintelligence Labs' 并强调 '首个模型已发布'，但市场显然认为模型质量不到、capex 又被推高，是一个估值不能成立的组合。这是 Q1 2026 财报季第一家被股价惩罚 AI 投入的 hyperscaler，给后续的 Apple / NVIDIA 财报定下了 'AI capex 必须有匹配兑现' 的市场基调。",
+      "links": [
+        "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html",
+        "https://www.benzinga.com/markets/earnings/26/04/52152899/meta-platforms-tops-expectations-in-q1-shares-slide-as-company-raises-2026-capex-guidance",
+        "https://sherwood.news/tech/meta-earnings-q1-2026/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["meta", "earnings", "capex", "llama", "stock-drop"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "Musk v. Altman Day 3：Microsoft $100 亿入场被 Musk 当庭定性'bait-and-switch'——Musk 向陪审团预测'AI 明年（2027）就比所有人聪明'，Brockman 周五 48 小时内可能登场",
+      "source": "@elonmusk",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/29/musk-altman-live-updates-day-3-open-ai-trial.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-29",
+      "summary": "4 月 29 日（trial Day 3）Musk 在 Oakland 联邦法庭进入第二天交叉盘问——OpenAI 首席律师 Bill Savitt 与 Musk 多次激烈对抗。Musk 把 2023 年初得知 Microsoft 向 OpenAI 投资 $100 亿后他给 Altman 发的短信原文定性为 'bait-and-switch'，并对陪审团预测 '**AI 最早明年（2027 年）就能比任何人都聪明**'；Birchall 周四上午接力作证，**Brockman 已被通知 48 小时内可能登场**——预计周五。",
+      "detail": "**Day 3 核心戏码：Bill Savitt 对 Musk 的交叉盘问全面升级。** Savitt 试图把 Musk 当年是否阅读 OpenAI 的 term sheet 这一关键事实定性为 '前后矛盾'——Musk 当庭还击：'我读了第一部分，了解 high-level 细节；庭外取证（deposition）时我表达的是没有仔细看，不是没有读。' Savitt 反讥 '这是一个简单问题'，Musk 回敬：**'Your questions are definitionally complex, not simple. It is a lie to say they are simple.'**\n\n**核心证词点 #1：'Bait-and-switch'**。Musk 当庭把 2023 年初得知 Microsoft 向 OpenAI 投资 $100 亿后给 Altman 发的短信定性为 'bait-and-switch'——首次在法庭上把 Microsoft 投资塑造成 OpenAI 把 '非营利初心' 调包成 '营利转换' 的关键时点，并补充：'你不能既要又要——一边享受非营利的 good association，一边切换到 for-profit。'\n\n**核心证词点 #2：'AI 明年就比所有人聪明'**。Musk 在第二天庭审中向陪审团预测：**'AI 最早明年（2027 年）就能比任何人都聪明。'**——这是 Musk 首次把 AGI 时间表正式作为法庭证词记录在册，比他公开口径上的过往预测都更激进，也是 Day 1 'AI could kill us all' 表述的延续。\n\n**程序进度**：Savitt 告诉 Yvonne Gonzalez Rogers 法官，他对 Musk 的交叉盘问预计周四再持续约 1 小时。之后 Musk 律师团将传唤下一位证人——**Jared Birchall**（Musk 家族办公室 Excession LLC 负责人，同时是 xAI / Neuralink 高管）。OpenAI 律师告知法庭，**Greg Brockman 已被通知 48 小时内可能登场**——预计周五出庭作证。Brockman 是 OpenAI 营利转换最关键的当事人之一，其证词可能直接影响法官对 unjust enrichment 与 charitable trust violation 的最终认定。\n\n**背景回顾：** 4 月 25 日 Musk 撤回全部 fraud 指控、放弃 26 项诉求中的 24 项，仅留 'unjust enrichment + breach of charitable trust' 两条核心诉求；索赔 $1340 亿、要求罢免 Altman、撤销 OpenAI 营利转换三大终极诉求仍在桌面。",
+      "key_quotes": [
+        "Your questions are definitionally complex, not simple. It is a lie to say they are simple.",
+        "But what you can't do is have your cake and eat it too.",
+        "AI will be smarter than any human as soon as next year.",
+        "bait-and-switch"
+      ],
+      "significance": "Day 3 是本案第一次出现具有**实质程序后果**的一天——三个事件同时落地：（1）Musk 把 'AI 明年就比所有人聪明' 作为正式法庭证词，使 AGI 时间表第一次进入司法记录；（2）'Bait-and-switch' 的法律定性被 Musk 直接当庭定型，与原诉状中 'unjust enrichment' 主张精确锁定；（3）Brockman 出庭日期（周五）首次浮现，他作为 OpenAI 营利转换最关键的当事人，其证词可能直接决定法官在 liability 阶段对 unjust enrichment 与 charitable trust violation 的最终认定。这意味着接下来周五（5 月 1 日）将是本案进入实质性 'OpenAI 内部决策证据' 阶段的第一天。",
+      "links": [
+        "https://www.cnbc.com/2026/04/29/musk-altman-live-updates-day-3-open-ai-trial.html",
+        "https://www.cnn.com/2026/04/29/tech/musk-openai-altman-lawsuit-testimony-day-two",
+        "https://www.npr.org/2026/04/29/nx-s1-5803833/elon-musk-testimony-openai-altman-day-2"
+      ],
+      "tags": ["openai", "musk", "altman", "trial", "agi-timeline"],
+      "category": "frontier_leaders"
+    }
+  ]
+}

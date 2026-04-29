@@ -1,0 +1,116 @@
+{
+  "date": "2026-04-30",
+  "total_candidates": 12,
+  "kept": 6,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "anthropic-900b-valuation",
+      "event_date": "2026-04-29",
+      "title_en": "Anthropic weighs new round at $900B+ valuation, on track to surpass OpenAI",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in 7-day lookback. Net new development: Anthropic considering offers above $900B vs. OpenAI's most recent ~$850B valuation; would be first time an AI lab is more valuable than OpenAI."
+    },
+    {
+      "story_key": "alphabet-q1-2026-earnings",
+      "event_date": "2026-04-29",
+      "title_en": "Alphabet Q1 2026 crushes estimates: Cloud +63%, $460B backlog, raises capex to $190B",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Q1 2026 earnings reported April 29; revenue $109.9B, Cloud revenue $20.03B (+63%), backlog ~$460B, capex guide raised to $180-190B, Pichai said 'we are compute constrained'."
+    },
+    {
+      "story_key": "microsoft-q3-fy26-earnings",
+      "event_date": "2026-04-29",
+      "title_en": "Microsoft Q3 FY26: Azure +40%, Copilot 20M paid seats, capex jumps to $190B on memory prices",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Microsoft FY26 Q3 reported April 29; revenue $82.9B, Azure +40% (above 37-38% guide), capex now $190B FY-wide due to memory cost surge, 20M Copilot paid seats, capacity-constrained."
+    },
+    {
+      "story_key": "amazon-q1-2026-earnings",
+      "event_date": "2026-04-29",
+      "title_en": "Amazon Q1: AWS +28% (3-yr high), in-house chip business hits $20B run-rate, Bedrock tokens up 170% QoQ",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Q1 2026 reported April 29; revenue $181.5B, AWS $37.59B +28% (fastest in 3+ years), in-house silicon (Trainium/Graviton/Nitro) at $20B+ run-rate at triple-digit growth, capex $44.2B."
+    },
+    {
+      "story_key": "meta-q1-2026-earnings",
+      "event_date": "2026-04-29",
+      "title_en": "Meta Q1 2026: revenue beats, capex raised to $125-145B, but DAP miss + Llama still last drag stock -7% AH",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Q1 2026 reported April 29; revenue $56.31B beat, EPS $7.31 beat, but capex guide raised to $125-145B and stock dropped ~7% after-hours on DAP miss + Llama still ranking last among major US labs."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-29",
+      "title_en": "Musk v. Altman Day 3: Musk calls Microsoft $10B investment 'bait-and-switch', predicts AI smarter than human in 2027, Brockman put on 48-hour notice",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key seen in lookback on 04-23, 04-25, 04-27, 04-28. Substantively new info on Day 3 (Apr 29): Musk's heated cross-examination by Bill Savitt, the explicit 'bait-and-switch' framing of Microsoft's $10B investment, Musk's courtroom prediction that AI will be smarter than any human as soon as 2027, scheduling of Birchall (Musk family-office head) as next witness, Brockman put on 48-hour notice for Friday testimony."
+    },
+    {
+      "story_key": "cognition-25b-valuation-talks",
+      "event_date": "2026-04-23",
+      "title_en": "Cognition AI in talks to raise at $25B valuation",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-23 is 7 days old (>5 day limit). Original Bloomberg report was April 23; no fresh confirmed development on April 29-30."
+    },
+    {
+      "story_key": "google-employees-pentagon-ai-letter",
+      "event_date": "2026-04-28",
+      "title_en": "Google-Pentagon AI deal continues — Cameron Stanley defending decision",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-27 (560 employee letter) and 04-28 (Cameron Stanley CNBC interview). No new substantive development on 04-29; no fresh public statement or escalation reported."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek V4 continued coverage",
+      "source": "Reuters",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 6 days old (>5 day limit). Already covered extensively on 04-24, 04-25."
+    },
+    {
+      "story_key": "openai-revenue-cfo-friar-warning",
+      "event_date": "2026-04-28",
+      "title_en": "OpenAI CFO Friar IPO timing follow-up coverage",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 04-28 with full WSJ-bombshell + Altman/Friar joint denial. April 29 follow-up coverage in Fortune/HumAI mostly recapped the original report; no substantive new disclosure or board action."
+    },
+    {
+      "story_key": "tesla-fsd-v14-unified-model",
+      "event_date": "2026-04-21",
+      "title_en": "Tesla FSD V14.3.2 unifies Robotaxi/Summon/FSD AI model",
+      "source": "Notateslaapp",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Software update is rolling out gradually; the unified-model design announcement traces back to mid-April releases. Not a discrete dated event within the 5-day freshness window."
+    },
+    {
+      "story_key": "anthropic-mythos-leak",
+      "event_date": "2026-04-23",
+      "title_en": "Mythos cybersecurity coverage continues — Schneier essay, WEF analysis",
+      "source": "WEF",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-23 is 7 days old (>5 day limit). Mythos public preview was April 7; leak news was April 23. Late-April analyses are commentary, not new events."
+    }
+  ]
+}
