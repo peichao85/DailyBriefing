@@ -1,0 +1,116 @@
+{
+  "date": "2026-05-01",
+  "total_candidates": 12,
+  "kept": 5,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "apple-q2-2026-earnings",
+      "event_date": "2026-04-30",
+      "title_en": "Apple Q2 record: $111.2B revenue, $100B buyback, Cook's last earnings",
+      "source": "Apple Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Apple posted Q2 record revenue $111.2B (+17%), EPS $2.01, $100B new buyback, iPhone +21.7%, Greater China $20.5B (+28%). Tim Cook's last earnings before Sept 1 Ternus handoff, with memory cost crisis and AI strategy under scrutiny."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-30",
+      "title_en": "Musk concludes testimony Day 4, Birchall DAFs probed, 3-day break begins",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 4-23, 4-25, 4-27, 4-28, 4-29. New info on 4-30: (1) Musk concluded all testimony after Microsoft attorney Russell Cohen recross-examination, (2) Jared Birchall testified about Musk's donor-advised funds at Vanguard/Fidelity, (3) court adjourned for 3-day break — no proceedings until Monday morning, (4) Brockman expected as Monday's lead-off witness. None of this was in prior coverage."
+    },
+    {
+      "story_key": "openai-advanced-account-security",
+      "event_date": "2026-04-30",
+      "title_en": "OpenAI launches Advanced Account Security with Yubico, free tier included",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI launched opt-in AAS for ChatGPT/API on April 30: passkey/security key required, password login disabled, email/SMS recovery removed, model training opt-out. Yubico partnership offers $68 2-pack YubiKeys (down from $126). Targets journalists, dissidents, elected officials."
+    },
+    {
+      "story_key": "snapchat-ai-sponsored-snaps",
+      "event_date": "2026-04-28",
+      "title_en": "Snapchat launches AI Sponsored Snaps in Chat tab",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Snapchat April 28 announced AI Sponsored Snaps — brands deploy AI agents directly in user inboxes for conversational commerce. CBO Ajit Mohan calls chat 'the most valuable real estate in advertising'. Traditional Sponsored Snaps already drive +22% conversions / -20% CPA; 500M users have messaged the My AI bot since 2023."
+    },
+    {
+      "story_key": "anthropic-sonnet45-1m-retirement",
+      "event_date": "2026-04-30",
+      "title_en": "Anthropic retires 1M context beta for Sonnet 4.5 and Sonnet 4",
+      "source": "Anthropic Docs",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. April 30 is the official cutoff: claude-sonnet-4-5-20250929 and claude-sonnet-4-20250514 with the context-1m-2025-08-07 beta header silently fall back to 200K tokens; >200K requests return 400. Migration path is Sonnet 4.6 / Opus 4.6 (1M at standard pricing, no header). Less than 7 weeks from GA to beta retirement."
+    },
+    {
+      "story_key": "cognition-25b-valuation-talks",
+      "event_date": "2026-04-23",
+      "title_en": "Cognition AI in talks for $25B valuation funding round",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Bloomberg first reported the $25B valuation talks on 2026-04-23, which is 8 days before today (2026-05-01) — exceeds the 5-day freshness limit. No fresh material development since."
+    },
+    {
+      "story_key": "google-tpu8-virgo-network",
+      "event_date": "2026-04-22",
+      "title_en": "Google unveils TPU 8t/8i + Virgo Network at Cloud Next 2026",
+      "source": "Google Cloud Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced 2026-04-22 at Google Cloud Next, 9 days before today — exceeds 5-day freshness limit."
+    },
+    {
+      "story_key": "alibaba-qwen36-27b-release",
+      "event_date": "2026-04-22",
+      "title_en": "Alibaba open-sources Qwen3.6-27B (Apache 2.0) outperforming 397B MoE",
+      "source": "MarkTechPost",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released 2026-04-22, 9 days before today — exceeds 5-day freshness limit."
+    },
+    {
+      "story_key": "openai-axios-macos-supply-chain",
+      "event_date": "2026-04-10",
+      "title_en": "OpenAI revokes macOS app certificate after Axios npm supply-chain attack",
+      "source": "OpenAI Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "OpenAI's official Axios developer tool compromise blog post was published 2026-04-10; the May 8 deadline is just a forward-looking expiration date. Underlying world-state event (compromise + certificate rotation) is 21 days old — exceeds 5-day freshness limit."
+    },
+    {
+      "story_key": "cerebras-ipo-s1-filing",
+      "event_date": "2026-04-17",
+      "title_en": "AI chipmaker Cerebras files S-1 for $35B IPO targeting May listing",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "S-1 filed 2026-04-17, 14 days before today — exceeds 5-day freshness limit."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk partners with OpenAI for AI across drug discovery and ops",
+      "source": "Novo Nordisk Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced 2026-04-14, 17 days before today — exceeds 5-day freshness limit."
+    },
+    {
+      "story_key": "mistral-830m-debt-financing",
+      "event_date": "2026-03-30",
+      "title_en": "Mistral AI raises $830M debt to fund Paris Nvidia GB300 data center",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced 2026-03-30, 32 days before today — far exceeds 5-day freshness limit."
+    }
+  ]
+}

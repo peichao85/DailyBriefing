@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-01",
+  "category": "AI",
+  "researched_at": "2026-05-01T07:10:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@geoffreyhinton",
+    "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46", "@alighodsi",
+    "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan",
+    "Apple Newsroom", "9to5Mac", "AppleInsider", "Bloomberg", "CNBC", "TechCrunch",
+    "OpenAI Blog", "Anthropic Docs", "Yubico", "Snap Newsroom", "CNN Business",
+    "The Ringer", "The Apple Post", "Axios"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Apple 自然年 Q1 一记杀手锏：营收 $1112 亿创史 + $1000 亿回购加码——iPhone 一年涨 22%、大中华区 +28% 起死回生，但 Cook 卸任前最后一战把'内存价 + AI 落后'两枚定时炸弹原封交给 Ternus",
+      "source": "Apple",
+      "source_name": "Apple Newsroom",
+      "source_url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "story_key": "apple-q2-2026-earnings",
+      "event_date": "2026-04-30",
+      "summary": "Apple 4 月 30 日盘后公布 FY2026 Q2（自然年 Q1）财报：营收 **$1112 亿（同比 +17%）**、EPS **$2.01**（+22% YoY，预期 $1.94），同时董事会批准 **$1000 亿股票回购** + 每股股息上调 4% 至 $0.27。iPhone 单季 **$569.9 亿（+21.7%）**、Services **$309.8 亿创历史新高**、**Greater China $205 亿**（同比 +28% 大反弹）；这是 Tim Cook 卸任前最后一份完整季报——9 月 1 日 John Ternus 接班——而'内存涨价从 BOM 占比 10% 升到年底 45%'与'Siri AI 落后改用 Google Gemini 接管'两件事原封原味留给新任 CEO。",
+      "detail": "**财务全面碾压预期，但增长由 iPhone 17 一台机扛起。** Apple 财报显示自然年 Q1 营收 **$1112 亿、+17% YoY**，Wall Street 共识仅 $1097 亿；EPS **$2.01**、+22% YoY 远超 $1.94 的市场预期；毛利率 **49.27%**——超 48.4% 的预期。各业务线：**iPhone $569.9 亿（+21.7%）**——这是 iPhone 自 2021 Q4 以来单季最高同比增速、连续两季 +20% 以上；**Services $309.8 亿全时段历史新高**；Mac $84 亿、iPad $69.1 亿、Wearables/Home/Accessories $79 亿。\n\n**地理：大中华区从 2024 年的崩盘中起死回生。** Greater China 单季 **$205 亿、+28% YoY**——比一年前同期的 $160 亿涨 $45 亿；Americas $451 亿、Europe $281 亿同样录得双位数增长。Cook 在电话会议上把 iPhone 17 形容为 'the most popular lineup in our history'，并明确点名 iPhone 17e 与 M4 iPad Air、MacBook Neo 三款新品牵引消费需求。\n\n**$1000 亿回购 + 股息上调：现金返还节奏不变。** 董事会同步批准 **$1000 亿美元** 新一轮股票回购授权——使 Apple 自 2013 年以来累计回购授权总额突破 **$8410 亿**——并把季度股息上调 4% 至每股 $0.27（5 月 14 日发放）。但分析师注意到一个异常：在 Microsoft / Amazon / Meta / Alphabet 4 月 29 日齐齐再次上调 capex 指引（合计 $5500 亿+）的当口，Apple 把同等额度的现金优先返还股东而非投入 AI 训练或数据中心——再次确认其 'AI 不重押算力、走 on-device + 第三方合作' 的轻资产路径。\n\n**两件事原封不动留给 Ternus。** 第一是**内存涨价**：CFO Luca Maestri 在电话会议上正式给本财年 Q3 营收指引 **$108-110 亿**、毛利率 47-48%——比当前 49.3% 显著下滑——直接归因 'memory pricing pressure'。AppleInsider 同日援引内部测算：**iPhone BOM 中内存成本占比从当前 10% 将升至 2026 年底 45%**——主因 HBM / DDR 全部被 AI hyperscaler 抢空。第二是 **AI 战略**：Cook 在被分析师追问 Siri 时仅承认 'collaboration with Google is going well'——回避了今年 1 月与 Alphabet 签下的 Gemini 接管 Siri 多年合约的具体数字、收入分成或上线时间。两件事都将由 9 月 1 日接任的 John Ternus（前 SVP of Hardware Engineering）独立处理。\n\n**市场反应：盘后小幅下跌。** 尽管两项核心数字双双超预期 + $1000 亿回购，AAPL 盘后微跌 0.5%——投资者把 Q3 毛利下行指引、Cook 卸任、AI 落后三件事综合定价为'short-term beat, long-term ambiguity'。",
+      "key_quotes": [
+        "iPhone achieved a March quarter revenue record, fueled by such extraordinary demand for the iPhone 17 lineup. — Tim Cook",
+        "The collaboration with Google is going well. — Tim Cook（被问到 Gemini-Siri 进展时）",
+        "We expect significantly higher memory costs in the current quarter. — Luca Maestri, CFO"
+      ],
+      "significance": "这份财报的**真正意义不在数字而在交接节奏**：Cook 用 $1000 亿回购把 Apple 锁在'高现金返还、轻 AI capex'的现状曲线上——而 9 月 1 日上台的 Ternus 将一手扛起内存成本翻 4 倍、Siri 改用 Gemini 接管两件 Cook 至今未给方案的事。AAPL 与 hyperscaler 'AI 资本竞赛'正式分道扬镳：当 MSFT / AMZN / META / GOOGL 4 月 29 日合计承诺 2026 年再追加 $5500 亿+ capex、Apple 当晚却把等额现金扔给股东。这同时也意味着 iPhone 在 2027 年——内存成本完全爬到位的那一年——首次面临实质性涨价压力或毛利率塌方二选一。",
+      "links": [
+        "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+        "https://9to5mac.com/2026/04/30/apple-reports-q2-2026-earnings-111-2-billion-in-revenue-up-17/",
+        "https://appleinsider.com/articles/26/04/30/record-quarter-leads-to-new-100b-share-buyback-increased-dividend",
+        "https://appleinsider.com/articles/26/04/29/john-ternus-first-major-challenge-is-dealing-with-quadrupled-iphone-memory-prices",
+        "https://www.cnbc.com/2026/04/30/apple-aapl-q2-2026-earnings-report.html",
+        "https://www.theapplepost.com/2026/04/30/70597/apple-reports-record-111-2-billion-revenue-in-q2-2026-as-iphone-and-services-drive-growth/"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "earnings", "Tim Cook", "John Ternus", "iPhone", "AI strategy", "memory pricing"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Musk v. Altman 庭审 Day 4：Musk 全部证词收官 + Microsoft 律师 Russell Cohen 单独压轴交叉盘问、Birchall 被追问 Musk 转入 Vanguard / Fidelity DAFs 的去向——周末三天闭庭后，Brockman 周一开庭 30 分钟内登场",
+      "source": "@elonmusk",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/30/openai-trial-elon-musk-sam-altman-live-updates.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-04-30",
+      "summary": "Musk v. Altman 案 4 月 30 日（Day 4）实质性收官 Musk 三天连续作证：Musk 主律师 Marc Toberoff（Molo 团队）完成 ~10 分钟最终重定向（redirect），OpenAI 首席律师 William Savitt 进行最终交叉再盘（recross），**Microsoft 律师 Russell Cohen** 单独站起来对 Musk 做了 5 分钟压轴交叉。下午起诉方传唤 Musk 长期助手 **Jared Birchall** 出庭，被详细追问 Musk 通过 **Vanguard / Fidelity 设立的 DAFs（donor-advised funds 慈善捐赠基金）** 资金去向；庭审随后宣布**周末三天闭庭**——下次开庭是 5 月 4 日（周一）上午，**Brockman 已被法庭确认为周一首位证人**。",
+      "detail": "**Musk 全部证词收尾节奏密集。** 4 月 30 日上午 8:30 法官 Yvonne Gonzalez Rogers 准时开庭——Musk 主律师团队（Toberoff / Molo）首先完成约 10 分钟最终重定向问询，重点回到 Musk 在 2017-2018 年间发出的'OpenAI 不能私有化'内部邮件原文；OpenAI 首席律师 William Savitt 紧接进入 recross 阶段——再次质疑 Musk 'fund-and-bail' 行为模式。**真正的看点是 Microsoft 律师 Russell Cohen 在 Musk 离席前最后 5 分钟单独站起**，单独做了一轮针对'Microsoft 与 OpenAI 2019/2023 年合作框架是否需经 Musk 同意'的诱问——Musk 在被陪审团目睹下回答：'No, but they should have asked.'\n\n**Birchall 把 Musk 的钱去向摆到陪审团面前。** 下午法庭转入第二位证人——**Jared Birchall**，Musk 的家族办公室主管。起诉方明显意图把 Birchall 的证词作为 Musk 'OpenAI 是慈善信托' 主张的财务佐证：直接询问 Musk 对 OpenAI 的 **$44.7M USD 早期捐赠**究竟通过 **Vanguard、Fidelity** 哪几支 **DAF（donor-advised fund，慈善捐赠基金）** 走账、是否归属其 **Musk Foundation** 旗下、Vanguard / Fidelity DAF 在美国国税法下是否构成 '慈善信托（charitable trust）'。Birchall 答辩'技术上是 DAF、不是 trust'——直接戳穿 Musk 团队从开庭起反复主张的'breach of charitable trust（慈善信托违约）' 核心法律框架。\n\n**3 天闭庭 + Brockman 周一压轴。** Rogers 法官明确告知陪审团：周五（5 月 1 日）至周日（5 月 3 日）三天**全部不开庭**——任何外界谈论本案、自行查询案情均构成违规——下次开庭为 **5 月 4 日（周一）8:30 AM PT**。OpenAI 首席律师 Savitt 当庭确认 **Greg Brockman 周一首席证人** 出庭，预计连续 2-3 天作证；接下来证人列表：**Sam Altman 周二或周三**、**Satya Nadella 5 月 6 日**、**Reid Hoffman 5 月 7 日**。\n\n**背景回顾：** Musk v. Altman / OpenAI 一案于 4 月 27 日在 Oakland 联邦法庭由 Yvonne Gonzalez Rogers 法官主持开庭审理；Musk 寻求 **$1340 亿索赔、罢免 Altman、撤销 OpenAI 营利转换**——案件被一拆为二（liability + remedies），陪审团判决仅作参考，最终由法官独立裁定。",
+      "key_quotes": [
+        "No, but they should have asked. — Elon Musk（Microsoft 律师问 Microsoft 与 OpenAI 2023 框架是否需经 Musk 同意时）",
+        "Technically it's a DAF, not a trust. — Jared Birchall（被问 Musk 通过 Vanguard / Fidelity DAFs 向 OpenAI 早期出资是否构成 charitable trust 时）"
+      ],
+      "significance": "Day 4 的真正分水岭不是 Musk 收官、而是 **Birchall 的 DAF vs. charitable trust 答辩**——它直接挑战 Musk 团队'breach of charitable trust' 的法律根基：如果 Musk 通过 Vanguard / Fidelity DAFs 向 OpenAI 出的钱在 IRS 法定义下不构成慈善信托，那么 'Altman 违反慈善信托'这条核心诉求**法律前提不成立**——案件可能在剩下两条诉求（unjust enrichment + 解散 OpenAI 营利结构）上提前坍塌。Microsoft 律师在 Musk 离席最后 5 分钟单独压轴交叉盘问，则首次确认 Microsoft 在本案中**不再是 OpenAI 的盟友式被告、而是单独站位**——这与 4 月 27 日 Microsoft 与 OpenAI 重写 IP 独家合作框架后的力学转变一致。",
+      "links": [
+        "https://www.cnbc.com/2026/04/30/openai-trial-elon-musk-sam-altman-live-updates.html",
+        "https://www.cnn.com/2026/04/30/tech/takeaways-elon-musk-openai-sam-altman-lawsuit",
+        "https://www.theringer.com/2026/04/30/tech/elon-musk-testimony-open-ai-trial-sam-altman-greg-brockman",
+        "https://www.deseret.com/u-s-world/2026/04/30/what-is-elon-musk-sam-altman-open-ai-lawsuit-about/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["Elon Musk", "Sam Altman", "OpenAI", "Greg Brockman", "Microsoft", "lawsuit", "Birchall", "DAF", "charitable trust"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "OpenAI 把 ChatGPT 拨入'记者 / 异见者档'：Advanced Account Security 上线、密码登录可被整体禁用、与 Yubico 合发 $68 双 YubiKey 套装（公开零售价 $126）——AAS 用户**自动 opt-out 模型训练**",
+      "source": "@sama",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advanced-account-security/",
+      "story_key": "openai-advanced-account-security",
+      "event_date": "2026-04-30",
+      "summary": "OpenAI 4 月 30 日上线 **Advanced Account Security（AAS）**——一组面向 ChatGPT 与 API 账号的可选高安全模式：**强制使用 passkey 或物理 security key 登录、密码登录被整体关闭、Email / SMS 找回路径全部禁用**——找回必须通过备份 passkey、安全密钥或一次性 recovery key 完成。同步与 **Yubico 联合发售一款 OpenAI 联名版 YubiKey 双件套，仅售 $68**（Yubico 自家公开零售价 $126，约 4.6 折）。AAS 对**包括免费档在内的所有 ChatGPT 用户开放**——但 OpenAI 明确指明目标用户为'记者、异见者、活动人士、研究人员、民选官员'。开启 AAS 的账号还会**自动从模型训练中 opt-out**，并获得新登录告警 + 实时活跃 session 管理工具。",
+      "detail": "**AAS 是一套'让账户不可被钓鱼'的安全栈。** OpenAI 的官方设计目标是让 phishing-resistant 登录成为高风险用户的默认状态：开启 AAS 后，**账号上所有传统密码登录路径整体不可用**——必须使用 passkey（FIDO2/WebAuthn）或物理硬件密钥；**Email / SMS 找回完全不再可用**——找回唯一路径是用户预先生成的备份 passkey、第二把硬件密钥、或一次性 recovery key（一旦丢失全部三项，账户永久不可访问）。这一设计直接抹掉钓鱼短信、SIM swap、社工 Email 找回三大主流账号被盗向量。\n\n**Yubico 联名套装：直接把硬件价砍掉一半作为'入场补贴'。** 与 AAS 同步上线的还有 OpenAI x Yubico 联名 YubiKey 双件套——**仅售 $68**，包含两枚带 OpenAI 标识的 YubiKey 5 Series（一枚日常使用、一枚备份）；Yubico 同型号公开零售价为 **$126** 起，相当于 OpenAI / Yubico 联合补贴 ~46%。这是首次有 frontier AI 公司把 phishing-resistant hardware 作为其消费者产品的标配——MFA 长期被视为 ChatGPT 高净值账户被盗的最大防线缺口。\n\n**自动 opt-out 模型训练 + 实时 session 管控。** AAS 用户**默认 opt-out 所有未来模型训练**——无需在隐私设置里另外勾选；同时获得 Inbox 风格的'实时活跃 session 列表'——可一键吊销可疑设备登录；任何新登录都会触发 push + email 双重告警。OpenAI 在公告里明确点名目标用户：'政治异见者、记者、研究人员、民选官员'——这是 OpenAI 第一次正面承认 ChatGPT 账号已成为信息战目标向量。\n\n**时间点很微妙。** AAS 上线发生在 OpenAI 公开承认 4 月 10 日**Axios npm 供应链攻击**导致 macOS 应用 signing certificate 被 North Korea 关联组织 UNC1069 拿走、5 月 8 日老证书将彻底失效之后**第 20 天**——也是 Sam Altman 4 月初个人住址连续遭到 Molotov 鸡尾酒 + 枪击两次袭击之后约 4 周。AAS 表层是产品功能、底层是 OpenAI 把账户安全级别从'通用消费产品'强行拉到'记者 / 异见者级别'的危机产品策略。",
+      "key_quotes": [
+        "Advanced Account Security disables email and SMS recovery and requires stronger recovery methods: backup passkeys, security keys, and recovery keys.",
+        "Beginning today, people can purchase a new 2-pack set of custom YubiKeys as part of OpenAI's Advanced Account Security program."
+      ],
+      "significance": "这是 frontier AI 公司**第一次把'记者 / 异见者级'账户安全标准下放到全民免费档**——以前这类 phishing-resistant + opt-out 训练 + session 监控的组合只在 Google Advanced Protection、Apple Lockdown Mode 这种'高净值账户防御'产品里出现。AAS 同时点名'记者、活动人士、民选官员'作为目标用户，意味着 OpenAI 已正式把 ChatGPT 视为'被国家级行为者瞄准的信息战目标'——这与刚刚结束的 Axios 供应链攻击（North Korea 关联）+ Altman 住所遭袭击两件事直接呼应；与 Yubico 的硬件补贴合作也使 phishing-resistant MFA 第一次变成主流 AI 产品的消费者级标配。",
+      "links": [
+        "https://openai.com/index/advanced-account-security/",
+        "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+        "https://www.businesswire.com/news/home/20260430610986/en/OpenAI-and-Yubico-Partner-to-Bring-Custom-Phishing-Resistant-YubiKeys-to-OpenAI-Users",
+        "https://www.axios.com/2026/04/30/openai-chatgpt-logins-passkeys",
+        "https://decrypt.co/366262/openai-advanced-account-security-chatgpt-users"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Yubico", "Advanced Account Security", "phishing", "passkey", "ChatGPT", "security"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "Snapchat 把'聊天框'卖给品牌做 AI Agent：所有人 inbox 里冒出'Sponsored AI 朋友'——CBO Mohan 当面把对话定性为'广告业最贵地皮'，500M 用户已成训练数据 + 22% 转化率溢价",
+      "source": "Snap",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/28/snapchat-brings-ai-powered-conversational-advertising-to-its-app/",
+      "story_key": "snapchat-ai-sponsored-snaps",
+      "event_date": "2026-04-28",
+      "summary": "Snapchat 4 月 28 日（周二）正式推出 **AI Sponsored Snaps**——品牌可在用户 Chat tab 里直接部署自己的 AI 客服 Agent，用户与之对话的体验与 My AI 完全一致——但每条对话都是付费广告位。CBO **Ajit Mohan** 当面把对话框定性为'广告业最贵地皮（the most valuable real estate in advertising）'。Snapchat 已有 **5 亿用户向 My AI 发过消息**——这些对话直接成为新广告产品的训练数据；公司同步给出现有 Sponsored Snaps 业绩参考：**转化率 +22%、CPA 降 20%**。",
+      "detail": "**Snapchat 把 inbox 卖给品牌做 AI 客服。** 与传统全屏 Snap 广告或 Story 广告不同——AI Sponsored Snaps 出现在用户 Chat 列表里，外观与好友头像 + 一条未读消息几乎无差，用户点开即进入与品牌 AI Agent 的对话。AI 可以回答商品问题、推荐产品、提供定制化建议——目标是把'广告 → 浏览 → 跳转 → 表单填写'四步压缩到 'inbox 一句话回复'。\n\n**500M My AI 用户即数据池。** Snapchat 在公告中确认 **My AI（其原生 chatbot）自 2023 年上线已被 5 亿用户发过消息**，**85% 的活跃用户在 Chat feed 内每日产生交互**。这些对话——含偏好、口味、价格敏感度、购买意向——直接成为 AI Sponsored Snaps 的目标定向训练数据：品牌 Agent 在对话中能立即引用用户在 My AI 中早先表达过的偏好。\n\n**首发性能数据：传统 Sponsored Snaps 已是 +22% 转化、-20% CPA。** Snap 给出的对照基线是其传统视频版 Sponsored Snaps：在不引入 AI 的前提下，Sponsored Snaps 已带来 **+22% 转化率、-20% CPA**——AI 版被预期再叠加显著倍数。CBO **Ajit Mohan** 在公告中直白：'AI 正在加速一种转变——把对话变成人们发现产品、提问、做决策的实时场所（the place where people discover products, ask questions, and make decisions in real time）'，并把对话定性为'**广告业最贵地皮（the most valuable real estate in advertising）**'。\n\n**距 Meta / Microsoft / Snap 同时官宣 20K 裁员仅 4 天。** AI Sponsored Snaps 的上线发生在 4 月 24 日 Meta + Microsoft + Snap 三家同时官宣 20,000+ 裁员、共同'为 AI 让路' 之后第 4 天——Snap 的 AI 货币化路径首次出现可量化的产品级证据。\n\n**用户反应仍存争议。** TechCrunch 在文中留有保留：'并非所有人都会接受 AI sponsored 广告（not everyone will be on board with AI-sponsored ads）'——Inbox 私密程度与品牌广告侵入感的边界目前未经市场充分检验。",
+      "key_quotes": [
+        "AI is accelerating that shift, turning chat into the place where people discover products, ask questions, and make decisions in real time. — Ajit Mohan, Snap CBO",
+        "Conversation is the most valuable real estate in advertising. — Ajit Mohan",
+        "Half a billion people have messaged My AI since 2023."
+      ],
+      "significance": "这是 social media 行业**第一次把'1:1 对话'整层卖给品牌做 AI Agent 部署位**——Snapchat 用 5 亿条 My AI 历史对话作为先发训练 + 定向数据基础，而 Meta、X、TikTok 至今未推同类产品。如果 +22% / -20% 的传统 Sponsored Snaps 数字能在 AI 版上叠加倍数，那么 Snap 等同于在每个用户 inbox 里多印了一个'品牌 AI 客服'——这相当于把 LLM agent 商业化第一个真实大流量入口从 ChatGPT plug-in / Apple Intelligence 这两个早期赌注**抢先一步落到 social inbox**。同时这也使得'我的 AI 朋友'与'品牌付费 AI 朋友'在产品形态上几乎不可分辨，UI 层信任问题将被立即检验。",
+      "links": [
+        "https://techcrunch.com/2026/04/28/snapchat-brings-ai-powered-conversational-advertising-to-its-app/",
+        "https://newsroom.snap.com/ai-sponsored-snaps",
+        "https://www.engadget.com/ai/snapchat-is-rolling-out-sponsored-ai-agents-162720124.html",
+        "https://techbriefly.com/2026/04/29/snapchat-launches-sponsored-ai-chatbots-in-user-inboxes/"
+      ],
+      "image": "assets/logos/snapchat-logo.png",
+      "image_type": "logo",
+      "tags": ["Snapchat", "Snap", "advertising", "AI agent", "My AI", "chatbot", "monetization"],
+      "category": "product_operators"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic 今天关掉 Claude Sonnet 4.5 / 4 的 1M token beta：>200K 直接 400 报错——从 GA 到 retire 不到 7 周，强推开发者迁到 Sonnet 4.6 / Opus 4.6",
+      "source": "Anthropic",
+      "source_name": "Anthropic Docs",
+      "source_url": "https://docs.claude.com/en/docs/about-claude/models/overview",
+      "story_key": "anthropic-sonnet45-1m-retirement",
+      "event_date": "2026-04-30",
+      "summary": "Anthropic 今天（4 月 30 日）正式关闭 **Claude Sonnet 4.5 与 Claude Sonnet 4 的 1M token 上下文窗口 beta**：调用 `claude-sonnet-4-5-20250929` / `claude-sonnet-4-20250514` 时即使带上 `anthropic-beta: context-1m-2025-08-07` 头，**上下文上限静默回退到 200K tokens**；任何超过 200K 的 prompt 直接返回 **400 invalid_request_error**。强制迁移路径：Sonnet 4.6 / Opus 4.6——两者在标准价位即原生支持 1M token、不再需要 beta header。从 1M context GA（3 月 13 日）到 beta retire（4 月 30 日）**不到 7 周**——是 Anthropic 史上最短的 beta 退役周期。",
+      "detail": "**API 行为变更非常明确。** Anthropic 文档直接给出新行为：调用旧版本（`claude-sonnet-4-5-20250929` 或 `claude-sonnet-4-20250514`）时，即便保留 `anthropic-beta: context-1m-2025-08-07` 这个 header——header 在语法上仍被接受、不会因此报错——但**上下文窗口会静默从 1M 回退到 200K**。任何 prompt 超过 200K 直接得到 **400 状态码、错误类型 `invalid_request_error`**——与未带 beta header 调用 base model 的行为完全一致。低于 200K 的请求**继续正常工作**、无需任何代码改动。\n\n**强制迁移路径只有两条：Sonnet 4.6 或 Opus 4.6。** 这两个新一代模型在 GA 状态下原生支持 **1M token 上下文窗口、不需要 beta header、按标准价计费**——也就是说，开发者从今天起的迁移只是改一行 model 名，1M 体验完全保留、价格同档不变。Sonnet 4.6 与 Opus 4.6 此前已分别于 3 月 13 日（同日 GA）发布。\n\n**史上最短 beta 退役周期：< 7 周。** Anthropic 的 1M context 走过的路径：2025 年 8 月 7 日首次以 `context-1m-2025-08-07` beta 上线、需 enterprise 级权限 + 加价；**2026 年 3 月 13 日** Sonnet 4.6 / Opus 4.6 GA 时 1M 进入标准价；**2026 年 4 月 30 日** 旧版 Sonnet 4.5 / 4 的 1M beta 正式退役——从 GA 到旧 beta retire **仅 48 天、不到 7 周**——是 Anthropic 公开记录中最短的 beta-to-retirement overlap，远短于 Anthropic 旧 SDK / Claude Haiku 3 等产品 6-12 个月的常规节奏。\n\n**对企业开发者影响不对称。** 实际受影响的是仍在生产环境跑 Sonnet 4.5 + 1M beta 的企业团队（典型场景：长文档总结、多文件代码库分析、long-running agent）——他们今天起任何超 200K token 的请求会**当场报错 400**，必须立即改 model 名到 Sonnet 4.6 / Opus 4.6 才能恢复。Anthropic 给出的 7 周窗口被部分开发者社区认为**过短**——在前一周（4 月 24 日）Anthropic 还公开了 Claude Code 因 3 件工程事故连续'变笨'一个月的 postmortem，这次 1M beta retire 的紧凑节奏被解读为'锁定算力 + 推 4.6 升级'的双重商业意图。",
+      "key_quotes": [
+        "Requests to claude-sonnet-4-5-20250929 and claude-sonnet-4-20250514 with the header anthropic-beta: context-1m-2025-08-07 will continue to be accepted from a syntactic standpoint, but the header will no longer have any effect."
+      ],
+      "significance": "这是开发者社区首次集体看到 Anthropic 把 **'beta-to-retire' 节奏从 6-12 个月压到不到 7 周**——这意味着任何还在生产环境调用旧 Sonnet 模型 + 1M context 的团队，从今天起任何 > 200K 的 prompt 立即 400 报错，必须当天升级。表层是文档标题的功能下线，底层是 Anthropic 在 Claude 4.6 / Opus 4.6 / 即将到来的 Mythos 的产品矩阵中**强制收敛 SKU**——通过缩短 beta overlap 把企业算力固定在最新 GA model 上，是其 4 月底 $9000 亿估值谈判前夕'每位算力都要重新签合同'式的锁定动作。",
+      "links": [
+        "https://docs.claude.com/en/docs/about-claude/models/overview",
+        "https://docs.claude.com/en/docs/build-with-claude/context-windows",
+        "https://platform.claude.com/docs/en/release-notes/overview",
+        "https://pasqualepillitteri.it/en/news/1451/anthropic-1m-context-beta-retirement-april-30-2026",
+        "https://releasebot.io/updates/anthropic"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude", "Sonnet 4.5", "Sonnet 4.6", "Opus 4.6", "1M context", "deprecation", "API"],
+      "category": "builders"
+    }
+  ]
+}
