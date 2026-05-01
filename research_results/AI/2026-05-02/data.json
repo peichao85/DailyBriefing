@@ -1,0 +1,171 @@
+{
+  "date": "2026-05-02",
+  "category": "AI",
+  "researched_at": "2026-05-02T07:10:00Z",
+  "sources_checked": [
+    "@sama",
+    "@demishassabis",
+    "@DanielaAmodei",
+    "@elonmusk",
+    "@alexandr_wang",
+    "@mntruell",
+    "@mikeyk",
+    "@JeffDean",
+    "@ylecun",
+    "@karpathy",
+    "@AndrewYNg",
+    "@geoffreyhinton",
+    "@julien_c",
+    "@ScottWu46",
+    "@alighodsi",
+    "@JonathanRoss321",
+    "@lexfridman",
+    "@garrytan",
+    "@DrJimFan",
+    "Washington Post",
+    "CNN Business",
+    "CNBC",
+    "Bloomberg",
+    "TechCrunch",
+    "Defense One",
+    "Breaking Defense",
+    "DefenseScoop",
+    "Reuters",
+    "The Information",
+    "Tom's Hardware",
+    "Axios",
+    "Fortune",
+    "The Register",
+    "NPR",
+    "Florida Phoenix"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Pentagon 一次签 7 家 AI 公司进 IL6/IL7 机密网：SpaceX / OpenAI / Google / NVIDIA / Reflection / Microsoft / AWS 同框，独缺 Anthropic——首次把'供应链分散'写成正式国防 AI 战略",
+      "source": "Pentagon",
+      "source_name": "Washington Post",
+      "source_url": "https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military/",
+      "story_key": "pentagon-classified-ai-deals",
+      "event_date": "2026-05-01",
+      "summary": "美国国防部 5 月 1 日同步官宣与 SpaceX、OpenAI、Google、NVIDIA、Reflection、Microsoft、AWS 七家 AI 公司签署机密网络部署协议——产品将进入 Impact Level 6/7 网络环境、统一通过 GenAI.mil 平台分发；Anthropic 因继续坚持对杀伤性自主武器与大规模监控的安全护栏被正式排除。",
+      "detail": "美国国防部（4 月正式更名为 Department of War）5 月 1 日通过 official press release 一次性宣布与七家头部 AI 公司签署部署协议——产品被允许部署进入 **Impact Level 6（机密 / Secret）** 与 **Impact Level 7（最高机密 / Top Secret + SCI）** 网络环境，覆盖'数据合成、战场决策、态势感知与判读'四大类军事工作流。中标厂商为 **SpaceX、OpenAI、Google、NVIDIA、Reflection、Microsoft、AWS**——所有产品将统一通过 Pentagon 自家 AI 平台 **GenAI.mil** 对外分发；该平台目前已有 **130 万 DoD 人员**注册、**100,000+ 内部 AI Agent** 已构建。\n\n这是首次美国国防部在同一公告里同时把 **NVIDIA 与 Reflection AI** 写入直接合作方——前者首次以模型/系统供应商而非单纯硅厂身份进入机密网络，后者是 NVIDIA 投资的开源前沿实验室、估值 $250 亿、由前 DeepMind David Silver 团队骨干 Misha Laskin / Ioannis Antonoglou 创立。Pentagon 在公告中第一次明确把 **'防止 AI 供应商锁死（preventing AI vendor lock）'**写为正式国防战略原则，并罕见点名将 **开源模型可被军方独立部署** 列为关键考量。\n\n**Anthropic 被刻意排除**——这是该公司自 2 月被 Pentagon 列为'供应链风险（supply-chain risk）'以来最公开的政府层面打击。表面理由是 Anthropic 拒绝撤除其使用条款中对致命自主武器与大规模国内监控的安全护栏；但 Pentagon CTO Emil Michael 5 月 1 日同日在 CNBC 节目中直言'Anthropic 仍被列为 supply chain risk，但 Mythos 是另一码事——属于 separate national security moment'，把'公司层级封禁'与'对单一模型 Mythos 的国安渴求'分离对待，给 White House 当前正在起草的'豁免 Anthropic'行政命令留出操作空间。",
+      "key_quotes": [
+        "preventing AI vendor lock and ensures long-term flexibility for the Joint Force",
+        "Overreliance on one vendor is never a good thing.",
+        "Anthropic is still a supply chain risk, but Mythos is a separate national security moment."
+      ],
+      "significance": "本次合同是 GenAI.mil 平台启动 5 个月以来首次同步多供应商落地，为美国国防 AI 采购模式定下'多源 + 含开源 + 反 vendor lock'三条新规则。NVIDIA 第一次以平台供应商身份进入 IL6/IL7、Reflection AI 第一次以开源前沿实验室身份与四大 hyperscaler 同框——意味着美国军方正式把'美国开源前沿模型'纳入对抗 DeepSeek 的国家战略。Anthropic 公开缺席使其与白宫的拉锯白热化，下一步行政命令将决定这家估值 $9000 亿的公司能否保住政府蛋糕。",
+      "links": [
+        "https://www.washingtonpost.com/technology/2026/05/01/pentagon-ai-deals-microsoft-amazon-google-classified-military/",
+        "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic",
+        "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+        "https://breakingdefense.com/2026/05/pentagon-clears-7-tech-firms-to-deploy-their-ai-on-its-classified-networks/",
+        "https://www.defenseone.com/business/2026/05/ai-pentagon-classified-networks/413268/"
+      ],
+      "tags": ["Pentagon", "DoD", "GenAI.mil", "OpenAI", "Google", "NVIDIA", "SpaceX", "Reflection", "Microsoft", "AWS", "Anthropic", "国防AI"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "NSA 正用 Anthropic Mythos 在 Microsoft 自家产品里抓零日：Bloomberg 实锤 + Pentagon CTO Emil Michael 当面承认'Mythos 是 separate national security moment'——Anthropic 全公司仍被封，但 Mythos 单一模型成军方'刚需例外'",
+      "source": "Anthropic / NSA",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-30/nsa-testing-anthropic-s-mythos-to-find-flaws-in-microsoft-tech",
+      "story_key": "anthropic-mythos-nsa-microsoft",
+      "event_date": "2026-05-01",
+      "summary": "Bloomberg 4 月 30 日独家：美国国家安全局（NSA）正秘密使用 Anthropic 最新模型 Mythos 在 **Microsoft 自家产品**中扫描软件漏洞——背景是 Microsoft 当下是 Pentagon IL6/IL7 主要合同方之一；5 月 1 日 Pentagon CTO Emil Michael 在 CNBC 当面证实 NSA 测试，但坚持 Anthropic 公司层面仍属 supply chain risk、Mythos 单一模型则是 'separate national security moment'。",
+      "detail": "Bloomberg 4 月 30 日独家爆出：美国 **National Security Agency**（NSA）已经在用 **Anthropic Mythos**（4 月 14 日发布的、号称首个能自主发现 zero-day 的攻击型网络安全模型）扫描 **Microsoft Corp.** 自家软件栈中的安全漏洞——背景十分刺激：Microsoft 当天还在 Pentagon IL6/IL7 名单上、与 OpenAI / Google / NVIDIA 同框中标。\n\n5 月 1 日 Pentagon 七家 AI 公司机密合同公布同日，**Pentagon CTO Emil Michael** 当面接受 CNBC 采访承认 NSA 在测试 Mythos，并给出当前为止最清晰的官方表述：**'Anthropic is still a supply chain risk, but Mythos is a separate national security moment.'**——把公司级封禁与单一模型刚需切开处理。NSA 内部对 Mythos 的评价是'speed and efficiency in searching for potential security flaws'明显高于现有商用与主权级网安工具；Anthropic 自身已主动把 Mythos 限制在 ~40 家组织内（仅公开 12 家），称 'offensive cyber capabilities are too dangerous to allow for a wider release'。\n\n**背景回顾：** 2 月 Pentagon 把 Anthropic 列为 supply chain risk、原因是其使用条款拒绝同意将 Claude 用于全自主杀伤武器与大规模国内监控；4 月 27 日 White House 已开始起草豁免行政命令、Dario Amodei 与 Susie Wiles + Scott Bessent 已会过一面。",
+      "key_quotes": [
+        "Anthropic is still a supply chain risk, but Mythos is a separate national security moment.",
+        "Offensive cyber capabilities are too dangerous to allow for a wider release."
+      ],
+      "significance": "这是美国国安体系首次出现'对一家被封禁公司的某一个模型有刚需到要绕开自家封禁'的情况——也就是说，Anthropic 用 Mythos 单一模型在政策面以一己之力撕开了 Pentagon 公司级封禁的口子。NSA 用 Mythos 在 Microsoft 产品里抓漏洞，间接推动白宫把'对 Anthropic 的全面封禁'从 binary 决定改写为'按模型 / 按用例豁免'——下周一可能落地的 White House EO 将把 'Mythos 豁免、其他 Anthropic 产品继续封'写成全美国 AI 政府采购的新先例。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-04-30/nsa-testing-anthropic-s-mythos-to-find-flaws-in-microsoft-tech",
+        "https://www.cnbc.com/2026/05/01/pentagon-anthropic-blacklist-mythos-michael.html",
+        "https://www.theregister.com/2026/05/01/mythos_complicates_anthropic_us_gov_breakup",
+        "https://www.axios.com/2026/04/29/trump-anthropic-pentagon-ai-executive-order-gov"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Mythos", "NSA", "Microsoft", "Pentagon", "网络安全", "zero-day"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "Big 4 hyperscaler 2026 AI capex 锁定 $7250 亿（+77% YoY）：Microsoft 单家把 $250 亿涨幅归因 'memory pricing'，AI 算力支出已超过 Magnificent 7 全部利润总和的 1.5 倍",
+      "source": "Magnificent 7 earnings",
+      "source_name": "Tom's Hardware",
+      "source_url": "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion",
+      "story_key": "bigtech-ai-capex-725b",
+      "event_date": "2026-04-30",
+      "summary": "全四家 hyperscaler（Alphabet $185B、Amazon $200B、Microsoft $190B、Meta $115-135B）在 4 月最后一周财报季全部上调 2026 全年 capex 指引，合计达 **$7250 亿**——比 2025 全年 $4100 亿暴涨 77%，超过 Magnificent 7 全部年度净利润总和的 1.5 倍；Microsoft 主动把 $250 亿涨幅单独归因 HBM / memory pricing，把'内存涨价'第一次正式列为单一最大成本变量。",
+      "detail": "4 月 29 日 Microsoft、Meta、Alphabet、Amazon 同日发完 Q1 财报后，4 月 30 日 Apple 收尾——全四家 hyperscaler 2026 全年 capex 指引合计被 visibilityalpha 与 Yahoo Finance 等独立来源 tally 至 **$7250 亿美元**：**Alphabet 上修至 $180-190B、Amazon 锁定 $200B、Microsoft $190B、Meta 上修至 $125-145B**。同期 2025 全年 capex 仅 $4100 亿——**单年增量 $3150 亿、+77%**，远高于 visualcapitalist 与 MUFG 等机构去年底预测的 $5500-6000 亿区间。\n\n**单一最大涨价驱动首次被官方点名**——Microsoft CFO Amy Hood 财报电话会议直接把 capex 上调中的 **$250 亿** 归因 'memory pricing'（即 HBM3e / HBM4 涨价）；Tom's Hardware 综合多家 supply chain 估算指出，2026 H2 起 SK Hynix / Micron / Samsung 三家 HBM 产能仍处于 100% 锁单状态，单芯片价格已从 2025 年中位 $7-9 / GB 涨至 ~$25-32 / GB、约 4 倍。Apple 4 月 30 日财报里 capex 反而从 $60 亿降到 $43 亿——揭露了一个有意思的反差：消费 OEM 在 AI 上'动嘴'、hyperscaler 在 AI 上'动钱'。\n\n**$7250 亿 capex 的相对值参考**：① 超过 Magnificent 7（含 Apple、NVIDIA、Tesla 在内）2025 全年净利润总和 ~$4500 亿 的 1.5 倍；② 是 2026 全美 R&D 总支出（~$1.1 万亿）的 65%；③ 单 Microsoft + Amazon 两家 capex 的总和（$390B）已超过荷兰全年 GDP（$1.1T 调整后口径）。",
+      "key_quotes": [
+        "Memory pricing is responsible for $25 billion of the increase.",
+        "We are compute constrained in the near term."
+      ],
+      "significance": "$7250 亿这一数字第一次让市场看清：hyperscaler 已经把每一分增量利润悉数压回 AI 算力扩张——传统的 ROIC 模型在这一周失效。同时'HBM 涨价'被 Microsoft 写进财报，意味着 SK Hynix / Micron / Samsung 三家 HBM 厂商成为 2026 年下一段 AI 周期里唯一能影响 hyperscaler 决策的'实物输入价格'。在 NVIDIA 之外，'谁能更快放量 HBM4'将成为下半年决定 AI 算力供给曲线的最大单一变量。",
+      "links": [
+        "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion",
+        "https://finance.yahoo.com/markets/article/magnificent-7-earnings-rush-reveals-ai-spending-surge-with-hyperscaler-capex-set-to-reach-725-billion-in-2026-224901707.html",
+        "https://www.tomshardware.com/tech-industry/big-tech/microsoft-attributed-25-billion-of-its-record-ai-budget-to-memory-chip-costs",
+        "https://europeanbusinessmagazine.com/business-hyperscaler-ai-capex-725-billion-google-cloud-q1-2026"
+      ],
+      "tags": ["capex", "hyperscaler", "Microsoft", "Alphabet", "Amazon", "Meta", "HBM", "memory-pricing", "AI算力"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Musk v. Altman 庭审第一周收官：Musk 证人席彻底下台、Stuart Russell 教授临时被起诉方撤掉、Birchall 当庭'答错问题'——Brockman 5 月 4 日（周一）已被法庭锁为首位证人",
+      "source": "Musk v. Altman",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/04/30/openai-trial-elon-musk-sam-altman-live-updates.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-01",
+      "summary": "Musk v. Altman 案 Day 4（4 月 30 日 / 周四）正式收官 Musk 三天连续作证；起诉方原拟传唤的 UC Berkeley 计算机系教授 Stuart Russell（'AI 国际安全'立场专家）被临时撤掉、未上证人席；助手 Jared Birchall 在陪审团离场期间'回答了不该回答的问题'，对裁定可能产生影响——案件本周末三天闭庭、5 月 4 日（周一）上午由法庭确认 Greg Brockman 为首位证人。",
+      "detail": "Oakland 联邦法庭 Musk v. Altman 案 Day 4（4 月 30 日，周四）核心事件三件：①  **Musk 全部 3 天连续作证彻底收官**——主律师 Marc Toberoff 完成 ~10 分钟最终重定向，OpenAI 首席律师 William Savitt 与 Microsoft 律师 Russell Cohen 分别完成最终 cross；② **起诉方把 Stuart Russell 教授撤了**——他本是起诉方关键专家证人，原本计划证明'OpenAI 营利转换违反 charitable trust 中关于 AI 安全的核心条款'，撤换对起诉方重排证据链是一记真实打击；③ **Jared Birchall 在 jury 离场期间答了不该答的问题**（具体内容因法庭命令封口）——法官目前未公开决定是否提示陪审团忽略该陈述、抑或宣布 mistrial。\n\n本周末三天闭庭，5 月 4 日（周一）上午 8:30 开庭起 **Greg Brockman 为法庭锁定的第一位证人**——这是 Brockman 自 2018 年从 OpenAI 板凳事件后第一次在公开法律场合作证，预计将围绕'2018 年 Musk 离开 OpenAI 时的真实条款 + Microsoft $100 亿入资是否构成 charitable trust 违约'两条核心展开。预期庭审持续到 5 月中旬、liability 阶段结束后由法官 Yvonne Gonzalez Rogers 单独裁定（陪审团仅作 advisory）。\n\n**背景回顾：** Musk 4 月 25 日庭前砍掉 24 项指控仅留'unjust enrichment + breach of charitable trust'两条，仍索赔 $1340 亿、要求罢免 Altman + Brockman、撤销 OpenAI 营利转换。",
+      "key_quotes": [
+        "AI is not on trial here.",
+        "Greg Brockman will be the first witness Monday morning."
+      ],
+      "significance": "Stuart Russell 教授临时被撤是起诉方第一次出现重排——意味着 Toberoff 团队评估认为'AI 安全'专家证词在陪审团 advisory 阶段更可能失分而非得分，本质上承认了'AI 是否危险'这条主线在法庭层面已被法官 Gonzalez Rogers 5 月 1 日的'AI itself isn't on trial'裁定逐出讨论范围。Brockman 周一上证人席将是案件'OpenAI 自己人首次正面对峙 Musk'的关键时刻——他以联合创始人 + 长期 Altman 同盟身份，将决定 charitable trust 一项是否成立。",
+      "links": [
+        "https://www.cnbc.com/2026/04/30/openai-trial-elon-musk-sam-altman-live-updates.html",
+        "https://www.theringer.com/2026/04/30/tech/elon-musk-testimony-open-ai-trial-sam-altman-greg-brockman",
+        "https://mendovoice.com/2026/05/musk-v-altman-day-4-cross-exam-of-musk-ends-as-lawyers-press-his-timeline-motives/",
+        "https://www.nbcnews.com/tech/tech-news/elon-musk-testimony-day-three-sam-altman-openai-trial-rcna342967"
+      ],
+      "tags": ["Musk", "Altman", "Brockman", "OpenAI", "诉讼", "charitable-trust", "Stuart-Russell", "Birchall"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "Florida 总检察长 Uthmeier 把对 OpenAI 刑事调查扩大到 USF 双博士生命案：嫌犯被指控用 ChatGPT 询问'怎么把人类遗体扔进垃圾箱'——美国首例 AI 公司被州层面追'刑事责任'的案件正式从 1 起扩到 2 起",
+      "source": "Florida AG / OpenAI",
+      "source_name": "Axios Tampa Bay",
+      "source_url": "https://www.axios.com/local/tampa-bay/2026/04/27/florida-ag-openai-chatgpt-usf-murders-ai-accountability-debate",
+      "story_key": "florida-ag-openai-criminal-probe",
+      "event_date": "2026-04-27",
+      "summary": "Florida 总检察长 James Uthmeier 4 月 27 日（周一）正式把已经在进行的对 OpenAI / ChatGPT 的刑事调查从 FSU 校园枪击案（4 月 21 日开案）扩大到 USF 双博士生命案——27 岁孟加拉籍博士生 Zimal Limon 与 Nahida Bristy 被害；嫌犯 Hisham Abugharbieh 被指控用 ChatGPT 咨询'如何处理遗体 / 投入垃圾箱'，是美国第一起州层面对 AI 公司动刑事调查的案件第二次扩大。",
+      "detail": "Florida 总检察长 **James Uthmeier** 4 月 27 日（周一）正式把对 OpenAI 与其 ChatGPT 产品的州刑事调查范围扩大到 **University of South Florida 双博士生命案**——4 月 16 日报失踪的 27 岁孟加拉籍 Bangladesh 博士生 **Zimal Limon** 与 **Nahida Bristy**，4 月底确认被害；嫌犯 **Hisham Abugharbieh**（Limon 的合租室友）被佛州当局以两项一级谋杀罪提起公诉，附加非法监禁、非法搬运遗体等多项重罪。\n\nUthmeier 办公室 4 月底披露：Tampa 检方在 Abugharbieh 手机里发现他在作案前后**多次使用 ChatGPT 咨询'怎么把人类遗体放进垃圾箱'与'如何避免追踪'**——这成为 Uthmeier 把案件归入既有调查的关键证据。该既有调查 4 月 21 日已围绕 **FSU 校园枪击案** 启动：枪击犯 Phoenix Ikner 当日早晨用 ChatGPT 咨询过开枪方式、校园人流高峰时间、'多少受害者能引爆全国新闻'等三组问题。\n\n**美国第一例**：Uthmeier 已对 OpenAI 发出传票，要求调取 **2024 年 3 月 1 日至 2026 年 4 月 17 日**期间所有 ChatGPT 关于'用户对他人 / 自己的危害威胁、与执法机构合作'的内部政策与培训材料。Uthmeier 公开表态：'My prosecutors have looked at this and they've told me, if it was a person on the other end of that screen, we would be charging them with murder.'OpenAI 回应称'ChatGPT is not responsible for this terrible crime'，并已主动向执法部门分享嫌犯账号信息。",
+      "key_quotes": [
+        "If it was a person on the other end of that screen, we would be charging them with murder.",
+        "ChatGPT is not responsible for this terrible crime."
+      ],
+      "significance": "这是美国首例由州层面对 AI 公司启动'刑事'（非民事）调查、并在 7 天之内就把案件范围**翻倍**——从 FSU 单一枪击扩大到 USF 双博士命案。Uthmeier 索调的是 OpenAI 内部'用户危害他人威胁'的整套内部政策与培训材料，本质上等于'把 ChatGPT 在 user-as-criminal 路径下的训练 + 内容审核流程'置于刑事审查之下。其结果（哪怕只是和解性质）将为美国 AI 公司未来对'危险用户'的内部审查义务划定新的最低线，也将为'AI as accomplice'是否能在英美法系中独立成立先例。",
+      "links": [
+        "https://www.axios.com/local/tampa-bay/2026/04/27/florida-ag-openai-chatgpt-usf-murders-ai-accountability-debate",
+        "https://floridaphoenix.com/2026/04/27/uthmeier-expands-criminal-ai-investigation-to-usf-murders/",
+        "https://www.wlrn.org/government-politics/2026-04-27/uthmeier-expands-criminal-ai-investigation-to-usf-murders",
+        "https://cbs12.com/news/florida/florida-expands-openai-investigation-include-univerity-of-south-florida-murders-suspect-chatgpt-crime-florida-news-chatgpt-openai-florida-state-university-attorney-general-james-uthmeier-criminal-investigation",
+        "https://floridapolitics.com/archives/793306-james-uthmeier-broadens-openai-investigation-as-chatgpt-use-surfaces-in-usf-murders/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "ChatGPT", "Florida", "Uthmeier", "刑事调查", "USF", "FSU", "AI责任"],
+      "category": "news"
+    }
+  ]
+}

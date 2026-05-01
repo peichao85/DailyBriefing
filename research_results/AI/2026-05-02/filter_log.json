@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-02",
+  "total_candidates": 11,
+  "kept": 5,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "pentagon-classified-ai-deals",
+      "event_date": "2026-05-01",
+      "title_en": "Pentagon signs classified AI deals with 7 firms (SpaceX, OpenAI, Google, NVIDIA, Reflection, Microsoft, AWS); Anthropic excluded",
+      "source": "Washington Post",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Event happened 2026-05-01, 1 day ago. Pentagon's first multi-vendor classified AI agreement at IL6/IL7 — sets precedent for AI in warfighter decision-making. Anthropic publicly snubbed."
+    },
+    {
+      "story_key": "anthropic-mythos-nsa-microsoft",
+      "event_date": "2026-05-01",
+      "title_en": "NSA tests Anthropic Mythos to find Microsoft software flaws; Pentagon CTO Emil Michael says Anthropic still blacklisted but Mythos is a 'separate national security moment'",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Bloomberg broke 4/30 story that NSA quietly testing Mythos against Microsoft Corp. products; CNBC May 1 captured Pentagon CTO Emil Michael's statement. story_key distinct from prior anthropic-mythos-zerodays — that was about Mythos discovering CVEs in open source, this is about NSA government testing of Mythos against US enterprise tech. Event 2026-05-01."
+    },
+    {
+      "story_key": "bigtech-ai-capex-725b",
+      "event_date": "2026-04-30",
+      "title_en": "Big 4 hyperscaler 2026 AI capex hits $725B (+77% YoY) after Apple/Microsoft/Amazon/Meta/Alphabet earnings synthesis",
+      "source": "Tom's Hardware",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Synthesis figure crystallized 4/30 after all Big 4 hyperscalers reported. Individual earnings (Microsoft, Amazon, Meta, Alphabet, Apple) were each covered separately on prior days, but the aggregate $725B figure with HBM-driven cost decomposition is a separate story_key. Within 5-day window."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-01",
+      "title_en": "Musk v. Altman trial: Musk testimony fully complete (Day 4 Thursday), Birchall answers off-limits question, Stuart Russell expert excused, Brockman confirmed for Monday May 4",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Returning story. Lookback shows trial Day 1-4 already published 2026-04-27 through 2026-04-30. New info for 5/2 briefing: Musk's testimony fully concluded Thursday afternoon, expert witness Stuart Russell was excused early without testifying (notable trial-strategy update), Jared Birchall answered an off-limits question while jury was out (potential mistrial implication), and Brockman confirmed as first witness Monday May 4. Substantively new courtroom developments distinct from prior daily recaps."
+    },
+    {
+      "story_key": "florida-ag-openai-criminal-probe",
+      "event_date": "2026-04-27",
+      "title_en": "Florida AG Uthmeier expands criminal probe of OpenAI to include USF doctoral-student murders after suspect used ChatGPT to query disposing of remains",
+      "source": "Axios Tampa Bay",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. April 27 expansion of original FSU shooting probe to USF murders (Limon/Bristy case, Apr 16 missing). Uthmeier's office is first US state-level criminal investigation against an AI company over user actions. Within 5-day window (May 2 - April 27 = 5 days)."
+    },
+    {
+      "story_key": "apple-q2-2026-earnings",
+      "event_date": "2026-05-01",
+      "title_en": "Apple Q2 FY26 earnings reaction May 1: stock +4% AH, Cook on Gemini-Siri partnership going well, Ternus calls AI 'incredible roadmap'",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Returning story. Already published 2026-04-30 with title covering Q2 results, $1112B revenue, $1000B buyback, Cook-to-Ternus transition, and HBM/Gemini-Siri timebombs. May 1 'reaction' coverage adds only stock movement (+4%) and Ternus quote, both already implied by prior day's coverage. No substantively new development."
+    },
+    {
+      "story_key": "anthropic-30b-runrate",
+      "event_date": "2026-04-06",
+      "title_en": "Anthropic tops $30B run-rate, $1B+ enterprise customers double in 2 months",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Original Bloomberg/Anthropic announcement dated 2026-04-06. event_date is 26 days old (>5 day limit). The May 1 'reminder' coverage is editorial summary, not a new development."
+    },
+    {
+      "story_key": "berkshire-2026-annual-meeting-abel",
+      "event_date": "2026-05-02",
+      "title_en": "Berkshire Hathaway 2026 annual meeting first without Buffett at podium; Abel takes over, AI as risk/opportunity panel topic",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within 5-day window and novel, but primarily a Buffett/leadership transition story; AI is only a panel topic, not a meaningful AI development. Daily Tech & AI briefing scope filter — drop as not-AI-primary."
+    },
+    {
+      "story_key": "openai-instant-checkout-acp",
+      "event_date": "2026-04-29",
+      "title_en": "OpenAI ChatGPT Instant Checkout via Agentic Commerce Protocol (with Stripe) goes live",
+      "source": "OpenAI Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "OpenAI Instant Checkout / Agentic Commerce Protocol announcement is from late September 2025 (refreshed coverage in April). The latest movement is gradual rollout, no fresh news from 4/27-5/2 window. event_date older than 5 days."
+    },
+    {
+      "story_key": "softbank-roze-ai-spinoff",
+      "event_date": "2026-04-29",
+      "title_en": "SoftBank weighs $100B AI/robotics spinout 'Roze' for US IPO",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Reuters/FT first reported 4/29; CNBC followup 4/30. Although within 5-day window and not in lookback, the only concrete news is 'reportedly weighing $100B valuation' — speculative, no formal filing or commitment. Skipping as routine deal-rumor, would need formal filing or pricing to merit a card."
+    },
+    {
+      "story_key": "google-gemini-3.1-flash-lite",
+      "event_date": "2026-04-22",
+      "title_en": "Google Gemini 3.1 Flash-Lite: 2.5x faster response, 45% faster output gen",
+      "source": "Google Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released 2026-04-22 at Google Cloud Next 2026. event_date 10 days old (>5 day limit)."
+    }
+  ]
+}
