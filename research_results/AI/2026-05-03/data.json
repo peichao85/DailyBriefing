@@ -1,0 +1,251 @@
+{
+  "date": "2026-05-03",
+  "category": "AI",
+  "researched_at": "2026-05-03T07:10:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang", "@mntruell", "@mikeyk", "@ilyasut",
+    "@JeffDean", "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46",
+    "@alighodsi", "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan",
+    "CNBC", "TechCrunch", "Bloomberg", "Reuters", "The Washington Post", "NPR", "Axios",
+    "Financial Times", "Tom's Hardware", "VentureBeat", "Fortune", "MIT Technology Review",
+    "OpenAI Blog", "IBM Newsroom", "Salesforce News"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Greg Abel 首场 Berkshire 股东大会拒绝'为 AI 而 AI'：开场用一段 Buffett deepfake 当面演示 AI 网络风险——史上首次没有 Buffett 主持的奥马哈大会",
+      "source": "Berkshire Hathaway",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/02/warren-buffett-berkshire-hathaway-annual-meeting-2026-live-updates.html",
+      "story_key": "berkshire-2026-agm-abel-debut",
+      "event_date": "2026-05-02",
+      "summary": "5 月 2 日（周六）Greg Abel 在奥马哈 CHI Health Center 主持自己作为 Berkshire CEO 的首场年度股东大会——同时是 Buffett 卸任 CEO 后**首次未由其主持**的大会。开场即播放一段以 Buffett 形象生成的 deepfake 视频，由 Abel 当场宣布画面是 AI 合成、用以演示 AI 在网络安全与名誉攻击层面的风险；Abel 全程定调 Berkshire 的 AI 策略：'**not for the sake of AI**'——只在能创造真实价值的子公司才部署。",
+      "detail": "5 月 2 日（周六）上午，Greg Abel 在奥马哈 CHI Health Center 主持自己作为 Berkshire Hathaway 总裁兼 CEO 的**首场**年度股东大会。这场会同时是自 1965 年以来 Berkshire 大会**首次没有 Warren Buffett 在台上主持**——95 岁的 Buffett 仍以董事长身份坐在台下观众席，Abel 在开场致辞中向观众致意：'Greg is doing everything I did and then some'，复述去年 Buffett 退休时的原话。\n\n会议**第一个问答环节**就是一段刻意制作的 deepfake：屏幕上'Buffett'谈论加密货币与投资策略，Abel 在画面播完后当面宣布——'**这段视频是 AI 合成的，Buffett 没有参与录制**'，并强调：仅凭公开信息就足以复刻 Buffett 的形象与声音，**这种'伪造的我'已经成为 Berkshire 整个集团需要每天管理的重大网络安全风险**。\n\nAbel 在多个场合明确 Berkshire 的 AI 策略边界：将'narrow in scope（范围窄）+ 仅在创造真实价值时使用'作为部署原则，子公司只能在'对业务真正 additive（增量）'的场景使用 AI。他直接表态：Berkshire **不会为 AI 而 AI**——这与 Microsoft、Google、Meta、Amazon 在 4 月底集体上调 capex 至 $7250 亿的'AI all in'路线形成鲜明对比。\n\n在大型持仓策略上，Abel 明确告知股东：包括 Apple、American Express、Coca-Cola、Moody's 在内的四大 equity holdings 只会有 'limited activity'——只在公司长期经济前景出现根本性变化时才会调整。Berkshire 现金储备同时升至 **$3970 亿美元**新历史高，Buffett 当场点评当前投资环境'非理想（not ideal）'，市场存在'gambling'。",
+      "key_quotes": [
+        "Greg is doing everything I did and then some. — Warren Buffett",
+        "We're not going to do AI for the sake of AI. — Greg Abel",
+        "Publicly available information is enough to replicate Buffett's actions and voice. This is a significant cyber risk across Berkshire that we're managing every day. — Greg Abel",
+        "We don't know what's going to happen with deepfakes and AI. — Warren Buffett"
+      ],
+      "significance": "这是 Berkshire 在'后 Buffett 时代'的**首次对外正式表态**：在大资本几乎一致 all-in AI capex 的当口，全美历史最长寿、市值前十的工业控股公司选择**反方向**——把 AI 定位为子公司的辅助工具而非战略主轴，并把 deepfake 公开列为日常管理风险。Abel 用 Buffett deepfake 当作开场白本身就是一个清晰信号：Berkshire 的判断是 AI 已经从工具变成了**对手**——它会被用来攻击 Berkshire 旗下保险、铁路、能源等业务的客户与品牌，而不仅仅是用来提升运营效率。",
+      "links": [
+        "https://www.cnbc.com/2026/05/02/warren-buffett-berkshire-hathaway-annual-meeting-2026-live-updates.html",
+        "https://finance.yahoo.com/markets/stocks/articles/berkshire-meeting-highlights-tough-balancing-181631012.html",
+        "https://riskandinsurance.com/fake-buffett-real-reputation-risk-how-deepfakes-are-reshaping-the-cyber-landscape/",
+        "https://www.cnbc.com/video/2026/05/02/warren-buffett-on-deepfakes-artificial-intelligence-we-dont-know-whats-going-to-happen.html",
+        "https://tradersunion.com/news/financial-news/show/1982959-berkshire-buffett-deepfake-cyber-risk/"
+      ],
+      "image": "img/greg-abel.jpg",
+      "image_type": "logo",
+      "tags": ["Berkshire Hathaway", "Greg Abel", "Warren Buffett", "deepfake", "AI 安全", "AGM", "Apple"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Tumbler Ridge 加拿大校园枪击案家属起诉 OpenAI：内部安全团队曾建议报警、Altman 等领导层否决——首例'AI 公司被指应主动报警救命'的民事诉讼",
+      "source": "Washington Post",
+      "source_name": "The Washington Post",
+      "source_url": "https://www.washingtonpost.com/business/2026/04/29/openai-chatgpt-tumbler-ridge/0c7953c6-43d9-11f1-b19d-32431046b5b4_story.html",
+      "story_key": "openai-tumbler-ridge-lawsuit",
+      "event_date": "2026-04-29",
+      "summary": "4 月 29 日（周三）加拿大不列颠哥伦比亚省 Tumbler Ridge 镇 2 月校园枪击案幸存者与遇难者家属正式向美国联邦法院起诉 OpenAI 与 Sam Altman——**指控 OpenAI 内部安全团队 2025 年 6 月已识别凶手对 ChatGPT 描述枪击场景、并建议管理层报警，但 Altman 等领导层否决了该建议**，凶手仅账号被封即可重新注册继续规划袭击。这是首批 24 起即将提交的诉讼之一，同步指控 wrongful death（非正常死亡）、negligence（疏忽）、product liability（产品责任）。",
+      "detail": "12 岁伤者 Maya Gebala 的家属 4 月 29 日（周三）在美国联邦法院首批提交对 OpenAI、Sam Altman 个人的民事诉讼——这是 Tumbler Ridge 枪击案家属计划提交的 **24+ 起诉讼中的首单**，未来数周内将陆续提交。原告律师团同时把 OpenAI 的内部决策链条作为关键事实纳入起诉书。\n\n2026 年 2 月，18 岁的 Jesse Van Rootselaar 在 Tumbler Ridge 一次枪击中**杀害 9 人，包括多名 12 岁儿童**——遇难学生包括 Zoey Benoit、Abel Mwansa Jr、Ticaria 'Tiki' Lampert、Kylie Smith、13 岁的 Ezekiel Schofield，以及教育助理 Shannda Aviugana-Durand。\n\n起诉书披露的关键时间线：**2025 年 6 月**——OpenAI 自动化系统**已经标记**了凶手与 ChatGPT 关于'枪击场景'的对话；OpenAI 安全团队**亲自审查**后认定凶手构成 'credible and imminent threat of harm'（可信、即将发生的伤害威胁），**正式建议向警方报警**；该建议被 **Sam Altman 与其他 OpenAI 领导层驳回**——OpenAI 仅采取关闭凶手账号的措施。凶手随即用新邮箱重新注册账号、继续与 ChatGPT 探讨袭击计划，直到 2026 年 2 月实施袭击。\n\nSam Altman 当日发表声明：'I am deeply sorry that we did not alert law enforcement to the account that was banned in June.'（我深感抱歉，6 月封禁该账号时我们没有向执法部门通报）。\n\n本案与 4 月 27 日 Florida 总检察长 Uthmeier 已立案的 OpenAI **刑事调查**（FSU 校园枪击 + USF 双博士命案）形成同时打击：一个是州层面对 OpenAI 公司刑事调查、一个是跨境民事 wrongful death——对 OpenAI 而言，'AI 公司是否有义务在识别威胁后主动报警'被首次同时摆上美、加两国法庭。",
+      "key_quotes": [
+        "I am deeply sorry that we did not alert law enforcement to the account that was banned in June. — Sam Altman",
+        "OpenAI's safety team members recommended contacting police after concluding she posed a credible and imminent threat of harm. — Filing"
+      ],
+      "significance": "这是全球**首例**直接以 'AI 公司明知威胁却未报警致死' 为核心诉因的民事诉讼，并把 Sam Altman 个人列为被告。如果原告能在 discovery 阶段获得 OpenAI 内部审查邮件、证明 6 月份'安全团队建议报警 / 领导层否决'的事实链，OpenAI 将面对一个全新的法律标准：通用 AI 平台对识别出的高风险用户是否负有 **affirmative duty to warn（主动告警义务）**。这一判例直接关乎此后所有 AI 公司在审核体系、上报渠道、甚至产品授权层面的设计——若胜诉，将与 Florida 刑事调查共同奠定'AI 公司可对其用户行为承担间接责任'的判例基础。",
+      "links": [
+        "https://www.washingtonpost.com/business/2026/04/29/openai-chatgpt-tumbler-ridge/0c7953c6-43d9-11f1-b19d-32431046b5b4_story.html",
+        "https://www.npr.org/2026/04/29/nx-s1-5798896/tumbler-ridge-mass-shooting-chat-gpt-lawsuit",
+        "https://www.aljazeera.com/economy/2026/4/29/families-sue-openai-alleging-chatbot-aided-in-canadian-school-shooting",
+        "https://www.cbc.ca/news/canada/british-columbia/tumbler-ridge-lawsuit-shooting-9.7184662",
+        "https://www.kqed.org/news/12082064/openai-back-in-court-over-canada-school-shooters-use-of-chatgpt"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Sam Altman", "ChatGPT", "wrongful death", "校园枪击", "Tumbler Ridge", "AI 安全责任"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "SoftBank 把 Roze AI+机器人单元拉去美国 IPO：$1000 亿目标估值、用 ABB Robotics 自动化机器人盖数据中心——孙正义把 AI infra 实物搭建产业化",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+      "story_key": "softbank-roze-100b-ipo",
+      "event_date": "2026-04-29",
+      "summary": "SoftBank 4 月 29 日被 Financial Times / TechCrunch 同步爆料：正准备把内部新成立的 AI + 机器人独立单元 'Roze' 在美国 IPO，目标估值 **$1000 亿美元**，**2026 H2** 即可挂牌。Roze 核心定位是用 ABB Robotics 自动化机器人**实物搭建 AI 数据中心**——把 SoftBank 旗下能源、土地、基础设施资产，加上去年收购的 ABB Robotics，捆成一个'AI infra construction company'。",
+      "detail": "Financial Times 与 TechCrunch 4 月 29 日（周三）同步独家：SoftBank Group 正在准备将一个全新的 AI + 机器人独立公司 **Roze** 拆分出来在美国 IPO——目标估值 **$1000 亿美元**，部分高管力推 **2026 下半年**完成挂牌。\n\nRoze 的核心商业模式是一个此前未被披露的赛道：**用自主机器人加速 AI 数据中心的物理搭建**。SoftBank 计划把以下资产打包注入 Roze：\n\n- **ABB Robotics**：SoftBank 2025 年宣布收购的全球工业机器人巨头，将作为 Roze 硬件主体；\n- 现有能源 / 土地 / 基础设施资产组合；\n- 用 AI 软件控制机器人完成数据中心钢结构、电气、机柜安装等高重复性建造工作。\n\nSoftBank 已在俄亥俄州自建一座大型数据中心作为 Roze 模式的首个落地样本。该公司 2025 年初已与 OpenAI、Oracle 等共同发起 **Stargate** 项目（计划投资 $5000 亿建设美国 AI 数据中心容量），Roze 被视为孙正义把 Stargate '物理建造层'独立资本化的关键一步。\n\n但内部并非完全一致：部分 SoftBank 高管对 $1000 亿估值与激进时间表持保留态度——担忧中东地缘政治不稳定影响 IPO 时点；最终估值与挂牌时间都仍可能下调。\n\n若按 H2 2026 挂牌、$1000 亿估值落地，Roze 将是**继 SpaceX（$1.75 万亿）之后 2026 年第二大 AI 相关 IPO**——同时第一次把'AI 基础设施实物建造'独立成一个公开市场可投资的赛道，区别于 NVIDIA / Broadcom 的硅级别、Hyperscaler 的运营层。",
+      "key_quotes": [
+        "Some executives want it to happen by the second half of 2026. — FT",
+        "Roze's core pitch centers on using autonomous robots as a tool for streamlining the physical work of constructing server farms. — TechCrunch"
+      ],
+      "significance": "这是孙正义在 OpenAI（被 Microsoft / AWS / Google 三家 hyperscaler 瓜分）之外，**第二次**把 AI 价值链拆出新独立公司：Roze 把'机器人 + AI infra 物理建造'变成一个 standalone 资产类别。如果 Roze 真能以 $1000 亿登陆美股，就意味着市场已经接受'AI 数据中心建造速度'本身就是一个 limit factor——即使硅、能源、capex 全部到位，'**有没有人能在 18 个月内盖完几十座 1GW 数据中心**'这个问题足以撑起一家 $1000 亿公司。这也直接契合 Microsoft 4 月最后一周财报会上承认的'memory pricing 是单一最大成本变量'与各家 hyperscaler 上调 capex 至 $7250 亿的现实。",
+      "links": [
+        "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+        "https://www.cnbc.com/2026/04/30/softbank-roze-ai-robotics-ipo-100-billion-ft-report.html",
+        "https://capacityglobal.com/news/softbank-roze-ai-robotics-ipo-us-listing/",
+        "https://techstartups.com/2026/04/30/softbank-targets-100b-u-s-ipo-for-ai-and-robotics-startup-roze/"
+      ],
+      "tags": ["SoftBank", "Roze", "ABB Robotics", "IPO", "数据中心", "Masayoshi Son", "AI infra"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Axios 独家：白宫起草行政令绕过自家'供应链风险'认定，重新允许联邦机构使用 Anthropic Mythos——政府层面 Anthropic 解禁第一份正式法律文件",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/04/29/trump-anthropic-pentagon-ai-executive-order-gov",
+      "story_key": "white-house-anthropic-mythos-eo-draft",
+      "event_date": "2026-04-29",
+      "summary": "Axios 4 月 29 日独家：白宫正在起草一份行政令草案——核心条款是为联邦机构开辟一条**绕过 OMB 'Anthropic 是供应链风险'指令**的合法通道，重新允许使用 Anthropic 最先进模型 Mythos。白宫本周已组织多家公司参与'table reads'（草案对读会），讨论 Mythos 如何在政府最佳实践下部署。这是 Trump 政府 2025 年 12 月叫停 Anthropic 政府合约后首份**官方层面**的解禁文件。",
+      "detail": "Axios 4 月 29 日（周三）独家：白宫正在起草一份行政令草案——核心是给各联邦机构开辟一条合法路径，**绕过**美国管理与预算办公室（OMB）此前对 Anthropic 公司层面的'supply chain risk'认定，从而重新允许政府机构采购、使用 Anthropic 最先进的 Mythos 模型。\n\n关键时间线：\n\n- **2025 年 12 月**：Trump 政府以'Anthropic 拒绝放弃 致死性自主武器 + 大规模监控的安全护栏'为由，由 OMB 发布全政府范围 Anthropic 技术 phase-out 指令；\n- **2026 年 4 月中旬**：白宫办公厅主任 **Susie Wiles** 与财长 **Scott Bessent** 在白宫与 Anthropic CEO **Dario Amodei** 召开'productive and constructive'初步会谈——讨论政府如何重启与 Anthropic 的工作关系；\n- **2026 年 4 月 29 日（本周）**：白宫已开始与多家相关公司分批召开**'table reads'（草案对读会）**，逐条讨论拟议中的 Mythos 政府部署最佳实践与例外通道；\n- **同步背景（5 月 1 日已被报道）**：NSA 已秘密在 Microsoft 自家产品上使用 Mythos 扫描零日漏洞，Pentagon CTO Emil Michael 公开承认 NSA 测试为 'separate national security moment'。\n\n核心政治信号：白宫**没有撤销**对 Anthropic 公司整体的 supply chain 认定——而是为'Mythos 这一单一模型 / 单一用途'开辟例外。这一处理方式与 5 月 1 日 Pentagon 同步签下 OpenAI / Google / Microsoft / NVIDIA / SpaceX / AWS / Reflection 七家 IL6/IL7 机密合同、把 Anthropic 排除在外的事实形成**互补结构**：Pentagon 不收，NSA 通过例外用 Mythos 单一模型。\n\n**背景回顾：** Anthropic 因坚持对致死性自主武器 + 大规模监控的安全护栏，2025 年 12 月被白宫切断政府合作，并被 OMB 定性为'供应链风险'。",
+      "key_quotes": [
+        "A draft executive action is currently in the works that could give the administration a way to dial down the Anthropic fight. — Axios",
+        "The White House is convening companies across various sectors this week ... including 'table reads' of possible guidance that could walk back the OMB directive. — Axios"
+      ],
+      "significance": "这是政府 5 个月对抗 Anthropic 立场的**首次官方书面回撤**，且采用极具技巧的方式：保留'Anthropic 公司有问题'的政治表态、但开辟'Mythos 单一模型可用'的实操通道。其结果：Anthropic 在政府市场被'部分解禁'——既给了白宫不丢面子的台阶，又确保 NSA / FBI 等需要漏洞挖掘能力的机构可以正式签合同采购 Mythos。对 Anthropic 商业意义：在 Pentagon IL6/IL7 七家被同时签约的当口，Mythos 反而通过 NSA 这个特殊客户进入了**最敏感**的国家安全网络——某种意义上比 Pentagon 公开合同更接近权力中枢。",
+      "links": [
+        "https://www.axios.com/2026/04/29/trump-anthropic-pentagon-ai-executive-order-gov",
+        "https://www.nextgov.com/artificial-intelligence/2026/04/white-house-drafting-plans-permit-federal-anthropic-use/413202/",
+        "https://www.govexec.com/technology/2026/04/white-house-drafting-plans-permit-federal-anthropic-use/413204/",
+        "https://www.thegatewaypundit.com/2026/05/trump-administration-fights-anthropics-plan-expand-mythos-ai/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Mythos", "Trump", "Executive Order", "Susie Wiles", "Dario Amodei", "白宫"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "瑞典 Legora $5.55 亿 D 轮 + Nvidia $5000 万 D+ 加注：估值 $55.5 亿，5 个月翻 3 倍——欧洲法律 AI 头部正面对标 Harvey ($110 亿)",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+      "story_key": "legora-5b-series-d-legal-ai",
+      "event_date": "2026-04-30",
+      "summary": "瑞典法律 AI 创业公司 **Legora** 4 月 30 日完成 **$5.5 亿美元 Series D 主轮**，估值 **$55.5 亿美元**——5 个月内估值翻 3 倍，由 Accel 领投；同日 NVIDIA 旗下 NVentures 又单独追加 **$5000 万** D 轮延伸，把本轮总规模推到 **$6 亿美元**。Legora ARR 已突破 **$1 亿**，正面对抗美国法律 AI 头部 Harvey（$110 亿估值）。",
+      "detail": "瑞典斯德哥尔摩法律 AI 公司 **Legora** 4 月 30 日（周四）正式宣布完成 **Series D** 主轮 **$5.5 亿美元**——投后估值 **$55.5 亿美元**——由 **Accel** 领投，跟投阵容包含 Benchmark、Bessemer Venture Partners、General Catalyst、Iconiq Capital、Redpoint Ventures、Y Combinator 等老股东，新进投资人包含 **Bain Capital、Menlo Ventures、Salesforce Ventures**。\n\n同日 **NVIDIA** 旗下 NVentures 单独宣布对 Legora **$5000 万美元** Series D 延伸投资——把本轮**总融资规模推至 $6 亿美元**。Nvidia 入场是 Legora 第一次拿到一线芯片厂商的战略投资。\n\n关键业务数字：\n\n- 距离 2025 年 11 月上一轮融资仅 **5 个月**，估值从约 $18 亿翻到 $55.5 亿——三倍涨幅；\n- ARR 已突破 **$1 亿美元**；\n- 客户群体包含数万名律师、覆盖大型企业法务部 + 顶级律所。\n\nLegora 与美国法律 AI 头部 **Harvey**（3 月 25 日刚以 **$110 亿美元**估值完成 $2 亿融资）正面竞争。两家产品定位类似（律师研究 / 文件审阅 / 起草协同），但 Legora 选择跨大西洋路径：欧洲法律市场扎根 + 美国扩张。\n\n这与 4 月 28 日 Manifest OS（同样法律 AI，专攻自营 AI 律所做移民业务，A 轮 $6000 万 / 估值 $7.5 亿）形成两条不同竞争路线：Manifest OS 走'AI-native 律所'垂直一体、Legora 走'律所工具平台'。",
+      "key_quotes": [
+        "Tens of thousands of legal professionals at major corporate legal departments and leading law firms. — Legora",
+        "Series D extension led by Nvidia's NVentures. — Crunchbase News"
+      ],
+      "significance": "Legora $55.5 亿估值 + Nvidia 战略投资把 2026 年法律 AI 赛道**资本密度**推上新高——Harvey ($110B) + Legora ($55.5B) + Manifest OS ($7.5B) 三家累计估值已超 **$170 亿美元**，超过 2024 年整个法律 AI 赛道总规模 5 倍以上。Nvidia 选择 Legora 而非 Harvey 是关键信号：在 NVIDIA 押注 Anthropic、Cohere、Reflection、Cursor 之后，法律 AI 也被纳入 Nvidia 战略版图——这意味着所有要靠 NVIDIA GPU 跑训练 / 推理的 AI 应用赛道，今后都将面对'Nvidia 同时是芯片供应商 + 直接竞品投资人'的新博弈格局。",
+      "links": [
+        "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+        "https://news.crunchbase.com/venture/ai-powered-legal-tech-startup-legora-seriesd-extension-nvidia/",
+        "https://news.crunchbase.com/venture/unicorn-legal-tech-ai-startup-legora-triples-valuation/",
+        "https://www.cnbc.com/2026/04/30/nvidia-backs-ai-legal-tech-legora.html",
+        "https://legora.com/blog/series-d"
+      ],
+      "tags": ["Legora", "法律 AI", "Series D", "Accel", "NVIDIA", "Harvey", "瑞典"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "IBM Bob 编码 Agent 4 月 28 日全球 GA：**8 万 IBM 员工已在用**，多模型动态路由（Claude / Mistral / Granite）+ 人类断点检查——企业版 Cursor",
+      "source": "IBM Newsroom",
+      "source_name": "IBM Newsroom",
+      "source_url": "https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software",
+      "story_key": "ibm-bob-coding-agent-ga",
+      "event_date": "2026-04-28",
+      "summary": "IBM 4 月 28 日宣布企业级 AI 编码 Agent **Bob** 全球正式可用（GA）——内部已有 **8 万名 IBM 员工**在使用、自报平均生产力提升 **45%**；技术架构核心是**多模型动态路由**：根据任务类型在 Anthropic Claude、Mistral 开源模型、IBM Granite 之间切换，并在关键步骤插入**人类断点检查**——把 Cursor 模式工业化为'企业可托管'的生产级 SDLC 工具。",
+      "detail": "IBM 4 月 28 日（周二）正式宣布旗舰 AI 编码 Agent **Bob** 全球 GA——正式名称 *IBM Bob*——一款定位为'企业级 AI 软件开发合作伙伴'的产品，覆盖完整 SDLC：规划、编码、测试、部署、现代化。Bob 自 2025 年 6 月在 IBM 内部以 **100 名开发者**起步试点，截至 GA 当日已有 **8 万名 IBM 员工**在用；调研用户**自报平均生产力提升 45%**。\n\n核心技术差异点（与 Cursor / Claude Code / Devin 相比）：\n\n- **多模型动态路由**：根据任务的精度、性能、成本要求，自动在 Anthropic Claude、Mistral 开源模型、IBM Granite 之间切换；同时调用专门 fine-tune 的'代码推理 / 安全 / next-edit prediction'专用模型；\n- **人类断点检查（Human Checkpoints）**：在生产部署、敏感配置改动等关键步骤强制人类审批——直接回应 4 月 25 日 PocketOS 9 秒被 Cursor + Claude Opus 抹掉生产数据库事件；\n- **企业治理（Governance）**：Bob 内置审计、合规、安全合规控件，支持私有部署、运行在 IBM Cloud / 客户 VPC；\n- **企业级落地实例**：Blue Pearl 用 Bob 把传统 30 天 Java 升级缩到 **3 天**、节省 160+ 工程小时；Ernst & Young 用 Bob 加速全球税务平台代码重构、测试生成、文档生成。\n\n这与 4 月 30 日 Anthropic 强制关闭 Sonnet 4.5 的 1M token beta 形成时间巧合：Anthropic 把企业开发者驱赶到 Sonnet 4.6 / Opus 4.6——而 IBM Bob 的多模型路由策略恰好把 IBM 自身从单一模型供应商绑定中独立出来，形成与 Cursor（绑 Anthropic）、Cognition Devin（自研模型）、GitHub Copilot（绑 OpenAI）三家的差异化定位。",
+      "key_quotes": [
+        "IBM Bob is now in use by more than 80,000 IBM employees worldwide. Surveyed users have self-reported an average productivity gain of 45%. — IBM Newsroom",
+        "Blue Pearl conducted a typical 30-day Java upgrade in just 3 days, saving over 160 engineering hours. — IBM"
+      ],
+      "significance": "IBM Bob 的 GA 把'AI 编码 Agent'从 startup 产品（Cursor / Devin）正式提升到 100 年蓝筹企业级供应商的产品矩阵——意味着'AI 编码工具'已成为 SaaS 后台的下一个 IBM Watson 级别产品线。Bob 的'多模型路由 + 人类断点'设计直接回应了 PocketOS 数据库被抹与企业级 AI Agent 治理两大痛点：把 Cursor 的开发者效率红利带给企业 IT 部门，但用 governance + checkpoints 把 9 秒抹库的同类事件挡在生产线之外。在 Microsoft（GitHub Copilot）、Anthropic（Claude Code）、Cognition（Devin）已明确绑定单一模型的市场，IBM 用'多模型 + 治理'走出了第四条路。",
+      "links": [
+        "https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob-ai-development-partner-that-takes-enterprises-from-ai-assisted-coding-to-production-ready-software",
+        "https://venturebeat.com/orchestration/ibm-launches-bob-with-multi-model-routing-and-human-checkpoints-to-turn-ai-coding-into-a-secure-production-system",
+        "https://www.theregister.com/2026/04/28/ibms_ai_coding_partner_bob/",
+        "https://www.ibm.com/new/announcements/ibm-project-bob"
+      ],
+      "image": "assets/logos/ibm-logo.png",
+      "image_type": "logo",
+      "tags": ["IBM", "Bob", "AI 编码", "Agent", "企业级", "多模型路由", "Claude", "Granite"],
+      "category": "builders"
+    },
+    {
+      "id": "7",
+      "title": "Salesforce Agentforce Operations 4 月 29 日 GA：把 Agent 从前台延伸到后台——审计 / onboarding / 合规 / 报销自动化，自报周期 -50% 至 70% / 手工录入 -80%",
+      "source": "Salesforce News",
+      "source_name": "Salesforce News",
+      "source_url": "https://www.salesforce.com/news/stories/agentforce-operations-announcement/",
+      "story_key": "salesforce-agentforce-operations-launch",
+      "event_date": "2026-04-29",
+      "summary": "Salesforce 4 月 29 日全球 GA **Agentforce Operations** ——首次把 Agentforce 从前台 CRM 延伸到**整个后台**：流程协调、数据校验、合规检查、审批追踪等手工流程被拆成可由专属 Agent 完成的任务集，自报数据：审计 / onboarding 等周期时间下降 **50%-70%**、手工数据录入 **-80%**。基础架构来自去年收购的 **Regrello**（制造业 + 供应链运营系统）。",
+      "detail": "Salesforce 4 月 29 日（周三）全球 GA 旗下企业 AI Agent 平台的全新模块 **Agentforce Operations**——这是 Agentforce 第一次从'前台 CRM / 客服 / 销售'扩展到**整个企业后台**：审计、新员工 onboarding、合规检查、采购审批追踪、ERP 数据同步等长期被人手处理的繁琐流程，全部被抽象为可由 Agent 自主完成的任务集合。\n\n核心产品差异：\n\n- 用户可上传自有 SOP 流程，或选用 Salesforce 提供的预置 **Blueprints**；Agentforce Operations 自动把流程拆解为可被 Agent 执行的任务图；\n- Agent 可跨系统操作——邮件、ERP、协作工具（Slack / Teams / SharePoint）、Salesforce 自家 CRM；\n- 自报性能：审计 / onboarding 等流程**周期时间下降 50%-70%**、手工数据录入工作量**下降 80%**；\n- 生态集成（auto-sync 数据、触发 Salesforce Flow）将于 **2026 年 5 月**进入 Beta。\n\n核心技术基础：Salesforce **2024 年底收购的 Regrello**——一家专攻制造业 + 供应链 AI 操作系统的公司，被改造为 Agentforce Operations 的引擎。\n\n时间上恰好与 4 月 22 日 Salesforce 与 Google Cloud 联合宣布的 Agent 双向跨平台集成（Agent 可在 Salesforce + Google Cloud 双向调用）形成产品组合：前者解决 Agent 协作的'平台'问题、后者解决 Agent 可执行的'任务'问题。\n\n这与同周（4 月 28 日 IBM Bob 编码 Agent GA）共同标志着 2026 Q2 进入'**企业级 Agent 生产化**'时间窗：开发者编码（IBM Bob / Cursor）、销售前台（Agentforce）、后台运营（Agentforce Operations）三条赛道同步落地。",
+      "key_quotes": [
+        "Agentic process automation to every industry — without ripping and replacing existing systems. — Salesforce",
+        "Cycle times for processes like auditing and onboarding can drop by 50% to 70%, while manual tasks such as data entry can be reduced by up to 80%. — Salesforce"
+      ],
+      "significance": "Salesforce 的 Agentforce Operations 是企业 Agent 赛道**首次把'后台流程自动化'独立产品化**——此前的 RPA（UiPath / Automation Anywhere）做的是按规则脚本，Agentforce Operations 用 LLM 让 Agent 在没有完整规则集的情况下处理 exception（异常）；这意味着 Agent 经济正式从'写代码'与'卖东西'两个边角任务进入到**会计、HR、合规**这些占企业人力成本最大头的中后台。如果 50%-70% 周期下降数字能在客户侧得到验证，Salesforce 将把 Workday、SAP、Oracle ERP 的运营层服务客户拉到自己平台——这场争夺将决定 2026-2027 年 Agent 赛道的现金流主战场。",
+      "links": [
+        "https://www.salesforce.com/news/stories/agentforce-operations-announcement/",
+        "https://venturebeat.com/orchestration/salesforce-launches-agentforce-operations-to-fix-the-workflows-breaking-enterprise-ai",
+        "https://siliconangle.com/2026/04/29/salesforce-introduces-agentforce-operations-automate-outdated-back-office-tasks/",
+        "https://martech.org/salesforce-launches-agentforce-operations-to-automate-back-office-work/",
+        "https://www.cio.com/article/4164708/salesforce-expands-beyond-the-front-office-with-agentforce-operations.html"
+      ],
+      "image": "assets/logos/salesforce-logo.png",
+      "image_type": "logo",
+      "tags": ["Salesforce", "Agentforce", "Operations", "企业 Agent", "RPA", "Regrello", "Blueprints"],
+      "category": "builders"
+    },
+    {
+      "id": "8",
+      "title": "Huawei AI 芯片 2026 营收指引 $120 亿（+60% YoY）：DeepSeek V4 与 Ascend 950 PR 联手把 NVIDIA 在中国市占挤到 8%——Huawei 占 50%-60%",
+      "source": "Financial Times",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/content/huawei-ai-chip-revenue-2026",
+      "story_key": "huawei-12b-ai-chip-revenue-forecast",
+      "event_date": "2026-04-30",
+      "summary": "Financial Times 4 月 30 日独家：Huawei 内部把 2026 年 AI 芯片收入指引锁在 **$120 亿美元**——同比 2025 年 $75 亿暴涨 **60%**。这一爆发由两条线驱动：（1）DeepSeek V4 4 月 24 日发布且**仅向 Huawei + Cambricon 等中国芯片厂开放早期优化窗口**；（2）NVIDIA 因美国出口管制在中国 AI 芯片市场份额被 Bernstein 测算为 **8%**——Huawei 占 **50%-60%**，主力芯片 **Ascend 950 PR** 已 3 月开始量产、单卡 2 PFLOPs 性能 + 128GB 国产内存。",
+      "detail": "Financial Times 4 月 30 日（周四）独家：Huawei 已在内部把 2026 全年 AI 芯片业务收入指引锁定在 **$120 亿美元**——同比 2025 年的 $75 亿暴涨 **60%**。这一指引在中国本土云厂商集中下大单后被快速上调。\n\n核心驱动因素：\n\n- **DeepSeek V4 排他性优化**：4 月 24 日 DeepSeek V4 发布，**仅向 Huawei、Cambricon 等中国本土芯片厂开放早期优化窗口**——NVIDIA 与其他西方硅厂被排除在外。Alibaba Cloud 与 Tencent Cloud 在 V4 发布**当天**即同步部署 Huawei 集群，触发 Ascend 订单瞬间放量。\n- **Ascend 950 PR 量产**：Huawei 3 月开始量产 **Ascend 950 PR**——单卡 2 PFLOPs 算力 + **128GB 国产内存**（直接绕开 HBM 全球供应链卡位）；4 月底中国头部云厂商全面下单。\n- **NVIDIA 中国市场塌缩**：Bernstein 当前测算下，NVIDIA 在中国 AI 芯片市占已被压至 **8%**——Huawei 单家拿到 **50%-60%**。NVIDIA H200 因继续受美国出口管制限制而向中国发货量陷入'regulatory limbo'，与 Huawei 950 PR 量产形成时间错位。\n- **2030 中国 AI 芯片市场预计 $670 亿**：Tom's Hardware 引用的市场预测把中国本土 AI 芯片市场长期空间锁定在 **$670 亿美元**——若 Huawei 维持目前份额，2030 年单家收入即可超 $300 亿。\n\n4 月 30 日同步：Huawei AI 芯片业务由此首次被市场严肃地视为**有可能成为继 NVIDIA、Broadcom 之后的第三家千亿美金 AI 硅公司**——而 NVIDIA 在中国'被技术断电'已不仅是合规话题、而是真实进入了财报数字。\n\n**背景回顾：** 4 月 25 日 DeepSeek V4 发布后，Huawei Ascend 950 supernode 被官方确认完整支持 V4，且 V4-Flash 部分训练即由 Huawei 自家芯片承担——这是 V3 时代'与 NVIDIA 工程团队紧密协作'之后的 180 度翻转。",
+      "key_quotes": [
+        "Huawei expects its AI chip revenue to climb 60% to roughly $12 billion in 2026. — Financial Times",
+        "Bernstein analysts estimate that under current export restrictions, Nvidia's share of the Chinese AI chip market could drop to 8%, while Huawei's could rise to 50%. — Bernstein"
+      ],
+      "significance": "$120 亿 / 60% 涨幅是 Huawei 自被列入 SDN 实体清单以来**第一次**把 AI 芯片营收做到与 NVIDIA 在中国市场的'量级竞争对手'层面——更关键的是 Huawei **不再是被动替代品**，而是因为 DeepSeek V4 的排他性优化窗口主动接管了中国本土云厂的整个推理 / 训练栈。NVIDIA 在中国 AI 芯片市占被压到 **8%** 意味着两点：（1）NVIDIA 中国业务已不再是'可恢复'的暂时性损失，而是结构性丢失；（2）中国 AI 模型生态的硬件依赖第一次实现了对美完全脱钩——以后只要模型自身做得好、推理在中国境内、训练用 Ascend / Cambricon，整条链就完全本土化。这与 4 月 24 日 SpaceX IPO 招股书声称'AI-first $1.75 万亿'公司、4 月 28 日 EU AI Act omnibus 推后、4 月 28 日 EU 代表团访华谈半导体协调 一起构成 2026 上半年全球 AI 算力'阵营化'的清晰证据。",
+      "links": [
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-could-seize-chinas-ai-chip-crown-in-2026-as-nvidias-h200-shipments-stall-in-regulatory-limbo-beijing-pushes-homegrown-ai-hardware-dominance-in-a-market-projected-to-hit-usd67-billion-by-2030",
+        "https://thedeepdive.ca/huawei-eyes-12-billion-in-ai-chip-revenue-as-deepseek-v4-drives-orders-away-from-nvidia/",
+        "https://www.heygotrade.com/en/news/huawei-targets-ai-chip-revenue-up-60-percent-2026-vs-nvidia/",
+        "https://intellectia.ai/news/stock/huaweis-ai-chip-sales-surge-as-nvidia-stalls-in-china-ft",
+        "https://wccftech.com/huawei-biggest-winner-in-china-ai-market-after-nvidia-pullout-60-percent-ai-share-2026/amp/"
+      ],
+      "tags": ["Huawei", "Ascend 950", "AI 芯片", "NVIDIA", "DeepSeek", "中国 AI", "出口管制"],
+      "category": "news"
+    },
+    {
+      "id": "9",
+      "title": "OpenAI 紧急吊销 macOS 应用证书：Axios 包供应链攻击波及 ChatGPT Desktop / Codex / Atlas，5 月 8 日不更新即被 macOS 系统拦截",
+      "source": "OpenAI",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/axios-developer-tool-compromise/",
+      "story_key": "openai-macos-axios-supply-chain",
+      "event_date": "2026-04-29",
+      "summary": "OpenAI 4 月 29 日发出**紧急公告**：其 macOS 应用签名流水线 4 月 11 日被 Axios（npm JS 包，下载量极大）的恶意 1.14.1 版本污染——证书与 notarization 凭据可能已被供应链攻击触达，OpenAI 出于'最大化谨慎'**主动吊销并轮换证书**。受影响应用：ChatGPT Desktop、Codex、Codex CLI、Atlas 浏览器。所有 macOS 用户必须在 **5 月 8 日**前升级到最新版，否则 macOS 系统将拒绝启动旧证书签名的应用。",
+      "detail": "OpenAI 4 月 29 日（周三）通过官方博客发出 **'Our response to the Axios developer tool compromise'** 紧急公告——披露一起 4 月初的供应链攻击事件，并宣布对 macOS 应用证书与 notarization 流程的紧急轮换。\n\n事件经过：\n\n- **4 月 11 日**：OpenAI 用于签发 macOS 应用的 GitHub Actions 工作流在 npm 安装阶段下载并运行了 **Axios（一个广泛使用的 JS HTTP 客户端）的恶意 1.14.1 版本**——该版本通过供应链攻击被注入恶意代码；\n- 该工作流当时拥有 macOS **签名证书 + notarization 材料**——理论上攻击者可借此签发任意伪装成 OpenAI 应用的恶意 macOS 程序；\n- OpenAI 内部安全团队确认：未发现用户数据被访问、未发现 OpenAI 自家系统或 IP 被泄漏、未发现已发布的官方 macOS 应用本身被篡改；\n- 出于'最大化谨慎'，OpenAI **主动把当前证书视为已被泄露**——执行证书吊销 + 重签所有官方应用。\n\n用户行动要求：\n\n- 受影响应用清单：**ChatGPT Desktop、Codex、Codex CLI、Atlas 浏览器**（Atlas 即 OpenAI 的 AI 浏览器，2025 Q4 上线）；\n- **5 月 8 日**：旧证书将在系统层面被吊销——任何仍在使用旧版的 macOS 用户在该日期之后**重新启动应用**时将被 macOS 系统级拒绝；\n- 30 天升级窗口：OpenAI 给出从 4 月 8 日（应用首次推送强制升级）到 5 月 8 日的窗口期；多数用户应已通过应用内自动更新升级。\n\n供应链攻击背景：Axios 包是 JS 生态使用最广的 HTTP 客户端之一——单 npm 一个月下载量超过 5 亿次。Axios 1.14.1 攻击事件最先由 The Hacker News 在 4 月报道，是 2026 上半年 npm 生态最严重的供应链事件——至今为止 Axios 已确认 OpenAI、若干大型科技公司的构建管线被波及。",
+      "key_quotes": [
+        "Out of an abundance of caution, OpenAI is treating the certificate as compromised and is revoking and rotating it. — OpenAI",
+        "Once the company fully revokes its certificate on May 8th, 2026, new downloads and launches of apps signed with the previous certificate will be blocked by macOS security protections. — Daily Star"
+      ],
+      "significance": "这是 OpenAI 历史上**首次**对自家产品发布**强制升级 + 证书吊销**——同时是 npm 生态供应链攻击第一次直接波及一线 AI 公司桌面客户端的签名链。事件本身没造成数据泄露，但暴露的问题更深：当 AI 公司同时是数千个开源依赖的下游消费者，**任何一个 npm 包的妥协都可能直接威胁到亿级用户的桌面客户端真实性**。这与 4 月 30 日 OpenAI 上线的 Advanced Account Security（AAS / passkey 强制 + 密码可禁用）形成时间巧合：OpenAI 同时在'用户账号安全'和'软件供应链安全'两条线上承认了原有架构的不足，标志着 ChatGPT 已正式进入'高敏感目标'威胁模型。",
+      "links": [
+        "https://openai.com/index/axios-developer-tool-compromise/",
+        "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+        "https://www.thedailystar.net/news/tech-startup/news/openai-forces-macos-app-updates-after-third-party-tool-compromise-4150631",
+        "https://www.cnbc.com/2026/04/11/openai-identifies-security-issue-involving-third-party-tool.html",
+        "https://www.techradar.com/pro/security/openai-flags-third-party-data-issue-all-macos-users-should-update-now"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "macOS", "Axios", "供应链攻击", "ChatGPT Desktop", "Codex", "Atlas", "证书"],
+      "category": "news"
+    }
+  ]
+}

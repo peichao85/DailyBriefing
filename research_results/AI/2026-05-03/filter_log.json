@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-03",
+  "total_candidates": 16,
+  "kept": 9,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "berkshire-2026-agm-abel-debut",
+      "event_date": "2026-05-02",
+      "title_en": "Greg Abel debuts at first Berkshire AGM without Buffett on stage; deepfake Buffett opens Q&A as cyber-risk demo",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major Saturday May 2 event — first annual meeting with Greg Abel as CEO, Buffett deepfake used to demo AI cybersecurity risk, Abel cautious AI stance ('not for the sake of AI')."
+    },
+    {
+      "story_key": "openai-tumbler-ridge-lawsuit",
+      "event_date": "2026-04-29",
+      "title_en": "Families of Tumbler Ridge Canada school shooting victims sue OpenAI; safety team had flagged shooter, leadership overruled",
+      "source": "Washington Post / NPR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. florida-ag-openai-criminal-probe (4/27 lookback) is a different jurisdiction (US state AG criminal) and different cases (FSU/USF). This is a Canadian civil wrongful-death lawsuit over the Feb 2026 Tumbler Ridge mass shooting where OpenAI safety team allegedly recommended calling police but leadership overruled."
+    },
+    {
+      "story_key": "softbank-roze-100b-ipo",
+      "event_date": "2026-04-29",
+      "title_en": "SoftBank planning $100B US IPO for new AI+robotics spin-out 'Roze' to build data centers with autonomous robots",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. SoftBank planning to spin out Roze (AI + robotics including ABB Robotics) at $100B target valuation, focused on data center construction automation. Distinct from spacex-ai-first-ipo-filing (4/24)."
+    },
+    {
+      "story_key": "white-house-anthropic-mythos-eo-draft",
+      "event_date": "2026-04-29",
+      "title_en": "Axios scoop: White House drafting executive order to walk back Anthropic blacklist for agencies to access Mythos",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct from anthropic-mythos-nsa-microsoft (5/1, which covered NSA usage + Pentagon CTO confirmation). This is a separate angle: White House actively drafting an EO to bypass Anthropic supply chain risk designation, holding 'table reads' with companies. New policy development."
+    },
+    {
+      "story_key": "legora-5b-series-d-legal-ai",
+      "event_date": "2026-04-30",
+      "title_en": "Legora hits $5.55B Series D led by Accel + $50M Nvidia extension — Sweden-based legal AI tripled valuation in 5 months, takes on Harvey",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Different from manifest-os-legal-ai-series-a (4/28, Series A $60M). This is a Series D at $5.55B for Sweden's Legora, plus Nvidia-led $50M extension; competes head-to-head with Harvey ($11B)."
+    },
+    {
+      "story_key": "ibm-bob-coding-agent-ga",
+      "event_date": "2026-04-28",
+      "title_en": "IBM launches 'Bob' AI coding agent to GA; 80,000 IBM employees already on it, multi-model routing across Claude/Mistral/Granite",
+      "source": "IBM Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. event_date 2026-04-28 is exactly 5 days old (within freshness limit). IBM Bob entered GA April 28 after starting with 100 IBM developers in summer 2025, now used by 80,000 IBM employees. Multi-model routing notable."
+    },
+    {
+      "story_key": "salesforce-agentforce-operations-launch",
+      "event_date": "2026-04-29",
+      "title_en": "Salesforce launches Agentforce Operations to extend agentic AI from front office to back office (compliance / onboarding / approvals)",
+      "source": "Salesforce News",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New Salesforce product extending Agentforce beyond CRM/front-office to back-office (process coordination, compliance, audits), claims 50-70% cycle time reduction, built on Regrello acquisition. GA on April 29."
+    },
+    {
+      "story_key": "huawei-12b-ai-chip-revenue-forecast",
+      "event_date": "2026-04-30",
+      "title_en": "Huawei guides AI chip revenue to $12B in 2026 (+60% YoY) as DeepSeek V4 deployment + NVIDIA China stall drive Ascend 950 demand",
+      "source": "Financial Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. FT broke the $12B 2026 chip revenue forecast (60% growth from $7.5B in 2025) on April 30. Linked to but distinct from deepseek-v4-release (4/25 lookback) — that was the model launch, this is the supply-side revenue impact."
+    },
+    {
+      "story_key": "openai-macos-axios-supply-chain",
+      "event_date": "2026-04-29",
+      "title_en": "OpenAI revokes macOS app certificate after Axios JS supply-chain compromise; mandates update by May 8 or apps stop working",
+      "source": "OpenAI Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. April 29 OpenAI urgent alert: malicious axios package was used by macOS app build pipeline, certificate compromised; ChatGPT Desktop, Codex, Codex-cli, Atlas all affected; mandatory update before May 8 or apps will be blocked."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-02",
+      "title_en": "Week 1 wrap-up: Musk testimony dominates first week of Musk v. Altman trial in Oakland",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5/1 with title 'Musk v. Altman 庭审第一周收官...' covering Musk testimony conclusion, Birchall off-limits answer, Brockman scheduled Monday. May 2 CNBC piece is a recap of week 1 with no substantively new information beyond what was already published."
+    },
+    {
+      "story_key": "openai-stargate-rework",
+      "event_date": "2026-04-30",
+      "title_en": "OpenAI reworks Stargate strategy — abandons first-party datacenters in favor of leased compute deals",
+      "source": "Tom's Hardware",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Substantively the same theme as bigtech-ai-capex-725b (4/30 lookback) and openai-aws-bedrock-launch (4/28). The 'abandoning first-party datacenters' angle is also subsumed by 4/27 microsoft-openai-partnership-restructure which already established OpenAI's pivot to multi-cloud leased compute. No genuinely new information."
+    },
+    {
+      "story_key": "gpt-5-5-release",
+      "event_date": "2026-04-23",
+      "title_en": "OpenAI releases GPT-5.5 with 1M token context, top scores on Terminal-Bench / FrontierMath",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-23 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cognition-25b-funding-talks",
+      "event_date": "2026-04-23",
+      "title_en": "Cognition (Devin) in talks to raise at $25B valuation, doubles from Sept 2025 round",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-23 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk partners with OpenAI for end-to-end AI deployment in drug discovery, manufacturing, supply chain",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 19 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cisco-sd-wan-ai-update",
+      "event_date": "2026-05-01",
+      "title_en": "Cisco bolsters security and AI awareness in latest SD-WAN release",
+      "source": "Network World",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Story_key not in lookback, but story is a routine product update too minor to publish — incremental SD-WAN feature without industry-wide significance."
+    },
+    {
+      "story_key": "openai-chatgpt-clinicians-launch",
+      "event_date": "2026-04-23",
+      "title_en": "OpenAI launches ChatGPT for Clinicians free for verified US physicians, NPs, PAs, pharmacists",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-23 is 10 days old (>5 day limit)."
+    }
+  ]
+}
