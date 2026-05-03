@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-04",
+  "category": "AI",
+  "researched_at": "2026-05-04T07:36:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@JeffDean", "@ylecun", "@karpathy", "@AndrewYNg",
+    "@mikeyk", "@DrJimFan", "@ScottWu46",
+    "Mistral AI", "Microsoft Security Blog", "CNBC", "Bloomberg", "Fortune",
+    "TechCrunch", "MIT Technology Review", "Caixin Global", "NPR",
+    "Storyboard18", "AOL", "Axios", "MarkTechPost"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "法国 Mistral 4-29 同时开源 Medium 3.5 (128B dense / 256K) + Vibe 远程编程 Agent：77.6% SWE-Bench 创开源新高，但定价被 Domingos 公开嘲讽 \"唯一夸自己模型更差的厂商\"",
+      "source": "Mistral AI",
+      "source_name": "Mistral AI",
+      "source_url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "story_key": "mistral-medium-35-vibe-launch",
+      "event_date": "2026-04-29",
+      "summary": "Mistral AI 4 月 29 日发布单 dense 128B 旗舰 Medium 3.5（256K context / 开源 Modified MIT），并在 Le Chat / Vibe CLI 推出远程多 Agent 并行编程模式——77.6% SWE-Bench Verified 创开源新高，但 $1.50 / $7.50 per million tokens 的定价被 UW 教授 Pedro Domingos 公开嘲讽。",
+      "detail": "法国 Mistral AI 4 月 29 日发布 Mistral Medium 3.5：**128B dense 模型 + 256K context + 单一权重融合 chat / reasoning / code 三种能力**——号称 \"first flagship merged model\"。开源条款是 Modified MIT License，权重已上 Hugging Face、Ollama、Mistral Docs 同步公开。配套发布 **Vibe CLI 的远程编程 Agent**（替代原 Devstral 2 作为默认编程模型），以及 Le Chat 的 Work Mode——后者基于 Medium 3.5 跑多步 Agent 并行调用工具，目标 email 自动分诊 / 研究综合 / 跨工具协调。\n\n性能上 Medium 3.5 拿到 **77.6% SWE-Bench Verified**（超越同期 Qwen 3.5 397B / Devstral 2 等开源对手）+ 91.4% τ³-Telecom + 58% Humanity's Last Exam reasoning，并支持可配置 reasoning 强度。Mistral 把它定位为开源世界第一个 \"chat / reasoning / code 三合一\" 的旗舰，避免类似 OpenAI/Anthropic 那样要按场景切换不同模型。\n\n但发布当天定价 $1.50 / $7.50 per million input/output tokens 引发集中抨击：UW 教授 Pedro Domingos 公开评论 \"Regular AI companies brag about how much better their model is on benchmarks. Only Mistral brags about how much worse its one is\"——同期 Alibaba **Qwen 3.6 拿 72.4% SWE-Bench 只要 1/4 的价格**。Mistral 反驳称定价针对 enterprise self-host 客户，已与一家欧洲银行签下多年自托管合同；但 Hacker News / X 上的开发者评价整体偏冷。",
+      "key_quotes": [
+        "Mistral Medium 3.5 is our first flagship merged model.",
+        "Regular AI companies brag about how much better their model is on benchmarks. Only Mistral brags about how much worse its one is. — Pedro Domingos, UW"
+      ],
+      "significance": "这是欧洲唯一开源前沿实验室对美中两线（Anthropic / Alibaba）的反击：单 dense 架构 + 开源权重 + 256K + 77.6% SWE-Bench Verified 是欧洲此前从未达到的上限。但定价与同期阿里 Qwen 3.6（性能仅 -5pt / 价格只要 1/4）正面碰撞——Mistral 显然在选择 \"开源 + enterprise self-host\" 路线，放弃以 token API 价格直接厮杀 OpenAI / Anthropic。一旦 Vibe 的 PR 自动开 Pull Request 工作流被开发者验证好用，Mistral 在欧洲企业市场仍有显著结构性优势。",
+      "links": [
+        "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+        "https://www.marktechpost.com/2026/05/02/mistral-ai-launches-remote-agents-in-vibe-and-mistral-medium-3-5-with-77-6-swe-bench-verified-score/",
+        "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+        "https://winbuzzer.com/2026/05/02/mistral-medium-3-5-unified-flagship-chat-reasoning-code-xcxwbn/",
+        "https://news.ycombinator.com/item?id=47949642"
+      ],
+      "image": "assets/logos/mistral-logo.png",
+      "image_type": "logo",
+      "tags": ["Mistral", "open-weights", "coding agents", "Vibe", "SWE-Bench", "Le Chat"],
+      "category": "builders"
+    },
+    {
+      "id": "2",
+      "title": "Musk v. Altman 庭审第二周开庭：周一首位证人换成 UC Berkeley AI 安全教授 Stuart Russell + 必到 Brockman——Musk 方把 \"AI 危险性\" 专家证词推到陪审团面前",
+      "source": "@elonmusk",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-04",
+      "summary": "加州联邦法院 Oakland 5 月 4 日（周一）庭审进入 Day 5 / Week 2：Musk 律师传 UC Berkeley AI 安全教授 Stuart Russell 与 OpenAI 总裁 Greg Brockman 上证人席——意图把 AI 灾难风险与 OpenAI 创立动机当庭定案。",
+      "detail": "5 月 4 日（周一）Oakland 联邦法院案号 Musk v. Altman 案进入 **Day 5 / Week 2**——首日完整庭审周后正式跨入第二周。Musk 方律师 Marc Toberoff 周一开庭即传两人上证人席：\n\n- 一是 **UC Berkeley 计算机科学教授 Stuart Russell**（《Human Compatible》作者，全球 AI 安全运动旗手之一），将以学术专家身份提供独立第三方对 OpenAI 转 for-profit 后追逐 AGI 速度的危险性判断；\n- 二是 **OpenAI 总裁兼联合创始人 Greg Brockman**——他在 4 月 30 日开庭通知中已被锁定为 \"必到证人\"，48 小时内可被强制传唤，本周一确认上证人席。\n\nStuart Russell 第一周开庭文件里曾被起诉方临时撤掉、再被反复加回。Russell 上证人席的核心目的是把 Musk 第一周反复强调的 \"AI could literally kill us all\" 风险论述从 Musk 个人意见**升格为顶尖学术专家证词**，让陪审团听到独立第三方的危险性判断。\n\nBrockman 则直接面对 Musk 关于 \"OpenAI 创立时本承诺保持 nonprofit + open\" 的事实指控，他将首次在公开法庭上回应 Musk 第一周做出的 \"被欺骗\" 指控；Brockman 在第一周已坐在被告席记笔记，陪审团已熟悉其面孔。\n\n**背景回顾：** Musk 4 月 28 日起出庭三天作证，指控 Altman / Brockman 把他 $3800 万捐款挪用于 for-profit 转型；OpenAI 律师反指 \"Musk 没拿到他想要的 OpenAI 控制权\"。Musk 同期还被迫承认 xAI 用过 distillation 蒸馏 OpenAI 模型训练 Grok。",
+      "key_quotes": [
+        "Brockman has been given a 48 hour notice to testify. — OpenAI's attorney",
+        "This is a real risk, we all could die as a result of artificial intelligence. — Elon Musk"
+      ],
+      "significance": "Russell + Brockman 同日组合是 Musk 团队的 \"双线攻击\"：Russell 提供学术权威背书 Musk 的 AI 安全主张，Brockman 则被迫第一次公开回应 Musk 关于 \"创立动机被欺骗\" 的事实指控——这一天的证词将决定 OpenAI 律师团能否在 Week 2 把案件叙事从 \"AI 危险论\" 重新拉回 \"商业合同纠纷\"。Sam Altman 本人随后将作为 OpenAI 第二位关键证人登场。",
+      "links": [
+        "https://www.cnbc.com/2026/05/02/musk-testimony-dominated-first-week-musk-v-altman-trial-in-oakland.html",
+        "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+        "https://www.theringer.com/2026/04/30/tech/elon-musk-testimony-open-ai-trial-sam-altman-greg-brockman",
+        "https://www.washingtonpost.com/technology/2026/05/02/musk-altman-openai-trial/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Musk v. Altman", "Brockman", "Stuart Russell", "trial"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "中国法院首例：以 AI 替代为由解雇质检工程师 Zhou 被判违法——40% 强制降薪 + 拒绝即解雇全部不成立，AI 时代 labor protection 首份判决",
+      "source": "中国某地方法院",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds",
+      "story_key": "china-court-ai-worker-termination",
+      "event_date": "2026-04-30",
+      "summary": "中国某地方法院 4 月 30 日宣判：某科技公司以 \"AI 系统接管 LLM 质检工作\" 为由强制 Zhou 工程师降薪 40% / 拒接受即解雇——法院全部驳回，明确 AI 替代成本 ≠ \"客观情况发生重大变化\"，AI 节省成本不能构成经济性裁员前置条件。",
+      "detail": "中国某地方法院 4 月 30 日就 Zhou 诉某科技公司劳动争议案作出生效判决——这是中国首批围绕 \"AI 替代员工是否构成合法解雇\" 的标志性判例之一。\n\n**案情：** 原告 Zhou 在该公司担任质量保证（QA）工程师，工作内容是检验大模型输出准确性。公司部署 AI 系统接管该岗位后，向 Zhou 提出两条路：要么接受降薪 **40% 调岗**，要么解除劳动合同——Zhou 拒绝后公司单方面解除劳动合同，理由是 \"AI 部署导致岗位裁减\"。\n\n**判决核心三条：**\n1. AI 节省成本 **不构成**《劳动合同法》第四十条第三项所述 \"客观情况发生重大变化\"；\n2. AI 部署 **不构成**第四十一条所述 \"经济性裁员\" 前置条件（生产经营严重困难、转产、重大技术革新等）；\n3. 公司提出的降薪幅度 **40% 已超出 \"合理协商范围\"**，原变更要约本身不成立。\n\n最终公司须支付违法解除合同赔偿金（N×2 倍工资），并恢复 Zhou 劳动关系。\n\n**判决理由附带说明：** 法学界长期主张的 \"技术变革成本不应仅由劳动者承担\" 原则被首次写入司法实践——最高人民法院劳动争议审判庭 2025 年 12 月在另一相似案件中已作类似判决，本案构成两个独立法院的判决一致，事实上形成了对全国类案的指导效力。",
+      "key_quotes": [
+        "AI 节省成本不能等同于法律上的客观情况发生重大变化。",
+        "The costs of technological transformation should not be borne solely by workers."
+      ],
+      "significance": "这是中国第二个法院明确 AI 替代不能作为解雇合法理由的判决，事实上为全球科技 layoffs 浪潮（已累计 78,000 人）划下一条法律红线——尤其在中国互联网行业 LLM 上岗加速的当下，企业 HR 必须重新评估 \"AI 取代员工\" 的法律成本：N×2 倍违法解除赔偿金 + 强制恢复劳动关系。Bloomberg / Fortune / NPR 同步报道，预示美国 / 欧盟 labor 法庭可能跟进引用。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-02/chinese-court-rules-firms-can-t-lay-off-workers-on-ai-grounds",
+        "https://www.caixinglobal.com/2026-04-30/chinese-courts-rule-companies-cannot-fire-workers-simply-to-replace-them-with-ai-102439602.html",
+        "https://www.npr.org/2026/05/01/nx-s1-5807131/tech-worker-china-ai",
+        "https://fortune.com/2026/05/03/chinese-court-layoffs-workers-ai-replacement-labor-market/",
+        "https://thenextweb.com/news/china-court-ai-layoffs-illegal-labor-law"
+      ],
+      "tags": ["China", "labor law", "AI replacement", "court ruling", "layoffs"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Microsoft Agent 365 + M365 E7 'Frontier Suite' 5-1 全球 GA：每个 Agent 配 Entra 身份 / Defender 行为审计 / Intune 设备治理——多云 registry 同步 AWS Bedrock + Google GEAP",
+      "source": "Microsoft",
+      "source_name": "Microsoft Security Blog",
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "story_key": "microsoft-agent-365-ga",
+      "event_date": "2026-05-01",
+      "summary": "Microsoft 5 月 1 日把 Agent 365 + M365 E7 'Frontier Suite' 同时 GA：$15/agent/月 / $99/user/月 E7 套餐——首次为 AI Agent 提供与员工等同的 IAM 身份 / 安全审计 / 设备治理体系，并与 AWS Bedrock + Google Gemini Enterprise Agent Platform registry 同步上线 public preview。",
+      "detail": "Microsoft 5 月 1 日同时让 **Agent 365** 与 **Microsoft 365 E7 \"Frontier Suite\"** 走出 Frontier preview 进入 GA，正式可用于 Commercial 客户的全球部署。\n\n**Agent 365 定价 $15 per user per month**，把每个 AI Agent 当作 Entra ID 租户内的 \"非人员实体\" 管理：\n- 自动分配 **Entra identity**（每个 Agent 一个身份），\n- 应用 **Purview** 数据标签管控（Agent 接触的数据带分级标签），\n- **Defender for Agent** 实时监控 runtime 行为（异常 / 越权 / 数据外泄实时告警），\n- **Intune** 把本地（Windows）AI Agent 当作设备纳入设备生命周期管理。\n\n同步 GA 的 **M365 E7** 是 Microsoft 把原 E5 + Microsoft 365 Copilot + Agent 365 三套合并的 \"Frontier Suite\"——**$99 per user per month**，比单独购买便宜约 $50。E7 还集成 Microsoft Entra Suite + Defender / Intune / Purview 高级安全能力。\n\n**最关键的多云治理新闻：** Agent 365 的 registry 接口当天 public preview 同步上线 AWS Bedrock 与 Google Cloud Gemini Enterprise Agent Platform——这是首个同时跨三大云的 Agent 治理平面，企业 IAM 不再因为 Agent 跑在不同云上就被分裂。Microsoft 当天还宣布合作伙伴 NTT Data / NEC / Fujitsu / Hitachi 已把 Agent 365 列入企业部署堆栈。",
+      "key_quotes": [
+        "Agent 365 brings agents under the same Entra-based identity, Defender-based threat monitoring, Purview-based data classification, and Intune-based device management plane that govern your employees today."
+      ],
+      "significance": "这是 Microsoft 在 OpenAI 失去独家性 + Cursor SDK 抢占程序员生产力栈之后，把 enterprise governance 当作护城河的关键一招——Agent 365 + E7 把 \"AI Agent 治理\" 从概念变成 GA 商品。multicloud registry sync 一旦落地稳定，企业 CIO 在选择 Agent 平台时就不再必须二选一：Microsoft 收 governance 流量，AWS / Google 收推理流量——Microsoft 用最熟悉的 IAM + 设备管理工具锁住了下一代 AI Agent 的控制塔位置。",
+      "links": [
+        "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+        "https://learn.microsoft.com/en-us/microsoft-agent-365/overview",
+        "https://nerdleveltech.com/microsoft-agent-365-ga-ai-agent-control-plane",
+        "https://techcommunity.microsoft.com/blog/partnernews/now-generally-available-microsoft-365-e7-and-agent-365/4516469"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "Agent 365", "Entra", "enterprise AI", "multicloud", "Frontier Suite"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "Altman 庭审同周公开邀 Musk 出席 GPT-5.5 5-5 SF 发布派对：\"He can come if he wants. World needs more love\"——派对完全由 GPT-5.5 自己策划：定 5:55pm 开场 / 选客 / 拒绝亲自致辞",
+      "source": "@sama",
+      "source_name": "AOL",
+      "source_url": "https://www.aol.com/articles/sam-altman-asked-gpt-5-083001942.html",
+      "story_key": "openai-gpt55-launch-party-musk-invite",
+      "event_date": "2026-04-30",
+      "summary": "Sam Altman 4 月 30 日在 X 公开发帖邀请正在跟自己打官司的 Elon Musk 出席 5 月 5 日 GPT-5.5 launch party，\"He can come if he wants… world needs more love\"——派对完全由 GPT-5.5 自己规划：AI 选客 / 定 5:55pm 开场 / 拒绝自己致辞。",
+      "detail": "庭审正酣的同时 Sam Altman 4 月 30 日在 X 公开喊话 Elon Musk：**\"He can come if he wants. World needs more love\"**——邀请 Musk 5 月 5 日（明天）出席在 San Francisco 举行的 GPT-5.5 launch party。\n\n这场派对最大的卖点不是 Altman v. Musk 历史和解，而是**整个派对完全由 GPT-5.5 自己策划**：\n- Altman 把 \"如果你要为自己办首发派对会想要什么\" 的提问交给 GPT-5.5；\n- 模型回应说想要 \"a beautiful set of things\"——明确指定派对时间 **5 月 5 日 5:55pm**（基于自身代号 5.5 的对仗），\n- 要求 \"speeches kept short\"，由人类创造者代为致辞，模型本人 \"emphasized it did not want to give a toast itself\"。\n\n客人名单同样由 OpenAI 自家 **Codex 从 X 上的报名表里筛选**——OpenAI 报销旅费、住宿。Altman 描述模型的请求是 \"beautiful but strange\"。\n\n这场派对发生时间正好是庭审 Day 5（周一）+ 1，Stuart Russell 与 Brockman 当天将在 Oakland 出庭——Altman 在 Musk 法律团队最猛烈攻击 OpenAI 创立动机的同周递出 \"和好\" 橄榄枝，PR 编排明显。",
+      "key_quotes": [
+        "He can come if he wants. World needs more love. — Sam Altman",
+        "GPT-5.5 said its requests were beautiful but strange. — Sam Altman on X"
+      ],
+      "significance": "这是商业 PR 与法律对抗的高度戏剧化重叠：Altman 在 Musk 把自己拖进 OpenAI 创立动机调查的同周递出 \"和好\" 橄榄枝；同时也是首个由 LLM 自己规划自己发布派对的公开案例——模型从 \"产品\" 升级为 \"主角\"，OpenAI 把营销叙事推到了 \"AI 已经成为公司一员\" 的边界。无论 Musk 是否真的出席，Altman 都拿到了媒体头条与情绪叙事的主动权。",
+      "links": [
+        "https://www.aol.com/articles/sam-altman-asked-gpt-5-083001942.html",
+        "https://www.storyboard18.com/brand-makers/sam-altman-invites-elon-musk-to-gpt-5-5-launch-party-amid-legal-battle-ws-l-97018.htm",
+        "https://www.analyticsinsight.net/news/sam-altman-invites-elon-musk-to-gpt-55-launch-amid-134-billion-legal-battle"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-5.5", "Sam Altman", "Elon Musk"],
+      "category": "frontier_leaders"
+    }
+  ]
+}

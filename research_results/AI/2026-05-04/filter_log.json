@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-04",
+  "total_candidates": 14,
+  "kept": 5,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "mistral-medium-35-vibe-launch",
+      "event_date": "2026-04-29",
+      "title_en": "Mistral releases Medium 3.5 (128B dense, open-weight) with Vibe remote coding agents",
+      "source": "Mistral AI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Fresh model release April 29 with 256k context, 77.6% SWE-Bench Verified, and Vibe remote agents in Le Chat. Within 5-day window."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-04",
+      "title_en": "Musk v. Altman trial Week 2: Stuart Russell + Brockman scheduled to testify Monday",
+      "source": "CNBC / ABC7",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key seen in lookback (04-27, 04-28, 04-29, 04-30, 05-01). New info today (05-04): trial Week 2 begins; Stuart Russell + Greg Brockman scheduled as Musk's first witnesses on Day 5. Title and detail will focus only on this new development with brief background recap."
+    },
+    {
+      "story_key": "china-court-ai-worker-termination",
+      "event_date": "2026-04-30",
+      "title_en": "Chinese court rules companies cannot fire workers solely to replace them with AI",
+      "source": "Bloomberg / Caixin / NPR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Landmark labor ruling: QA worker Zhou's AI-replacement firing illegal, 40% pay cut deemed unreasonable, sets first major Chinese precedent against AI-driven layoffs."
+    },
+    {
+      "story_key": "microsoft-agent-365-ga",
+      "event_date": "2026-05-01",
+      "title_en": "Microsoft Agent 365 + M365 E7 'Frontier Suite' generally available May 1",
+      "source": "Microsoft Security Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major enterprise AI control plane launch: $15/user Agent 365, $99/user E7 bundle, multicloud registry sync with AWS Bedrock + Google Gemini Enterprise. Within 5-day window."
+    },
+    {
+      "story_key": "openai-gpt55-launch-party-musk-invite",
+      "event_date": "2026-04-30",
+      "title_en": "Altman publicly invites Musk to GPT-5.5 launch party May 5 in San Francisco",
+      "source": "X / Storyboard18 / AOL",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Sam Altman extended public invite to Elon Musk for GPT-5.5 launch event May 5 amid ongoing trial; AI itself helped plan the party. Light/quirky news but high-profile."
+    },
+    {
+      "story_key": "cursor-sdk-cli-public-beta",
+      "event_date": "2026-04-28",
+      "title_en": "Cursor releases TypeScript SDK + CLI public beta for programmatic coding agents",
+      "source": "Cursor / MarkTechPost",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-28 is 6 days before today (2026-05-04), exceeding the 5-day freshness limit. Despite ongoing reception coverage, the official SDK release date is April 28 per Cursor's own changelog."
+    },
+    {
+      "story_key": "berkshire-2026-agm-abel-debut",
+      "event_date": "2026-05-02",
+      "title_en": "Berkshire 2026 annual meeting Day 2 / Q1 earnings doubled to $10.1B",
+      "source": "CNBC / Yahoo",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 05-02 with title covering Greg Abel's debut, deepfake demo, and 'not for the sake of AI' strategy. Today's coverage is the same event with Q1 numbers ($10.1B profit doubled, $185B Apple stake at 10-yr anniversary) that fall under the same news cycle. No substantive new development."
+    },
+    {
+      "story_key": "apple-q2-2026-earnings",
+      "event_date": "2026-04-30",
+      "title_en": "Apple abandons net cash neutral policy, signals possible major AI acquisition",
+      "source": "MacDailyNews / Shacknews",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 04-30 covering Q1 record revenue $111.2B, $100B additional buyback, China rebound, and Cook handing off ticking time bombs (memory pricing + Gemini-Siri). The 'net cash neutral abandoned' detail was disclosed in the same earnings call covered yesterday. Speculation about an AI acquisition is commentary, not a new event."
+    },
+    {
+      "story_key": "openai-revenue-cfo-friar-warning",
+      "event_date": "2026-05-01",
+      "title_en": "OpenAI CFO Friar reportedly wants to delay IPO from 2026 to 2027 (WSJ profile)",
+      "source": "WSJ / Gizmodo / Time",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 04-28 covering Friar's $6000亿 compute warning and joint denial. The WSJ profile published Friday is the same story with additional color (IPO 2027 vs 2026 timing, $1.4T walked back to $600B). Same root narrative, no fundamentally new event."
+    },
+    {
+      "story_key": "anthropic-yale-celi-governance",
+      "event_date": "2026-05-02",
+      "title_en": "Yale CELI / Sonnenfeld publishes agentic-AI governance framework citing Anthropic Mythos risks",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Although story_key is novel and within 5-day window, content is opinion/analysis from an academic institute rather than a hard news event. Lacks concrete development, decision, or measurable impact. Quality bar not met."
+    },
+    {
+      "story_key": "anthropic-code-with-claude-2026",
+      "event_date": "2026-05-04",
+      "title_en": "Anthropic Code with Claude developer conference returns next week (SF May 6, London May 19, Tokyo June 10)",
+      "source": "Anthropic / Blockchain.news",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Story is a soft event preview — agenda, dates, livestream info only. No new product, model, or business decision. Not a hard news item; defer until conference itself produces concrete announcements."
+    },
+    {
+      "story_key": "deepseek-v4-launch",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek V4 release with rock-bottom pricing and Huawei chip integration",
+      "source": "CNN / Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 10 days old, exceeding the 5-day freshness limit. Already implicitly referenced in 04-30 huawei-12b-ai-chip-revenue-forecast story."
+    },
+    {
+      "story_key": "openai-chatgpt-shopping-improvements",
+      "event_date": "2026-05-03",
+      "title_en": "ChatGPT shopping experience upgrade rolling out to all users this week",
+      "source": "OpenAI / Tom's Guide",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within freshness window but represents incremental rollout of a feature originally announced November 2025. Light product update without concrete new capability beyond what already exists; quality bar not met."
+    },
+    {
+      "story_key": "nvidia-groq-china-chip-may",
+      "event_date": "2026-05-01",
+      "title_en": "Nvidia preparing Groq-based AI chip variant for China market, May launch expected",
+      "source": "Reuters / TrendForce",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within freshness window but story is speculative/forward-looking — Nvidia CEO Jensen Huang publicly disputed the Reuters report as 'totally false'. No verifiable launch or product concrete enough to publish."
+    }
+  ]
+}
