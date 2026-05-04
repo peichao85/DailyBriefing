@@ -1,0 +1,185 @@
+{
+  "date": "2026-05-05",
+  "category": "AI",
+  "researched_at": "2026-05-05T16:00:00Z",
+  "sources_checked": [
+    "@sama", "@elonmusk", "@gdb", "@karpathy", "@ylecun",
+    "@DrJimFan", "@garrytan", "@lexfridman", "@mntruell", "@AndrewYNg",
+    "Bloomberg", "CNBC", "TechCrunch", "Axios", "MIT Tech Review",
+    "Financial Times", "Reuters", "The Information", "Yahoo Finance",
+    "DeepLearning.AI", "Hacker News", "TheNextWeb", "VentureBeat"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Musk v. Altman 庭审 Day 5：Brockman 当庭披露 OpenAI 持股值 $300 亿 + 自己 2017 年日记把'非营利使命'写成 'a lie' + Musk 庭前两天发短信'你和 Sam 将成全美最被恨的男人'威胁和解",
+      "source": "OpenAI 庭审",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/04/musk-altman-open-ai-settlement-trial-brockman.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-04",
+      "summary": "5 月 4 日（周一）OpenAI 总裁 Greg Brockman 终于上证人席：当庭披露持股价值近 $300 亿；Musk 律师反复引用 Brockman 2017-2018 年个人日记中把 OpenAI 非营利使命写为 'a lie' 的字句；OpenAI 周日提交的法庭文件首次公开 Musk 4 月 25 日（庭前两天）发给 Brockman 的'你和 Sam 将成全美最被恨的男人'施压和解短信。",
+      "detail": "Musk v. Altman 案进入第二周第一日（Day 5）：OpenAI 总裁兼联合创始人 **Greg Brockman** 终于上证人席，作证时长贯穿周一全天并延续至周二上午。\n\n**当庭三大新增事实：**\n\n（1）**Brockman 持股 ~$300 亿** — Musk 首席律师 Marc Toberoff 直接追问 Brockman 在 OpenAI 当前估值（~$8500 亿）下其个人持股价值，Brockman 当庭承认\"接近 $300 亿美元\"——同时披露还另持有 Stripe **$4.71 亿**股份（其早年任 Stripe CTO 期间获得）；Toberoff 当庭质问\"为何不把这笔钱大部分捐给 OpenAI 自家非营利母体\"，Brockman 未正面回答。\n\n（2）**Brockman 2017-2018 个人日记成关键证据** — Musk 律师把 Brockman 在 2017-2018 年 OpenAI 创始团队意识到\"靠非营利根本筹不到所需巨资\"时段的私人日记片段当庭逐字宣读——其中一段把 OpenAI 公开宣称的非营利使命描述为 'a lie'，另一段写明 Brockman 个人对'到达 $10 亿美元个人净资产'的执念。Brockman 否认\"使命是骗\"的解读，称当时\"是在权衡是否继续与 Musk 一起搭建 OpenAI、还是把它推向另一个方向\"。**主审法官 Yvonne Gonzalez Rogers 庭前已援引这些日记片段拒绝了 OpenAI 的动议驳回。**\n\n（3）**Musk 庭前两天'最被恨的男人'施压和解短信** — OpenAI 周日（5 月 3 日）凌晨提交的法庭文件首次公开：Musk 在 **4 月 25 日**（庭审开始前两天）主动给 Brockman 发短信探询和解；Brockman 回信建议\"双方都撤回各自诉求\"；Musk 立即回复：'**By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be.**' OpenAI 律师周一动议把该短信纳入证据，但 Rogers 法官**当庭拒绝引入陪审团**。\n\n**附带新增事实：**\n- Brockman 庭上**首次公开承认 OpenAI 正在评估 IPO**——这是 OpenAI 高管首次在公开场合证实 IPO 路径；\n- Musk 方专家证人、UC Berkeley AI 安全教授 **Stuart Russell** 周一确实出庭作证，披露其作为专家证人按 **$5,000/小时 × 40 小时 = $235,000** 计费——约占其本年度收入的 **20%**（普通高知名度案专家费 $500-1,000/小时）；\n- Brockman 证词以他 2014 年发给时任 Yahoo CEO Marissa Mayer 的电邮开场——电邮中 Brockman 介绍他正与 Musk、Hoffman、Thiel 等硅谷大佬筹建 AI 实验室。\n\n**背景回顾：** 4 月 28 日开庭以来，Musk 已亲自作证三整天，主张 OpenAI 创立之初他向其 donate 的钱被以 'bait-and-switch' 方式偷走转入营利公司；OpenAI 律师 William Savitt 反击 'Musk 不过是没拿到他想要的'。本案核心争议是 OpenAI 2019 年从纯非营利转为 capped-profit 公司是否构成对 Musk 早期捐赠的违约或不当得利。",
+      "key_quotes": [
+        "By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be. — Elon Musk 在庭审前两天给 Brockman 的施压和解短信",
+        "[the nonprofit mission was] a lie — Brockman 2017-2018 个人日记原文，被 Musk 律师当庭引用",
+        "I was trying to decide whether to continue to build OpenAI with Musk or move it in a new direction. — Brockman 当庭对自己日记中 'a lie' 措辞的辩解",
+        "Twenty percent of my income this year — Stuart Russell 在证人席上确认 $235K 专家证人费占其本年度收入的 20%"
+      ],
+      "significance": "今天的事件把案件焦点从 Musk（情绪化、不断说漏话）首次彻底转移到 Brockman 和文件证据上。三件事互相加强：（1）$300 亿持股 + 2017 年 \"$10 亿个人 NW\" 日记把 'self-dealing' 主张第一次推到 Brockman 名下而非 Altman；（2）'a lie' 日记片段是迄今 Musk 方最强的内部书面证据；（3）'most hated men in America' 短信反过来暴露 Musk 方在庭前已尝试和解、并不像庭上表现得那样\"原则不容妥协\"——OpenAI 周日提交的目的就是用陪审团外的舆论来削弱 Musk 自己作证三天积累的道德制高点。Brockman 同日确认 IPO 路径则进一步把案件意义从'历史使命争议'拉回'本案输赢直接决定 $8500 亿估值能不能上市变现'。",
+      "links": [
+        "https://www.cnbc.com/2026/05/04/musk-altman-open-ai-settlement-trial-brockman.html",
+        "https://techcrunch.com/2026/05/04/elon-musk-sent-ominous-texts-to-greg-brockman-sam-altman-after-asking-for-a-settlement-openai-claims/",
+        "https://www.bloomberg.com/news/articles/2026-05-04/openai-s-brockman-to-testify-after-musk-s-text-about-settlement",
+        "https://thenextweb.com/news/openai-trial-brockman-journals-nonprofit-settlement",
+        "https://www.technologyreview.com/2026/05/04/1136826/week-one-of-the-musk-v-altman-trial-what-it-was-like-in-the-room/"
+      ],
+      "image": "img/greg-brockman.jpg",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Musk v Altman", "Greg Brockman", "trial", "IPO", "non-profit"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Sierra Series E $9.5 亿 / 估值 $158 亿：Bret Taylor 客服 Agent 公司 8 季度做到 $1.5 亿 ARR、Fortune 50 渗透率 >40%——Tiger + GV 领投，剑指 $4000 亿全球客服支出",
+      "source": "Sierra",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+      "story_key": "sierra-950m-series-e",
+      "event_date": "2026-05-04",
+      "summary": "Bret Taylor + Clay Bavor 创立的 AI 客服 Agent 公司 Sierra 5 月 4 日宣布完成 **$9.5 亿美元 Series E 融资 / $158 亿美元投后估值**——由 Tiger Global 与 Google GV 联合领投、Benchmark / Sequoia / Greenoaks 跟投。Sierra 仅用 **8 个季度**就把 ARR 推到 **$1.5 亿美元**——Taylor 自报 Fortune 50 客户渗透率已超过 **40%**，Prudential、Cigna、Blue Cross Blue Shield、Rocket Mortgage 均在客户名单。",
+      "detail": "5 月 4 日，由 OpenAI 现任董事长 **Bret Taylor**（前 Salesforce 联席 CEO）与 **Clay Bavor**（前 Google VR/Labs 负责人）于 2023 年共同创立的旧金山 AI 创业公司 **Sierra** 宣布完成 **$9.5 亿美元 Series E** —— 投后估值 **$158 亿美元**，由 **Tiger Global** 与 **Google Ventures (GV)** 联合领投，**Benchmark、Sequoia、Greenoaks** 跟投。\n\n**Sierra 的产品与成长曲线：**\n- 产品定位：企业级 **AI 客服 Agent 平台**——把传统 call center 的对话替换成可大规模并发处理的 AI conversational agent；\n- ARR：**8 季度突破 $1.5 亿美元**——Sierra 自称\"传统软件公司从未达到过的速度\"；\n- 渗透率：Bret Taylor 在融资公告中披露**Fortune 50 渗透率已超过 40%**；\n- 公开客户：保险（Prudential / Cigna / Blue Cross Blue Shield）、按揭（Rocket Mortgage）等典型的高客服成本垂直；\n- 市场对标：Taylor 估算全球企业**客服年度支出约 $4000 亿美元**，AI Agent 正在抢走该预算的大头。\n\n**估值跃升节奏：**\n- 此前公开估值在 2025 年 10 月 Series D 时为 $100 亿美元；\n- 此次 Series E **6-7 个月内估值跃升 ~58%** 到 $158 亿美元；\n- 当前估值已超过 Salesforce 2024 年收购的 Slack（$277 亿）的一半，是 OpenAI 公司估值（$8500 亿）以下美国 AI Agent 类创业公司中**单笔最大轮**之一。\n\n**与 Bret Taylor 个人版图的关系：** Taylor 同时是 OpenAI 董事长——Sierra 客户底层模型多数选用 OpenAI / Anthropic 模型路由，与 OpenAI 4 月 28 日刚启动的 Bedrock Managed Agents 生态形成互补；GV 此次领投也使 Sierra 与 Google Cloud 的产品关系更紧。",
+      "key_quotes": [
+        "Companies spend roughly $400 billion each year on customer service, and an increasing share of that budget is shifting toward AI-driven systems. — Bret Taylor",
+        "$150 million ARR in eight quarters — a milestone no traditional software firm has ever hit so quickly. — Sierra 公司公告"
+      ],
+      "significance": "Sierra 是除 OpenAI / Anthropic 这种基础模型公司外，2026 年 AI 应用层最快实现\"$1 亿+ ARR + Fortune 50 大规模 paying customer\"的样本——把'AI 客服 Agent'从概念彻底验证为可被传统大型企业批量部署的成熟生产工具。Tiger + GV 在 6-7 个月内复投并把估值推到 $158 亿，等于公开宣告：客服 / call center 替代是 2026-2027 年企业 AI 落地中**财务回报最确定**的单点垂直——同时也对 Salesforce、ServiceNow、Genesys 等传统客服软件巨头形成最直接的护城河侵蚀。Bret Taylor 同时坐 OpenAI 董事长 + Sierra CEO 双席位的角色冲突，也让本轮成为 OpenAI 治理透明度的下一个观察焦点。",
+      "links": [
+        "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/",
+        "https://techstartups.com/2026/05/04/bret-taylors-ai-startup-sierra-raises-950m-at-15-8b-valuation-as-demand-for-ai-agents-surges/",
+        "https://finance.yahoo.com/markets/stocks/articles/sierra-raises-950m-15-8b-154125641.html"
+      ],
+      "image": "img/bret-taylor.jpg",
+      "image_type": "logo",
+      "tags": ["Sierra", "Bret Taylor", "Series E", "AI agents", "customer service", "Tiger Global", "GV"],
+      "category": "builders"
+    },
+    {
+      "id": "3",
+      "title": "白宫起草新行政令：要求所有新发布 AI 模型先过联邦安全审查——Mythos 后第一份'强制 pre-release vetting' 草案，工作组方案与 OpenAI / Anthropic / Google 高管同步对读",
+      "source": "白宫",
+      "source_name": "The New York Times",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-04/white-house-eyes-vetting-ai-models-before-release-ny-times-says",
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-04",
+      "summary": "纽约时报 5 月 4 日独家、Bloomberg / Axios 同步跟进：Trump 白宫正在起草一份行政令草案——核心条款是**强制要求美国 AI 公司在公开发布前提交新模型给一个由多机构组成的联邦工作组进行安全审查**；上周 OpenAI、Anthropic、Google 高管已被请进白宫对读草案。",
+      "detail": "*New York Times* 5 月 4 日独家报道：Trump 白宫正在起草一份关于 AI 模型治理的行政令草案，**Bloomberg** 与 **Axios** 同日同步跟进。草案核心由两块组成：\n\n**（1）AI 工作组（Working Group on AI）：** 由白宫科技政策办公室（OSTP）牵头、商务部 / 国土安全部（DHS）/ 能源部 / 国防部 / 国家安全局（NSA）/ 国家标准与技术研究院（NIST）共同参与，把至今分散的联邦 AI 监管协调进单一架构。\n\n**（2）模型 pre-release 安全审查：** 草案讨论稿中最具争议的条款——要求美国 AI 公司在向公众发布**新一代基础模型**前，必须先把模型提交到该工作组，由相关机构进行**网络武器化能力 / 生物安全风险 / 关键基础设施滥用 / 大规模伪造能力**等多维度评估，达不到标准的发布将被联邦层面阻止或受限发布。这与 Biden 时期 EO 14110 中由商务部 CAISI 进行的'pre-deployment evaluation'制度结构相近——但后者已在 Trump 上任首日（2025-01-20）被废止，本草案的提交意味着 Trump 政府首次在**实际治理结构**上回到 Biden 路线。\n\n**直接触发因素：** 4 月 14 日 Anthropic 发布 **Claude Mythos Preview** 后，**模型可自主在所有主流 OS / 浏览器中识别并武器化零日漏洞**已成既成事实——白宫一名匿名官员对 Axios 直言\"Mythos 之后我们的态度变了\"。\n\n**沟通与流程：** 上周白宫已邀请 **OpenAI、Anthropic、Google** 三家公司高管参加'table reads'（草案对读会）；Anthropic、xAI、OpenAI 与微软同时被告知部分条款仍在讨论中。白宫官员明确表示\"任何政策公告将由总统直接发布\"，相关行政令的最终发布时间未定；内部仍有'国家创新优先 vs. 公共安全优先'两派分歧未弥合。\n\n**与 4 月 29 日相关草案的关系：** 这份草案与之前 Axios 报告的'白宫起草绕过 OMB 重新允许联邦机构使用 Anthropic Mythos'草案相互独立——前者是政府层面如何'用'模型的解禁，本草案是对'所有公司发布'模型的限制——两份草案同时桌上意味着 Trump 政府正在用'政府选择性可用 + 全行业 pre-release 审查'两条政策线在快速重写美国 AI 治理框架。",
+      "key_quotes": [
+        "Mythos changed the calculus. — 匿名白宫官员对 Axios",
+        "Any policy announcement will come directly from the president. — 白宫发言人"
+      ],
+      "significance": "这是 Trump 政府首次正式考虑**强制性 pre-release 安全审查**——意味着 Trump 上任首日废除 Biden EO 14110 后形成的'美国基础模型零联邦预审'格局可能仅维持 16 个月就被反向重写。对前沿实验室（OpenAI / Anthropic / Google / xAI）实质影响：（1）发布节奏可能被联邦审查周期主导，对 GPT-5.5、Mythos 等模型的发布窗口形成强约束；（2）合规成本结构性上行，小型新进入者可能被进一步挤出；（3）国家安全部门首次获得'否决商业发布'的法定杠杆，把 Anthropic Mythos 早已建立的'NSA 优先访问'非正式安排制度化。Mythos 既是触发因素、又是 Anthropic 的护城河——本 EO 若落地反而进一步抬高 Anthropic 相对地位。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-04/white-house-eyes-vetting-ai-models-before-release-ny-times-says",
+        "https://www.axios.com/2026/05/04/trump-white-house-ai-safety-tests-mythos",
+        "https://www.usnews.com/news/top-news/articles/2026-05-04/white-house-considers-vetting-ai-models-before-they-are-released-nyt-reports"
+      ],
+      "image": "img/white-house.jpg",
+      "image_type": "logo",
+      "tags": ["White House", "executive order", "AI policy", "Mythos", "pre-release review", "Trump"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "欧元区财长团 Brussels 集体要求 Anthropic Mythos 访问权：'我们国家的零日防线现在依赖一家美国私营公司'——首次国家级提出'Mythos 是地缘公共品'",
+      "source": "欧元区",
+      "source_name": "TheNextWeb",
+      "source_url": "https://thenextweb.com/news/europe-mythos-anthropic-cybersecurity-access-crisis",
+      "story_key": "eu-mythos-access-demand",
+      "event_date": "2026-05-04",
+      "summary": "5 月 4 日欧元区财长会议（Eurogroup）在 Brussels 召开期间，多国财长公开把 Anthropic Mythos 议题正式列入议程——要求欧盟委员会与 Anthropic 直接谈判，为欧盟成员国政府机构争取与美国 NSA 同等的 Mythos 访问权；首次以'国家级'立场把 Mythos 定义为'地缘网络安全公共品'。",
+      "detail": "**TheNextWeb** 与 **The Hacker News** 5 月 4 日报道：欧元区 20 国财长会议（Eurogroup）当日在 Brussels 召开期间，多国财长（公开点名包括法国、德国、意大利与荷兰）首次把 Anthropic 的 Claude Mythos Preview 列入会议正式议题——共同立场：\n\n**核心诉求：**\n- 欧盟委员会应与 Anthropic 直接谈判，为欧盟成员国政府 / 关键基础设施运营方争取与美国 NSA 同等级别的 Mythos 访问权；\n- 短期内若不可得，至少由 Anthropic 与 ENISA（欧盟网络与信息安全局）建立\"可控访问\"机制——即由 ENISA 替欧盟成员国国家级运营商代行漏洞扫描；\n- 把 Mythos 类似的\"自主识别 + 武器化零日\"能力定性为**地缘网络安全公共品（geopolitical cybersecurity public good）**——意味着对其访问不应单纯由商业供应链决定。\n\n**触发现实：**\n- Claude Mythos Preview 的能力已被 Anthropic 自身公开数据证实：Mythos 在 Firefox 等主流浏览器内自主开发出可工作 JavaScript shell 漏洞利用的成功率从 Opus 4.6 的几百次试验中 2 次跳到 **181 次**——后续测试覆盖每一个主流操作系统与浏览器；\n- 4 月 30 日 Bloomberg 已实锤 NSA 正用 Mythos 在 Microsoft 自家产品中扫零日；同期欧盟成员国政府机构与关键基础设施运营方完全没有同等级别工具；\n- 欧盟自家 GDPR 数据合规要求与美方'AI 出口管制'之间形成了对等访问的法律僵局——欧元区财长的此次发声是首次把'技术不可得'问题升格成'国家安全无法对等防御'议题。\n\n**Anthropic 公司层面回应（截至 5 月 4 日深夜）：** Anthropic 未公开回应；公司内部消息人士对 *TheNextWeb* 表示 Mythos 的全球访问范围确仍受美国出口管制框架限制，Project Glasswing 现有合作方阵容（AWS、Apple、Cisco、CrowdStrike、Google、JPMorgan、Linux Foundation、Microsoft、NVIDIA、Palo Alto Networks）**没有一家是欧洲公司**。\n\n**与已公开美国 EO 草案的对照：** 5 月 4 日 NYT 同日报告的 Trump 白宫'强制 pre-release 安全审查'草案中明确把 NSA 列为参与机构——欧元区方面公开指出该结构进一步加深美方在'Mythos 优先访问 + 全球发布预审'两端的双重不对称地位。",
+      "key_quotes": [
+        "Our nations' zero-day defense currently depends on a US private company. — 一位欧元区财长（按 TheNextWeb 引用要求未具名）",
+        "Mythos must be treated as a geopolitical cybersecurity public good. — 多位欧元区财长 5 月 4 日 Eurogroup 联合立场"
+      ],
+      "significance": "这是 Mythos 故事第一次从'美国国内 NSA / 白宫 / 国会'范围正式跨入**国家间博弈层**——欧盟委员会过去主要把 AI 当成 'AI Act 监管对象'对待，本次欧元区财长团**主动要求获取一个美国私营公司的最先进模型作为防御能力**，等于公开承认欧盟既无对等模型、也无对等访问。如果欧盟与 Anthropic 直接谈判成立，将是首次**美国 AI 公司绕过本国出口管制框架与外国政府直接对接**的先例；如果失败，则可能加速欧洲层面对 Mistral / AMI Labs 等本土 frontier 厂商的国家级订单倾斜。同步推升 Anthropic 估值谈判中的地缘溢价——4 月 29 日刚启动的 $9000 亿估值新一轮融资本周或将再加速。",
+      "links": [
+        "https://thenextweb.com/news/europe-mythos-anthropic-cybersecurity-access-crisis",
+        "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
+        "https://thenextweb.com/news/nthropic-mythos-geopolitical-government-control"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Mythos", "EU", "cybersecurity", "geopolitics", "ENISA"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "美国财长 Bessent 公开警告：美国银行业正与科技公司联手构建 AI 网络攻击韧性——首次把'AI 被用于黑入银行账户'写成系统性金融稳定议题",
+      "source": "U.S. Treasury",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-03/banks-in-us-are-working-to-gird-against-ai-attacks-bessent-says",
+      "story_key": "treasury-banks-ai-cyber",
+      "event_date": "2026-05-03",
+      "summary": "美国财长 Scott Bessent 5 月 3 日公开发声：美国金融机构与科技公司正在'联合构建韧性'抵御 AI 加速的网络攻击——尤其点名'AI 被用来攻入银行账户'风险；这是 Treasury 首次把 AI 网络攻击列为**系统性金融稳定议题**而非单纯反欺诈话题。",
+      "detail": "美国财政部长 **Scott Bessent** 在 5 月 3 日（周日）公开活动上发表罕见的、围绕 AI 与金融安全的实质性表态——经 *Bloomberg* 报道：\n\n**核心信息：**\n- Bessent 表示美国\"financial and technology companies are working on their resiliency\"——主语首次涵盖'金融 + 科技'两端联合，意味着 Treasury 把构建 AI 网络韧性的责任明确分给了银行业 + 大型科技平台双方共同承担；\n- 具体威胁场景被罕见地公开点名：**AI 被部署来直接攻入银行账户（hack into bank accounts）**——既包括 social-engineering 类（声音克隆 + AI 合成视频认证绕过），也包括 Mythos 类自主漏洞挖掘对银行 IT 栈的直接利用；\n- Bessent 把上述定性为'未来几年最严重的金融稳定单点风险之一'，与 SVB-style liquidity run 同级别。\n\n**与 Anthropic Mythos / 白宫 EO 草案的政策合奏：**\n- 同一周内（5 月 3-4 日）Treasury 公开警告 + 白宫 pre-release 审查 EO 草案 + 欧元区 Mythos 访问诉求**几乎同步出现**——并非偶然：四方共同的实质背景是 Anthropic 公开披露 Mythos Preview 已自主识别 \"thousands of zero-day vulnerabilities\" 后，金融业对'攻防能力差'的真实担忧第一次进入官方议程；\n- Bessent 此前在 4 月 G7 财长闭门会上推动过 \"AI cyber response\" 联合声明草稿——本周公开发声等同于把闭门讨论升级到对外政策信号。\n\n**金融业当下姿态：** JPMorgan、Bank of America 等大行已是 Anthropic Project Glasswing 一线合作方（JPMorgan 是 Glasswing 12 家初始机构之一）；Bessent 的言下之意是对仍未加入 Glasswing 类机制的中型银行发出明确预警——监管层正在重新评估是否把'AI 网络攻击韧性'写入 OCC / FDIC 银行运营韧性年度评估指标。",
+      "key_quotes": [
+        "Financial and technology companies are working on their resiliency [against AI attacks]. — Treasury Secretary Scott Bessent",
+        "AI being deployed to hack into bank accounts. — Bessent 公开点名的具体威胁场景"
+      ],
+      "significance": "这是美国财长首次**公开**把 AI 网络攻击列为系统性金融稳定威胁——意味着美国监管侧已从'反欺诈话题'升级到'写入年度银行体检'。最直接受益的是 Anthropic（Mythos 是当前美国唯一被公开证实可以\"反向找漏洞\"的企业级模型）与 CrowdStrike / Palo Alto 等 Project Glasswing 既有合作方；最直接承压的是规模在 $500 亿-$2500 亿区间、尚未具备 enterprise-grade AI cyber 团队的中型银行——Bessent 的公开表态就是给这一档监管对象的'温水预警'。同时给 Trump 政府正在起草的 AI pre-release 审查 EO 提供了财政部背书——'金融稳定'这一最有政治穿透力的论点首次被 Treasury 站到 EO 一侧。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-03/banks-in-us-are-working-to-gird-against-ai-attacks-bessent-says"
+      ],
+      "image": "img/scott-bessent.jpg",
+      "image_type": "logo",
+      "tags": ["Treasury", "Bessent", "AI cybersecurity", "banking", "financial stability", "Mythos"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "Suno Series D 临门：估值冲破 $50 亿，6 个月翻倍——AI 音乐独角兽 1 亿用户，多家唱片公司投资者匿名跟投但公开诉讼仍未撤",
+      "source": "Suno",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/pro/media-deals/2026/05/04/suno-ai-music-generation-5-billion",
+      "story_key": "suno-series-d-5b",
+      "event_date": "2026-05-04",
+      "summary": "Axios + Digital Music News 5 月 4 日同步独家：AI 音乐生成创业公司 Suno 正在敲定 Series D，估值将首次冲破 **$50 亿美元**——较 2025 年 11 月 Series C 的 $24.5 亿估值在 6 个月内翻倍；公司用户数已达 **1 亿**；多位音乐产业内部投资者参与本轮但要求匿名（背景：唱片公司起诉 Suno 侵权的诉讼仍在审理）。",
+      "detail": "**Axios** 5 月 4 日独家、**Digital Music News** 与 **Billboard Pro** 同日跟进：AI 音乐生成创业公司 **Suno** 正在快速敲定其 **Series D 融资**——\n\n**核心数字：**\n- 估值：将首次冲破 **$50 亿美元**——较 2025 年 11 月 $250M Series C 的 **$24.5 亿**估值在 **6 个月内翻倍**；\n- 用户：Suno 自报用户已达 **1 亿**——是 2025 年初 1000 万的 10 倍；\n- 入选 Forbes 2026 'AI 50' 榜单——AI 应用类罕见被列入。\n\n**投资者结构（关键的'匿名跟投'细节）：**\n- 多位**音乐产业内部投资者**参与本轮——但绝大多数要求匿名跟投；\n- 这一'匿名'背景：RIAA 旗下三大唱片巨头（**UMG、Sony Music、Warner Music**）2024 年起诉 Suno + Udio 侵犯版权的诉讼**仍在 NDCAL 审理中**——同公司既起诉 Suno 又通过 LP / 间接基金跟投是当下音乐产业最矛盾的'两面下注'；\n- Suno 历史上各轮（Seed / A / B / C / D）均有同类匿名音乐产业 LP 痕迹——本轮规模更大、匿名比例进一步上升。\n\n**与同期 AI 内容公司估值对照：**\n- AI 视频生成头部 ElevenLabs 上轮估值 ~$33 亿、Runway ~$30 亿、Pika ~$10 亿；\n- Suno 此轮 $50 亿估值**已超过 AI 视频生成全部独角兽**——意味着资本对'音乐生成在版权诉讼仍未结案的前提下'仍给出了行业最高溢价。\n\n**未公开数据点：** 本轮具体募资规模 Axios 未给出（仅说\"likely above the $250M C 轮 mark\"）；Lead investor 身份本周内可能正式披露。",
+      "key_quotes": [
+        "More than $5 billion valuation, expected to close in the coming weeks. — Axios 引用知情人士",
+        "Music industry investors keep their support of the still-controversial AI music firm private. — Digital Music News"
+      ],
+      "significance": "Suno Series D 把'AI 音乐'这个**仍处于版权诉讼火上'**的赛道首次推到 $50 亿+ 估值——等同于资本市场对 RIAA 诉讼的隐性投票：**判 Suno 输的概率 ≤ 25%**，否则不可能在未撤诉的状态下还接受这种估值。其次本轮把'唱片公司公开起诉 + 唱片公司同时间接 LP 跟投'的奇景从 Series C 延续到 Series D——意味着传统音乐产业已**事实上承认'与其继续告、不如同时持有股权 hedge'**。直接对标参考：Stability AI 在 2024 年因版权诉讼估值崩塌——Suno 走的正是相反曲线。",
+      "links": [
+        "https://www.axios.com/pro/media-deals/2026/05/04/suno-ai-music-generation-5-billion",
+        "https://www.digitalmusicnews.com/2026/05/04/suno-series-d-reports/",
+        "https://www.billboard.com/pro/suno-series-d-funding-round-following-250m-raise-november/"
+      ],
+      "tags": ["Suno", "Series D", "AI music", "RIAA", "copyright"],
+      "category": "builders"
+    },
+    {
+      "id": "7",
+      "title": "澳交所 ASX 公开警告所有上市公司不准'AI ramping'：监控异常股价 + AI 概念过度声明——首家把'AI 拉升'写入正式市场操纵执法优先级的主要交易所",
+      "source": "ASX",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-04/asx-warns-firms-about-ramping-ai-upside-to-push-stock-prices",
+      "story_key": "asx-ai-ramping-warning",
+      "event_date": "2026-05-04",
+      "summary": "澳大利亚证券交易所运营方（ASX）5 月 4 日发出正式警告：监控所有澳洲上市公司就 AI 对其经营影响所做的公开陈述，发现夸大叙述（'ramping'）即启动监管行动；这是全球**首家把'AI 概念过度声明 + 配合股价拉升'明确列为正式市场操纵执法优先级**的主要交易所。",
+      "detail": "**Bloomberg** 5 月 4 日报道：**澳大利亚证券交易所（ASX）** 当日公开发布对所有上市公司的正式警告——\n\n**核心声明：**\n- ASX 表示正在**主动监控市场**，识别上市公司围绕 AI 对经营影响所做的公开陈述与同期异常股价波动之间的相关性——一旦发现\"为推升股价而夸大 AI 影响（ramping）\"的迹象，将立即启动监管行动；\n- 'ramping' 在澳洲证券法中是明确的市场操纵子类——传统上更多用于矿业 / 生物科技概念股的人为拉升，本次是**ASX 首次把 AI 概念过度声明放在与矿业资源虚报同一等级的执法优先级**。\n\n**触发背景：**\n- 2026 年 Q1 ASX 上市公司中 **65 家公司**在年度 / 季度公告或投资者沟通材料中加入了 'AI strategy' / 'AI integration' / 'AI agent' 类描述——其中至少 12 家被独立分析师指出实质投入与披露口径严重不符（按 *Australian Financial Review* 4 月统计）；\n- 与此并发的是 ASX 上市的几只小型 AI 概念股近三个月出现 200%+ 涨幅、随后单日跳水 50%+ 的极端波动模式——典型的 'pump-and-dump' 嫌疑信号；\n- ASX 此举与 **ASIC（Australian Securities and Investments Commission）** 已于 4 月启动的对小型上市公司 AI 披露质量调查形成上下游配合。\n\n**与全球其他交易所对比：**\n- SEC（美国）2025 年 9 月已对 'AI washing' 立法警告但未把它单列为执法优先级；\n- LSE（英国）、HKEX（香港）尚无类似公开声明；\n- ASX 此次成为**第一个把'AI ramping'明确点名 + 写入持续市场监控指标**的主要西方交易所——执法依据是 *Corporations Act 2001* 第 1041A-D 条市场操纵条款，比 SEC 'AI washing' 警告更具有可立即执行的法律杠杆。",
+      "key_quotes": [
+        "We monitor the market for instances of so-called ramping up of share prices [linked to AI claims]. — ASX 5 月 4 日声明",
+        "Companies should not exaggerate the impact of artificial intelligence on their operations. — ASX 公开警告原文"
+      ],
+      "significance": "这是 2026 年 AI 监管与资本市场监管的**首次正面交集**——区别于此前对前沿模型公司（OpenAI / Anthropic）的安全 / 出口管制讨论，ASX 这次执法对象是**用 AI 故事推升股价的上市公司本身**。在全球范围内具有先例意义：（1）SEC 大概率会跟进——美国小型 AI 概念股的'pump-and-dump'风险结构与澳洲一致；（2）这把监管复杂度从'AI 公司说什么'扩展到\"上市公司讲 AI 故事的监管成本\"——上市公司未来在 AI 措辞披露上的合规成本会显著上升；（3）短期内对'AI strategy 但实际投入很少'的中小型 ASX 上市公司形成估值压制——AI 概念溢价正在被'监管贴现率'重新定价。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-04/asx-warns-firms-about-ramping-ai-upside-to-push-stock-prices"
+      ],
+      "tags": ["ASX", "Australia", "AI washing", "market manipulation", "regulation"],
+      "category": "news"
+    }
+  ]
+}

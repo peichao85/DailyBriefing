@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-05",
+  "total_candidates": 16,
+  "kept": 7,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-04",
+      "title_en": "Brockman testifies $30B stake, 2017 journal calls nonprofit mission 'a lie', Musk's 'most hated men' settlement text surfaces",
+      "source": "CNBC / Bloomberg / TechCrunch / NextWeb",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Story_key was published 4x (04-28, 04-29, 04-30, 05-04). Prior 05-04 title only previewed Stuart Russell + Brockman as upcoming witnesses. Today's substantive new facts: (1) Brockman actually took the stand all day Monday + Tuesday; (2) disclosed his OpenAI stake is worth ~$30B; (3) Musk's lawyers introduced 2017-2018 personal journals where Brockman called the nonprofit mission 'a lie'; (4) OpenAI Sunday filing surfaced Musk's April 25 settlement text saying 'you and Sam will be the most hated men in America'; (5) Brockman publicly confirmed OpenAI is exploring an IPO; (6) Stuart Russell expert-witness comp disclosed at $5,000/hour for 40 hours = $235K. None of these were in the prior Day-5 preview piece."
+    },
+    {
+      "story_key": "sierra-950m-series-e",
+      "event_date": "2026-05-04",
+      "title_en": "Sierra raises $950M Series E at $15.8B valuation, Tiger + GV led",
+      "source": "TechCrunch / Yahoo Finance / Tech Startups",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bret Taylor's AI customer-service agent startup raised $950M at $15.8B post-money on 05-04, led by Tiger Global + Google's GV; $150M ARR in 8 quarters, >40% Fortune 50 penetration, customers include Prudential, Cigna, Blue Cross Blue Shield, Rocket Mortgage."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-04",
+      "title_en": "White House drafts EO to vet new AI models pre-release, post-Mythos",
+      "source": "NYT / Bloomberg / Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. NYT broke 05-04: Trump WH considering EO to create AI working group + multi-agency safety review of new models pre-release; framework predates Mythos but was accelerated by it. Distinct from prior story_key 'white-house-anthropic-mythos-eo-draft' (which was about reauthorizing Mythos for federal use, not creating a model-vetting regime)."
+    },
+    {
+      "story_key": "eu-mythos-access-demand",
+      "event_date": "2026-05-04",
+      "title_en": "EU finance ministers demand access to Anthropic Mythos, citing zero-day asymmetry vs US/UK",
+      "source": "TheNextWeb / Hacker News / The Hacker News",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct angle from prior 'anthropic-mythos-nsa-microsoft' (US-centric NSA-Microsoft probing) and 'white-house-anthropic-mythos-eo-draft' (US federal reauthorization). New event 05-04: euro-area finance ministers met in Brussels to formally demand Mythos access citing geopolitical cyber asymmetry."
+    },
+    {
+      "story_key": "treasury-banks-ai-cyber",
+      "event_date": "2026-05-03",
+      "title_en": "Treasury Secretary Bessent: US banks 'working on resiliency' against AI cyberattacks",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bessent on 05-03 specifically said US financial + tech companies are 'working on their resiliency' against AI-deployed bank-account hacking — first time Treasury has publicly framed AI cyber-offense as a banking-sector resilience issue."
+    },
+    {
+      "story_key": "suno-series-d-5b",
+      "event_date": "2026-05-04",
+      "title_en": "Suno nears Series D close at >$5B valuation, doubling in 6 months",
+      "source": "Axios / Digital Music News / Billboard",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. AI music generation lab Suno reportedly nearing Series D close at >$5B valuation, more than doubling Nov 2025's $2.45B. Multiple music-industry investors involved (mostly anonymous due to copyright lawsuits). 100M users. Reported 05-04."
+    },
+    {
+      "story_key": "asx-ai-ramping-warning",
+      "event_date": "2026-05-04",
+      "title_en": "ASX warns Australian-listed firms against 'ramping' AI claims to inflate stocks",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Australian Securities Exchange on 05-04 issued formal warning to listed companies not to exaggerate AI's operational impact, saying it monitors for 'ramping' (intentional stock-price inflation via AI claims). First major exchange to make this a public enforcement priority."
+    },
+    {
+      "story_key": "openai-gpt55-launch-party-musk-invite",
+      "event_date": "2026-05-05",
+      "title_en": "GPT-5.5 launch party physically held in SF tonight",
+      "source": "@sama / Newsbytes / BigGo",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 04-30 with full coverage of GPT-5.5 picking the date, 5:55pm start, AI selecting guests via Codex, Altman's invite to Musk, and that registration filled instantly. Today's actual occurrence of the party adds nothing not already covered; no post-party reporting available at search time."
+    },
+    {
+      "story_key": "parallel-web-systems-2b-series-b",
+      "event_date": "2026-04-29",
+      "title_en": "Parag Agrawal's Parallel Web Systems hits $2B at Series B led by Sequoia",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-29 is 6 days before today (>5 day limit). Story would have been a clean novel pickup if surfaced earlier."
+    },
+    {
+      "story_key": "ibm-granite-41-release",
+      "event_date": "2026-04-29",
+      "title_en": "IBM open-sources Granite 4.1 (3B/8B/30B dense, Apache 2.0)",
+      "source": "IBM Research / Hugging Face",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-29 is 6 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "kimi-k26-coding-benchmark",
+      "event_date": "2026-04-20",
+      "title_en": "Moonshot's Kimi K2.6 ties GPT-5.5 on SWE-Bench Pro at 58.6%, wins coding bake-off",
+      "source": "DeepLearning.AI / Hacker News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-20 is 15 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "openai-gpt55-release",
+      "event_date": "2026-04-23",
+      "title_en": "OpenAI releases GPT-5.5 + GPT-5.5 Pro to Plus/Pro/Business/Enterprise + API",
+      "source": "OpenAI / TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-23 is 12 days before today (>5 day limit). Underlying release is past the freshness window; today's news is only the launch party which is its own (dropped) story_key."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk + OpenAI partnership for drug discovery + manufacturing AI",
+      "source": "CNBC / FiercePharma",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 21 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "ami-labs-seed-round",
+      "event_date": "2026-03-09",
+      "title_en": "Yann LeCun's AMI Labs raises $1.03B seed at $3.5B for world models",
+      "source": "TechCrunch / SiliconANGLE",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-09 is 57 days before today (>5 day limit). Reappeared in Karpathy/LeCun search results but is well past freshness window."
+    },
+    {
+      "story_key": "cursor-25-security-patch",
+      "event_date": "2026-04-30",
+      "title_en": "Cursor IDE 2.5 patches RCE vulnerability via malicious git repos",
+      "source": "Cursor news roundup",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Surfaced only as a generic 'May 2026' roundup mention without a clear primary source or precise date; can't confirm event within 5-day window. Insufficient evidence to publish."
+    },
+    {
+      "story_key": "stuart-russell-expert-fee",
+      "event_date": "2026-05-04",
+      "title_en": "Stuart Russell paid $5,000/hr as Musk expert witness — $235K total, 20% of his year's income",
+      "source": "DNYUZ / NextWeb",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Folds into musk-altman-openai-trial story_key — captured as one of the new facts in that item rather than published as its own separate story."
+    }
+  ]
+}
