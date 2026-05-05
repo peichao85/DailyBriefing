@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-06",
+  "total_candidates": 18,
+  "kept": 9,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "anthropic-finance-jv-agents-launch",
+      "event_date": "2026-05-05",
+      "title_en": "Anthropic launches 10 finance agents + $1.5B Wall Street JV with Blackstone/Goldman/H&F",
+      "source": "Anthropic / Bloomberg / Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Anthropic announced 10 preconfigured finance agents on Claude Opus 4.7 + same-day formed $1.5B enterprise AI services JV with Blackstone, H&F, Goldman Sachs. Same-day Wall Street event with Dimon."
+    },
+    {
+      "story_key": "amodei-mythos-moment-of-danger",
+      "event_date": "2026-05-05",
+      "title_en": "Amodei warns 6-12 month 'moment of danger' window as Mythos uncovers tens of thousands of vulnerabilities; White House blocks expansion to 70 companies",
+      "source": "@DanielaAmodei / CNBC / Decrypt",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from prior white-house-anthropic-mythos-eo-draft (Apr 29) and eu-mythos-access-demand (May 4). New developments: Amodei's first public timeline framing of cyber risk window and the WH refusal to expand Mythos to 70 organizations."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-05",
+      "title_en": "Brockman concludes testimony Day 6: Tesla self-driving secret work + Musk wanted $80B for Mars city + tore Tesla painting off wall, feared he'd be hit",
+      "source": "CNBC / Bloomberg / NBC Bay Area",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 04-28, 04-29, 04-30, 05-01, 05-04 with various days. May 4 covered Brockman taking the stand + $300B stake disclosure. May 5 brings substantively new material: Tesla self-driving secret work, $80B Mars-city motivation, painting-tearing incident, 'feared Musk might hit me' line, completion of cross-examination. Trial advances to next phase."
+    },
+    {
+      "story_key": "openai-gpt55-launch-party-musk-invite",
+      "event_date": "2026-05-05",
+      "title_en": "GPT-5.5 launch party held in SF + OpenAI gives 8,000 declined applicants 10x Codex rate limits through June 5",
+      "source": "VentureBeat / OpenAI",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 04-30 (Altman invites Musk + party planned by AI). New developments on May 5: party actually happened at undisclosed SF venue 5:55-8:55pm, OpenAI emailed 8,000+ declined developers a 10x Codex rate-limit boost effective immediately through June 5 as a consolation, sold-out applications hit 8,000+ in 24 hours."
+    },
+    {
+      "story_key": "paypal-ai-restructuring-1-5b",
+      "event_date": "2026-05-05",
+      "title_en": "PayPal new CEO Enrique Lores plans 4,500 layoffs (20%) over 2-3 years for $1.5B AI-driven turnaround savings",
+      "source": "TechCrunch / Seeking Alpha",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New PayPal CEO Lores delivered first earnings + announced AI 'transformation and simplification' team, 20% workforce cut (>4,500 jobs), $1.5B target savings."
+    },
+    {
+      "story_key": "servicenow-knowledge-2026-autonomous-workforce",
+      "event_date": "2026-05-05",
+      "title_en": "ServiceNow Knowledge 2026 unveils Autonomous Workforce: AI specialists handle entire processes, 99% faster IT service desk; Moveworks added; Microsoft Agent 365 Control Tower",
+      "source": "Fortune / ServiceNow Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major enterprise AI announcement at ServiceNow Knowledge 2026 (May 5-7 Las Vegas): Autonomous Workforce launch with internal IT service desk 99% faster than human, Moveworks integrated into ServiceNow AI Platform, AI Control Tower extended across Microsoft Agent 365."
+    },
+    {
+      "story_key": "amd-q1-2026-earnings",
+      "event_date": "2026-05-05",
+      "title_en": "AMD Q1 2026 beat: revenue $10.3B (+38%), data center revenue $5.8B (+57%), MI355X strong MLPerf results, OpenAI partnership in focus",
+      "source": "CNBC / Investing.com",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. AMD reported Q1 2026 earnings May 5 with EPS $1.37 vs $1.27 forecast, revenue $10.3B vs $9.85B forecast, datacenter +57% YoY to $5.8B; MI355X MLPerf leadership; stock +4% AH."
+    },
+    {
+      "story_key": "amazon-quick-desktop-aws-launch",
+      "event_date": "2026-05-04",
+      "title_en": "AWS launches Amazon Quick desktop AI assistant for macOS/Windows + Amazon Connect splits into 4 agentic solutions (Decisions/Talent/Customer/Health)",
+      "source": "AWS Blog / aboutamazon.com",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. At 'What's Next with AWS' May 4 event, AWS launched Amazon Quick desktop preview app (proactive OS notifications, native desktop control), expanded Quick integrations (Google Workspace, Zoom, Airtable, Dropbox, Teams), and split Amazon Connect into four agentic AI solutions. Within 5-day window."
+    },
+    {
+      "story_key": "corgi-ai-liability-insurance",
+      "event_date": "2026-05-04",
+      "title_en": "YC-backed Corgi launches AI liability insurance covering hallucinations, bias, training data disputes; $108M raised total",
+      "source": "Artificial Lawyer / Yahoo Finance",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Corgi (YC) launched AI Insurance Coverage May 4 covering model performance & hallucination, algorithmic bias, training data disputes; first AI-native full-stack insurance carrier for startups; $108M raised."
+    },
+    {
+      "story_key": "cloudflare-stripe-agents-protocol",
+      "event_date": "2026-04-30",
+      "title_en": "Cloudflare + Stripe launch protocol letting AI agents create accounts, buy domains, deploy apps without humans",
+      "source": "blog.cloudflare.com",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-30 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-claude-security-public-beta",
+      "event_date": "2026-04-30",
+      "title_en": "Anthropic Claude Security enters public beta with Opus 4.7 vulnerability scanning + patching",
+      "source": "Help Net Security / SiliconANGLE",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-30 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cohere-aleph-alpha-merger",
+      "event_date": "2026-04-24",
+      "title_en": "Cohere merges with Aleph Alpha at $20B valuation; Schwarz Group €500M backing",
+      "source": "TechCrunch / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "skild-zebra-robotics-acquisition",
+      "event_date": "2026-04-15",
+      "title_en": "Skild AI acquires Zebra Technologies' robotics automation business including Symmetry Fulfillment",
+      "source": "Bloomberg / Zebra Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-15 is 21 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-hiro-acquisition",
+      "event_date": "2026-04-13",
+      "title_en": "OpenAI acquires personal finance startup Hiro",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-13 is 23 days old (>5 day limit)."
+    },
+    {
+      "story_key": "deepseek-v4-launch-huawei-ascend",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek V4 launch with Huawei Ascend 950 partnership and Cambricon support",
+      "source": "Fortune / CNN",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "apple-ternus-ceo-transition",
+      "event_date": "2026-04-20",
+      "title_en": "Apple names John Ternus CEO replacing Tim Cook (becomes chairman) effective Sept 1; Siri to use Gemini",
+      "source": "Apple Newsroom / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-20 is 16 days old (>5 day limit)."
+    },
+    {
+      "story_key": "mistral-le-chat-work-mode",
+      "event_date": "2026-04-29",
+      "title_en": "Mistral adds Work Mode + Remote Agents to Le Chat",
+      "source": "InfoQ",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-29 is 7 days old (>5 day limit)."
+    },
+    {
+      "story_key": "parallel-web-systems-series-b",
+      "event_date": "2026-04-29",
+      "title_en": "Parallel Web Systems hits $2B valuation with $100M Series B led by Sequoia",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-29 is 7 days old (>5 day limit)."
+    }
+  ]
+}

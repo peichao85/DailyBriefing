@@ -1,0 +1,277 @@
+{
+  "date": "2026-05-06",
+  "category": "AI",
+  "researched_at": "2026-05-06T07:10:00Z",
+  "sources_checked": [
+    "@DanielaAmodei",
+    "@sama",
+    "@elonmusk",
+    "@demishassabis",
+    "@karpathy",
+    "@AndrewYNg",
+    "@JeffDean",
+    "@ylecun",
+    "@geoffreyhinton",
+    "@alexandr_wang",
+    "@mntruell",
+    "@ScottWu46",
+    "@alighodsi",
+    "@JonathanRoss321",
+    "@julien_c",
+    "@garrytan",
+    "@DrJimFan",
+    "@lexfridman",
+    "Bloomberg",
+    "CNBC",
+    "Reuters",
+    "Wall Street Journal",
+    "Fortune",
+    "Financial Times",
+    "TechCrunch",
+    "The Information",
+    "Axios",
+    "VentureBeat",
+    "MIT Technology Review",
+    "Anthropic Newsroom",
+    "OpenAI",
+    "ServiceNow Newsroom",
+    "AWS Blog",
+    "Decrypt",
+    "Help Net Security",
+    "Artificial Lawyer",
+    "Investing.com",
+    "NBC Bay Area"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic 同日双发：与 Blackstone / Goldman / H&F 共建 $15 亿 Wall Street 合资公司 + 同步上线 10 个金融 Agent，Claude Opus 4.7 拿下 Vals Finance 榜首 64.37%",
+      "source": "Anthropic",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-05/anthropic-unveils-ai-agents-to-field-financial-services-tasks",
+      "story_key": "anthropic-finance-jv-agents-launch",
+      "event_date": "2026-05-05",
+      "summary": "Anthropic 5 月 5 日金融服务专场同时落两枚重磅：（1）与 Blackstone、Hellman & Friedman、Goldman Sachs 联合成立 **$15 亿美元**企业级 AI 服务合资公司——把 Claude 工程师**直接派驻进 PE 投资组合公司**，全面对标麦肯锡 / Accenture 等传统咨询；（2）同步发布 **10 个**面向投行 / 资管 / 保险 / 财务的预配置 Agent，全部基于昨日刚 GA 的 Claude Opus 4.7——后者以 **64.37%** 登顶 Vals AI Finance Agent 榜首。",
+      "detail": "Anthropic 在与 JPMorgan Chase CEO Jamie Dimon 同台的金融服务专场发布会上，同一天连下两步对决 OpenAI / 麦肯锡的关键大棋：\n\n**第一枚：$15 亿合资公司，Claude 工程师下沉进 PE 投资组合企业。** 由 Anthropic、Blackstone、Hellman & Friedman 三家锚定方各注资约 **$3 亿美元**、Goldman Sachs 作为创始投资人追加 **$1.5 亿**，并由 General Atlantic、Apollo、Leonard Green、GIC、Sequoia 等共同跟投，组成总规模 ~$15 亿的合资公司——核心商业模式是**派工程师直接进驻客户公司、重写工作流并把 Claude 嵌入核心业务流程**。Goldman 与各家 PE 已明确表态：先把自家 portfolio 公司当试验场，再扩散到中型企业市场，重点行业是医疗、制造、金融服务、零售、地产。这是 Anthropic 首次正式从'卖 API'转型为'卖人 + 卖系统集成'——直接挤压 Accenture / Deloitte / BCG 在企业 AI 落地咨询业务的价格带。\n\n**第二枚：10 个预配置金融 Agent + Claude Opus 4.7 登顶 Vals 榜。** Agent 模板涵盖三大业务线：研究类（Pitch builder 自动汇编目标公司清单与 pitchbook、Meeting preparer 客户简报、Earnings reviewer 年报分析、Model builder 财务模型）、风控合规类（Market researcher、KYC screener 自动准备合规升级）、运营财务类（valuation review、总账对账、月末关账、财报复核）。所有模板可在 Claude Cowork、Claude Code 中作为插件直接运行，或作为 'Claude Managed Agents' 在 Anthropic 平台上自主执行。底层模型是昨日 GA 的 **Claude Opus 4.7**，Anthropic 自报其在 Vals AI Finance Agent benchmark 上以 **64.37%** 登顶。\n\n**配套生态：与 Microsoft 365 全面集成、与 Moody's 数据合作。** Anthropic 同日宣布 Claude 与 Microsoft 365 全栈集成、并与 Moody's 建立金融数据合作——这两个公告把 Anthropic 在企业市场的渠道从 'API + Bedrock' 扩到了 'Wall Street 工作台'。",
+      "key_quotes": [
+        "Goldman Sachs and its partners expect to use their own portfolio companies as an initial proving ground for the new platform before targeting other mid-sized companies. — Bloomberg",
+        "We're building agents that can do the work of an analyst, not just answer the analyst's questions. — Anthropic blog (paraphrased)"
+      ],
+      "significance": "这是 Anthropic 首次跨过 'API 公司' 的产品边界——把 Claude 同时绑进了 Wall Street 资本（$15 亿合资）+ 后台银行系统（10 个金融 Agent）+ 微软桌面（M365 集成）。一周内的两步连发明确说明：Anthropic 估值据称冲击 $9000 亿的底气是它打算**直接吃掉企业 AI 落地咨询业务**——一个传统上由 Accenture / Deloitte 主导、年规模千亿美元的市场。同样的剧本 OpenAI 已与 TPG / Bain Capital 等私募在做，今天起这条赛道正式从一对一变成两强对位。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-05/anthropic-unveils-ai-agents-to-field-financial-services-tasks",
+        "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/",
+        "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html",
+        "https://www.anthropic.com/news/finance-agents",
+        "https://www.anthropic.com/news/enterprise-ai-services-company"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude Opus 4.7", "Wall Street", "JV", "Goldman Sachs", "Blackstone", "Finance Agent"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Anthropic CEO Amodei 警告 6-12 个月 'moment of danger'：Mythos 已挖出'数以万计'软件零日，白宫拒绝把访问权扩到 70 家公司",
+      "source": "@DanielaAmodei",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/05/anthropic-ceo-cyber-moment-of-danger-mythos-vulnerabilities.html",
+      "story_key": "amodei-mythos-moment-of-danger",
+      "event_date": "2026-05-05",
+      "summary": "Anthropic CEO Dario Amodei 5 月 5 日在与 JPMorgan Chase CEO Jamie Dimon 同台时首次公开给出 Mythos 的危险时间窗口：'**6 到 12 个月**' 用来修复 Mythos 至今已发现的'数以万计'软件漏洞——超过该窗口，中国 AI 即将赶上、风险会被放大。同日另一条线：白宫拒绝了 Anthropic 把 Mythos 访问权扩展到约 70 家额外公司与机构的请求。",
+      "detail": "Amodei 在 Anthropic 金融服务专场会议上发出迄今最具体的 Mythos 时间表预警。\n\n**核心论点：6-12 个月的窗口。** Amodei 表示，根据 Anthropic 内部对中国 AI 模型能力轨迹的判断，中国前沿模型距离 Anthropic 的 Mythos '可能落后 6 到 12 个月'，而'这就是我们必须修补 Mythos 已发现的成千上万漏洞所剩下的时间'。他描述潜在风险场景为'勒索软件对学校、医院、银行造成的财务损失出现巨幅跃升'。\n\n**已发现的漏洞规模：从 Firefox 一家到全行业'数以万计'。** Anthropic 之前一代模型在 Firefox 浏览器中找到约 20 个零日；Mythos 把这一数字提升到接近 **300 个**。横跨所有软件品类，Mythos 已挖出的漏洞总量已达**数以万计（tens of thousands）**。\n\n**白宫同步动作：拒绝 70 家公司接入。** 与 Amodei 公开发声同日：白宫'毙掉'了 Anthropic 把 Mythos 访问权扩展到约 70 家额外公司与机构的提案——这一队列与目前已获访问权的少数美国政府 / 关键基础设施合作方相比仍只是其中一小部分。这意味着即便 Anthropic 自己想加快披露与修补节奏，行政分支仍要逐家审批，护栏并没有放开。\n\n**首次出现地缘节奏话术。** Amodei 之前从未用具体月份描述 Mythos 的中美时间差——这是首次。一旦该数字被国会、白宫、五角大楼引用，将直接影响出口管制、模型审查 EO 草案（白宫 5 月 4 日草案）等多线监管节奏。\n\n**背景回顾：** 4 月 16 日 Anthropic 发布 Claude Opus 4.7，承认其落后于尚未发布的 Mythos 模型；5 月 1 日 Bloomberg 披露 NSA 已用 Mythos 在 Microsoft 自家产品中扫描漏洞，Pentagon CTO 把 Mythos 定义为'国家安全单独时刻'。",
+      "key_quotes": [
+        "This is about a moment of danger where if we respond to it correctly, and I think we started to take the first steps, then we can have a better world on the other side. — Dario Amodei",
+        "The danger is some enormous increase in the amount of vulnerabilities, in the amount of breaches, in the financial damage that's done from ransomware on schools, hospitals, not to mention banks. — Dario Amodei"
+      ],
+      "significance": "Amodei 把 Mythos 的危险叙事从'技术能力'升级到'地缘政治倒计时'——首次给出 6-12 个月时间窗口的具体数字，对监管层、国家安全机构、保险业的连锁影响极强。同日白宫拒绝 70 家公司的扩展提案则透露：即便 Anthropic 自己希望加速漏洞修补的覆盖面，行政部门仍要严控渠道。这种'**自己警告、却被监管按住扩展**'的张力，将成为未来一两个月白宫 AI 安全 EO 与国会立法的核心拉锯点。",
+      "links": [
+        "https://www.cnbc.com/2026/05/05/anthropic-ceo-cyber-moment-of-danger-mythos-vulnerabilities.html",
+        "https://decrypt.co/366891/anthropic-warns-cyber-risk-window-ai-uncovers-flaws",
+        "https://futurism.com/artificial-intelligence/white-house-terrified-anthropic-mythos",
+        "https://www.theregister.com/2026/05/01/mythos_complicates_anthropic_us_gov_breakup/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Dario Amodei", "Mythos", "Cybersecurity", "White House", "Geopolitics"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "Musk v. Altman 庭审 Day 6（5-5）：Brockman 当庭收官，重磅披露 Musk 让 OpenAI 员工'秘密给 Tesla 写自动驾驶'+ 索要 OpenAI 控制权'拿 $800 亿建火星城'+ 撕掉 Tesla 油画后险些动手",
+      "source": "OpenAI",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/05/open-ai-altman-musk-trial-brockman-testimony.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-05",
+      "summary": "OpenAI 总裁 Greg Brockman 5 月 5 日（庭审 Day 6）上午完成最终交叉盘问后正式下台，给陪审团留下三组重磅证词：（1）Musk 当年指派 OpenAI 员工**秘密为 Tesla 做自动驾驶研究**；（2）Musk 当面索要 OpenAI 控制权的真实动机是**'要 $800 亿美元在火星上建城'**；（3）一次面对面会议被拒后 Musk **当场撕掉墙上 Tesla Model 3 油画**、Brockman'担心被打'。",
+      "detail": "庭审进入第二周第二天（Day 6），Brockman 接力周一下午开始的证词、5 月 5 日上午完成全部交叉盘问后正式下台，留下数项可能直接影响陪审团裁决的细节：\n\n**1) Tesla 自动驾驶'借用'OpenAI 工程师。** Brockman 当庭披露：Musk 在与 OpenAI 共事期间，曾要求 OpenAI 内部员工**秘密参与 Tesla 自动驾驶（FSD）相关研究项目**——这与 Musk 在前几日证词中坚持的'我从未把 OpenAI 当作 Tesla 的资源'立场直接矛盾，并且把'非营利组织被用于私人公司利益'这一控诉的方向反向甩回 Musk 自己头上。\n\n**2) '$800 亿建火星城'是 Musk 索要 OpenAI 控制权的真实理由。** Brockman 在被询及 Musk 为何坚持要 OpenAI CEO 一职时陈述：Musk 直接告诉他，自己需要 OpenAI 的现金流来'建造一座火星城（city on Mars）'，而 SpaceX 当时估算这个项目要 **$800 亿美元**。这条证词把 Musk 的'非营利使命派'人设瞬间转成'我需要钱去做我自己的项目'——对陪审团判断'unjust enrichment'的方向影响极大。\n\n**3) 撕掉 Tesla Model 3 油画 + 'feared he might hit me'。** Brockman 还描述了一次面对面会议：Musk 提议被拒后**当场把墙上的 Tesla Model 3 油画扯下来**，转身离开前问 Brockman'你和共同创始人什么时候离开 OpenAI'——Brockman 当庭承认'我当时担心他会打我（feared Musk might hit me）'。\n\n**4) Karpathy 的'apology and confession'。** Brockman 透露 Musk 招走 Karpathy 后曾向他'带着道歉与坦白'重新接触——但 Musk 与 Karpathy 都没事先告诉他 Karpathy 准备离开 OpenAI。\n\n**法庭程序：** Brockman 完成证词后离开，控方下一个被传唤的证人队列中包含 OpenAI 早期 CTO Mira Murati 与 Microsoft 律师团；庭审计划在 5 月 21 日前结束 liability 阶段，最终由法官 Yvonne Gonzalez Rogers 做出非陪审团式的最终裁决。\n\n**背景回顾：** 2024 年 Musk 起诉 OpenAI 与 Altman / Brockman'欺诈性诱导'其捐资创办 OpenAI，并要求法院撤销其转向营利结构的所有重组动作；庭审 4 月 28 日在 Oakland 联邦法院开庭。",
+      "key_quotes": [
+        "Brockman said Musk had OpenAI employees do secret work on self-driving technology at Tesla. — CNBC",
+        "Musk told him he wanted control of OpenAI, in part, to finance the building of a 'city on Mars' which the SpaceX CEO had said required $80 billion. — WABX",
+        "He said Musk declined a proposal during an in-person meeting, then tore a painting of a Tesla Model 3 car off the wall, and began storming out of the room. Before he left, Brockman said Musk turned and demanded to know when he and his cofounders would be leaving the company. He said he feared Musk might hit him at the time. — CNBC"
+      ],
+      "significance": "Brockman 的证词在 Day 6 完成了对 Musk 'AI 使命遭背叛'叙事的系统性反向打击：（a）'秘密给 Tesla 做 FSD'把 'OpenAI 资源被私挪用'的指控原地回敬到 Musk 头上；（b）'$800 亿建火星城'把 Musk 控诉的资金动机由'保护非营利使命'变成'我自己缺钱'；（c）撕画 + 担心被打的画面对陪审团的人格判断影响极大。多数法律观察家本周已开始公开预测 Musk 此役难胜——这将直接关系到 OpenAI 营利结构的合法性、Microsoft 的 $100 亿投资风险与 Anthropic / xAI 间未来商业秩序的边界。",
+      "links": [
+        "https://www.cnbc.com/2026/05/05/open-ai-altman-musk-trial-brockman-testimony.html",
+        "https://www.bloomberg.com/news/articles/2026-05-05/brockman-says-musk-s-lack-of-ai-knowledge-was-concern-at-openai",
+        "https://thetechportal.com/2026/05/05/greg-brockman-testifies-his-openai-stake-is-worth-nearly-30bn-during-musk-vs-openai-trial",
+        "https://www.nbcbayarea.com/news/local/openai-trial-live-updates-musk-altman-brockman/4079376/",
+        "https://fortune.com/2026/05/05/musk-court-fight-openai/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Greg Brockman", "Elon Musk", "Trial", "Tesla", "Mars"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "4",
+      "title": "GPT-5.5 launch party 5-5 在 SF 落地：5:55pm 自定开场、AI 自策展，OpenAI 给 8000 名落选申请者全部加 10 倍 Codex 速率（持续到 6 月 5 日）",
+      "source": "OpenAI",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/technology/openai-turns-its-sold-out-gpt-5-5-party-into-a-monthlong-codex-giveaway-for-8-000-developers",
+      "story_key": "openai-gpt55-launch-party-musk-invite",
+      "event_date": "2026-05-05",
+      "summary": "GPT-5.5 launch party 5 月 5 日 17:55-20:55 在旧金山一处未公开场地举行——是首场由 AI（GPT-5.5）自己挑日期 / 选客 / 设流程 / 拒绝亲自致辞的产品发布。同日 OpenAI 给所有 8000+ 申请却落选的开发者发邮件——每人个人 ChatGPT 账号 **Codex 速率限额一次性提升 10 倍**，有效期到 6 月 5 日。',",
+      "detail": "OpenAI 把 4 月 30 日预热 + 5 月 5 日落地的 'GPT-5.5 on 5/5' 玩成了一次极规模化的开发者激励：\n\n**线下：模型自己策划自己的发布派对。** 5 月 5 日 17:55-20:55 PDT 在 SF 一处仅向到场者公布的场地举行；模型 GPT-5.5 自己在 4 月底完成全部规划——选定 5 月 5 日（GPT-5.5 + 5/5 数字对仗）、要求人类开发者发短致辞 + 自己拒绝亲自致辞、并要求设置一个**收集 GPT-5.6 灵感的'许愿箱'**，所有想法直接喂回模型迭代流程。Codex Agent 还协助挑选了实际邀请名单。\n\n**线上：8000+ 落选开发者拿到 10 倍 Codex 速率。** 申请名额在 24 小时内突破 **8000 人**——远超 SF 场地容量。OpenAI 选择'人人有奖'：所有申请者（无论被接受、候补还是被婉拒）都收到一封邮件——其个人 ChatGPT 账号的 **Codex 速率限额即刻 ×10**，有效期持续到 **6 月 5 日**。VentureBeat 把这次操作归类为'开发者侧最大规模的一次速率红利发放'——意图是把 8000 多名愿意飞到 SF 来的高粘性开发者一次性绑进 Codex 工作流。\n\n**Sam Altman 公开邀请 Musk 出席。** 此前 4 月 30 日 Altman 公开发推邀请正在与自己打官司的 Musk 出席：'He can come if he wants. World needs more love.' 截至庭审 Day 6（5-5），双方均未确认 Musk 是否到场。\n\n**背景回顾：** 4 月 30 日 Altman 公开发帖邀请 Musk 出席 5 月 5 日的 launch party，细节是 GPT-5.5 自己规划场次、自选时间 5:55pm、拒绝亲自致辞——首场 AI 策划自己的发布会。",
+      "key_quotes": [
+        "Everyone who raised their hand — whether they were accepted, waitlisted, or turned away — received the rate limit boost. — VentureBeat",
+        "GPT-5.5 itself planned the party, proposing the May 5 date, suggesting that human developers give the toasts rather than the AI, and recommending setting up a suggestion box for the next-generation model. — VentureBeat"
+      ],
+      "significance": "OpenAI 用一次发布派对把'AI 自我策划'和'8000 开发者一次性 Codex 加倍'打包成同一组营销动作——既炫耀模型能力（自己规划自己的发布会、自选时间、自挑客人），又转化为开发者粘性（10 倍 Codex 速率到 6 月 5 日）。这是首次主流 AI 厂商把'AI 主策展'纳入产品发布仪式——并且是首次'落选申请者也能拿到实质性产品红利'的开发者激励——预计会被业内同行效仿。",
+      "links": [
+        "https://venturebeat.com/technology/openai-turns-its-sold-out-gpt-5-5-party-into-a-monthlong-codex-giveaway-for-8-000-developers",
+        "https://www.newsbytesapp.com/news/science/openai-plans-invite-only-gpt-55-on-55-meetup-in-san-francisco/tldr",
+        "https://www.aol.com/articles/sam-altman-asked-gpt-5-083001942.html"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-5.5", "Sam Altman", "Codex", "Launch Party"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "PayPal 新 CEO Enrique Lores 首次发声：未来 2-3 年砍 4500 岗（约 20%）+ 设 'AI transformation and simplification' 团队，目标 $15 亿美元成本节省",
+      "source": "PayPal",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/",
+      "story_key": "paypal-ai-restructuring-1-5b",
+      "event_date": "2026-05-05",
+      "summary": "PayPal 5 月 5 日发布新 CEO Enrique Lores 治下的首份 Q1 财报，同步公开 AI 驱动的转型方案：未来 **2-3 年内裁掉约 4500 个岗位（占员工总数 20%）+ 设立 'AI transformation and simplification' 团队**，目标累计 **$15 亿美元**成本节省。",
+      "detail": "Enrique Lores 4 月底接任 PayPal CEO 后，5 月 5 日给市场端出他的第一份'转型蓝图'：\n\n**裁员规模：4500+ 个岗位、占员工总数约 20%。** PayPal 截至 2025 年底员工约 **23,800 人**——20% 即超过 4500 岗。Lores 把这次裁员的对象主要定义为'组织层级（layers）'，即中层管理 / 流程协调岗。\n\n**AI 团队：'AI transformation and simplification' 部门。** Lores 同时宣布在内部成立一个新的 'AI transformation and simplification' 团队——专责把 AI 与自动化部署到运营和技术平台的每一层；自报理由是'同时改善客户体验和内部效率'。\n\n**财务目标：$15 亿美元成本节省，2-3 年累计实现。** Lores 把 AI + 裁员的合并效果量化为 **$15 亿美元**（约 RMB 109 亿）的累计成本节省。\n\n**Q1 财报：营收 $84 亿（+7% YoY）超预期，但 Q2 指引偏弱。** PayPal Q1 实际营收 **$84 亿美元（+7% YoY）**——超华尔街预期；但 Q2 业绩指引转弱，财报后股价下跌。\n\n**叙事升级：'重新成为一家科技公司'。** Lores 在电话会议上把这次重组定调为'PayPal 重新成为一家技术公司（becoming a technology company again）'——这是 PayPal 自 2014 年从 eBay 拆分以来首次以这种语言对外定位，宣告**完成从'金融机构'到'AI-first 科技公司'**的身份切换。",
+      "key_quotes": [
+        "We are accelerating efforts to deploy AI and automation across our operations and technology platform, which we expect will both improve the customer experience and drive meaningful internal efficiencies. — Enrique Lores",
+        "PayPal is becoming a technology company again. — Enrique Lores"
+      ],
+      "significance": "PayPal 是 fintech 行业第一家用 AI 公开为 20% 大裁员定锚的头部公司——把 'AI 替代中层管理 / 流程协调岗' 写进 CEO 首份对外叙事。这预计会成为 fintech 与传统金融机构 2026 年的标准模板：先公开承认裁员目标，再用 AI 节省 $15 亿包装为'技术转型'故事——同期 Coinbase、SoFi 等同业可能跟进。",
+      "links": [
+        "https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/",
+        "https://seekingalpha.com/news/4585649-paypal-targets-15b-in-cost-savings-by-optimizing-cost-structure",
+        "https://rollingout.com/2026/05/05/paypal-pypl-workforce-cuts-turnaround/",
+        "https://innovation-village.com/paypal-to-cut-jobs-despite-strong-earnings-in-1-5bn-cost-push/"
+      ],
+      "image": "assets/logos/paypal-logo.png",
+      "image_type": "logo",
+      "tags": ["PayPal", "Enrique Lores", "Layoffs", "AI Transformation", "Fintech"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "ServiceNow Knowledge 2026 主题演讲（5-5 Las Vegas）：'Autonomous Workforce' 全面 GA，内部 IT 服务台 99% 比人快、Docusign 目标 90% IT 工单自动闭环、AI Control Tower 标配并联 Microsoft Agent 365",
+      "source": "ServiceNow",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/05/05/servicenow-knowledge-2026-autonomous-workforce-microsoft-nvidia-ai-announcements/",
+      "story_key": "servicenow-knowledge-2026-autonomous-workforce",
+      "event_date": "2026-05-05",
+      "summary": "ServiceNow Knowledge 2026（5 月 5-7 日 Las Vegas Venetian）今日开幕主题演讲一次性放出 'Autonomous Workforce'——一组**自主完成完整业务流程**的 AI specialist 套件，自报内部 IT 服务台已比人类客服 **快 99%**；Docusign 目标 **90% IT 工单**全自动闭环；同步把 AI Control Tower 标配进所有产品、并与 Microsoft Agent 365 治理架构对接。",
+      "detail": "ServiceNow 在 Knowledge 2026 主题演讲（Bill McDermott 主持）端出 2026 年最完整的'代理人版企业 SaaS'方案：\n\n**核心新品：Autonomous Workforce。** 与之前的 'AI assistant' 套件不同，Autonomous Workforce 是一组**端到端自动完成业务流程**的 specialist Agent（Agent 不是辅助员工、而是替员工完成整套流程）。具体类型覆盖 IT 服务台、HR、财务对账、合规审查、客服等。\n\n**自报实锤数据：** \n- **ServiceNow 自家 IT 服务台**：AI specialist 处理工单**比人类工单快 99%**\n- **Docusign**：目标 **IT 工单 90% 自动闭环**（无需人介入）\n- **Honeywell**：AI 助手已经'消除了大部分服务台对话'\n- **City of Raleigh**（北卡罗来纳州 Raleigh 市政府）：员工请求 **98% 自动转入 deflection**——节省一整月的员工时间\n\n**生态：与 Microsoft Agent 365 全面联通。** ServiceNow 今日同步宣布把自家 **AI Control Tower（AI 治理中枢）能力标配进所有产品**——不再作为单独 add-on 售卖；同时与 Microsoft 深化合作：把 AI Control Tower 治理范围扩展到 Microsoft Agent 365 整个 Agent 生态。这意味着 ServiceNow 的 IAM / 权限 / 审计能力将管控 Microsoft 全栈 Agent 行为。\n\n**Moveworks 整合官宣完成。** ServiceNow 同步公布对 2025 年收购的 Moveworks 完成产品级整合——Moveworks 的对话 AI 能力被纳入 ServiceNow AI Platform 主线产品。",
+      "key_quotes": [
+        "Enterprises need AI that senses, decides, and securely acts. — ServiceNow Knowledge 2026 keynote",
+        "ServiceNow's internal AI specialist resolved IT service desk cases 99% faster than human agents. — Fortune"
+      ],
+      "significance": "ServiceNow 把 'Autonomous Workforce' 标配 + 'AI Control Tower 全产品化'是企业 SaaS 行业 2026 年最关键的 packaging 信号——把'治理 + 完整流程自动化'变成默认条款，挤压 Salesforce Agentforce / Microsoft Agent 365 / Workday 的销售位面。同时 Microsoft Agent 365 + ServiceNow AI Control Tower 的对接，把企业 AI 治理标准的话语权进一步拽到 ServiceNow 一边——这场 Salesforce vs ServiceNow 的'Agent 操作系统之争'今天又升级一格。",
+      "links": [
+        "https://fortune.com/2026/05/05/servicenow-knowledge-2026-autonomous-workforce-microsoft-nvidia-ai-announcements/",
+        "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-launches-Autonomous-Workforce-that-thinks-and-acts-adds-Moveworks-to-the-ServiceNow-AI-Platform/default.aspx"
+      ],
+      "image": "assets/logos/servicenow-logo.png",
+      "image_type": "logo",
+      "tags": ["ServiceNow", "Knowledge 2026", "Autonomous Workforce", "Microsoft", "AI Agents", "Enterprise SaaS"],
+      "category": "builders"
+    },
+    {
+      "id": "7",
+      "title": "AMD Q1 2026 财报双超：营收 $103 亿（+38% YoY）/ 数据中心 $58 亿（+57% YoY）/ EPS $1.37——MI355X MLPerf 多项第一、MI500 系列已与多家头部客户深度对接",
+      "source": "AMD",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html",
+      "story_key": "amd-q1-2026-earnings",
+      "event_date": "2026-05-05",
+      "summary": "AMD 5 月 5 日盘后公布 Q1 2026 财报：营收 **$103 亿（+38% YoY）**、数据中心收入 **$58 亿（+57% YoY）**、EPS **$1.37** 全部超预期；AI 加速器旗舰 **MI355X 在最新 MLPerf 多类第一**，与 OpenAI 等头部客户的合作进入持续兑现期；股价盘后 +4%。",
+      "detail": "AMD 在 Q1 2026 把'AI 加速器追赶 NVIDIA'故事再做实一档：\n\n**财务硬数据：**\n- **总营收 $103 亿美元（+38% YoY）**——预期 $98.5 亿\n- **EPS $1.37**——预期 $1.27\n- **数据中心收入 $58 亿美元（+57% YoY）**——上一年同期 $36.7 亿\n- **盘后股价 +4%**\n\n**MI355X：MLPerf 多类第一。** AMD 旗舰 AI 加速器 **MI355X** 在最新 MLPerf 测试中**取得多个类别的领先成绩**——这是 AMD 首次以单卡形式在 MLPerf 类别拿到第一。AMD CEO Lisa Su 自报'已与多家头部客户深度对接 MI355 部署'。\n\n**MI500 系列：与多家头部客户进入'高度协同'阶段。** AMD 明确披露 **MI500 系列**已经与多家头部客户进入'highly engaged'状态。背景是 2025 年 10 月 AMD 与 OpenAI 签下 6GW MI300/MI400 系列大单，今年开始落地。\n\n**业务结构变化：数据中心首次成为单独最大收入来源。** Q1 数据中心 $58 亿首次跨过总营收的 56%，叠加 AI 加速器纯利率持续抬升，AMD 已经从'CPU + GPU 双引擎'转向'数据中心 AI 加速器主引擎'。\n\n**毛利率与 OpenAI 合同结构隐忧。** 财报问答环节多家投行关注：（1）数据中心毛利率压力——内存（HBM）价格 4 月再涨 30% 把整张 BOM 推高；（2）OpenAI 合同的'股权 + 设备折扣'结构是否会进一步稀释毛利。",
+      "key_quotes": [
+        "MI355X delivered strong competitive performance across the full suite with leadership results in multiple categories in the latest MLPerf results. — AMD Q1 2026 call",
+        "Many customers are also very engaged with AMD on the MI500 series. — Lisa Su"
+      ],
+      "significance": "AMD Q1 2026 把'数据中心 +57%、单季 $58 亿'写进财报数据库——是除 NVIDIA 之外 AI 加速器收入第一次进入'季度 50 亿美元 + 50%+ 增速'的双门槛。配合 MLPerf MI355X 多项第一，AMD 在 NVIDIA Hopper / Blackwell 主导的 AI 加速器市场首次取得'技术 + 商业'双线打实。OpenAI / Microsoft / Meta 等的 capex 大增（$7250 亿）正在跨过 NVIDIA 单一供应商的瓶颈、加速向 AMD 分流。",
+      "links": [
+        "https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html",
+        "https://www.investing.com/news/transcripts/earnings-call-transcript-amds-q1-2026-earnings-surpass-expectations-stock-rises-93CH-4661423",
+        "https://www.tradingkey.com/analysis/stocks/us-stocks/261847386-amd-earnings-gross-margin-openai-ai-chip-valuation-tradingkey"
+      ],
+      "image": "assets/logos/amd-logo.png",
+      "image_type": "logo",
+      "tags": ["AMD", "Q1 2026", "MI355X", "Data Center", "MLPerf", "OpenAI"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "AWS 'What's Next' 大会同日发四件套：Amazon Quick 桌面端 AI 助理（macOS / Windows）+ Amazon Connect 一拆四个 agentic 解决方案（Decisions / Talent / Customer / Health）",
+      "source": "AWS",
+      "source_name": "AWS Blog",
+      "source_url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-whats-next-with-aws-2026-amazon-quick-openai-partnership-and-more-may-4-2026/",
+      "story_key": "amazon-quick-desktop-aws-launch",
+      "event_date": "2026-05-04",
+      "summary": "AWS 在 5 月 4 日'What's Next' 大会推出 **Amazon Quick 桌面端 AI 助理**（macOS / Windows preview）+ 把 **Amazon Connect 一拆四个 agentic 解决方案**（Decisions 供应链 / Talent 招聘 / Customer 客服 / Health 医疗）；Quick 同时打通 Google Workspace、Zoom、Airtable、Dropbox、Microsoft Teams 等。",
+      "detail": "AWS 在'What's Next with AWS 2026'端出 AWS 史上最完整的'桌面 AI + 客服后台 AI'组合拳：\n\n**Amazon Quick 桌面端：从浏览器 escape 到原生应用。** Quick（去年发布的 AWS AI 助理）今天 macOS / Windows 桌面 preview 版上线——首次跳出浏览器，**直接读取本地文件、发出 OS 级通知、原生控制桌面**。Quick 后台持续监控所有连入 app 数据流，主动'**推送需要你注意的事**'。\n\n**Quick 集成范围一次性扩到 Big 6+：** Google Workspace / Zoom / Airtable / Dropbox / Microsoft Teams——加上原有的 AWS 内部数据源、Slack、Salesforce 等，Quick 已构成横跨主流办公生态的 Agent 中心。同时正式开放 Free 与 Plus 套餐订阅入口、对话框内置图像生成、第三方 app 一键接入流程上线。\n\n**Amazon Connect：从单产品拆成 4 个 agentic 解决方案。** 同日 AWS 把原先单产品形态的 Amazon Connect 拆为四个独立 agentic 子产品——直接对位 Salesforce Service Cloud + Workday 后台流程：\n- **Amazon Connect Decisions** — 供应链 Agent\n- **Amazon Connect Talent** — 招聘 Agent\n- **Amazon Connect Customer** — 客服 Agent\n- **Amazon Connect Health** — 医疗 Agent\n\n**生态联动：与 OpenAI 同期合作走深。** AWS 同日发布通过 Bedrock 提供 OpenAI 模型 + Codex Agent + Bedrock Managed Agents (powered by OpenAI) 的整合更新——上下文是 OpenAI 4 月 27 日终结 Microsoft 独家 IP 许可。",
+      "key_quotes": [
+        "Amazon Quick is an AI assistant for work that connects to all of them, learns what matters to you, and takes action on your behalf. — Amazon Newsroom",
+        "Amazon Connect is expanding from a single product into a set of four agentic AI solutions designed to work within your existing workflows. — AWS Blog"
+      ],
+      "significance": "AWS 把 'Quick 跳上桌面 + Connect 拆成 4 个独立 agentic 产品' 同日端上桌——首次把 AWS 在企业 AI 的产品线从'API / 模型托管'拓宽到'**桌面 OS-level 助理 + 端到端业务流程 Agent**'。这是 AWS 直接对标 ServiceNow Autonomous Workforce + Microsoft Agent 365 + Salesforce Agentforce 的同一战场宣战——三家 cloud + SaaS 巨头终于在企业 Agent 市场全部正面交锋。",
+      "links": [
+        "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-whats-next-with-aws-2026-amazon-quick-openai-partnership-and-more-may-4-2026/",
+        "https://www.aboutamazon.com/news/aws/amazon-quick-desktop-ai-assistant",
+        "https://aws.amazon.com/blogs/aws/top-announcements-of-the-whats-next-with-aws-2026/"
+      ],
+      "image": "assets/logos/amazon-logo.png",
+      "image_type": "logo",
+      "tags": ["AWS", "Amazon Quick", "Amazon Connect", "Desktop AI", "AI Agents"],
+      "category": "builders"
+    },
+    {
+      "id": "9",
+      "title": "首份 AI 责任险来了：YC 系 Corgi 5-4 上线 'AI Liability Insurance'，承保幻觉 / 算法偏见 / 训练数据纠纷三大类——已累计融资 $1.08 亿",
+      "source": "Corgi",
+      "source_name": "Artificial Lawyer",
+      "source_url": "https://www.artificiallawyer.com/2026/05/05/corgi-launches-ai-liability-insurance/",
+      "story_key": "corgi-ai-liability-insurance",
+      "event_date": "2026-05-04",
+      "summary": "Y Combinator 投资的全栈 AI 原生保险公司 Corgi 5 月 4 日宣布上线 **'AI Liability Insurance'**——专门覆盖 (1) 模型表现 / 幻觉，(2) 算法偏见，(3) 训练数据纠纷三大类 AI 故障责任；公司累计融资达 **$1.08 亿美元**，号称首家专为初创公司设计的 AI 原生全栈保险公司。",
+      "detail": "AI 行业终于补上'当 AI 出错时谁赔'这一块缺失的市场基础设施：\n\n**产品：'AI Liability Insurance' 三大承保类。** 由 YC + Kindred Ventures + Contrary + Glade Brook + Seven Stars 等投资的 Corgi 上线**首份针对 AI 公司与 AI 工具使用者的责任险**：\n- **模型表现 / 幻觉（model performance & hallucination）**：当 AI 输出造成商业损失时\n- **算法偏见（algorithmic bias）**：当 AI 决策构成歧视投诉或合规违规时\n- **训练数据纠纷（training data disputes）**：当训练数据来源被起诉或撤销使用权时\n\n额外承保场景包含合成媒体（synthetic media）滥用、对抗性攻击、自主系统失效等。\n\n**目标客户：双向覆盖 AI 公司与 AI 使用者。** Corgi 明确承保对象同时包括：（a）提供 AI 输出的厂商，（b）使用 AI 工具的企业（包括律所）。\n\n**公司：YC 全栈、$1.08 亿融资、监管审批通过。** Corgi 累计融资 **$1.08 亿**，公司近期获得监管批准上线为'首家专为初创公司设计的 AI 原生全栈保险载体'——意味着 Corgi 自己持有保险牌照，而不是简单的 broker。\n\n**触发因素：法律纠纷正在变快。** 这次发布的市场背景是过去 6 个月 AI 公司被告频次明显升级——从 Tumbler Ridge 加拿大校园枪击案家属起诉 OpenAI，到 Florida 总检察长对 OpenAI 的刑事调查扩大，再到 PocketOS 数据库被 Cursor + Claude 删空——AI 系统'真伤害真用户'的法律先例已开始堆积。Corgi 的产品上市恰好踩在这条曲线起点。",
+      "key_quotes": [
+        "Corgi is now offering AI liability insurance – for both the AI companies providing the outputs, and the businesses – and potentially law firms – that use those AI tools. — Artificial Lawyer",
+        "First AI-native, full-stack insurance carrier designed specifically for startups. — Reinsurance News"
+      ],
+      "significance": "AI 责任险走到'独立产品'阶段，是产业从'技术能力'阶段走向'风险定价'阶段的重要信号。当保险公司开始为 AI 故障开真单子，意味着两件事：（a）AI 故障已频繁到能形成精算曲线，（b）律所、企业、政府开始把 AI 责任写进采购合同。同时也间接为 OpenAI、Anthropic 等大厂 'Mythos / 新模型' 类风险敞口提供二级市场对冲基础——预计 2026 H2 起会有更多保险公司跟进。",
+      "links": [
+        "https://www.artificiallawyer.com/2026/05/05/corgi-launches-ai-liability-insurance/",
+        "https://www.reinsurancene.ws/corgi-secures-108m-to-expand-ai-native-insurance-platform-for-startups/",
+        "https://finance.yahoo.com/sectors/technology/articles/corgi-launches-ai-insurance-coverage-014100503.html",
+        "https://www.corgi.insure/ai"
+      ],
+      "tags": ["Corgi", "AI Insurance", "Y Combinator", "AI Liability", "Startup"],
+      "category": "trending"
+    }
+  ]
+}
