@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-07",
+  "total_candidates": 14,
+  "kept": 8,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "anthropic-spacex-colossus-deal",
+      "event_date": "2026-05-06",
+      "title_en": "Anthropic signs SpaceX Colossus 1 deal — all 220k GPUs in Memphis, plus orbital compute MOU, Claude API rate limits +900-1500%",
+      "source": "Anthropic Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major novel deal: Anthropic gets 100% of xAI/SpaceX Colossus 1 (220k+ NVIDIA GPUs, 300MW), expressed interest in multi-gigawatt orbital compute partnership; immediately doubles Claude Code 5-hr rate limits, removes peak-hours, lifts Opus API limits 900-1500%. Reads as competitive irony: Anthropic on Musk infra weeks before SpaceX IPO."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-05",
+      "title_en": "CAISI signs frontier-AI pre-deployment evaluation agreements with Google DeepMind, Microsoft, xAI",
+      "source": "NIST/CAISI",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-4 as 'White House drafts EO requiring federal vetting of new AI models'. New info on 5-5: Center for AI Standards and Innovation (CAISI, in Commerce/NIST) actually SIGNED pre-deployment evaluation agreements with Google DeepMind, Microsoft, and xAI — covering cyber, biosecurity, chemical-weapons risks. CAISI says 40+ evaluations already completed including unreleased systems. This is the operational follow-up to the draft EO."
+    },
+    {
+      "story_key": "hut8-texas-ai-data-lease",
+      "event_date": "2026-05-06",
+      "title_en": "Hut 8 signs $9.8B / 352 MW AI data center lease at Beacon Point, Texas — extensions could push to $25.1B over 15 years",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Crypto-miner-turned-AI-infra Hut 8 signed undisclosed 'high-investment-grade' tenant for 352 MW at Beacon Point, Nueces County TX. Base rent ~$655M/yr, contracted $9.8B over initial term, up to $25.1B with three 5-yr extensions. Stock +36% pre-market. First phase online late 2027. Designed for NVIDIA latest data center systems."
+    },
+    {
+      "story_key": "deepseek-big-fund-50b-valuation",
+      "event_date": "2026-05-06",
+      "title_en": "DeepSeek raising state-led $45-50B round — China's 'Big Fund' to lead first-ever outside funding",
+      "source": "Financial Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. China Integrated Circuit Industry Investment Fund ('Big Fund') in advanced talks to lead DeepSeek's first-ever fundraise at ~$45B (some reports $50B); previously valued $10-30B. China's National AI Industry Investment Fund ($8.8B AUM) joining. Beijing formally treating DeepSeek as national AI champion. Renminbi-denominated round."
+    },
+    {
+      "story_key": "samsung-trillion-market-cap",
+      "event_date": "2026-05-06",
+      "title_en": "Samsung Electronics joins $1T market cap club on AI memory rally — Q1 operating profit 8x YoY, all from semis",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Samsung +14.4% on 5-6 to cross $1T market cap; second Asian co. after TSMC. Q1 ₩133.9T revenue, ₩57.2T operating profit (8x YoY, record), 94% from semis (₩53.7T). 2026 HBM4 capacity sold out. Samsung+Hynix warn AI memory shortages persist through 2027+. KOSPI hits 7,400. Earlier briefings touched on 'memory pricing' as biggest hyperscaler capex variable; this is the supply-side bookend."
+    },
+    {
+      "story_key": "apple-tsmc-supply-diversification",
+      "event_date": "2026-05-05",
+      "title_en": "Apple in early talks with Intel and Samsung as backup chip foundries — AI supply crunch forces TSMC alternatives",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Bloomberg exclusive 5-5: Apple held early talks with Intel and Samsung about producing main device processors in the US — first secondary option beyond TSMC in years. Driver = AI data center buildout + higher-than-expected Mac AI demand causing chip shortages (Cook flagged 'advanced node availability' as biggest supply chain constraint). No orders yet; Samsung Texas plant visited."
+    },
+    {
+      "story_key": "openai-gpt55-instant-default",
+      "event_date": "2026-05-05",
+      "title_en": "OpenAI rolls out GPT-5.5 Instant as new ChatGPT default — replaces GPT-5.3 Instant, search-tool memory across past chats / files / Gmail",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from openai-gpt55-launch-party-musk-invite (which was the 5-5 party event itself). This is the actual model rollout: GPT-5.5 Instant becomes default for all ChatGPT, replacing GPT-5.3 Instant. Adds personalization that searches past conversations + files + Gmail. AIME 2025 81.2 vs 65.4 prior; MMMU-Pro 76 vs 69.2. Lower hallucination in law/medicine/finance. Plus/Pro/Business/Enterprise; Pro variant available."
+    },
+    {
+      "story_key": "google-gemini-remy-agent",
+      "event_date": "2026-05-06",
+      "title_en": "Google's secret '24/7' Gemini agent 'Remy' leaks — staff-only build that takes actions across Gmail/Calendar/Docs/Drive",
+      "source": "Business Insider",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Business Insider 5-6 exclusive based on internal Google docs: Remy is a staff-only Gemini app variant designed as 24/7 personal agent that 'takes actions on your behalf — not just answers questions'. Deeply integrated with Gmail/Calendar/Docs/Drive/Keep/Tasks; learns user preferences. Likely Google I/O announcement. Frames Gemini's pivot to agentic frontier."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-06",
+      "title_en": "Musk v. Altman — Day 7 routine cross of incoming witnesses; no major news vs. Day 6 Brockman testimony",
+      "source": "@brkn",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 4-29, 4-30, 5-4, 5-5 (4 days running). 5-5 entry already covered Brockman's 'Tesla self-driving', '$80B Mars city', and 'Tesla painting' bombshells. 5-6/5-7 testimony of secondary witnesses contains no material development surfacing in major outlets — judge expects liability phase to end ~5-21. Add only when verdict, dismissal, or major bombshell."
+    },
+    {
+      "story_key": "jeff-dean-berkeley-protest",
+      "event_date": "2026-05-01",
+      "title_en": "Berkeley protesters shut down Jeff Dean talk over Gemini and Gaza",
+      "source": "Daily Californian",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Event date 2026-05-01 (May Day demonstration). Today 2026-05-07 → 6 days, exceeds 5-day freshness limit. Drop."
+    },
+    {
+      "story_key": "anthropic-finance-jv-agents-launch",
+      "event_date": "2026-05-06",
+      "title_en": "Anthropic finance agents recap roundup",
+      "source": "Multiple",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-5 with full detail on $1.5B JV with Blackstone/H&F/Goldman + 10 finance agents on Opus 4.7 + 64.37% Vals Finance #1. 5-6 / 5-7 coverage is rehashed roundup news (e.g., crescendo.ai aggregator). No new material development."
+    },
+    {
+      "story_key": "eu-ai-act-omnibus-trilogue",
+      "event_date": "2026-04-28",
+      "title_en": "EU Digital Omnibus on AI second trilogue ends without deal; third trilogue 5-13",
+      "source": "TheNextWeb",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "The actual development (failed second trilogue) was 2026-04-28. Today 2026-05-07 → 9 days. Third trilogue is on 5-13 (future). Anchor event >5 days. Drop until 5-13."
+    },
+    {
+      "story_key": "tesla-cybercab-fsd-v14",
+      "event_date": "2026-04-27",
+      "title_en": "Tesla FSD v14.3.2 rollout / Cybercab production updates",
+      "source": "Tesla Oracle",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Latest concrete event 2026-04-27 (FSD v14.3.2). Today 2026-05-07 → 10 days. >5 day limit. Drop."
+    },
+    {
+      "story_key": "openai-25b-arr-ipo",
+      "event_date": "2026-02-28",
+      "title_en": "OpenAI tops $25B annualized revenue — early IPO groundwork",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying milestone reported end of February 2026 (>2 months ago). Today's coverage is recap, not a new event. Drop."
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "date": "2026-05-07",
+  "category": "AI",
+  "researched_at": "2026-05-07T07:05:00Z",
+  "sources_checked": [
+    "@anthropic", "@AnthropicAI", "@xai", "@spacex", "@elonmusk",
+    "@sama", "@OpenAI", "@demishassabis", "@JeffDean", "@GoogleDeepMind",
+    "@DanielaAmodei", "@DarioAmodei", "@alexandr_wang",
+    "@mntruell", "@mikeyk", "@ScottWu46", "@alighodsi",
+    "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@karpathy", "@DrJimFan",
+    "@lexfridman", "@garrytan", "@julien_c", "@JonathanRoss321", "@ilyasut",
+    "Bloomberg", "TechCrunch", "CNBC", "The Information", "Reuters",
+    "Axios", "Financial Times", "The Washington Post", "Business Insider",
+    "Anthropic Newsroom", "xAI Newsroom", "OpenAI Blog", "NIST/CAISI",
+    "Daily Californian", "DataCenterDynamics", "Engadget", "9to5Mac"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic 一举吃下 xAI Memphis Colossus 1 全部 22 万张 GPU + 与 SpaceX 签 'orbital compute' 备忘录——同日 Claude Opus API 限流上调 900-1500%、Claude Code 5 小时额度翻倍",
+      "source": "Anthropic Newsroom",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
+      "story_key": "anthropic-spacex-colossus-deal",
+      "event_date": "2026-05-06",
+      "summary": "Anthropic 5 月 6 日宣布与 Elon Musk 旗下 SpaceX 签下 Colossus 1 数据中心**全部计算容量**——Memphis 园区 **300+ MW、22 万张 NVIDIA H100/H200/GB200 GPU 当月全数交付**——并同步表达与 SpaceX 共建**多吉瓦轨道 (orbital) AI 数据中心**的合作意向；当日 Claude Opus API 限流被一次性上调 **900-1500%**、Claude Code 5 小时额度翻倍并取消 peak hours 限制。",
+      "detail": "Anthropic 5 月 6 日同步发布两项重磅公告，全部由 Elon Musk 旗下 SpaceX / xAI 提供：\n\n（1）**Memphis 全包**：Anthropic 拿下 xAI / SpaceX **Colossus 1**（位于 Memphis, Tennessee 的全球最大单体 AI 超算之一）**全部计算容量**——超过 **300 MW** 新增容量、**22 万+ NVIDIA GPU**（H100 / H200 / GB200 混合部署）将在**当月内交付**。Anthropic 内部表态：本次容量将'直接提升 Claude Pro 与 Claude Max 订阅服务'。\n\n（2）**轨道 AI 备忘录**：Anthropic 同步公开'对与 SpaceX 联合开发**多吉瓦级轨道 AI 计算容量**的合作意向'——SpaceX 是目前全球唯一具备低成本批量入轨能力的供应商（Falcon 9 / Starship），把它写进 AI 算力路线图本身就是产业级别的重定义。\n\n（3）**API 限流当日大放水**：得益于额外 22 万 GPU 即将上线，Anthropic 同步把 Claude **Opus** API tier 1 输入 token / 分钟上调 **1500%**、输出 token / 分钟上调 **900%**；Claude Code 5 小时额度**翻倍**、Pro / Max 'peak hours' 限制全部取消。这是 Anthropic 自 2024 年以来一次性公开的最大限流放宽。\n\n（4）**地缘讽刺**：Musk 正在 Oakland 联邦法庭控告 OpenAI / Altman 把 'OpenAI 非营利使命'颠覆为商业巨兽（庭审进入 Day 7），同周 Musk 的 SpaceX 把全部 Colossus 1 算力卖给 OpenAI 头号竞争对手 Anthropic——并在 SpaceX **6 月 IPO 前两个月**完成签约。市场把这条理解为：Musk 把'反 OpenAI'当成商业武器，把 xAI 自家算力让给敌人的敌人。\n\n（5）**Anthropic 算力组合**：本次 Colossus 1 协议加上此前已公开的 Amazon 5 GW、Google + Broadcom 5 GW、Microsoft-NVIDIA $300 亿 Azure、Fluidstack $500 亿基建——Anthropic 当下握有的 AI 算力组合在多元化与规模上首次接近 / 反超 OpenAI。",
+      "key_quotes": [
+        "Anthropic will use all of the compute capacity at SpaceX's Colossus 1 data center in Memphis — over 220,000 NVIDIA GPUs, more than 300 MW within the month.",
+        "We've also expressed interest in partnering with SpaceX to develop multiple gigawatts of orbital AI compute capacity.",
+        "Tier 1 input tokens-per-minute on Opus +1500%, output tokens-per-minute +900%; Claude Code 5-hour limits doubled, peak hours removed."
+      ],
+      "significance": "Anthropic-SpaceX 是 AI 史上第一桩真正意义上的'敌方资产共享' deal——Musk 的 SpaceX 把 xAI 旗舰超算 Colossus 1 整租给 OpenAI 头号对手 Anthropic，同周 Musk 自己还在法庭控告 OpenAI；与此同时'轨道 AI 算力'第一次被写进商业谅解备忘录，把 AI 数据中心的物理边界从地表推向近地轨道。这条事件单条改变三件事：（1）SpaceX 即将 IPO 时增加'AI infra 提供商'第二条业务线；（2）Anthropic 多元化算力组合首次比肩 / 反超 OpenAI，离 IPO 又近一步；（3）Claude API 限流一次性放宽 900-1500%，是开发者侧最直接的福利、也表明此前 Anthropic 的'compute shortage'已被这一笔解决。",
+      "links": [
+        "https://www.anthropic.com/news/higher-limits-spacex",
+        "https://x.ai/news/anthropic-compute-partnership",
+        "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
+        "https://www.coindesk.com/tech/2026/05/06/anthropic-signs-elon-musk-s-spacex-for-colossus-1-compute-ahead-of-june-ipo",
+        "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/",
+        "https://www.axios.com/2026/05/06/anthropic-spacex-elon-musk-compute",
+        "https://thenextweb.com/news/anthropic-claude-code-rate-limits-spacex-colossus-1"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "SpaceX", "xAI", "Colossus", "compute", "GPU", "data-center", "orbital"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "白宫强制 pre-release vetting 落地：Commerce 旗下 CAISI 5-5 与 Google DeepMind / Microsoft / xAI 三家同时签署 frontier-AI 部署前评估协议——已完成 40+ 评估含未发布模型，覆盖网络 / 生物 / 化武三大风险类",
+      "source": "NIST/CAISI",
+      "source_name": "The Washington Post",
+      "source_url": "https://www.washingtonpost.com/technology/2026/05/05/google-microsoft-xai-ai-review/",
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-05",
+      "summary": "美国商务部下设的 Center for AI Standards and Innovation（CAISI / 前 NIST AISI）5 月 5 日同时与 Google DeepMind、Microsoft、xAI **三家**签下'部署前模型评估协议'——把上周还停留在'白宫起草行政令'阶段的强制 pre-release vetting 实操化；CAISI 自报已完成 **40+ 评估、其中包括尚未公开发布的最先进模型**，评估范围涵盖**网络、生物、化学武器**三大国家安全风险类。",
+      "detail": "（1）**实质性升级**：4 月底 NYT / Bloomberg / Axios 还在报'白宫起草行政令草案、要求 AI 公司发布前提交联邦工作组安全审查'——5 月 5 日 CAISI / NIST 直接公开签约 Google DeepMind / Microsoft / xAI 三家头部，把'草案'阶段一夜跳过、变成已落地的合规协议。\n\n（2）**评估范围**：协议覆盖**网络、生物、化学武器三类国家安全风险**；'部署前评估'+ '部署后评估' + '前沿安全风险研究'三阶段。CAISI 同时把自己定义为**美国政府对商业 AI 测试与研究的唯一对接窗口**。\n\n（3）**已完成 40+ 评估**：CAISI 自报已经完成 **40+ 模型评估，其中包括尚未对外发布的最先进系统**——意味着白宫监管机构在过去几个月里**已经先于公众**接触到 Google / Microsoft / xAI 的下一代模型。\n\n（4）**OpenAI / Anthropic 已在册**：CAISI 自 2024 年起已与 OpenAI、Anthropic 签有合作协议，本周'签三新家'+ '协议重新谈判 OpenAI / Anthropic 旧协议'同步落地——配合 Lutnick 的'America's AI Action Plan'。\n\n**背景回顾：** 5 月 4 日 NYT 独家披露白宫正在起草强制 pre-release vetting EO、当周已与 OpenAI / Anthropic / Google 高管 'table reads' 对读草案。",
+      "key_quotes": [
+        "The Center for AI Standards and Innovation announced new agreements with Google DeepMind, Microsoft and xAI that will let the U.S. government evaluate models before they are publicly released.",
+        "CAISI said it has already completed more than 40 evaluations, including reviews of state-of-the-art systems that have not yet been released.",
+        "Targeted research on frontier AI security risks — covering cyber, biosecurity and chemical-weapons risks."
+      ],
+      "significance": "5 月 5 日的签约使'白宫强制 pre-release vetting'从草案变成已落地的多边合约——并把美国 AI 监管的核心抓手从司法 / 立法转给 Commerce 部下属的 CAISI / NIST。'40+ 评估含未发布模型'第一次把美国政府监管机构与未来数月将公开的 frontier 模型之间设了一道**前置闸门**：技术上 CAISI 拥有在公众前看到模型的能力，政治上行政分支拿到了对 Google / Microsoft / xAI 的实际制衡杠杆。CAISI 自封'唯一对接窗口'也实质性架空了 FTC / FDA / DoD 等对 AI 安全分头执法的体系——白宫第一次以'自愿协议'方式实现了集中化 AI 监管。",
+      "links": [
+        "https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing",
+        "https://www.washingtonpost.com/technology/2026/05/05/google-microsoft-xai-ai-review/",
+        "https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html",
+        "https://www.axios.com/2026/05/05/us-frontier-ai-testing-white-house-pivots-safety",
+        "https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models",
+        "https://www.nextgov.com/artificial-intelligence/2026/05/commerce-ai-center-will-evaluate-google-deepmind-microsoft-and-xai-models/413349/"
+      ],
+      "tags": ["CAISI", "NIST", "Commerce", "AI-policy", "pre-release", "Google", "Microsoft", "xAI", "Anthropic", "OpenAI"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "DeepSeek 启动史上首轮外部融资：$45-50B 估值由中国'大基金'+ 国家 AI 产业投资基金联合主导——估值 6 个月翻 3 倍，正式被 Beijing 写为'国家 AI 冠军'",
+      "source": "Financial Times",
+      "source_name": "Financial Times",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-06/china-chip-fund-in-talks-to-lead-mega-deepseek-funding-ft-says",
+      "story_key": "deepseek-big-fund-50b-valuation",
+      "event_date": "2026-05-06",
+      "summary": "Financial Times 5 月 6 日独家披露：中国集成电路产业投资基金（'大基金'，自 2014 年中国半导体自主战略主投资载体）正在领头**DeepSeek 史上第一轮外部融资**——估值约 **$450-500 亿美元**（人民币计价），较前 6 个月内部估值的 $100-300 亿区间翻 3 倍；中国国家人工智能产业投资基金（资产 $88 亿）参与跟投。",
+      "detail": "（1）**首轮外部融资**：DeepSeek 自 2024 年因 V2 / V3 轰动出圈以来始终拒绝外部融资、由量化对冲基金 High-Flyer 创始人梁文锋 100% 控股自费养。本次将是公司**史上第一笔外部融资**，由中国半导体自主战略主投资载体'大基金'领投——这本身就把 DeepSeek 从'民间黑马'正式抬进**国家 AI 战略**层级。\n\n（2）**估值跳跃**：6 个月内估值从 $100-300 亿区间推到 **$450-500 亿**，与西方头部 AI labs（OpenAI $8520 亿、Anthropic $9000 亿谈判中）相比仍有 17-20x 折让，但已是中国 AI 创业公司的天花板（远超月之暗面、智谱等同类估值）。\n\n（3）**人民币计价**：本轮以**人民币**而非美元结算——配合美国对中国 AI / 芯片公司的多轮制裁、海外资本难入的背景，把 DeepSeek 的 cap table 与外资基本切割。\n\n（4）**国家战略落锤**：'大基金' + '国家 AI 产业基金' 双国资载体同时入局是 Beijing 把 DeepSeek 写为**国家 AI 冠军**的实质动作——之前北京一直谨慎避免给单一民营 AI 公司戴'国家队'帽子，本周突破这条红线。\n\n（5）**与 Huawei 战线呼应**：4 月 30 日 Huawei AI 芯片 2026 营收指引锁定 $120 亿、Ascend 950 PR 量产；DeepSeek V4 仅向 Huawei + Cambricon 开放早期优化窗口；本轮国资融资完成后，DeepSeek + Huawei 的'国家组合'在中国市场对阵 NVIDIA + 美国头部 labs 的体系化对冲基本成型。",
+      "key_quotes": [
+        "China's main chip-sector investment fund is in discussions to lead a fundraising round for DeepSeek at a valuation of about $45 billion (some reports cite $50 billion).",
+        "DeepSeek has previously been valued in a range between $10 billion and $30 billion.",
+        "Beijing has treated DeepSeek as a national AI champion since the startup introduced a powerful model early last year."
+      ],
+      "significance": "本轮融资把 DeepSeek 的政治身份从'民间黑马'升级为'国家 AI 冠军'——大基金 + 国家 AI 产业基金双国资载体直接入主，等同于 Beijing 把 DeepSeek 拿在手里调度。在美国 4 月底进一步收紧 NVIDIA / AMD 对华芯片出口、CAISI 把 frontier 模型纳入联邦 pre-release vetting 的同周，中国把'大基金'国家战略投资载体压在 DeepSeek 头上——是中美 AI 体系**正式分叉**为两套独立资金 + 算力 + 模型 + 政策栈的最新里程碑事件。同时把'最便宜的 frontier 模型'背后估值跳到 $450 亿，意味着开源中国 AI 不再有'估值天花板'。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-06/china-chip-fund-in-talks-to-lead-mega-deepseek-funding-ft-says",
+        "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+        "https://finance.yahoo.com/sectors/technology/articles/deepseek-nears-45-billion-valuation-055621384.html",
+        "https://thenextweb.com/news/china-big-fund-deepseek-45-billion-funding-round",
+        "https://www.thenews.com.pk/latest/1401622-china-backs-deepseek-at-50-billion-valuation"
+      ],
+      "image": "assets/logos/deepseek-logo.png",
+      "image_type": "logo",
+      "tags": ["DeepSeek", "中国", "Big Fund", "funding", "geopolitics", "national-champion"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "4",
+      "title": "Hut 8 一锤定音 Texas 352 MW AI 数据中心：底层合同 **$98 亿** + 三轮 5 年延期可达 **$251 亿** ——加密矿工正式转身 AI infra 二级载体，盘前股价 +36%",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-06/hut-8-to-lease-texas-ai-data-center-for-at-least-9-8-billion",
+      "story_key": "hut8-texas-ai-data-lease",
+      "event_date": "2026-05-06",
+      "summary": "前加密矿工 Hut 8 5 月 6 日宣布签下 **352 MW IT 容量**租约——位于 Texas Nueces County 的 Beacon Point AI 园区——单一'高投资级公司'匿名租户、底层合同价 **$98 亿美元**、年租金 **$6.55 亿**、租金每年自动 +3%；若行权全部 3 个 5 年延期，**总值可达 $251 亿**；股价盘前最高 +36%、即将冲历史新高 $100。",
+      "detail": "（1）**合同结构**：单一租户、352 MW IT 容量（用于 NVIDIA 最新代数据中心系统）、Hut 8 自报年租金 **$6.55 亿**、底层合同 **$98 亿**、租金条款年增 3%；合同中嵌 **3 个 5 年延期权**——如果全部行权，总合同价达 **$251 亿**、有效期 15 年。Hut 8 无法 / 不愿透露租户身份，仅披露为'high-investment-grade company'。\n\n（2）**第一阶段 2027 末上线**：建设依赖于 Beacon Point 园区电力供应在 2027 年初通电；首阶段 2027 末投运。\n\n（3）**加密矿工转身 AI infra**：Hut 8 是过去 18 个月连续转型的加密矿工代表——从比特币矿池正式抽身、把 GPU 矿机改造为 AI 训练 / 推理园区；本次合同把它正式落入 AI 数据中心**二级载体**赛道（与 Iren、Core Scientific、CoreWeave 同列）。盘前股价飙 36% 一度逼近 $100 历史新高。\n\n（4）**350 MW 单租户的级别**：参照 4 月底披露 hyperscaler 2026 capex $7250 亿、Microsoft 单家 $1900 亿——352 MW 单租户级别意味着**只有少数客户撑得起**：可能是 Microsoft、Google、OpenAI、Anthropic、Meta 之一。市场倾向猜测 OpenAI 或 Microsoft（与 Anthropic 5 月 6 日的 SpaceX 订单互为镜像）。\n\n（5）**电力先行**：Beacon Point 园区先撞 Texas ERCOT 电力供应——在 hyperscaler 集体抢电、Texas 电网紧绷的背景下，Hut 8 实质把'锁定电力'的 8 年期定价权变现 $98 亿。",
+      "key_quotes": [
+        "Hut 8 signed a lease worth at least $9.8 billion to provide computing power to a 'high-investment-grade company' — 352 MW of IT capacity at the Beacon Point AI campus in Nueces County, Texas.",
+        "The agreement may rise to a value of $25.1 billion over 15 years if the tenant exercises all three five-year extensions.",
+        "HUT's stock surged as much as 36% in pre-market trading, putting the stock on track for a record high above $100."
+      ],
+      "significance": "本次合同把 AI 数据中心从 hyperscaler 自有 capex 推向**二级载体（neocloud / 前矿工）租赁**模型——单租户、352 MW、$98 亿底层 + $251 亿延期 = 正在把 AI 算力市场切出第二条结构性供给线。背景是 hyperscaler 自己 2026 年合计 $7250 亿 capex 已经吃掉 Magnificent 7 利润总和的 1.5 倍——再继续靠自有资本扩 AI 数据中心既挤压利润又考验股价容忍度，把'盖楼盖电网'外包给 Hut 8 / Iren / CoreWeave 这类 AI infra 二级载体是当下唯一的边际解。本次合同是该模式实操化的最大单笔证据。同时为'前加密矿工'类标的开辟了估值重估通道——HUT 盘前 +36% 即是市场打分。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-06/hut-8-to-lease-texas-ai-data-center-for-at-least-9-8-billion",
+        "https://americanbazaaronline.com/2026/05/06/hut-8-bets-big-on-ai-with-10b-texas-data-center-deal-480240/",
+        "https://stocktwits.com/news-articles/markets/cryptocurrency/hut-stock-eyes-record-high-above-100-after-10-billion-deal/cZQzdHVReaw",
+        "https://www.coindesk.com/business/2026/05/06/hut-8-shares-jump-nearly-30-on-news-of-usd9-8-billion-ai-data-center-lease",
+        "https://finance.yahoo.com/sectors/technology/articles/9-8-billion-ai-data-144309477.html"
+      ],
+      "tags": ["Hut8", "Beacon-Point", "Texas", "data-center", "AI-infra", "neocloud", "lease"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Samsung Electronics 5-6 跨入 $1 万亿俱乐部：单日 +14.4%、Q1 营业利润同比 8 倍、半导体撑 94% —— AI 内存（HBM）成第一驱动因子，KOSPI 同步破 7400",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/",
+      "story_key": "samsung-trillion-market-cap",
+      "event_date": "2026-05-06",
+      "summary": "Samsung Electronics 5 月 6 日单日 +14.4% 跨入 **$1 万亿美元市值俱乐部**——继 TSMC 之后第二家亚洲企业进入万亿市值梯队；Q1 2026 营收 ₩133.9 万亿（约 $900 亿）、营业利润 ₩57.2 万亿（**同比 8 倍、史上最高单季**）、其中半导体业务一项就贡献 ₩53.7 万亿（占 94%）；2026 全年 HBM4 产能已售罄。",
+      "detail": "（1）**Q1 数据**：营收 ₩133.9 万亿（约 $900 亿）、营业利润 ₩57.2 万亿（同比 +700%、单季史上最高）；半导体板块单独贡献 ₩53.7 万亿——占整体营业利润 **94%**。利润几乎全部来自高带宽内存（HBM）+ 服务器级 DRAM 紧定价。\n\n（2）**$1T 市值达成**：5-6 单日 +14.4% 是这次跨线的最后一跳，是亚洲企业第二家入万亿俱乐部（首家 TSMC）。当日 KOSPI 跟涨破 7400 点。\n\n（3）**HBM 供给吃紧到 2027**：Samsung + SK Hynix 联合警告 AI 驱动的内存短缺至少持续到 **2027 年及以后**——客户已经'提前数年下单'、整个 DRAM 市场跟着 HBM 一并紧缩。Samsung 此前已公告**2026 年 HBM4 产能完全售罄**。\n\n（4）**与 Microsoft '内存涨价' 闭环**：4 月 29 日 Microsoft 财报中 CFO 把 2026 全年 capex 上调到 $1900 亿、单独把 $250 亿涨幅归因 'memory pricing'——上游就是 Samsung 这一笔。今天 Samsung 万亿市值是同一条产业链的下游兑现。\n\n（5）**与 Apple 5-5 报道形成镜像**：5 月 5 日 Bloomberg 报 Apple 在与 Intel / Samsung 谈作为 TSMC 之外的次要芯片代工选项——本周 Samsung 同时被'代工增量讨论 + HBM 涨价兑现'两条主线一起推上万亿。",
+      "key_quotes": [
+        "Samsung Electronics jumped 14.4% on May 6, joining the trillion-dollar market cap club — second Asian company after TSMC.",
+        "Q1 2026 operating profit ₩57.2 trillion: 8-fold YoY, highest quarterly profit in company history; semiconductor alone produced ₩53.7 trillion (94%).",
+        "Samsung previously announced that its 2026 HBM4 capacity is already fully sold out; AI-driven memory shortages expected to persist through 2027 and beyond."
+      ],
+      "significance": "Samsung 跨入 $1T 是 AI 算力链上'**内存涨价**'第一次完整反向定价到芯片厂商市值的标志事件——配合 4 月底 Microsoft / Alphabet / Amazon / Meta 集体把 2026 capex 推到 $7250 亿（Microsoft 单家 $250 亿涨幅明确归因 memory pricing），以及 Samsung 自报 HBM4 2026 全年售罄、内存短缺持续到 2027——AI 算力的'瓶颈'第一次从'GPU 数量'转移到'HBM 颗粒'，并把利润迁移到上游芯片代工 / 存储厂商。Samsung 即将成为'AI memory 资本品中的 NVIDIA'——是产业链利润分配的新坐标。",
+      "links": [
+        "https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/",
+        "https://thenextweb.com/news/samsung-electronics-1-trillion-market-cap-ai-memory",
+        "https://en.sedaily.com/finance/2026/05/06/kospi-hits-7400-as-samsung-crosses-1-trillion-market-cap",
+        "https://wccftech.com/samsung-is-now-a-trillion-dollar-juggernaut-as-conventional-dram-quietly-out-earns-the-hbm-everyone-is-obsessed-with/",
+        "https://www.cnbcafrica.com/2026/samsung-crossses-1-trillion-valuation-as-ai-frenzy-drives-historic-rally-lifting-shares-over-15"
+      ],
+      "tags": ["Samsung", "HBM", "memory", "trillion-cap", "TSMC", "AI-supply-chain"],
+      "category": "trending"
+    },
+    {
+      "id": "6",
+      "title": "Apple 史上首次松动 TSMC 单一供应：与 Intel + Samsung 谈在美国本土代工主芯片——Cook 当任内最后一次承认'先进制程产能是最大供应链瓶颈'",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-05/apple-explores-using-intel-and-samsung-to-build-main-device-chips-in-the-us",
+      "story_key": "apple-tsmc-supply-diversification",
+      "event_date": "2026-05-05",
+      "summary": "Bloomberg 5 月 5 日独家：Apple 已开始与 **Intel** 早期接触、Apple 高管已多次访问 **Samsung 在 Texas 在建的先进制程工厂**——首次以正式动作探讨'TSMC 之外的次要主芯片代工方'；驱动力是 AI 数据中心抢芯片产能 + Mac 本地 AI 模型推理需求超预期，导致 Mac mini / Mac Studio 生产受限；Tim Cook 任内最后一次明确把'先进节点产能'称为公司最大供应链约束。",
+      "detail": "（1）**Bloomberg 独家细节**：（a）Apple 与 Intel 已展开**早期阶段接触**、讨论 Apple SoC 由 Intel 美国工厂代工；（b）Apple 高管已**多次实地访问** Samsung 在 Texas 在建的先进制程晶圆厂；（c）目前**没有正式订单**生效。\n\n（2）**驱动力**：AI 数据中心抢光全球先进制程产能的同时，Mac 本地推理（运行小型 LLM、Apple Intelligence 离线模型、视频生成等）使 Mac 高端 SKU 销量大超预期——Mac mini / Mac Studio 当下处于结构性缺货。\n\n（3）**Cook 当面承认**：Tim Cook 在最后一次完整任内财报（4-30 FY26 Q2）正式把'**先进节点产能可用性**'定义为'Apple 当下最大的供应链瓶颈'，直接影响 Mac mini 与 Mac Studio 出货。\n\n（4）**地缘转向**：把'TSMC 之外的次要选项'明确放在**美国本土工厂**——Intel 俄勒冈 / 亚利桑那 + Samsung Texas，与 Trump 行政体系'美国制造'同向。Apple 此前已宣布在美投资 $5000 亿。\n\n（5）**短板尚存**：Bloomberg 同时指出 Samsung / Intel 先进制程的良率与规模仍落后 TSMC 显著、Apple 内部对'是否能实操匹配 TSMC 良率'存疑——'早期讨论'的措辞反映此为**多年期路径**而非即时切换。",
+      "key_quotes": [
+        "Apple has held exploratory discussions about using Intel Corp. and Samsung Electronics Co. to produce the main processors for its devices in the US.",
+        "Tim Cook said it's availability of advanced nodes to produce Apple's SoCs that represents its greatest supply chain constraint.",
+        "Apple is also concerned about using non-TSMC technology, including whether alternative manufacturers can match the scale and reliability of its current supplier."
+      ],
+      "significance": "Apple 主芯片代工自 2014 年 A8 起持续由 TSMC 单源供应、是其在台北 / 东京 / 上海地缘风险敞口下的最大单一软肋。本次同时谈 Intel + Samsung 是 Apple 史上**第一次以正式高管访问 + 高层接触**形式探讨次要代工方——仅仅这一动作就足以把 TSMC 的'议价权 + 不可替代溢价'下调一个台阶。同时把代工讨论锁定在'美国本土'与白宫'美国制造'政策同向，让 Apple 在 AI 数据中心抢芯片潮中拿到额外政策抓手。即便落地需要 3-5 年，对 Samsung 5-6 跨入 $1T 万亿市值是当周第二条独立利好（继 HBM 之后）。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-05/apple-explores-using-intel-and-samsung-to-build-main-device-chips-in-the-us",
+        "https://9to5mac.com/2026/05/04/report-apple-considers-intel-and-samsung-to-diversify-chip-manufacturing-away-from-tsmc/",
+        "https://www.eweek.com/news/apple-intel-samsung-us-chip-production-ai-crunch/",
+        "https://www.idropnews.com/news/apple-intel-samsung-foundry-deals-2026/263468",
+        "https://9to5mac.com/2026/05/05/three-takeouts-from-the-apple-chip-report-with-one-worrying-prospect/"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "TSMC", "Intel", "Samsung", "supply-chain", "foundry", "AI-chips"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "GPT-5.5 Instant 5-5 接管 ChatGPT 全部默认槽位：替换 5.3 Instant、用 search-tool 跨历史聊天 / 文件 / Gmail 自动建上下文，AIME 2025 81.2 vs 65.4 起跳——OpenAI 把'记忆'第一次写进默认模型",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+      "story_key": "openai-gpt55-instant-default",
+      "event_date": "2026-05-05",
+      "summary": "OpenAI 5 月 5 日把 **GPT-5.5 Instant** 一次性推为 ChatGPT **所有付费档（Plus / Pro / Business / Enterprise）的默认模型**，替换 GPT-5.3 Instant；新模型用 search 工具**跨历史聊天 / 上传文件 / Gmail** 自动建立长期个人化上下文；AIME 2025 数学 **81.2 vs 65.4**、MMMU-Pro **76 vs 69.2**——把'记忆'与'工具调用'写进默认 ChatGPT 体验。",
+      "detail": "（1）**默认模型替换**：GPT-5.5 Instant 5 月 5 日 GA 给所有 ChatGPT Plus / Pro / Business / Enterprise 用户作为**默认模型**——一次性替换 GPT-5.3 Instant；同步推出 GPT-5.5 Pro 给 Pro / Business / Enterprise。\n\n（2**）记忆 / 工具调用写进默认**：GPT-5.5 Instant 引入'search-tool 跨历史聊天 / 上传文件 / Gmail'的自动上下文 ——用户给一句话、模型自动从过往对话与连接的 Gmail 帐号里取背景资料；这是 ChatGPT 第一次把'长期个性化记忆'放进**默认体验**而非 opt-in 的 Memory beta。\n\n（3）**幻觉率**：在 law / medicine / finance 三大高风险知识领域有针对性地降低幻觉率（OpenAI 内部测试），同时维持 Instant 的**低延迟**特性。\n\n（4）**Bench**：AIME 2025 数学 **81.2**（前代 65.4）、MMMU-Pro 多模态推理 **76**（前代 69.2）——单跳跃幅度大于过去 3 个版本之和。Agentic 能力侧 OpenAI 自报：'可以接收 messy / multi-part 任务、自主拆步骤、自调用工具、自校验结果——不需要每步引导'。\n\n（5**）平台同步**：5 月 5 日同步上线 Amazon Bedrock managed agents based on GPT-5.5——首次让 AWS 客户在 Bedrock 上得到 OpenAI 自有 frontier 级 agent 平台体验。\n\n（6）**与 5-5 launch party 区分**：当晚 5:55pm 旧金山的 GPT-5.5 launch party（已在 5-5 briefing 单独条目记录）是该模型的'公关首发'；本条记录的是同日早些时候完成的**默认模型替换**——是更直接的产品事件。",
+      "key_quotes": [
+        "GPT-5.5 Instant will replace GPT-5.3 Instant as the default ChatGPT model.",
+        "GPT-5.5 Instant can use its search tool to refer back to past conversations, files, and Gmail to give more personalized answers.",
+        "AIME 2025: 81.2 vs 65.4. MMMU-Pro: 76 vs 69.2."
+      ],
+      "significance": "把 AIME 2025 从 65.4 推到 81.2 的单代跳跃是 GPT 全系迄今最大的数学能力代际进步；'search-tool 跨 Gmail 自动建上下文'放进默认 ChatGPT 体验意味着 OpenAI 把'每个用户都是长期记忆 agent 的客户'写为产品默认假设——一次性把 ChatGPT 从'问答对话框'升级为'随用随有的个性化 super-assistant'。结合同日 Bedrock 上线 GPT-5.5 managed agents、Amazon AWS 客户立刻获得 OpenAI agentic 能力，这是 OpenAI 在 Microsoft 之外第一次把自家 frontier 模型直接落进竞争对手云。",
+      "links": [
+        "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+        "https://openai.com/index/introducing-gpt-5-5/",
+        "https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/",
+        "https://en.wikipedia.org/wiki/GPT-5.5"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-5.5", "ChatGPT", "memory", "agentic", "Bedrock"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "8",
+      "title": "Google 内部 24/7 AI agent 'Remy' 5-6 被 Business Insider 曝光：Gemini 员工内测版可代用户在 Gmail / Calendar / Docs / Drive / Tasks 主动跑任务——Google I/O 5 月底前可能首发",
+      "source": "Business Insider",
+      "source_name": "Business Insider",
+      "source_url": "https://www.itpro.com/technology/artificial-intelligence/google-is-building-its-own-openclaw-alternative-remy-elevates-the-gemini-app-into-a-true-assistant",
+      "story_key": "google-gemini-remy-agent",
+      "event_date": "2026-05-06",
+      "summary": "Business Insider 5 月 6 日基于 Google 内部文件独家披露：Google 正在 Gemini app **员工内测版**里构建一个代号 **Remy** 的 24/7 个人 AI agent——可在用户授权下**主动**跑 Gmail / Calendar / Docs / Drive / Keep / Tasks 上的任务、监测用户关心的事、随时间学习偏好；公开版在月底 Google I/O 上可能首发。",
+      "detail": "（1**）'24/7 personal agent'**：Google 内部文档把 Remy 定义为'**把 Gemini app 提升为真正的 assistant——能代你做事，而不是只回答问题或生成内容**'；'**深度集成全 Google 服务、监控对你重要的事、主动处理复杂任务、随时间学习你的偏好**'。\n\n（2）**集成范围**：Gmail / Calendar / Docs / Drive / Keep / Tasks——本质是把 Google Workspace 全套帐号变成 agent 的工具集；与上周 5 月 1 日 Microsoft Agent 365 GA + AWS WorkSpaces AI 形成 hyperscaler **三家齐发** agent 操作系统的竞争格局。\n\n（3）**当下状态**：员工内部 staff-only Gemini app 已上线测试；Business Insider 引述 2 名内部员工证实'**正在内测**'；公开发布时间未定，但 Google I/O **本月底**召开，agent 是大概率重头戏。\n\n（4）**'OpenClaw alternative'**：海外科技媒体把 Remy 定位为 Google 自主对标 OpenAI ChatGPT 'Operator' / Anthropic 'Claude Computer Use' / Microsoft Agent 365 的产品——Gemini 第一次正式从'对话模型'升级为'**主动 agent**'。\n\n（5）**与 4-29 Alphabet 财报闭环**：4 月 29 日 Alphabet Q1 2026 财报披露 Google Cloud +63% / Gemini Enterprise 月活 +40%——Pichai 当时点名'doubling $100M-$1B 大单数量'。Remy 是把 Pichai 的'agent business'落地到 C 端 Workspace 用户的核心载体。",
+      "key_quotes": [
+        "Remy can elevate the Gemini app into a true assistant that can take actions on your behalf — not just answer questions or generate content.",
+        "Deeply integrated across Google, Remy can monitor for things that matter to you, handle complex tasks proactively, and learn your preferences over time.",
+        "Two people familiar with the project told Business Insider that employees are testing the tool internally."
+      ],
+      "significance": "Remy 把 Gemini 从'对话模型 + Workspace 助手'重定位为**'24/7 主动 agent'**——这是 Google 在 Microsoft Agent 365（5-1 GA）+ Anthropic Claude Computer Use + OpenAI Operator 之后**最后一家**hyperscaler 宣布的 agent 操作系统级产品，意味着 2026 年下半年 hyperscaler 全员押注 agent OS 的格局完全成型。同时把'agent 直接读写 Gmail / Calendar / Drive'写进默认体验，消费级 AI 隐私模型将面临质的考验——监管层面 Remy 的发布很可能引发与 5-5 CAISI 协议同级的安全 review 命题。",
+      "links": [
+        "https://www.itpro.com/technology/artificial-intelligence/google-is-building-its-own-openclaw-alternative-remy-elevates-the-gemini-app-into-a-true-assistant",
+        "https://www.eweek.com/news/google-gemini-remy-ai-agent/",
+        "https://www.artificialintelligence-news.com/news/google-remy-ai-agent-gemini-user-control/",
+        "https://www.analyticsinsight.net/news/meet-remy-googles-247-ai-agent-that-acts-not-just-answers",
+        "https://sqmagazine.co.uk/google-testing-gemini-ai-agent-remy/"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini", "Remy", "agent", "Workspace", "leak", "I/O"],
+      "category": "product_operators"
+    }
+  ]
+}
