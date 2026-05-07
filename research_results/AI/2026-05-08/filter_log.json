@@ -1,0 +1,197 @@
+{
+  "date": "2026-05-08",
+  "total_candidates": 21,
+  "kept": 14,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "eu-ai-act-omnibus-simplification",
+      "event_date": "2026-05-07",
+      "title_en": "EU Council & Parliament agree on AI Act omnibus — high-risk delay + deepfake ban",
+      "source": "Council of EU",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Provisional political deal struck overnight 5-7 to delay high-risk AI Act enforcement to Dec 2027 (16-month delay), expand SME exemptions to small mid-caps (≤500 employees), shorten transparency-watermark grace period to 3 months, and add EU-wide ban on non-consensual deepfakes / CSAM. story_key not seen in lookback."
+    },
+    {
+      "story_key": "openai-realtime-voice-api-launch",
+      "event_date": "2026-05-07",
+      "title_en": "OpenAI ships GPT-Realtime-2 + Translate + Whisper voice API",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "OpenAI unveiled three new realtime voice models on 5-7: GPT-Realtime-2 (first voice model with GPT-5-class reasoning), GPT-Realtime-Translate (live speech translation 70+→13 languages), GPT-Realtime-Whisper (streaming STT). API also gains MCP server, image input, SIP phone calling. story_key not seen in lookback."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-06",
+      "title_en": "Hassett: WH preparing FDA-style mandatory AI vetting EO within 2 weeks",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-4 (EO drafting) and 5-5 (CAISI signs voluntary agreements with Google/Microsoft/xAI). NEW info on 5-6: NEC Director Kevin Hassett tells Bloomberg the order being studied would vet new AI models 'like the FDA evaluates drugs' — escalating from voluntary CAISI process to potentially MANDATORY pre-release testing. Hassett expects EO signed within two weeks. This is a substantive new development that re-shapes the policy trajectory."
+    },
+    {
+      "story_key": "anthropic-code-with-claude-2026",
+      "event_date": "2026-05-06",
+      "title_en": "Anthropic Code w/ Claude SF — Dreaming, Code Review, Remote Agents, 17x API growth",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Anthropic developer conference 5-6 in San Francisco. Key launches: 'Dreaming' memory consolidation feature for Claude managed agents (runs between sessions to merge/de-dupe/refresh memory), expanded Code Review + CI Auto-Fix, Remote Agents (control laptop from phone), doubled Claude Code 5h limit for Pro/Max/Enterprise. Reveal: API volume up 17x YoY. story_key not seen in lookback (Anthropic-SpaceX deal is different angle)."
+    },
+    {
+      "story_key": "gemini-31-flash-lite-ga",
+      "event_date": "2026-05-07",
+      "title_en": "Google Gemini 3.1 Flash-Lite hits GA at $0.25/M input, Elo 1432",
+      "source": "Google Cloud",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Gemini 3.1 Flash-Lite moved from preview (March 3) to general availability on 5-7 via Gemini API + Vertex AI. Pricing $0.25/M input + $1.50/M output, 2.5x faster TTFT, 45% faster output, Elo 1432 on Arena.ai, 86.9% GPQA Diamond. story_key not seen in lookback."
+    },
+    {
+      "story_key": "anthropic-consumer-claude-push",
+      "event_date": "2026-05-07",
+      "title_en": "Bloomberg — Anthropic shifting Claude toward consumer use cases",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Bloomberg report 5-7: Anthropic, traditionally B2B-focused, has been working since late 2025 to make Claude more consumer-friendly — improving health/travel/recipe answers, dropping mobile app cold-start from 5-6s to ~1s. Claude is currently #2 free app on US App Store. story_key not seen in lookback (different angle from finance JV / SpaceX deal)."
+    },
+    {
+      "story_key": "deepmind-uk-cwu-union",
+      "event_date": "2026-05-05",
+      "title_en": "DeepMind UK staff vote 98% to unionize over Pentagon + IDF use",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "98% of DeepMind UK CWU members voted to form what would be world's first union at a frontier AI lab. Workers letter to management on ~5-5 demands recognition over Pentagon Gemini deal (DoD 'any lawful purpose') and Israeli military use. Affects ~1,000 London staff. 10 working days for management to recognize voluntarily. story_key not seen in lookback."
+    },
+    {
+      "story_key": "huang-amodei-god-complex",
+      "event_date": "2026-05-05",
+      "title_en": "Jensen Huang — AI doom CEOs have 'god complex'; Anthropic fires back",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Nvidia's Jensen Huang publicly criticized Dario Amodei's 50% entry-level white-collar job loss prediction as 'ridiculous' and accused fellow CEOs of having a 'god complex'. Anthropic spokesperson responded 5-5 saying Dario has never claimed 'only Anthropic' can build safe AI. Yann LeCun separately called doom rhetoric 'extremely destructive'. story_key not seen in lookback (amodei-mythos-moment-of-danger from 5-5 was about cyber risks, not jobs/doom debate)."
+    },
+    {
+      "story_key": "blitzy-200m-series-c",
+      "event_date": "2026-05-05",
+      "title_en": "Blitzy raises $200M at $1.4B valuation for autonomous coding",
+      "source": "Crunchbase",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Cambridge MA's Blitzy raised $200M at $1.4B valuation 5-5, led by Northzone with PSG/Battery/Jump/Morgan Creek joining. Founded 2023 by ex-NVIDIA architect Sid Pardeshi + Brian Elliott. Reverse-engineers enterprise codebases >100M LOC, runs thousands of agents in parallel. Boston's newest unicorn. Adopted by State Street, QAD. story_key not seen in lookback."
+    },
+    {
+      "story_key": "coreweave-q1-2026-earnings",
+      "event_date": "2026-05-07",
+      "title_en": "CoreWeave Q1 2026 — revenue >100% YoY to ~$1.97B",
+      "source": "TipRanks",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "CoreWeave reported Q1 2026 results 5-7. Revenue jumped over 100% YoY to ~$1.97B; options market priced 18.7% post-earnings move. Continues string of AI infra companies clearing high revenue bars. story_key not seen in lookback (separate from coreweave-anthropic-cloud-deal type stories)."
+    },
+    {
+      "story_key": "openai-codex-giveaway-8000",
+      "event_date": "2026-05-05",
+      "title_en": "OpenAI gives 8000 GPT-5.5 party applicants 10x Codex rate limit",
+      "source": "VentureBeat",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "After OpenAI's invite-only 'GPT-5.5 on 5/5' party drew 8000+ applicants for limited spots, OpenAI emailed all applicants — accepted, waitlisted, or rejected — a 10x Codex rate-limit boost on personal ChatGPT accounts effective immediately through June 5. Notable signal of competitive pressure for developer mindshare vs. Anthropic. story_key not seen in lookback."
+    },
+    {
+      "story_key": "openai-chatgpt-ads-expansion",
+      "event_date": "2026-05-07",
+      "title_en": "OpenAI rolls out CPC bidding + self-serve Ads Manager beta for ChatGPT",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "OpenAI announced 5-7 expanded ChatGPT ads with new partner-buy and beta self-serve Ads Manager, introducing CPC bidding + expanded measurement tools. Significant step in monetization beyond Plus/Enterprise subs. story_key not seen in lookback."
+    },
+    {
+      "story_key": "microsoft-ai-diffusion-q1-2026",
+      "event_date": "2026-05-07",
+      "title_en": "Microsoft Q1 2026 AI diffusion report — UAE 70.1%, US 21st, 26 economies >30%",
+      "source": "Microsoft",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Microsoft Global AI Diffusion Q1 2026 published 5-7 on On The Issues blog. AI usage rose +1.5pp QoQ to 17.8% of global working-age population. UAE leads 70.1%; US moved 24th→21st (31.3%); 26 economies now >30% adoption. South Korea/Thailand/Japan biggest movers. story_key not seen in lookback."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-07",
+      "title_en": "Musk-Altman trial week 2 closes — Zilis testifies Musk offered Altman Tesla board seat",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Returning story heavily covered (lookback shows 4-30, 5-1, 5-4, 5-5). NEW substantive info on 5-6/5-7: Shivon Zilis (mother of Musk's 4 children, ex-OpenAI board) testified in Oakland court she discussed structure with Altman/Brockman in 2017-18, said Musk offered Altman a Tesla board seat — fresh angle on the personal/governance entanglement. Brockman finished testimony 5-5. Trial wrapping its second week."
+    },
+    {
+      "story_key": "avoca-125m-series-b",
+      "event_date": "2026-04-27",
+      "title_en": "Avoca raises $125M+ Series B at $1B valuation for service-economy AI",
+      "source": "PR Newswire",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-27 is 11 days before today 2026-05-08; exceeds the 5-day freshness window."
+    },
+    {
+      "story_key": "cohere-aleph-alpha-merger",
+      "event_date": "2026-04-24",
+      "title_en": "Cohere acquires Germany's Aleph Alpha at $20B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 14 days before today; exceeds 5-day freshness window. Already covered by tech press in late April."
+    },
+    {
+      "story_key": "china-blocks-meta-manus",
+      "event_date": "2026-04-27",
+      "title_en": "China NDRC blocks Meta's $2B Manus acquisition",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-27 is 11 days before today; exceeds 5-day freshness window."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk signs full-business AI partnership with OpenAI",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 24 days before today; far exceeds 5-day freshness window."
+    },
+    {
+      "story_key": "turboquant-iclr-2026",
+      "event_date": "2026-04-25",
+      "title_en": "Google TurboQuant — 6x KV-cache compression, 8x attention speedup, 3-bit",
+      "source": "Google Research",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Paper presented at ICLR 2026 in Rio on 2026-04-25; 13 days before today; exceeds 5-day window despite renewed coverage."
+    },
+    {
+      "story_key": "jpmorgan-ai-core-infrastructure",
+      "event_date": "2026-04-29",
+      "title_en": "JPMorgan reclassifies AI as core infrastructure, $19.8B 2026 tech budget",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-29 is 9 days before today; exceeds 5-day freshness window."
+    },
+    {
+      "story_key": "openai-hiro-acquisition",
+      "event_date": "2026-04-13",
+      "title_en": "OpenAI acquires personal-finance startup Hiro (talent acqui-hire)",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-13 is 25 days before today; far exceeds 5-day window."
+    }
+  ]
+}
