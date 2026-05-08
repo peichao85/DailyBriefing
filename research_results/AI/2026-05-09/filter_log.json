@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-09",
+  "total_candidates": 14,
+  "kept": 9,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "anthropic-1t-valuation-50b-round",
+      "event_date": "2026-05-08",
+      "title_en": "FT: Anthropic in early talks on $50B round at near $1T valuation",
+      "source": "Financial Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. FT reports May 8: $50B round, $900B-1T valuation, ARR ~$45B (5x from end of 2024), Dragoneer/General Catalyst/Lightspeed in talks. Topples OpenAI's $852B March valuation."
+    },
+    {
+      "story_key": "cloudflare-1100-ai-layoffs",
+      "event_date": "2026-05-08",
+      "title_en": "Cloudflare lays off 1,100 (20%) explicitly for 'agentic AI-first' restructure",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. May 8 announcement: 1,100 cuts, 20% workforce, even as Q1 revenue hit record $639.8M (+34% YoY). CEO Matthew Prince cites '600% AI usage growth in last 3 months'. Severance: full base pay through end-2026."
+    },
+    {
+      "story_key": "anthropic-google-200b-cloud-deal",
+      "event_date": "2026-05-05",
+      "title_en": "Anthropic commits $200B over 5 years to Google Cloud + TPU chips",
+      "source": "The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. The Information May 5: 5-year $200B commitment beginning 2027, multi-gigawatt TPU capacity via Google+Broadcom, accounts for >40% of GCP revenue backlog. Distinct from previously logged anthropic-spacex-colossus-deal (different vendor)."
+    },
+    {
+      "story_key": "openai-ai-phone-2027-kuo",
+      "event_date": "2026-05-05",
+      "title_en": "Kuo: OpenAI fast-tracks 'AI agent phone' to H1 2027 mass production",
+      "source": "MacRumors",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Ming-Chi Kuo May 5: OpenAI accelerated production from 2028 → H1 2027, custom Dimensity 9600 (TSMC 2nm), dual-NPU architecture for local+cloud, 30M unit 2027-2028 target. Distinct from May 2025 Jony Ive smart-speaker device."
+    },
+    {
+      "story_key": "moonshot-ai-meituan-2b-round",
+      "event_date": "2026-05-07",
+      "title_en": "Moonshot AI (Kimi) closes $2B round led by Meituan at $20B+ valuation",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg May 7: Meituan's Long-Z VC leads, Tsinghua Capital + China Mobile + CPE Yuanfeng follow. Valuation doubled from $10B in early 2026; ARR $200M (April); $3.9B raised in 6 months total."
+    },
+    {
+      "story_key": "pa-character-ai-medical-lawsuit",
+      "event_date": "2026-05-05",
+      "title_en": "Pennsylvania sues Character.AI: bot 'Emilie' posed as licensed psychiatrist with fake PA license PS306189",
+      "source": "NPR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. PA AG Office filed in Commonwealth Court May 5: chatbot offered to assess medication 'within my remit as a Doctor', cited fake license number. First state lawsuit specifically targeting chatbot impersonation of licensed medical professional under Medical Practice Act § 422.38."
+    },
+    {
+      "story_key": "trustfall-ai-coding-cli-rce",
+      "event_date": "2026-05-07",
+      "title_en": "TrustFall: one-keypress RCE in Claude Code, Cursor CLI, Gemini CLI, GitHub Copilot via auto-approved MCP",
+      "source": "Help Net Security",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Adversa AI disclosure May 7: cloned malicious repo ships its own .claude/settings.json that auto-approves an MCP server, single Enter keypress spawns unsandboxed OS process. Headless CI runs (claude-code-action) skip dialog entirely. Combines naturally with VentureBeat May 7 'six exploits all hit credentials, not models' meta-analysis."
+    },
+    {
+      "story_key": "sap-priorlabs-acquisition",
+      "event_date": "2026-05-04",
+      "title_en": "SAP buys German AI lab Prior Labs (Tabular Foundation Models) + commits >€1B over 4 years",
+      "source": "SAP Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. SAP May 4: acquires Freiburg-based Prior Labs (founders Frank Hutter, Noah Hollmann, Sauraj Gambhir, TabPFN model series in Nature), commits >€1B over 4 years to build 'globally leading frontier AI lab in Europe'. Same week SAP also acquired Dremio. Closes Q2-Q3 2026."
+    },
+    {
+      "story_key": "epam-anthropic-claude-certified-10k",
+      "event_date": "2026-05-06",
+      "title_en": "EPAM x Anthropic: multi-year partnership, 10,000 Claude-certified architects target",
+      "source": "EPAM Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. EPAM-Anthropic May 6 announcement: CEO-mandated certification practice for 10K Claude architects (1,300 done, 5,000 by Q3-end), 250 'Black Belt' forward-deployed engineers, 20K+ EPAMers already through Anthropic Academy."
+    },
+    {
+      "story_key": "anthropic-spacex-colossus-deal",
+      "event_date": "2026-05-07",
+      "title_en": "Anthropic doubled Claude Code 5h limit + removed peak-hour caps via SpaceX Colossus 1",
+      "source": "Various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-06 with full coverage of Anthropic-SpaceX Colossus 1 deal, Opus API limits +900-1500%, Claude Code 5h doubled. May 7 'doubling rate limits + peak hours' is incremental rollout of the same deal already reported - no substantively new facts."
+    },
+    {
+      "story_key": "stanford-ai-index-2026",
+      "event_date": "2026-04-13",
+      "title_en": "Stanford AI Index 2026: junior dev (22-25) employment -20% since 2024",
+      "source": "Stanford HAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Report published 2026-04-13, 26 days old (>5 day limit). Discussed in May coverage but original event is too stale."
+    },
+    {
+      "story_key": "founders-fund-6b-fund",
+      "event_date": "2026-05-01",
+      "title_en": "Peter Thiel's Founders Fund closes record $6B late-stage fund",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Closed 2026-05-01, 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "meta-ari-acquisition",
+      "event_date": "2026-05-01",
+      "title_en": "Meta acquires humanoid robotics startup Assured Robot Intelligence",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Deal closed 2026-05-01, 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "astranis-450m-series-e",
+      "event_date": "2026-05-06",
+      "title_en": "Astranis raises $450M (equity+debt) for high-orbit satellites",
+      "source": "SpaceNews",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within freshness window but topic is satellite manufacturing/Pentagon SATCOM, not core AI - keeping briefing tightly AI-focused. Skip."
+    }
+  ]
+}
