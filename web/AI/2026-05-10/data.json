@@ -1,0 +1,189 @@
+{
+  "date": "2026-05-10",
+  "category": "AI",
+  "title": "Nvidia 5 个月签出 $400 亿 AI 股权投资、Big Tech 2026 全年 capex 锁死 $7250 亿——'循环融资'辩论从公司议题升级为宏观议题；5 大出版社联手 Scott Turow 把 Mark Zuckerberg 个人告上法庭、首例出版社级别 AI 版权集体诉讼；OpenAI 推出 GPT-5.5-Cyber 终结 Anthropic Mythos 6 个月独占；ElevenLabs ARR 4 个月从 $3.5 亿冲到 $5 亿；Cursor 3.3 上线并行子 Agent + Auto Split PRs；Utah Box Elder 居民启动 11 月公投欲撤销 9GW Stratos 数据中心",
+  "items": [
+    {
+      "id": "1",
+      "title": "Nvidia 2026 仅 5 个月就下注 $400 亿 AI 股权——OpenAI $300 亿 / Corning $32 亿 / IREN $21 亿 / Anthropic / xAI / Marvell 全部入袋，黄仁勋的'AI 基金会组合'战略浮出水面",
+      "source": "NVIDIA",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+      "story_key": "nvidia-40b-ai-equity-portfolio",
+      "event_date": "2026-05-09",
+      "summary": "CNBC / TechCrunch 5 月 9 日同步独家盘点：Nvidia 在 2026 年仅前 5 个月就已签出超过 **$400 亿美元**的 AI 公司股权投资——单 OpenAI 一笔承诺 **$300 亿**、Corning **$32 亿**、IREN **$21 亿**+ **$34 亿**云服务、Marvell **$20 亿**，加上 Anthropic / xAI / Reflection AI / Mistral 等参投，把 GPU 客户、玻璃代工、数据中心、光通信全部转化为持股资产。",
+      "detail": "Nvidia 在 2026 财年（截至 1 月）的现金 + 短期投资已突破 **$1380 亿美元**，2026 自然年前 5 个月加速兑现 Jensen Huang 公开称为 **'AI foundation portfolio'** 的资本部署战略——以股权方式锁定整条 AI 供应链：\n\n（1）**最大单笔：OpenAI $300 亿承诺**——配合数据中心 GPU 长协；（2）**5-7 IREN $21 亿股权认购权 + $34 亿 5 年云服务合同**：5 年期、行权价 $70/股、最多 3000 万股；同步在 IREN 全球数据中心管线部署最多 **5 GW DSX 架构**——以 Texas Sweetwater 园区 2 GW 为旗舰；（3）**Corning $32 亿**：押注光纤 + 光通信玻璃；（4）**Marvell $20 亿**战略入股：聚焦 silicon photonics；（5）**Anthropic / xAI / Reflection AI**：跟投 / 领投，分别打通 Claude Mythos、Grok、和 Reflection 的 Pentagon 入口。\n\nHuang 的公开陈述：把 Nvidia 资本广泛分散到多家 AI 创业公司，而非押注单一赢家；目的是'确保整个 AI 供应链跑在 Nvidia 硬件上、并保证产能能跟上'。市场担忧：Nvidia 与 Google、Amazon 一样，正用投资别家公司的方式驱动自身收入循环增长（'circular financing'），相关交易在 Q1 2026 已开始推高华尔街对 'AI capex 实际终端需求是否被高估' 的辩论。",
+      "key_quotes": [
+        "Nvidia is financing the entire AI supply chain, ensuring it runs on Nvidia hardware and that there's sufficient capacity to meet demand. — CNBC report",
+        "AI foundation portfolio approach that spreads Nvidia's capital across a wide range of AI startups rather than backing a single winner. — Jensen Huang"
+      ],
+      "significance": "把 GPU 巨头实质转型为 **'AI 时代的伯克希尔 + AT&T 控股'**——既靠卖芯片获取现金流、又靠股权回流锁住客户。当 OpenAI / Anthropic / xAI / IREN 等关键客户的资产负债表上同时出现 Nvidia 的股权登记，整个 'AI capex 是否真实需求' 的辩论就从公司财务层面下沉到供应链信用层面：循环融资指控一旦成立，对 2026 全年 $725B Big Tech AI capex 的真实可持续性是直接系统性风险。",
+      "links": [
+        "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+        "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+        "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["Nvidia", "投资", "AI 供应链", "OpenAI", "IREN", "Corning", "循环融资"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Big Tech 4 强 2026 全年 AI capex 锁死 $7250 亿——同比 +77%、Microsoft 单家 $1900 亿、Amazon $2000 亿，DRAM 现货 Q1 暴涨 95% 是隐形推手",
+      "source": "Hyperscalers",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/article/magnificent-7-earnings-rush-reveals-ai-spending-surge-with-hyperscaler-capex-set-to-reach-725-billion-in-2026-224901707.html",
+      "story_key": "big-tech-2026-capex-725b",
+      "event_date": "2026-05-08",
+      "summary": "随 Q1 2026 财报全部出齐，Microsoft / Amazon / Google / Meta 四家 AI 超大规模云的全年 capex 指引被市场聚合到 **$7250 亿美元**——同比 2025 年 $4100 亿 **+77%**、其中约 **75% 直接投向 AI 基础设施**（GPU / 服务器 / 数据中心 / 电力 / 冷却）；DRAM 合约价 Q1 单季 +95% 是被低估的隐形成本驱动因子。",
+      "detail": "Q1 2026 财报全部出齐之后，'四大 AI hyperscalers' 全年 capex 指引被聚合到 **$7250 亿美元**这一历史最高位：\n\n（1）**Microsoft $1900 亿** —— 远高于此前华尔街共识的 $1520 亿；CFO 公开把 **$250 亿**直接归因为 DRAM / chip 涨价；（2）**Amazon ~$2000 亿** —— 1 月指引保持不变，主投 AWS Trainium 2 + Anthropic 增量算力；（3）**Google / Alphabet $1800-1900 亿** —— Q1 单季 $356.7 亿，CFO Anat Ashkenazi 明确锁全年区间；（4）**Meta $1250-1450 亿** —— 把'组件涨价'明确写进上调理由。\n\n隐形成本端：**DRAM 合约价 Q1 2026 暴涨 95% QoQ**、Q2 已被预订再 **+58%-63%**；这是首次让 Microsoft 在公开财报上单列 \"$250 亿 = 内存 + 芯片涨价\" 这一拆分。约 **75%（~$5450 亿）** 直接进入 AI 专项基建：GPU 集群、机房、电力 PPA、液冷、长协采购。Statista 测算这一支出已超过沙特 2025 年 GDP 的一半。",
+      "key_quotes": [
+        "Microsoft attributed $25 billion of its record AI budget to memory and chip costs. — Tom's Hardware",
+        "Big Tech is about to spend $700 billion on AI this year. No one knows where the buildout ends. — Fortune"
+      ],
+      "significance": "把 AI capex 从'公司议题'升级为'宏观议题'——四家公司的合并 AI 支出已超过多个 G20 国家年度国防预算。如叠加 Item 1 的 Nvidia $400 亿股权回流，整个 AI 投资支出的边际真实需求验证将成为 2026 H2 资本市场最大不确定项；如终端 AI 收入兑现速度不足，'AI capex 泡沫论' 第一次有了完整的资产负债表证据链。",
+      "links": [
+        "https://finance.yahoo.com/markets/article/magnificent-7-earnings-rush-reveals-ai-spending-surge-with-hyperscaler-capex-set-to-reach-725-billion-in-2026-224901707.html",
+        "https://www.tomshardware.com/tech-industry/big-tech/microsoft-attributed-25-billion-of-its-record-ai-budget-to-memory-chip-costs",
+        "https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/",
+        "https://www.statista.com/chart/35046/capital-expenditure-of-meta-alphabet-amazon-and-microsoft/"
+      ],
+      "tags": ["Big Tech", "Capex", "Microsoft", "Amazon", "Google", "Meta", "DRAM", "宏观"],
+      "category": "trending"
+    },
+    {
+      "id": "3",
+      "title": "5 大出版社 + Scott Turow 联手把 Mark Zuckerberg **个人**告上法庭：起诉书直指 Meta 'Zuckerberg 亲自下令'从 LibGen / Anna's Archive 拉盗版书训练 Llama——首例出版社级别 AI 集体诉讼",
+      "source": "Publishers Coalition",
+      "source_name": "NPR",
+      "source_url": "https://www.npr.org/2026/05/05/nx-s1-5812623/scott-turow-meta-lawsuit",
+      "story_key": "publishers-meta-llama-copyright-suit",
+      "event_date": "2026-05-05",
+      "summary": "5 月 5 日，**Hachette / Macmillan / McGraw Hill / Elsevier / Cengage** 五大出版社联手畅销作家 Scott Turow 在加州联邦法院对 **Meta + Mark Zuckerberg 本人**提起 putative class action 诉讼——指控其'蓄意'从 **LibGen + Anna's Archive** 等盗版站抓取数百万本受版权保护图书与学术文章训练 Llama 系列模型，并称 Zuckerberg **'个人指示'放弃合法许可路径**；首例由出版社发起的 AI 版权集体诉讼。",
+      "detail": "诉讼于 5 月 5 日（周二）在加州北区联邦法院提起，原告阵容罕见齐全：**Hachette Book Group** + **Macmillan Publishing Group** + **McGraw Hill** + **Elsevier**（学术出版巨头）+ **Cengage Learning**（教科书出版巨头）+ 畅销小说作家 **Scott Turow**（曾任 Authors Guild 主席）。\n\n核心指控：（1）Meta 自 2022 起持续从 **LibGen** + **Anna's Archive** 等已知盗版图书 / 期刊网站批量下载受版权保护文本、用于训练 Llama 1 至最新版；（2）原告引用内部邮件称，Meta 高层一度计划'走合法许可路径'购买训练数据，但被 **'Zuckerberg 个人下令'** 终止该方案，理由是'移动太慢、价格太高'；（3）Meta 并'刻意规避了出版社的版权保护机制' (TPMs / DRM) 才完成这次抓取——这一指控加重为'故意侵权'(willful infringement)，可触发法定加重赔偿。\n\n诉求：（1）法定赔偿（statutory damages，按本计算可达单本 $150,000）；（2）永久禁制令禁止 Meta 继续使用 / 训练 / 部署任何包含原告作品的 Llama 衍生模型；（3）销毁所有侵权训练数据集副本。\n\n关键时间锚点：与 Anthropic 2025 年 9 月支付的 **$15 亿美元**作家集体诉讼和解相比，这是 AI 版权诉讼史上**第一次出版社作为原告主体**直接出庭——前者是个体作家通过 Authors Guild 发起，后者是出版社（拥有版权链条上更上游的法律身份）正式入场。",
+      "key_quotes": [
+        "Defendants reproduced and distributed millions of copyrighted works without permission, without providing any compensation to authors or publishers, and with full knowledge that their conduct violated copyright law. — Complaint",
+        "[Meta] followed their well-known motto 'move fast and break things' by illegally drawing upon a massive trove of books and journal articles for Llama. — Complaint",
+        "Mark Zuckerberg personally authorized and actively encouraged the infringement. — Variety reporting on filing"
+      ],
+      "significance": "这是 AI 版权诉讼链条上**最高规格**的一次：原告身份从'个体作家'升级到'拥有图书 + 期刊主版权登记的出版社'——他们持有的不仅是数百万本书的版权 backlist，还有 **Elsevier 旗下 Cell / Lancet 等顶级学术期刊**的全部反向许可权。'Zuckerberg 个人下令使用盗版'的内部证据如能被法庭采纳，将是 AI 公司首次在版权审判中被认定 willful + 高管个人责任——直接打开针对 OpenAI / Anthropic / Google 的连锁诉讼路径，未来 24 个月所有大模型厂商训练数据合规成本将被强制重写。",
+      "links": [
+        "https://www.npr.org/2026/05/05/nx-s1-5812623/scott-turow-meta-lawsuit",
+        "https://www.hachettebookgroup.com/articles/publishers-and-authors-file-class-action-lawsuit-against-meta-and-zuckerberg-for-willful-copyright-infringement-to-develop-llama-ai-models/",
+        "https://variety.com/2026/digital/news/meta-ai-mark-zuckerberg-copyright-infringement-lawsuit-publishers-scott-turow-1236738383/",
+        "https://fortune.com/2026/05/05/james-patterson-mark-zuckerberg-authorized-copyright-infringement-meta-book-lawsuit/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "Llama", "版权诉讼", "Zuckerberg", "出版社", "Anthropic 类比"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "OpenAI 5-7 推出 GPT-5.5-Cyber 限定预览：CyberGym 81.9%、首批仅向'授权防御者'开放——比 Anthropic Mythos 晚 6 个月入场，把'安全护栏 + 漏洞研究权'写进同一模型",
+      "source": "OpenAI",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+      "story_key": "openai-gpt55-cyber-launch",
+      "event_date": "2026-05-07",
+      "summary": "OpenAI 5 月 7 日在 'Trusted Access for Cyber' 项目下推出两款模型：通用 GPT-5.5 与限定 **GPT-5.5-Cyber**——后者是 OpenAI 'cybersecurity lineup 中最 permissive 的一款'、CyberGym 得分 **81.9%**，仅向通过强化身份验证的'授权防御者' (verified defenders) 开放；首次把 Anthropic Mythos 在过去 6 个月独占的'frontier 漏洞研究模型'品类正式打开第二供应方。",
+      "detail": "OpenAI 5 月 7 日发布博客 'Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber'，把 Trusted Access for Cyber 项目（首次公开是 2025 Q4）扩展到两款新模型层级：\n\n（1）**GPT-5.5（通用版）**——OpenAI 自报是 '迄今在 cyber 任务上最强的 OpenAI 模型'，首次完成 OpenAI 内部 multi-step cyber-attack simulation 的端到端解题——之前唯一做到这一点的是 Anthropic Mythos；（2）**GPT-5.5-Cyber（限定预览）**——OpenAI 'cybersecurity lineup 中最 permissive' 的一款，**CyberGym 81.9%**；定位为'授权红队 / 漏洞研究专用'。\n\n访问控制设计：**强化身份验证 + 账户级权限控制**——不像 Mythos 那样只对特定政府机构开放，OpenAI 把 GPT-5.5-Cyber 开放给'通过强 KYC 的 verified defenders'；早期合作方已用其'自动化与扩展红队演习、并已发现 + 验证若干 high-severity 漏洞'，并将通过 OpenAI 的负责任披露流程公开技术细节。\n\n护栏机制：（1）强化使用监控（misuse monitoring）；（2）账户级速率限制；（3）OpenAI 内部安全团队对所有 verified-access 客户进行季度审计。AISI（英国政府）已发布对 GPT-5.5 的 cyber 能力评估。\n\n关键背景：5 月 5 日 Anthropic CEO Amodei 公开警告 Mythos 已挖出'数以万计'软件零日，给出 6-12 个月修复 'moment of danger' 时间窗——OpenAI 此次发布几乎卡在该窗口最前沿，市场竞争格局首次出现'两家 frontier lab 同台 cyber 模型'。",
+      "key_quotes": [
+        "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber. — OpenAI",
+        "GPT-5.5 is the second model to solve one of our multi-step cyber-attack simulations end-to-end. — OpenAI",
+        "GPT-5.5-Cyber is the most permissive model in our cybersecurity lineup. — OpenAI",
+        "GPT-5.5-Cyber achieved 81.9% on CyberGym. — OpenAI"
+      ],
+      "significance": "Anthropic Mythos 自 2025 Q4 起独占 'frontier 漏洞研究模型'品类约 6 个月，期间衍生出'Mythos 是地缘公共品'（5-4 欧元区财长团要求访问权）、'白宫 FDA 式审查 EO'（5-6 Hassett 公开两周内签）等一系列 AI 治理新事实——OpenAI 现以 Trusted Access for Cyber 框架正式入场，意味着白宫起草中的强制 pre-release vetting 行政令将不得不同时面对 Mythos + GPT-5.5-Cyber 两套模型，跨家协调难度直接翻倍。同时给 Anthropic 在该品类的'政策叙事垄断'画上结束符。",
+      "links": [
+        "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+        "https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html",
+        "https://siliconangle.com/2026/05/08/openai-introduces-gpt%E2%80%915-5%E2%80%91cyber-high-impact-cybersecurity-research/",
+        "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-5.5", "Cyber", "Mythos 对手", "Trusted Access", "CyberGym"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "ElevenLabs 4 个月把 ARR 从 $3.5 亿冲到 $5 亿、Series D 第三关闭加注 BlackRock + NVIDIA + Jamie Foxx + Eva Longoria——估值 $110 亿，语音 AI 第一阵营牢底",
+      "source": "ElevenLabs",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+      "story_key": "elevenlabs-500m-arr-series-d",
+      "event_date": "2026-05-05",
+      "summary": "ElevenLabs 5 月 5 日同时官宣两件事：(1）ARR 从 2025 年底的 **$3.5 亿**在 2026 前 4 个月跃升至 **$5 亿+**；(2）Series D 第三轮关闭新增机构 + 名人投资者——**BlackRock / Wellington / NVIDIA NVentures / Santander / D.E. Shaw / Schroders**，加上 **Jamie Foxx / Eva Longoria / 黄东赫（《鱿鱼游戏》导演）**等娱乐圈背书；估值锁 **$110 亿美元**。",
+      "detail": "ElevenLabs 是 2026 上半年涨势最猛的 AI 创业公司之一，5 月 5 日的更新把其全方位竞争位置拉满：\n\n**收入端**：ARR 2025 年底为 $3.5 亿，2026 前 4 个月（约 100 万天）跳到 **$5 亿+**——相当于单月新增约 $4000 万 ARR。增长来源是企业部署 AI 语音 Agent 用于客服、销售、招聘、营销，标杆客户：**NVIDIA / Salesforce / Santander / KPN / Deutsche Telekom**。\n\n**资本端**：Series D 之前已完成两轮关闭、本次第三轮（third close）一次性增加：(1）**机构方**：BlackRock + Wellington + NVIDIA NVentures + Santander + D.E. Shaw + Schroders；(2）**娱乐方**：Jamie Foxx、Eva Longoria、Hwang Dong-hyuk（《鱿鱼游戏》导演）、与已有投资者 Matthew McConaughey；估值守住 Series D 主轮的 **$110 亿美元**。\n\n**产品端**：v3 多语言模型 + Agents Platform + Voice Library 三条产品线全面放量；Anthropic Claude Opus 4.7 将成为 ElevenLabs Agents 的默认 orchestrator 模型（Anthropic 5-5 公布）。\n\n**赛道格局**：估值 $110 亿后，ElevenLabs 已稳坐'语音 AI 第一阵营 + 单点垂直 AI 第一'——估值仅次于 Anthropic / OpenAI / xAI / Cursor / Sierra 等少数几家通用 / 编程 / 客服 AI 巨头；语音 AI 这一品类首次被市场赋予明确独立估值。",
+      "key_quotes": [
+        "ARR went from $350M at the end of 2025 to over $500M in the first four months of 2026. — Company release",
+        "ElevenLabs lists BlackRock, Jamie Foxx, and Eva Longoria as new investors. — TechCrunch headline",
+        "[Customers include] NVIDIA, Salesforce, Santander, KPN, and Deutsche Telekom for customer support agents, advertising, sales tools, multilingual communication, and marketing content creation. — Company release"
+      ],
+      "significance": "在 OpenAI（5-7 GPT-Realtime-2 / Translate / Whisper 三件套）+ Anthropic（5-7 Claude consumer push 含 voice）双面挤压下，ElevenLabs 用 4 个月把 ARR 翻 1.4 倍 + 拿下娱乐圈背书 + Anthropic Agents 默认 orchestrator——证明在 frontier lab 全面入侵 voice 这一垂直赛道的 2026 年初，专注的中型语音 AI 公司不仅没死、还在逆势抬高估值锚。这是 voice AI 这一品类'频道独占胜过模型独占'的第一份硬数据。",
+      "links": [
+        "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/",
+        "https://www.cxodigitalpulse.com/elevenlabs-surpasses-500-million-arr-as-voice-ai-adoption-accelerates/",
+        "https://pulse2.com/elevenlabs-500-million-arr-reached-as-ai-voice-platform-adds-blackrock-nvidia-and-jamie-foxx-as-investors/amp/",
+        "https://futurumgroup.com/insights/elevenlabs-hits-500m-arr-can-ai-voice-survive-the-platform-wars/"
+      ],
+      "image": "assets/logos/elevenlabs-logo.png",
+      "image_type": "logo",
+      "tags": ["ElevenLabs", "语音 AI", "Series D", "BlackRock", "NVIDIA", "ARR"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "Cursor 3.3 5-7 一次性放出三件套：PR Review 三视图集成 / Build in Parallel 异步子 Agent / 自动 Split PRs——把'读 → 改 → 提'整条链装进编辑器",
+      "source": "Cursor (Anysphere)",
+      "source_name": "Cursor Changelog",
+      "source_url": "https://cursor.com/changelog/05-07-26",
+      "story_key": "cursor-33-pr-review-parallel",
+      "event_date": "2026-05-07",
+      "summary": "Cursor 3.3 于 5 月 7 日发布——三大新特性：(1）**PR Review 三视图**：Reviews / Commits / Changes 三标签把 PR 从创建到合并整条链装进编辑器；(2）**Build in Parallel**：异步子 Agent 自动拆解独立任务并行执行 + 自动备份快照；(3）**Auto Split PRs**：基于聊天上下文自动建议拆 PR；附带一组可固定的 'skill quick-action pills'。",
+      "detail": "Cursor 3.3 是 4 月 17 日 $2B / $50B 估值融资轮披露后的第一个产品版本（详见 changelog/05-07-26）：\n\n**PR Review 三视图**：在编辑器内一站式完成 PR review——\n- **Reviews 标签**：内联 review threads + 顶层 PR 评论；\n- **Commits 标签**：聚焦该 PR 的 commit history；\n- **Changes 标签**：针对大型 PR 的 file tree + changes picker，便于跳转。\n\n**Build in Parallel（核心升级）**：用户可让 Cursor 'multitasking across tasks instead of tackling them one at a time'——\n- 系统自动用聊天 context 识别独立的 plan 切片（'logical slices'）；\n- 默认每片独立 PR，除非检测到依赖；\n- 执行前**创建备份快照**；\n- **生成 split plan 提案后等待用户批准**——把'是否真该并行'决策权交给开发者。\n\n**Skill Quick-action Pills**：常用技能（lint / test / migration 等）可固定为快捷按钮、降低 prompt 重复。\n\n**业绩背景**：Cursor / Anysphere 已在 2026-2 把 ARR 推到 **$20 亿**；4-17 启动 ~ **$20 亿融资 / $500 亿估值**轮（Andreessen Horowitz + Thrive Capital 共同领投、NVIDIA 战略跟投），公司预测 2026 年底 ARR 跑到 **$60 亿+**——是 SaaS 史上最快从 0 到 $20 亿 ARR 的 B2B 公司。3.3 是把'编程 Agent 工具' 进一步升级为'编程 Agent + 工程治理 Agent'的关键一步。",
+      "key_quotes": [
+        "Cursor can now execute on plans faster by multitasking across tasks instead of tackling them one at a time. — Changelog",
+        "It uses chat context to identify logical slices, defaults to independent PRs unless dependencies are required, creates a backup snapshot, and proposes a split plan for your approval. — Changelog",
+        "A new PR review experience is now available in Cursor 3, allowing you to take PRs from creation to merge all in one place. — Changelog"
+      ],
+      "significance": "Cursor 3.3 把竞争维度从'AI 写代码'推进到'AI + 工程治理（PR / review / split）'——这恰是 GitHub Copilot Workspaces / Anthropic 5-6 GA 的 Code Review + CI Auto-Fix / Cognition Devin 的下一战场。'Build in Parallel + Split PRs' 是首次在主流 IDE 内把'多 Agent 并发开发 + 工程纪律强制点'同时落地的尝试，直接对标 Anthropic 5-6 在 Code with Claude 大会发布的远程 / Dreaming / Auto-Fix 套件。",
+      "links": [
+        "https://cursor.com/changelog/05-07-26",
+        "https://forum.cursor.com/t/pr-review-build-plan-in-parallel-and-split-prs/160035",
+        "https://cursor.com/changelog",
+        "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/"
+      ],
+      "image": "assets/logos/cursor-logo.png",
+      "image_type": "logo",
+      "tags": ["Cursor", "PR Review", "并行 Agent", "Anysphere", "AI 编程", "工程治理"],
+      "category": "product_operators"
+    },
+    {
+      "id": "7",
+      "title": "Utah Box Elder 居民启动 11 月公投程序、目标推翻县议会拍板的 9GW Stratos AI 数据中心——Kevin O'Leary 把抗议者公开称作'paid activists'，全美 AI 数据中心首例直接民主战",
+      "source": "Box Elder Voters / Stratos Project",
+      "source_name": "CNN Business",
+      "source_url": "https://www.cnn.com/2026/05/09/tech/ai-data-center-utah-kevin-oleary-opposition",
+      "story_key": "utah-ai-data-center-protest",
+      "event_date": "2026-05-09",
+      "summary": "CNN 5 月 9 日报道：Utah 州 Box Elder 县居民已正式向县选举办申请将'撤销 9GW Stratos AI 数据中心 + 配套天然气电厂'议题列入 **2026 年 11 月** 选票——县议会本周一拍板批准时遭百人抗议；Stratos 项目背后的 Kevin O'Leary（Shark Tank 投资人）公开把抗议者贴为'**paid activists**'；这是全美 AI 数据中心选址博弈第一次走到'**直接民主公投**'层级。",
+      "detail": "**项目规模**：Stratos Project 是 9 GW（吉瓦）级 AI 数据中心 + 配套天然气发电厂——在美国国内已规划 / 在建的 AI 园区中规模仅次于德州一两个；位置选在 Utah 州 **Box Elder 县**（人口约 6 万），县议会本周一三位 commissioners 一致通过开发许可。\n\n**居民反对**：议会现场超百人抗议；居民关切聚焦：(1）Utah 的水资源 + 大气环境 — 9 GW 用电对应吉瓦级冷却水耗；(2）9 GW 配套天然气电厂在 Box Elder 上空形成的常态污染；(3）'美国西部国土遗产景观'被 mega-data-center 侵蚀。\n\n**直接民主路径**：Box Elder 数百名选民已在 5 月 8 日向选举办公室提交 referendum 申请——按 Utah 法律需收集**至少 5000 个有效签名**（较该县总选民数约 8% 门槛）才能让该议题写入 11 月选票；申请目前在县级法律审查阶段。如成功立案，将是**全美第一个把 AI 数据中心选址直接交给选民裁决**的案例。\n\n**Kevin O'Leary 反驳**：作为 Stratos Project 主要资本背书人，O'Leary 公开把抗议者称作 '**paid activists**'，并强调'AI 算力 = 国家安全'——把这场县级博弈迅速升格为'国家安全 vs 地方自治'的公共叙事冲突。\n\n**全国语境**：Stratos 申请走在前沿——美国其他州（弗吉尼亚 / 德州 / 印第安纳 / 俄亥俄 / 北达科他 / 新墨西哥）都在 2025-2026 期间批准了大量 AI 数据中心，但居民反对至今从未升级到正式公投；Box Elder 是'反对方掌握选票工具'的第一例。",
+      "key_quotes": [
+        "We Utahns consider [our landscape] our birthright treasure. — Local protester quoted by CNN",
+        "Paid activists. — Kevin O'Leary on protesters",
+        "A group of rural Utah residents wants a chance to vote in November to oppose a massive AI data center development — the latest example of Americans resisting new data center projects over fears they'll disrupt the environment and their communities. — CNN"
+      ],
+      "significance": "Big Tech 2026 全年 AI capex $7250 亿（详见 Item 2）背后是数十个 GW 级数据中心快速落地——而 AI 数据中心选址在地方政治层面的真实摩擦点，第一次以**直接民主公投**形式具象化。Box Elder 案例无论结果如何，都将给后续 AI 数据中心 EPC / 房地产 / 长协电力方提供首份'反对者掌握选票'的判例；如公投成立 + 通过，能源 / 数据中心 / GPU 长协 / hyperscaler capex 兑现速度的法律风险敞口要在估值模型里第一次被定价。",
+      "links": [
+        "https://www.cnn.com/2026/05/09/tech/ai-data-center-utah-kevin-oleary-opposition",
+        "https://www.abc4.com/news/northern-utah/box-elder-county-data-center-2/",
+        "https://www.yahoo.com/news/articles/shark-tank-kevin-o-leary-164508259.html"
+      ],
+      "tags": ["Utah", "数据中心", "公投", "Kevin O'Leary", "Stratos", "AI 基建"],
+      "category": "trending"
+    }
+  ]
+}

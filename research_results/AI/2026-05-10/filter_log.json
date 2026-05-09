@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-10",
+  "total_candidates": 11,
+  "kept": 7,
+  "dropped": 4,
+  "decisions": [
+    {
+      "story_key": "nvidia-40b-ai-equity-portfolio",
+      "event_date": "2026-05-09",
+      "title_en": "Nvidia tops $40B in 2026 AI equity bets, becoming AI investor of last resort",
+      "source": "CNBC / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Fresh meta-narrative crystallized 5-9: Nvidia confirmed >$40B equity stakes across OpenAI ($30B), Anthropic, xAI, IREN ($2.1B), Corning ($3.2B), Marvell ($2B). Includes IREN $2.1B + 5GW DSX deal announced 5-7 as a centerpiece example."
+    },
+    {
+      "story_key": "big-tech-2026-capex-725b",
+      "event_date": "2026-05-08",
+      "title_en": "Big Tech 2026 AI capex hits $725B record - 77% YoY jump driven by AI infrastructure",
+      "source": "Yahoo Finance / Tom's Hardware",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Q1 2026 earnings rollup crystallized as $725B figure across MSFT $190B, Amazon ~$200B, Google $180-190B, Meta $125-145B - 77% YoY jump driven by DRAM +95% QoQ and AI infrastructure."
+    },
+    {
+      "story_key": "publishers-meta-llama-copyright-suit",
+      "event_date": "2026-05-05",
+      "title_en": "Five publishers + Scott Turow file class action suit against Meta over Llama AI training",
+      "source": "NPR / Hachette / Variety",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First publisher copyright class action vs Meta filed 5-5 alleging Zuckerberg personally authorized piracy from LibGen/Anna's Archive. Plaintiffs: Hachette, Macmillan, McGraw Hill, Elsevier, Cengage + Turow."
+    },
+    {
+      "story_key": "openai-gpt55-cyber-launch",
+      "event_date": "2026-05-07",
+      "title_en": "OpenAI launches GPT-5.5-Cyber in limited preview to vetted defenders, scoring 81.9% on CyberGym",
+      "source": "OpenAI Blog / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New cybersecurity-specific frontier model, 81.9% CyberGym, second model to solve multi-step cyber-attack simulation end-to-end. Distinct from openai-realtime-voice-api-launch (5-7) which covered voice models."
+    },
+    {
+      "story_key": "elevenlabs-500m-arr-series-d",
+      "event_date": "2026-05-05",
+      "title_en": "ElevenLabs hits $500M ARR, adds BlackRock/NVIDIA/Jamie Foxx as new Series D investors at $11B valuation",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Voice AI category leader surpassed $500M ARR (from $350M end-2025) in 4 months; closed third Series D close adding BlackRock, Wellington, NVIDIA, Santander, D.E. Shaw, Jamie Foxx, Eva Longoria, Hwang Dong-hyuk."
+    },
+    {
+      "story_key": "cursor-33-pr-review-parallel",
+      "event_date": "2026-05-07",
+      "title_en": "Cursor 3.3 releases PR Review tab + Build in Parallel + Split PRs",
+      "source": "Cursor Changelog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major Cursor product release 5-7: integrated PR review (Reviews/Commits/Changes tabs), parallel async subagent execution with auto-snapshot + split PR proposals, pinnable skill quick-action pills."
+    },
+    {
+      "story_key": "utah-ai-data-center-protest",
+      "event_date": "2026-05-09",
+      "title_en": "Utah Box Elder residents push for November referendum to overturn 9GW Stratos AI data center",
+      "source": "CNN Business",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First major US AI data center political pushback - rural Utah residents apply to add referendum on November ballot to overturn Box Elder commission approval of 9GW Stratos Project (backed by Kevin O'Leary). Need 5,000+ signatures."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-07",
+      "title_en": "Musk v. Altman trial Day 8: witnesses testify OpenAI strayed from safety/nonprofit ideals",
+      "source": "Local News Matters / MIT Tech Review",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Trial covered through 2026-05-07 in lookback (entry titled 'Musk-Altman 庭审第二周收官' = Week 2 closing, Brockman 5-5 finishing testimony, Zilis 5-6). Day 8 witness testimony about safety/nonprofit drift is incremental, no substantive new revelation beyond what was published 5-7."
+    },
+    {
+      "story_key": "pentagon-ai-deals-anthropic-excluded",
+      "event_date": "2026-05-01",
+      "title_en": "Pentagon signs AI deals with 8 companies, excludes Anthropic",
+      "source": "CNN Business / Defense News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-01 is 9 days old (>5 day limit). Pentagon classified network deals to OpenAI/Google/Microsoft/AWS/Nvidia/SpaceX/Oracle/Reflection AI excluding Anthropic."
+    },
+    {
+      "story_key": "novo-nordisk-openai-pharma",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk × OpenAI strategic partnership for end-to-end AI in drug discovery",
+      "source": "CNBC / Fierce Pharma",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 26 days old (>>5 day limit)."
+    },
+    {
+      "story_key": "microsoft-japan-10b-ai-investment",
+      "event_date": "2026-04-03",
+      "title_en": "Microsoft commits $10B to Japan AI infrastructure with Sakura/SoftBank",
+      "source": "Bloomberg / Microsoft Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-03 is 37 days old (>>5 day limit)."
+    }
+  ]
+}
