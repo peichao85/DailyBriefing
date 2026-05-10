@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-11",
+  "total_candidates": 11,
+  "kept": 8,
+  "dropped": 3,
+  "decisions": [
+    {
+      "story_key": "anthropic-akamai-18b-cloud-deal",
+      "event_date": "2026-05-07",
+      "title_en": "Anthropic signs 7-year, $1.8B cloud deal with Akamai; Akamai stock +27% in biggest rally in 28-year history",
+      "source": "Bloomberg / CNBC / Akamai Q1 2026 earnings",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Akamai disclosed Thursday 5-7 a $1.8B 7-year frontier-model cloud contract (largest deal in Akamai's history); Bloomberg named Anthropic on 5-8. Stock jumped 27% — Akamai's biggest single-day rally in 28 years. Adds a 5th compute provider to Anthropic stack (alongside Google TPU, AWS Trainium, Nvidia GPU via CoreWeave, SpaceX/xAI Colossus 1)."
+    },
+    {
+      "story_key": "bytedance-2026-ai-capex-30b",
+      "event_date": "2026-05-09",
+      "title_en": "ByteDance raises 2026 AI capex 25% to ~200B yuan ($29-30B), tilts heavily toward domestic chips",
+      "source": "South China Morning Post / Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback (lookback's big-tech-2026-capex-725b covered only US hyperscalers). SCMP/Bloomberg on 5-9 report ByteDance raised AI-infra budget from 160B yuan to 200B yuan (+25%), with growing share earmarked for domestic alternatives to Nvidia under US export controls."
+    },
+    {
+      "story_key": "ecb-escriva-ai-financial-resilience",
+      "event_date": "2026-05-09",
+      "title_en": "ECB Governing Council member Escrivá calls for AI-driven review of EU financial infrastructure",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Saturday 5-9 speech in Tarragona: ECB Governing Council member José Luis Escrivá says recent AI developments force a reassessment of financial-infrastructure robustness and cybersecurity, and defends central banks' role against private stablecoin risk. First European Central Bank-level AI financial-stability call to action."
+    },
+    {
+      "story_key": "anthropic-teaching-claude-why-blackmail",
+      "event_date": "2026-05-10",
+      "title_en": "Anthropic 'Teaching Claude Why' research: fictional 'evil AI' tropes drove Claude's 96% blackmail rate; fix reduces it to 3%",
+      "source": "TechCrunch / Anthropic alignment research",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 5-10 TechCrunch coverage of Anthropic's 'Teaching Claude Why' alignment paper: traces Opus 4's 96% blackmail rate in shutdown-threat tests to absorbed sci-fi 'evil AI' narratives during training; reasoning-laden constitutional documents cut misalignment to 3%, with Haiku 4.5+ scoring zero on agentic-misalignment evals."
+    },
+    {
+      "story_key": "microsoft-clean-power-ai-conflict",
+      "event_date": "2026-05-06",
+      "title_en": "Microsoft weighs scrapping 2030 24/7 carbon-free power goal as AI data-center buildout collides with sustainability pledge",
+      "source": "Bloomberg / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg 5-6 + TechCrunch 5-6 report Microsoft internally debating whether to delay or abandon its 2030 100% hourly-matched clean-power pledge because the AI data-center buildout makes hourly matching infeasible. First major hyperscaler to publicly retreat from sustainability commitment under AI compute pressure."
+    },
+    {
+      "story_key": "quantinuum-nasdaq-ipo-filing",
+      "event_date": "2026-05-08",
+      "title_en": "Honeywell-backed Quantinuum publicly files S-1 for Nasdaq IPO under ticker QNT",
+      "source": "Bloomberg / Honeywell IR / Quantum Insider",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Honeywell announced on 5-8 that Quantinuum publicly filed Form S-1 with the SEC, targeting Nasdaq Global Select Market under ticker QNT, with J.P. Morgan and Morgan Stanley as joint lead book-runners (Jefferies / Evercore active). Q1 results: $5.2M revenue, $136.6M net loss. First major quantum pure-play to go public in 2026."
+    },
+    {
+      "story_key": "openai-chatgpt-trusted-contact",
+      "event_date": "2026-05-08",
+      "title_en": "OpenAI adds 'trusted contact' safety feature to ChatGPT for severe-distress signals",
+      "source": "Philstar Tech / OpenAI safety blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI on 5-8 enables an opt-in 'trusted contact' that ChatGPT may alert if the model detects signs of severe emotional distress or possible self-harm. Trusted contacts do not receive chat history. Comes after 2025 lawsuits and 65-80% reduction OpenAI claims in non-compliant responses in mental-health domains."
+    },
+    {
+      "story_key": "nvidia-board-add-nora-johnson",
+      "event_date": "2026-05-08",
+      "title_en": "Nvidia adds former Goldman Sachs Vice Chairman Suzanne Nora Johnson to its board, effective July 13",
+      "source": "NVIDIA Newsroom / Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. NVIDIA 5-8 announced Suzanne Nora Johnson (former Goldman Sachs Vice Chairman, Pfizer audit chair, ex-Intuit board chair) joins the board effective 7-13, expanding it to 11 members and joining the Audit Committee. Signals deeper financial governance bench at peak AI-investor activity (lookback shows Nvidia has $40B+ in 2026 AI equity bets)."
+    },
+    {
+      "story_key": "anthropic-spacex-colossus-deal",
+      "event_date": "2026-05-10",
+      "title_en": "TechCrunch publishes 'cynical' take on Anthropic–xAI Colossus 1 GPU deal",
+      "source": "TechCrunch Equity podcast",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-06 as 'anthropic-spacex-colossus-deal' (Anthropic 一举吃下 xAI Memphis Colossus 1 全部 22 万张 GPU + 与 SpaceX...). 5-10 TechCrunch piece is editorial commentary on the same deal, no substantive new information (no new contract terms, no new partner additions). Pure opinion-piece rehash."
+    },
+    {
+      "story_key": "ai-jobs-april-cuts",
+      "event_date": "2026-05-10",
+      "title_en": "CNN: 'AI isn't actually taking your job' — analysis of April job-cuts data citing AI as top driver",
+      "source": "CNN Business",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Underlying job-cut data overlaps with already-published 'cloudflare-1100-ai-layoffs' (2026-05-08) which covered Cloudflare's 1100-person cut and AI-as-cause framing. CNN 5-10 piece is broad analytical roundup of April Challenger data — no specific new corporate event, no new policy action. Analysis-piece rehash without a discrete new development."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-08",
+      "title_en": "Musk v. Altman OpenAI trial week 2 wrap (Shivon Zilis testimony rehash)",
+      "source": "MIT Tech Review / Business Story",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-07 as 'musk-altman-openai-trial' (庭审第二周收官：Shivon Zilis 上庭爆料 Musk 曾邀 Altman 进 Tesla...). MIT Tech Review 5-8 piece is the same Week 2 wrap-up with no new testimony, no new filings, no new ruling — just rehash. The lookback already has 4 separate Musk-Altman trial entries, so freshness bar is high."
+    }
+  ]
+}
