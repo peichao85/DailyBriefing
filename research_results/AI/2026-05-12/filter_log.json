@@ -1,0 +1,116 @@
+{
+  "date": "2026-05-12",
+  "total_candidates": 12,
+  "kept": 7,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "openai-deployment-company-tomoro",
+      "event_date": "2026-05-12",
+      "title_en": "OpenAI launches $4B Deployment Company with TPG/Bain/Brookfield + acquires Tomoro for 150 FDEs",
+      "source": "OpenAI Blog / Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major new venture: OpenAI launches majority-owned $4B+ enterprise AI services company with 19 partners (TPG-led, McKinsey/Bain/Capgemini etc.) + simultaneously acquires Scottish AI consulting firm Tomoro for ~150 Forward Deployed Engineers. Direct competitive response to Anthropic's $1.5B Wall Street JV from May 5."
+    },
+    {
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-12",
+      "title_en": "Cerebras upsizes IPO to $4.8B at $48.8B valuation as price range jumps to $150-160",
+      "source": "Bloomberg / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Cerebras filed updated S-1 May 11 raising IPO price range from $115-125 to $150-160 (+30%) and offering 30M shares (was 28M); new fully-diluted valuation up to $48.8B (vs $23B Feb round). On track to be largest 2026 IPO globally; OpenAI is largest customer with $20B+ contract + warrants on 33M shares."
+    },
+    {
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-12",
+      "title_en": "Trump invites Musk, Cook, Fink, Boeing's Ortberg to May 13-15 Beijing summit; Nvidia's Huang notably absent",
+      "source": "CNBC / Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. White House confirmed May 11 the CEO delegation accompanying Trump on May 13-15 Beijing state visit: Musk (Tesla/SpaceX/xAI), Cook (Apple), Fink (BlackRock), Ortberg (Boeing). Notably absent: Jensen Huang despite Nvidia being central to AI chip export controls (key summit topic). Major signaling event for US-China tech diplomacy."
+    },
+    {
+      "story_key": "alphabet-yen-bond-ai-capex",
+      "event_date": "2026-05-12",
+      "title_en": "Alphabet plans first-ever yen Samurai bond + raises 2026 capex outlook to $190B",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg May 11 exclusive: Alphabet mandates Mizuho/BofA/MS for debut yen-denominated senior unsecured bond; capex outlook revised up to $180-190B (was $185B; was double 2025's). Follows ~$17B EUR/CAD raise earlier in May. Concrete sign that even net-cash hyperscalers are now currency-diversifying debt to fund AI buildout."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-12",
+      "title_en": "Satya Nadella testifies in Musk v. Altman trial: 'didn't want Microsoft to be next IBM'",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-4 (Brockman Day 5/$30B stake), 5-5 (Brockman Day 6/Mars-city), 5-7 (Zilis testimony, Tesla board offer). New on 5-11: Microsoft CEO Satya Nadella took the stand, said Musk never raised concerns about MS/OpenAI investment, internal email worried about Microsoft becoming 'the next IBM'; under cross said never demanded Altman reinstatement, was unaware of OpenAI nonprofit having any full-time staff before March 2026. Altman to testify Tuesday (5-12), advisory verdict expected week of 5-18."
+    },
+    {
+      "story_key": "openai-gpt55-cyber-launch",
+      "event_date": "2026-05-12",
+      "title_en": "OpenAI grants EU institutions access to GPT-5.5-Cyber; Anthropic still withholding Mythos from EU",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-7 (initial launch to vetted US 'authorized defenders'). New on 5-11: OpenAI announced EU access — businesses, governments, EU institutions added; OpenAI for Countries head George Osborne quoted; Anthropic explicitly contrasted as still holding back Mythos from EU despite earlier requests (returning the 5-4 'Eurogroup demands Mythos access' story to the news cycle). Geographic expansion + competitive positioning vs Anthropic = substantively new."
+    },
+    {
+      "story_key": "mondaycom-q1-2026-ai-platform",
+      "event_date": "2026-05-12",
+      "title_en": "monday.com Q1 2026: revenue $351M (+24% YoY) beats; AI Work Platform GA + 10% of net new ARR from AI",
+      "source": "monday.com IR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. monday.com (MNDY) reported Q1 2026 May 11: revenue $351M (+24% YoY, +$12M beat), record $49M operating profit, EPS $1.15 (+$0.22 beat), stock +20.9% intraday. Simultaneously launched the AI Work Platform with native agents + new consumption-based AI pricing — first major SaaS pure-play to fully repackage around agentic pricing. AI products = 10% of net new ARR."
+    },
+    {
+      "story_key": "ibm-chief-ai-officer-2026-study",
+      "event_date": "2026-05-04",
+      "title_en": "IBM CEO study: 76% of orgs now have Chief AI Officer (up from 26%)",
+      "source": "IBM Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-04 is 8 days old (>5 day limit). CNBC re-coverage on May 11 referenced the IBM Newsroom report from 5-4 — the underlying release event is stale."
+    },
+    {
+      "story_key": "snap-perplexity-deal-ended",
+      "event_date": "2026-05-06",
+      "title_en": "Snap and Perplexity 'amicably ended' $400M AI search integration",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-06 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-q1-80x-growth",
+      "event_date": "2026-05-06",
+      "title_en": "Anthropic CEO discloses 80x Q1 growth, $30B run rate",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-06 is 6 days old (>5 day limit). Also already partially captured in 'anthropic-1t-valuation-50b-round' from 5-8."
+    },
+    {
+      "story_key": "cohere-aleph-alpha-merger",
+      "event_date": "2026-04-24",
+      "title_en": "Cohere acquires Aleph Alpha at ~$20B valuation",
+      "source": "TechCrunch / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 18 days old (>5 day limit)."
+    },
+    {
+      "story_key": "pit-stockholm-a16z-seed-16m",
+      "event_date": "2026-05-07",
+      "title_en": "Pit (Voi founders' AI startup) launches with $16M a16z-led seed",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 5 days old — at the limit but not strictly >5; however, story is stale (a16z has already announced; no new info today) and significance modest vs. competing same-day candidates. Dropped to keep top items high-quality."
+    }
+  ]
+}

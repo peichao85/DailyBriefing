@@ -1,0 +1,182 @@
+{
+  "date": "2026-05-12",
+  "category": "AI",
+  "title": "OpenAI 自办 $40 亿企业部署公司宣战咨询业 / Cerebras IPO 估值冲 $488 亿 / Trump 访华 CEO 名单'独缺黄仁勋'",
+  "items": [
+    {
+      "id": "1",
+      "title": "OpenAI 一拳打回 McKinsey 战场：自办 $40 亿 'Deployment Company'，TPG 领投 19 大金主，同日吞下 Tomoro 拿 150 名 FDE 入场",
+      "source": "OpenAI",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/openai-launches-the-deployment-company/",
+      "story_key": "openai-deployment-company-tomoro",
+      "event_date": "2026-05-12",
+      "summary": "OpenAI 5-11 公告成立 OpenAI 控股的 'OpenAI Deployment Company'——TPG 领投 + Bain Capital / Brookfield / Advent 联合发起，19 家金主合计承诺 **$40 亿+**，叠加同日宣布对苏格兰 AI 咨询公司 Tomoro 的全资收购（带来约 150 名 Forward Deployed Engineer）；正面对标 Anthropic 5-5 的 Wall Street $15 亿 JV 与传统 McKinsey/Accenture 模式。",
+      "detail": "OpenAI 5 月 11 日公告成立 **OpenAI Deployment Company**——一家由 OpenAI 多数控股、面向企业的全栈 AI 部署公司，启动资金超过 **$40 亿美元**。\n\n**资金与投资者**：TPG 担任 leading partner；Advent、Bain Capital、Brookfield 为 co-lead founding partners；B Capital、BBVA、Emergence Capital、Goanna、Goldman Sachs、SoftBank Corp.、Warburg Pincus、WCAS 为 founding partners；Bain & Company、Capgemini、McKinsey & Company 等咨询与系统集成商作为投资人参与，合计 19 家。Axios 援引消息称当前估值约 $140 亿美元。\n\n**核心模式**：通过派驻 OpenAI 内部称之为 'Forward Deployed Engineers (FDEs)' 的工程师团队，深入企业一线 — 与业务领导、运营人员、前线团队一起重设组织基础设施和关键业务流程，把 ChatGPT/Codex/Realtime 等 OpenAI 平台能力沉淀为可运行系统。这是把 Palantir 经典 FDE 模式整体搬到 frontier-AI 服务市场。\n\n**配套收购**：同日宣布全资收购苏格兰 AI 咨询公司 **Tomoro** — 客户名单包括 Tesco、Virgin Atlantic、Supercell — 一次性带来约 **150 名经验丰富的 Forward Deployed Engineer 与 Deployment Specialist**。交易仍待监管审批，预计未来数月完成交割。\n\n**战略定位**：与 Anthropic 5-5 联合 Blackstone / Goldman / Hellman & Friedman 成立的 $15 亿 Wall Street 合资公司形成直接对标 — 双方均把传统'AI 推理 API + 可选第三方咨询'路径换成'自营 + PE 渠道 + 派驻工程师'的全栈服务模型，正式向 McKinsey、Accenture、Capgemini 等数百亿美元规模的企业咨询市场宣战。Tomoro 收购则呼应 EPAM 5-6 公告的 '1 万名 Claude 认证架构师 + 250 名 Black Belt FDE' — 整个 frontier-AI 服务层正在被两大模型厂商直接收编。",
+      "key_quotes": [
+        "We are launching the OpenAI Deployment Company to help organizations build and deploy AI systems they can rely on every day across their most important work.",
+        "FDEs will work closely with business leaders, operators, and frontline teams to identify where AI can make the biggest impact, redesign organizational infrastructure and critical workflows around it, and turn those gains into durable systems."
+      ],
+      "significance": "这是 OpenAI 在 ChatGPT 订阅 + API 之外打开的**第三条收入曲线** — 直接进入企业 AI 服务/部署这一传统咨询行业领地，并以 PE/系统集成商联盟的方式拿到对全球 Fortune 500 的销售/部署网络。叠加 Anthropic 5-5 的 $15 亿 Wall Street JV，frontier-AI 厂商正在从'卖 token'升级到'承包企业 AI 转型'，McKinsey / Accenture / Capgemini 第一次同时面对自己的供应商和自己的竞争对手 — 也是为什么 BCG 没参投、而 Bain & McKinsey 选择'下场入股'。Tomoro 的并购则把'谁拥有 FDE'变成今年下半年 enterprise-AI 战场的关键稀缺品。",
+      "links": [
+        "https://openai.com/index/openai-launches-the-deployment-company/",
+        "https://www.bloomberg.com/news/articles/2026-05-11/openai-to-buy-consulting-firm-for-private-equity-joint-venture",
+        "https://www.axios.com/2026/05/11/openai-deployco-private-equity",
+        "https://techstartups.com/2026/05/11/openai-launches-4b-enterprise-ai-unit-to-accelerate-corporate-adoption-acquires-tomoro-to-scale-deployments/",
+        "https://www.theregister.com/ai-ml/2026/05/11/openai-buys-ai-consultancy-to-sell-enterprises-on-its-models/5238213"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "enterprise AI", "M&A", "Tomoro", "TPG", "Forward Deployed Engineers"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Cerebras 一夜把 IPO 估值顶到 $488 亿：超额认购 20 倍、定价区间 +30%、5-14 上市将成 2026 全球最大 IPO",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-11/ai-chipmaker-cerebras-systems-seeks-4-8-billion-in-upsized-ipo",
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-12",
+      "summary": "Cerebras 5-11 提交补充 S-1：定价区间从 $115-125 一举提到 **$150-160** 美元/股（+30%），发售股数从 28M 增至 30M，募资上限拉到 **$48 亿美元**；按高位定价对应 **$488 亿美元**全摊薄估值（vs. 2 月轮 $230 亿）。订单量已达发售量 20 倍，Nasdaq 5-14 挂牌，将成 2026 年全球最大 IPO。",
+      "detail": "Cerebras Systems（计划 ticker：**CBRS**）于 5 月 11 日向 SEC 提交修订招股说明书：\n\n**定价大跳**：IPO 价格区间从此前 **$115-125** 美元/股一举上调到 **$150-160** 美元/股（区间整体 +30%）；发售股数从 28M 增至 **30M 股**；募资上限随之冲到 **$48 亿美元**——完全摊薄估值最高可达 **$488 亿美元**，对比 2026 年 2 月轮 $230 亿估值在 3 个月内**翻倍**。\n\n**超额认购 20×**：投资者下单已达可发售股数 **20 倍以上**，被 Dealogic 排为 2026 年至今全球最大 IPO；Morgan Stanley、Citigroup、Barclays、UBS 联席承销。Nasdaq 预计 **5 月 14 日**正式挂牌。\n\n**OpenAI 是最大客户**：Cerebras 与 OpenAI 在 2026 年 1 月签下**总额 $200 亿+ 美元**的多年期合同，承诺为 OpenAI 提供 **750 MW 超低延迟推理算力**，主要用于 OpenAI 内部代码生成模型；2025 年 12 月 OpenAI 还向 Cerebras 提供 **$10 亿美元贷款** + 可购入 **3340 万股**非投票 Class N 股的认股权证。Greg Brockman 个人也持有 Cerebras 股份。\n\n**财务**：2025 全年营收 **$5.10 亿美元**（YoY +76%），2024 年为 $2.90 亿。\n\n**竞争定位**：Cerebras 主打晶圆级（wafer-scale）芯片 + 推理低延迟，公开自报某些 inference 工作负载 **比 GPU 更快、更便宜** — 正是 OpenAI 锁单 $200 亿的根本原因。叠加 NVIDIA 5-7 公告 Vera Rubin NVL72 + Groq 3 LPX 自研推理栈，'GPU 之外的推理算力第二供应方'格局首次清晰浮现。",
+      "key_quotes": [
+        "Demand for the artificial intelligence chipmaker and data center operator's shares continues to build."
+      ],
+      "significance": "这是自 2026 年初以来 frontier-AI 推理算力供应链估值最大单点跳跃 — Cerebras 估值 3 个月翻倍、超额认购 20 倍，等于公开市场为 OpenAI 这条 $200 亿合同**直接买单**，把 'GPU 之外的推理算力'独立估为 $488 亿。对 Nvidia 而言这是历史上首次有非 GPU 厂商在公开市场拿到接近其客户级别的估值溢价；对 OpenAI 而言意味着自己签下的算力合同同时也是自己持有的认股权证——OpenAI 的'算力—股权'飞轮被首次定价。同日 Hut 8、CoreWeave、IREN 同步走强 — 推理算力'第二载体'整体被 re-rate。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-11/ai-chipmaker-cerebras-systems-seeks-4-8-billion-in-upsized-ipo",
+        "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
+        "https://www.cryptopolitan.com/cerebras-becomes-2026-biggest-ipo-demand/",
+        "https://siliconangle.com/2026/05/10/report-ai-chipmaker-cerebras-increase-ipo-price-target-amid-surging-investor-demand/"
+      ],
+      "image": "img/cerebras-logo.png",
+      "image_type": "logo",
+      "tags": ["Cerebras", "IPO", "AI chip", "OpenAI", "推理算力"],
+      "category": "builders"
+    },
+    {
+      "id": "3",
+      "title": "Trump 5-13 访华代表团名单出炉：Musk / Cook / Fink / Boeing CEO 同行——Nvidia 黄仁勋'不在受邀列表'格外醒目",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-12",
+      "summary": "白宫 5-11 确认随访 CEO 名单：Elon Musk（Tesla/SpaceX/xAI）、Tim Cook（Apple）、Larry Fink（BlackRock）、Kelly Ortberg（Boeing）等 17 名美国大企业 CEO 将随 Trump **5-13 至 5-15** 访问北京、出席与习近平的元首会晤——**Nvidia CEO 黄仁勋未在受邀名单**，被多家媒体公开点名为'最显眼缺席'。",
+      "detail": "白宫 5 月 11 日通过 Bloomberg / CNBC 确认 Trump **5-13 至 5-15 国事访问北京**所携美国企业代表团：\n\n**确认随行**：Elon Musk（Tesla / SpaceX / xAI）、Tim Cook（Apple）、Larry Fink（BlackRock）、Kelly Ortberg（Boeing）领衔；Bloomberg 报道总人数约 **17 名 CEO 级别**美国企业领袖。\n\n**最大缺席**：**Nvidia CEO 黄仁勋未受邀** — 在过去 4 周 AI 芯片出口管制是中美科技外交头号议题、且 Nvidia 同期在中国被'最佳替代方案'话术挤压（参看 5-9 ByteDance $300 亿 capex 70% 投国产芯片）的背景下，'Huang 不在'被解读为白宫**主动避免**让 Nvidia 这个最具象征意义的 AI 芯片公司参与谈判桌。Huang 上周在 CNBC Cramer 访谈中已暗示'让总统决定'，公开姿态克制。\n\n**议程焦点**：Trade、AI 与芯片出口管制、Taiwan、Iran 战争、稀土出口管制——白宫官员透露此次访问'更聚焦农业与商用航空（Boeing 飞机订单）'，AI 议题大概率不会出现重大单方面承诺。\n\n**多边背景**：欧元区、新加坡、Brussels 等多国领导人公开表示'远观'此次峰会；CFR、AEI、CNBC 等智库与外交媒体一致评估突破概率低，但'谈本身就是进展'。",
+      "key_quotes": [
+        "If invited, it would be a privilege, it would be a great honor to represent the United States. — Jensen Huang, Nvidia CEO（受邀缺席表态）"
+      ],
+      "significance": "中美 AI 芯片管制博弈进入 'CEO 桌牌也成为政治信号' 阶段——白宫**没有**带 Nvidia，等于把 AI 芯片单独从这次峰会议程的'可让步项'中剥离；同时带 Musk（同时是 xAI/特斯拉/SpaceX 的核心算力买家）和 Cook（Apple 已在 5-5 公开探讨 TSMC 之外的 Intel/Samsung 代工）则把'去芯片单一供应链'与'消费电子+航空+金融'打包搬上谈判桌。北京这边则刚把 DeepSeek 写为'国家 AI 冠军'（5-6 大基金 $50B 估值轮）+ 把 ByteDance 2026 capex 转向国产芯片——双方在峰会前夕都已用'结构调整'代替'让步'，决定了此次会晤大概率不产出 AI/chip 的显著突破。",
+      "links": [
+        "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
+        "https://www.bloomberg.com/news/articles/2026-05-11/musk-cook-set-to-join-trump-for-xi-summit-white-house-says",
+        "https://www.benzinga.com/news/politics/26/05/52463767/elon-musk-joins-trumps-china-trip-nvidia-ceo-jensen-huang-not-invited",
+        "https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["Trump", "Xi", "geopolitics", "AI chip export", "Nvidia", "Musk", "Cook"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Alphabet 5-11 首次入场日元债：Mizuho/BofA/MS 联席，2026 capex 上调到 **$1900 亿**——超大规模云首次为 AI 单独搭建多币种债务工具箱",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates",
+      "story_key": "alphabet-yen-bond-ai-capex",
+      "event_date": "2026-05-12",
+      "summary": "Bloomberg 5-11 独家：Alphabet 首次进入日本债市——委任 Mizuho Securities、BofA Securities、Morgan Stanley 安排首笔**日元 Samurai 高级无担保债**，发行规模可能达数千亿日元；同时把 2026 全年 capex 指引上调至 **$1800-1900 亿美元**（此前 $1850 亿、2025 全年的两倍）。",
+      "detail": "Bloomberg 5 月 11 日独家披露：\n\n**日元债首发**：Alphabet 已委任 **Mizuho Securities、BofA Securities、Morgan Stanley** 联席安排公司史上**首笔日元计价的高级无担保债**（Samurai bond），发行规模可能数千亿日元，本月内入市。这是 Alphabet 第一次进入日本本币债市。\n\n**capex 同步上调**：在最新季度财报后，Alphabet 把 2026 全年 capital expenditure 指引从 **$1850 亿** 进一步上调至 **$1800-1900 亿美元**——是 2025 年 ~$950 亿的**两倍**，与 Microsoft 单家 $1900 亿 + Amazon $2000 亿 + Meta 同步走入 ' big tech 4 强 capex $7250 亿' 的更宏观图景一致（5-8 已记录）。\n\n**多币种债务铺垫**：本月稍早 Alphabet 已通过 **euro + 加币 (CAD)** 债券同时融资约 **$170 亿美元**——加上日元这一笔，Alphabet 在不到一个月内完成 **EUR + CAD + JPY** 三币种发债铺垫，全球最低收益率市场（日本 10Y 国债收益率 ~1.3%-1.5%）成为下一个 AI capex 资金池。\n\n**全行业累计**：Reuters 同步推测，2026 全年大科技 AI 基础设施投入合计将冲破 **$7000 亿美元**（2025 ~$4100 亿）。",
+      "key_quotes": [
+        "Alphabet plans to issue yen bonds for the first time in a move that may help fund investments as artificial intelligence competition intensifies."
+      ],
+      "significance": "Alphabet 是 big tech 中**净现金流最强**的公司之一——它都开始为 AI capex 转向**多币种债务融资**，等于公开承认现金流已经追不上 AI 基础设施投入节奏；这是 hyperscaler '资金成本'第一次进入 AI 算力价格的隐形成本曲线。日元市场被点名意味着 Alphabet 把'最低利率本币'纳入 AI 资金池——下一波若 Microsoft / Amazon / Meta 跟进发日元债，整个 AI 基础设施将首次出现**用 BoJ 利率折现**的资产；汇率对 BoJ 干预与日元走弱的反应将与 AI capex 周期出现新的耦合。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-11/alphabet-plans-debut-yen-bond-sale-as-ai-race-accelerates",
+        "https://invezz.com/en-ae/news/2026/05/11/alphabet-plans-first-yen-bond-sale-to-help-fund-ai-expansion/",
+        "https://thenextweb.com/news/alphabet-debut-yen-bond-ai-capex",
+        "https://seekingalpha.com/news/4590538-alphabet-plans-to-issue-yen-denominated-bonds-amid-high-ai-infrastructure-spending-needs"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Alphabet", "Google", "AI capex", "bond market", "Samurai bond", "hyperscaler"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Musk v. Altman 庭审第三周：Satya Nadella 周一上庭——'Musk 从没向我提过反对 Microsoft 投资 OpenAI''我担心 Microsoft 变成下一个 IBM'",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-12",
+      "summary": "Microsoft CEO **Satya Nadella** 5-11 在 Oakland 联邦法院上证人席数小时——明确证称'Musk 从未就 Microsoft 与 OpenAI 的关系/投资条款向我表达任何反对'，同时承认 2022 年 $100 亿追加投资前内部邮件曾担忧'Microsoft 不要变成下一个 IBM、OpenAI 变成下一个 Microsoft'；Sam Altman 本人将于 5-12 周二开始作证、陪审团预计在 5-18 周给出 advisory verdict。",
+      "detail": "Musk v. Altman 庭审 Day 11 / 第三周开局（5 月 11 日，周一）：\n\n**Nadella 上庭核心证词**：\n- 明确：'Elon Musk 从未就 Microsoft 投资 OpenAI 是否违反任何特别条款或承诺向我表达过任何担忧'。\n- 反方反复追问 Microsoft 当初是否曾要求'重新让 Altman 当 CEO' — Nadella 否认：从未要求 OpenAI 董事会恢复 Altman 职务。\n- '不要变成下一个 IBM' — Nadella 在 2022 年决定追加 $100 亿投资前内部邮件中明确写道：他不希望出现'Microsoft 变 IBM、OpenAI 变 Microsoft'的局面，反映当年决策心态。\n- 在交叉盘问中，Nadella 承认：直到 **2026 年 3 月之前**，他**不知道 OpenAI 非营利母体**有任何全职员工、任何 grant、任何研究产出或开源技术。\n\n**背景回顾：** Musk 2024 年起诉 Altman + Brockman + OpenAI，主张 OpenAI 的非营利使命是与 Musk 之间的'慈善信托 (charitable trust)'，Microsoft 投资 + 营利化重组系'违反信托'；庭审 4 月底开庭，已有 Brockman（5-4/5-5 当庭披露 $300 亿持股 + Mars-city + 'a lie' 日记）、Shivon Zilis（5-7 披露 Musk 邀 Altman 进 Tesla 董事会）等关键证词。\n\n**接下来**：Sam Altman 本人 5 月 12 日（周二）开始作证；陪审团给出 advisory verdict 预计在 **5 月 18 日**当周——但本案为民事诉讼、advisory only，最终判决由法官裁定 Brockman/Altman 当年的口头承诺是否构成正式的 charitable trust 以及是否违反。",
+      "key_quotes": [
+        "Elon Musk never raised any concerns to me about Microsoft's investment in OpenAI being in violation of any special terms or commitments. — Satya Nadella",
+        "I didn't want Microsoft to become IBM while OpenAI became the next Microsoft. — Satya Nadella, internal email, 2022"
+      ],
+      "significance": "Nadella 是案件中**唯一一个不站在 Musk 或 Altman 任何一边**的 frontier-AI 资金方代言人 — 他的证词把 Musk 主张的'Microsoft 投资侵犯了我的非营利信托'核心论据**第一次正面拆解**（'你从没问过我'）；同时 'next IBM' 这个比喻第一次公开承认 Microsoft 当年签 $100 亿投资时**就在防御 OpenAI 把自己取代** — 这个心态与最近 Anthropic 把 OpenAI 在 ARR 上反超的现实形成鲜明对照。Altman 本人 5-12 上庭将完成本案'三巨头亲历者'最后一拼图，本周的证词是否一致将决定 advisory verdict 倾向。",
+      "links": [
+        "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
+        "https://www.geekwire.com/2026/musk-v-altman-satya-nadella-was-worried-about-microsoft-being-the-next-ibm-in-openai-deal/",
+        "https://www.nbcnews.com/tech/elon-musk/microsoft-ceo-satya-nadella-testifies-musk-openai-trial-rcna344584"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "Nadella", "OpenAI", "Musk", "trial", "charitable trust"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "OpenAI 一周内反手开放欧盟：5-11 给 EU 政府 / 机构开放 GPT-5.5-Cyber——Anthropic 仍把 Mythos 关在美国境内、Brussels 不满升级",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+      "story_key": "openai-gpt55-cyber-launch",
+      "event_date": "2026-05-12",
+      "summary": "OpenAI 5-11 公开宣布：把 5-7 上线的限定模型 **GPT-5.5-Cyber 向欧盟 businesses / governments / EU institutions 开放**——OpenAI for Countries 负责人 George Osborne 出面明确为'欧盟防御者社群'背书；同日报道点名 Anthropic 'Mythos 仍未给 EU 任何 preview 访问权'，与 5-4 Eurogroup 财长团'Mythos 是地缘公共品'的诉求形成正面对照。",
+      "detail": "**今天的新进展**：\n\n- OpenAI 5 月 11 日宣布：**GPT-5.5-Cyber**（OpenAI 'cybersecurity lineup 中最 permissive 的一款'、CyberGym 81.9%）正式向**欧盟政府、欧盟机构与企业**开放；面向用户仍要求强化身份验证（'verified defenders'）。\n- OpenAI for Countries 负责人 **George Osborne**（前英国财政大臣）公开出面背书：'先进的 AI 网络防御工具应该向**整个欧洲防御者社群**开放，而不只是少数被选中的几家'。\n- CNBC 同步明确：**Anthropic 至今未与欧盟达成 Mythos preview 访问协议**——双方仍处于'初期讨论'阶段，远落后于 OpenAI 与 EU 的对话进度。\n\n**背景回顾：** 5-7 OpenAI 在 'Trusted Access for Cyber' 项目下首次推出 GPT-5.5-Cyber，仅向通过强化身份验证的'美国授权防御者'开放——是对 Anthropic Mythos 在过去 6 个月独占 frontier 漏洞研究模型品类的回应；5-4 Eurogroup 财长团在 Brussels 公开把 Anthropic Mythos 列为议题、要求 EU 机构与 NSA 同等访问权，以避免'我们国家的零日防线现在依赖一家美国私营公司'。\n\n**Mythos 本身**：5-5 Anthropic CEO Amodei 公开给出 6-12 个月的'moment of danger'窗口、表示已挖出'数以万计'软件零日；同日白宫拒绝把 Mythos 访问权扩到额外约 70 家公司机构。",
+      "key_quotes": [
+        "Advanced AI-powered cyber defense tools should be accessible to Europe's broader community of defenders, not just a select few. — George Osborne, OpenAI for Countries"
+      ],
+      "significance": "OpenAI 用**地理扩张**抢占 Anthropic Mythos 在 EU 的真空——Brussels 自 5-4 起就在公开施压，但 Anthropic 由于 Mythos 风险等级（CBRN-2 / 实战级零日发现）选择收紧；OpenAI 反手把 GPT-5.5-Cyber 这一**安全护栏更宽松**的同品类模型送进欧洲，就此改变'frontier 漏洞研究模型只能在美国境内使用'的事实垄断格局。这是 OpenAI 在 Cyber 这一垂类首次跑赢 Anthropic，叠加同日 OpenAI Deployment Company 的咨询渠道（含 BBVA 等欧洲金融机构入伙），OpenAI 在欧洲的'政府/企业 + 安全'双线渗透首次成型。",
+      "links": [
+        "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+        "https://www.eweek.com/news/openai-gpt-5-5-cyber-eu-rollout/",
+        "https://www.benzinga.com/markets/private-markets/26/05/52446081/openai-shares-its-latest-cyber-model-with-eu-anthropic-reportedly-holds-back-mythos"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Anthropic", "Mythos", "GPT-5.5-Cyber", "EU", "cybersecurity"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "7",
+      "title": "monday.com Q1 2026 全线超预期 + 同日推 'AI Work Platform' 走 consumption 计费——股价 +20.9%、首家 SaaS 纯玩家把 agentic 计价写进财报会",
+      "source": "monday.com",
+      "source_name": "monday.com IR",
+      "source_url": "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-Goes-All-In-on-AI-From-Work-Management-Platform-to-AI-Work-Platform/default.aspx",
+      "story_key": "mondaycom-q1-2026-ai-platform",
+      "event_date": "2026-05-12",
+      "summary": "monday.com (NASDAQ: MNDY) 5-11 公布 Q1 2026：营收 **$3.51 亿(+24% YoY)**、EPS $1.15 双双超预期；运营利润 **$4900 万创单季新高**；同日把公司战略整体重组为 'AI Work Platform'——native AI agents 全面 GA + **新增按 consumption 计费**——AI 产品已贡献 **10% 净新增 ARR**；股价盘中 **+20.9%**。",
+      "detail": "monday.com 5 月 11 日晨市前同步发布 Q1 2026 财报与战略品牌升级：\n\n**财务**：\n- 营收 **$3.51 亿美元**，YoY +24%，单季 beat $1219 万。\n- Non-GAAP 毛利率 **89%**（YoY -1pp，AI 推理成本拉低）。\n- 运营利润 **$4900 万 / 14% 利润率（公司单季历史新高）**；外汇负面影响约 190 bps。\n- Non-GAAP EPS **$1.15**，比一致预期高 $0.22。\n- 净留存率 NDR **110%**。\n- CRM 业务 ARR 突破 **$1 亿美元**，主要由 SMB 拉动。\n\n**'AI Work Platform' 战略发布**：\n- 把公司从 'work management platform' 整体重新定位为 **'AI Work Platform'**——即'人 + agent 协同完成工作'的平台。\n- 平台原生集成 **AI agents**：任何团队成员（无技术背景）即可配置、部署、调度 agent；不再依赖 third-party agent marketplace。\n- 全新 **consumption-based AI pricing** —— 这是首家市值 >$10B 的 SaaS 纯玩家把 agentic 计费整体写进季度财报会的厂商；管理层同时警示：'2026 年内会出现额外的 AI 推理成本支出'。\n- 季度内 **AI 产品贡献 10% 的净新增 ARR**；新产品（CRM + AI）合计贡献 **>11% of total ARR**。\n\n**市场反应**：盘中股价单日 **+20.9%**，是 monday.com 自上市以来单日最大涨幅之一。",
+      "key_quotes": [
+        "monday.com Goes All In on AI: From Work Management Platform to AI Work Platform. — monday.com 官方公告标题",
+        "There is going to be additional cost regarding computing costs related to AI. — monday.com 管理层 Q1 财报会"
+      ],
+      "significance": "monday.com 是**首家公开把整体业务模型从 seat-based SaaS 整体切到 consumption-based agent 计价**的中等市值 SaaS 厂商——直接把 ServiceNow 5-5 的 'Autonomous Workforce + AI Control Tower' 模式压缩到 SMB / 中端市场。AI 贡献 10% 净新增 ARR + 股价 +20.9% 同时落地，意味着公开市场首次愿意为'agentic SaaS 转身'给出溢价（vs. 5-8 Cloudflare 同样转 agentic-first 但伴随 20% 裁员的反向案例）。后续 Box、Atlassian、Zendesk、HubSpot 同等公司财报将被市场用同一把尺度量。",
+      "links": [
+        "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-Goes-All-In-on-AI-From-Work-Management-Platform-to-AI-Work-Platform/default.aspx",
+        "https://www.fool.com/earnings/call-transcripts/2026/05/11/mondaycom-mndy-q1-2026-earnings-transcript/",
+        "https://www.tipranks.com/news/company-announcements/monday-com-posts-record-q1-2026-results-and-launches-ai-work-platform",
+        "https://markets.financialcontent.com/stocks/article/stockstory-2026-5-11-mondaycom-nasdaqmndy-posts-better-than-expected-sales-in-q1-cy2026-stock-jumps-209"
+      ],
+      "tags": ["monday.com", "MNDY", "earnings", "agentic SaaS", "consumption pricing"],
+      "category": "news"
+    }
+  ]
+}
