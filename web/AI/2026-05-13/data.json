@@ -1,0 +1,226 @@
+{
+  "date": "2026-05-13",
+  "category": "AI",
+  "title": "Isomorphic Labs $21 亿 Series B 刷新 AI 制药记录 / Altman 出庭曝 Musk 索 OpenAI 90% 股权 / OpenAI Daybreak 与 Anthropic Claude For Legal 同日发难",
+  "items": [
+    {
+      "id": "1",
+      "title": "Isomorphic Labs 一夜锁 $21 亿 Series B：Thrive Capital 二次领投 + Alphabet / 主权基金集体加注——Hassabis 的'用 AI 解决所有疾病'第一次拿到工业化药物管线弹药",
+      "source": "Isomorphic Labs",
+      "source_name": "Isomorphic Labs",
+      "source_url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+      "story_key": "isomorphic-labs-21b-series-b",
+      "event_date": "2026-05-12",
+      "summary": "Alphabet 旗下、Demis Hassabis 担任 CEO 的 AI 药物发现公司 Isomorphic Labs 5-12 公告：完成 **$21 亿美元 Series B 融资**——Thrive Capital **连续两轮领投**，新增 MGX (阿联酋)、Temasek (新加坡)、CapitalG、**英国主权 AI 基金 (UK Sovereign AI Fund)** 等主权 / 战略机构，老股东 Alphabet、GV 继续跟投；资金将主要用于扩展其自研 AI 药物设计引擎 **IsoDDE** 并把首批管线推向临床。",
+      "detail": "5 月 12 日（周二），Demis Hassabis 在 Google DeepMind 之外的另一家公司 Isomorphic Labs 同步完成了一笔教科书级的 'AI for Science' 大额融资——**$21 亿美元 Series B、Thrive Capital 第二次连续领投**，新增机构包括 MGX (阿联酋主权 AI 投资载体)、Temasek (新加坡国家投资公司)、CapitalG (Alphabet 增长基金)、**UK Sovereign AI Fund (英国主权 AI 基金，2025 年 12 月成立)**，老股东 Alphabet、GV 继续跟投——使 Isomorphic 自 2021 年从 DeepMind spin-off 至今的累计融资接近 **$26 亿美元**，刷新 AI 制药领域单轮纪录。\n\n资金的核心用途是把公司自研的统一计算药物设计平台 **IsoDDE (Isomorphic Drug Design Engine)** 推向工业化部署。Isomorphic 5-12 同步发布的科学博客称：IsoDDE 在一个高难度蛋白—小分子结构预测泛化基准上**比 AlphaFold 3 的准确率高出 1 倍以上**；其小分子结合亲和力预测准确率**超过黄金标准的物理学方法**，但所需算力时间仅为后者的极小比例；模型还能**只用氨基酸序列**就识别出蛋白靶点上的全新结合位点——后者是传统结构生物学中极依赖晶体学实验的环节。Isomorphic 同时维持与 Novartis、Eli Lilly、Johnson & Johnson 三大跨国药企的 AI 联合开发合作，本轮新增资金将用来把多条候选管线**首次自研推到 Investigational New Drug (IND) 申报与早期临床阶段**。\n\nHassabis 在公告中强调：'这笔融资是一组顶级国际投资人对我们 AI-first 药物设计与开发路径的大规模信任投票。既然我们已经证明这条路径在科学上是站得住的，下一步就是把规模拉满，全力推进我们解决所有疾病的目标。' UK Sovereign AI Fund 的参投也具有特别意义——Isomorphic 总部位于伦敦，是英国把 AI 当作国家科学产业押注的标志性资产之一。值得注意的是，本笔交易在 Anthropic 5-8 启动的 $500 亿 / $1 万亿估值新一轮和昨日 Cerebras 把 IPO 估值顶到 $488 亿的同一周内落地——'AI 资本 5 月'三条平行主线 (前沿模型 / 算力 / 科学药物) 各被一笔超大融资具象化。",
+      "key_quotes": [
+        "This funding round is a massive vote of confidence from a diverse group of top-tier international investors in our AI-first approach to drug design and development. — Demis Hassabis",
+        "Now that we have shown our approach is fundamentally sound, our focus is on scaling our technology to its full potential. — Demis Hassabis",
+        "IsoDDE more than doubles the accuracy of AlphaFold 3 on a challenging protein-ligand structure prediction generalisation benchmark. — Isomorphic Labs 科学博客"
+      ],
+      "significance": "AI 制药从'实验室成果'第一次正式过渡到'工业化资本部署'。$21 亿是单一 AI for Science 项目能拿到的最大单轮，主权基金 (英国 / 阿联酋 / 新加坡) 集中入场把 AI 药物发现写进了'国家科学产业战略'的资产清单——意味着未来 5 年 IND / 早期临床数据若能跑出来，将直接重塑制药行业的研发经济学；同时这是 Hassabis 个人在 Google DeepMind 之外第一次拿到完整工业化弹药，使他从'前沿模型科学家'升级为'独立大健康公司 CEO'。",
+      "links": [
+        "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+        "https://www.prnewswire.com/news-releases/isomorphic-labs-secures-2-1-billion-funding-to-scale-its-ai-drug-design-engine-302769674.html",
+        "https://finance.yahoo.com/sectors/healthcare/articles/google-backed-isomorphic-raises-2-152155056.html",
+        "https://www.isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier",
+        "https://www.fiercebiotech.com/biotech/alphabets-ai-biotech-isomorphic-labs-bags-21b-series-b-fuel-next-gen-drug-design-model"
+      ],
+      "image": "img/isomorphic-labs-hero.jpg",
+      "image_type": "logo",
+      "tags": ["Isomorphic Labs", "Alphabet", "Hassabis", "AI 制药", "Thrive Capital", "Series B"],
+      "category": "research"
+    },
+    {
+      "id": "2",
+      "title": "Musk v. Altman 庭审 Day 7：Sam Altman 终于出庭，当庭把 Musk 钉在'要 90% 股权 + 撕油画式威胁 + 控 OpenAI 拿去给火星建城'的三连证词上",
+      "source": "@sama",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/12/openai-trial-updates-sam-altman-set-to-testify-in-musk-suit.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-12",
+      "summary": "OpenAI CEO Sam Altman 5-12 在 Oakland 联邦法院亲自上证人席——给陪审团留下三段关键证词：（1）'Musk 最早开口就要 OpenAI **90% 股权**，软化后也始终坚持过半数控制'；（2）'问 Musk 若控制 AGI 后他过世怎么办，他答 OpenAI 应**传给我的孩子**'；（3）2023 年被董事会突袭罢免时'我完全被打懵了，没人给出像样的解释'。Musk 方律师 Steve Molo 反复追问'你是否一直说真话'，Altman 答'我相信我是一个诚实的人'。",
+      "detail": "5 月 12 日上午 9 时左右，Sam Altman 走进 Oakland 联邦法院 Judge Yvonne Gonzalez Rogers 的审判庭，正式作为 Musk v. Altman 案的中心证人开始第一轮证词。这是这场被业界戏称'AI 行业第一审'的庭审进入第 7 个开庭日、第三周的开端——同时也是迄今**所有 OpenAI 创始人证词序列里 Altman 个人首次出庭**。\n\nAltman 给陪审团留下三组定调性陈述：（1）**关于控制权诉求**：'Mr. Musk 最早扔出来的数字是他应该占 OpenAI **90% 的股权起步**。这个数字后来软化过，但始终是过半数。' （2）**关于 AGI 继承**：Altman 在直接询问中说，他曾问 Musk '如果你真的掌控了 AGI 然后过世怎么办'，Musk 的回答是'**也许 OpenAI 的控制权应该传给我的孩子**'——Altman 当庭表示：'我对这一点感到非常不舒服。'（3）**关于 2023 年董事会罢免**：Altman 说'我完全被打懵了，挺震惊的——除了一句『沟通不一致地坦诚 (not consistently candid)』之外，没人真的给我一个像样的解释。'\n\nMusk 律师 Steve Molo 在交叉盘问阶段把火力集中在'信任'问题上，连续援引 Loopt 旧员工、Anthropic CEO **Dario Amodei**、前 OpenAI 董事 Tasha MacCauley、Sue Yoon 等多个对 Altman 公开质疑过的对象，反问他'你是否一直说真话'——Altman 平静回应：'我相信我是一个诚实的人。' Judge Rogers 在 Altman 走下证人席时罕见地正面提醒：'**不要与任何人讨论你的证词**。' 陪审团预计 5-18 周给出 advisory verdict——Altman 的交叉盘问将于 5-13 周三继续。\n\n**背景回顾：** 本案由 Musk 2024 年起诉控告 Altman 与 OpenAI 不当实现非营利→营利转换；5-5 联合创始人 Greg Brockman 已完成两天证词、5-11 Microsoft CEO Satya Nadella 上庭明确否认 Musk 曾向其表达反对 Microsoft 投资 OpenAI。",
+      "key_quotes": [
+        "An early number that Mr. Musk threw out was that he should have 90 percent of the equity to start. It then softened, but it always was a majority. — Sam Altman",
+        "Maybe control of OpenAI should pass to my children. — Sam Altman 复述 Elon Musk 在被问及 AGI 继承时的回答",
+        "I was completely caught off guard, and quite shocked. — Sam Altman 谈 2023 年被董事会罢免",
+        "I believe I'm a truthful person. — Sam Altman 回应 Musk 律师"
+      ],
+      "significance": "首席被告本人第一次进入直接询问与交叉盘问环节，把整个庭审从'外围创始人 / 投资人证词'切换到'核心被告自陈'阶段——任何 Altman 当庭的不一致都将直接影响 advisory verdict 与后续 OpenAI 公开募集 / IPO 叙事；'Musk 要 90%''要把 AGI 留给孩子''撕油画'三段证词若被陪审团接受为事实，会重塑公众对 Musk 2018 离开 OpenAI 真实动机的认知，进而影响他在 xAI / SpaceXAI 整合期的合法性叙事。",
+      "links": [
+        "https://www.cnbc.com/2026/05/12/openai-trial-updates-sam-altman-set-to-testify-in-musk-suit.html",
+        "https://www.npr.org/2026/05/12/nx-s1-5811730/openai-sam-altman-testimony-elon-musk-trial",
+        "https://fortune.com/2026/05/12/sam-altman-testimony-open-ai-elon-musk-trial/",
+        "https://www.aljazeera.com/news/2026/5/12/sam-altman-says-elon-musk-wanted-90-percent-of-openai-in-high-stakes-trial",
+        "https://www.cnn.com/2026/05/12/tech/sam-altman-openai-vs-elon-musk-testimony"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Sam Altman", "Elon Musk", "庭审", "AGI 控制权"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "OpenAI 5-11 推出 'Daybreak' 攻防一体平台：3 档 GPT-5.5 + Codex Security agent + 8 大安全厂商首日签约——正面对标 Anthropic Mythos / Glasswing 的第二条供应链落地",
+      "source": "OpenAI",
+      "source_name": "OpenAI",
+      "source_url": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
+      "story_key": "openai-gpt55-cyber-launch",
+      "event_date": "2026-05-11",
+      "summary": "OpenAI 5-11 在博客和合作伙伴新闻稿同步发布全新网络安全平台 **'Daybreak'**——三档模型架构：GPT-5.5（通用安全护栏）+ GPT-5.5 with Trusted Access for Cyber（已认证防御者）+ **GPT-5.5-Cyber**（红队 / 渗透测试 permissive 档），叠加新发布的 **Codex Security agent**，覆盖代码审查 / 威胁建模 / 补丁验证 / 依赖风险 / 检测响应整条 SDLC；首日合作伙伴包括 **Cisco、Oracle、CrowdStrike、Palo Alto Networks、Cloudflare、Fortinet、Akamai、Zscaler 8 大厂**——把过去 6 个月 Anthropic Mythos / Glasswing 一家独大的'前沿安全模型'品类正式打开第二供应方。",
+      "detail": "5 月 11 日（周一），OpenAI 发布博客 'Daybreak: AI Cyber Defense'，正式把过去一周陆续放出的 cyber 模型与工具打包成一个完整平台：**Daybreak** 是 OpenAI 第一次把'攻防一体的 AI 网络安全'作为独立产品线推出，而非作为 ChatGPT / API 的附属功能。\n\nDaybreak 的核心三档模型设计：(1) **GPT-5.5**——通用安全护栏档，所有客户可调用；(2) **GPT-5.5 with Trusted Access for Cyber**——必须通过 verified defender 强身份审核的'授权防御者档'，只对企业蓝队 / SOC 用户开放；(3) **GPT-5.5-Cyber**——OpenAI 安全模型矩阵中**最 permissive** 的档，对红队 / 渗透测试 / controlled validation 场景开放，CyberGym 81.9%（5-7 数据）。叠加新发布的 **Codex Security agent**——一款 agentic 调用 IDE / CI / Repo 的安全副驾，目标是'把漏洞分析从小时级压到分钟级'，覆盖代码审查、威胁建模、补丁验证、依赖风险分析、检测响应五大流程。\n\n首日合作伙伴名单是 Daybreak 的真正杀手锏——**Cisco、Oracle、CrowdStrike、Palo Alto Networks、Cloudflare、Fortinet、Akamai、Zscaler** 8 家全球安全龙头同步官宣集成路线图，覆盖 SIEM / EDR / NGFW / SASE / 云原生 / DDoS 防护几乎全栈。CrowdStrike 与 Palo Alto Networks 此前是 Anthropic **Project Glasswing** (4-7 启动) 的合作伙伴——这种'同时与两家前沿 AI 实验室合作 cyber'的'双供应链'格局，是过去 6 个月 Anthropic Mythos 一家独占的'前沿安全模型'品类第一次出现真正意义上的第二供应方。\n\n**背景回顾：** OpenAI 5-7 已先行推出 GPT-5.5 与 GPT-5.5-Cyber 限定预览，5-11 同日把模型与平台向欧盟政府 / 机构开放；Daybreak 是把'模型层' + '产品层' + '安全合作伙伴生态'三件套打包的产品化收口。",
+      "key_quotes": [
+        "Defenders deserve the same AI advantages that attackers are already using. — OpenAI 博客",
+        "Daybreak collapses analysis time from hours to minutes through more efficient token usage. — OpenAI 产品说明",
+        "Daybreak is OpenAI's response to Anthropic's Claude Mythos. — Engadget 5-12 报道"
+      ],
+      "significance": "前沿模型 cyber 应用从'单一供应商研究项目'升级为'多供应商基础设施层'。Anthropic Mythos / Glasswing 过去 6 个月独占了几乎所有银行、政府、关键基础设施的高敏感安全 AI 采购预算——Daybreak 用同样的三档授权 + agentic 安全副驾架构 + 几乎一致的合作伙伴名单（Cisco / CrowdStrike / Palo Alto 全部重合），把这个垂直市场拆成双供应方格局；同日 Japan PM Takaichi 公开 Mythos cabinet 级审查（见本日第 7 条）说明各国监管者也开始系统性思考'前沿安全模型'是否应被国家级监管——Daybreak 让这种监管从针对单一供应商升级为针对产品类别。",
+      "links": [
+        "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
+        "https://www.csoonline.com/article/4170029/openai-introduces-daybreak-cyber-platform-takes-on-anthropic-mythos.html",
+        "https://www.engadget.com/2170410/daybreak-openai-cybersecurity-initiative/",
+        "https://qz.com/openai-daybreak-cybersecurity-platform-anthropic-051226",
+        "https://dataconomy.com/2026/05/12/openai-daybreak-anthropic-ai-cybersecurity/"
+      ],
+      "tags": ["OpenAI", "Daybreak", "Cybersecurity", "GPT-5.5-Cyber", "Codex Security"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic 5-12 推出 'Claude For Legal'：12 个 practice plugin + 20+ connector + Thomson Reuters CoCounsel / Harvey 同步接入——把 Claude 直接放进 Westlaw 19 亿条文档与 KeyCite 14 亿条信号",
+      "source": "Anthropic",
+      "source_name": "Anthropic",
+      "source_url": "https://www.lawnext.com/2026/05/anthropic-goes-all-in-on-legal-releasing-more-than-20-connectors-and-12-practice-area-plugins-for-claude.html",
+      "story_key": "anthropic-claude-for-legal",
+      "event_date": "2026-05-12",
+      "summary": "Anthropic 5-12 正式推出垂直行业产品 **'Claude For Legal'**：(1) **12 个 practice-area plugin**——商事 / 雇佣 / 诉讼 / 公司治理 / 律师助理 / 法学院学生等；(2) **20+ connector**——直连 Thomson Reuters **CoCounsel Legal** (19 亿 Westlaw + Practical Law 文档 + 14 亿条 KeyCite 有效性信号 + 专利级 citation ledger)、AI 法律助理 **Harvey**、电子取证平台 **Everlaw**、内容协作 **Box**、电子签 **DocuSign**；(3) **生态层**——与 Free Law Project + Justice Technology Association 合作扩大对欠服务社区的法律 AI 接入。",
+      "detail": "5 月 12 日，Anthropic 把过去半年陆续在 Claude 上对 PE / 财务 / 投行做过的'垂直一站式部署'打法搬到了法律行业——一次性推出 **Claude For Legal** 全栈产品。\n\n12 个 **practice-area plugin** 涵盖律师事务所最常见的执业领域：commercial counsel、employment counsel、litigation associate、corporate counsel、IP counsel、regulatory & compliance、tax、real estate、bankruptcy、healthcare law、law student、judicial clerk——每个 plugin 自带预置 prompt 模板、推荐 connector 组合与该领域专属的引用与格式规范。\n\n20+ **connector** 是 Claude For Legal 的真正杀招——其中最重磅的是与 Thomson Reuters **CoCounsel Legal** 通过 **Model Context Protocol (MCP)** 实现的深度互通：在 Claude 中用自然语言描述案件，Claude 可调用 CoCounsel 在 **Westlaw + Practical Law 共 19 亿条法律文档 / 14 亿条 KeyCite 有效性信号**之上完成可溯源检索、起草和写作，所产生的每一条引用都通过 Thomson Reuters 的 **专利申请中的 citation ledger** 一键可追溯。其他 connector 包括 AI 法律助理 **Harvey** (其自家 Harvey legal assistant 直接出现在 Claude 内)、云电子取证 **Everlaw**、内容管理 **Box**、电子签名 **DocuSign** 等。\n\nAnthropic 同时宣布与 **Free Law Project** (美国最大开放法律数据库) 和 **Justice Technology Association** 合作，把 Claude For Legal 的部分能力向公益法律服务组织与代表欠服务社区的律所开放。Anthropic 法务副总顾问 Mark Pike 在发布会上披露了一个数据点：'我们最近一次面向律师的 Claude webinar，**当场注册超过 2 万人**——法律行业对 AI 的采纳速度，我们没有想到会这么快。' 当下产品已全面 GA。",
+      "key_quotes": [
+        "Lawyers can describe a matter in plain language and have CoCounsel Legal pursue the right inquiry, draft with citations, and include validated references in the fiduciary-grade work product. — Anthropic 发布会",
+        "We're seeing an incredible uptick in adoption of AI in the legal industry — over 20,000 registrations for a recent webinar. — Mark Pike, Anthropic 副法务总顾问",
+        "It reasons across 1.9 billion Westlaw and Practical Law documents, 1.4 billion KeyCite validity signals. — Thomson Reuters 联合公告"
+      ],
+      "significance": "把 Anthropic 5-5 在 Wall Street 验证过的'Claude 工程师 + 行业垂直 plugin + 顶级专业数据 connector'打法克隆到法律行业，第一次让律师与法学院学生**直接通过自然语言**访问 Westlaw 19 亿条法律文档与 KeyCite 14 亿条有效性信号——传统由 Thomson Reuters / LexisNexis 寡头垄断的法律研究入口被前沿 LLM 改写为 Claude 内的 MCP 调用；Free Law Project 与 Justice Technology Association 公益合作则是 Anthropic 把'AI 普惠'写进商业产品 GA 公告的第一次。下一个被'Claude 垂直化'的赛道大概率是医疗、教育或保险。",
+      "links": [
+        "https://www.lawnext.com/2026/05/anthropic-goes-all-in-on-legal-releasing-more-than-20-connectors-and-12-practice-area-plugins-for-claude.html",
+        "https://www.prnewswire.com/news-releases/thomson-reuters-and-anthropic-expand-partnership-to-connect-claude-with-cocounsel-legal-302769890.html",
+        "https://www.artificiallawyer.com/2026/05/12/claude-for-legal-launches-may-reshape-the-legal-tech-world/",
+        "https://the-decoder.com/anthropic-expands-legal-ai-offerings-with-new-cowork-plugins/",
+        "https://valawyersweekly.com/2026/05/12/anthropic-expands-claude-ai-tools-thomson-reuters-law-firms/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude For Legal", "Thomson Reuters", "Harvey", "CoCounsel", "MCP"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "Google 5-12 公布 'Googlebook'：12 年 Chromebook 品牌正式退场——为 Gemini 重写的 AI-native 笔记本品类，五大 OEM 同步首发、年内出货",
+      "source": "Google Blog",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "story_key": "google-googlebook-laptop",
+      "event_date": "2026-05-12",
+      "summary": "Google 5-12 在 'Android Show: I/O Edition' 公布全新 AI-native 笔记本品类 **Googlebook**——围绕 Gemini Intelligence 系统重写整套交互：标志性功能 **Magic Pointer**（cursor 一抖即唤起 Gemini 上下文建议）、**Custom Widgets**（自然语言生成个人化仪表盘）、与 Android 全面打通；五大 OEM（**Acer / Asus / Dell / HP / Lenovo**）同步首发，外壳带特色 'glowbar' 标识，2026 年内陆续上市；标志着 Chromebook 品牌于 2026 年正式让位。",
+      "detail": "5 月 12 日，距正式 Google I/O 主题演讲（5-19）还有一周时间，Google 用一场 'Android Show I/O Edition' 预热直播把今年最大的硬件品类变更先行揭幕：**Googlebook** 替代 Chromebook 成为 Google 笔记本计算的新品牌——是 Google 自 2011 年 Chromebook 首发以来 **12 年来对消费 PC 品类最大的一次重命名 + 重新设计**。\n\nGooglebook 的核心交互改造围绕 Gemini Intelligence 系统重写：(1) **Magic Pointer**——用户只需轻抖鼠标 / 触控板光标，Gemini 即被唤起、根据光标所指的内容给出上下文建议；指向邮件中的日期可一键拉出日历安排会议；同时选中'客厅照片 + 一张新沙发'可即时可视化合成图。(2) **Custom Widgets**——以自然语言提示 Gemini 把多个 app 组装成单一仪表盘，例如'我每天上午第一件事看到的'。(3) 与 Android 一体打通——Googlebook 可直接访问 Android 手机上的 app 与文件，不再需要复杂账户镜像。\n\n硬件层面，Googlebook 的首批 OEM 阵容空前——**Acer、Asus、Dell、HP、Lenovo 五家全部同步签约**，覆盖从教育、消费到高端商用的全价格段；所有 Googlebook 外壳都将带有一条专属的 'glowbar' 视觉标识，作为品类辨识符号。首批模型将于 2026 年下半年陆续上市，但 Google 5-12 没有公布 SoC（业内推测包含 ARM / Tensor / Intel / AMD 混合方案）。整场直播 Google 反复使用'**为 AI 而生的笔记本 (built for AI)**'这一关键句——把 Chromebook 时代'网页 + 云'的产品定位升级为'agent + Gemini'。",
+      "key_quotes": [
+        "Googlebook is a new generation of laptops built around Gemini Intelligence. — Google Blog",
+        "Just wiggle your cursor and watch it come alive with Gemini. — Google Magic Pointer 介绍",
+        "Googlebook is the Chromebook successor we've been waiting for. — Droid-Life 评测"
+      ],
+      "significance": "Google 第一次把 Gemini 当作笔记本计算的**默认操作系统语义层**而非'内置的 AI 应用'——Chromebook 品牌退场意味着 ChromeOS / Android 的双线品牌战略告一段落，Gemini 接管 Google 端到端 OS 叙事；五大 OEM 集体押注一个 Google 子品牌（远超过往 Pixelbook 的孤立尝试），把 Googlebook 推升到与 macOS / Windows 笔记本同台竞争的硬件分发能力；这同时是 5-19 Google I/O 之前最大的一次预告——Gemini 4 与 Aluminium OS 大概率在主题演讲时与 Googlebook 同台亮相。",
+      "links": [
+        "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+        "https://techcrunch.com/2026/05/12/google-unveils-googlebooks-a-new-line-of-ai-native-laptops/",
+        "https://www.axios.com/2026/05/12/googlebook-ai-chromebook-announcement",
+        "https://www.droid-life.com/2026/05/12/googlebook-is-replacing-chromebook-coming-later-this-year/",
+        "https://www.androidcentral.com/chromebooks-laptops/google-announces-googlebook"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Googlebook", "Chromebook", "Gemini", "Android"],
+      "category": "product_operators"
+    },
+    {
+      "id": "6",
+      "title": "Mira Murati 的 Thinking Machines 5-11 首发研究预览：**Interaction Models** 把 200ms 微回合 + 0.4 秒响应做进音 / 视 / 文同步——'每家前沿实验室都把 interaction 当事后工程，这是架构错误'",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+      "story_key": "thinking-machines-interaction-models",
+      "event_date": "2026-05-11",
+      "summary": "OpenAI 前 CTO Mira Murati 创办的 Thinking Machines Lab 5-11 发布首份研究预览：全新 **'Interaction Models'** 类——把模型设计从'输入完 → 生成完 → 回复'的顺序架构改为**音 / 视 / 文同时输入、同时生成**的全双工 (full-duplex) 范式；**TML-Interaction-Small** 在 FD-bench 上**响应延迟 < 0.4 秒**、以 **200ms 为最小微回合**滚动推理；这是公司自 2025-2 成立、$120 亿估值以来**首款公开模型**，定位'每家前沿实验室都把 interaction 当事后工程——这不是调参问题，是架构问题'。",
+      "detail": "5 月 11 日（周一），由 OpenAI 前 CTO **Mira Murati** 在 2025 年 2 月创立的 **Thinking Machines Lab** 发布了公司成立 15 个月以来的第一份对外研究预览——一类被命名为 **'Interaction Models'** 的新模型范式。\n\n这类模型的核心架构变更：传统 LLM / multimodal LLM 在交互时本质是'听完 → 想完 → 说完'的顺序循环（即便流式输出，模型对输入的处理仍是回合制）；Thinking Machines 提出 Interaction Models 应**同时处理输入与生成输出**，跨**音频 / 视频 / 文本三模态**以 **200 毫秒**为最小'微回合 (micro-turn)' 推进——既能在用户说话过程中就开始回应、也能在自己回应过程中识别并适应用户的打断、点头、表情变化。\n\n首发模型 **TML-Interaction-Small** 在公司同步发布的 **FD-bench (full-duplex benchmark)** 上响应延迟 **< 0.4 秒**——这是业界第一个把'对话延迟与节奏'当作主指标的公开基准。Murati 在博客中明确点名行业病灶：'**每家主流 AI 实验室都把 interaction 当作模型训练后的'套壳'去做——把 STT、LLM、TTS 三段拼起来。所产生的延迟与互动僵硬，不是调参问题，是架构问题**。' 公司表示更大版本 TML-Interaction-Medium / Large 计划在 2026 年下半年陆续发布。\n\n**公司背景：** Thinking Machines Lab 2025 年 2 月由 Murati 创立，**Andreessen Horowitz 领投 $20 亿、$120 亿估值**的早期超大种子轮，Nvidia / AMD / Cisco / Jane Street 均跟投——是 2025 年硅谷融资规模最大的初创团队之一。本次研究预览是公司首次推出可对外评估的模型架构，使其从'巨额融资但无产品'阶段进入'有可被同行复现 / 基准测试的成果'阶段。",
+      "key_quotes": [
+        "Every major AI lab has built its interaction layer as an afterthought, and the resulting latency and limitation is not a tuning problem but an architectural one. — Mira Murati / Thinking Machines blog",
+        "We need models that listen, watch, and respond simultaneously, in 200ms micro-turns. — Thinking Machines 研究预览",
+        "TML-Interaction-Small achieved response latency below 0.4 seconds on FD-bench. — Thinking Machines"
+      ],
+      "significance": "Thinking Machines 第一次给出可被同行验证的技术叙事——把全双工 (full-duplex) 实时交互从 OpenAI Realtime API / Google Live API 之上的'同款产品另一家'升级为'另一类模型架构'；如果 200ms 微回合 + 跨模态同步推理在更大模型上保持优势，意味着未来 AI 助手 / 语音 Agent / 机器人控制的底层模型可能不再是同一架构家族；同日 OpenAI Daybreak（见今日第 3 条）与 Anthropic Claude For Legal（见第 4 条）都是把现有模型产品化的动作——Thinking Machines 的发布是同周内**唯一一个挑战行业默认架构**的科学论述。",
+      "links": [
+        "https://techcrunch.com/2026/05/11/thinking-machines-wants-to-build-an-ai-that-actually-listens-while-it-talks/",
+        "https://theaiinsider.tech/2026/05/12/mira-muratis-thinking-machines-lab-unveils-full-duplex-ai-that-responds-in-0-4-seconds/",
+        "https://analyticsdrift.com/mira-murati-thinking-machines-interaction-model/",
+        "https://aitoolly.com/ai-news/article/2026-05-12-mira-muratis-new-venture-thinking-machines-unveils-vision-for-next-generation-ai-interaction-models",
+        "https://techbriefly.com/2026/05/12/thinking-machines-lab-unveils-its-interaction-ai-model/"
+      ],
+      "tags": ["Thinking Machines", "Mira Murati", "Interaction Models", "Full-duplex", "AI 架构"],
+      "category": "research"
+    },
+    {
+      "id": "7",
+      "title": "Japan 高市早苗 5-12 召集 cabinet 级 Mythos 应对会议：让网络相松本久志 audit 政府 + 关键基础设施，财相片山在东京与 Bessent 同步'防止 Mythos 被滥用'",
+      "source": "The Register",
+      "source_name": "The Register",
+      "source_url": "https://www.theregister.com/security/2026/05/12/japans_pm_orders_cybersecurity_review_to_defend_against_anthropic_mythos/5238501",
+      "story_key": "japan-mythos-cyber-defense-review",
+      "event_date": "2026-05-12",
+      "summary": "日本首相 **高市早苗 (Takaichi Sanae)** 5-12 在内阁会议上 **正式下令**：由网络安全担当大臣 **松本久志 (Hisashi Matsumoto)** 牵头，全面 audit 日本政府与关键基础设施在 Anthropic Mythos 类前沿安全模型威胁下的暴露面与修复能力；同日财务大臣 **片山皋月 (Satsuki Katayama)** 在东京与美国财长 Scott Bessent 同步表态'必须与西方盟友协同步调，防止 Mythos 类工具被价值观对立方武器化'——这是**G7 政府首次在内阁级别**把单一前沿 AI 模型列入安全防御议程。",
+      "detail": "5 月 12 日，日本首相高市早苗在每周二例行内阁会议上 **正式立项**：以 Anthropic 5 月 5 日由 Dario Amodei 公开的'Mythos 已发现数以万计漏洞、6-12 个月危险窗口'为契机，要求网络安全担当大臣**松本久志**组建一个 cabinet-level 项目组，全面 audit：(1) 日本中央与地方政府信息系统在 Mythos 类前沿安全模型威胁下的漏洞暴露面；(2) 关键基础设施运营商（电力 / 金融 / 交通 / 通信）是否具备同等的'前沿模型驱动'漏洞发现与修复能力。\n\n更具地缘色彩的一组动作发生在同一天东京——日本财务大臣**片山皋月**在与正在东京访问的美国财长 **Scott Bessent** 双边会谈后公开表态：'我们达成共识，**必须与西方盟友协同步调**，防止 Mythos 这一类工具被价值观对立的国家武器化。' 这把'前沿 AI 安全模型的国际治理'从 NIST AISI / CAISI 的'美国国内自愿协议'议题（参见 5-5 / 5-6 已公开的 CAISI 强制 pre-release vetting）升级为**G7 内阁级双边协调**议题。\n\n据 Nikkei Asia 同日报道，日本政府其实已私下与 Anthropic 接触，希望加入 Project Glasswing（4-7 启动）的 Mythos 受信访问名单——目前 Anthropic 公开公布的访问名单包括 Google、Apple、Nvidia、JPMorgan、Goldman Sachs 等美国头部企业，**没有任何日本机构**。\n\n**背景回顾：** Anthropic CEO Dario Amodei 5-5 公开警告 Mythos 进入'6-12 个月 moment of danger'；5-8 Anthropic 启动 $500 亿 / $1 万亿估值新一轮；OpenAI 5-11 推出对标产品 Daybreak（见本日第 3 条）——Japan 是 G7 国家中第一个把这场技术风暴定性为'国家安全级别需 cabinet 处置'的国家。",
+      "key_quotes": [
+        "近期 AI 发展迫使我们重新评估金融基础设施的韧性与网络安全。 — 高市早苗 5-12 内阁会议",
+        "We shared the view that we must act in sync with our Western allies to prevent such tools from being weaponized by those who do not share our values. — 片山皋月",
+        "Japan PM orders cybersecurity review to defend against Anthropic Mythos. — The Register 5-12 报道"
+      ],
+      "significance": "前沿 AI 模型第一次被 G7 国家在 **cabinet** 级写入国家网络安全议程——意味着 (1) Anthropic Mythos / OpenAI Daybreak 这类'前沿 AI 安全产品'未来需要满足的不仅是企业合规，而是主权国家级 audit；(2) Anthropic 的'受信访问'名单本身成为外交筹码——日本希望加入但目前不在列；(3) Bessent ↔ 片山的同日协调把 CAISI / NIST AISI 的'美国国内 vetting'升级为'G7 协调机制'雏形——下一步可能催生'前沿 AI 安全模型出口管制'的多边制度。",
+      "links": [
+        "https://www.theregister.com/security/2026/05/12/japans_pm_orders_cybersecurity_review_to_defend_against_anthropic_mythos/5238501",
+        "https://asia.nikkei.com/spotlight/cybersecurity/rise-of-anthropic-s-mythos-spurs-japan-to-bolster-cybersecurity-on-infrastructure",
+        "https://www.marketscreener.com/news/japan-steps-up-defense-against-advanced-ai-including-mythos-ce7f5bd9de81fe26",
+        "https://voi.id/en/technology/575055",
+        "https://www.newsonjapan.com/article/149025.php"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Japan", "Anthropic", "Mythos", "Takaichi", "Cybersecurity", "G7"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "GM 5-12 一刀砍 600 IT (整体 IT 部门 10%)：同步招'AI-native 工程师 / 数据工程 / Prompt 专家'——首家美汽车 OEM 公开把 IT 直接换 AI",
+      "source": "ResultSense",
+      "source_name": "ResultSense",
+      "source_url": "https://www.resultsense.com/news/2026-05-12-gm-ai-skills-it-layoffs/",
+      "story_key": "gm-it-layoffs-ai-pivot",
+      "event_date": "2026-05-12",
+      "summary": "General Motors (NYSE: GM) 5-12 公开内部备忘录：裁掉约 600 名 IT 员工（占公司 IT 部门约 10%），裁员同时**同步开放招聘 AI-native 软件工程师、数据工程师与 Prompt 工程师**——GM 是 **2026 年第一家美国大型汽车 OEM** 公开把'裁传统 IT、招 AI 人才'操作为同步动作的厂家，紧随 Cloudflare（5-8 砍 1100 人 / 20%）、PayPal（5-5 砍 4500 / 20%）、Coinbase（5-12 砍 700 / 14%）的'agentic AI-first'裁员潮。",
+      "detail": "5 月 12 日（周二），General Motors 内部备忘录被 ResultSense 公开：底特律本部决定**裁掉约 600 名 IT 员工，占公司 IT 部门约 10%**——主要集中在传统的应用维护、Help Desk、Tier-1 运维与企业软件配置岗位；同一备忘录开列了**同步招聘**清单：AI-native 软件工程师、机器学习工程师、数据工程师与 Prompt 工程师，对应 GM 内部正在推进的工厂控制 / 车机软件 / 经销商系统 AI 化项目。\n\n这是 2026 年第一家美国大型汽车 OEM **公开把'裁 IT、招 AI'同步操作**的厂家——区别于 Ford、Stellantis 等同行此前的'分阶段、分批次'裁员模式，GM 直接把动作打包为公开备忘录释放。从 5-5 PayPal CEO Enrique Lores 宣布'**未来 2-3 年砍 4500 岗位 + 设 AI transformation and simplification 团队 + $15 亿成本节省**'，到 5-8 Cloudflare CEO Matthew Prince 内部备忘录把 1100 人 / 20% 裁员**明确定性为转向 'agentic AI-first 运营模式'**，再到 5-12 同日 Coinbase 宣布裁 14% 员工——GM 600 人的规模虽然不及前者，但作为**底特律传统行业代表**的象征意义远超数字本身。\n\nResultSense 同步引用劳动力市场报告：2026 年迄今美国科技层面累计裁员事件 **179 起、影响 113,863 人、平均每天 863 人**；本年最大单笔裁员为 Oracle 30,000 人；2026 整体上是'companies cut and rehire'的典型分化年——同一公司同一周内裁掉部分团队、放出更多 AI 相关 JD。",
+      "key_quotes": [
+        "GM has cut about 10% of its IT workforce — roughly 600 staff — and is rehiring AI-native engineers, data engineers and prompt specialists in their place. — ResultSense 5-12",
+        "Many companies are simultaneously laying off workers in some departments while hiring in others. — 行业分析",
+        "179 layoff events in 2026, impacting 113,863 workers, averaging approximately 863 job losses per day. — 2026 layoffs tracker"
+      ],
+      "significance": "传统美国底特律式工业巨头**第一次正面采用'裁 IT 招 AI'同步换血模型**，把 PayPal / Cloudflare 这类纯科技 / 金融科技公司在前几周已经触发的 'AI-first 重组' 范式，扩散到传统制造业；为汽车 OEM 同行（Ford、Stellantis、Volkswagen 等）设定了新的公开操作模板——未来 6 个月内同行跟进概率高；Yann LeCun（5-5）公开喊话'AI 末日 CEO 有 god complex、入门级白领 50% 失业是 ridiculous'与 Dario Amodei 原始预测形成的两极对立辩论，正被 GM 这类公司用真实裁员数据 + 招聘清单回应。",
+      "links": [
+        "https://www.resultsense.com/news/2026-05-12-gm-ai-skills-it-layoffs/",
+        "https://finance.yahoo.com/sectors/technology/articles/layoffs-accelerate-may-2026-firms-040430218.html",
+        "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+        "https://www.storyboard18.com/trending/tech-layoffs-cross-92000-in-2026-as-ai-restructuring-reshape-big-tech-hiring-97789.htm",
+        "https://www.theworkersrights.com/meta-layoffs-2026-ai-replacing-tech-jobs/"
+      ],
+      "tags": ["GM", "Layoffs", "AI 转型", "汽车", "Detroit"],
+      "category": "news"
+    }
+  ]
+}

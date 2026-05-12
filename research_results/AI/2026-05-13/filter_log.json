@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-13",
+  "total_candidates": 20,
+  "kept": 8,
+  "dropped": 12,
+  "decisions": [
+    {
+      "story_key": "isomorphic-labs-21b-series-b",
+      "event_date": "2026-05-12",
+      "title_en": "Isomorphic Labs closes $2.1B Series B led by Thrive Capital",
+      "source": "Isomorphic Labs",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. May 12 announcement: $2.1B Series B led by Thrive Capital (2nd consecutive lead), with Alphabet/GV/MGX/Temasek/CapitalG/UK Sovereign AI Fund. Funding scales IsoDDE drug design engine (claimed >2x AlphaFold 3 accuracy)."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-12",
+      "title_en": "Sam Altman takes the stand in Musk OpenAI trial Day 7",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-5 (Brockman testimony / Musk $800B Mars plan) and 5-7 (Zilis Tesla-board scoop) and 5-12 (Satya Nadella testimony). Today is substantively new: Altman himself takes the stand for the first time, testifies that Musk wanted 90% equity, recounts 'hair-raising moment' over Tesla portrait, and discusses 2023 board ouster context."
+    },
+    {
+      "story_key": "openai-gpt55-cyber-launch",
+      "event_date": "2026-05-11",
+      "title_en": "OpenAI Daybreak cyber platform launches with Cisco/Oracle/CrowdStrike",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-7 (GPT-5.5-Cyber preview launch) and 5-12 (EU rollout). New on 5-11: OpenAI launches productized 'Daybreak' platform built on GPT-5.5 / GPT-5.5-Cyber + new 'Codex Security' agent + 8 launch partners (Cisco/Oracle/CrowdStrike/Palo Alto/Cloudflare/Fortinet/Akamai/Zscaler). This is a substantive product launch beyond the underlying model itself."
+    },
+    {
+      "story_key": "anthropic-claude-for-legal",
+      "event_date": "2026-05-12",
+      "title_en": "Anthropic launches Claude for Legal with Thomson Reuters CoCounsel + Harvey",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. May 12 announcement: 12 practice-area plugins (commercial, employment, litigation, law student, etc.) + 20+ connectors (Box, Everlaw, DocuSign), Thomson Reuters CoCounsel MCP integration (1.9B Westlaw docs), Harvey connector, Free Law Project / Justice Technology Association access partnerships."
+    },
+    {
+      "story_key": "google-googlebook-laptop",
+      "event_date": "2026-05-12",
+      "title_en": "Google unveils Googlebook AI-native laptop killing Chromebook brand",
+      "source": "Google Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. May 12 Android Show I/O Edition reveal: Googlebook replaces Chromebook, designed entirely around Gemini Intelligence; Magic Pointer summons Gemini via cursor wiggle; multiple OEM partners (Acer/Asus/Dell/HP/Lenovo); 'glowbar' design language; ships later 2026."
+    },
+    {
+      "story_key": "thinking-machines-interaction-models",
+      "event_date": "2026-05-11",
+      "title_en": "Mira Murati Thinking Machines unveils Interaction Models, 0.4s full-duplex",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. May 11 research preview: TML-Interaction-Small responds in <0.4s on FD-bench, simultaneously processes audio/video/text in 200ms micro-turns. Mira Murati's $12B Thinking Machines Lab first public model release, claiming every major lab built interaction layer 'wrong' as architectural afterthought."
+    },
+    {
+      "story_key": "japan-mythos-cyber-defense-review",
+      "event_date": "2026-05-12",
+      "title_en": "Japan PM Takaichi orders cabinet-level Mythos cyber defense review",
+      "source": "The Register",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 5-5 amodei-mythos-moment-of-danger covered Amodei's '6-12 month danger window'; this is a distinct story — first major foreign government cabinet-level response. PM Takaichi instructs cyber minister Hisashi Matsumoto to audit government / critical infrastructure for Mythos-style exploitation. Finance Minister Katayama coordinated with US Treasury's Bessent in Tokyo same day."
+    },
+    {
+      "story_key": "gm-it-layoffs-ai-pivot",
+      "event_date": "2026-05-12",
+      "title_en": "GM cuts 600 IT staff (10%) in AI-engineer rehiring swap",
+      "source": "ResultSense",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. May 12 disclosure: GM cuts ~600 IT roles (10% of IT workforce) while simultaneously hiring AI-native engineers, data engineers, prompt specialists. First major auto-OEM to publicly execute a 'cut IT, hire AI' selective swap."
+    },
+    {
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-13",
+      "title_en": "Cerebras Nasdaq IPO opens May 14 — pre-market roadshow trading",
+      "source": "various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-12 (Cerebras IPO upsize to $48.8B, +30% pricing). IPO is May 14; no substantive new development today between yesterday's filing and tomorrow's open."
+    },
+    {
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-13",
+      "title_en": "Trump delegation departs for Beijing May 13",
+      "source": "Fox Business",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-12 (full delegation list incl. Musk/Cook/Fink, Huang excluded). Trump arrives in Beijing today but the substantive summit content (AI chip talks, AI safety dialogue) only emerges 5-14/5-15. Same-day arrival without new readouts is not substantive new information."
+    },
+    {
+      "story_key": "anthropic-claude-microsoft365-launch",
+      "event_date": "2026-05-07",
+      "title_en": "Anthropic Claude launches in Excel/Word/PowerPoint/Outlook",
+      "source": "various",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 6 days old (>5 day limit). May 7 launch with cross-app context preservation is now stale."
+    },
+    {
+      "story_key": "gemma4-mtp-drafters-3x-speedup",
+      "event_date": "2026-05-06",
+      "title_en": "Google Gemma 4 Multi-Token Prediction drafters deliver 3x inference speedup",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-06 is 7 days old (>5 day limit)."
+    },
+    {
+      "story_key": "five-eyes-agentic-ai-guidance",
+      "event_date": "2026-05-01",
+      "title_en": "Five Eyes joint agentic AI security guidance (CISA/NCSC/ASD)",
+      "source": "The Register",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-01 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "microsoft-openai-revised-partnership",
+      "event_date": "2026-04-27",
+      "title_en": "Microsoft-OpenAI restructure to non-exclusive multi-cloud",
+      "source": "Microsoft",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-27 is 16 days old (>5 day limit)."
+    },
+    {
+      "story_key": "novo-nordisk-openai-drug-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk taps OpenAI for global R&D + manufacturing integration",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 29 days old (>5 day limit)."
+    },
+    {
+      "story_key": "mistral-medium-35-vibe-agents",
+      "event_date": "2026-05-02",
+      "title_en": "Mistral Medium 3.5 + remote agents in Vibe (77.6% SWE-Bench)",
+      "source": "Mistral AI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-02 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "microsoft-agent-365-ga",
+      "event_date": "2026-05-01",
+      "title_en": "Microsoft Agent 365 GA at $15/user/month",
+      "source": "Microsoft",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-01 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-project-glasswing-launch",
+      "event_date": "2026-04-07",
+      "title_en": "Anthropic Project Glasswing cyber initiative announced",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-07 is 36 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cisco-q3-fy26-earnings",
+      "event_date": "2026-05-13",
+      "title_en": "Cisco Q3 FY26 earnings after market close May 13",
+      "source": "Cisco",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Although novel, event has not occurred yet — Cisco reports after market close on May 13. No actual results available at research time. Will be eligible for next-day briefing if results materialize."
+    },
+    {
+      "story_key": "connecticut-ai-bill-sb5",
+      "event_date": "2026-05-01",
+      "title_en": "Connecticut SB 5 omnibus AI bill passes legislature",
+      "source": "CT Mirror",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Legislature passage 2026-05-01 is 12 days old (>5 day limit). Governor signing has not yet occurred per available reporting."
+    }
+  ]
+}
