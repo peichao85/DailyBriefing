@@ -1,0 +1,279 @@
+{
+  "date": "2026-05-14",
+  "category": "AI",
+  "researched_at": "2026-05-14T07:10:00Z",
+  "sources_checked": [
+    "TechCrunch",
+    "Bloomberg",
+    "CNBC",
+    "Axios",
+    "Reuters",
+    "Financial Times",
+    "The Information",
+    "Fortune",
+    "NPR",
+    "Engadget",
+    "Authors Guild",
+    "Google Cloud Blog",
+    "Digitimes",
+    "TechNode",
+    "@sama",
+    "@elonmusk",
+    "@karpathy",
+    "@DrJimFan",
+    "@demishassabis"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Anduril 一夜把估值翻到 $610 亿：$50 亿 Series H 由 Thrive + a16z 联席领投——AI 防务公司单笔 9 个月内估值翻倍，正式坐稳 Trump 'Golden Dome' 主承包席位",
+      "source": "Anduril",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+      "story_key": "anduril-5b-series-h-61b",
+      "event_date": "2026-05-13",
+      "summary": "Palmer Luckey 旗下 AI 防务公司 Anduril 5-13 公告完成 **$50 亿美元 Series H 融资**——由 Thrive Capital + Andreessen Horowitz 联席领投，估值一举从 11 个月前的 $305 亿 **翻倍至 $610 亿**；累计融资突破 $110 亿，被业内点名为 Trump $1850 亿 'Golden Dome' 导弹防御系统的核心 AI 主承包方。",
+      "detail": "Anduril Industries 5-13 同时在 TechCrunch、Bloomberg、CNBC 同步公告：完成 **$50 亿美元 Series H 融资**，估值一举升至 **$610 亿美元**——较 2025 年 6 月由 Founders Fund 领投的 $25 亿 / $305 亿估值轮 **11 个月内翻倍**，公司累计融资突破 **$110 亿美元**。\n\n**领投方与配置：** Thrive Capital（Joshua Kushner）+ Andreessen Horowitz **联席领投**——这是 Thrive 在 5-12 刚领投 Isomorphic Labs $21 亿后，**两天内第二次签下十亿美元级 AI 大单**。Founders Fund、General Catalyst 等老股东继续跟投。\n\n**业绩支撑：** 创始人 Palmer Luckey + CEO Brian Schimpf 在博客中披露：公司 2025 年营收 **翻倍至 $22 亿美元**；2026 资本将用于扩张自主飞机 (autonomous aircraft)、无人机、导弹系统、防空、**AI 驱动的 command-and-control 平台** 这五条产品线的产能、研发与基础设施。\n\n**'Golden Dome' 主承包角色：** Anduril 已正式加入 Trump $1850 亿美元 **'Golden Dome' 反导防御系统**的太空拦截器 (space interceptors) 研发联合体——成为美国军方 AI-native 武器系统重工业化战略的核心私人承包商。\n\n**节奏对照：** Anduril、Isomorphic Labs ($21 亿 / 5-12)、Sierra ($9.5 亿 / 5-4)、ElevenLabs ($110 亿估值 / 5-5) — 一周之内私募市场 AI 领域单轮规模合计超过 **$130 亿美元**，2026 年 AI 私募融资节奏已远超 2025 全年。",
+      "key_quotes": [
+        "We will aggressively invest in manufacturing, research, and infrastructure to support U.S. defense systems. — Brian Schimpf, CEO, Anduril",
+        "Doubled revenue in 2025 to $2.2 billion. — Anduril Series H announcement blog"
+      ],
+      "significance": "防务 AI 第一次以 $600 亿+ 估值进入私募市场前列——估值水平直接对标 OpenAI 早期、Anthropic 早期、Databricks 中期阶段，标志着 **'AI + 武器系统'** 已正式取代 SaaS、消费互联网，成为 2026 年最大的私募风投主题之一。Thrive Capital 两天内连签 Isomorphic + Anduril 两单证实：顶级 AI 投资人正在围绕 'AI × 实体产业'（药物、防务）做集中下注，而非继续在前沿模型层加杠杆。",
+      "links": [
+        "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+        "https://www.bloomberg.com/news/articles/2026-05-13/anduril-valued-at-61-billion-in-round-led-by-thrive-andreessen",
+        "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html"
+      ],
+      "image": "assets/logos/anduril-logo.svg",
+      "image_type": "logo",
+      "tags": ["Anduril", "Series H", "defense AI", "Thrive Capital", "a16z", "Palmer Luckey", "Golden Dome"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Trump 抵京前夜紧急来电：Jensen Huang 飞 Alaska 上 Air Force One——白宫 5-13 把 Nvidia CEO 临时塞进访华代表团，正面回应一周来'最显眼缺席'舆论压力",
+      "source": "@nvidia",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-13",
+      "summary": "Trump 5-12 见 Nvidia CEO 黄仁勋'缺席'代表团成媒体焦点后亲自来电邀请——黄仁勋 5-13 紧急飞抵 Alaska 登 Air Force One；同日 Trump 抵京，5-14/5-15 与习近平会晤，AI 出口管制、AI 武器化、半导体投资议题首次进入元首级议程。",
+      "detail": "**反转过程：** 白宫 5-11 公布 Trump 访华代表团名单时，Nvidia CEO Jensen Huang **未在其中**——被 Bloomberg、Semafor、CNBC 等多家媒体连日点名为'最显眼缺席'，公开归因为 Nvidia 对华芯片销售限制下的政治敏感性。然而 5-12 媒体覆盖密集后，**Trump 亲自致电 Huang 邀请其加入**——黄仁勋 5-13 紧急飞抵 Alaska 与 Air Force One 会合、随团抵京。\n\n**Trump 5-13 当面表态：** 在 Beijing 联合记者会前的 pool spray 中，Trump 公开称 'The Great Jensen Huang is part of our delegation' —— Nvidia 股价盘前因消息一度跳升。\n\n**对华议程升级：** Bloomberg、Al Jazeera 同步独家披露：Beijing 与 Washington 正讨论 **建立常态化 AI 双边对话机制**——议题首次包括：(1) 前沿模型 misbehavior；(2) 自主武器系统 (autonomous weapons)；(3) 非国家行为体 AI 网络攻击。半导体出口管制层面 'breakthrough deal looks unlikely'。\n\n**代表团成员：** Tim Cook (Apple)、Elon Musk (Tesla/SpaceX/SpaceXAI)、Larry Fink (BlackRock)、Kelly Ortberg (Boeing)、Brian Sikes (Cargill) + 17 名 CEO；Huang 5-13 临时加入是**唯一一次代表团变更**。\n\n背景回顾：5-12 报道把 Huang 'not invited' 解读为 Nvidia 对华业务政治敏感性的标志、并与新一轮美对华芯片管制传闻挂钩。",
+      "key_quotes": [
+        "Jensen is attending the summit at the invitation of President Trump to support America and the administration's goals. — Nvidia spokesperson, May 13",
+        "The Great Jensen Huang is part of our delegation. — Trump, en route to Beijing pool spray"
+      ],
+      "significance": "黄仁勋一周内从'最显眼缺席'到'最显眼出席'的 180° 反转，反映 Trump 政府对 Nvidia 在 AI 战略议程中的不可替代角色的**最后一刻让步**——也表明 5-13 当周 Nvidia 与白宫之间的政治距离比一周前外界想象的要近得多。同时，美中元首级 AI 对话机制 5-14 起进入正式议程，是 AI 监管框架历史上第一次以**国家元首谈判桌**层级被讨论。",
+      "links": [
+        "https://www.cnbc.com/2026/05/13/nvidia-says-ceo-jensen-huang-is-joining-trumps-china-trip.html",
+        "https://www.bloomberg.com/news/articles/2026-05-13/nvidia-s-huang-joins-trump-s-china-trip-as-last-minute-addition",
+        "https://www.euronews.com/next/2026/05/13/trump-xi-summit-chips-may-be-off-the-table-but-ai-warfare-will-likely-feature-in-china",
+        "https://www.cnn.com/2026/05/13/politics/live-news/trump-china-visit-arrival-ceremony-hnk"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["Trump-Xi summit", "Jensen Huang", "Nvidia", "US-China AI", "export controls", "AI warfare"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Cerebras 5-14 Nasdaq 正式开市：发行价封顶 $160、估值锁 $488 亿、订单 20 倍超额——2026 年最大科技 IPO 今日交易，Polymarket 隐含 94% 概率收盘市值破 $500 亿",
+      "source": "Cerebras Systems",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-14",
+      "summary": "AI 芯片商 Cerebras Systems 5-14 在 Nasdaq 以 ticker **CBRS** 正式开市——发行价区间最终落在 **$150-160 美元**上沿、发行 3000 万股、募资上限 **$48 亿**、按高位定价对应全摊薄估值 **$488 亿**；订单簿 20 倍超额，Polymarket 当日合约隐含 **$500 亿 +** 收盘市值概率达 **94%**——2026 年迄今最大美股科技 IPO 完成定价并正式交易。",
+      "detail": "Cerebras Systems 5-13 完成最终定价、5-14 在 Nasdaq Global Select Market **正式挂牌交易**——股票代码 **CBRS**。\n\n**定价细节：** 发行价区间从 5-4 S-1 修订版的 $115-125 上调至 $150-160（+30%）、发售股数从 28M 增至 30M、按高位 $160 定价对应募资 **$48 亿**、全摊薄估值 **$488 亿**——较 2026 年 2 月一级市场 $230 亿估值 **翻倍 +**。\n\n**需求指标：** 订单簿超额认购约 **20 倍**；Polymarket 上 'Cerebras 收盘市值' 合约 5-13 隐含 94% 概率 ≥ $500 亿，最高概率桶 **$500-600 亿 (33%)**，其次 $600-700 亿 (25%)、$700-800 亿 (17%)。\n\n**业务基本盘：** Cerebras 提交的 S-1 披露 2025 营收 **$5.10 亿美元** + 与 OpenAI 签下 **$100 亿美元** 多年合作合同；其 wafer-scale engine 是目前公开市场上唯一与 Nvidia GPU 路线**架构层差异化**的训练 / 推理芯片。\n\n**意义：** 自 CoreWeave 2025 年 3 月挂牌 ($230 亿) 之后，**Cerebras 是公开市场第二家纯 AI 算力概念股**——但 CoreWeave 走 GPU-as-a-Service 路线，Cerebras 是自研芯片厂；二者首次让美股市场可在 'AI 算力上游' + 'AI 算力下游' 同时建仓。\n\n背景回顾：5-12 报道已确认 IPO 定价区间从 $115-125 上调至 $150-160 上沿、发售扩容、20 倍超额；今日 5-14 是 Nasdaq 实际开盘交易日。",
+      "key_quotes": [
+        "Cerebras IPO closing market cap probability ≥ $50 billion: 94% — Polymarket implied, May 13"
+      ],
+      "significance": "2026 年迄今全球最大科技 IPO 当日落地——意味着公开市场首次以 ~$500 亿估值给一个 **非 Nvidia 架构** 的 AI 芯片厂定价。结合 CoreWeave、IREN、Hut 8 已合计承担 $200 亿 + 公开市场 AI 算力 backlog，整个 'AI 基础设施层 (compute supply)' 在 2026 年 5 月已**正式形成公开市场板块**，二级投资人可以脱离 Nvidia 单一标的进行算力赛道配置。",
+      "links": [
+        "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
+        "https://accessipos.com/cerebras-stock-ipo/",
+        "https://polymarket.com/event/cerebras-ipo-closing-market-cap",
+        "https://www.fool.com/investing/2026/05/13/cerebras-ipo-heres-what-a-5000-investment-could-lo/"
+      ],
+      "image": "assets/logos/cerebras-logo.png",
+      "image_type": "logo",
+      "tags": ["Cerebras", "IPO", "Nasdaq", "CBRS", "AI chip", "wafer scale engine", "OpenAI"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Microsoft 法庭对账：开庭披露累计 OpenAI 投入已破 $1000 亿——同日 Reuters 独家 Microsoft 正在洽谈 Stanford 系新模型创业公司 Inception (>$10 亿)，'后 OpenAI 路线' 开始落地",
+      "source": "Microsoft",
+      "source_name": "Reuters",
+      "source_url": "https://money.usnews.com/investing/news/articles/2026-05-13/exclusive-microsoft-eyeing-startup-deals-for-life-after-openai",
+      "story_key": "microsoft-post-openai-startup-deals",
+      "event_date": "2026-05-13",
+      "summary": "Reuters 5-13 独家：Microsoft 正系统性扫货 AI 创业公司、为 '后 OpenAI 时代' 储备技术与人才——已与 Stanford 创业团队 Inception 进入**估值 $10 亿+** 收购谈判；本周早些时候放弃 Cursor（因 GitHub Copilot 反垄断风险）。同日 Microsoft 出庭披露：截至 2026 年 6 月，公司在 OpenAI 合作上累计投入已超过 **$1000 亿美元**。",
+      "detail": "**Reuters 5-13 独家：** Microsoft (NASDAQ: MSFT) 正在为 '生命周期下一阶段' 扫货 AI 创业公司——目标是补齐人才并实现 CEO Satya Nadella 提出的 '明年内自建前沿级 AI 模型' 的目标。\n\n**Inception 谈判：** Microsoft 已与 Stanford 大学一个研究团队孵化的 **Inception** 进入收购谈判——Inception 押注的是与主流 transformer 不同的 LLM 训练范式；价签 **$10 亿美元 +**。\n\n**Cursor 失之交臂：** 本季度 Microsoft 一度认真评估收购 AI 编程公司 Cursor——但因公司同时持有 GitHub Copilot、内部担忧反垄断审查无法通过而**主动放弃**；Cursor 后续与 SpaceX 完成更深合作。\n\n**法庭披露：** 同日 5-13 在 Musk v. Altman 庭审现场，Microsoft 企业发展副总裁 **Michael Wetter** 当庭作证：截至 2026 年 6 月，**Microsoft 在 OpenAI 合作伙伴关系上的累计投入将超过 $1000 亿美元** —— 包括股权投资、基础设施支出、托管 OpenAI 计算资源。同期内部资料显示 Microsoft 总裁 Brad Smith 2023-1 给董事会的备忘录预测 **\"$920 亿回报 / $130 亿原始投入\"**。\n\n**战略转向背景：** 2025-Q4 协议解锁了 Microsoft 自主研发 AGI 的权限；2026-4 末 OpenAI 取得了与 Amazon 等 Microsoft 直接竞争对手合作的自由；OpenAI 5-11 自办 \"Deployment Company\" 与 Anthropic 5-5 wallstreet JV 共同把 Microsoft 在企业服务侧的代理人角色削弱——Microsoft 正在加速从 '财务投资人' 转向 '独立模型方'。",
+      "key_quotes": [
+        "Microsoft will have spent over $100 billion on OpenAI by June 2026, inclusive of investment commitments, infrastructure and hosting costs. — Michael Wetter, Microsoft Corp Dev, court testimony May 13",
+        "Microsoft is shopping for AI startups as it prepares for a future independent of its once-vital partner OpenAI. — Reuters exclusive, May 13"
+      ],
+      "significance": "$1000 亿是公开市场上**第一次**完整披露 Microsoft 全期 OpenAI 投入规模——参考 Microsoft 2026 全年 AI capex $1900 亿，意味着仅 OpenAI 这一笔合作就吞掉了 Microsoft AI 总开支的**半年体量以上**。而 Inception 谈判 + Cursor 放弃 + AGI 解锁条款，标志 Microsoft 正进入'解耦 OpenAI'的实操阶段——下一个 6 个月将出现 Microsoft 第一款**完全自研**的前沿 AI 模型，与 OpenAI 在企业 / Azure 内部首次直接竞争。",
+      "links": [
+        "https://money.usnews.com/investing/news/articles/2026-05-13/exclusive-microsoft-eyeing-startup-deals-for-life-after-openai",
+        "https://www.bloomberg.com/news/articles/2026-05-13/microsoft-spent-over-100-billion-on-openai-partnership-to-date",
+        "https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "OpenAI", "Inception", "Cursor", "post-OpenAI", "$100 billion", "Satya Nadella"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic $15 亿 Bartz 版权和解 5-14 终审听证：91.3% 作品已认领、最低赔付 $3000 / 部——美国史上最大版权和解今日定锤，将为整个 AI 训练数据版权框架立基准",
+      "source": "Anthropic",
+      "source_name": "Authors Guild",
+      "source_url": "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/",
+      "story_key": "anthropic-bartz-settlement-final-approval",
+      "event_date": "2026-05-14",
+      "summary": "Anthropic $15 亿 Bartz v. Anthropic 版权和解案 **今日 5-14 下午 2 点 PT** 进入 final approval / fairness hearing——482,460 件 eligible 作品中已有 **440,490 件 (91.3%)** 完成认领，符合资格的原作者最低保底赔付 **$3000 / 部**；这是美国史上最大版权和解，预计 6-11 完成分配计算、6 月起开始支付。",
+      "detail": "**今日庭审：** 2026-05-14 14:00 PT，由审理 Bartz v. Anthropic 的法官在加州北区联邦法院召开 **final approval / fairness hearing**——主审项目包括 (a) 索赔率 (claim rate)、(b) 总 opt-out 数、(c) 各方异议 (objections)。如获批，settlement 进入正式分配阶段。\n\n**和解结构：** Anthropic 同意向 settlement fund 注入 **$15 亿美元 (含利息可能升至 $20 亿)**——专门赔偿被 Anthropic 从 LibGen 与 PiLiMi 等盗版网站下载、用于 Claude 训练语料的图书原作者。原告代表为 Andrea Bartz (《We Were Never Here》)、Charles Graeber (《The Good Nurse》)、Kirk Wallace Johnson (《The Feather Thief》)。\n\n**认领进度（5-13 周一最新）：** 法律团队向法庭提交：在符合 settlement 定义的 **482,460 件作品**中，已有 **440,490 件 (91.3%)** 完成线上认领——这是美国大型集体诉讼里**罕见的高认领率**。最低保底赔付 **$3,000 / 作品（扣除费用前）**。\n\n**法律基础：** 2025-6 法官 Alsup 已判定：用受版权保护图书训练 AI 模型本身构成 **fair use**——但**储存盗版副本（library of pirated copies）**不构成。Anthropic 因此承担库 piracy 部分的赔偿责任，回避 training 本身的判例风险。\n\n**时间表：** 5-14 公正听证 → 6-11 settlement administrator 完成分配计算 → 2026-6 月或之后开始打款（可能被上诉延后）。",
+      "key_quotes": [
+        "440,490 of the 482,460 eligible works have been claimed — a 91.3 percent rate. — Class counsel filing, May 12",
+        "We agreed that the proper resolution is to compensate authors whose works were used in our training data. — Anthropic settlement statement"
+      ],
+      "significance": "**美国史上最大版权和解**正式封顶——为整个 AI 行业的**训练数据合规框架**立下两条 bright-line：(1) 训练用版权材料 = fair use 不再有判例不确定性；(2) 但 **piracy / 未授权拷贝下载** = 完全无法豁免、单价 $3000 起。OpenAI、Google、Meta 等所有未结案的 AI 版权诉讼将以 Bartz 为 anchor 进入新一轮和解谈判；同时为出版社 5-5 起诉 Meta + Zuckerberg 个人的集体诉讼提供了直接判例先例。",
+      "links": [
+        "https://authorsguild.org/advocacy/artificial-intelligence/what-authors-need-to-know-about-the-anthropic-settlement/",
+        "https://www.anthropiccopyrightsettlement.com/",
+        "https://www.authorsalliance.org/resources/generative-ai/bartz-v-anthropic-settlement-faq/",
+        "https://legalblogs.wolterskluwer.com/copyright-blog/the-bartz-v-anthropic-settlement-understanding-americas-largest-copyright-settlement/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Bartz", "copyright settlement", "fair use", "LibGen", "$1.5 billion"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "Musk v. Altman 庭审 Day 9：Altman 把 Musk 钉为'抛弃非营利'——同日 Sutskever $70 亿股权 + 2023 'pattern of lying' 备忘录被传唤；Microsoft 累计 $1000 亿史无前例数字首披露",
+      "source": "@sama",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/13/altman-musk-trial-testimony-takeaways.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-13",
+      "summary": "Sam Altman 5-13 在 Oakland 联邦法院第二日证词中把核心叙事钉死：'**OpenAI 非营利不是被我偷走，是被 Musk 抛在原地**'；同日 Ilya Sutskever 上庭披露自己在 OpenAI 营利分支持股 **~$70 亿**、并被对方传唤 2023 年那封写给董事会的 'consistent pattern of lying' 备忘录；Microsoft 企发副总裁 Michael Wetter 当庭披露累计 OpenAI 投入 **$1000 亿+**。",
+      "detail": "**Altman 第二日核心叙事 (5-13)：** Sam Altman 在交叉询问中把 Musk 起诉书逐条反击为：'Musk 2018 年自己**放弃 (left for dead)** OpenAI 非营利、停止资金支持转去做 Tesla AI；7 年后突然回头说我们偷了 charity——逻辑上不成立'。这是 OpenAI 法律团队三周以来最强叙事 frame。Altman 反复强调 'I believe I am an honest person'。\n\n**Sutskever 证词亮点：** OpenAI 联创、SSI 创始人 Ilya Sutskever 上庭 (5-13)——\n- 披露自己在 OpenAI 营利分支的股权价值 **~$70 亿美元**；\n- 承认与 Musk 早期共事时 'Musk 推动控股就是 feels aggressive to me'；\n- 被对方律师传唤 2023 年那封他写给 OpenAI 董事会的备忘录——内称 **Altman exhibits 'a consistent pattern of lying'**——成为 Musk 一方至今最具杀伤力的证据。\n- Sutskever 反复强调备忘录是 2023 年瞬间情绪、不代表持续判断。\n\n**Microsoft Wetter 披露：** Michael Wetter (Microsoft Corp Dev VP) 5-13 当庭：截至 2026 年 6 月 Microsoft 累计在 OpenAI 上投入超过 **$1000 亿美元** (含直接投资 + 基础设施 + 计算托管)；2023-1 Brad Smith 内部备忘录预测 **$920 亿回报 / $130 亿原始投入**。\n\n**审判进度：** 庭审进入第三周收尾；陪审团 advisory verdict 预计 5-18 之前给出。\n\n背景回顾：5-12 Altman 首日证词把 Musk 钉在'要 90% 股权 + 把 OpenAI 留给孩子'三连证词上；5-11 Nadella 与 5-5 Brockman、5-6 Zilis 已先后完成证词。",
+      "key_quotes": [
+        "Musk left the OpenAI nonprofit for dead. — Sam Altman, testimony May 13",
+        "Sam exhibits a consistent pattern of lying. — Ilya Sutskever 2023 board memo, read into court record May 13",
+        "Microsoft will have spent over $100 billion on OpenAI by June 2026. — Michael Wetter, court testimony May 13"
+      ],
+      "significance": "三块事实在同一日落地：(1) Altman 把 Musk 的'被骗'叙事翻成'Musk 抛弃'——大概率被陪审团采信；(2) Sutskever 'pattern of lying' 备忘录公开成证据——即使最终败诉 Musk，Altman 的诚信叙事将在外部市场层面长期承压；(3) Microsoft $1000 亿数字首次公开——意味着 OpenAI 当前估值 $8520 亿背后有 **Microsoft 单家一笔基础投入相当于估值的 12%**——任何 OpenAI 独立或 IPO 路径都必须先解决这笔历史账。",
+      "links": [
+        "https://www.cnbc.com/2026/05/13/altman-musk-trial-testimony-takeaways.html",
+        "https://www.npr.org/2026/05/12/nx-s1-5811730/openai-sam-altman-testimony-elon-musk-trial",
+        "https://www.bloomberg.com/news/articles/2026-05-13/microsoft-spent-over-100-billion-on-openai-partnership-to-date",
+        "https://www.axios.com/2026/05/13/openai-trial-sam-altman-elon-musk-ai-safety"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["Musk v Altman", "OpenAI trial", "Sam Altman", "Ilya Sutskever", "Microsoft", "$100 billion"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "'It's here.' Google GTIG 5-11 公开拦下史上首例 AI 实战 zero-day：黑客用 AI 模型完成端到端漏洞挖掘 + 2FA 旁路 + 量产化攻击计划——网络安全行业'AI 武器化'临界点正式跨过",
+      "source": "Google Cloud",
+      "source_name": "Google Cloud Blog",
+      "source_url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+      "story_key": "google-gtig-ai-zero-day-exploit",
+      "event_date": "2026-05-11",
+      "summary": "Google Threat Intelligence Group (GTIG) 5-11 公开博客 + Bloomberg / The Register 同步独家：**'高置信度' (high confidence)** 实证一组黑客用 AI 模型完成全流程**首例真实世界 zero-day 大规模利用攻击**——目标是流行开源 web 管理平台的 2FA 旁路漏洞；攻击前夜被 Google 与厂商联合静默修复。",
+      "detail": "**事件本体：** Google GTIG (Threat Intelligence Group) 5-11 在博客 'Adversaries Leverage AI for Vulnerability Exploitation, Augmented Operations, and Initial Access' 中公开：观察到一组黑客在 **未公开的开源 web 管理平台** 上使用 AI 模型完成 (a) 漏洞挖掘 (b) 漏洞武器化 (c) 编写 mass-exploitation 自动化脚本三段链条——目标是该平台的 **two-factor authentication bypass zero-day**。\n\n**为什么是'第一例'：** 此前 AI 介入漏洞研究都停留在'辅助代码审查'或'CTF 演习'层级。GTIG 首席分析师 **John Hultquist** 公开表态：'**It's here.**'——这是网络安全行业首例**完整可观测、未发表 zero-day、计划用于真实大规模商业利用**的 AI-as-attacker 用例。\n\n**事件结局：** Google 在攻击 fully kicked off 之前与未具名的厂商完成静默 patch、attack 被 'disrupted before it gained traction'。\n\n**模型来源：** Google 明确 'neither Gemini nor Anthropic's Mythos was involved'——指向是某未具名开源 / 灰区模型；但 Hultquist 同时指出 'higher-level logic mistakes are exactly the kind of thing modern AI models are starting to get surprisingly good at finding'。\n\n**与 Mythos 议程的关联：** 5-11 当周 OpenAI 推出 'Daybreak' (GPT-5.5-Cyber) 平台、欧盟扩大访问；日本高市内阁同日召开 Mythos audit cabinet 会议；Google GTIG 这条独立来自'真实世界数据'的证据，把过去 6 个月围绕 Anthropic Mythos 的政策辩论从'实验室能力 reveal'层级**升级**为'已经发生的 in-the-wild 攻击'层级。",
+      "key_quotes": [
+        "It's here. — John Hultquist, Chief Analyst, Google Threat Intelligence Group",
+        "We have high confidence in our assessment that this was the first observed case of an AI model being used end-to-end to find, weaponize, and operationalize a zero-day vulnerability for a mass exploitation campaign. — GTIG blog"
+      ],
+      "significance": "**AI 进攻型用例临界点**——从 2024 年至今所有的 'AI cyber risk' 政策讨论都基于'可能发生'。Google GTIG 5-11 把它变为**'已发生且被实战拦下'**。所有 G7 政府的 frontier AI 政策——包括美国 FDA-style 强制 vetting EO、日本高市级 audit、欧盟 AI Act omnibus 推迟——的核心 assumption 都被这一证据**结构性强化**。同时 AI 攻防对称性向'防御方'的倾斜窗口被压缩——下一个 12 个月将看到大量企业网络安全 stack 必须为 AI 攻击者重写。",
+      "links": [
+        "https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html",
+        "https://cloud.google.com/blog/topics/threat-intelligence/ai-vulnerability-exploitation-initial-access",
+        "https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say",
+        "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "GTIG", "zero-day", "AI cybersecurity", "AI weaponization", "John Hultquist"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "白宫 'FDA for AI' 一周内撤回：5-13 Axios 独家——chief-of-staff Wiles 与前 AI 监管长 Sacks 联手公开 walk back Hassett'两周内签 EO'承诺，Beijing 峰会前监管路线整体延宕",
+      "source": "White House",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/05/13/ai-executive-action-white-house-infighting",
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-13",
+      "summary": "Axios 5-13 独家：白宫上周由 NEC 主任 Kevin Hassett 公开承诺'两周内签 FDA 式 AI 模型预审 EO'的路线，在政府内部遭遇**剧烈反弹**——chief-of-staff Susie Wiles 与前 AI / Crypto 监管长 David Sacks 5-13 公开 walk back Hassett 言论；administration 表态可能要 **等 Trump 5-14/5-15 Beijing 元首峰会结果**才推进任何 AI 强制审查 EO。",
+      "detail": "**事件本体 (5-13)：** Axios 'AI executive action stalled by White House infighting' 独家披露：白宫 chief of staff **Susie Wiles** 与前 AI/Crypto Czar **David Sacks** 5-13 公开 walk back 上周由 NEC 主任 **Kevin Hassett** 抛出的 'FDA-style AI vetting EO 两周内签署' 路线——把整条强制 pre-release vetting EO **延宕至 Beijing 峰会之后**。\n\n**反弹原因：** \n1. **行业层：** Microsoft、Google、xAI 已通过 CAISI 自愿协议在 5-5 完成签约——强制 EO 被指责为'扼杀已经 working 的非强制框架'；\n2. **政策层：** Sacks 公开认为强制 vetting 等同于把 AI 安全审查权移交给 NIST/Commerce、与 Trump 整体'减少联邦权限、push 给市场'的施政基调冲突；\n3. **外交层：** Beijing 峰会即将开始，AI 议程一旦从美国单方面强制 vetting 出发，对华谈判筹码会被削弱——Washington Post 已先在 5-8 报道白宫内部围绕 Anthropic Mythos 拉锯。\n\n**等待节奏：** AI EO 决策**等到 Trump 在 Beijing 完成与习近平 5-14/5-15 会晤后再定**——可能形态从'强制 vetting'倒向'双边 AI 风险对话框架 + 自愿评估扩容'。\n\n背景回顾：5-5 CAISI 与 Google DeepMind / Microsoft / xAI 签下三家自愿评估协议；5-6 Hassett 在 Bloomberg 公开承诺'FDA-style 强制 EO 两周内签署'。",
+      "key_quotes": [
+        "Administration officials had to walk back one of their own suggesting safety reviews like an 'FDA for AI'. — Axios May 13",
+        "AI is likely on the agenda for Trump's trip to Beijing this week, and the administration may wait on the outcome of the China summit before making any final decisions on AI. — Axios source"
+      ],
+      "significance": "美国 AI 监管走向**第一次在公开层面发生路线分歧** —— Hassett 代表的 'FDA 式强制审查' 路线 vs. Wiles / Sacks 代表的 '保持非强制 + 把美中双边对话作为新框架' 路线在白宫内部公开对峙。结合 5-13 Trump 抵京、AI 议程进入元首级——下一周美国 AI 监管框架的形态可能从'像 FDA 一样部署审查'**整体迁移为'美中双边 AI 风险对话机制 + CAISI 自愿框架扩容'**——这是 2026 年美国 AI 政策走向最关键的分岔点。",
+      "links": [
+        "https://www.axios.com/2026/05/13/ai-executive-action-white-house-infighting",
+        "https://federalnewsnetwork.com/artificial-intelligence/2026/05/wh-studying-ai-security-executive-order/",
+        "https://www.yahoo.com/news/articles/white-house-mulls-executive-order-131559245.html"
+      ],
+      "tags": ["White House", "AI EO", "Hassett", "Wiles", "David Sacks", "CAISI", "AI vetting"],
+      "category": "news"
+    },
+    {
+      "id": "9",
+      "title": "SMIC 5-12 一锤拿下 SMIC North 49% 股权：¥406 亿 (~$60 亿) 中国最大半导体并购获批，把'国家大基金一期'手里的国产 12 寸 fab 完全国资化",
+      "source": "SMIC",
+      "source_name": "TechNode",
+      "source_url": "https://technode.com/2026/05/12/smic-secures-approval-for-5-9-billion-acquisition-in-chinas-largest-domestic-wafer-foundry-ma/",
+      "story_key": "smic-6b-smic-north-acquisition",
+      "event_date": "2026-05-12",
+      "summary": "中国头部晶圆代工厂 SMIC 5-12 获得监管批准、以 **¥40.6 亿 (~$59.8 亿美元)** 通过定向增发收购 **SMIC North (中芯北方) 剩余 49% 股权**——卖方是 '国家集成电路产业基金一期 (大基金一期)' 与北京 IC 产业投资基金。SMIC North 由此成为 SMIC 100% 全资子公司——**中国半导体史上最大单笔并购**，把国产 12 寸 28-65nm 成熟节点产能彻底国资化。",
+      "detail": "**交易结构：** SMIC (HKEX: 0981 / SH: 688981) 5-12 获国资委 + 证监会批准，通过 **股票定向增发** 方式向 (a) 国家集成电路产业基金一期 (大基金一期) (b) 北京集成电路产业投资基金 收购它们合计持有的 SMIC North 剩余 **49% 股权**——交易对价合计 **¥40.6 亿 (~$59.8 亿美元)**。SMIC North 由此从合资公司变为 SMIC **全资子公司**。\n\n**SMIC North 业务：** 位于北京、主要运营 **12 英寸晶圆 (300mm) 成熟节点 28-65nm** 工艺——是中国国产成熟制程汽车 SoC、显示驱动、PMIC、消费电子主控的关键产能集群。\n\n**国资化的意义：** \n1. **'大基金一期'退出节奏：** 这是大基金一期 2014 年成立以来对头部 fab 的**第一笔大规模退出**，资金回流后将进入大基金二期 / 国家 AI 产业投资基金（5-6 报道领投 DeepSeek $50 亿轮）继续在前沿模型 + AI 算力侧重新配置。\n2. **SMIC 全权运营：** 北方 fab 在 SMIC 自有 capex 调度下，未来 36 个月可不需要合作方决议就推动产能扩张——直接服务 ByteDance 2026 capex 2000 亿元中流向国产芯片的部分（5-9 SCMP 报道）。\n3. **节奏对照：** 与 Hua Hong 7nm 突破 + 华虹宏力 / 中芯系一体化重组并行——'中国 fab 国家冠军 1-2 家'的格局正式形成。\n\n**与美方出口管制对照：** 5-13 Trump 抵京、5-14/5-15 元首峰会议程中 AI / 半导体出口管制处于核心——SMIC 在峰会前夜完成产能国资化整合，是中国对美出口管制博弈的最强信号之一。",
+      "key_quotes": [
+        "SMIC plans to acquire the remaining 49% equity interest in SMIC North currently held by Big Fund Phase I and the Beijing Integrated Circuit Fund through a share issuance, with the transaction valued at approximately CNY 40.6 billion. — TechNode May 12"
+      ],
+      "significance": "中国国产成熟制程产能**第一次完整移交单一头部 fab 调度**——结合 5-6 报道大基金 + 国家 AI 产业投资基金联合领投 DeepSeek，证实 Beijing 正在以**'fab 整合 + AI 大模型注资'两条腿**完成对美技术管制的战略对冲。SMIC 一旦完成 SMIC North 全资化，公司全年 12 寸产能调度灵活性大幅提升——下一年中国国产 GPU / NPU (Huawei Ascend、寒武纪、壁仞、燧原) 的关键 backend 流片节奏将以这条产能链为核心。",
+      "links": [
+        "https://technode.com/2026/05/12/smic-secures-approval-for-5-9-billion-acquisition-in-chinas-largest-domestic-wafer-foundry-ma/",
+        "https://www.digitimes.com/news/a20260512VL211/smic-acquisition-growth-demand-manufacturing.html",
+        "https://techwireasia.com/2026/05/china-semiconductor-self-sufficiency-wafer-target-2026/"
+      ],
+      "tags": ["SMIC", "SMIC North", "China semiconductor", "Big Fund", "wafer foundry", "12-inch"],
+      "category": "news"
+    },
+    {
+      "id": "10",
+      "title": "Google 'Android Show: I/O Edition' 5-13 第二日：Gemini Intelligence 升级为'系统级 agent 层'——app 自动化 Pixel/Samsung 抢先夏季、Android Auto 十年来最大地图升级、Chrome on Android 全面 Gemini 化",
+      "source": "Google",
+      "source_name": "Engadget",
+      "source_url": "https://www.engadget.com/2171038/everything-announced-at-android-show-google-io-2026/",
+      "story_key": "google-googlebook-laptop",
+      "event_date": "2026-05-13",
+      "summary": "Google 5-13 'Android Show: I/O Edition' 第二日把焦点从硬件（Googlebook）抬到操作系统层——**Gemini Intelligence 升级为跨 app 的'系统级 agent 层'**：可读取屏幕上下文、自动跨 Gmail / Calendar / Drive 完成多步任务；**app 自动化**夏季先在 Pixel + Samsung Galaxy 上线、年内扩展到 watch / car / glasses / laptop；**Android Auto 十年来最大地图更新** + Gemini 接管 in-car 助手；Chrome on Android 全面 Gemini 化。",
+      "detail": "**焦点定调：** Google 5-13 把 Android Show I/O Edition 第二日定为 'Gemini Intelligence 不只是 chatbot——是一个系统级操作层 (system-level layer above apps)'——从 'ask a question, get an answer' 升级为 'agent acts on your behalf across apps'。\n\n**关键发布：** \n1. **Gemini Intelligence (agent 层)** —— 可读取当前屏幕上下文、跨 Gmail / Calendar / Docs / Drive / Tasks / Keep 完成多步骤任务（如自动建购物车、订餐厅）；横跨 **Android phone / ChromeOS / Wear OS / Android Auto / XR**。\n2. **App 自动化** —— 夏季先在 **Samsung Galaxy 与 Pixel** 上线，年内扩张至 Wear OS watch、Android Auto car、Android XR glasses 与 laptop。\n3. **Android Auto** —— **十年来最大单次地图更新**（覆盖 **2.5 亿辆**装车量）+ Gemini 接管 in-car 助手，可'开车时点餐'。\n4. **Chrome on Android** —— 系统集成 Gemini，跨 tab 上下文读取。\n5. **'Creator tools' + Security** —— 新增 AI 创作工具一套；同步推出**史上最大单次安全特性堆栈**（细节将于 I/O 主会公布）。\n\n**与 Apple WWDC 节奏对照：** Apple WWDC 2026 6-8 准备发布 always-on AI Siri + 开放第三方接入 (Claude / Gemini)——Google 5-13 抢先一个月把 Android 升级为'agent OS'是显著的产品节奏抢跑。\n\n**与 OpenAI / Anthropic 对照：** Anthropic 5-6 Code with Claude 推出 'Remote Agents' 让手机控笔记本；OpenAI 5-6 Realtime API + GPT-Realtime-2 +ChatGPT 跨历史聊天 / Gmail 记忆——三家本月内同步在'消费端 AI agent 操作层'集体落地。\n\n背景回顾：5-12 Google 公布 Googlebook 笔记本品类是同一场 I/O Edition 大会的第一日发布；今日 5-13 的发布是 OS / 跨设备层。",
+      "key_quotes": [
+        "Gemini Intelligence is a system-level layer that sits above apps and begins to handle tasks on behalf of the user. — Google blog, May 13",
+        "Android is in more than 250 million cars. The new release includes its biggest maps update in a decade. — Google announcement"
+      ],
+      "significance": "Google 5-13 标志 **'mobile AI assistant'** 范式正式被 **'mobile AI agent / OS-level layer'** 替代——从 'open app → query → answer' 三步压缩到 'speak intent → agent executes across apps'。这是消费 AI 自 2025 年以来最大的产品架构变更，结合 Apple WWDC 6-8 Siri overhaul、OpenAI 5-6 Realtime API、Anthropic 5-6 Remote Agents——**6-8 月将是消费 AI agent 操作层的全面对标窗口**。",
+      "links": [
+        "https://www.engadget.com/2171038/everything-announced-at-android-show-google-io-2026/",
+        "https://www.cnbc.com/2026/05/12/google-races-put-gemini-at-center-of-android-before-apples-ai-reboot.html",
+        "https://www.business-standard.com/technology/tech-news/google-android-show-2026-highlights-everything-announced-gemini-intelligence-ai-googlebook-126051300461_1.html",
+        "https://www.android.com/new-features-on-android/io-2026/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini Intelligence", "Android", "Android Auto", "agent", "I/O 2026"],
+      "category": "news"
+    }
+  ]
+}

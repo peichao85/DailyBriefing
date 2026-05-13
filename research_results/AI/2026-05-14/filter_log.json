@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-14",
+  "total_candidates": 16,
+  "kept": 10,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "anduril-5b-series-h-61b",
+      "event_date": "2026-05-13",
+      "title_en": "Anduril raises $5B Series H at $61B valuation led by Thrive + a16z",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Defense-AI funding milestone: $5B Series H doubles valuation to $61B in 11 months; led by Thrive Capital + a16z; revenue doubled to $2.2B in 2025; Anduril positioned as central winner of Trump's $185B Golden Dome missile defense system."
+    },
+    {
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-14",
+      "title_en": "Cerebras begins Nasdaq trading May 14 as largest 2026 tech IPO",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-12 about pricing upsize. New development today: actual Nasdaq trading debut under ticker CBRS at $150-160/share, $48.8B valuation, 20x oversubscribed. Polymarket implies 94% probability of $50B+ closing market cap. Substantively new info: actual market reception vs. prior pre-trading."
+    },
+    {
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-13",
+      "title_en": "Trump arrives Beijing for Xi summit; Jensen Huang added last-minute by Trump call",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-12 noting Huang's conspicuous absence from delegation. New development today: Trump personally called Huang after media coverage, Huang flew to Alaska to board Air Force One, full reversal. Also: Trump arrived Beijing 5-13 (vs. prior anticipated arrival). Substantively new and noteworthy political-tech moment."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-13",
+      "title_en": "Altman day 2 + Microsoft Wetter discloses $100B+ total OpenAI spend",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-12 about Altman's first day of testimony (90% equity, etc.). New developments 5-13: (1) Microsoft corp-dev exec Michael Wetter discloses Microsoft has spent $100B+ on OpenAI through June 2026 including infrastructure + hosting + investments; (2) Altman cross-examination second day with new 'OpenAI nonprofit was left for dead' framing of Musk's abandonment; (3) Sutskever testimony reveal of $7B equity stake + 2023 'pattern of lying' memo. Substantively new financial disclosure and testimony."
+    },
+    {
+      "story_key": "anthropic-bartz-settlement-final-approval",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic $1.5B Bartz copyright settlement final approval hearing today",
+      "source": "Authors Guild",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Today (5-14, 2pm PT) is final approval/fairness hearing for the largest copyright settlement in US history ($1.5B). 91.3% of eligible works (440,490 of 482,460) already claimed; ~$3,000/title minimum payout. Sets precedent for entire AI industry on training-data fair use vs. pirated library liability."
+    },
+    {
+      "story_key": "microsoft-post-openai-startup-deals",
+      "event_date": "2026-05-13",
+      "title_en": "Microsoft shopping AI startups for life after OpenAI; in talks with Inception",
+      "source": "The Information / Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Reuters exclusive 5-13: Microsoft preparing for future independent of OpenAI by shopping for AI startups; in advanced talks with Stanford-spun-out Inception (>$1B price); previously backed away from Cursor over GitHub Copilot antitrust concerns. Material strategic shift signaling post-OpenAI Microsoft AI roadmap."
+    },
+    {
+      "story_key": "google-gtig-ai-zero-day-exploit",
+      "event_date": "2026-05-11",
+      "title_en": "Google GTIG thwarts first-ever AI-built zero-day mass exploitation campaign",
+      "source": "Google Cloud Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Google Threat Intelligence Group 5-11 announcement: high-confidence first observed real-world case of cybercriminals using an AI model to discover and weaponize a zero-day vulnerability (2FA bypass in popular open-source web admin platform) for planned mass exploitation campaign. John Hultquist: 'It's here.' Neither Gemini nor Mythos involved per Google. Independent threshold event for AI cybersecurity."
+    },
+    {
+      "story_key": "google-googlebook-laptop",
+      "event_date": "2026-05-13",
+      "title_en": "Android Show I/O Edition day 2: Gemini Intelligence as system-level agent across Android, app automation, Auto",
+      "source": "Engadget",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-12 about Googlebook laptop reveal. New 5-13 announcements at same show but covering broader Android platform: Gemini Intelligence positioned as cross-app operating layer (not just laptop), app automation rolling to Pixel/Samsung this summer, Android Auto biggest maps update in a decade, smarter Chrome on Android, sweeping security features. Substantively new system-level rollout vs. prior laptop-focused angle."
+    },
+    {
+      "story_key": "smic-6b-smic-north-acquisition",
+      "event_date": "2026-05-12",
+      "title_en": "SMIC wins approval for $5.98B SMIC North buyout — China's largest wafer-foundry M&A",
+      "source": "Digitimes / TechNode",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. SMIC 5-12 received regulatory approval for ¥40.6B (~$5.98B) share-issuance acquisition of remaining 49% of SMIC North (Beijing 12-inch mature-node fab) from Big Fund Phase I + Beijing IC Fund. Largest domestic wafer-foundry M&A in China history; consolidates state resources around national champion under US export controls. AI-infrastructure self-sufficiency angle."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-13",
+      "title_en": "White House AI pre-release vetting EO stalled by internal infighting — Wiles/Sacks walk back Hassett's 'FDA for AI'",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-06 (Hassett 'FDA-style' EO predicted in two weeks) and 5-5 (CAISI voluntary agreements). New 5-13 development: chief of staff Susie Wiles and former AI czar David Sacks publicly walked back Hassett's FDA-for-AI framing; EO stalled by internal disagreement; administration may wait on China summit outcome. Substantively new political development reversing prior timeline."
+    },
+    {
+      "story_key": "coinbase-700-ai-layoffs",
+      "event_date": "2026-05-05",
+      "title_en": "Coinbase cuts 14% workforce citing agentic AI",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-05 is 9 days old (>5 day limit). Already referenced in 5-12 gm-it-layoffs-ai-pivot story."
+    },
+    {
+      "story_key": "novonordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk × OpenAI enterprise AI partnership across drug discovery + manufacturing",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 30 days old (>5 day limit)."
+    },
+    {
+      "story_key": "spacexai-formal-merger",
+      "event_date": "2026-05-06",
+      "title_en": "Musk formally folds xAI into SpaceX as 'SpaceXAI' division",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-06 is 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "apple-intel-foundry-deal",
+      "event_date": "2026-05-08",
+      "title_en": "Intel +14% on Apple-Intel chip foundry agreement on 18A process",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-08 is 6 days old (>5 day limit). Tangentially related to existing apple-tsmc-supply-diversification story."
+    },
+    {
+      "story_key": "boomi-redhat-agentic-ai",
+      "event_date": "2026-05-13",
+      "title_en": "Boomi × Red Hat agentic AI collaboration",
+      "source": "SiliconAngle",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Filter category misused — actually a minor product collab not meeting significance bar. Single-vendor integration announcement without market-shaping importance. Drop on quality threshold."
+    },
+    {
+      "story_key": "amdocs-google-gemini-telco-agents",
+      "event_date": "2026-05-13",
+      "title_en": "Amdocs Telco Agents launches on Google Gemini Enterprise Agent Marketplace",
+      "source": "StockTitan",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Filter category misused — vertical agent listing on existing marketplace, not market-shaping. Drop on quality threshold."
+    }
+  ]
+}
