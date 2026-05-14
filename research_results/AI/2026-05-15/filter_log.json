@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-15",
+  "total_candidates": 14,
+  "kept": 6,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "nvidia-h200-china-clearance",
+      "event_date": "2026-05-14",
+      "title_en": "US clears H200 chip sales to ~10 China firms during Trump-Xi summit",
+      "source": "CNBC / Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct concrete export-license decision from the broader Trump-Xi summit story. Names 10 Chinese firms (Alibaba, Tencent, ByteDance, JD.com) each cleared for up to 75,000 H200 chips. Announced during summit Day 1; Nvidia previously reported 'zero percent' China market share."
+    },
+    {
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-14",
+      "title_en": "Cerebras opens at $350 (+89%), closes $311.07 (+68%), raises $5.55B in 2026's biggest tech IPO",
+      "source": "TechCrunch / Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-12 (pricing range upsize) and 2026-05-14 (final pricing/opening day). New today: actual final IPO price came in at $185/sh (above prior $150-160 range published yesterday), stock opened $350, intraday high $385, closed $311.07 (+68%), raised $5.55B (vs prior $4.8B estimate). First trading day numbers are substantively new information."
+    },
+    {
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-14",
+      "title_en": "Trump-Xi summit Day 1: strategic framework agreement, AI governance protocol announced; Xi tells Musk, Cook 'China will open wider'",
+      "source": "CNBC / Al Jazeera",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-12 and 2026-05-13 about CEOs being invited / Jensen joining trip. New today: actual summit took place, 3-year 'constructive China-U.S. relationship of strategic stability' framework announced, Bessent confirmed AI governance protocol talks begin, Xi held separate meeting with US CEOs including Musk and Tim Cook saying China will open wider."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-14",
+      "title_en": "Musk v. Altman closing arguments delivered; jury deliberation Monday, damages phase begins concurrently",
+      "source": "Axios / Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-07 (trial start), 2026-05-12 (Altman testimony), 2026-05-13 (Musk testimony takeaways). New today: trial entered closing-argument phase, Molo accused OpenAI of breaching charitable trust, deliberations begin Monday, unusual damages phase running parallel to liability deliberation, Musk lawyer apologized for client's absence (China trip). This is a distinct trial milestone."
+    },
+    {
+      "story_key": "cisco-q3-2026-ai-orders",
+      "event_date": "2026-05-13",
+      "title_en": "Cisco Q3 FY26: $5.3B YTD AI orders, FY guide raised to $9B, 4,000 layoffs, stock +15%",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Cisco reported $15.84B revenue (12% YoY), $5.3B YTD AI infrastructure orders, raised FY guide from $5B to $9B, cutting fewer than 4000 jobs (<5% of workforce). Stock soared 15% after-hours. Major signal of AI infrastructure demand reaching networking layer."
+    },
+    {
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-11",
+      "title_en": "Gemini Omni video model leaks from Gemini app ahead of Google I/O 2026",
+      "source": "Android Authority / explainx.ai",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. UI strings appeared May 2, actual generated clips leaked May 11 from Gemini Pro users showing video remix, in-chat editing, voice coherence. Speculated as Veo 3.1 rebrand or first true unified Gemini omni-model. Within 5-day freshness window (4 days old). Google I/O keynote May 19."
+    },
+    {
+      "story_key": "anthropic-bartz-settlement-final-approval",
+      "event_date": "2026-05-14",
+      "title_en": "Bartz v. Anthropic fairness hearing held May 14",
+      "source": "Authors Alliance",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-14 with hearing details (91.3% claim rate, $3000/work minimum payout, hearing at 2 PM PT). The hearing took place but no judicial ruling has been issued or reported. No substantively new information today beyond what was published yesterday."
+    },
+    {
+      "story_key": "anthropic-1t-valuation-50b-round",
+      "event_date": "2026-04-29",
+      "title_en": "Anthropic in talks for $50B round at $950B valuation",
+      "source": "TechCrunch / NYT",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-08. Today's coverage (Sherwood News, TrendingTopics) is reporting the same $30-50B / $900-950B valuation talks first surfaced by NYT April 29. No new term sheet signed, no new investor names. Pure rehash."
+    },
+    {
+      "story_key": "moonshot-ai-meituan-2b-round",
+      "event_date": "2026-05-07",
+      "title_en": "Moonshot AI closes $2B Series D at $20B valuation led by Meituan",
+      "source": "TechCrunch / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 8 days old (>5 day limit). Also already published 2026-05-07."
+    },
+    {
+      "story_key": "elevenlabs-500m-arr-series-d",
+      "event_date": "2026-05-05",
+      "title_en": "ElevenLabs Series D extension adds BlackRock, NVIDIA, celebrity investors",
+      "source": "Tech.eu / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-05 is 10 days old (>5 day limit). Also already published 2026-05-05."
+    },
+    {
+      "story_key": "sap-priorlabs-acquisition",
+      "event_date": "2026-05-04",
+      "title_en": "SAP acquires Dremio and Prior Labs for AI data push",
+      "source": "Blocks and Files / The Register",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-04 is 11 days old (>5 day limit). Also already published 2026-05-04."
+    },
+    {
+      "story_key": "isomorphic-labs-21b-series-b",
+      "event_date": "2026-05-12",
+      "title_en": "Isomorphic Labs closes $2.1B Series B led by Thrive Capital",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-12. No new developments today."
+    },
+    {
+      "story_key": "microsoft-post-openai-startup-deals",
+      "event_date": "2026-05-13",
+      "title_en": "Microsoft scouts post-OpenAI startups including Inception",
+      "source": "Reuters",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-13. No new developments today (no new acquisition targets named, no deal closed)."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-05",
+      "title_en": "White House EO requires AI model vetting for Google, Microsoft, xAI",
+      "source": "CNBC / CNN",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-05 is 10 days old (>5 day limit). Also already published 2026-05-06 and 2026-05-13."
+    }
+  ]
+}

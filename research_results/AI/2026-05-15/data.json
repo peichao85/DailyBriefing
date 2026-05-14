@@ -1,0 +1,173 @@
+{
+  "date": "2026-05-15",
+  "category": "AI",
+  "researched_at": "2026-05-15T07:10:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@AndrewYNg", "@karpathy",
+    "@julien_c", "@DrJimFan", "@garrytan", "@lexfridman",
+    "CNBC", "TechCrunch", "Bloomberg", "Reuters", "Axios", "Al Jazeera",
+    "Anthropic Blog", "OpenAI News", "NVIDIA Newsroom",
+    "Authors Alliance", "Android Authority", "explainx.ai"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Trump 抵京当天美国商务部开闸：Nvidia H200 一次性放行 10 家中国巨头、每家 ≤ 75,000 颗——Alibaba/Tencent/ByteDance/JD 拿到 'Jensen 从零市占归来' 的第一张通行证",
+      "source": "Reuters",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html",
+      "story_key": "nvidia-h200-china-clearance",
+      "event_date": "2026-05-14",
+      "summary": "Trump-Xi 峰会 Day 1 同日，美国商务部完成对 **约 10 家中国大型科技公司** 采购 Nvidia H200 GPU 的出口许可签发——名单包含 **Alibaba、Tencent、ByteDance、JD.com** 等头部云厂，每家上限 **75,000 颗**；这是黄仁勋 Q1 公开宣称 'Nvidia 在中国市占率为零' 之后官方层面的首次系统性破冰。",
+      "detail": "Reuters 5-14 多源独家：美国商务部产业与安全局 (BIS) 在 Trump 抵京当天集中签发出口许可——**Alibaba、Tencent、ByteDance、JD.com** 以及另外约 6 家未具名中国科技公司，每家获批购买 **Nvidia H200 GPU 上限 75,000 颗**，合计理论上限约 **75 万颗 H200**——按 H200 单卡 $28,000-32,000 出货价估算，理论合同规模超过 **$210 亿美元**。\n\nH200 是 Nvidia 在 Blackwell 之前的旗舰 Hopper 升级版（141GB HBM3e、4.8TB/s 带宽），不属于此前被禁的 B200/B30A 序列，但仍受美国 2023 年出口管制覆盖——这是 BIS 第一次大规模、整批、对头部中国客户同时下发 H200 许可。\n\n**与同日 Cerebras 上市 + Trump-Xi 峰会的精确时间对齐**：5-14 上午 H200 许可消息见报、中午 Cerebras 在 Nasdaq 开市暴涨 89%、下午 Trump 与习近平在北京举行首场会晤——华盛顿用一笔行政许可在峰会桌面上摆出筹码。Treasury Secretary Scott Bessent 当日公开称 'AI 两大超级大国要开始对话，我们要建立一套 AI 最佳实践协议'。\n\n关键执行不确定性：尽管许可已下发，**没有任何一颗 H200 实际交付**。北京方面对是否放行进口存在内部分歧——一方面华为昇腾 / DeepSeek 国产链刚拿到政策护盘，另一方面 Alibaba/Tencent/字节的训练集群对 Hopper 级 GPU 仍存在硬性需求。Jensen Huang 已飞抵北京随团访问，被视为推动'许可→实际订单'转化的关键执行人。\n\n**对 Nvidia 数字面**：Q1 FY2026 因 H20 库存计提 $45 亿一次性损失、CFO Colette Kress 已在电话会议剔除中国基线收入；若 5-14 许可实际落地为订单，Q3 FY2027 起将重回 Nvidia 营收表。5-13 Nvidia 市值刚创 **$5.4 万亿** 历史新高，5-20 Q1 FY2027 财报将是市场对 '中国回归' 定价的首道验证。",
+      "key_quotes": [
+        "The two AI superpowers are going to start talking, we're going to set up a protocol in terms of how do we go forward with best practices for AI to make sure non-state actors don't get a hold of these models. — Treasury Secretary Scott Bessent",
+        "U.S. export policy has already largely backfired — we now have zero percent market share in China. — Jensen Huang (prior quote, context for today's reversal)"
+      ],
+      "significance": "这是 Trump 第二任期对华 AI 芯片政策最显著的一次政策转向，也是 Nvidia 自 2023 年 A100/H100 禁运以来最大规模的合规重返中国。**75,000 颗/家 × 10 家 = ~75 万颗** 的理论上限直接抹平了 Q1 FY2026 因 H20 计提造成的 $45 亿损失，并把中国订单重新放回 Nvidia 收入预测基线；更深层影响在于：(1) 美国正式承认'对华 GPU 禁运没能阻止中国 AI 发展、反而加速国产替代'的战略失败叙事；(2) Alibaba / 字节 / 腾讯训练集群拿到 Hopper 级补给后，DeepSeek/Kimi/Qwen 下一代模型的训练-推理算力曲线将重新与美国头部模型拉近差距；(3) 政策工具从'技术封锁'转向'许可式管控'——后续 B30A 是否放行成为 Trump-Xi 第二张谈判筹码。",
+      "links": [
+        "https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html",
+        "https://www.cnbc.com/2026/05/14/trump-xi-meeting-china-stocks-ai-rally.html",
+        "https://www.thedefensenews.com/news-details/US-Approves-NVIDIA-AI-Chip-Sales-to-Major-Chinese-Tech-Companies-as-Export-Restrictions-Are-Eased/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-says-nvidia-now-has-zero-percent-market-share-in-china-says-us-export-policy-has-already-largely-backfired"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["Nvidia", "H200", "China", "Export Controls", "Trump-Xi", "Geopolitics"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Cerebras 5-14 Nasdaq 首日：开盘 $350 (+89%)、盘中 $385、收 $311.07 (+68%)——发行价定 $185 实际募资 $55.5 亿，2026 美股最大科技 IPO 落定",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-14",
+      "summary": "AI 芯片商 Cerebras 5-14 在 Nasdaq 以 ticker **CBRS** 完成首日交易——**发行价最终定在 $185**（高于此前披露的 $150-160 区间）、共发行 3000 万股、**实际募资 $55.5 亿**、对应全摊薄估值约 **$610 亿**；开盘 $350（+89%）、盘中冲高 $385、收盘 **$311.07（+68.2%）**——2026 年迄今美股最大科技 IPO 完成定价并以爆量收涨方式正式入市。",
+      "detail": "Cerebras Systems 5-14 上午 9:30 美东时间在 Nasdaq 敲钟。**实际定价节奏**：最终发行价 **$185**（vs 周一披露的 $150-160 区间高位再 +16%）、发行规模 **3000 万 ADS**、**实际募资 $55.5 亿**（vs 周一预估 $48 亿、再 +16%），订单簿账面超额认购倍数维持在 20 倍以上。\n\n**首日交易行情**：CBRS 开盘 **$350**（较发行价 +89%）、盘中最高 **$385**（+108%）、午后回吐部分涨幅、最终收 **$311.07**，**首日涨幅 +68.2%**；按收盘价计市值约 **$820 亿**，超过 AMD 数据中心收入对应市值，**正式坐稳 'Nvidia 之外 AI 芯片第二大上市公司'** 的席位。\n\n**为何今天是分水岭**：(1) 2026 年迄今美股科技 IPO 长期冰封——Cerebras 首日 +68% 直接打开了 Quantinuum (5-8 报递交)、Anysphere、Databricks 等下一批 AI 候选标的的窗口；(2) 同日 Nvidia 市值刚冲到 $5.4 万亿历史新高、AMD MI300 系列订单回流，CBRS 上市进一步强化了 'AI 芯片是 2026 美股头号交易' 的资金共识；(3) Cerebras 的招股书披露其 WSE-3 系统已被 G42 (UAE)、Mayo Clinic、Mistral 等部署，**Q1 2026 收入 +280% YoY**，把'专用大芯片不是噱头'这件事用数字钉死。\n\n**资金面信号**：Polymarket 5-13 开出的 '首日收盘市值 ≥ $500 亿' 合约最终以 $820 亿超额结算、隐含概率 94% 兑现；但盘中从 $385 回吐至 $311 也提示散户接力盘的脆弱性——5-15 周五早盘是否能守住 $300 一线，将决定 Cerebras 是否能延续 'AI 芯片必涨' 叙事。\n\n**背景回顾：** Cerebras 自 2024 年起两次推迟 IPO，5-12 公司一夜将定价区间从 $115-130 上调到 $150-160，估值锁 $488 亿、订单超额 20 倍；5-14 周四正式 Nasdaq 开市完成定价并交易。",
+      "key_quotes": [
+        "Cerebras kicked off 2026's IPO season with a bang.",
+        "Wall Street braces for AI tsunami. — CNBC headline pre-debut"
+      ],
+      "significance": "Cerebras 首日 +68%、市值 $820 亿，**单家公司用一次 IPO 重新打开了美股科技公司的上市窗口**——这是 2022 年熊市以来美股最大规模科技 IPO 之一，对处于 IPO 排队中的 Anysphere ($1.3B Truell 持股)、Quantinuum、Databricks 都是直接利好信号；更长远影响在于：(1) 投资者首次为'Nvidia 替代叙事'付出溢价，未来 12 个月 SambaNova、Groq、Tenstorrent 的私募估值锚定有了公开市场参照系；(2) Cerebras 把 WSE-3 ($230 万/片) 卖给 G42 / Mayo / Mistral 的现金流证明了'专用大芯片'商业模型可行；(3) 与同日 Nvidia H200 中国解禁形成耐人寻味的对照——投资者既愿为'Nvidia 全球扩张'付钱，也愿为'Nvidia 之外的备份选项'付钱，AI 算力多元化已正式定价。",
+      "links": [
+        "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+        "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html",
+        "https://www.bloomberg.com/news/articles/2026-05-14/cerebras-shares-indicated-to-surge-89-after-year-s-top-ipo",
+        "https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy"
+      ],
+      "image": "assets/logos/cerebras-logo.png",
+      "image_type": "logo",
+      "tags": ["Cerebras", "IPO", "AI Chip", "Nasdaq", "WSE-3"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Trump-Xi 北京峰会 Day 1：'未来三年战略稳定框架'落地、AI 治理协议谈判正式启动——习近平当面承诺 Musk/Tim Cook：'中国会更开放'",
+      "source": "@elonmusk",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/14/trump-xi-summit-beijing-takeaway-taiwan-trade-iran-war-strategic-relations-.html",
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-14",
+      "summary": "Trump-Xi 5-14 在北京举行首场峰会会晤——双方宣布建立 **'构建中美战略稳定的建设性关系'** 三年框架；Treasury Secretary Scott Bessent 同日宣布 **中美 AI 治理协议双边谈判正式启动**；习近平另与 Musk、Tim Cook、Larry Fink 等美国 CEO 单独会见，承诺 '中国将更大规模、更高水平对外开放'。",
+      "detail": "Trump 5-13 抵京、5-14 上午与习近平在人民大会堂举行首场正式会晤，议程涵盖贸易、台湾、AI 监管、稀土、伊朗局势五大议题。**Day 1 主要成果**：\n\n**1）三年战略稳定框架**：根据中方官方英文 readout，双方同意'构建中美战略稳定的建设性关系'，将作为'未来三年及更长时期'两国关系的指导框架——美中双边自 2020 贸易战以来首次签署正式多年期框架协议。\n\n**2）AI 治理双边协议谈判启动**：Treasury Secretary Scott Bessent 5-14 公开宣布：'两个 AI 超级大国要开始对话——我们要建立一套 AI 最佳实践协议，确保非国家行为者无法获取这些模型'。提案中的具体机制包括：能力相互通报（双方在 AI 系统跨越能力阈值时互相告知）、AI 事故信息共享（仿照冷战核事故热线建立双边热线）。\n\n**3）Xi-CEO 闭门会**：习近平在与 Trump 会面间隙单独会见美国随行 CEO 代表团——Elon Musk、Apple CEO Tim Cook、BlackRock CEO Larry Fink、Boeing CEO 等悉数出席；Xi 承诺 '中国将以更大力度、更高水平对外开放'，并就 Tesla 上海工厂、Apple 中国供应链、BlackRock 中国资管牌照等具体议题作出原则性表态。Jensen Huang 5-13 临时加入代表团、5-14 同样在场。\n\n**4）同日操作配套**：Day 1 上午（峰会开幕前 3 小时）美国商务部对约 10 家中国科技公司下发 Nvidia H200 出口许可——这被普遍解读为白宫给峰会桌面摆出的'见面礼'。\n\n**5）未决议题**：台湾问题成为 Xi 全场最强硬措辞——'处理得好、关系就在；处理不好，两国就有碰撞或冲突的风险'。伊朗、稀土两个议题双方表示'将继续磋商'，未在 Day 1 形成具体成果。\n\n**背景回顾：** 5-12 白宫公布 Trump 访华代表团名单（Musk/Cook/Fink/Boeing），Jensen Huang '不在受邀列表'引发美媒'最显眼缺席'报道；5-13 Trump 亲自来电邀请，Jensen 紧急飞抵 Alaska 登 Air Force One；同日 Anduril 完成 $50 亿 Series H 融资把估值翻倍到 $610 亿（防务-AI 议程的另一头）。",
+      "key_quotes": [
+        "The two AI superpowers are going to start talking, we're going to set up a protocol in terms of how do we go forward with best practices for AI. — Scott Bessent, U.S. Treasury Secretary",
+        "Handle it well, the relationship holds; handle it badly, the two countries risk collision or conflict. — Xi Jinping on Taiwan",
+        "China will open wider. — Xi Jinping to U.S. CEOs"
+      ],
+      "significance": "这是 Trump 第二任期与习近平的首次正式国事访问，也是 2020 年贸易战以来中美双边第一次签署多年期'战略稳定框架'——更关键的是 AI 议题第一次正式进入元首级双边谈判轨道：未来 3 年中美 AI 监管将从各自单边出口管制 / EO 行政命令模式，过渡到具有双边通报-热线机制的'冷战核武器式'治理框架；对产业层面：Nvidia H200 当日解禁、Xi 承诺更开放的中国市场，给中国 AI 产业链 (Alibaba/字节/腾讯训练集群、Apple 供应链、Tesla 上海 FSD 数据) 直接利好；对地缘层面：台湾仍是最高风险点，AI 协议的双边通报机制是否能扩展到'AI 武器化'仍未公开承诺。",
+      "links": [
+        "https://www.cnbc.com/2026/05/14/trump-xi-summit-beijing-takeaway-taiwan-trade-iran-war-strategic-relations-.html",
+        "https://www.cnbc.com/2026/05/14/xi-china-open-us-business-ai-chips.html",
+        "https://www.aljazeera.com/news/liveblog/2026/5/14/trump-xi-summit-live-us-china-leaders-to-hold-talks-on-trade-tech-iran",
+        "https://www.cnbc.com/2026/05/14/trump-xi-summit-tech-flashpoints.html"
+      ],
+      "image": "assets/logos/tesla-logo.png",
+      "image_type": "logo",
+      "tags": ["Trump", "Xi Jinping", "China", "AI Governance", "Musk", "Tim Cook"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Musk v. Altman 庭审 5-14 收官辩论：Molo 把 OpenAI 定性为'背信于公益慈善信托'——周一陪审团进入裁断 + 损害赔偿阶段同步开庭，Musk 因访华缺席律师当庭致歉",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/05/14/musk-closing-arguments-openai-altman",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-14",
+      "summary": "Musk v. Altman 加州联邦法院庭审 5-14 进入收官辩论：Musk 首席律师 Steven Molo 把 OpenAI 定性为'背信于公益慈善信托、内部人股权自肥'；陪审团周四下午接受最终庭审指令、**周一 5-19 同步开启 (1) 责任认定裁断 + (2) 损害赔偿听证**——程序极其罕见，因为陪审团裁决仅具咨询性、最终归 Gonzalez Rogers 法官采纳。",
+      "detail": "Musk v. Altman 三周庭审 5-14 进入终结陈词阶段。**Musk 方核心论点（Steven Molo 收官辩论）**：(1) OpenAI 当年作为公益慈善信托设立、Altman 与 Brockman 通过股权激励、与自己持股实体交易等方式从中获取个人利益，**违反了 charitable trust 的核心义务**；(2) Microsoft 通过 2019 起累计超过 $1000 亿投资'帮助和教唆'了这一违信行为；(3) Altman 个人在 Musk 离场后 '私下承诺非营利' 但实际持续推动营利转型——'Altman 不是诚实可信的商业人'。\n\n**OpenAI 方反驳**：(1) 2017-18 年 Musk 自己提出过把 OpenAI 90% 控股权转移到 Tesla 的方案被 Altman 拒绝，'真正想要控制权的是 Musk 本人'；(2) OpenAI 转营利前董事会有 Musk 出席且未异议、Musk 2018 年自愿退出董事会；(3) Microsoft 投资是 Musk 离场后救活 OpenAI 的关键，并非'背信'。\n\n**周一 5-19 开庭的程序异常**：(1) 陪审团周四下午接到最终庭审指令、周一上午进入闭门裁断；(2) **与此同时**，损害赔偿听证 ('damages phase') 周一也在同一法庭并行开庭——这种 'liability 与 damages 同时进行' 在联邦民事程序中极罕见，反映 Gonzalez Rogers 法官希望加速结案；(3) 关键提示：陪审团是 advisory jury（咨询陪审团），最终判决由法官自裁，但法官此前公开表示'极可能采纳'陪审团意见。\n\n**5-14 Musk 缺席细节**：Musk 5-14 闭幕辩论当日不在法庭——他随 Trump 访华代表团抵京会晤习近平；首席律师当庭向陪审团致歉解释 Musk 的'公务行程'，OpenAI 方律师当场用此调侃 'a man who couldn't be bothered to show up to his own trial'。\n\n**背景回顾：** 该案 4-21 开庭、Musk 庭上承认 xAI 蒸馏 OpenAI 模型、Ilya Sutskever 5-7 出庭确认其 2023 'pattern of lying' 备忘录；5-12 Altman 反咬 Musk '要 90% 股权 + 撕油画式威胁'；5-13 Microsoft 累计投入 $1000 亿首次披露。",
+      "key_quotes": [
+        "Were they enriching themselves through stock grants and self-dealing with entities in which they had financial stakes? — Steven Molo, Musk's lead counsel",
+        "OpenAI violated its nonprofit mission to pursue safe, powerful AI for the world.",
+        "Part of the reason we started OpenAI is we didn't think AGI could be under the control of any one person, no matter how good their intents are. — Sam Altman testimony (Week 3)"
+      ],
+      "significance": "这是 AI 产业史上首次有 frontier 模型公司 CEO 在联邦法庭就 '是否背信于公益慈善信托' 出庭并经历完整陪审团裁断程序。**对 OpenAI 公司层面**：若陪审团裁定 charitable trust 违信 + 法官采纳，OpenAI 当前估值 $5000 亿 / 公益受益转换、Microsoft $1000 亿合作架构都可能被法院命令重整；**对 AI 行业 governance 范式**：未来所有 nonprofit→PBC 转型的 AI 公司 (Anthropic、Google DeepMind 内部结构) 都将在本案先例下重新审视；**对个人层面**：Altman 是否被认定为 '不诚实可信的商业人' 将直接影响 OpenAI 未来公开募股、董事会改组、政府合同议价权。本案不会有立即判决，但周一 5-19 陪审团裁断将是首次公开'打分'。",
+      "links": [
+        "https://www.axios.com/2026/05/14/musk-closing-arguments-openai-altman",
+        "https://www.bloomberg.com/news/articles/2026-05-14/musk-altman-make-final-pitches-to-jury-in-battle-over-openai",
+        "https://www.aljazeera.com/economy/2026/5/14/closing-arguments-begin-in-elon-musks-landmark-lawsuit-against-openai",
+        "https://www.cnbc.com/2026/05/14/musk-lawyer-trial-jury-china-trip-openai-altman.html"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["Musk v Altman", "OpenAI", "Charitable Trust", "Litigation", "Microsoft"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "Cisco Q3 FY26 把 AI 订单年度指引从 $50 亿一次性抬到 $90 亿（+80%）：单季 $5.3 亿超大额订单已锁、股价盘后 +15%——同步裁员 < 4000 人为 AI 让路",
+      "source": "NVIDIA",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
+      "story_key": "cisco-q3-2026-ai-orders",
+      "event_date": "2026-05-13",
+      "summary": "Cisco 5-13 盘后发布 Q3 FY26：**营收 $158.4 亿 (+12% YoY)** 双超预期、AI 基础设施订单年初至今累计 **$53 亿**、**全年 AI 订单指引一次性从 $50 亿上调至 $90 亿（+80%）**；同日宣布全公司裁员不到 4,000 人 (< 5% 员工总数)、5-14 起开始通知——重组成本最多 $10 亿，资金用于 AI 业务再投资，股价盘后 +15%。",
+      "detail": "Cisco 5-13 美东时间盘后公布 FY2026 Q3 财报。**关键数字**：\n\n**(1) Q3 营收 $158.4 亿**（vs 共识 $155.6 亿）、**调整后 EPS $1.06**（vs 共识 $1.04）、季度营收创历史新高、同比 +12%——这是 Cisco 自疫情通胀周期以来最强单季增长。\n\n**(2) AI 订单一次性大跳变**：CFO 当电话会议披露 FY26 至 Q3 累计 AI 基础设施与 hyperscaler 订单 **$53 亿**；管理层把 FY26 AI 订单全年指引从 5 月初的 **$50 亿一次性抬至 $90 亿**——**单次上调 80%**，这是 Cisco 历史上第一次因 AI 需求把全年指引在年度中段大幅修正。\n\n**(3) 裁员 < 4,000 人**：CEO Chuck Robbins 5-13 内部信确认本季度裁员不到 4,000 人 (< 5% 全球员工)、5-14 起开始通知；预计税前重组费用最多 $10 亿（FY26 内入账约 $4.5 亿、剩余推到 FY27）。Robbins 在分析师会议上明言：'we are reshaping the company toward AI infrastructure and security'——裁员资金重新分配给 AI 网络 / Splunk / Silicon One 三大方向。\n\n**(4) 盘后股价 +15%**：CSCO 盘后从 $61 跳涨到约 $70，市值一夜增加约 **$340 亿**——这是 2008 年金融危机以来 Cisco 单日盘后涨幅最大记录之一。\n\n**(5) 为什么这件事比 Cisco 历次财报更重要**：(a) 'AI 投资周期是否会延伸到网络层' 是 2026 年 Q1-Q2 整个 hyperscaler 资本支出争议的核心——Cisco 这次跳升等于用财报数字回答 '会、而且节奏加快'；(b) Splunk + Nexus Hyperfabric AI Cluster + Silicon One 三条线被点名为 $90 亿订单的主要承接产品，意味着 Nvidia 之外的'网络 + 安全'是 AI 资本支出第二大受益层；(c) 同期 Arista、Juniper、HPE Aruba 都在'AI 网络订单'议题上承压——Cisco 一次性 +80% 指引会迫使竞争对手在未来 2 个月披露自己的对应数字。",
+      "key_quotes": [
+        "We are reshaping the company toward AI infrastructure and security. — Chuck Robbins, Cisco CEO",
+        "AI infrastructure and hyperscaler orders raised to $9B FY26 — up from $5B at the start of the year.",
+        "Most notifications to affected employees are set to begin May 14."
+      ],
+      "significance": "Cisco 把 FY26 AI 订单全年指引一次性 +80% 拉到 $90 亿，意味着 AI 资本支出周期正在从 GPU 层（Nvidia/AMD）扩张到网络层（800G 交换、AI 优化以太网、Silicon One 芯片）。**对资本市场**：这是继 Nvidia 之外，第二家用财报数字公开背书 '2026 hyperscaler 资本支出会继续高速增长' 的大盘股；对 Arista (ANET)、Juniper (JNPR)、Marvell (MRVL) 形成估值传导压力。**对企业 AI 落地**：Cisco Nexus Hyperfabric AI Cluster + Splunk 观测平台是中小企业部署 AI 集群的'交钥匙方案'，订单加速说明非 hyperscaler 客户也开始大规模买 AI 网络。**对劳动力**：4,000 人裁员配合 +80% 订单指引，揭示了 AI 时代典型'高营收增长 + 低人头需求'的商业曲线——Cisco 把节约的人力成本直接重新投入 AI/安全 R&D。",
+      "links": [
+        "https://www.cnbc.com/2026/05/13/cisco-csco-q3-earnings-report-2026.html",
+        "https://finance.yahoo.com/markets/stocks/articles/cisco-q3-2026-earnings-beat-112834347.html",
+        "https://www.foxbusiness.com/technology/cisco-cut-thousands-jobs-ai-push-accelerates-earnings-beat",
+        "https://www.indmoney.com/blog/us-stocks/why-is-cisco-stock-rising-q3-fy2026-earnings-ai-orders-stock-surge-cisco-layoffs"
+      ],
+      "tags": ["Cisco", "Earnings", "AI Infrastructure", "Layoffs", "Networking"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "Google I/O 前夜 'Gemini Omni' 内测视频实拍流出：海边餐厅意面、教授黑板三角函数证明——疑似 Veo 3.1 重命名 or Google 首个真正统一 omni 模型，5-19 见分晓",
+      "source": "@demishassabis",
+      "source_name": "Android Authority",
+      "source_url": "https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/",
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-11",
+      "summary": "Google I/O 2026 keynote 定档 5-19 上午 10AM PT，距开幕一周不到，**Gemini Omni 视频模型从 Gemini app 内测中泄露实际生成视频**——5-2 仅见 UI 字符串、5-11 至少一名 Gemini Pro 用户账号下生成的实拍样片外流（海边餐厅意面段、教授演示三角函数证明段），社区点评 prompt 一致性、运动质量、语音连贯性、in-chat 物体替换四个维度都明显超越当前 Veo 3.1。",
+      "detail": "Gemini Omni 是 5 月以来 Google 阵营最大规模的产品泄露事件，时间线非常紧凑：\n\n**5-2**：第一处 'Omni' UI 字符串被开发者从 Gemini app Android beta 中扒出（@AssembleDebug 推文截图），文案含 'Generate with Omni'、'Remix this clip with Omni' 等动作；当时社区普遍认为是 Veo 3.1 的品牌重命名。\n\n**5-11**：至少一名 Gemini Pro 订阅用户账号下生成的实际样片外流，包括两段最具讨论度的样片——(a) **海边餐厅意面段**：摄影机绕餐桌 360° 移动、画面中意大利面、餐盘、玻璃杯反射、远处海面光斑、人物面部表情均保持高度时序一致性；(b) **教授黑板三角函数证明段**：6 秒长镜头中一位教授连续书写 sin²θ + cos²θ = 1 推导步骤、板书清晰可读、教授口型与中英双语解说同步——这两段被产业界普遍认为是 Veo 3.1 当前能力之上的代际跨越。\n\n**Omni 的三种可能性**（业内目前仍在争论）：(1) Veo 3.1 + Imagen 4 在 Gemini app 内的产品级整合重命名；(2) 全新独立的 Gemini-原生视频模型（架构与 Veo 系列不同）；(3) **最激进解读** — Google 真正统一的 omni 模型：单一架构同时处理 text + image + video + audio + tool use，对标 OpenAI Sora 2 (4-26 已下架) + GPT-5.5 + Realtime Voice 的合体形态。\n\n**5-11 同期成本泄露**：用户账号显示 Omni 单次视频生成消耗 30-50 credits / 5 秒（vs 当前 Veo 3.1 约 10-15 credits），暗示 Google 至少在初期会用高定价控制访问量——这与 OpenAI Sora 2 当初的访问限制策略类似。\n\n**5-19 keynote 关键观察点**：(a) Omni 是否会作为统一品牌发布、Veo 系列是否被并入；(b) Imagen 4 / Lyria 2 / Veo 3.1 三者是否合并成单一 Omni 入口；(c) 是否同步发布与 OpenAI GPT-5.5 同代的 Gemini 3.5；(d) Android 17 + Aluminium OS + Android XR 的硬件协同节奏。",
+      "key_quotes": [
+        "Treat all of this as speculative until Google says it on stage. — community consensus on the leak",
+        "Omni clips include a spaghetti scene at a seaside restaurant and a professor working through trigonometric proofs on a chalkboard.",
+        "Generate with Omni / Remix this clip with Omni — leaked Gemini app UI strings"
+      ],
+      "significance": "5-19 Google I/O 是 2026 H1 frontier 模型阵营最后一场重大产品发布会，Omni 泄露的样片质量直接关系到三个问题：(1) **Sora 2 退场后 (4-26) 谁接管视频 AI 市场** —— Omni 若真为统一 omni 模型，将直接卡位 Pika / Runway / 国内可灵 / 字节即梦的竞争窗口；(2) **GPT-5.5 + Mythos 之外的第三极** —— Google 自 Gemini 3.1 Pro (GPQA 94.3%) 之后未发布真正的代际跨越产品，Omni 若兑现承诺、Anthropic Mythos 仍处于 Glasswing 限定访问、Google 将首次以多模态优势单独占据一个 frontier 维度；(3) **Android 商业模式** —— Gemini Intelligence + Omni + Android 17 三件套是 Google 抢在 Apple AI 重启（预计 WWDC 2026 6 月）之前的商业卡位，Omni 视频能力是终端体验差异化的最重要变量。",
+      "links": [
+        "https://www.androidauthority.com/what-to-expect-from-google-io-2026-3664979/",
+        "https://www.explainx.ai/blog/google-gemini-omni-video-model-io-2026",
+        "https://felloai.com/google-gemini-omni/",
+        "https://www.geeky-gadgets.com/google-gemini-omni-leak-details/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini", "Omni", "I/O 2026", "Video Generation"],
+      "category": "product_operators"
+    }
+  ]
+}
