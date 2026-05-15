@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-16",
+  "total_candidates": 15,
+  "kept": 5,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "anthropic-1t-valuation-50b-round",
+      "event_date": "2026-05-15",
+      "title_en": "Anthropic agrees terms on $30B round at $900B valuation; Dragoneer/Greenoaks/Sequoia/Altimeter co-lead",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-08 (FT: Anthropic in talks for up to $50B targeting $900B-$1T). New info: terms now AGREED, round resized to $30B at $900B pre-money, four co-leads named (Dragoneer, Greenoaks, Sequoia, Altimeter, each >=$2B), three of four also hold OpenAI positions, ARR crossing $45B, could close this month."
+    },
+    {
+      "story_key": "trump-xi-china-summit-ceos-invited",
+      "event_date": "2026-05-15",
+      "title_en": "Trump-Xi Beijing summit concludes empty-handed: no signed AI governance framework, zero H200 chips shipped, rare earths still lagging",
+      "source": "TIME / Tech Times",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Story published across 05-12/05-13/05-14 (CEO list, Huang added to delegation, Day 1 framework + AI governance talks launched). New info: summit CONCLUDED 05-15 with NO signed bilateral AI governance document, not a single Nvidia H200 shipped to the 10 approved Chinese buyers, rare-earth exports still ~50% below pre-restriction levels; Beijing signaling pivot to domestic chips."
+    },
+    {
+      "story_key": "amp-13b-ai-compute-grid",
+      "event_date": "2026-05-12",
+      "title_en": "Amp raises $1.3B to build a shared 'AI compute grid'; founder ex-a16z Anjney Midha, Mistral/ElevenLabs/Black Forest Labs as founding members",
+      "source": "The New York Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. $1.3B raise (a16z, YC, cloud providers) for a pooled compute grid; targets 1.9 GW over 5 years / 200 MW by end-2026; up to $500M of profits to a social-impact fund through 2030. event_date 05-12, within 5-day window."
+    },
+    {
+      "story_key": "recursive-superintelligence-650m-stealth",
+      "event_date": "2026-05-14",
+      "title_en": "Richard Socher's Recursive Superintelligence exits stealth: $650M at $4.65B, GV/Greycroft lead, Nvidia/AMD in, mission = automate AI R&D itself",
+      "source": "TechCrunch / TechFundingNews",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. London/SF lab out of stealth 05-14 with $650M at $4.65B; founders Richard Socher, Tim Rocktaschel, Jeff Clune, Josh Tobin, Tim Shi; GV+Greycroft lead, Nvidia+AMD Ventures in; thesis = automate the entire AI research pipeline (recursive self-improvement). Tier-1 founders/investors clear the significance bar (supersedes the earlier SUI Group crypto framing of the same raise)."
+    },
+    {
+      "story_key": "gitlab-agentic-restructuring",
+      "event_date": "2026-05-11",
+      "title_en": "GitLab 'Act 2' restructuring for the agentic era: flatten 3 mgmt layers, ~60 R&D teams, -30% country footprint, stock -9.6%",
+      "source": "TheNextWeb",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback (distinct from gm-it-layoffs-ai-pivot 05-12 and cloudflare-1100-ai-layoffs 05-08 - different company, specific Act 2 plan). event_date 05-11, exactly 5 days (eligible, not >5)."
+    },
+    {
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-15",
+      "title_en": "Cerebras (CBRS) falls ~10% to ~$280 on second trading day",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 05-12 (upsize) and 05-14 (Day-1 +68% close $311.07). A single -10% second-day pullback (~$280, ~$95B mcap) is expected post-IPO drift and adds no substantive new fact beyond 'pop fades'."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-15",
+      "title_en": "Musk v. Altman: jury still set to deliberate Monday; no weekend court activity",
+      "source": "Tech Times",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Closing arguments and Monday jury+remedies schedule already published 05-14. No court activity over 05-15/05-16 weekend; 05-15 coverage merely recaps the Monday schedule and possible Altman removal/unwind already reported."
+    },
+    {
+      "story_key": "anthropic-bartz-settlement-final-approval",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic $1.5B Bartz settlement fairness hearing 'cruises'; final approval still pending",
+      "source": "Words and Money / Authors Alliance",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 05-14 covering the same-day fairness hearing (91.3% claimed, $3000/work). No confirmed final-approval ruling issued on 05-15/05-16; reporting only restates that the hearing went smoothly and approval 'could come soon'."
+    },
+    {
+      "story_key": "nvidia-h200-china-clearance",
+      "event_date": "2026-05-15",
+      "title_en": "China still hasn't approved H200 imports; zero chips shipped to approved buyers",
+      "source": "Tech Times",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 05-14 (US Commerce issued export licenses for ~10 Chinese giants). The 'zero chips shipped / China pivoting domestic' development is folded into the trump-xi-china-summit-ceos-invited 05-15 update; no separate substantive H200-specific item to avoid a near-duplicate."
+    },
+    {
+      "story_key": "google-gemma4-apache-release",
+      "event_date": "2026-04-02",
+      "title_en": "Google releases Gemma 4 under Apache 2.0",
+      "source": "Google Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-02 is 44 days old (>5 day limit)."
+    },
+    {
+      "story_key": "deepseek-v4-flash-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek-V4-Flash (284B MoE, 13B active) released, MIT-licensed",
+      "source": "DeepSeek",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 22 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cursor-2b-50b-round",
+      "event_date": "2026-04-17",
+      "title_en": "Cursor in talks to raise $2B at $50B valuation (a16z/Thrive/Nvidia)",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-17 (TechCrunch 'in talks' report) is 29 days old; no confirmed close within the 5-day freshness window."
+    },
+    {
+      "story_key": "eu-ai-omnibus-simplification",
+      "event_date": "2026-05-07",
+      "title_en": "EU Council/Parliament agree AI Act 'omnibus' simplification + nudification ban",
+      "source": "Consilium",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "xai-may-model-retirement",
+      "event_date": "2026-05-15",
+      "title_en": "xAI retires older API models; requests redirect to grok-4.3",
+      "source": "xAI Docs",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within window and novel, but routine API model deprecation/redirect - below the significance bar for the briefing."
+    },
+    {
+      "story_key": "openai-voice-intelligence-api",
+      "event_date": "2026-05-07",
+      "title_en": "OpenAI ships new voice-intelligence models in the API (GPT-Realtime-2/Translate/Whisper)",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Initially shortlisted with a mistaken 05-14 date; the primary TechCrunch report URL is dated 2026-05-07, making the announcement 9 days old (>5 day limit)."
+    }
+  ]
+}
