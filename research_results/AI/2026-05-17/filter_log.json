@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-17",
+  "total_candidates": 14,
+  "kept": 8,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "openai-chatgpt-personal-finance-plaid",
+      "event_date": "2026-05-15",
+      "title_en": "OpenAI launches ChatGPT personal finance tools, bank-account linking via Plaid",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in 7-day lookback. Fresh shipped product (2026-05-15), 2 days old."
+    },
+    {
+      "story_key": "anthropic-2028-ai-leadership-scenarios",
+      "event_date": "2026-05-15",
+      "title_en": "Anthropic publishes '2028: Two scenarios for global AI leadership', urges tighter China export controls",
+      "source": "eWeek",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Published 2026-05-15, 2 days old. Distinct from prior Anthropic items (funding round, Bartz settlement, alignment paper)."
+    },
+    {
+      "story_key": "xai-grok-build-cli",
+      "event_date": "2026-05-14",
+      "title_en": "xAI launches Grok Build, an agentic coding CLI (Grok 4.3 beta, 2M context, 16-agent Heavy)",
+      "source": "Engadget",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Beta launched 2026-05-14, 3 days old."
+    },
+    {
+      "story_key": "anthropic-claude-agent-sdk-credits",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic meters third-party agents via separate Agent SDK credit pool, reinstates OpenClaw with a cap (effective June 15)",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Announced 2026-05-14, 3 days old. Distinct from anthropic-1t-valuation / claude-for-legal etc."
+    },
+    {
+      "story_key": "salesforce-benioff-300m-anthropic-tokens",
+      "event_date": "2026-05-16",
+      "title_en": "Salesforce CEO Marc Benioff says company will spend ~$300M on Anthropic tokens in 2026, mostly on coding",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Comments on All-In podcast surfaced 2026-05-16, 1 day old."
+    },
+    {
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-16",
+      "title_en": "Pope Leo XIV creates Vatican AI study group as first encyclical framing AI as labor/ethics challenge nears release",
+      "source": "Associated Press",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Vatican announced AI study group Saturday 2026-05-16, 1 day old; encyclical signed ~05-14."
+    },
+    {
+      "story_key": "openai-friar-more-capital-2026",
+      "event_date": "2026-05-15",
+      "title_en": "OpenAI CFO Sarah Friar says company may raise more capital ~6 weeks after $122B round amid 2026 compute scarcity",
+      "source": "PYMNTS",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Friar comments 2026-05-15, 2 days old. Not the same as openai-deployment-company-tomoro."
+    },
+    {
+      "story_key": "xai-grok-wall-street-pilots",
+      "event_date": "2026-05-13",
+      "title_en": "xAI recruits Morgan Stanley and Apollo to pilot the Grok chatbot internally",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg report 2026-05-13, 4 days old."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-16",
+      "title_en": "Week 3 analysis: jurors weigh trust/timing as Musk v. Altman deliberations loom Monday",
+      "source": "MIT Technology Review",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published across 05-12/05-13/05-14 (Altman testimony, closing arguments). 05-15/05-16 coverage is analysis/preview only; jury deliberations begin Monday (after 05-17) and no verdict exists yet. No substantive new development."
+    },
+    {
+      "story_key": "moonshot-ai-2b-series-d",
+      "event_date": "2026-05-07",
+      "title_en": "Moonshot AI raises $2B at $20B+ valuation in Meituan-led round",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 10 days before 2026-05-17 (>5 day limit)."
+    },
+    {
+      "story_key": "sierra-950m-series-e",
+      "event_date": "2026-05-04",
+      "title_en": "Sierra raises $950M Series E at $15.8B valuation (Tiger + GV)",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-04 is 13 days before 2026-05-17 (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-amazon-5gw-compute",
+      "event_date": "2026-04-20",
+      "title_en": "Anthropic & Amazon expand collaboration for up to 5GW of compute / $100B commitment",
+      "source": "Anthropic Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date ~2026-04-20 is ~27 days old (>5 day limit). Only resurfaced in mid-May digests."
+    },
+    {
+      "story_key": "anthropic-custom-ai-chips",
+      "event_date": "2026-04-10",
+      "title_en": "Anthropic exploring designing its own custom AI chips",
+      "source": "The Next Web",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Original report ~2026-04-10, ~37 days old (>5 day limit). No new development this week."
+    },
+    {
+      "story_key": "google-io-2026-gemini",
+      "event_date": "2026-05-19",
+      "title_en": "Google I/O 2026 preview: new Gemini model, Android XR glasses expected",
+      "source": "Android Authority",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Event has not happened yet (keynote 2026-05-19, after research date 2026-05-17). Preview/speculation only, not a reportable development."
+    }
+  ]
+}

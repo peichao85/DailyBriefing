@@ -1,0 +1,199 @@
+{
+  "date": "2026-05-17",
+  "category": "AI",
+  "researched_at": "2026-05-17T07:10:00Z",
+  "sources_checked": ["@sama", "@OpenAI", "@AnthropicAI", "@DanielaAmodei", "@demishassabis", "@elonmusk", "@xai", "@alexandr_wang", "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46", "@alighodsi", "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan", "TechCrunch", "Bloomberg", "Axios", "PYMNTS", "Associated Press", "eWeek", "Engadget", "Fortune", "The Next Web", "InfoWorld", "VentureBeat"],
+  "items": [
+    {
+      "id": "1",
+      "title": "ChatGPT 接管你的银行账户：OpenAI 联手 Plaid 把个人理财搬进对话框，一个月前刚收了 Hiro 团队",
+      "source": "@OpenAI",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+      "story_key": "openai-chatgpt-personal-finance-plaid",
+      "event_date": "2026-05-15",
+      "summary": "OpenAI 5-15 在美国向 ChatGPT Pro 用户预览开放一整套个人理财工具：通过 Plaid 连接超过 12,000 家金融机构（Schwab、Fidelity、Chase、Robinhood、American Express、Capital One 等），在对话框内生成投资组合表现、消费、订阅与待付账单仪表盘。",
+      "detail": "OpenAI 5 月 15 日宣布在美国向 ChatGPT Pro 订阅用户**预览开放个人理财工具**，把'记账 + 投顾 + 现金流规划'第一次直接嵌进 ChatGPT 主对话框。\n\n核心机制：OpenAI 与金融数据连接服务商 **Plaid** 合作管理账户授权，用户可一键连接 **12,000+ 家金融机构**，覆盖 Schwab、Fidelity、Chase、Robinhood、American Express、Capital One 等主流券商与银行。账户连上后，ChatGPT 会呈现一个**投资组合表现 / 消费分析 / 订阅清单 / 即将到期账单**的仪表盘，用户可以直接追问'我这个月在哪超支了''按现在的存钱速度多久能买房'这类问题。\n\n这并非临时起意：该产品落地距 OpenAI 4 月**收购个人理财创业公司 Hiro 团队**（投资方包括 Ribbit、General Catalyst、Restive）仅一个月——Hiro 的人才与产品被快速并入 ChatGPT 的金融能力线。OpenAI CFO Sarah Friar 同日（5-15）另就资本与算力问题对外发声（见本期相关条目）。",
+      "key_quotes": [
+        "OpenAI partnered with the financial connection service Plaid to manage the account connections, allowing users to connect to over 12,000 financial institutions.",
+        "The new product comes just one month after OpenAI acquired the team behind personal finance startup Hiro."
+      ],
+      "significance": "这是 ChatGPT 第一次系统性地把'读取真实银行/券商数据'写进消费级产品——OpenAI 不再只卖通用对话，而是直接切入 Intuit、银行 App 与传统理财顾问的腹地。它同时把高敏感金融数据接入大模型的隐私与合规风险摆上台面，并为 Pro 档订阅找到一个高黏性、可货币化的杀手级场景：个人财务正在成为大模型平台争夺的下一块入口。",
+      "links": [
+        "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+        "https://www.bloomberg.com/news/articles/2026-05-15/openai-taps-plaid-to-bring-tailored-financial-advice-to-masses",
+        "https://www.pymnts.com/news/artificial-intelligence/2026/openai-considers-raising-more-capital-meet-ai-demand/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "ChatGPT", "Plaid", "个人理财", "Fintech", "Hiro"],
+      "category": "product_operators"
+    },
+    {
+      "id": "2",
+      "title": "Anthropic 把 AI 霸权简化成'明天的算力'：2028 双情景报告开列对华芯片管制清单，押注美方'领先 12–24 个月'",
+      "source": "@AnthropicAI",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/2028-ai-leadership",
+      "story_key": "anthropic-2028-ai-leadership-scenarios",
+      "event_date": "2026-05-15",
+      "summary": "Anthropic 5-15 发布报告《2028: Two scenarios for global AI leadership》，主张 AI 主导权取决于'持续训练明天前沿模型的能力'而非当下最强模型，并据此向美方开列收紧对华芯片出口、打击芯片走私与海外算力获取、阻断'蒸馏攻击'的政策清单。",
+      "detail": "Anthropic 5 月 15 日公开发布政策研究报告 **《2028: Two scenarios for global AI leadership》**，把全球 AI 竞争的胜负条件明确定义为'**可持续地训练出明天的前沿模型的能力**'——而不是今天谁的模型分数最高；决定优势的三个变量是硬件基础设施、能源供给与算法人才。\n\n报告给出两种 2028 情景：\n- **情景一（民主阵营领先）**：美国成功守住算力优势——进一步收紧出口管制、打击中国的'蒸馏攻击 (distillation attacks)'、加速民主国家自身的 AI 采用；这一世界里美国及盟友在前沿 AI 上保持约 **12–24 个月领先**，规则与规范由民主国家制定。\n- **情景二（中国追平）**：若政策出现缺口或先进算力限制随时间松动，中国在前沿能力上**逼近与美国持平**。\n\n政策建议非常具体：收紧先进芯片出口管制、严打芯片走私与海外算力获取通道、限制中国 AI 公司的'蒸馏攻击'、并在全球范围加速推广美国 AI 系统。报告核心论点是——中国 AI 的主要瓶颈是**先进算力获取**，而非人才或研究能力。",
+      "key_quotes": [
+        "AI dominance depends less on having the best current model and more on the sustainable capacity to train the frontier models of tomorrow.",
+        "The United States and allied democracies would maintain a lead of roughly 12 to 24 months in frontier AI development."
+      ],
+      "significance": "这是一家纸面估值已逼近 $9000 亿的前沿实验室，以正式研究报告形式直接介入美国对华科技政策——把'谁赢 AI'从模型竞赛重新框定为'算力与出口管制之争'，并给出可执行的管制清单。它既是 Anthropic 的政策游说，也为本届政府正在延宕的 AI 监管/出口路线提供了一份产业界的官方剧本，地缘色彩极强。",
+      "links": [
+        "https://www.anthropic.com/research/2028-ai-leadership",
+        "https://www.eweek.com/news/anthropic-us-china-ai-leadership-2028-apac/",
+        "https://interestingengineering.com/ai-robotics/anthropic-china-us-ai-race-2028"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "美中竞争", "出口管制", "算力", "AI 政策", "2028"],
+      "category": "research"
+    },
+    {
+      "id": "3",
+      "title": "xAI 迟到一年补票'终端 Agent'：Grok Build 跑 Grok 4.3 beta、200 万 token、16-agent Heavy，$99 半年价抢 Claude Code 地盘",
+      "source": "@xai",
+      "source_name": "Engadget",
+      "source_url": "https://www.engadget.com/2173482/xai-coding-agent-grok-build/",
+      "story_key": "xai-grok-build-cli",
+      "event_date": "2026-05-14",
+      "summary": "xAI 5-14 推出终端原生 agentic 编码 CLI 'Grok Build' 早期 beta：底层为 Grok 4.3 beta（16-agent Heavy 架构、200 万 token 上下文），可并发派出最多 8 个子 agent，带'plan mode'与 VS Code 集成；面向 $300/月 SuperGrok Heavy 档，前 6 个月 $99 引流。",
+      "detail": "xAI 5 月 14 日发布**早期 beta 版 Grok Build**——一个终端原生的 agentic 编码 CLI，正面进入由 Anthropic Claude Code、OpenAI Codex 占据的命令行 Agent 赛道。\n\n能力规格：\n- 底层模型为 **Grok 4.3 beta**，采用 **16-agent 'Heavy' 架构**、**200 万 token 上下文窗口**；这是 Grok 4.3 首次公开露面。\n- 可在终端用自然语言生成代码、改文件、自动化开发流程，**并发派出最多 8 个子 agent** 同时做规划、查文档、写代码。\n- 标志性的 **'plan mode'**：AI 动手改代码库前先给出可审阅、可编辑、可批准的逻辑计划。\n- 同时提供 **VS Code 集成**，照顾偏好图形界面的开发者。\n\n商业化：仅向 **SuperGrok Heavy $300/月**档订阅者开放，xAI 给出**前 6 个月 $99/月**的引流价（约 67% 折扣）。多家媒体直接点名：Grok Build 比 Claude Code / OpenAI Codex 晚了一年多入场。",
+      "key_quotes": [
+        "The tool can spawn up to 8 concurrent AI agents... with the underlying model — Grok 4.3 beta — using a 16-agent Heavy architecture and a 2 million token context window.",
+        "xAI's release of Grok Build trails behind the release of rival products such as Anthropic's Claude Code or OpenAI's Codex — both of which launched more than a year ago."
+      ],
+      "significance": "xAI 用激进定价（半年 $99）和大上下文 + 多 agent 并发作为补位筹码，承认自己在编码 Agent 这一最高价值开发者场景上落后整整一年。Grok 4.3 beta 借此首次亮相，意味着 xAI 把竞争焦点从聊天/图像转向开发者留存——这是 OpenAI、Anthropic 现金流最稳的腹地。",
+      "links": [
+        "https://www.engadget.com/2173482/xai-coding-agent-grok-build/",
+        "https://x.ai/news/grok-build-cli",
+        "https://www.ciodive.com/news/xAI-coding-agents-Grok-Build/820422/"
+      ],
+      "image": "assets/logos/grok-logo.png",
+      "image_type": "logo",
+      "tags": ["xAI", "Grok Build", "Grok 4.3", "编码 Agent", "CLI", "开发者工具"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "'包月吃到饱'撑不过 Agent 时代：Anthropic 6-15 把第三方 Agent 拆进独立 API 计量池，OpenClaw 解禁但每月封顶 $20–$200",
+      "source": "@AnthropicAI",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/05/14/anthropic-claude-price-openai-tokens",
+      "story_key": "anthropic-claude-agent-sdk-credits",
+      "event_date": "2026-05-14",
+      "summary": "Anthropic 5-14 宣布自 6-15 起把 Claude 付费订阅里的程序化用量（Agent SDK、GitHub Actions、OpenClaw 等第三方框架）从聊天额度池剥离，改为按 API 价计费的独立月度积分——Pro $20 / Max 5x $100 / Max 20x $200，不可滚存、用完不可挪用聊天额度。",
+      "detail": "Anthropic 5 月 14 日宣布对 Claude 订阅计费做结构性改造，**6 月 15 日生效**：把'程序化用量'（Agent SDK、GitHub Actions，以及 **OpenClaw** 等第三方 Agent 框架）从普通聊天订阅额度池中**彻底剥离**，放进一个**单独的月度积分池**，按 **API 价**计费。\n\n规则细节：\n- 月度积分额度与现有订阅档大致挂钩——**Pro $20 / Max 5x $100 / Max 20x $200**。\n- 积分**不可滚存**：当月用不完月底清零。\n- 积分用完后**不能再回头占用普通订阅额度**，只能另外购买额外用量包。\n- 此前被封的第三方 Agent（含 OpenClaw）借此**重新获准运行**，但代价是套上这层独立计量。\n\n媒体定性：这场调整说明在 Agent 时代'**all-you-can-eat 包月**'模式可能难以为继——软件自动化烧算力的速度远超人类手动使用。",
+      "key_quotes": [
+        "Anthropic announced that it's bringing back support for outside agent tools on paid Claude plans, but it is putting that usage behind a separate credit meter.",
+        "The fight shows that 'all-you-can-eat' AI subscriptions may not survive the agent era."
+      ],
+      "significance": "这是头部模型厂第一次明确把'人类聊天用量'与'Agent 自动化用量'在计费上拆开——为整个行业的 Agent 定价范式立了一个被广泛跟随的标杆。对依赖 OpenClaw 等开源 Agent 框架跑包月订阅的独立开发者，单位成本一夜抬升；它也暴露了自主 Agent 经济学的硬约束：算力消耗与人类使用脱钩后，订阅制必须重新设计。",
+      "links": [
+        "https://www.axios.com/2026/05/14/anthropic-claude-price-openai-tokens",
+        "https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html",
+        "https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch"
+      ],
+      "tags": ["Anthropic", "Claude", "Agent SDK", "OpenClaw", "定价", "计量计费"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "Salesforce 一年给 Anthropic 烧 $3 亿 token：Benioff 在 All-In 摊开'用对手 AI 写代码'成本账，下一步把编码塞进 Slack",
+      "source": "@Benioff",
+      "source_name": "The Next Web",
+      "source_url": "https://thenextweb.com/news/salesforce-benioff-300-million-anthropic-tokens-slack-coding",
+      "story_key": "salesforce-benioff-300m-anthropic-tokens",
+      "event_date": "2026-05-16",
+      "summary": "Salesforce CEO Marc Benioff 在 5-16 前后播出的 All-In 播客中公开表示，Salesforce 今年预计在 Anthropic 的 token 上花费约 $3 亿美元、主要用于编码，盛赞编码 Agent'awesome'，并称下一步要把编码能力做进 Slack。",
+      "detail": "在 5 月 15–16 日播出的 **All-In 播客**中，Salesforce CEO **Marc Benioff** 公开给出一个少见的具体数字：Salesforce **今年预计在 Anthropic 的 token 上花费约 $3 亿美元**，且**主要用于编码**。\n\nBenioff 对 Anthropic 的编码 Agent 评价极高（'awesome'，并称'我从没像现在这样……'），并透露下一步计划是把**编码能力直接做进 Slack**——把 Anthropic 模型嵌入 Salesforce 自家协作与开发工作流的更深处。\n\n这番表态的背景是 Anthropic 纸面估值正逼近 $9000 亿（见本期相关条目）；一家市值数千亿美元的 SaaS 龙头公开把竞争对手生态里的模型 token 列为年度三亿美元级开支，给 Anthropic 的企业侧采用提供了一个高可信度的背书锚点。",
+      "key_quotes": [
+        "Salesforce CEO Marc Benioff said his company is projected to spend $300 million on tokens from Anthropic... primarily on coding.",
+        "Benioff expressed enthusiasm for Anthropic's work, noting that coding agents are 'awesome'."
+      ],
+      "significance": "一线企业软件 CEO 第一次把'用第三方大模型 token'当作可量化的年度成本科目公开摊出——三重信号：(1) Anthropic 的企业侧渗透已深入 Salesforce 这类巨头的核心研发；(2) 模型 token 正从实验预算变成 SaaS 公司的结构性成本线；(3) 编码 Agent 成为企业 AI 支出最先规模化的场景。它也侧面印证了 Anthropic 高估值背后的真实付费需求。",
+      "links": [
+        "https://thenextweb.com/news/salesforce-benioff-300-million-anthropic-tokens-slack-coding",
+        "https://www.benzinga.com/markets/tech/26/05/52622251/salesforce-ceo-marc-benioff-goes-all-in-on-awesome-anthropic-with-300-million-spend-hails-coding-agents-ive-never-been",
+        "https://en.cryptonomist.ch/2026/05/16/salesforce-anthropic-token-spend-coding-agents/"
+      ],
+      "image": "assets/logos/salesforce-logo.png",
+      "image_type": "logo",
+      "tags": ["Salesforce", "Marc Benioff", "Anthropic", "企业 AI 支出", "Slack", "编码 Agent"],
+      "category": "product_operators"
+    },
+    {
+      "id": "6",
+      "title": "教皇 Leo XIV 把 AI 写进首份通谕，对标 135 年前《新事》：'入门级工作正在蒸发'，Vatican 设 AI 研究组与 Trump 加速路线相撞",
+      "source": "Vatican",
+      "source_name": "Associated Press",
+      "source_url": "https://www.inquirer.com/news/nation-world/artificial-intelligence-pope-leo-study-group-vatican-first-encyclical-ethics-trump-20260516.html",
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-16",
+      "summary": "梵蒂冈 5-16（周六）宣布教皇 Leo XIV 成立 AI 研究小组，为其首份通谕做准备——该通谕将把人工智能定性为新一轮工业革命的核心伦理与劳工挑战，强调以人的尊严与和平为本，预计未来数周公开发布。",
+      "detail": "梵蒂冈 5 月 16 日（周六）宣布：教皇 **Leo XIV 已成立一个人工智能研究小组**，为其**首份通谕 (encyclical)** 做准备——这份文件将把 AI 置于天主教社会训导（劳工、正义、和平）的框架中，强调以人的尊严与和平为本的伦理路径。\n\n历史对标极为刻意：该宣布发生在 Leo 签署通谕的次日，而签署日恰好距其同名前任 **Pope Leo XIII** 颁布《**新事**》(Rerum Novarum) **整整 135 年**——后者奠定了现代天主教社会思想，处理工业革命下的工人权利、资本主义边界与雇主义务。现任教皇明确认为 AI 革命提出了与一个多世纪前工业革命同等量级的生存性命题。\n\nLeo 的具体关切：他把 AI 视为'工业革命的重演'，警告**入门级岗位正在'蒸发'**；并就聊天机器人'朋友'侵蚀真实人际关系、AI 生成音乐/视频压制人类天才、生成式深伪侵蚀真实表达等提出警示。通谕预计**未来数周公开**，被广泛预期将与 Trump 政府'加速发展 AI、抵制国际监管、清除国内监管障碍'的路线形成新的正面冲突点。",
+      "key_quotes": [
+        "Pope Leo XIV has created a study group on artificial intelligence... as he gears up to release his first encyclical.",
+        "Leo is treating AI less like a tech trend and more like a replay of the industrial revolution, with entry-level workers already 'evaporating'."
+      ],
+      "significance": "全球约 14 亿天主教徒的精神领袖把 AI 正式提升为教义级的劳工与伦理议题，并刻意接续 135 年前《新事》的工运遗产——这是科技产业之外一支重量级的全球道德力量介入 AI 话语，与美国政府的去监管/加速立场形成结构性对冲，可能影响欧洲及全球南方的 AI 治理舆论场。",
+      "links": [
+        "https://www.inquirer.com/news/nation-world/artificial-intelligence-pope-leo-study-group-vatican-first-encyclical-ethics-trump-20260516.html",
+        "https://www.axios.com/2026/05/14/pope-leo-xiv-ai-first-encyclical",
+        "https://cruxnow.com/vatican/2026/05/the-vatican-has-said-a-lot-about-artificial-intelligence-a-primer-ahead-of-the-popes-encyclical"
+      ],
+      "image": "img/pope-leo-xiv.jpg",
+      "image_type": "logo",
+      "tags": ["Pope Leo XIV", "Vatican", "AI 伦理", "劳工", "通谕", "Rerum Novarum"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "OpenAI '$1220 亿到账才 6 周'又要再融资：CFO Friar 直说'2026 没多少算力'，$500 亿年度算力开销逼出连环输血",
+      "source": "@OpenAI",
+      "source_name": "PYMNTS",
+      "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-considers-raising-more-capital-meet-ai-demand/",
+      "story_key": "openai-friar-more-capital-2026",
+      "event_date": "2026-05-15",
+      "summary": "OpenAI CFO Sarah Friar 5-15 表示，公司可能在刚关闭一轮 $1220 亿融资约 6 周后再次募资——需求是'一堵垂直的墙'，但'2026 年没有多少算力'，公司正研究如何拿到所需算力。",
+      "detail": "OpenAI 首席财务官 **Sarah Friar** 5 月 15 日（周五）公开表示：OpenAI **可能再次募集资本**——时间点距其刚刚完成的一轮 **$1220 亿美元**融资仅约 **6 周**。\n\nFriar 的措辞：公司面对'**一堵垂直的需求墙 (a vertical wall of demand)**'，但'**2026 年没有多少算力**'，因此正在研究如何获得所需的算力供给。背景数据——OpenAI 今年预计算力开销约 **$500 亿美元**，并规划到 2030 年累计投入约 **$6000 亿**以维持 AI 领先。Friar 此前也曾对内表达过担忧：若销售增速跟不上，收入可能无法覆盖未来的算力合同。",
+      "key_quotes": [
+        "Friar described the company as seeing 'a vertical wall of demand,' but noted there is 'not a lot of compute in 2026.'",
+        "OpenAI may raise more capital about six weeks after the company closed a funding round in which it raised $122 billion."
+      ],
+      "significance": "$1220 亿到账仅 6 周就要再融资，直观量化了 OpenAI 的资本密集度与算力饥渴——算力（而非需求或模型）已成为 OpenAI 增长的真正硬约束。它把'融资—算力—合同—收入'之间的紧绷关系摆上台面，也为 OpenAI IPO 时点与估值叙事埋下变数；这与同日 ChatGPT 个人理财发布共同勾勒出 OpenAI'拼命扩需求又拼命找算力'的两难。",
+      "links": [
+        "https://www.pymnts.com/news/artificial-intelligence/2026/openai-considers-raising-more-capital-meet-ai-demand/",
+        "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+        "https://www.ainvest.com/news/openai-cfo-warns-revenue-fail-cover-50b-compute-burn-ipo-looms-2605/"
+      ],
+      "tags": ["OpenAI", "Sarah Friar", "融资", "算力", "资本开支", "IPO"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "xAI 把 Grok 推进华尔街：Morgan Stanley、Apollo 启动内部试点——Musk 抢 OpenAI/Anthropic 的金融客户",
+      "source": "@xai",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-13/musk-s-xai-races-to-get-wall-street-firms-to-use-grok-chatbot",
+      "story_key": "xai-grok-wall-street-pilots",
+      "event_date": "2026-05-13",
+      "summary": "Bloomberg 5-13 报道，xAI 正招募华尔街机构试用 Grok 聊天机器人——Apollo Global Management 与 Morgan Stanley 已开始在内部与其他 AI 厂商软件并行使用 Grok。",
+      "detail": "Bloomberg 5 月 13 日独家：**xAI 正加速把 Grok 聊天机器人推向华尔街**——已招募多家金融机构试用，其中 **Apollo Global Management** 与 **Morgan Stanley** 已开始在**内部与其他 AI 模型厂商的软件并行使用 Grok**。\n\n这是 xAI 在企业/金融垂直市场的明确进攻信号，与本期另一条 Grok Build（编码 CLI）共同显示 Musk 把 xAI 的竞争重心从消费端聊天/图像，转向 OpenAI 与 Anthropic 现金流最稳的企业客户腹地——尤其是对数据安全与合规要求极高、单客单价高的顶级金融机构。",
+      "key_quotes": [
+        "xAI recruited multiple Wall Street firms to test its Grok chatbot, with Apollo Global Management Inc. and Morgan Stanley beginning to use Grok internally."
+      ],
+      "significance": "顶级金融机构愿意把 Grok 纳入内部试点，是 xAI 企业级可信度的一次实测，也是对 OpenAI/Anthropic 在金融行业既有渗透的直接竞争压力。金融客户对模型安全、合规、可审计性的苛刻要求，将成为衡量 Grok 是否真正具备企业级能力的高门槛标尺。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-13/musk-s-xai-races-to-get-wall-street-firms-to-use-grok-chatbot"
+      ],
+      "tags": ["xAI", "Grok", "Morgan Stanley", "Apollo", "华尔街", "企业 AI"],
+      "category": "news"
+    }
+  ]
+}
