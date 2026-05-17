@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-18",
+  "total_candidates": 17,
+  "kept": 4,
+  "dropped": 13,
+  "decisions": [
+    {
+      "story_key": "anthropic-mythos-macos-exploit",
+      "event_date": "2026-05-14",
+      "title_en": "Security firm builds working macOS kernel exploit with Claude Mythos in 6 days; day-one unauthorized access revealed",
+      "source": "Calif / TechTimes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in 7-day lookback (closest is google-gtig-ai-zero-day-exploit on 05-11, a different story about criminals caught by Google). New concrete development: Palo Alto security firm Calif published 05-14 a working macOS kernel exploit bypassing Apple M5 Memory Integrity Enforcement built with Claude Mythos Preview in 6 days; reporting also revealed Mythos was accessed without authorization on launch day (Apr 7) via a Mercor breach + contractor credential, plus ExploitBench 21/41 V8 RCE."
+    },
+    {
+      "story_key": "spacexai-staff-exodus",
+      "event_date": "2026-05-14",
+      "title_en": "SpaceXAI bleeding staff: 50+ researchers gone since merger, to Meta and Thinking Machines",
+      "source": "TechCrunch / The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback (lookback has xai-grok-wall-street-pilots 05-13 and xai-grok-build-cli 05-14, different stories). New: TechCrunch/The Information reported 05-14 that 50+ researchers/engineers have left SpaceXAI since the February SpaceX-xAI merger (11 to Meta, 7 to Thinking Machines), gutting coding, world-model and Grok-voice teams ahead of SpaceX's IPO."
+    },
+    {
+      "story_key": "positive-alignment-human-flourishing",
+      "event_date": "2026-05-14",
+      "title_en": "DeepMind, OpenAI, Anthropic researchers propose 'positive alignment' framework",
+      "source": "arXiv / The AI Insider",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Cross-lab arXiv preprint (05-14) argues AI alignment should move beyond harm-prevention to actively support human flourishing, with concrete training and polycentric-governance recommendations."
+    },
+    {
+      "story_key": "runway-world-models-pivot",
+      "event_date": "2026-05-15",
+      "title_en": "Runway, now $5.3B, bets on video world models to beat Google",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. TechCrunch 05-15: Runway valued at $5.3B, +$40M ARR in Q2 2026, pivoting from filmmaking video-gen to general-purpose world models plus a robotics unit, positioning against Google Veo/Genie."
+    },
+    {
+      "story_key": "meta-8000-layoffs-ai-restructuring",
+      "event_date": "2026-04-24",
+      "title_en": "Meta to cut 8,000 jobs (plus 6,000 cancelled reqs) on May 20 to fund $115-135B AI capex",
+      "source": "Bloomberg / Variety",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "The layoff memo (CPO Janelle Gale) was sent and leaked on 2026-04-24, 24 days before today (>5 day limit). The actual cuts execute 2026-05-20, which is in the future and has not yet occurred. Mid-May coverage is anticipatory rehash."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-18",
+      "title_en": "Musk v. Altman jury deliberations and remedies phase begin Monday",
+      "source": "CNBC / Washington Post",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 05-14 (and 05-13, 05-12). The 05-14 entry already covered that jury deliberations + damages hearing begin Monday and that the verdict is advisory with Judge Gonzalez Rogers deciding equitable relief (Altman/Brockman removal, unwinding the recap). Today only adds 'deliberations actually commenced' with no verdict — no substantive new information."
+    },
+    {
+      "story_key": "anthropic-1t-valuation-50b-round",
+      "event_date": "2026-05-12",
+      "title_en": "Anthropic in talks to raise $30-50B at ~$950B valuation",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 05-15 with finalized terms ($30B raise / $900B pre-money / four co-leads). The recirculated $30-50B / $950B reports describe the same round with no substantive new development."
+    },
+    {
+      "story_key": "cerebras-ipo-upsize-48b",
+      "event_date": "2026-05-15",
+      "title_en": "Cerebras stock slides after near-70% IPO-day surge",
+      "source": "Reuters / Yahoo Finance",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 05-14 and 05-12 (IPO pricing, +68% close). Post-IPO price drift is routine secondary-market action with no substantive new information."
+    },
+    {
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-19",
+      "title_en": "Google I/O 2026 preview: new Gemini said to land near GPT-5.5, behind Mythos",
+      "source": "TechTimes / Android Authority",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Prior Gemini Omni leak published 05-11. The I/O keynote is 2026-05-19 (tomorrow) and has not happened; today's pieces are anticipatory previews/analysis, not confirmed announcements. The actual I/O news belongs to the 05-19 briefing."
+    },
+    {
+      "story_key": "jpmorgan-ai-core-infrastructure",
+      "event_date": "2026-01-25",
+      "title_en": "JPMorgan reclassifies AI as core infrastructure inside $19.8B 2026 tech budget",
+      "source": "Banking Exchange / AI News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "The reclassification and the $19.8B 2026 budget were set in January 2026; recurring May coverage is restatement. Underlying event >5 days old."
+    },
+    {
+      "story_key": "terafab-intel-foundry",
+      "event_date": "2026-04-07",
+      "title_en": "Intel joins Musk's Terafab ($25B chip fab) with 18A process",
+      "source": "TechCrunch / Tom's Hardware",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Terafab JV announced 2026-03-21; Intel joined 2026-04-07. Both >5 days old. The May 6 $119B cost estimate is also stale relative to 05-18."
+    },
+    {
+      "story_key": "meta-suleyman-white-collar-18mo",
+      "event_date": "2026-02-13",
+      "title_en": "Microsoft AI chief Suleyman: most white-collar tasks automated in 12-18 months",
+      "source": "Fortune / Financial Times",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Suleyman's FT comments are from 2026-02-13, far outside the 5-day window."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk partners with OpenAI across drug discovery and operations",
+      "source": "CNBC / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Partnership announced 2026-04-14, 34 days old (>5 day limit)."
+    },
+    {
+      "story_key": "eu-ai-act-omnibus-agreement",
+      "event_date": "2026-05-07",
+      "title_en": "EU Council and Parliament agree to simplify AI Act (omnibus)",
+      "source": "Consilium",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Political agreement reached 2026-05-07, 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "moonshot-ai-2b-round",
+      "event_date": "2026-05-07",
+      "title_en": "Moonshot AI raises $2B at $20B valuation (Meituan-led)",
+      "source": "TechCrunch / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Round closed 2026-05-07, 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "altman-new-compute-company",
+      "event_date": "2026-05-12",
+      "title_en": "Sam Altman may start a new OpenAI-majority-owned compute company",
+      "source": "Sources (Alex Heath)",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Alex Heath's report appears to have published ~2026-05-12, 6 days before today (>5 day limit). Speculative/single-source."
+    },
+    {
+      "story_key": "nvidia-q1-fy27-earnings-preview",
+      "event_date": "2026-05-20",
+      "title_en": "Nvidia Q1 FY27 earnings preview: Blackwell sold out, China revenue zeroed",
+      "source": "Futurum / TikR",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Earnings call is 2026-05-20 (future, not yet occurred). Pre-earnings pieces rehash the already-known 'China revenue gone' narrative; no fresh underlying event within the window."
+    }
+  ]
+}

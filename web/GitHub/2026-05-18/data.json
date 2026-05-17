@@ -1,0 +1,555 @@
+{
+  "date": "2026-05-18",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-05-18",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "OrcaSlicer-bambulab：恢复 Bambu 联网切片的分叉",
+          "source": "@FULU-Foundation",
+          "source_name": "GitHub",
+          "summary": "面向 Bambu Lab 3D 打印机的 OrcaSlicer 改造分支，重新启用完整的 BambuNetwork 云端联网功能。",
+          "detail": "该分叉恢复了完整的 BambuNetwork 支持，使 Bambu Lab 打印机不再受限于局域网，可像以往一样经互联网远程使用与打印。仓库提供 Windows（需启用 WSL 2 与 VirtualMachinePlatform 特性）、Linux 与 macOS 的安装步骤，定位为日常全功能可用的替代切片客户端。",
+          "significance": "发布约 7 天即收获 5,702 stars，位列本周新晋热门第一。",
+          "links": [
+            "https://github.com/FULU-Foundation/OrcaSlicer-bambulab"
+          ],
+          "image": "assets/github-avatars/FULU-Foundation-OrcaSlicer-bambulab.jpg",
+          "image_type": "logo",
+          "tags": [
+            "C++",
+            "3D打印",
+            "OrcaSlicer",
+            "Bambu",
+            "开源"
+          ],
+          "stars": 5702,
+          "stars_gained": null,
+          "language": "C++",
+          "forks": 4089,
+          "owner": "FULU-Foundation",
+          "repo": "OrcaSlicer-bambulab"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "YellowKey：BitLocker 绕过漏洞公开披露",
+          "source": "@Nightmare-Eclipse",
+          "source_name": "GitHub",
+          "summary": "公开披露的 Windows BitLocker 加密绕过漏洞，演示无需密钥即可访问受保护磁盘。",
+          "detail": "仓库公布了一种 BitLocker 绕过手法：将特制的 FsTx 文件夹复制到目标 USB 或磁盘 EFI 分区下的 \"System Volume Information\" 目录即可触发。作者称漏洞触发条件极为宽松，甚至无需外接存储设备，直接修改硬盘对应分区文件后即可生效。",
+          "significance": "发布数日即收获 3,131 stars，安全社区高度关注其披露的 BitLocker 风险。",
+          "links": [
+            "https://github.com/Nightmare-Eclipse/YellowKey"
+          ],
+          "image": "assets/github-avatars/Nightmare-Eclipse-YellowKey.jpg",
+          "image_type": "logo",
+          "tags": [
+            "安全",
+            "漏洞",
+            "BitLocker",
+            "Windows",
+            "开源"
+          ],
+          "stars": 3131,
+          "stars_gained": null,
+          "language": null,
+          "forks": 663,
+          "owner": "Nightmare-Eclipse",
+          "repo": "YellowKey"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "html-anything：本地 AI 代理驱动的 HTML 编辑器",
+          "source": "@nexu-io",
+          "source_name": "GitHub",
+          "summary": "面向 agent 时代的本地优先 HTML 编辑器，让本地编程代理直接生成可发布的 HTML。",
+          "detail": "工具自动检测 PATH 上的 8 款编程代理 CLI（Claude Code、Cursor、Codex、Gemini、Copilot、OpenCode、Qwen、Aider），复用已登录会话，无需 API key。内置 75 个 Skills 与 9 种输出形态（杂志、演示、海报、小红书/推文、原型、数据报告等），提供沙箱预览，并支持一键导出至微信、X、知乎、HTML 或 PNG。",
+          "significance": "发布约一周即收获 2,760 stars，由 40k★ 的 Open Design 团队推出。",
+          "links": [
+            "https://github.com/nexu-io/html-anything"
+          ],
+          "image": "assets/github-avatars/nexu-io-html-anything.jpg",
+          "image_type": "logo",
+          "tags": [
+            "HTML",
+            "AI",
+            "Agent",
+            "Next.js",
+            "开源"
+          ],
+          "stars": 2760,
+          "stars_gained": null,
+          "language": "HTML",
+          "forks": 329,
+          "owner": "nexu-io",
+          "repo": "html-anything"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "Zero：Vercel Labs 面向 agent 的编程语言",
+          "source": "@vercel-labs",
+          "source_name": "GitHub",
+          "summary": "Vercel Labs 推出的实验性系统级编程语言，专为构建小型原生 agent 工具设计。",
+          "detail": "Zero 是一门面向 agent 的系统编程语言，强调显式副作用、可预测的内存管理与结构化编译器输出，适合编写小型原生工具。项目提供编译器、标准库、文档与示例，可通过一行脚本安装并用 zero check/zero run 检查和运行程序，目前仍处于实验阶段、语言尚未稳定。",
+          "significance": "发布仅数日即收获 1,624 stars，Vercel Labs 出品引发广泛关注。",
+          "links": [
+            "https://github.com/vercel-labs/zero"
+          ],
+          "image": "assets/github-avatars/vercel-labs-zero.jpg",
+          "image_type": "logo",
+          "tags": [
+            "C",
+            "编程语言",
+            "Agent",
+            "Vercel",
+            "开源"
+          ],
+          "stars": 1624,
+          "stars_gained": null,
+          "language": "C",
+          "forks": 101,
+          "owner": "vercel-labs",
+          "repo": "zero"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "native-feel.skill：打造原生体感跨平台桌面应用",
+          "source": "@yetone",
+          "source_name": "GitHub",
+          "summary": "一个 Agent Skill，沉淀了让跨平台桌面应用获得近原生体验的架构方法论。",
+          "detail": "该 Skill 提炼自 Raycast 2.0 技术深度解析，并基于对 Raycast Beta.app 二进制的逆向工程，给出八条架构原则、四层架构设计、WebKit/WebView2 避坑指南与 75 项发布前审查清单，帮助开发者在跨平台便利与近原生性能之间不做妥协。可通过 npx skills 等多种方式安装到兼容的 agent。",
+          "significance": "发布约 3 天即收获 1,274 stars，由知名开发者 yetone 出品。",
+          "links": [
+            "https://github.com/yetone/native-feel-skill"
+          ],
+          "image": "assets/github-avatars/yetone-native-feel-skill.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Skill",
+            "桌面应用",
+            "Raycast",
+            "Agent",
+            "开源"
+          ],
+          "stars": 1274,
+          "stars_gained": null,
+          "language": null,
+          "forks": 60,
+          "owner": "yetone",
+          "repo": "native-feel-skill"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "Clawdmeter：显示 Claude Code 用量的桌面硬件",
+          "source": "@HermannBjorgvin",
+          "source_name": "GitHub",
+          "summary": "一个基于 ESP32 的桌面小仪表盘，实时显示 Claude Code 使用情况。",
+          "detail": "设备运行于 Waveshare ESP32-S3-Touch-AMOLED-2.16，通过蓝牙与笔记本配对；启动后播放像素风 Clawd 动画，用量越高动画越忙碌。两侧按键通过 BLE HID 发送 Space 与 Shift+Tab，对应 Claude Code 的语音模式与模式切换快捷键，动画素材来自 claudepix 像素 Clawd 精灵库。",
+          "significance": "发布约一周即收获 1,133 stars，硬件创意在 Claude Code 社区走红。",
+          "links": [
+            "https://github.com/HermannBjorgvin/Clawdmeter"
+          ],
+          "image": "assets/github-avatars/HermannBjorgvin-Clawdmeter.jpg",
+          "image_type": "logo",
+          "tags": [
+            "C",
+            "ESP32",
+            "硬件",
+            "Claude Code",
+            "开源"
+          ],
+          "stars": 1133,
+          "stars_gained": null,
+          "language": "C",
+          "forks": 100,
+          "owner": "HermannBjorgvin",
+          "repo": "Clawdmeter"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "a-stock-data：AI 编程助手的 A 股数据工具包",
+          "source": "@simonlin1212",
+          "source_name": "GitHub",
+          "summary": "自包含的 Skill 文件，把分散在 13 个数据源的 A 股原始数据整合成 AI 编程助手可直接调用的工具集。",
+          "detail": "工具采用七层架构，覆盖行情、研报、信号、资金面等 28 个端点，整合 mootdx、腾讯财经、东财、同花顺、iwencai 等 13 个数据源，封装了各家的鉴权与请求细节。V3.0 彻底移除 akshare 依赖、全部改为直连 HTTP API，并新增融资融券、大宗交易、股东户数等资金面数据，兼容 Claude Code、Codex 与 OpenClaw。",
+          "significance": "发布约一周即收获 1,096 stars，受国内量化与 AI 编程用户关注。",
+          "links": [
+            "https://github.com/simonlin1212/a-stock-data"
+          ],
+          "image": "assets/github-avatars/simonlin1212-a-stock-data.jpg",
+          "image_type": "logo",
+          "tags": [
+            "A股",
+            "数据",
+            "Skill",
+            "AI",
+            "开源"
+          ],
+          "stars": 1096,
+          "stars_gained": null,
+          "language": null,
+          "forks": 256,
+          "owner": "simonlin1212",
+          "repo": "a-stock-data"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "Gopay_plus_automatic：ChatGPT Plus 自动订阅脚本",
+          "source": "@ywnd1144",
+          "source_name": "GitHub",
+          "summary": "一个利用支付链路自动完成 ChatGPT Plus 首月订阅的 Python 脚本，作者声明仅供学习研究。",
+          "detail": "项目给定一个 ChatGPT access_token 后，约 20 秒内经 Stripe → Midtrans → GoPay 的 tokenization 支付链路自动创建 IDR（印尼盾）订阅订单。作者明确声明项目不再更新、仅供研究与学习交流，并提供 manual 单号模式用于先行验证链路。",
+          "significance": "发布数日即收获 921 stars，因话题敏感引发大量关注与转发。",
+          "links": [
+            "https://github.com/ywnd1144/Gopay_plus_automatic"
+          ],
+          "image": "assets/github-avatars/ywnd1144-Gopay_plus_automatic.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "脚本",
+            "ChatGPT",
+            "自动化",
+            "开源"
+          ],
+          "stars": 921,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 539,
+          "owner": "ywnd1144",
+          "repo": "Gopay_plus_automatic"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "agents-best-practices：通用 Agent Harness 设计 Skill",
+          "source": "@DenisSergeevitch",
+          "source_name": "GitHub",
+          "summary": "一个与厂商无关的 Agent Skill，用于设计、审计与重构 agentic harness。",
+          "detail": "该 Skill 可用于 Codex、Claude Code 等代理的 harness 设计、生成 MVP 蓝图、审计、重构与讲解。其核心理念是「模型提出动作，harness 负责校验、授权、执行、记录并返回观测结果」，并强调该运行时纪律同样适用于研究、客服、运维、销售、财务、法务等非编码代理场景。",
+          "significance": "发布仅数日即收获 709 stars，反映社区对 agent 工程规范的强烈需求。",
+          "links": [
+            "https://github.com/DenisSergeevitch/agents-best-practices"
+          ],
+          "image": "assets/github-avatars/DenisSergeevitch-agents-best-practices.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Skill",
+            "Agent",
+            "Claude Code",
+            "Codex",
+            "开源"
+          ],
+          "stars": 709,
+          "stars_gained": null,
+          "language": null,
+          "forks": 59,
+          "owner": "DenisSergeevitch",
+          "repo": "agents-best-practices"
+        },
+        {
+          "id": "new_hot-10",
+          "title": "Nginx-Rift：NGINX CVE-2026-42945 RCE 验证",
+          "source": "@DepthFirstDisclosures",
+          "source_name": "GitHub",
+          "summary": "针对 NGINX 严重堆溢出漏洞 CVE-2026-42945 的远程代码执行概念验证。",
+          "detail": "仓库公开了 CVE-2026-42945 的 RCE PoC——该漏洞位于 NGINX 的 ngx_http_rewrite_module，自 2008 年引入，对使用 rewrite 与 set 指令的服务器可造成未认证远程代码执行。README 称该漏洞连同另外三个内存破坏问题，由 depthfirst 的安全分析系统在接入 NGINX 源码后自动发现。",
+          "significance": "发布数日即收获 669 stars，因涉及广泛部署的 NGINX 严重漏洞而受关注。",
+          "links": [
+            "https://github.com/DepthFirstDisclosures/Nginx-Rift"
+          ],
+          "image": "assets/github-avatars/DepthFirstDisclosures-Nginx-Rift.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "安全",
+            "漏洞",
+            "NGINX",
+            "开源"
+          ],
+          "stars": 669,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 112,
+          "owner": "DepthFirstDisclosures",
+          "repo": "Nginx-Rift"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "everything-claude-code：代理 harness 性能优化系统",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "面向 Claude Code、Codex、Opencode、Cursor 等的 agent harness 性能优化系统，含 skills、记忆与安全模块。",
+          "detail": "项目把 skills、instincts、memory、security 与「研究优先」的开发流程整合为一套 harness 性能优化系统，可跨 Claude Code、Codex、Opencode、Cursor 等多种编程代理工作。配套发布 ecc-universal、ecc-agentshield 等 npm 包及 marketplace 工具，README 标注已支持 12+ 语言生态，并自称 Anthropic 黑客松获奖项目。",
+          "significance": "本周新增约 3,000 stars，星数突破 18.5 万，位列上升之星第一。",
+          "links": [
+            "https://github.com/affaan-m/everything-claude-code"
+          ],
+          "image": "assets/github-avatars/affaan-m-everything-claude-code.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "Claude Code",
+            "Agent",
+            "MCP",
+            "开源"
+          ],
+          "stars": 185594,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 28706,
+          "owner": "affaan-m",
+          "repo": "everything-claude-code"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "Hermes Agent：Nous Research 的成长型 AI 代理",
+          "source": "@NousResearch",
+          "source_name": "GitHub",
+          "summary": "Nous Research 推出的「与你共同成长」的通用 AI 代理框架。",
+          "detail": "Hermes Agent 由 Nous Research 开发，定位为可随使用者持续成长的通用 AI 代理，提供独立文档站与 Discord 社区，采用 MIT 许可。README 以多语言呈现，标签涵盖 Claude、Codex、OpenAI 等多种模型与代理生态。",
+          "significance": "本周新增约 3,000 stars，作为 Nous Research 出品持续走高。",
+          "links": [
+            "https://github.com/NousResearch/hermes-agent"
+          ],
+          "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "Nous Research",
+            "开源"
+          ],
+          "stars": 154708,
+          "stars_gained": 3000,
+          "language": "Python",
+          "forks": 24779,
+          "owner": "NousResearch",
+          "repo": "hermes-agent"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "OpenCode：开源 AI 编程代理",
+          "source": "@anomalyco",
+          "source_name": "GitHub",
+          "summary": "一个完全开源的 AI 编程代理（coding agent）。",
+          "detail": "OpenCode 定位为开源的 AI 编程代理，提供 npm 包 opencode-ai 与活跃的 Discord 社区，采用 monorepo 结构（含 console 应用等包）。项目以官网 opencode.ai 为入口，主打开放、可自托管的编码助手体验。",
+          "significance": "本周新增约 3,000 stars，开源编程代理赛道竞争升温。",
+          "links": [
+            "https://github.com/anomalyco/opencode"
+          ],
+          "image": "assets/github-avatars/anomalyco-opencode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编程代理",
+            "AI",
+            "开源"
+          ],
+          "stars": 161669,
+          "stars_gained": 3000,
+          "language": "TypeScript",
+          "forks": 19003,
+          "owner": "anomalyco",
+          "repo": "opencode"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "OpenClaw：跨平台的个人 AI 助手",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "一个可在任意操作系统与平台运行、强调数据自有的个人 AI 助手。",
+          "detail": "OpenClaw 主打「拥有你自己的数据」，定位为跨操作系统、跨平台的个人 AI 助手，采用 TypeScript 开发并配有 CI 与发布流水线，以龙虾形象作为品牌标识，社区活跃。",
+          "significance": "本周新增约 2,882 stars，星数已超 37 万，居本周上升之星前列。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "assets/github-avatars/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI助手",
+            "个人",
+            "开源"
+          ],
+          "stars": 372681,
+          "stars_gained": 2882,
+          "language": "TypeScript",
+          "forks": 77264,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "yt-dlp：功能丰富的命令行音视频下载器",
+          "source": "@yt-dlp",
+          "source_name": "GitHub",
+          "summary": "支持上千网站的命令行音视频下载工具，是 youtube-dl 的活跃分叉。",
+          "detail": "yt-dlp 是一款功能丰富的命令行音视频下载器，支持数千个站点，由不再活跃的 youtube-dlc 演化而来、基于 youtube-dl 分叉。提供详尽的安装、网络选项与 SponsorBlock 等功能，并通过 PyPI 分发。",
+          "significance": "本周新增约 1,381 stars，长期保持高活跃度与广泛使用。",
+          "links": [
+            "https://github.com/yt-dlp/yt-dlp"
+          ],
+          "image": "assets/github-avatars/yt-dlp-yt-dlp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "命令行",
+            "下载器",
+            "开源"
+          ],
+          "stars": 162816,
+          "stars_gained": 1381,
+          "language": "Python",
+          "forks": 13661,
+          "owner": "yt-dlp",
+          "repo": "yt-dlp"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "n8n：面向技术团队的工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "兼具代码灵活性与 no-code 速度的公平源码（fair-code）工作流自动化平台。",
+          "detail": "n8n 提供 400+ 集成与原生 AI 能力，可编写 JavaScript/Python 或使用可视化界面构建自动化；支持基于 LangChain 的 AI agent 工作流、自托管或云端部署，并具备高级权限、SSO 与气隙部署等企业特性。",
+          "significance": "本周新增约 1,200 stars，自动化与 AI 工作流需求持续旺盛。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "assets/github-avatars/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "自动化",
+            "工作流",
+            "AI",
+            "开源"
+          ],
+          "stars": 188381,
+          "stars_gained": 1200,
+          "language": "TypeScript",
+          "forks": 57738,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "Ollama：本地运行开源大模型的工具",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "让用户在本地快速运行 Kimi-K2.5、GLM-5、DeepSeek、Qwen、Gemma 等开源模型。",
+          "detail": "Ollama 提供 macOS、Windows、Linux 与 Docker 的一键安装方式，可通过命令行拉取并运行各类开源大模型，并提供 ollama-python、ollama-js 等官方库，便于接入现有应用与 agent。",
+          "significance": "本周新增约 591 stars，随新模型支持持续吸引本地推理用户。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "assets/github-avatars/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "LLM",
+            "本地推理",
+            "开源"
+          ],
+          "stars": 171623,
+          "stars_gained": 591,
+          "language": "Go",
+          "forks": 16166,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "prompts.chat：最大的开源 AI 提示词库",
+          "source": "@f",
+          "source_name": "GitHub",
+          "summary": "原 Awesome ChatGPT Prompts，社区共享与收藏提示词的开源平台。",
+          "detail": "prompts.chat 自称世界最大的开源 AI 提示词库，可分享、发现与收藏 prompts，兼容 ChatGPT、Claude、Gemini、Llama、Mistral 等模型，免费开源并支持企业私有化自托管以保障隐私。",
+          "significance": "本周新增约 532 stars，提示词工程热度不减。",
+          "links": [
+            "https://github.com/f/prompts.chat"
+          ],
+          "image": "assets/github-avatars/f-prompts.chat.jpg",
+          "image_type": "logo",
+          "tags": [
+            "HTML",
+            "提示词",
+            "AI",
+            "开源"
+          ],
+          "stars": 162420,
+          "stars_gained": 532,
+          "language": "HTML",
+          "forks": 21143,
+          "owner": "f",
+          "repo": "prompts.chat"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "Langflow：可视化构建 AI 代理与工作流",
+          "source": "@langflow-ai",
+          "source_name": "GitHub",
+          "summary": "用于构建和部署 AI 代理与工作流的可视化开发平台。",
+          "detail": "Langflow 同时提供可视化编排体验与内置 API、MCP server，可把每个工作流转化为可被任意框架应用集成的工具，支持多 agent 协作，便于开发者快速搭建并部署 AI 应用。",
+          "significance": "本周新增约 509 stars，低代码 AI 编排工具持续受捧。",
+          "links": [
+            "https://github.com/langflow-ai/langflow"
+          ],
+          "image": "assets/github-avatars/langflow-ai-langflow.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Agent",
+            "工作流",
+            "生成式AI",
+            "开源"
+          ],
+          "stars": 148382,
+          "stars_gained": 509,
+          "language": "Python",
+          "forks": 9022,
+          "owner": "langflow-ai",
+          "repo": "langflow"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "VS Code：微软开源代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软与社区共同开发的开源代码编辑器（Code - OSS）。",
+          "detail": "该仓库是微软与社区共同开发 Visual Studio Code 的所在地，源码以标准 MIT 许可开放，团队在此公开路线图、月度迭代计划与收尾计划，issue 与代码协作均在此进行。",
+          "significance": "本周新增约 332 stars，作为头部编辑器长期稳定增长。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "assets/github-avatars/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "微软",
+            "开源"
+          ],
+          "stars": 185020,
+          "stars_gained": 332,
+          "language": "TypeScript",
+          "forks": 39918,
+          "owner": "microsoft",
+          "repo": "vscode"
+        }
+      ]
+    }
+  ]
+}

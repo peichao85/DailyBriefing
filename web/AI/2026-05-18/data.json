@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-18",
+  "category": "AI",
+  "title": "Anthropic “太危险”模型 Mythos 落地：安全公司 6 天造出绕过 Apple M5 的 macOS 内核 exploit，且上线首日就遭无授权访问；Musk 的 SpaceXAI 合并 4 个月走掉 50+ 研究员、预训练团队仅剩个位数；Runway 以 $53 亿估值把筹码全押“视频即世界模型”正面刚 Google；DeepMind/OpenAI/Anthropic 罕见联署，主张对齐要从“别作恶”升级到“主动让人活得更好”",
+  "items": [
+    {
+      "id": "1",
+      "title": "Mythos 把“太危险”从论文搬进现实：安全公司 6 天造出 macOS 内核 exploit，模型上线当天就被人无授权摸了进去",
+      "source": "Calif / TechTimes",
+      "source_name": "TechTimes",
+      "source_url": "https://www.techtimes.com/articles/316744/20260517/anthropics-most-dangerous-model-was-accessed-without-authorization-day-one-its-still-not.htm",
+      "story_key": "anthropic-mythos-macos-exploit",
+      "event_date": "2026-05-14",
+      "summary": "Palo Alto 安全公司 Calif 5-14 公开实证：用 Anthropic 受限的 Claude Mythos Preview，6 天就做出一枚绕过 Apple M5 “内存完整性强制（Memory Integrity Enforcement）”的可用 macOS 内核 exploit；同时被披露 Mythos 在上线当天就遭未授权访问。",
+      "detail": "Anthropic 一直把 Claude Mythos Preview 定性为“强到不能公开发布”的前沿安全模型，只通过 Project Glasswing 向 AWS、Apple、Cisco、CrowdStrike、Google、JPMorganChase、Linux Foundation、Microsoft 等 12 家首发伙伴及 40 多家受审机构开放、且仅限防御用途。本周这套“关在笼子里”的叙事被两件具体事实打穿。\n\n其一是真实战果。Palo Alto 的安全公司 Calif 4-25 在 macOS 上发现一对漏洞，借助 Mythos Preview，到 5-1 仅用 6 天就写出一枚绕过 Apple M5 芯片“内存完整性强制（Memory Integrity Enforcement）”的可用内核 exploit；团队 5-14 公开博客，被安全圈形容为“像一颗深水炸弹”。配套的 ExploitBench 评测显示，Mythos 在 41 个 V8 JavaScript 引擎漏洞中对 21 个达成“完全任意代码执行”，显著领先其他前沿模型。\n\n其二是访问失守。报道披露 Mythos 在 4-7 上线当天即遭未授权访问——并非模型本身被攻破，而是一名第三方承包商的凭证叠加 AI 招聘创业公司 Mercor 的数据泄露，加上对 URL 规律的猜测，让一批 Discord 用户在“第一天”就摸进了本应严格受控的预览环境。这是一处供应链与访问控制的薄弱点，而非模型缺陷。\n\nAnthropic 重申 Mythos Preview 不会面向公众开放。但此次事件叠加英国 AI Security Institute 此前对 Mythos 攻防能力的评估，把一个尖锐问题摆上台面：当“6 天造内核 exploit”成为可复现的现实，前沿进攻能力向受控计划之外扩散只是时间问题，关键基础设施的“先修补、后扩散”窗口正在收窄。",
+      "key_quotes": [
+        "Claude Mythos Preview will not be made generally available.",
+        "The team published a blog post on May 14 that landed like a depth charge through the security community.",
+        "Access controls failed on day one — not through any model flaw, but through a supply-chain weakness."
+      ],
+      "significance": "这是“前沿安全模型危险论”第一次从红队论文与基准分数，落到一枚针对最新 Apple 内存防护、6 天即成的真实内核 exploit 上；叠加上线首日的无授权访问，说明受限发布 + 受审伙伴的治理护栏在供应链环节就可能被绕过。它把“进攻能力扩散”从风险预测变成正在发生的事，给操作系统厂商与关键基础设施的抢先修补按下加速键。",
+      "links": [
+        "https://www.techtimes.com/articles/316744/20260517/anthropics-most-dangerous-model-was-accessed-without-authorization-day-one-its-still-not.htm",
+        "https://red.anthropic.com/2026/mythos-preview/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["AI安全", "Anthropic", "Claude Mythos", "漏洞利用", "供应链安全"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "SpaceXAI 合并即失血：4 个月走掉 50+ 研究员，预训练团队只剩一小撮，人都流向 Meta 和 Thinking Machines",
+      "source": "TechCrunch / The Information",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+      "story_key": "spacexai-staff-exodus",
+      "event_date": "2026-05-14",
+      "summary": "TechCrunch（引述 The Information）5-14 报道：自 SpaceX 2 月收购 xAI 以来，新品牌实体 SpaceXAI 已有 50+ 研究员与工程师离职，coding、world models、Grok voice 团队重创，人才主要流向 Meta 与 Mira Murati 的 Thinking Machines。",
+      "detail": "SpaceX 于 2026 年 2 月收购 xAI，并在 5 月把合并实体重新品牌为 SpaceXAI、换上新管理层。TechCrunch 5-14（记者 Rebecca Bellan，引述 The Information 报道）披露：自 2 月以来已有超过 50 名研究员和工程师离开，其中至少 11 人去了 Meta、至少 7 人加入 Mira Murati 的 Thinking Machines Lab；合并消息公布后立即又有 11 人离职，包含两名联合创始人。\n\n出血集中在最关键的几条线：coding、world models、Grok voice 团队均遭重创，预训练团队被削到只剩个位数，预训练负责人 Juntang Zhuang 在后续离职潮之前就已出走。报道援引的离职原因包括 Musk 的高压工作文化、不切实际的模型训练 deadline（被指导致“在 Grok 上偷工减料”），以及 SpaceX 临近 IPO 带来的员工股票套现预期——既是推力也是拉力。\n\n这股人才外流正撞上 Musk 把 AI 押注收束进 SpaceX、并以 SpaceX IPO 为叙事支点的关键节点：当对手 Meta 的 Superintelligence Labs 与 Murati 的 Thinking Machines 正成为接盘方，SpaceXAI 的前沿研究底盘被同行直接“抽血”。",
+      "key_quotes": [
+        "Elon Musk's newly rebranded SpaceXAI has been bleeding staff since its merger.",
+        "More than 50 researchers and engineers have departed since February — the pre-training team is down to a handful of people."
+      ],
+      "significance": "这是 Musk 把 xAI 并进 SpaceX、以 SpaceX IPO 为融资与估值锚之后，第一份系统性的人才流失盘点。预训练与 world models 这类最难补的能力线被对手 Meta、Thinking Machines 直接挖走，意味着 Grok 的代际竞争力与 SpaceXAI 的前沿叙事都在被削弱，也给 SpaceX 上市故事埋下一处人事风险。",
+      "links": [
+        "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+        "https://www.theinformation.com/articles/spacexai-exodus-50-recent-exits-meta-thinking-machines-hire-staff"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": ["xAI", "SpaceX", "人才流失", "Grok", "Elon Musk"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Runway 不跟语言模型卷了：$53 亿估值押注“视频即世界模型”，开机器人部门正面刚 Google",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+      "story_key": "runway-world-models-pivot",
+      "event_date": "2026-05-15",
+      "summary": "TechCrunch 5-15：Runway 估值升至 $53 亿、Q2 2026 新增 $4000 万 ARR，正从“给电影人做视频生成”转向通用世界模型与机器人，押注“视频而非语言”才是通往更强 AI 的路径，正面对标 Google 的 Veo / Genie。",
+      "detail": "靠服务影视行业起家的 Runway，把战略重心整体抬到“世界模型”。据 TechCrunch 5-15 报道，公司当前估值 $53 亿美元，2026 年第二季度新增约 $4000 万 ARR；2025 年 12 月发布首个世界模型，今年内还将再发一个；2025 年已成立机器人部门，开展真实世界测试与部署，远期“moonshot”甚至包括生物世界模型与抗衰老研究。\n\nRunway 的核心论点是路线之争：当行业把注意力压在语言模型上，Runway 押注“视频”才是突破数据偏置、通往更强通用智能的路径。联合 CEO Anastasis Germanidis 直言，语言模型训练在“整个互联网”上，要走得更远必须用“偏置更小的数据”。\n\n这把它直接推到 Google 对面——Google 的 Veo（视频生成）与 Genie（世界模型）正是 Runway 的正面对手。Runway 选择以“外部者 + scrappy 文化”作为差异化筹码，试图在被超大规模厂商主导的赛道里，用押注视频/世界模型的非共识路线换取生存与领先空间。",
+      "key_quotes": [
+        "Language models are trained on the entire internet... But to get beyond that, we need to leverage less biased data. — Anastasis Germanidis, co-CEO"
+      ],
+      "significance": "在“语言模型即一切”的主流叙事之外，一家有真实营收（季度新增 $4000 万 ARR）、$53 亿估值的公司公开把筹码全压到“视频/世界模型”，并配以机器人落地，等于给世界模型路线投下一张商业可行性的票，也把它与 Google Veo/Genie 的路线竞争摆到明面。",
+      "links": [
+        "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/"
+      ],
+      "tags": ["Runway", "世界模型", "视频生成", "机器人", "Google"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "三大实验室罕见联署：AI 对齐不能只“别作恶”，要主动把人“养得更好”",
+      "source": "arXiv / The AI Insider",
+      "source_name": "The AI Insider",
+      "source_url": "https://theaiinsider.tech/2026/05/14/beyond-threats-ai-researchers-call-for-systems-designed-to-support-human-flourishing/",
+      "story_key": "positive-alignment-human-flourishing",
+      "event_date": "2026-05-14",
+      "summary": "来自 Google DeepMind、OpenAI、Anthropic 及多所大学的研究者 5-14 在 arXiv 发布预印本，提出“positive alignment（积极对齐）”：把对齐从单纯防止有害，转向主动支持人类的智慧、自主、求真与社会协作。",
+      "detail": "这篇 5-14 的 arXiv 预印本由 Google DeepMind、OpenAI、Anthropic 与多所高校研究者联合署名——三家通常彼此竞争的前沿实验室在对齐范式上罕见地走到一起。论文的核心主张是：当前以“拒答、过滤有害内容、防止伤害”为中心的防御式对齐，仍可能产出操纵性强、谄媚或不利于人类长期福祉的系统；对齐应转向“积极对齐”，主动培养系统的智慧、自主、求真与社会协作能力。\n\n技术上，论文建议：用带显式原则与社区共建框架的 Constitutional AI；在预训练阶段（而非仅在后训练）就刻意 curate 亲社会、伦理丰富的语料；构建持久记忆与长期个性化能力；设计鼓励协商与合作、而非激烈竞争的多智能体环境。\n\n治理上，论文提出 polycentric（多中心）治理，让不同社区对 AI 行为拥有本地控制权；引入以“认知谦逊、平衡推理、情绪韧性”为指标的“繁荣导向”评测；并主张价值多元，而非把单一狭隘的福祉定义强加给所有人。作者用“rule-following without being wise（守规却不智慧）”概括当前系统的局限。",
+      "key_quotes": [
+        "Current alignment can produce systems that are 'rule-following without being wise' — compliant yet failing to support genuine human flourishing.",
+        "Shift from preventing harm toward actively supporting human flourishing: wisdom, autonomy, truth-seeking, and social cooperation."
+      ],
+      "significance": "三家通常在产品与安全立场上对立的前沿实验室，罕见地在“对齐目标该是什么”上达成共识——从“别作恶”升级到“主动让人活得更好”。这可能影响下一代模型的训练数据策略、评测基准与监管讨论的话语框架，是一次范式层面的对齐议程设置。",
+      "links": [
+        "https://theaiinsider.tech/2026/05/14/beyond-threats-ai-researchers-call-for-systems-designed-to-support-human-flourishing/"
+      ],
+      "tags": ["AI对齐", "AI安全", "DeepMind", "OpenAI", "Anthropic", "研究"],
+      "category": "research"
+    }
+  ]
+}
