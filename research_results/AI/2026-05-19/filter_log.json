@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-19",
+  "total_candidates": 14,
+  "kept": 7,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-19",
+      "title_en": "Google I/O 2026 keynote: new flagship Gemini, Gemini Intelligence agentic layer, Gemini Spark, Android XR glasses, Aluminium OS, Android 17",
+      "source": "Google / blog.google",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key seen 2026-05-11 (leaked Gemini Omni in-app video, 'verdict on 5-19'). Today's item is the actual I/O keynote — substantively new: GA agentic 'Gemini Intelligence' OS layer, 'Gemini Spark' persistent agent, Gemini 3.2 Flash for billions, new flagship Gemini benchmarked roughly at GPT-5.5 / behind Claude Mythos, Android XR glasses with confirmed partners (Samsung/XREAL/Warby Parker/Gentle Monster), Aluminium OS, Android 17. Title/summary cover the keynote, not the leak."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-18",
+      "title_en": "Jury sides with OpenAI: Musk's suit time-barred, advisory verdict adopted, Musk vows appeal",
+      "source": "CNBC / ABC7 / NBC News",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key published 05-12/05-13/05-14 (trial testimony, closing arguments, jury phase). New development: 9-person Oakland advisory jury found for OpenAI after ~2 hours, ruling Musk filed outside the 3-year statute of limitations; Judge Gonzalez Rogers immediately adopted the advisory verdict; Musk called it a 'calendar technicality' and vowed appeal. Verdict itself is new, not a rehash."
+    },
+    {
+      "story_key": "cursor-composer-25-release",
+      "event_date": "2026-05-18",
+      "title_en": "Cursor ships Composer 2.5 on Kimi K2.5, matching Opus 4.7 / GPT-5.5 at a fraction of cost",
+      "source": "Cursor Blog / The Decoder",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in 7-day lookback. New product launch 05-18: Composer 2.5 keeps Kimi K2.5 base, 25x more synthetic training tasks, SWE-Bench Multilingual 79.8% / CursorBench v3.1 63.2%, priced $0.50/$2.50 per M tokens."
+    },
+    {
+      "story_key": "meta-8000-ai-layoffs",
+      "event_date": "2026-05-19",
+      "title_en": "Meta to cut ~8,000 jobs starting May 20 plus 6,000 cancelled reqs, reorganizing into AI pods amid record revenue",
+      "source": "The Next Web",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in 7-day lookback (the 05-12 'gm-it-layoffs-ai-pivot' covered the GM/Cloudflare/PayPal/Coinbase wave, not Meta's discrete 8,000 cut). Finalized details breaking 05-18/19 ahead of 05-20 execution: ~8,000 (10%) cut + 6,000 reqs cancelled, AI 'pods' under CAIO Alexandr Wang's Superintelligence Labs, $115-135B AI capex, record $201B revenue."
+    },
+    {
+      "story_key": "openai-dell-codex-enterprise",
+      "event_date": "2026-05-18",
+      "title_en": "OpenAI and Dell partner to bring Codex to hybrid and on-premises enterprise",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in 7-day lookback. New 05-18 partnership extending Codex into on-prem / hybrid enterprise environments via Dell."
+    },
+    {
+      "story_key": "anthropic-pwc-partnership",
+      "event_date": "2026-05-14",
+      "title_en": "PwC expands Anthropic alliance: Claude Code + Cowork to hundreds of thousands of staff, certify 30,000",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in 7-day lookback. event_date 2026-05-14 is exactly 5 days before today (today - event_date = 5, not > 5) so passes freshness. Significant: a Big-4 firm standardizing Claude Code/Cowork firm-wide, joint Center of Excellence, 30,000 certifications."
+    },
+    {
+      "story_key": "nvidia-h200-china-clearance",
+      "event_date": "2026-05-18",
+      "title_en": "Jensen Huang (Bloomberg TV): China will open market 'over time', says he did not directly discuss H200 with Beijing",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key published 05-14 (H200 export-license clearance for ~10 Chinese firms, zero deliveries). New 05-18 development: Huang's first post-summit public reaction in a Bloomberg TV interview — says he did NOT directly discuss H200 sales with Chinese authorities, expects market to open 'over time', China government must decide how much local market to protect, Trump raised the issue with China leadership. New reaction/facts not in prior coverage."
+    },
+    {
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-17",
+      "title_en": "Gemini 3.5 Pro 'Cappuccino' pre-I/O leak roundup",
+      "source": "knightli / 36Kr",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Same story_key as the I/O keynote hero. The 'Cappuccino' codename leak adds nothing beyond what the 05-19 keynote item already covers; folded into the hero."
+    },
+    {
+      "story_key": "perplexity-computer-enterprise",
+      "event_date": "2026-03-12",
+      "title_en": "Perplexity Computer for Enterprise launched at Ask 2026",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-12 is 68 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-cerebras-20b-compute",
+      "event_date": "2026-01-14",
+      "title_en": "OpenAI to spend >$20B on Cerebras chips for ~11% equity stake",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "The $20B Cerebras commitment was reported around the January 2026 / IPO timeframe, not a 5-15+ in-window development; >5 days old."
+    },
+    {
+      "story_key": "eu-ai-act-digital-omnibus",
+      "event_date": "2026-05-07",
+      "title_en": "EU Council and Parliament agree to simplify AI Act (Digital Omnibus)",
+      "source": "Consilium",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-deployment-company-tomoro",
+      "event_date": "2026-05-12",
+      "title_en": "OpenAI Deployment Company / Tomoro acquisition recap",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-12 with full detail. Today's search surfaced only a rehash; no substantive new information."
+    },
+    {
+      "story_key": "ai-layoff-wave-agentic",
+      "event_date": "2026-05-08",
+      "title_en": "Cloudflare/PayPal/Coinbase/Snap agentic AI layoff wave",
+      "source": "various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "The broad AI-first layoff wave was already covered on 2026-05-12 ('gm-it-layoffs-ai-pivot'). Underlying cuts are >5 days old; Meta's discrete 8,000 cut is broken out separately as its own kept item."
+    },
+    {
+      "story_key": "sierra-950m-series-e",
+      "event_date": "2026-05-04",
+      "title_en": "Bret Taylor's Sierra raises $950M at $15.8B valuation",
+      "source": "CNBC / TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-04 is 15 days old (>5 day limit)."
+    }
+  ]
+}

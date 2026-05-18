@@ -1,0 +1,192 @@
+{
+  "date": "2026-05-19",
+  "category": "AI",
+  "researched_at": "2026-05-19T18:30:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@ilyasut", "@DanielaAmodei", "@elonmusk",
+    "@alexandr_wang", "@mntruell", "@mikeyk", "@JeffDean", "@ylecun",
+    "@geoffreyhinton", "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46",
+    "@alighodsi", "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan",
+    "Google blog.google", "Android Central", "TechCrunch", "CNBC", "ABC7 News",
+    "NBC News", "Bloomberg", "The Next Web", "The Decoder", "Cursor Blog",
+    "Anthropic", "OpenAI", "Axios"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Google 把 Gemini 从聊天框搬进操作系统：I/O 2026 主推'会自己干活'的 agent 层，旗舰模型本身退居二线",
+      "source": "Google",
+      "source_name": "Android Central",
+      "source_url": "https://www.androidcentral.com/phones/live/google-i-o-2026-live-blog-android-17-android-xr-glasses-and-all-the-gemini-ai-news",
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-19",
+      "summary": "Google I/O 2026 主题演讲 5-19 上午 10 点 PT 由 Sundar Pichai 开场：核心不是新模型刷分，而是把 Gemini 升级成跨 app、读屏幕上下文、自动执行多步任务的系统级 agent 层（Gemini Intelligence）+ 常驻个人 agent Gemini Spark；新一代旗舰 Gemini 据多家媒体定位'大致追平 GPT-5.5、明显落后于 Anthropic Claude Mythos'。",
+      "detail": "Google 在 5-19 上午 10 点 PT 的 I/O 2026 keynote（Shoreline Amphitheatre，5-19 至 5-20 两天）由 Alphabet CEO Sundar Pichai 领衔，主线从'发新模型'转向'让 Gemini 替你干活'：\n\n（1）**Gemini Intelligence**——把 Gemini 从聊天界面下沉为 Android 的'系统级 agent 层'，可读取屏幕上下文、跨 Gmail / Calendar / Drive 等 app 自动完成多步任务（演示包括按日程订车位、按菜谱生成购物清单、自动完成网页任务）；\n（2）**Gemini Spark**——常驻的个人 agent，自动清理收件箱（归档 / 摘要 newsletter）、生成会议简报与个性化新闻摘要，串联聊天记录、定时任务、已登录网站与位置上下文；\n（3）**Gemini 3.2 Flash**——面向数十亿用户的高性价比档；据外部评测，Flash 档在编码与推理上可达 GPT-5.5 约九成能力、成本仅 1/15–1/20；\n（4）新一代**旗舰 Gemini** 是 keynote 中心，但多家媒体引述消息人士称其为'推理与多模态有实质进步、但不是 step change'，**大致追平 OpenAI GPT-5.5、明显落后于 Anthropic Claude Mythos**，编码基准提升尤其有限；\n（5）**Android XR 智能眼镜**首次现场上手——硬件伙伴确认包括 Samsung（代号 Jinju）、XREAL、Warby Parker、Gentle Monster，Gemini 2.5 Pro 驱动实时翻译 / 导航 / 视觉理解；\n（6）配套还有 ChromeOS 继任者 **Aluminium OS**（Android 与桌面合流）、**Android 17**、面向开发者的 Interactions API public beta。\n\n**背景回顾：** 5-11 一名 Gemini Pro 用户账号下生成的 Gemini Omni 内测实拍视频外流，社区评其多项维度超越 Veo 3.1，悬念定于今日 I/O 揭晓。",
+      "key_quotes": [
+        "a meaningful improvement in reasoning and multimodal capability but not a 'step change'",
+        "landing roughly at the level of OpenAI's GPT-5.5 and meaningfully short of Anthropic's Claude Mythos"
+      ],
+      "significance": "今日 keynote 的真正信号不在分数榜，而在战略转向：Google 默认自己这代旗舰模型只能与 GPT-5.5 同档、落后 Mythos，于是把竞争焦点从'最强模型'切换到'谁能把 agent 塞进十亿级 Android / Chrome / 眼镜入口'——用分发与系统整合对冲模型差距。这与 Anthropic、OpenAI 近期把前沿模型留作品牌制高点的打法形成镜像：模型趋于平价，护城河正在快速迁移到操作系统与 agent 层。",
+      "links": [
+        "https://www.androidcentral.com/phones/live/google-i-o-2026-live-blog-android-17-android-xr-glasses-and-all-the-gemini-ai-news",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/io-2026-save-the-date/",
+        "https://www.techtimes.com/articles/316755/20260517/google-i-o-2026-keynote-opens-tuesday-new-gemini-lands-behind-mythos-gpt-55.htm",
+        "https://www.aixploria.com/en/ai-radar/google-io-2026-gemini-announcements-preview/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini", "I/O 2026", "agentic AI", "Android XR"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "陪审团 2 小时判 Musk 败诉：不碰'背信慈善信托'实体争议，仅以'起诉超过 3 年时效'终结全案，Musk 斥'日历技术性'扬言上诉",
+      "source": "@elonmusk",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html",
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-18",
+      "summary": "Oakland 联邦法院 9 人咨询陪审团 5-18 仅议事约 2 小时即裁定 Musk 败诉——理由不是其'背信公益慈善信托'指控不成立，而是其 2024 年起诉已超出 3 年诉讼时效；Gonzalez Rogers 法官当庭采纳该咨询裁决。Musk 在 X 上称这是'calendar technicality'并扬言上诉。",
+      "detail": "Musk v. Altman 加州联邦法院案 5-18 出结果：9 人**咨询陪审团**仅议事**约 2 小时**即一致裁定 Musk 败诉——关键在于陪审团认定 Musk **2024 年提起的诉讼已超过 3 年诉讼时效（statute of limitations）**，因此**未触及**其核心实体指控（OpenAI 是否'背信于公益慈善信托、内部人股权自肥'）是否成立。District Court 法官 Yvonne Gonzalez Rogers **当庭即采纳**这份本仅具咨询性质的裁决。\n\nMusk 一方原本要求法院：（1）令 OpenAI 与 Microsoft 吐出最高约 **$1800 亿美元**'不当所得'；（2）罢免 Sam Altman 与总裁 Greg Brockman；（3）撤销 2025 年那次为营利分支扩张铺路的重组。三项诉求随败诉全部落空。Musk 在 X 上把判决定性为'**calendar technicality（日历技术性问题）**'，明确表示将上诉。\n\n**背景回顾：** Musk 2024 年起诉 Altman 与 OpenAI，指其违背'保持非营利'承诺；5-12 至 5-14 庭审中 Altman 出庭、双方完成收官辩论。",
+      "key_quotes": [
+        "Musk: the decision was a 'calendar technicality' and he would appeal",
+        "The jury found that Musk waited too long to file his lawsuit"
+      ],
+      "significance": "这是 AI 行业最受瞩目诉讼的实质性了结，但以程序时效而非实体是非收场——意味着 OpenAI 2025 年的营利化重组在司法上'存活'，Altman / Brockman 留任，Microsoft 巨额投入不被追缴；'AI 非营利初心是否被背叛'这一根本问题被法院刻意悬置。Musk 上诉将把战线拖入联邦上诉法院，OpenAI 治理结构的法律不确定性并未真正清除，只是推迟。",
+      "links": [
+        "https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html",
+        "https://abc7news.com/post/musk-altman-verdict-reached-landmark-trial-artificial-intelligence/19125283/",
+        "https://www.nbcnews.com/tech/tech-news/openai-elon-musk-case-verdict-rcna345655",
+        "https://www.cnbc.com/2026/05/14/closing-arguments-jury-openai-musk-altman.html"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["Elon Musk", "Sam Altman", "OpenAI", "诉讼", "judiciary"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Meta 在 $201 亿创纪录营收里裁 8000 人：5-20 动手、再撤 6000 个 open req，全员重组进 Alexandr Wang 的 AI'pod'",
+      "source": "@alexandr_wang",
+      "source_name": "The Next Web",
+      "source_url": "https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands",
+      "story_key": "meta-8000-ai-layoffs",
+      "event_date": "2026-05-19",
+      "summary": "Meta 确认自 5-20 起裁撤约 8,000 个岗位（约占全球员工 10%），同时撤回 6,000 个待招职位、实际收缩约 14,000 个编制；裁员定性为结构性而非绩效，团队整体重组为 Chief AI Officer Alexandr Wang 旗下 Superintelligence Labs 的 AI'pod'，下半年还有第二轮。",
+      "detail": "据 The Next Web 等多家媒体 5-18/5-19 的最终细节披露：Meta 将自**5-20**起裁撤**约 8,000 个岗位（约占全球员工 10%）**，并同时**撤销 6,000 个原计划填补的 open requisition**，两项合计相当于砍掉约 **14,000 个编制**。\n\n要点：（1）裁员被明确定性为**结构性重组、而非绩效或业绩下滑驱动**——团队被重组为以 AI 为核心的'**pod**'，归入新任 Chief AI Officer **Alexandr Wang** 的 Superintelligence Labs；（2）这是 Meta **自 2023 年重组以来最大单轮裁员**，下半年还规划了第二轮（规模与时点未定）；（3）反差极强：动刀时点不在低谷而在**创纪录财务**期——年营收约 **$2010 亿（+22% YoY）**、Q4 净利约 **$228 亿**、全年自由现金流约 **$436 亿**；（4）背景是 Meta 今年 **$1150–1350 亿美元 AI 基础设施资本开支**（接近去年两倍），用裁员腾出的预算继续向算力倾斜。",
+      "key_quotes": [
+        "The cuts arrive not during a downturn but during a period of record financial performance",
+        "Teams are reorganised into AI-focused 'pods' under new Chief AI Officer Alexandr Wang's Superintelligence Labs"
+      ],
+      "significance": "这是'盈利创新高仍因 AI 重组而大规模裁员'最典型的样本：劳动力收缩不再由经营困境驱动，而由资本从人力向算力的主动再分配驱动。Alexandr Wang 把全员编入 AI'pod'，意味着组织形态本身被按 agentic 工作流重写——这会强化 2026 年'AI-first 裁员潮'的合法性叙事，也把'高利润 + 大裁员'变成大厂常态而非例外。",
+      "links": [
+        "https://thenextweb.com/news/meta-layoffs-may-2026-ai-restructuring-thousands",
+        "https://thenextweb.com/news/meta-layoffs-8000-ai-restructuring-may-2026",
+        "https://thenextweb.com/news/meta-layoffs-8000-zuckerberg-ai-reality-may-2026",
+        "https://www.axios.com/2026/04/23/meta-layoffs-ai-efficiency-push"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "裁员", "Alexandr Wang", "AI restructuring", "labor"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Cursor Composer 2.5 把'开源中国底座 + 自家调优'打到前沿水平：基准追平 Opus 4.7 / GPT-5.5，价格只要零头",
+      "source": "@mntruell",
+      "source_name": "Cursor",
+      "source_url": "https://cursor.com/blog/composer-2-5",
+      "story_key": "cursor-composer-25-release",
+      "event_date": "2026-05-18",
+      "summary": "Cursor 5-18 发布编码模型 Composer 2.5：仍以开源的 Moonshot Kimi K2.5 为底座（押注调优而非换底座），用 25 倍于上代的合成任务训练、85% 算力投入额外训练与 RL，在 SWE-Bench Multilingual（79.8%）与 CursorBench v3.1（63.2%）上追平 Opus 4.7 / GPT-5.5，价格仅为其零头。",
+      "detail": "Cursor 5-18 推出 **Composer 2.5**，核心打法是'**不换底座、靠调优**'：\n\n（1）**底座**仍是开源的 Moonshot **Kimi K2.5** checkpoint，未做基座替换；（2）相比上代 Composer 2，训练用了 **25 倍合成任务**，**85% 算力预算投入额外训练与强化学习（RL）**，并强调在更长的编码任务上表现更稳；（3）**基准**：SWE-Bench Multilingual **79.8%**、CursorBench v3.1 **63.2%**，达到与 **Opus 4.7、GPT-5.5 同档**；（4）**价格**：标准档约 **$0.50 输入 / $2.50 输出（每百万 token）**，另有同等性能的更快变体 **$3.00 / $15.00**——相对前沿闭源模型只是零头。\n\n这意味着一个开源中国模型底座经第三方深度后训练后，可在主流编码评测上贴上闭源旗舰，而推理成本下降约一个数量级。",
+      "key_quotes": [
+        "Composer 2.5 matches Opus 4.7 and GPT-5.5 benchmarks at a fraction of the cost",
+        "85 percent of the compute budget went toward extra training and reinforcement learning"
+      ],
+      "significance": "这是编码模型'平价化'的又一记重锤，也是开源底座（尤其中国开源权重）+ 应用层后训练这条路线的实证：不必自研基座，靠合成数据与 RL 就能把成本压到前沿闭源的 1/10 而基准不输。对 Anthropic / OpenAI 而言，编码这一最赚钱的 agent 场景正被从下方持续掏空；对 Cursor 而言，自有模型让它摆脱对外部 API 定价与额度的依赖。",
+      "links": [
+        "https://cursor.com/blog/composer-2-5",
+        "https://the-decoder.com/cursors-composer-2-5-matches-opus-4-7-and-gpt-5-5-benchmarks-at-a-fraction-of-the-cost/",
+        "https://winbuzzer.com/2026/05/18/cursor-releases-composer-25-saying-its-better-at-s-xcxwbn/",
+        "https://handyai.substack.com/p/model-drop-composer-25"
+      ],
+      "image": "assets/logos/cursor-logo.png",
+      "image_type": "logo",
+      "tags": ["Cursor", "Composer 2.5", "Kimi K2.5", "coding agent", "开源"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "Big 4 选边：PwC 把 Claude Code + Cowork 铺向数十万员工，并承诺认证 3 万人——咨询业全员标准化到单一前沿模型",
+      "source": "@DanielaAmodei",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "story_key": "anthropic-pwc-partnership",
+      "event_date": "2026-05-14",
+      "summary": "Anthropic 与 PwC 5-14 宣布扩大战略联盟：PwC 将先从美国团队起、逐步向数十万人的全球员工铺开 Claude Code 与 Cowork，双方共建联合卓越中心（Center of Excellence），并启动培训认证 3 万名 PwC 专业人员的计划。",
+      "detail": "Anthropic 与 PwC 5-14 宣布**扩大**既有战略联盟，把 Claude 深度嵌入 PwC 为各行业客户'做技术、做交易、重塑企业职能'的工作流：\n\n（1）**部署范围**：PwC 将先在**美国团队**上线 **Claude Code 与 Cowork**，再逐步扩展至其**数十万人规模的全球员工**；（2）**联合机构**：双方设立**联合卓越中心（joint Center of Excellence）**沉淀方法论与行业方案；（3）**人才**：启动培训并**认证 3 万名 PwC 专业人员**使用 Claude 的计划。这是一家 Big-4 咨询机构把单一前沿模型作为全员生产力底座进行标准化的标志性动作。",
+      "key_quotes": [
+        "PwC will roll out Claude Code and Cowork starting with U.S. teams and expanding toward a global workforce of hundreds of thousands",
+        "a program to train and certify 30,000 PwC professionals on Claude"
+      ],
+      "significance": "对 Anthropic 而言，这是把'前沿模型'变现为'企业全员标准件'的关键分发管道：经 PwC 触达其覆盖的全球大客户，Claude 直接进入审计、交易、企业转型等高价值场景。对咨询业而言，全员标准化到单一模型既是效率赌注，也意味着方法论与交付能力被绑定到一家模型供应商——这正在成为 Big-4 与前沿实验室之间的新型深度耦合。",
+      "links": [
+        "https://www.anthropic.com/news/pwc-expanded-partnership",
+        "https://www.anthropic.com/news"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "PwC", "Claude Code", "Cowork", "企业 AI"],
+      "category": "product_operators"
+    },
+    {
+      "id": "6",
+      "title": "OpenAI 拉上 Dell 把 Codex 送进机房：编码 agent 首次正式打进 on-prem / 混合云企业",
+      "source": "@sama",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/news/",
+      "story_key": "openai-dell-codex-enterprise",
+      "event_date": "2026-05-18",
+      "summary": "OpenAI 与 Dell Technologies 5-18 达成合作，把 Codex 引入混合云与本地（on-premises）企业环境，让受合规约束、数据不能出域的大型企业也能在自有机房内运行 OpenAI 的编码 agent。",
+      "detail": "OpenAI 5-18 宣布与 **Dell Technologies** 合作，将 **Codex**（OpenAI 的编码 agent）带入**混合云与本地（on-prem）企业环境**。此前 Codex 主要以云服务形态交付；与 Dell 的合作意在把它落到企业自有数据中心与混合架构中，面向因合规、数据驻留或安全要求而无法把代码与上下文送出域的金融、政府、医疗等大型客户。这条产品线把'编码 agent'从纯云 API 扩展为可在客户机房内运行的部署形态，由 Dell 提供硬件与企业落地通道。",
+      "key_quotes": [
+        "OpenAI and Dell Technologies partnered to bring Codex to hybrid and on-premises enterprise environments"
+      ],
+      "significance": "本地化部署是把编码 agent 卖进受监管大企业的关键一跃——这些客户恰是预算最厚、却最不能用纯云 SaaS 的群体。OpenAI 借 Dell 的企业渠道与硬件，正面进入 Anthropic（PwC / 企业版 Claude Code）近期猛攻的同一战场；编码 agent 的竞争正从'模型谁更强'转向'谁能进客户机房'。",
+      "links": [
+        "https://openai.com/news/",
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Dell", "Codex", "on-premises", "企业 AI"],
+      "category": "product_operators"
+    },
+    {
+      "id": "7",
+      "title": "Huang 访华归来首度松口：H200 没跟北京'当面谈'，但'市场早晚会开'——Nvidia 中国 AI 芯片收入今年仍按零计",
+      "source": "NVIDIA",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-18/nvidia-s-ceo-says-china-will-open-its-market-to-ai-chips-from-us",
+      "story_key": "nvidia-h200-china-clearance",
+      "event_date": "2026-05-18",
+      "summary": "Nvidia CEO Jensen Huang 5-18 在 Bloomberg 电视专访中首度对访华后局势表态：他并未与中方当面直接谈 H200 在华销售，但预期中国市场'早晚会开'；同时坦言是否放开由北京决定，Nvidia 对今年中国 AI 芯片收入仍按接近零计入。",
+      "detail": "Nvidia CEO **Jensen Huang** 5-18 在 **Bloomberg Television** 专访中给出访华后的首度公开表态：\n\n（1）他**并未与中国官方当面直接谈 H200 在华销售**，但承认该议题在中美两国政府官员会谈中被讨论过——'President Trump spoke with China's leadership about the issue'；（2）对前景，他说'**The Chinese government has to decide how much of their local market do they want to protect**'，并判断'**My sense is that over time the market will open**'；（3）现实层面，尽管美方已发放出口许可，Nvidia 仍将**今年对华 AI 芯片销售预测维持在接近零**——中国厂商正转向国产芯片，Tencent、Alibaba 均在主推自研半导体。\n\n**背景回顾：** 5-14 美国商务部已对约 10 家中国大型科技公司（Alibaba/Tencent/ByteDance/JD 等）签发 H200 出口许可、每家上限 7.5 万颗，但至今零实际交付。",
+      "key_quotes": [
+        "The Chinese government has to decide how much of their local market do they want to protect",
+        "My sense is that over time the market will open"
+      ],
+      "significance": "Huang 的措辞实质上承认：拿到美方出口许可≠拿到中国市场——闸门现在握在北京手里，而非华盛顿。'今年按零计入'意味着 H200 解禁对 Nvidia 近期营收无实质贡献，市场重新定价的是'何时、是否'而非'已经'；同时中国厂商加速国产替代，时间窗越拖，Nvidia 重返中国的天花板越低。这把中美芯片博弈的关键变量从美方管制清晰地移到了中方市场准入决策。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-18/nvidia-s-ceo-says-china-will-open-its-market-to-ai-chips-from-us",
+        "https://www.startuphub.ai/ai-news/semiconductors/2026/nvidia-ceo-china-market-to-open-for-ai-chips",
+        "https://www.cnbc.com/2026/05/14/china-ai-chips-nvidia.html"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["Nvidia", "Jensen Huang", "H200", "China", "出口管制"],
+      "category": "news"
+    }
+  ]
+}
