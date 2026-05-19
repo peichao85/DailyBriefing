@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-20",
+  "category": "AI",
+  "researched_at": "2026-05-20T08:00:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@ilyasut", "@DanielaAmodei", "@elonmusk",
+    "@alexandr_wang", "@mntruell", "@mikeyk", "@JeffDean", "@ylecun",
+    "@geoffreyhinton", "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46",
+    "@alighodsi", "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan",
+    "TechCrunch", "CNBC", "Axios", "Reuters", "NPR", "NBC News",
+    "Bloomberg", "The Information", "Engadget", "9to5Google", "Google Developers Blog",
+    "Anthropic", "OpenAI", "MIT Technology Review", "Tom's Guide", "Gizmodo"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Karpathy 出走 Eureka 转投 Anthropic：OpenAI 创始成员加入 Nick Joseph 预训练团队，'用 Claude 做下一代 Claude 的预训练'",
+      "source": "@karpathy",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "summary": "OpenAI 创始成员、前 Tesla AI 负责人 Andrej Karpathy 本周入职 Anthropic，归预训练团队负责人 Nick Joseph 直管，新组的方向是'让 Claude 自己加速下一代 Claude 的预训练研究'；2024 年创立的教育创业公司 Eureka Labs 同步搁置；Anthropic 同日还宣布招入资深安全研究员 Chris Rohlf 进 frontier red team。",
+      "detail": "TechCrunch、CNBC、Axios 5-19 同日确认：**Andrej Karpathy 已于本周入职 Anthropic**，加入由 Nick Joseph 领衔的**预训练团队**——Anthropic 发言人表示，Karpathy 将'**组建一支专注于用 Claude 加速预训练研究的新团队**'，目标是把已有的 Claude 模型当作下一代模型的研发助手，跑实验、读 paper、调架构、加工数据。\n\n**Karpathy 个人路径回顾**：（1）OpenAI 11 位创始团队成员之一，2015 年加入，主攻深度学习与计算机视觉；（2）2017 年离开赴 Tesla，主导 Full Self-Driving / Autopilot 5 年；（3）2023 短暂回流 OpenAI 一年；（4）2024 年离开 OpenAI 创立 **Eureka Labs**——专注'用 AI 助手重构教育'的早期创业公司。本次跳槽意味着 Eureka Labs **被暂时搁置**——Karpathy 本人在公开声明中表示：'**我对教育依然充满热情，未来会在合适的时机回到这条线**'，但'重新接回教育'被明确推后。\n\n**Anthropic 同日'套餐式'引入第二位重量级人物**：资深网络安全研究员 **Chris Rohlf**——20 年以上 industry 履历——加入公司**前沿红队 (frontier red team)**，专门针对最强模型做对抗性压力测试。两位新人同日入职被业内解读为公司在 Mythos / Glasswing 高强度运营压力下，同时补强**预训练学术深度**与**前沿威胁红蓝对抗**两条战线。\n\nAnthropic 在 Karpathy 入职前已陆续从 OpenAI 招走多名研究员（Mira Murati Thinking Machines 走的是另一拨），加上本月正在敲定的 **$300 亿融资 / $9000 亿估值**新轮（纸面估值已反超 OpenAI），Karpathy 选边对外界来说是一次罕见的'技术 + 品牌'双重背书。",
+      "key_quotes": [
+        "Karpathy: 'I remain deeply passionate about education and plan to resume my work on it in time.'",
+        "Anthropic spokesperson: Karpathy will 'start a team focused on using Claude to accelerate pre-training research.'",
+        "Anthropic 'has also brought on Chris Rohlf to its frontier red team, which stress-tests advanced AI models against severe threats.'"
+      ],
+      "significance": "这是过去两年最具象征意义的一次研究员跳槽：（1）Karpathy 是少数同时能写底层 CUDA、又能讲清楚 transformer 工作原理的'桥梁型'研究者，他的加入直接补强 Anthropic 在预训练侧的学术深度——而预训练正是 Anthropic 相对 OpenAI / Google 历史上较薄弱的环节；（2）他个人公开搁置 Eureka Labs、把'用 AI 做教育'让位给'用 Claude 做下一代 Claude'，相当于把'AI 自动化 AI 研究 (recursive self-improvement)'的优先级抬到所有其他公益叙事之上；（3）配合 Anthropic 同日招入 Rohlf 进红队、上月把 Mythos 的保密政策松绑（5-18 Glasswing 信息共享公告），可见公司在估值飙升与 Mythos 商业化压力下，正在快速把'最强研究员 + 最强红队'两条线齐头并进搭建。对 OpenAI 来说，这是其'创始天团'再失一员，叠加 Sutskever 离开、Murati 自立，'OpenAI 校友群'已成为 Anthropic、SSI、Thinking Machines 的人才主源。",
+      "links": [
+        "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+        "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html",
+        "https://www.axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude",
+        "https://gizmodo.com/openai-cofounder-andrej-karpathy-joins-anthropic-as-sam-altmans-fortunes-turn-2000760674",
+        "https://money.usnews.com/investing/news/articles/2026-05-19/former-tesla-ai-executive-openai-founding-member-andrej-karpathy-joins-anthropic"
+      ],
+      "image": "img/karpathy.png",
+      "image_type": "logo",
+      "tags": ["Andrej Karpathy", "Anthropic", "OpenAI", "预训练", "人才流动", "Eureka Labs"],
+      "category": "research"
+    },
+    {
+      "id": "2",
+      "title": "Google Antigravity 2.0 一夜抢 Claude Code 地盘：Go 原生 CLI 替换 Gemini CLI、Managed Agents 一行 API 拉起隔离 Linux 沙盒、AI Ultra 反向降价 $250→$200",
+      "source": "Google",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/",
+      "story_key": "google-antigravity-2-launch",
+      "event_date": "2026-05-19",
+      "summary": "Google 在 I/O 2026 正式发布 Antigravity 2.0——全新独立桌面 app 支持多 subagent 并发与定时任务、用 Go 重写的全新 Antigravity CLI 6-18 起取代 Gemini CLI、配套 SDK + Gemini API 内置的 Managed Agents（一行 API 拉起隔离 Linux 沙盒跑代码），并把旗舰 AI Ultra 价格从 $250 反向调降至 $200。",
+      "detail": "Google I/O 2026 keynote 之外、开发者主题环节单独发布的 **Antigravity 2.0** 是当日发给开发者群体的最重一拳——从一个 IDE 插件升级为**独立 agent-first 开发平台**：\n\n（1）**全新独立桌面 app**：支持多 subagent **并发执行 + 后台定时任务**，可自定义 subagent 工作流，与 **Google AI Studio / Android / Firebase** 项目原生互通；\n（2）**Antigravity CLI**：**完全用 Go 重写**，比上代更快更省，**Gemini CLI 6-18 全面下线**，消费者侧统一切换；CLI 与 GUI 共享同一 agent runtime；\n（3）**Antigravity SDK**：让外部开发者基于 Google coding 工具构建自定义 agent；\n（4）**Managed Agents（Gemini API 新接口）**：**一次 API 调用**即可拉起一个完整 agent，**自带隔离 Linux 沙盒**，能推理、用工具、执行代码，把'托管 agent 即基础设施'变成 Google 第一方能力；\n（5）**WebMCP 提案**：Google 提出新的 web 开放标准，让浏览器内 AI agent 通过结构化工具暴露执行复杂任务，**Chrome 149 起开 origin trial**；\n（6）**Antigravity 内置语音命令**：跟随 Gmail / Docs 之后，全栈语音交互；\n（7）**定价大逆转**：新增 **AI Ultra $100 档**，对应 Antigravity 用量比 Pro 高 5 倍；**原 AI Ultra $250 反向降至 $200**，Antigravity 用量比 Pro 高 20 倍。\n\n配套节奏：Antigravity 2.0 桌面 app + CLI + SDK + Managed Agents API 当日上线 trusted testers / AI Ultra 用户，几周内向全体开发者开放。",
+      "key_quotes": [
+        "Google 'is retiring Gemini CLI; consumer access ceases on June 18, 2026.'",
+        "'Managed Agents in the Gemini API spin up an agent with a single API call that can reason, use tools and execute code in an isolated Linux environment.'"
+      ],
+      "significance": "这是 Google 第一次把'编码 agent 平台'当作一条独立产品线在 I/O 上单独发布，**正面对标 Anthropic Claude Code、Cursor、xAI Grok Build**——其中三个杀招最关键：（1）Managed Agents 一行 API 拉起隔离沙盒，意味着所有 SaaS 与 startup 不再需要自己搭 agent 运行时，**直接把'agent 即托管服务'变成 Google API**；（2）Gemini CLI 6-18 全面下线 + Go 原生重写，'终端 agent CLI'正式成为 Google 在 Anthropic Claude Code / OpenAI Codex 主战场的第一方对手；（3）旗舰 AI Ultra **罕见反向降价**（$250→$200）+ 新增 $100 档，说明 Google 判断 agent 用量已被 Anthropic / OpenAI 的'封顶 token 包'打破——Google 选择以更便宜的访问门槛抢回开发者群体。这把开发者层的竞争从'模型谁更强'拉到'谁的 agent 基础设施更便宜、更托管、更系统级'，与上一条 Karpathy 入职 Anthropic 形成镜像——一边补研究员、一边抢开发者。",
+      "links": [
+        "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool/",
+        "https://www.marktechpost.com/2026/05/19/google-launches-antigravity-2-0-at-i-o-2026-a-standalone-agent-first-platform-with-cli-sdk-managed-execution-and-enterprise-support/",
+        "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/",
+        "https://9to5google.com/2026/05/19/google-antigravity-agentic-developer-suite/"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Antigravity", "I/O 2026", "agentic AI", "Gemini API", "开发工具"],
+      "category": "builders"
+    },
+    {
+      "id": "3",
+      "title": "Gemini Omni Flash 正式上线：10 秒短片、YouTube Shorts 免费、Flow 内创作——但 Google 把'改音 / 改语音'最危险的功能主动留在闸门后",
+      "source": "Google",
+      "source_name": "Engadget",
+      "source_url": "https://www.engadget.com/2176896/everything-google-announced-io-2026-gemini-omni-spark/",
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-19",
+      "summary": "Google I/O 2026 keynote 当日正式 ship 出 **Gemini Omni Flash** ——首款全 modality 视频生成 / 编辑模型，可吃任意 image + audio + video + text 组合并跨模态推理后输出单一视频，10 秒短片上限、面向 AI Plus/Pro/Ultra 全球用户及 YouTube Shorts/Create 用户免费开放；Google 明确把'**改写视频里的音频与语音**'这一最危险能力主动留在闸门后未发布。",
+      "detail": "Google I/O 2026 keynote 当日（5-19）正式上线 **Gemini Omni Flash** ——本系列首款 generally available 模型，定位'**create anything from any input, starting with video**'：\n\n**核心能力**：用户可在单一 prompt 中混合 image / audio / video / text，模型**不是简单拼接**而是**跨模态推理**后生成一段单一视频，并支持后续多轮对话式修改。Google 现场演示包括：在用户实拍片段中替换动作与物体、写实↔动画风格迁移、多轮 refine、解说式生成。\n\n**主动留闸门后的高风险能力**：Google 特意说明'**编辑视频中的音频与语音**'这一功能'**仍在测试中、我们需要先理解如何负责任地把它带给用户**'——即 Omni 在架构上已具备改语音 / 改音的能力，但**不在本次发布范围**，被主动留在 safety 闸门内。\n\n**部署细节**：（1）**10 秒短片上限**——Google 明确这是**部署侧节流决策**而非模型本身限制，目的是在算力压力下扩大访问面；（2）面向 **AI Plus / Pro / Ultra 订阅者**通过 Gemini app + Flow 创作工具全球开放；（3）**YouTube Shorts + YouTube Create app 用户免费**自当周起可用；（4）**开发者 / 企业 API**'**未来几周**'开放。\n\n配套发布：（a）**Gemini 3.5 Flash**——成本与速度档位旗舰，**4x 高于其它前沿模型的 output token/s**，超越自家 Gemini 3.1 Pro 在 coding/agentic/multimodal 套件（76.2% Terminal-Bench 2.1 / 83.6% MCP Atlas / 84.2% CharXiv Reasoning），在 Gemini app、Search、Antigravity 2.0、Gemini API 同步上线；（b）**Gemini Spark**——24/7 个人 agent，自动跨 Gmail / Calendar / Drive 干活，beta 先发 trusted testers + AI Ultra 订户。\n\n**背景回顾：** 昨日 5-19 briefing 已记录 I/O 2026 keynote 整体把 Gemini 升级为系统级 agent 层（Gemini Intelligence + Spark）；Omni 模型当时仅作 leak 提及，今日正式公开 ship 的产品细节与'故意留闸门'安排为新信息。",
+      "key_quotes": [
+        "Google: editing videos to change audio and speech is 'still working to test' so it can 'better understand how we can bring this capability to users responsibly.'",
+        "10-second cap is 'a deployment decision rather than a model constraint — a way to widen access while compute demand is high.'"
+      ],
+      "significance": "三个真正值得关注的点：（1）**主动闸门**是行业首次——前沿厂家以前都是'先发布、被滥用后再补丁'，Google 把改音 / 改语音明确**作为一项已存在但未发布的能力**单独点名'留在闸门后'，把'**默认推迟**而非'**默认开放**'写进发布说明，给业界树立新的多模态视频 safety 范式；（2）**YouTube 直接成为分发主入口**——Shorts + Create app 免费开放意味着十亿级创作者无需另装 app，Veo 时代'专业人士工具'的定位被打破，把 OpenAI Sora 2 与 Runway Gen-5 的渗透路径直接堵在 Google 自家的视频河道上；（3）**10 秒短片**是个非常诚实的'我们还烧不起'信号——和上一条 Antigravity AI Ultra $250→$200 反向降价对照，Google 默认 agent + 多模态视频两条线的算力账目前都是亏损态，先抢用户口径、利润后补。",
+      "links": [
+        "https://www.engadget.com/2176896/everything-google-announced-io-2026-gemini-omni-spark/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+        "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+        "https://www.techtimes.com/articles/316859/20260519/google-launches-gemini-omni-video-model-holds-back-its-riskiest-feature.htm",
+        "https://9to5google.com/2026/05/19/google-io-2026-news/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini Omni", "视频生成", "多模态", "I/O 2026", "YouTube Shorts"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "4",
+      "title": "OpenAI 同时押两条溯源链：所有图片自动加 Google SynthID 不可见水印 + 加入 C2PA 指导委员会 + 上线公众验证器——一年舆论压力后第一份'防深伪'承诺",
+      "source": "OpenAI",
+      "source_name": "OpenAI Blog",
+      "source_url": "https://openai.com/index/advancing-content-provenance/",
+      "story_key": "openai-c2pa-synthid-provenance",
+      "event_date": "2026-05-19",
+      "summary": "OpenAI 5-19 公布双层溯源方案：通过与 Google 合作给所有图像加入不可见 **SynthID 水印**、加入 **C2PA 指导委员会**让元数据信号能被全行业工具识别、同步上线**公众验证工具**（任何人可上传图片检查是否出自 ChatGPT / OpenAI API / Codex）；'水印 + 元数据'双层冗余，被业内视为 OpenAI 在'防深伪'承诺上的第一份具体落地。",
+      "detail": "OpenAI 5-19 在官方博客与 TechCrunch 同步发布**内容溯源 (content provenance)** 全新落地方案：\n\n**第一层：C2PA 元数据**——OpenAI 已签署并将完整对齐 **C2PA 内容凭证开放标准**，并加入**指导委员会**；今后由 OpenAI 模型生成的图像，元数据中会带有结构化的 'AI 生成' 标签 + 模型 ID + 生成时间等 Content Credentials 字段，供 Adobe / Microsoft / 主流社交平台等已加入 C2PA 的厂家直接读取。\n\n**第二层：SynthID 不可见水印**——OpenAI **首次与 Google 合作**，把后者的 **SynthID 像素级水印**集成进 ChatGPT 与 API 图像生成路径——比元数据**更难被检测**（消费者肉眼不可见），但**更难被去除**（截图、压缩、转码后仍可残留）。两层互为冗余：元数据信息更丰富但易被剥离，水印信号更耐变换但单层信息量低，组合后 provenance 在端到端管道里更具韧性。\n\n**第三层：公众验证器**——OpenAI 同日上线**预览版公众验证工具**，任何人可上传图片，系统自动检测是否含有 OpenAI 的 Content Credentials 或 SynthID 信号，回答'**这张图是否来自 ChatGPT / OpenAI API / Codex**'。\n\n生效范围：本次发布覆盖所有 OpenAI 图像生成路径——ChatGPT、API、Codex 工作流内由模型直接生成的图像默认全部带双层信号；视频与音频未在本轮发布范围。",
+      "key_quotes": [
+        "OpenAI: 'Watermarking can be more durable through transformations like screenshots, while metadata can provide more information than a watermark alone. Together, they make provenance more resilient than either layer would be on its own.'",
+        "OpenAI 'is making its provenance signals easier for other tools and platforms to recognize through C2PA conformance, adding durable cross-platform SynthID watermarking to images through a partnership with Google.'"
+      ],
+      "significance": "三层意义：（1）**OpenAI 与 Google 在'反深伪基础设施'上结盟**——这是两家在前沿模型上正面冲突的厂家第一次在 safety 基础设施上同台合作，等于在'选 metadata 还是选 watermark'的标准之争里把答案钉死为'两个都要'，让 Anthropic / xAI / Meta 之后再发布同类方案时只能在这套双层框架上对齐；（2）**公众验证器是关键变量**——以前 C2PA / SynthID 都是 B 端工具，普通用户没法验证一张图来源，本次 OpenAI 把验证能力直接放到公众面前，从根本上改变了选举 / 新闻 / 司法场景下'是否出自 ChatGPT'的取证难度；（3）这是 OpenAI 在 2025 年下半年遭遇一系列 ChatGPT 图像被用于深伪诈骗、虚假信息后**长达一年沉默之后的第一份具体承诺**，也为 EU AI Act 2026 H2 的'生成内容须标识'强制条款提前准备了合规工具链。",
+      "links": [
+        "https://openai.com/index/advancing-content-provenance/",
+        "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+        "https://cryptobriefing.com/openai-synthid-watermarking-ai-detection/",
+        "https://spec.c2pa.org/post/openai_pr/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "C2PA", "SynthID", "Google", "内容溯源", "deepfake"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic 一夜把 Mythos 保密政策松绑：Glasswing 合作方现在可对外公开'用了什么、发现了什么'，Amazon / Microsoft / Nvidia / Apple / 五角大楼正式可共享情报",
+      "source": "Anthropic",
+      "source_name": "Reuters",
+      "source_url": "https://money.usnews.com/investing/news/articles/2026-05-18/anthropic-to-let-partners-share-mythos-cybersecurity-findings-with-others",
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-18",
+      "summary": "Anthropic 5-18 修改 Mythos Preview 初始保密条款：Project Glasswing 合作方（Amazon、Microsoft、Nvidia、Apple、五角大楼等）现在被允许公开承认自己是参与者，并可把 Mythos 发现的漏洞、最佳实践、工具与代码与其他公司安全团队、行业组织、监管机构、政府部门、开源维护者、媒体甚至公众共享——前提是遵守 responsible disclosure。是 4-7 Mythos 受限发布以来的首次实质性松绑。",
+      "detail": "Anthropic 5-18 通过 Reuters 等多家媒体发布政策更新——**显著放松 Mythos Preview 的保密约束**：\n\n（1）**原政策**：4-7 Mythos 受限发布以来，所有 Project Glasswing 合作方（Amazon、Microsoft、Nvidia、Apple、五角大楼等被授权用 Mythos Preview 做防御性安全研究的组织）须**签 NDA**，**不得对外披露**自己是参与者、不得分享所发现的漏洞或工具；\n\n（2）**新政策**：Anthropic 现允许合作方'**generally permitted to disclose their involvement**'，并可'**at their own discretion**'与（a）其它公司的安全团队、（b）行业组织、（c）监管机构、（d）政府部门、（e）开源维护者、（f）媒体、（g）公众**共享 Mythos 发现的威胁、最佳实践、工具与代码**——前提是遵守 responsible disclosure 行业规范；\n\n（3）**官方理由**：'随着项目成熟，公司已调整保密保护，**确保关键信息能被广泛共享——包括项目外**——以最大化防御性影响'。Anthropic 等于承认：4-7 起的 6 周封闭运行，已经发现足够多关键漏洞与攻击模式，**继续守口反而成为整个西方供应链的安全风险**。\n\n背景与时点：本周早些 WSJ 已报道 Anthropic 正在重新评估 Mythos Preview 的访问与披露策略；5-14 Palo Alto 安全公司 Calif 公开实证'6 天用 Mythos 做出一枚 macOS 内核 exploit'，加剧了'信息壁垒在害死防御方'的批评。",
+      "key_quotes": [
+        "Anthropic: partners 'may share that information with security teams at other companies, industry bodies, regulators and government agencies, open-source maintainers, the media or the public, subject to responsible-disclosure norms.'",
+        "Anthropic: 'As the program has matured, the company has adapted confidentiality protections to ensure key information can be shared broadly — including outside the program — for maximum defensive impact.'"
+      ],
+      "significance": "这是前沿模型'**安全保密 vs 防御共享**'这条争议线上的关键反转：（1）**正式承认封闭红队模式有边际报酬**——把全行业最强攻防模型锁在 6 家合作方手里，发现的 0-day 越多，**不共享反而成为更大的系统性风险**；（2）**与本月 Mythos macOS 内核 exploit 公开事件直接呼应**——封闭模式被外部安全研究员 6 天就用 Mythos 做出可用 exploit 后，'信息壁垒不平等'的批评已无法回避；（3）**为后续 OpenAI Daybreak、xAI 等同档前沿安全模型铺新规则**——把'前沿安全模型必须设受控信息共享通道'从行业惯例固化为新标准；（4）对监管侧，这一改动给 SEC、EU NIS2、NIST CISA 等机构提供了**直接对接前沿模型发现的合法情报渠道**，避免'政府最后才知道有 0-day'的尴尬。",
+      "links": [
+        "https://money.usnews.com/investing/news/articles/2026-05-18/anthropic-to-let-partners-share-mythos-cybersecurity-findings-with-others",
+        "https://gizmodo.com/anthropic-is-loosening-the-secrecy-around-claude-mythos-so-findings-can-be-shared-broadly-2000760355",
+        "https://news.cgtn.com/news/2026-05-19/Anthropic-to-let-partners-share-Mythos-cybersecurity-findings-1NgAOkf6UaQ/p.html",
+        "https://www.anthropic.com/glasswing"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Mythos", "Glasswing", "网络安全", "responsible disclosure", "Pentagon"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "Nvidia 今晚 Q1 FY27 盘后开簿：~$780 亿营收、$730 亿数据中心、China 仍按零计——Blackwell 占 70%、Q2 指引比这次数字更重要",
+      "source": "NVIDIA",
+      "source_name": "Heygotrade",
+      "source_url": "https://www.heygotrade.com/en/blog/nvidia-q1-fy27-earnings-preview-may-20-2026/",
+      "story_key": "nvidia-q1-fy27-earnings",
+      "event_date": "2026-05-20",
+      "summary": "Nvidia 将于今日（5-20）美股盘后发布 Q1 FY27 财报、电话会 5pm ET——市场一致预期：营收约 **$780 亿**、EPS **$1.77**、数据中心营收约 **$730 亿**、Non-GAAP 毛利率 75.0%±50bp；Blackwell 已占数据中心计算营收近 70%、Hopper 过渡完成；中国数据中心营收 Q1 仍按零计——Beijing 访问、H200 交付与中国市场重启的任何评论将是单一最大股价变量；Q2 指引比 Q1 印数对股价影响更大。",
+      "detail": "Nvidia 将于今日（**2026-05-20**）**美东时间收盘后**发布 Q1 FY27 财报，**电话会议 5pm ET 开**。市场关注点：\n\n**一致预期**：（1）总营收 **~$780 亿美元**；（2）摊薄后 EPS **$1.77**；（3）数据中心营收 **~$730 亿美元**（约占总营收 94%）；（4）Non-GAAP 毛利率 **75.0%±50bp**。\n\n**关键变量 1：Blackwell 接力 Hopper**——Blackwell 已贡献数据中心计算营收**近 70%**，Hopper 过渡基本完成；任何关于 Blackwell Ultra（H300 系）量产时点、内存供应、HBM4 良率的更新将直接影响 FY27 全年。\n\n**关键变量 2：China 仍按零计**——Nvidia 现行 Q1 指引完全不含中国数据中心营收。本季初 Trump-Xi 5-14/5-15 北京峰会未签 AI 治理协议，**美方批的 H200 在 10 家中国厂家手里 0 实际交付**（Tencent / Alibaba / ByteDance / JD 等被批每家上限 75,000 颗）。Huang 本月 5-18 接受 Bloomberg 专访仅称'**市场早晚会开**'但未与北京当面谈。**今晚电话会上对中国市场重启时点、H200 交付路径、是否调整全年 outlook 中的 China 假设**——任一表态都将是**单一最大股价变量**。\n\n**关键变量 3：Q2 指引比 Q1 印数对股价影响更大**——按 Nvidia 历史规律，**前瞻 Q2 指引**决定盘后走势。市场需要看到：（a）Blackwell 季环比加速度；（b）主权 AI 客户（沙特 HUMAIN、阿联酋 G42、英国 Sovereign Fund 等）订单是否在 Q2 大幅放量；（c）超大规模云客户 capex 是否仍处再加速期。\n\n**外部环境**：截至 5-19 收盘 Nvidia 仍为全球市值第一（黄仁勋个人净值据 Forbes 估 $2000 亿+），FY26 资本开支创纪录、AI 基础设施需求侧未见任何降温信号——Polymarket 当前隐含'Q2 指引高于市场一致预期'的概率约 70%。",
+      "key_quotes": [
+        "Consensus: ~$78B revenue, $1.77 EPS, ~$73B data-center revenue, non-GAAP gross margin 75.0% ±50bps.",
+        "Nvidia's guidance for Q1 assumes zero China data center revenue, and any commentary on the Beijing visit, H200 delivery timelines, or a framework for China re-entry on Wednesday's call could be the single biggest variable for the stock."
+      ],
+      "significance": "今晚是 AI 算力市场半年度风向标——三个真正值得盯的不是数字本身：（1）**'Blackwell 70%' 信号**——如果毛利率守在 75%±50bp，证明 Nvidia 在 Blackwell 量产爬坡期仍能维持极端定价权，'AI 算力主权链'集中度不会松动；（2）**China 0 → 非 0**——任何 Huang 关于中国市场重启的具体表态都会同时撬动半导体板块全链估值与美中科技政策预期；（3）**Q2 主权 AI 订单**——沙特 / 阿联酋 / 英国主权 AI 基金本年累计已承诺 $300+ 亿美元订单，若 Q2 指引把主权 AI 单独披露为新增类别，'AI 算力即地缘资产'范式将被官方背书。配合本月 Cerebras 5-14 $610 亿估值 IPO 与 Anduril $610 亿 Series H，今晚的电话会将定义 AI 硬件资本市场 5-6 月的整体节奏。",
+      "links": [
+        "https://www.heygotrade.com/en/blog/nvidia-q1-fy27-earnings-preview-may-20-2026/",
+        "https://coindcx.com/blog/us-stock/nvidia-q1-fy27-earnings/",
+        "https://www.indmoney.com/blog/us-stocks/nvidia-stock-earnings-preview-may-2026",
+        "https://www.catacal.com/catalyst/nvidia-q1-fy27-earnings-report"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["Nvidia", "Q1 FY27", "财报", "Blackwell", "China", "数据中心"],
+      "category": "news"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-20",
+  "total_candidates": 15,
+  "kept": 6,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "title_en": "OpenAI co-founder Andrej Karpathy joins Anthropic pre-training team",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Karpathy left Eureka Labs (his 2024 education startup) and started this week at Anthropic under pre-training team lead Nick Joseph; mission is using Claude to accelerate pre-training research. Anthropic also added security veteran Chris Rohlf to its frontier red team."
+    },
+    {
+      "story_key": "google-antigravity-2-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Google launches Antigravity 2.0 with Go-based CLI, SDK, Managed Agents",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Yesterday's gemini-omni-leak-io-2026 covered the high-level I/O 2026 keynote framing (agent layer + Spark) but did not detail Antigravity 2.0. New: full agentic dev suite — desktop app w/ subagent orchestration + scheduled tasks, brand-new Go-based CLI (Gemini CLI retiring 2026-06-18), SDK for custom agents, Managed Agents in Gemini API (single API call spins up isolated Linux sandbox), voice commands in editor, AI Ultra plan repriced $250→$200."
+    },
+    {
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini Omni Flash actually launches, audio/speech edit feature held back",
+      "source": "Engadget",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-19 (and earlier as leak) with title 'Google 把 Gemini 从聊天框搬进操作系统'. Yesterday's piece covered the keynote framing (Gemini Intelligence + Spark as agent layer, flagship retreats) but did not detail the actual Omni product. New: Omni Flash now generally rolling out to AI Plus/Pro/Ultra worldwide via Gemini app + Flow + YouTube Shorts + YouTube Create at no cost, 10-second clip cap (described as a deployment-throttle decision not a model limit), API access 'in the coming weeks'; Google explicitly held back the riskiest capability — editing speech and audio inside existing video — as still under safety review."
+    },
+    {
+      "story_key": "openai-c2pa-synthid-provenance",
+      "event_date": "2026-05-19",
+      "title_en": "OpenAI joins C2PA steering committee, integrates Google SynthID watermarking",
+      "source": "OpenAI Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI is adding Google's invisible SynthID watermark to all images via a new partnership; joining the C2PA steering committee; and previewing a public verification tool that checks whether an uploaded image came from ChatGPT, the OpenAI API, or Codex. Dual-layer provenance — metadata (C2PA) + watermark (SynthID) — is OpenAI's first concrete deepfake-provenance commitment after a year of pressure."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-18",
+      "title_en": "Anthropic loosens Mythos secrecy, lets Glasswing partners share findings publicly",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Adjacent to anthropic-mythos-macos-exploit (2026-05-14) but a distinct development: not a new exploit but a policy reversal. Anthropic now permits Project Glasswing partners (Amazon, Microsoft, Nvidia, Apple, Pentagon and others) to disclose participation and share Mythos cybersecurity findings, best practices, tools and code with security teams at other companies, industry bodies, regulators, open-source maintainers, the media, or the public — subject to responsible-disclosure norms. Reverses original confidentiality stance."
+    },
+    {
+      "story_key": "nvidia-q1-fy27-earnings",
+      "event_date": "2026-05-20",
+      "title_en": "Nvidia Q1 FY27 earnings tonight: ~$78B revenue consensus, China baked to zero",
+      "source": "Heygotrade",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Today after US market close (5pm ET). Consensus: ~$78B revenue, $1.77 EPS, ~$73B data-center revenue, non-GAAP gross margin 75.0% ±50bps. Blackwell now ~70% of DC compute revenue, Hopper transition complete. China data-center revenue guided to zero; commentary on H200 timeline & Beijing visit is the single biggest variable for the stock. Forward Q2 guide will move price more than Q1 print."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-19",
+      "title_en": "Musk appeal filing plans / aftermath of verdict",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-05-18 and 2026-05-19 with titles '陪审团 2 小时判 Musk 败诉' and earlier coverage. The verdict, Musk's 'calendar technicality' framing, and his intent to appeal were all detailed. No new procedural steps (no formal appeal filing yet) since yesterday."
+    },
+    {
+      "story_key": "meta-8000-ai-layoffs",
+      "event_date": "2026-05-20",
+      "title_en": "Meta layoffs begin today as scheduled",
+      "source": "The Next Web",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 2026-05-19 with title 'Meta 在 $201 亿创纪录营收里裁 8000 人：5-20 动手'. Today is the action date but no substantive new information — the schedule, scope (8K cuts + 6K open reqs), Alexandr Wang AI pod restructuring, and second-half round were all in yesterday's piece."
+    },
+    {
+      "story_key": "openai-dell-codex-enterprise",
+      "event_date": "2026-05-18",
+      "title_en": "OpenAI + Dell Codex on-prem hybrid deal",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already in lookback (2026-05-18). No new partner adds, no pricing changes, no deployment details since yesterday."
+    },
+    {
+      "story_key": "nvidia-h200-china-clearance",
+      "event_date": "2026-05-18",
+      "title_en": "Trump complains Beijing is blocking H200 purchases",
+      "source": "Tom's Hardware",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Lookback (2026-05-18) already covered 'Huang H200 没跟北京当面谈，但市场早晚会开 — Nvidia 中国 AI 芯片收入今年仍按零计'. The 'China blocking despite US approval' framing is downstream of the same zero-delivery reality and Trump's quote adds no policy change."
+    },
+    {
+      "story_key": "google-android-xr-glasses-io2026",
+      "event_date": "2026-05-19",
+      "title_en": "Google + Samsung + Warby Parker + Gentle Monster XR glasses preview",
+      "source": "Engadget",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Yesterday's gemini-omni-leak-io-2026 already named Samsung (Jinju), XREAL, Warby Parker, Gentle Monster as confirmed XR hardware partners and described Gemini 2.5 Pro driving real-time translate/navigation/visual understanding. The fall launch date and iOS-compatibility note are marginal additions."
+    },
+    {
+      "story_key": "anthropic-pwc-partnership",
+      "event_date": "2026-05-14",
+      "title_en": "PwC + Anthropic Claude Code rollout follow-up",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-gates-foundation-200m",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic + Gates Foundation $200M Claude credits partnership",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cognition-500m-windsurf-round",
+      "event_date": "2025-08-14",
+      "title_en": "Cognition $500M / $9.8B valuation post-Windsurf",
+      "source": "WSJ",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2025-08-14 is far outside the 5-day window."
+    },
+    {
+      "story_key": "hugging-face-pollen-robotics",
+      "event_date": "2026-04-01",
+      "title_en": "Hugging Face acquires Pollen Robotics (Reachy 2/Mini)",
+      "source": "Hugging Face",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date in April 2026 is far outside the 5-day window."
+    }
+  ]
+}
