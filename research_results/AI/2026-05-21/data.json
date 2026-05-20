@@ -1,0 +1,194 @@
+{
+  "date": "2026-05-21",
+  "category": "AI",
+  "researched_at": "2026-05-21T07:10:00Z",
+  "sources_checked": [
+    "Nvidia investor relations",
+    "Kiplinger Nvidia earnings live",
+    "TheStreet stock-market-today",
+    "CNBC SpaceX IPO live",
+    "TechCrunch xAI burn",
+    "Axios SpaceX IPO",
+    "Axios Trump AI EO scoop",
+    "Newsmax WH cybersecurity order",
+    "Chrome Developers Blog (WebMCP)",
+    "VentureBeat WebMCP",
+    "PPC.land WebMCP origin trial",
+    "BusinessToday WWDC 2026 schedule",
+    "Business Standard WWDC 2026",
+    "9to5Mac iOS 27 Extensions",
+    "CNBC Armada Series B",
+    "TechStartups Armada $230M",
+    "Armada / PRNewswire",
+    "Google Developers Blog (I/O 2026)",
+    "Claude.com Code with Claude London",
+    "OpenAI release notes",
+    "Anthropic release notes",
+    "CoinPaper Nvidia preview"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Nvidia Q1 FY27 实盘：$816 亿营收 / $752 亿数据中心全面超预期，Q2 指引 $910 亿碾压华尔街共识 + $90 亿 whisper，加码 $800 亿回购，主权 AI 一年翻 3 倍——中国仍按零计，盘后股价反跌",
+      "source": "NVIDIA / earnings call",
+      "source_name": "Kiplinger",
+      "source_url": "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026",
+      "story_key": "nvidia-q1-fy27-earnings",
+      "event_date": "2026-05-20",
+      "summary": "Nvidia 5-20 盘后实际 Q1 FY27：营收 **$816 亿** (+85% YoY, vs 共识 $780 亿) / 数据中心 **$752 亿** (+92% YoY, vs 共识 $730 亿)、Non-GAAP EPS **$1.87** vs $1.77、毛利率 75.0%、新增 **$800 亿**股票回购授权、季度股息升至 **$0.25**；Q2 FY27 指引 **$910 亿 ±2%**——比华尔街共识 $87.0 亿高出近 5%、连最乐观的 **$90 亿** whisper 也再超 1B；CFO Kress 披露 Blackwell + Rubin 已锁定 **$5000 亿**收入可见性。",
+      "detail": "**实际数字与预览的偏差**（昨日预览已发布在 5-20 briefing 中）：营收 $816 亿 vs 预期 $780 亿、超出 **$36 亿** (+4.6%)；数据中心 $752 亿 vs 预期 $730 亿、超出 $22 亿 (+3.0%)；Non-GAAP EPS $1.87 vs $1.77、超出 5.6%；毛利率 75.0% 落在 75.0±50bp 指引上沿。\n\n**Q2 指引是真正的看点**：$910 亿 ±2% — 共识仅 $87.0 亿、最乐观分析师预期 $87-96 亿、Polymarket 等 whisper 落在 $90 亿——实际值再次超出 whisper、意味着 AI 算力需求 Q2 继续环比 +11.5% (从 $816 亿到 $910 亿)。CFO Colette Kress 在电话会上披露 Blackwell 与下一代 Rubin 的 **可见收入合计已 $5000 亿**（覆盖 calendar 2025 末至 2026 年底），将'未来 18 个月几乎已被锁定'的判断从假设升格为公开 backlog 数字。\n\n**主权 AI 是新成长曲线**：FY26 全年主权 AI 收入跨过 **$300 亿**（同比 +3x，约占总营收 14%），客户名单包括英、法、荷、加、新加坡及 India 宣布的 $10 亿项目；Kress 把主权 AI 定性为'national infrastructure, not discretionary technology spending'，相当于把电网、公路类比的政治叙事直接写进财报。Blackwell GB200 NVL72 系统主权客户与 Microsoft/Google 完全同款——意味着这部分增量利润率与 hyperscaler 等同、不存在让渡。\n\n**中国仍是空白**：Q1 数据中心来自中国 = $0（同比上年同期 $46 亿）；Huang 5-14 随 Trump 访京 + 5-18 在 Bloomberg 受访的'早晚会开'未在本季落地为数字，本季指引仍假设中国 $0；Q2 $910 亿指引也不含任何中国收入——任何 China 重启都是纯增量。\n\n**为什么股价反而盘后下跌**：尽管全面超预期 + 巨额 $800 亿回购，盘后股价表现平淡甚至小跌，反映出市场对 AI 资本开支高位'已知好消息'的进一步定价 saturation——历史上 Nvidia 过去 4 个季度财报后 1 日中位涨幅仅 +0.1%、胜率刚过 50%。CNBC headline 5-20 直接写'data center revenue nearly doubles, report is strong but stock slides'。\n\n**背景回顾**：5-20 briefing 已发布盘前预览（市场一致预期 ~$780 亿营收、~$730 亿数据中心、Q2 指引比 Q1 印数更重要），本次为同一 story_key 的盘后实际数据落地。",
+      "key_quotes": [
+        "We have $500 billion of Blackwell and Rubin revenue visibility locked in from now through the end of 2026 (CFO Colette Kress, Q1 FY27 call)",
+        "Sovereign AI investment is national infrastructure, not discretionary technology spending (Colette Kress)",
+        "Data center revenue nearly doubles, report is strong but stock slides (CNBC headline, 5-20)"
+      ],
+      "significance": "把'AI 算力还会继续上行'从论调升级为合同账面——$5000 亿 Blackwell+Rubin backlog + $910 亿 Q2 指引 + $300 亿主权 AI 在手，意味着 hyperscaler capex 已不再是 Nvidia 增长的唯一变量，国家级订单成第二增长曲线；同时盘后股价'超 beat 不涨'确认市场已开始把'继续超预期'本身当作 baseline——下一档股价驱动只能来自中国市场重启（仍 $0）或 Rubin 提前出货。",
+      "links": [
+        "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026",
+        "https://www.thestreet.com/stock-market-today/stock-market-today-nasdaq-dow-jones-sp-500-updates-may-20-2026",
+        "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-first-quarter-fiscal-fq78amc9h84m.html",
+        "https://fortune.com/2026/05/20/nvidia-q1-earnings-forecast-dividend-stock-buybacks/",
+        "https://intellectia.ai/blog/nvidia-stock-analysis-may-2026"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["nvidia", "earnings", "blackwell", "sovereign-ai", "ai-infrastructure", "china-chip"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "SpaceX 5-20 公开 S-1：瞄准 $750 亿募资 / $1.75–2 万亿估值 / $28.5 万亿 TAM（$26.5 万亿来自 AI）——首次披露 xAI 一年烧 $64 亿，Anthropic 每月 $12.5 亿包 Colossus 到 2029、获 300+ MW",
+      "source": "SpaceX / SEC EDGAR",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+      "story_key": "spacex-ipo-s1-filing",
+      "event_date": "2026-05-20",
+      "summary": "SpaceX 5-20 向 SEC 公开提交 S-1：拟以 ticker **SPCX** 在 Nasdaq 上市、目标募资约 **$750 亿**、寻求估值 **$1.75–2 万亿**——史上最大 IPO。首份合并审计财报披露 SpaceX-xAI 合并实体 2025 净亏 **$49.4 亿**：xAI 单年烧 **$64 亿**收入仅 **$32 亿**；同时披露 Anthropic 每月 **$12.5 亿**包 Colossus + Colossus II 直至 2029-5，获 **300+ MW**算力——这是 5-6 'Anthropic 用全部 Colossus 1' 公告之后第一份带美元的合同细节。",
+      "detail": "**IPO 框架**：路演计划 6 月 8 日启动、定价 6-11、6-12 首日交易；Goldman Sachs 主承销；行权前承销规模 $750 亿、对应 $1.75-2 万亿估值——是史上第一家以 $1T+ 市值挂牌的美国公司，也是史上最大 IPO（参照标的：2014 阿里 $250 亿、2019 Saudi Aramco $294 亿）。\n\n**首次公开的财务**：Starlink 2025 收入 $114 亿 / 运营利润 $44 亿（首份审计利润数字）；xAI 2024 收入 $26.2 亿 / 亏损 $15.6 亿 → 2025 收入 $32 亿 / 亏损 **$64 亿**——亏损以 4x 速度扩张、收入仅小幅增长，'烧钱与营收差距继续拉大'；合并实体 2025 净亏 $49.4 亿；合并资本开支 2024 $56 亿 → 2025 **$207 亿**（5x），其中 $127 亿专项投 AI——AI 一项已超过传统空间业务总开支。\n\n**Anthropic 合同条款首次曝光**：每月 $12.5 亿固定费用直到 2029-5；可任一方提前 90 天终止；2026-5/6 ramp 期享有折扣；获 Colossus + Colossus II 共 **300+ MW**算力；Anthropic 已'表达兴趣'与 SpaceX 合作开发**空间数据中心**（multi-gigawatt 量级）——这是 5-6 仅公告'用全部 Colossus 1'之后首次披露具体美元数字和年限。简单算账：$12.5 亿 × 12 × 3 ≈ **$450 亿**合同总额、足够 Anthropic 在 IPO 招股书里被记为'最大单一基础设施 supplier'。\n\n**TAM 叙事**：S-1 总潜在市场 $28.5 万亿，其中 $26.5 万亿被划入 AI 范畴——把 SpaceX 实质上重新包装成一家 AI 基础设施公司而非火箭公司，对应 IPO 估值倍数 = 估值 / 现 Starlink 收入 ≈ 175x（仅看 Starlink）vs 1.75 / 28.5 = 6.1%（看 AI TAM 占比）；监管 / 投资人将就'AI 是 SpaceX 的什么资产'展开评估辩论。\n\n**Musk 控制权**：S-1 同步披露 Musk 个人持股结构与超级投票权——任何机构投资人或指数基金（IPO 后 SPCX 大概率纳入指数）将一次性向高度集中股权 + AI/空间双轮高烧业务暴露。",
+      "key_quotes": [
+        "S-1 establishes a $28.5 trillion total addressable market with $26.5 trillion attributed to AI initiatives (SpaceX S-1, 5-20)",
+        "Anthropic has committed $1.25 billion per month through May 2029 for capacity across Colossus and Colossus II (S-1 disclosure)",
+        "xAI burned $6.4 billion last year. SpaceX's IPO filing shows why the spending is far from over (TechCrunch, 5-20)"
+      ],
+      "significance": "公开 S-1 把 SpaceX 从黑箱推到 EDGAR、第一次让外界看到 xAI 真实烧钱速度（$64 亿 / 年）与 Anthropic 给 SpaceX 输送的算力月费（$12.5 亿）；同时把 IPO 估值架构在 AI TAM 而非火箭收入之上——意味着这次史上最大 IPO 实质是'AI infrastructure IPO'，监管和指数基金被迫面对'是否要把单一持有 Musk 超控投票权 + AI 重亏业务的 SPCX 直接纳入 S&P / Nasdaq'的结构性问题。",
+      "links": [
+        "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+        "https://www.axios.com/2026/05/20/elon-musk-spacex-ipo",
+        "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+        "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+        "https://www.npr.org/2026/05/20/nx-s1-5812731/elon-musk-spacex-ai-ipo"
+      ],
+      "image": "img/spacex-logo.jpg",
+      "image_type": "logo",
+      "tags": ["spacex", "ipo", "xai", "anthropic", "colossus", "musk", "ai-infrastructure"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Trump AI 行政令草案曝光：'covered frontier models' 自愿框架要求 实验室公开前 90 天 向白宫共享 + 关键基础设施访问，5-13 walkback 之后本周内可能签署",
+      "source": "Axios 独家",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/05/20/ai-trump-executive-order-white-house-infighting",
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-20",
+      "summary": "Axios 5-20 独家：Trump AI / 网络安全 EO 草案文本流出，分为两块——(1) **网络安全**：覆盖五角大楼与关键基础设施（医院、银行）、强化威胁共享与 cyber 招聘；(2) **'covered frontier models'**：建立自愿框架，要求前沿实验室在**公开发布前 90 天**向政府共享模型 + 给指定关键基础设施提供者访问权，并设多层政府审查程序界定何为'covered'。**最早本周内**可能签署。",
+      "detail": "**双轨结构是关键调整**：5-13 Hassett 公开承诺'两周内签 FDA-式 AI 预审 EO'被 Wiles + Sacks 公开 walkback 后，政府内部争议明显——这次重出的草案不再走'FDA 强制审查'路线、改走'voluntary framework + 多层政府审查'，把 cybersecurity 部分作为独立第一支柱，避免单纯模型监管被业界标签为'扼杀创新'。\n\n**前沿模型自愿框架要点**：(a) 实验室在公开发布**前 90 天**与白宫共享模型；(b) 同步给指定的'关键基础设施提供者'（金融、能源、医疗、电信等）访问权用于预测试；(c) 多层政府审查决定哪些模型属于'covered frontier'门槛；(d) 不动用 Defense Production Act 强制权——'自愿'意味着实验室拒绝即不被罚，但接受可能换取 federal preemption 等政策互换。\n\n**网络安全条款落点**：Pentagon + 关键基础设施 cyber 系统现代化；强制全行业威胁情报共享通道；将 5-11 Google GTIG 公开的'首例 AI 实战 zero-day'作为政策背景；与 5-1 Five Eyes 联合发布的 Agentic AI 安全指引在执行层接轨。\n\n**时机与张力**：Trump 5-14/15 访京无 AI 治理协议落定后，本国 EO 路径恢复推进；'本周内'签署窗口（5-19 至 5-24）撞上 Nvidia 5-20 财报与 SpaceX 5-20 IPO 公开，等于在'美国 AI 资本叙事'拐点上同步出手；Anthropic / Google DeepMind 早已通过 Mythos Glasswing + Frontier Model Forum 与政府/critical infra 有交集，自愿框架对他们是把现有合作正式化、对 OpenAI 与 xAI 则是首次系统性政府门控。\n\n**背景回顾**：5-13 Axios 独家——白宫 chief-of-staff Susie Wiles 与前 AI/Crypto 监管长 David Sacks 5-13 公开 walk back NEC 主任 Kevin Hassett 上周的'两周内签 FDA 式 AI 预审 EO'承诺，administration 表态要等 Trump 5-14/15 Beijing 元首峰会结果之后才推进任何 AI 强制审查 EO。",
+      "key_quotes": [
+        "Voluntary framework under which AI labs would share their models with the government at least 90 days before public release (Axios on draft EO, 5-20)",
+        "Could publish as early as this week (Axios)",
+        "Two main sections: cybersecurity and 'covered frontier models' (Axios)"
+      ],
+      "significance": "把 5-13 walkback 之后悬而未决的'美国到底要不要审查前沿模型'问题从论争阶段推到法令文本阶段——一旦签署，'自愿 90 天预审'将形成 OpenAI / Anthropic / Google DeepMind / xAI 等顶部实验室的事实合规基线；同时 cybersecurity 单独成轨意味着这次 EO 把'AI 武器化'（5-11 Google GTIG 实战 zero-day）与'前沿模型治理'两个原本分开的政策议程合并出手——是 Trump 政府对 AI 监管态度的首次正式制度化表达。",
+      "links": [
+        "https://www.axios.com/2026/05/20/ai-trump-executive-order-white-house-infighting",
+        "https://www.newsmax.com/us/white-house-artificial-intelligence-cybersecurity/2026/05/20/id/1256929/",
+        "https://www.zerohedge.com/ai/trump-ai-executive-order-seek-early-access-advanced-models",
+        "https://www.heygotrade.com/en/news/trump-gop-power-ai-executive-order/"
+      ],
+      "tags": ["white-house", "ai-regulation", "trump", "executive-order", "frontier-models", "cybersecurity"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Google 把 WebMCP 从原型推上 Chrome 149 公开 origin trial：navigator.modelContext 让任意网页自带 AI Agent 工具——Edge 147 三月已支持，浏览器原生 Agent 标准首次跑在生产流量上",
+      "source": "Chrome Developers Blog",
+      "source_name": "Chrome Developers Blog",
+      "source_url": "https://developer.chrome.com/blog/webmcp-epp",
+      "story_key": "google-webmcp-chrome-149",
+      "event_date": "2026-05-19",
+      "summary": "Google 5-19 I/O 2026 Developer keynote 宣布 **WebMCP** 从 behind-a-flag 原型升级为 **Chrome 149 公开 origin trial**——开发者首次可在真实生产流量上测试。W3C Web ML Community Group 主导的开放标准：网站通过 `navigator.modelContext` API 注册工具（含 name / 自然语言描述 / JSON schema），浏览器 AI Agent 直接发现并调用——同时 **Microsoft Edge 147** 早在 3 月已支持，两大浏览器现都可跑相同 WebMCP 流量。",
+      "detail": "**两个新 API**：(1) **Declarative API**——标准动作可直接以 HTML 表单声明，几乎无需 JS；(2) **Imperative API**——复杂动态交互通过 JS 注册工具；任一工具均带 name + 自然语言 description + 输入/输出 JSON schema。Agent 端从浏览器 client 读取工具清单、按 schema 发送参数、收到结构化结果，无需依赖网页 DOM scraping 或截图理解。\n\n**与 MCP 的边界**：经典 MCP 是后端协议——AI 平台通过 hosted server 接服务提供者；WebMCP 完全跑在 browser 客户端、面向'用户当前会话'语境的实时操作。Chrome 团队明确分工：WebMCP 用于 in-browser 实时辅助（购物、Form 填写、订阅管理等当下浏览的页面），MCP 用于跨环境后台持久访问（CRM、企业数据库等）。开发者可对同一服务暴露两种端点。\n\n**Chrome 149 origin trial 细节**：开发者注册 origin token、在生产域上限时实验、3 个 milestone 周期内收集反馈；trial 期间标准仍可调整。WebMCP 在 Web ML CG 内的工作组成员同时包括主要 browser 厂商与平台公司——预示 Safari / Firefox 在标准最终化前不出意外也会进入实现层。\n\n**为何重要**：过去 18 个月 AI Agent 上 web 的方式主要是'pixel 看屏幕 + 模拟点击'（Anthropic Computer Use、Claude Agents、OpenAI Operator），成本高且脆弱；WebMCP 让网站主动告知 Agent'我有这些可调用工具'，等于在浏览器层重建了 1990 年代 web 的 form action 范式、但目标用户改为 LLM。这是 5-19 Google I/O Antigravity 2.0 与 Gemini Omni Flash 的姊妹宣告——把'Agent 操作系统'从 OS / app 层推到 web 层，对 OpenAI Operator、Anthropic Computer Use 的'像素+模拟'路线形成结构性反向施压。",
+      "key_quotes": [
+        "Standardized way to expose structured tools, ensuring AI agents can perform actions on sites with increased speed, reliability, and precision (Chrome Developers Blog)",
+        "Where MCP operates as a back-end protocol connecting AI platforms to service providers through hosted servers, WebMCP operates entirely client-side within the browser (Chrome)",
+        "The experimental WebMCP origin trial starts in Chrome 149 (Google I/O 2026 keynote)"
+      ],
+      "significance": "把 AI Agent 与 web 的关系从'pixel + 模拟点击'转回'结构化 API 调用'——若标准被 Safari/Firefox 跟进，未来 5 年的 web 开发将出现'agent-ready'的第二条产品轴线，与 'mobile-ready' 当年地位类似；对 OpenAI Operator 与 Anthropic Computer Use 这类'屏幕理解'路线，意味着主要长尾网页交互可能被 WebMCP 自然取代、屏幕路线只剩 legacy + 不愿合规暴露工具的网站作为 fallback。Google 借此把'Agent web'的标准写权重新抓回浏览器厂商手里。",
+      "links": [
+        "https://developer.chrome.com/blog/webmcp-epp",
+        "https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a",
+        "https://ppc.land/chrome-149-origin-trial-puts-webmcp-in-developers-hands-at-last/",
+        "https://www.pymnts.com/artificial-intelligence-2/2026/google-introduces-webmcp-to-give-browser-access-for-ai-agents/",
+        "https://developers.googleblog.com/all-the-news-from-the-google-io-2026-developer-keynote/"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["webmcp", "chrome", "ai-agent", "web-standard", "google", "w3c"],
+      "category": "trending"
+    },
+    {
+      "id": "5",
+      "title": "Apple 公布 WWDC 26 完整日程：iOS 27 'Extensions' 框架确认在 Settings 直接切换 Claude / Gemini / Grok / Mistral / Perplexity——OpenAI 'Siri 默认 AI' 独家三年宣告终结",
+      "source": "Apple",
+      "source_name": "Business Standard",
+      "source_url": "https://www.business-standard.com/technology/tech-news/apple-reveals-wwdc26-schedule-platform-updates-ai-siri-and-more-expected-126051900482_1.html",
+      "story_key": "apple-ios27-siri-extensions",
+      "event_date": "2026-05-19",
+      "summary": "Apple 5-19 公布 **WWDC 2026** 完整日程：6-8 主题演讲、6-8 至 6-12 五天会议；多家媒体同步报道 iOS 27 'Extensions' 框架的实质——用户可在 Settings 一处切换 Siri 默认 AI 提供者，**Claude、Gemini、Grok、Mistral Le Chat、Perplexity** 等只要发布 iOS app 即可'plug in'、无需与 Cupertino 单独谈合作；Apple 已在与 Google、Anthropic 测试集成。这意味着 2024 年 6 月起 OpenAI 独家供给 Siri 的格局正式被打破。",
+      "detail": "**WWDC 2026 日程要点**：5-19 Apple Developer 站点上线完整议程，**6-8 上午主题演讲**为揭幕、6-9 起 1000+ 分轨/lab 同步开放、6-12 闭幕；主题演讲已预告 iOS 27 / Siri 2.0 / Apple Foundation Models 升级与第三方 AI 集成框架。这是 Apple 首次在官方日程页公开'第三方 AI 集成'议程入口，等于在主题演讲前坐实 5-5 9to5Mac 与 3-26 MacRumors 一系列关于 'iOS 27 Extensions' 的爆料。\n\n**Extensions 框架的产品形态**：Apple Intelligence & Siri 设置面板新增'默认 AI 提供者'下拉——任意发布 iOS app 并实现新 Extension protocol 的第三方均可被选中；用户提问首先经过本地 Apple Foundation Models（其基底将基于 Apple-Google 1 月宣布的 Gemini 集成 / Private Cloud Compute），需要外部模型时分发到所选第三方；'Claude app'/'Grok app'/'Gemini app' 等只需发布安装即可被列入候选。\n\n**OpenAI 独家被结构性破除**：2024-6 至今 Siri 仅能'升级到 ChatGPT'是 Apple-OpenAI 双边协议结果；iOS 27 Extensions 把这种独家变为开放接入，意味着 OpenAI 失去对 iPhone 用户'Siri default'的渠道独占——分发权回到 Apple，OpenAI 与 Claude/Gemini/Grok 在同一开关下竞争用户停留。\n\n**Apple-Google 底座的二线意义**：1 月公布的 Apple Foundation Models 底座基于 Gemini 的 Apple-Google 多年合作，配合本次 Extensions 框架，等于 Google 既拿到底座、又在'用户外置 AI'层与 OpenAI 平等竞争——Google 是 iOS 27 AI 战略的双面赢家；OpenAI 则被 Apple 同时去独家化（产品层）与去底座化（基础设施层）。\n\n**生态影响**：Anthropic / xAI / Mistral / Perplexity 立即拥有 'iPhone 默认 AI 候选' 身份，是 4 月起 ChatGPT 周活逼近 ~10 亿、Claude 持续抢占企业市场背景下，最具放大效应的消费分发管道——一次设置切换 = 数亿 iPhone 直接路由；Claude 应用 5-19 已在 App Store 排名跃升。",
+      "key_quotes": [
+        "Apple plans to open Siri to third-party AI chatbots in iOS 27 via an 'Extensions' system in Settings, ending OpenAI's exclusive arrangement (Tom's Guide)",
+        "Once installed, the Claude app, the Grok app, the Gemini app, or any other AI-provider app that supports the new system can be set as the user's preferred model (TechRepublic)",
+        "Apple is testing Google's and Anthropic's integrations now (MacRumors / Bloomberg)"
+      ],
+      "significance": "把 iPhone 的'默认 AI'分发权从'OpenAI 独家'重新散给所有有 iOS app 的前沿厂商——是消费 AI 自 ChatGPT 上线以来最大的一次单点渠道再分配；Apple 借 Extensions 同时实现三件事：摆脱单一供应商风险、把'AI 选择权'变成系统级卖点、为下一代 Apple Foundation Models 在用户视线里争取与第三方'同台比较'的时间窗——iOS 27 秋季正式版上线那一天，'iPhone 用户用什么 AI'将是各家厂商今年最重要的获客 KPI。",
+      "links": [
+        "https://www.businesstoday.in/technology/story/apple-announces-wwdc-2026-schedule-from-siri-ai-upgrades-to-ios-27-heres-whats-coming-532148-2026-05-19",
+        "https://www.business-standard.com/technology/tech-news/apple-reveals-wwdc26-schedule-platform-updates-ai-siri-and-more-expected-126051900482_1.html",
+        "https://www.tomsguide.com/phones/iphones/beyond-chatgpt-ios-27-extensions-will-reportedly-allow-siri-to-use-google-gemini-and-claude",
+        "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+        "https://www.macrumors.com/2026/03/26/apple-ios-27-siri-chatbot-integration/"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["apple", "wwdc-2026", "ios-27", "siri", "ai-extensions", "openai", "anthropic", "google"],
+      "category": "product_operators"
+    },
+    {
+      "id": "6",
+      "title": "Armada $2.3 亿 Series B 锁 $20 亿估值：联手 Johnson Controls 在 Arizona 起 4 万平米 'Galleon Forge One' 工厂量产 Leviathan 模块化数据中心——AI 算力首次正式进军 油田 / 矿山 / 军事 / 偏远工业现场",
+      "source": "Armada / CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/19/modular-data-center-builder-armada-raises-230-million.html",
+      "story_key": "armada-230m-series-b",
+      "event_date": "2026-05-19",
+      "summary": "Armada 5-19 公告完成 **$2.3 亿美元 Series B**、投前估值 **$20 亿**——由 **Overmatch、8090 Industries** 联席领投，**BlackRock** 作为全新投资人入场；战略投资人新增 Johnson Controls、NightDragon、Mitsui、Singtel Innov8。同步公告与 Johnson Controls 在 **Arizona** 共建 **40 万平方英尺**（约 3.7 万 m²）专用工厂 **'Galleon Forge One'**（500+ 岗位、夏季投产），用于量产 Armada 的 **'Leviathan'** 兆瓦级模块化数据中心，目标客户为军事行动、油田、矿场与偏远工业现场。",
+      "detail": "**融资结构**：$2.3 亿 Series B 在原计划之上超额募满；Overmatch（防务专项 VC）与 8090 Industries（能源/工业 deep tech）联席领投，BlackRock 首次入场加码 AI infrastructure 主题；战略投资人覆盖 industrial / cyber / 日韩资本三角（Johnson Controls、NightDragon、Mitsui、Singtel Innov8）；公司累计融资接近 $5 亿。\n\n**Galleon Forge One 工厂**：与 Johnson Controls 的全球框架协议——Johnson Controls 自身的 chiller、HVAC、冷板系统直接进厂集成；40 万 sq ft、500+ 工程/装配岗位、2026 夏季开始下线第一批 Leviathan 兆瓦级 modules；'Forge' 命名暗示流水线化制造而非项目化建设——把 AI 数据中心从'物业开发'变成'制造业'。\n\n**Leviathan 模块化数据中心**：每柜可作为独立兆瓦级 AI 算力 pod 部署到现场——油田 / 矿山 / 边远基地 / 卫星地面站等不具备 hyperscale 站址条件的工业现场；与传统 GW 级集中式不同，Leviathan 以'就地推理 + 联邦同步'为产品定位，瞄准国防部、能源公司、采矿巨头与远洋资源企业的'数据不能出场、算力必须落地'刚需。\n\n**为何在 AI 数据中心叙事里值得记一笔**：5 月 12 日 Amp 完成 $13 亿融资做'AI 算力电网'（回收闲置算力卖给 startup），目标是同一个症结的另一面：算力供给与需求错配。Armada 走的是反向路径——不去抢 hyperscale 现成站址，而是把 AI 算力做成可运输的'集装箱'，让算力跟着客户的物理现场走（钻井平台、矿坑、前进基地）。Gallup 5 月调查指出 71% 美国人反对在本地建 AI 数据中心、48% 强烈反对——Armada 的模块化方案天然规避社区抵触，是这股 NIMBY 浪潮下少数还能扩张的部署模式。\n\n**与 5-15 Anthropic '2028' 报告的呼应**：Anthropic 主张 AI 主导权取决于'持续训练明天前沿模型的能力'——hyperscale 训练堆 GPU 与边缘部署做推理是同一架势的两端；Armada 的工业现场 AI 把推理 footprint 推到油气与国防场景，等于美方在'前沿训练 + 边缘推理 + 主权算力'三角里补齐第三角。",
+      "key_quotes": [
+        "Armada raises $230M at $2B valuation to build modular AI data centers, which are already being deployed across military operations, oil fields, mining sites, and remote industrial locations (CNBC, 5-19)",
+        "Galleon Forge One is expected to create more than 500 jobs and begin producing Armada's Leviathan megawatt-scale data centers this summer (Armada PR)",
+        "Demand for portable AI data centers that can run inference where data is generated (Tech Startups)"
+      ],
+      "significance": "把'AI 数据中心'从'物业开发 + 园区供电'变成'集装箱式工厂量产'，瞄准 hyperscale 不能去的工业现场（油田、矿山、国防、远洋）——是 AI 算力部署的第三种模式（除集中超大型 + 主权站址外）。BlackRock 首次以战略 LP 身份入场 AI infra 制造端、Johnson Controls 直接做制造合伙人，意味着传统工业巨头开始把 AI infra 视为下一代核心制造业；同时给 Trump 政府 cybersecurity EO（item 3）的'critical infrastructure'条款提供合规配套——'离场算力'是物理数据隔离的天然解。",
+      "links": [
+        "https://www.cnbc.com/2026/05/19/modular-data-center-builder-armada-raises-230-million.html",
+        "https://techstartups.com/2026/05/19/armada-raises-230m-at-2b-valuation-to-build-modular-ai-data-centers-for-military-and-energy-sectors/",
+        "https://www.finsmes.com/2026/05/armada-raises-230m-in-series-b-funding.html",
+        "https://siliconangle.com/2026/05/19/armada-raises-230m-2b-valuation-build-portable-ai-data-centers/",
+        "https://www.prnewswire.com/news-releases/armada-announces-agreement-with-johnson-controls-for-galleon-forge-one-raises-230m-in-oversubscribed-series-b-with-a-pre-money-valuation-of-2b-to-accelerate-deployment-of-the-us-ai-stack-and-support-explosive-customer-demand--302775720.html"
+      ],
+      "tags": ["armada", "ai-data-center", "modular", "blackrock", "johnson-controls", "military-ai", "edge-ai", "funding"],
+      "category": "builders"
+    }
+  ]
+}

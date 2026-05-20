@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-21",
+  "total_candidates": 15,
+  "kept": 6,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "nvidia-q1-fy27-earnings",
+      "event_date": "2026-05-20",
+      "title_en": "Nvidia Q1 FY27 actuals: $81.6B revenue (+85% YoY), data center $75.2B (+92%), Q2 guide $91B beats whisper $90B, $80B buyback added, dividend up to $0.25, China DC still zero",
+      "source": "Nvidia / Kiplinger / TheStreet",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-20 (preview piece on expectations: $78B revenue, $73B DC, China zero assumption, Q2 guide >Q1 print). New info: actual Q1 print $81.6B beat (+$3.6B vs preview consensus), data center $75.2B (+92% YoY, $2B above preview), Q2 guide $91B (vs $87B consensus / $90B whisper), $80B buyback authorized, dividend raised to $0.25, sovereign AI tripled to $30B FY26 (~14% revenue), $500B Blackwell+Rubin backlog disclosed. Stock paradoxically slid in after-hours despite the beat. Title/summary will lead with the actual print numbers and Q2 guide vs preview expectations."
+    },
+    {
+      "story_key": "spacex-ipo-s1-filing",
+      "event_date": "2026-05-20",
+      "title_en": "SpaceX files public S-1 for record IPO: targets $75B raise at $1.75-2T valuation, first audited financials show xAI burned $6.4B in 2025, Anthropic compute deal $1.25B/month through 2029",
+      "source": "SpaceX / SEC EDGAR / CNBC / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Only related lookback entry is `spacexai-staff-exodus` (5-14, talent exodus), which is a different story. This is the actual public S-1 filing for the IPO itself — first audited income statement, cash flow, risk factors of the merged SpaceX-xAI entity. Massive new info: Starlink $11.4B revenue / $4.4B operating income 2025; xAI $6.4B 2025 loss on $3.2B revenue; combined capex jumped 5x to $20.7B (2025); $12.7B went to AI; Anthropic locks $1.25B/month for Colossus + Colossus II through May 2029, gets 300+ MW capacity; targets June 12 first trading day."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-20",
+      "title_en": "Axios scoop: Trump AI EO draft splits into cybersecurity + 'covered frontier models' track requiring voluntary 90-day pre-release government access; could publish as early as this week",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-13 (Axios original: Wiles + Sacks publicly walked back Hassett 'FDA for AI' EO, said to wait for Beijing summit). New info on 5-20: actual EO draft text now circulated — split into TWO sections: (1) cybersecurity for Pentagon/critical infrastructure/threat-sharing, (2) 'covered frontier models' with voluntary framework requiring labs to share models with government 90 days pre-release plus critical infrastructure provider access. Publishing window: 'as early as this week'. This is the post-walkback EO actually materializing — substantively new content vs the walkback narrative of 5-13."
+    },
+    {
+      "story_key": "google-webmcp-chrome-149",
+      "event_date": "2026-05-19",
+      "title_en": "Google opens WebMCP origin trial in Chrome 149 — first browser-native AI-agent web standard ships from prototype to production traffic",
+      "source": "Chrome Developers Blog / VentureBeat",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Lookback for 5-19 covers `google-antigravity-2-launch` (Antigravity 2.0, Managed Agents API) and `gemini-omni-leak-io-2026` (Gemini Omni Flash launch) but NOT WebMCP. This is a separate substantial I/O announcement: WebMCP — proposed W3C open standard — exits behind-a-flag prototype and enters public origin trial in Chrome 149 starting 5-19; navigator.modelContext API; Microsoft Edge 147 already shipped support in March. Browser-native AI agent web is now testable on production traffic."
+    },
+    {
+      "story_key": "apple-ios27-siri-extensions",
+      "event_date": "2026-05-19",
+      "title_en": "Apple publishes WWDC 2026 schedule; confirms iOS 27 'Extensions' framework will open Siri to Claude / Gemini / Grok / Mistral / Perplexity, ending OpenAI exclusive",
+      "source": "Business Standard / BusinessToday / Apple",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Apple released WWDC 2026 schedule on 5-19 (keynote June 8, conference through June 12) with confirmed slate showcasing iOS 27, Siri 2.0 overhaul, and the 'Extensions' framework that lets users pick Gemini / Claude / Grok / Mistral / Perplexity as their preferred AI provider in Settings — ending OpenAI's exclusive arrangement. This is the schedule/confirmation event after months of rumors; first time Apple itself has publicly committed to a multi-provider Siri."
+    },
+    {
+      "story_key": "armada-230m-series-b",
+      "event_date": "2026-05-19",
+      "title_en": "Armada raises $230M Series B at $2B valuation for modular AI data centers; Johnson Controls partners on 400k sq ft Arizona 'Galleon Forge One' factory producing Leviathan units for military/oil/mining/remote sites",
+      "source": "CNBC / TechStartups / Armada PR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Announced 5-19: $230M Series B, $2B post-money, co-led by Overmatch + 8090 Industries + BlackRock (new). Manufacturing JV with Johnson Controls — 400,000 sq ft Arizona factory ('Galleon Forge One', 500+ jobs, starts producing 'Leviathan' megawatt-scale modular data centers this summer). Customer base: military operations, oil fields, mining sites, remote industrial — the 'edge AI compute' frontier vs. hyperscale data centers."
+    },
+    {
+      "story_key": "anthropic-dreaming-managed-agents",
+      "event_date": "2026-05-06",
+      "title_en": "Anthropic introduces 'Dreaming' for Managed Agents — scheduled offline memory consolidation reportedly 6x Harvey task completion",
+      "source": "Anthropic / VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-06 is 15 days old (>5 day limit). Announced at Code with Claude SF on 5-6. London 5-20/21 keynote is repeating SF announcements, not adding new development."
+    },
+    {
+      "story_key": "openai-deployment-company-tpg",
+      "event_date": "2026-05-11",
+      "title_en": "OpenAI launches Deployment Company with $4B+ from TPG, Brookfield, Advent, Bain, McKinsey; acquires Tomoro",
+      "source": "OpenAI / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-11 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "microsoft-japan-10b-investment",
+      "event_date": "2026-04-03",
+      "title_en": "Microsoft commits $10B/4yr Japan investment with SoftBank, Sakura Internet for AI data centers + cybersecurity + 1M dev training by 2030",
+      "source": "Microsoft / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-03 is 48 days old. Surfaced again in roundups but no new development."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk strikes broad OpenAI partnership for drug discovery, manufacturing, supply chain, commercial operations",
+      "source": "Novo Nordisk / Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 37 days old (>5 day limit)."
+    },
+    {
+      "story_key": "five-eyes-agentic-ai-guidance",
+      "event_date": "2026-05-01",
+      "title_en": "Five Eyes cyber agencies (CISA/NSA/ASD/CCCS/NCSC NZ/NCSC UK) publish first joint 'Careful Adoption of Agentic AI Services' guidance",
+      "source": "CISA / CyberScoop",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-01 is 20 days old (>5 day limit)."
+    },
+    {
+      "story_key": "google-antigravity-2-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Google adds $100 AI Ultra entry tier and cuts top Ultra from $250 to $200, plus AI Pro gets YouTube Premium Lite",
+      "source": "Google blog / Engadget",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "story_key already published 2026-05-19 ('Google Antigravity 2.0 …—AI Ultra 反向降价 $250→$200'). The $250→$200 cut and Antigravity/Managed Agents were the headline. The new $100 tier and YouTube Premium Lite bundling are minor pricing additions to the same already-covered subscription reshuffle; no substantively new development warranting a second card."
+    },
+    {
+      "story_key": "anthropic-code-with-claude-london",
+      "event_date": "2026-05-20",
+      "title_en": "Code with Claude London runs May 20-21, plus 'Extended London' day for indie devs/founders",
+      "source": "Anthropic / claude.com",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "London tour stop is a re-airing of the San Francisco 5-6 keynote (Dreaming, Outcomes, Multi-Agent Orchestration, Claude Code routines, Advisor, Claude for Small Business, Claude Design). No new product or model unveiled at the London event itself."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek releases V4-Pro and V4-Flash preview; beats open rivals on math/code, trails Gemini 3.1 Pro only on world knowledge",
+      "source": "DeepSeek / Al Jazeera / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 27 days old (>5 day limit)."
+    },
+    {
+      "story_key": "usaf-warmatrix-ge26-wargame",
+      "event_date": "2026-03-27",
+      "title_en": "USAF debuts AI 'WarMatrix' in operational use at GE 26 Benchmark Wargame; first AI inside live USAF wargame",
+      "source": "Air Force / Defense News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-27 is 55 days old (>5 day limit). Coverage continues in May roundups but no new development."
+    }
+  ]
+}
