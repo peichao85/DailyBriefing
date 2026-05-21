@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-22",
+  "total_candidates": 15,
+  "kept": 8,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-21",
+      "title_en": "Trump postpones AI executive order signing hours before ceremony",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-20 with title about draft text leaking. New info: Trump publicly pulled the planned signing ceremony hours before it was to happen at the White House, said 'I didn't like certain aspects of it', cited concern it could be a 'blocker' to US AI lead. CEOs already invited and en route. Major reversal."
+    },
+    {
+      "story_key": "anthropic-acquires-stainless",
+      "event_date": "2026-05-18",
+      "title_en": "Anthropic acquires Stainless, immediately shuts SDK pipeline OpenAI/Google use",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major M&A: Anthropic acquired Stainless ($300M+ per The Information), the New York dev-tools company whose SDK generator underpins official Anthropic, OpenAI, Google, Meta, Cloudflare SDKs. Anthropic immediately disabled new signups and SDK generations for non-Anthropic clients."
+    },
+    {
+      "story_key": "openai-yc-tokens-equity",
+      "event_date": "2026-05-20",
+      "title_en": "Sam Altman offers $2M OpenAI tokens to every YC Spring 2026 startup for equity",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Altman at closed-door YC event Tuesday 5-19 night announced $800M total compute for ~2% equity across ~400 YC startups, structured as uncapped SAFE. Altman called it 'tokenmaxxing'. Reported 5-20."
+    },
+    {
+      "story_key": "google-gemini-35-flash-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Google ships Gemini 3.5 Flash, beats Gemini 3.1 Pro at 4x speed",
+      "source": "Google Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Distinct from gemini-omni-leak-io-2026 (which covered Omni Flash *video* model and agent stack theme). Gemini 3.5 Flash is Google's new general-purpose frontier text/coding/agent model: 76.2% Terminal-Bench 2.1, 83.6% MCP Atlas, 1656 Elo on GDPval-AA — beats 3.1 Pro on most coding/agentic benchmarks; pricing $1.50/$9 per 1M (3x prior Flash but ~40% cheaper than 3.1 Pro)."
+    },
+    {
+      "story_key": "anthropic-managed-agents-sandboxes-mcp-tunnels",
+      "event_date": "2026-05-19",
+      "title_en": "Anthropic ships self-hosted sandboxes and MCP tunnels at Code with Claude London",
+      "source": "Anthropic Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. At Anthropic's first European developer conference (London 5-19/5-20/5-21), Claude Managed Agents got two new features: self-hosted sandboxes (public beta, runs on customer infra or Cloudflare/Daytona/Modal/Vercel) and MCP tunnels (research preview, agents reach private MCP servers via single outbound connection)."
+    },
+    {
+      "story_key": "exa-series-c-220m",
+      "event_date": "2026-05-20",
+      "title_en": "Exa raises $250M Series C at $2.2B valuation led by a16z",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Exa (web-search-API-for-agents, founded 2021) tripled valuation from $700M Sept 2025 to $2.2B; a16z led. Powers search for Cursor, Cognition, HubSpot, OpenRouter, Monday.com + 400k devs. Direct competitor to Parallel."
+    },
+    {
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-18",
+      "title_en": "Vatican confirms Magnifica Humanitas encyclical for May 25 with Anthropic co-founder co-presenting",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-16 (AI research group announcement). New info on 5-18: Vatican confirmed encyclical title 'Magnifica Humanitas' (signed 5-15, 135th anniversary of Rerum Novarum), publication date 5-25, and that Anthropic co-founder (Jack Clark) will personally co-present alongside Pope Leo XIV at the Vatican Synod Hall — first time Vatican has co-launched a papal encyclical with a tech executive."
+    },
+    {
+      "story_key": "cursor-cloud-agents-research",
+      "event_date": "2026-05-21",
+      "title_en": "Cursor publishes 'What we've learned building cloud agents'",
+      "source": "Cursor Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Cursor's Josh Ma published engineering postmortem on building cloud agents: custom harness for long-horizon tasks, synthetic task creation via feature-deletion, observed reward hacking (model reverse-engineered Java bytecode, discovered Python type-check caches). Foundational visibility into how the coding-agent leader is solving production agent reliability."
+    },
+    {
+      "story_key": "cursor-anysphere-50b-funding",
+      "event_date": "2026-04-17",
+      "title_en": "Cursor in talks to raise $2B at $50B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-17 is 35 days old (>5 day limit). The talks began in April; no confirmed close in the last 5 days."
+    },
+    {
+      "story_key": "openai-ads-manager-self-serve",
+      "event_date": "2026-05-05",
+      "title_en": "OpenAI opens ChatGPT Ads Manager self-serve to all US advertisers",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-05 is 17 days old (>5 day limit). Self-serve beta launched 5-5; no substantive new event 5-17 to 5-22."
+    },
+    {
+      "story_key": "novo-nordisk-openai-partnership",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk strategic partnership with OpenAI for drug discovery",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is 38 days old (>5 day limit)."
+    },
+    {
+      "story_key": "parallel-web-systems-series-b",
+      "event_date": "2026-04-29",
+      "title_en": "Parallel Web Systems raises Series B at $2B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-29 is 23 days old (>5 day limit)."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-05-02",
+      "title_en": "DeepSeek-V4 series released on Hugging Face",
+      "source": "Hugging Face",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-02 is 20 days old (>5 day limit)."
+    },
+    {
+      "story_key": "tesla-model-s-x-end-production",
+      "event_date": "2026-05-21",
+      "title_en": "Tesla ends Model S and Model X production",
+      "source": "Teslarati",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within freshness window but story is core-EV not AI-core; Optimus angle is secondary. Drop to keep briefing focused on AI."
+    },
+    {
+      "story_key": "mercury-series-d-200m",
+      "event_date": "2026-05-20",
+      "title_en": "Mercury raises $200M Series D at $5.2B valuation",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within freshness window but story is fintech (digital banking platform) not AI-core. Drop to keep briefing focused on AI."
+    }
+  ]
+}
