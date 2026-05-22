@@ -1,0 +1,280 @@
+{
+  "date": "2026-05-23",
+  "category": "AI",
+  "researched_at": "2026-05-23T07:05:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk",
+    "@JeffDean", "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@karpathy",
+    "@julien_c", "@ScottWu46", "@alighodsi", "@JonathanRoss321",
+    "@lexfridman", "@garrytan", "@DrJimFan",
+    "CNBC", "Axios", "Fortune", "Reuters", "TechCrunch", "SiliconANGLE",
+    "Time", "Bloomberg", "Politico", "Channel 4", "Scientific American",
+    "OpenAI Blog", "Anthropic Blog", "Microsoft Blog"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "OpenAI 周五真把 S-1 递了：Goldman + Morgan Stanley 联席承销、目标 9 月上市 $1 万亿+ ——AI 史上最大 IPO 流程正式开跑",
+      "source": "@sama",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+      "story_key": "openai-confidential-ipo-s1",
+      "event_date": "2026-05-22",
+      "summary": "OpenAI 5-22 周五正式向 SEC 提交 confidential S-1 草案——Goldman Sachs 与 Morgan Stanley 联席承销，目标 2026-Q4（最早 9 月）上市，估值区间 $8520 亿—$1 万亿+。距 SpaceX 5-20 公开提交 S-1 仅 48 小时，AI / 太空双 IPO 同时开跑。",
+      "detail": "OpenAI 5-22 周五正式按 confidential filing 路径向 SEC 提交 S-1 注册草案——这是上周一系列报道之后由 CNBC 与 Wall Street Journal 双确认的 'do' 时间点。承销团锁定为 **Goldman Sachs + Morgan Stanley** 联席领衔；公司目标在 **2026 年 9 月—11 月（Labor Day 至 Thanksgiving 之间）**完成定价上市；估值区间为 **$8520 亿—超过 $1 万亿**——比 3 月私募轮的 $8520 亿再上一台阶。\n\nconfidential filing 的意思是：S-1 先以草案形式与 SEC 进行非公开往返修改，财务细节在 roadshow 开启前约 15 天才会正式公开——意味着市场最早要到 **8 月下旬**才会看到 OpenAI 完整的财务披露。这给公司大约 4—6 个月的'隐形期'来与监管磨合 + 等待市场窗口。\n\n5-20 SpaceX 已公开 S-1、瞄准 **$1.75—2 万亿**估值的 ticker SPCX；5-22 OpenAI 紧跟 confidential S-1、瞄准 $1 万亿+——两家公司在 48 小时内同时启动史上最大的两宗科技 IPO。注意：SpaceX 是 public filing（S-1 即时全文公开），OpenAI 走 confidential 路径——这一处差异本身就揭示了 OpenAI 仍在最后调试财务披露的口径。\n\n背景信息：Fortune 5-22 列出 IPO 文件预计将回答的三大悬而未决问题——(1) OpenAI 在过去 6 周内已宣称完成 $1220 亿融资后还能再融多少股权？CFO Sarah Friar 5-15 已表示需要更多算力资本；(2) 2025 全年与 2026 Q1 真实损益（外界估算亏损 $400 亿+/年）；(3) 与 Microsoft 的最新分润 / 股权安排细节——3 月之后未再公开更新。",
+      "key_quotes": [
+        "OpenAI is filing a confidential draft registration statement with the SEC this week, possibly on Friday, May 22.",
+        "Goldman Sachs and Morgan Stanley are leading the deal for the $850 billion-valued company.",
+        "Targeting a public listing window between Labor Day and Thanksgiving 2026, giving it roughly four to six months of runway after the confidential filing.",
+        "Investors having to decide whether they believe the company can turn its spending into durable profits. — Fortune"
+      ],
+      "significance": "OpenAI 把 IPO 从'计划中'推到'流程中'——一旦草案落在 SEC 系统，公司就必须接受证券法层级的财务披露纪律，无法再像私募轮那样回避亏损细节。这也意味着 2026-Q4 之前 OpenAI 必须把'算力支出 / 收入 / 与 Microsoft 关系'三个最敏感的口径打磨到能见公众。对 Anthropic（5-20 同期披露 $10.9B Q2 即将首次盈利）形成直接对照——上市后投资者会用 Anthropic 的盈利时间表反向倒推 OpenAI 的盈利可信度。",
+      "links": [
+        "https://www.cnbc.com/2026/05/20/openai-ipo-filing.html",
+        "https://www.axios.com/2026/05/20/openai-ipo-spacex-musk",
+        "https://fortune.com/2026/05/22/openai-ipo-filing-1-trillion-may-finally-answer-these-big-questions/",
+        "https://aiweekly.co/alerts/openai-files-confidential-ipo-with-goldman-morgan-stanley"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "IPO", "S-1", "Goldman Sachs", "Morgan Stanley", "$1T", "SEC"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Anthropic 反手把'第一份盈利季'摆到 OpenAI 上市路演面前：Q2 收入 $109 亿 (+130% QoQ)、首次 operating profit $5.59 亿、Q1 $48 亿仅 6 周前",
+      "source": "@DanielaAmodei",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html",
+      "story_key": "anthropic-q2-revenue-first-profit",
+      "event_date": "2026-05-20",
+      "summary": "Anthropic 5-20 在投资人材料中披露：Q2 (截至 6 月底) 收入将达 **$109 亿美元**，比 Q1 $48 亿环比增长 **130%**，并将实现公司有史以来首个 operating profit **$5.59 亿**——正好踩在 OpenAI 5-22 提交 S-1 之前，把'盈利时间表'摆到投资人桌面上。",
+      "detail": "Anthropic 5-20 通过给新一轮投资人发送的财务材料（CNBC + TechCrunch 同日报道，多家二级来源 5-21 跟进）首次披露：\n\n• **Q2 收入 ~$109 亿美元**（截至 6 月底季度）——相比 Q1 的 **$48 亿**，环比增长 **130%**；\n• 同期将录得有史以来第一份 **operating profit：约 $5.59 亿美元**；\n• 这是公司创立以来第一个能在 operating level 上盈利的季度；\n• 同时也是上一轮即将敲定的 **$9000 亿估值** ([[anthropic-1t-valuation-50b-round]]) 路演中最关键的数据点。\n\nAnthropic 同步提醒投资人：高强度的 compute 合同与 2026 年下半年仍将继续的算力扩张，意味着这一次 operating profit 未必能保持到全年——但 Q2 是一次'结构性证明'，即在前沿模型公司中，至少有一家能在 token 单价 + 客户量两端同时跑通经济模型。\n\nQ1 $48 亿 → Q2 $109 亿的 130% 环比增长，主要拉动来自三方面：(1) 5-14 与 PwC 全球 30 万员工铺开 Claude Code 的多年合同 ([[anthropic-pwc-partnership]])；(2) 5-16 Benioff All-In 播客确认 Salesforce 仅编码一项每年烧 ~$3 亿 Anthropic token ([[salesforce-benioff-300m-anthropic-tokens]])；(3) 5-18 收购 Stainless 后将所有竞争对手的 SDK 流水线截断 ([[anthropic-acquires-stainless]])。\n\n时间点上，5-20 披露 → 5-22 OpenAI 递 S-1：Anthropic 用一份具体盈利时间表，把'前沿模型公司也能盈利'的命题钉在了 OpenAI IPO 路演的同一个会议桌上。",
+      "key_quotes": [
+        "Anthropic informed its investors that it will more than double revenue to approximately $10.9 billion in its second quarter.",
+        "Operating profit of $559 million for the second quarter of 2026, reflecting a remarkable growth of 130% from the $4.8 billion achieved in the first quarter.",
+        "Anthropic may face challenges in maintaining profitability throughout the year due to high scheduled compute costs."
+      ],
+      "significance": "前沿模型行业第一次在数字层面上证明'付费 API + Code Agent 订阅'的模式可以盈利。这一披露的时机比数字本身更要紧——它故意压在 OpenAI 5-22 confidential S-1 之前，给 IPO 路演里的潜在投资人提供一个反向参照：OpenAI 估值 $1T、Anthropic 估值 $900B，但 Anthropic 已经能拿出一份 operating profit，OpenAI 在 S-1 文件里要么也能拿出（罕见），要么必须解释为什么估值更高却仍亏损 $400 亿/年。对 Anthropic 自身而言，$559M operating profit 给 $9000 亿估值轮提供了第一份可以引用的财务硬证据。",
+      "links": [
+        "https://www.cnbc.com/2026/05/20/anthropic-revenue-explosive-growth-ipo-profitable-quarter.html",
+        "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+        "https://dataconomy.com/2026/05/21/anthropic-profit-revenue-10-9-billion/",
+        "https://winbuzzer.com/2026/05/21/anthropic-targets-first-profit-as-revenue-hits-109b-xcxwbn/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Q2 财报", "$10.9B", "operating profit", "首次盈利", "Claude"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "OpenAI 通用推理模型直接证伪 Erdős 80 年悬案：用 Golod-Shafarevich 代数数论自己找到无穷反例，Fields 奖得主 Gowers 称'AI 数学里程碑'",
+      "source": "@sama",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "story_key": "openai-erdos-conjecture-disproved",
+      "event_date": "2026-05-20",
+      "summary": "OpenAI 5-20 宣布其内部**通用推理模型**（非 math-specialized）自主证伪了 Paul Erdős 1946 年提出的**单位距离猜想**——80 年来数学界普遍相信方形网格已是最优排布，OpenAI 模型用 **Golod-Shafarevich 代数数论 + 无穷类域塔**构造出无穷多反例族、达到 n^(1+δ) 多项式改进。Fields 奖得主 Tim Gowers 称'AI 数学里程碑'。",
+      "detail": "OpenAI 5-20 在官方研究博客发布：一款通用推理模型（**非**专门为数学训练、**非**针对该问题搭脚手架）自主证伪了 Paul Erdős 1946 年提出的**单位距离猜想 (unit-distance conjecture)**——该猜想问：平面上放置 n 个点时，相互距离恰好为 1 的点对最多能有多少？\n\n80 年来：\n• 数学界普遍相信方形网格 (square grid) 排布给出了渐进最优解；\n• 最佳已知下界来自 Erdős 自己 1946 年的构造；\n• 一直没有改进。\n\nOpenAI 模型给出的结果：\n• 找到**一整族**点排布、给出 **n^(1+δ) 的多项式改进**（δ > 0 为固定常数）；\n• 构造手段不是平面几何，而是用**代数数论中的 Golod-Shafarevich 定理 + 无穷类域塔 (infinite class field towers)**——把数论结构投影到平面距离问题上；\n• 模型搜索过的策略空间不限于几何，自行选择跨学科工具；\n• 证明已由外部数学家小组（包括 Fields 奖得主 Tim Gowers）独立验证；OpenAI 同步发布一篇 companion paper 解释构造与意义。\n\nGowers 在 Mastodon / Twitter 上称这是'AI 数学里程碑'——重点不在'证明了一个具体猜想'，而在于'通用推理模型自发选择正确的跨学科技术工具'。\n\n相比之下，DeepMind 的 AlphaProof / AlphaGeometry 等专门数学系统过往的几次成绩都依赖大量 task-specific 训练 + 几何特化的形式化器；OpenAI 这次的构造来自一个 general-purpose 推理模型，意味着模型层面对数学 reasoning 的迁移能力比此前 benchmark 显示的更强。",
+      "key_quotes": [
+        "An internal OpenAI model has disproved this longstanding conjecture, providing an infinite family of examples that yield a polynomial improvement.",
+        "The proof came from a new general-purpose reasoning model, rather than from a system trained specifically for mathematics, scaffolded to search through proof strategies, or targeted at the unit distance problem in particular.",
+        "Tim Gowers calling the proof a 'milestone in AI mathematics'."
+      ],
+      "significance": "这是通用推理模型在数学开放问题上的第一份'非专用 + 自主选择技术工具'的具体反例性成果。意义不在于数学本身（80 年的猜想被证伪是大新闻但局限于专业领域），而在于：(1) 没有为问题预训练或脚手架；(2) 自动选择了'平面距离猜想要用数论 / 类域塔'这种跨学科技术路径，与人类数学家的典型直觉非常不同；(3) 证伪而非简单改进——意味着模型不止能延展已知方法，还能找到与人类反直觉的新构造。结合 5-22 Jack Clark 在牛津称'AI 一年内将协助拿到诺贝尔'的预测——这是论据。",
+      "links": [
+        "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+        "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+        "https://www.scientificamerican.com/article/ai-just-solved-an-80-year-old-erdos-problem-and-mathematicians-are-amazed/",
+        "https://explainx.ai/blog/openai-planar-unit-distance-erdos-problem-solved-2026"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "数学", "Erdős", "推理模型", "Golod-Shafarevich", "Tim Gowers"],
+      "category": "research"
+    },
+    {
+      "id": "4",
+      "title": "Figure AI 之父 Brett Adcock 第三次出场：Hark $7 亿 Series A 锁 $60 亿估值、产品全无曝光，Nvidia / AMD / Intel / Qualcomm 集体押注'通用 AI 接口'",
+      "source": "Hark / TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "story_key": "hark-series-a-adcock",
+      "event_date": "2026-05-21",
+      "summary": "Brett Adcock（Figure AI、Archer 创始人）的第三家公司 Hark 5-21 公告完成 **$7 亿美元 Series A**、投后估值 **$60 亿美元**——Parkway Venture Capital 领投，**Nvidia、AMD、Intel、Qualcomm 四大芯片厂同时入资**。公司至今未公开任何产品细节，但定位为'AI 通用接口'：先发模型、再发专用硬件。",
+      "detail": "Hark 5-21 通过 BusinessWire 与 TechCrunch 同步确认 Series A 完成：\n\n• 规模 **$7 亿美元、投后估值 $60 亿美元**；\n• 领投：**Parkway Venture Capital**；\n• 跟投：**Nvidia、AMD Ventures、Intel Capital、Qualcomm Ventures** 四家芯片巨头（同一轮里历来罕见）、**ARK Invest（Cathie Wood）**、Align Ventures、Brookfield、Greycroft、Prime Movers Lab、Salesforce Ventures、Tamarack Global；\n• Adcock 个人 2025 年底已先以 **$100M 自有资金** 启动公司；\n• 目前团队约 **70 人**，自建数据中心配 **Nvidia B200 GPU**；\n• Founder 同时是 **Figure AI**（人形机器人）与 **Archer Aviation**（eVTOL 电动飞机）创始人，是少见的同时打三个赛道的 serial founder。\n\n产品路线（公司唯一公开口径）：\n• 把 Hark 定位为'agentic AI personal assistant'——主动、个性化、跨产品的 AI 接口；\n• **首批 multimodal 模型今年夏天发布**，配合现有 app 与服务工作；\n• 随后发布**为该平台专门定制的硬件设备**——非智能手机、非智能眼镜，具体形态未披露；\n• 强调与 speech / vision / memory 三个 modality 的深度集成；\n• 几乎所有同业 fundraise 都会配公开 demo 或技术博客，Hark **没有发布任何**——'secrecy'是 5-21 媒体的统一关键词。\n\n意义在于：Adcock 用一份 $7 亿 / $60 亿的 Series A 重新把'AI 手机 / AI 设备'赛道炸开——Humane、Rabbit、Friend 等前辈都在产品形态上失败，但 Hark 在'未发任何产品'的情况下，先把芯片厂、超级 VC 和资本市场绑成了一个 alliance。",
+      "key_quotes": [
+        "Hark, an AI lab building models and hardware for an AI personal assistant, raised $700 million in a Series A round valued at $6 billion post-money.",
+        "Founder and CEO Brett Adcock launched Hark in late 2025 with $100 million of his own money.",
+        "Hark focuses on building proactive, personalized AI that interacts with the world through speech, vision, and memory.",
+        "What's most notable about the fundraise is how little Hark has revealed about what it is building."
+      ],
+      "significance": "把'AI 设备'押注做成 alliance 模式——Nvidia、AMD、Intel、Qualcomm 同一轮入资意味着无论 Hark 最终用什么芯片，主要的西方 AI 硬件厂都已经在内部备好供应链共识。这一定程度上把'AI 个人设备'从 Humane Rabbit 时代的'初创单挑'拉到了'芯片厂联盟支持下的新一轮硬件赛事'。对中国市场也是信号：当 5 月 Nvidia 仍在与中国为 H200 较劲时，西方四大芯片厂已经同时给 Adcock 押注他们对下一代终端 AI 形态的押注。",
+      "links": [
+        "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+        "https://www.businesswire.com/news/home/20260521171628/en/Hark-Raises-$700M-Series-A-at-a-$6B-Valuation",
+        "https://siliconangle.com/2026/05/21/hark-raises-700m-build-personalized-intelligence-devices/",
+        "https://www.finsmes.com/2026/05/hark-raises-700m-in-series-a-funding-at-a-6b-valuation/"
+      ],
+      "tags": ["Hark", "Brett Adcock", "Series A", "$700M", "Nvidia", "AMD", "Intel", "Qualcomm", "AI 硬件"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "Modal Labs $3.55 亿 Series C 估值翻 4 倍到 $46.5 亿：ARR 9 个月内从 $6000 万跳到 $3 亿，General Catalyst + Redpoint 领投——'AI 推理基础设施'迎来第一份盈亏明面账",
+      "source": "@erikbern (Modal Labs CEO)",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://siliconangle.com/2026/05/21/serverless-ai-infrastructure-startup-modal-labs-seals-355m-funding-round/",
+      "story_key": "modal-labs-series-c",
+      "event_date": "2026-05-21",
+      "summary": "Modal Labs 5-21 公告完成 **$3.55 亿美元 Series C**、投后估值 **$46.5 亿美元**——Redpoint Ventures + General Catalyst 联席领投，Accel / Menlo / Bain Capital 跟投。CEO Erik Bernhardsson 向 Reuters 披露 ARR 在 9 个月内从 **$6000 万**跳到 **$3 亿**——估值比 2025-9 月的 $1.1 亿翻了 4 倍。",
+      "detail": "AI 推理基础设施初创 Modal Labs 5-21 完成 Series C：\n\n• 规模 **$3.55 亿美元**，投后估值 **$46.5 亿美元**；\n• 上一轮 (2025-9) 估值 $1.1 亿，9 个月内估值翻 **4×**；\n• 领投：**Redpoint Ventures + General Catalyst** 联席；跟投 Accel、Menlo、Bain Capital Ventures；\n• 资金分两次 tranche 进入：第一笔在 $2.5B 估值收尾、追加投资人后把第二 tranche 推到 $4.65B；\n• CEO **Erik Bernhardsson** 向 Reuters 披露：annualized revenue 已从 **2025-9 的 $6000 万**跳到 **当下的 $3 亿**——9 个月 ~5×。\n\n业务范围：\n• Modal 提供 **serverless GPU 推理**——开发者不用自管 cloud server 就能跑 AI inference；\n• 同时有 **sandbox 产品**测试 AI 生成代码（与 Anthropic 5-19 的 Self-Hosted Sandboxes / Daytona / Vercel 同业但走更基础的 IaaS 路径）；\n• 主要客户是 Cursor、Anthropic、各类 agent 创业公司——'AI Agent 编码热'直接推高了 token 与 sandbox 调用量。\n\n位置：Modal 是 5-19 至 5-21 那一周三家融资轮里 **AI Infrastructure 三角**的中段——上有 Hark $7 亿做应用层 (5-21)，下有 Decart $3 亿做世界模型 + 推理优化 (5-18)，Modal $3.55 亿打中间的'compute as a service'。三家分别在终端、模型与基础设施层吃 Nvidia / AMD / Adobe / Intel 资金。",
+      "key_quotes": [
+        "Modal Labs has raised $355 million in new funding at a $4.65 billion valuation, a massive jump from the roughly $1.1 billion valuation it secured less than a year ago.",
+        "Modal Labs' annualized revenue has surged to about $300 million, up from $60 million in September.",
+        "Modal helps companies access the GPUs required to run AI inference workloads, the process of serving and executing AI models after training."
+      ],
+      "significance": "AI 推理基础设施第一次有了一份具体可以引用的盈亏面账——5x ARR 增长 / 9 个月，意味着 inference 端的真实付费需求已经能撑起一家独立的 $4.65B 基础设施公司。对 Cursor、Cognition、Anthropic 这类 'AI agent / coding' 客户来说，Modal 的数据反过来证明 token + sandbox + inference 的支出曲线在客户端是真实的；对 Hyperscaler 来说，Modal 拿走的 $3 亿 ARR 是从 AWS / GCP 直接管理 GPU 服务'下面挖出来的'——serverless layer 已经独立成型。",
+      "links": [
+        "https://siliconangle.com/2026/05/21/serverless-ai-infrastructure-startup-modal-labs-seals-355m-funding-round/",
+        "https://finance.yahoo.com/sectors/technology/articles/exclusive-modal-labs-valued-4-170342702.html",
+        "https://techstartups.com/2026/05/21/modal-labs-raises-355m-quadrupling-valuation-to-4-65b-as-ai-infrastructure-demand-surges/",
+        "https://letsdatascience.com/news/modal-labs-raises-355m-at-465b-valuation-5e9c645e"
+      ],
+      "tags": ["Modal Labs", "Series C", "$355M", "AI 推理", "serverless GPU", "Redpoint", "General Catalyst"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "Trump 撤签后 24 小时：完整 AI 行政令草案被 Politico / Axios 同步泄露——'禁强制许可'明文条款 + 财政部 clearinghouse 全文摆上桌",
+      "source": "Politico / Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/05/22/ai-executive-order-cancelled-white-house",
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-22",
+      "summary": "Trump 5-21 临门撤签 AI 行政令 24 小时之后，**Politico 5-22 先公开了完整草案全文**，Axios、Gizmodo 当日跟进。最关键的新内容是：(1) 明文写入'**不得创设强制性政府许可、preclearance、permitting 要求**'的反约束条款；(2) **由财政部牵头组建实验室 'clearinghouse'**协调网络安全漏洞共享。",
+      "detail": "[[white-house-ai-model-vetting-eo]] 后续：\n\n5-21 Trump 在椭圆办公室临门撤签 AI / 网络安全行政令、CEO 已抵达白宫的消息之后 24 小时——\n\n• **Politico 5-22 抢先公开完整草案全文**；\n• Axios 当天发表 'Read the AI executive order thwarted by Trump tech allies' 同步刊出；\n• Gizmodo 称该 EO 是'吓退 Trump 的版本'。\n\n首次公开的关键条款 (5-22 新增信息):\n\n1. **'covered frontier models' 一节明文写入反约束条款**：原文'Nothing in this section shall be construed to authorize the creation of a mandatory governmental licensing, preclearance, or permitting requirement for the development, publication, release, or distribution of new AI models, including frontier models'——表面框架是'自愿'，但写得这么死，说明草案在内部协商阶段已经被反复'去许可化'。\n\n2. **财政部牵头 'clearinghouse'**：将由 **Treasury Department** 而非 NIST / CISA / 商务部牵头组建一个实验室 + 政府共享网络安全漏洞的清算所（clearinghouse），各机构同步增聘网安人员。\n\n3. **网络安全维度**覆盖五角大楼 + 关键基础设施（医院、银行）；'covered frontier models'侧要求实验室在公开发布**前 90 天**主动向政府共享模型 + 给指定关键基础设施 provider 访问权。\n\n4. **撤签内幕**（Axios 进一步报道）：tech 圈 Marc Andreessen、David Sacks 等被指在最后 24 小时大量游说 Trump，认为该 EO 即使写明'自愿'，仍会形成实际上的预审；TechPolicy.Press 称这是 Trump 放弃了原本被业内戏称为 **'FDA for AI'** 的方案。\n\n**背景回顾：** 5-20 Axios 独家披露草案要点，5-21 周四下午临门撤签、CEO 已抵白宫，Trump 当面对记者说'I didn't like what I was seeing'——本条是该故事的全文披露环节，让政策圈、法律界与 AI 圈第一次能完整读到具体条文。",
+      "key_quotes": [
+        "Nothing in this section shall be construed to authorize the creation of a mandatory governmental licensing, preclearance, or permitting requirement for the development, publication, release, or distribution of new AI models, including frontier models.",
+        "The draft was leaked far and wide, with Politico appearing to be the first to publish it.",
+        "Tech executives summoned to the Oval Office were preparing to fly when the document they had been invited to witness was already being withdrawn. — Axios"
+      ],
+      "significance": "完整草案公开意味着'covered frontier models'的具体政策语言进入了立法与监管圈视野——即使本届政府已经撤签，文本里的'自愿框架 + 90 天预审 + 财政部 clearinghouse + 明文禁强制许可'四件套很可能成为未来州级或国会立法草案的起点。对实验室而言，5-22 之后任何与白宫的'自愿合作'谈判都已经有了具体的参照锚点；对 Andreessen / Sacks 这一派则证明了他们对 Trump 的影响力——AI 监管路径在 2026 年至少被推迟到下半年。",
+      "links": [
+        "https://www.axios.com/2026/05/22/ai-executive-order-cancelled-white-house",
+        "https://gizmodo.com/heres-the-executive-order-on-ai-that-gave-trump-cold-feet-2000762751",
+        "https://www.washingtontimes.com/news/2026/may/22/heres-donald-trumps-postponed-ai-executive-order-would-done/",
+        "https://www.techpolicy.press/trump-abandons-fda-for-ai-proposal/"
+      ],
+      "tags": ["Trump", "AI EO", "Politico", "Axios", "frontier models", "FDA for AI", "财政部"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "Project Glasswing 首份数据落地：Mythos Preview 一个月扫出 10,000+ 高危漏洞，Cloudflare 单家 2,000 / 400 高危，Mozilla 在 Firefox 150 现修 271 条",
+      "source": "Anthropic / Benzinga",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-22",
+      "summary": "Anthropic 5-22 发布 'Project Glasswing: An initial update'——首份具体运营数据：Mythos Preview 一个月内扫出超过 **10,000 条高 / 严重级漏洞**，其中 **Cloudflare 单家 2,000 条 (400 高 / 严重)**、**Mozilla 在 Firefox 150 修复 271 条**；同时扫描 **1,000+ 开源项目**估算 6,202 H/C 漏洞、已 disclose 530 条、其中 75 条已被修复。",
+      "detail": "Anthropic 5-22 在官方研究博客发布 Project Glasswing 的'初次成绩单' (Initial Update)——这是 Glasswing 自 4-7 推出、5-18 解除合作方保密以来第一份具体输出数据：\n\n**合作方实测**\n• **总计**：超过 **10,000** 条 high / critical-severity 漏洞被发现，跨多个被广泛使用的软件系统；\n• 多家合作方反馈 bug 发现速度比传统人工测试**提升超过 10×**；\n• **Cloudflare**：一家就找出约 **2,000** 条 bug、其中 **400** 条 high / critical——同时 false positive rate 低于传统人工 led testing；\n• **Mozilla**：在 **Firefox 150** 版本中识别并修复了 **271** 条漏洞，新 Mythos 模型版本明显比此前版本更有效。\n\n**开源扫描**\n• Anthropic 自己用 Mythos Preview 扫描了 **1,000+** 个开源项目；\n• 估算找到 **6,202** 条 high / critical 漏洞（总计 23,019 条）；\n• 已向项目维护者 disclose **530** 条 high / critical；其中 **75** 条已被打补丁，**65** 条已发布公开 advisory。\n\n**前瞻**\n• Anthropic 明确表示将与'关键合作伙伴'——包括美国及盟国政府——扩大 Glasswing；\n• 公司表示在'开发出更强保护机制后'会通过 general release 把 Mythos 级别模型放出来。\n\n**背景回顾：** 5-18 Glasswing 把初始保密政策放开 (允许 Amazon / Microsoft / Nvidia / Apple / 五角大楼公开承认参与) 之后，本周的 'initial update' 是该项目从'限制合作'走向'公共输出'的第一份具体数据——4-7 受限发布以来的首次实质性可量化成绩。",
+      "key_quotes": [
+        "More than 10,000 high- or critical-severity vulnerabilities across widely used software systems.",
+        "Cloudflare found roughly 2,000 bugs, including 400 classified as high or critical severity, while producing fewer false positives than conventional human-led testing.",
+        "Mozilla identified and fixed 271 vulnerabilities in Firefox 150 during testing with Mythos Preview.",
+        "Anthropic plans to work with critical partners, including the U.S. and allied governments, to expand Project Glasswing."
+      ],
+      "significance": "'AI 帮防御方更快找漏洞'第一次有了能引用的具体数字——10× 速率提升 + 一家 Cloudflare 单跑出 2000 条 + Mozilla 一个 Firefox 版本现修 271 条——这些是 Anthropic 用来反击 4-7 以来'Mythos 模型太危险不该发布'外部质疑的硬数据。同时也对 5-14 Calif 安全公司 6 天造出 macOS 内核 exploit ([[anthropic-mythos-macos-exploit]]) 形成对照：同样的能力被防御方用到了 10× 速率发现 + 修复，至少在合作方范围内验证了'攻防比'对防御方有利。这份数据也是 5-22 同时段 Trump 撤签 AI EO 之后行业自证'我们自己已经在用 AI 防御'的最具体一份证据，将进入未来政策讨论。",
+      "links": [
+        "https://www.anthropic.com/research/glasswing-initial-update",
+        "https://www.benzinga.com/markets/private-markets/26/05/52759147/anthropics-project-glasswing-finds-more-than-10000-critical-bugs-expands-to-additional-partners",
+        "https://www.investing.com/news/stock-market-news/anthropic-finds-over-10000-software-flaws-in-first-month-of-project-glasswing-93CH-4707347"
+      ],
+      "image": "assets/logos/cloudflare-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Glasswing", "Mythos", "Cloudflare", "Mozilla", "Firefox 150", "漏洞"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "8",
+      "title": "Jack Clark 牛津开 + Time 一字不改贴：'AI 一年内将合著诺奖发现 / 双足机器人两年内 / 2028 年 AI 自己设计后继版'——Anthropic 同步把'还可能灭绝人类'写进脚注",
+      "source": "Jack Clark / Time",
+      "source_name": "Time",
+      "source_url": "https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety/",
+      "story_key": "jack-clark-oxford-predictions",
+      "event_date": "2026-05-20",
+      "summary": "Anthropic 联合创始人 Jack Clark 5-20 周三在牛津大学公开演讲提出四组预测：(1) AI 一年内将与人类**合著一项诺奖级发现**；(2) 双足机器人**两年内**协助技师工作；(3) 仅由 AI 运营的公司 **18 个月内**月入数百万美元；(4) **2028 年底前** AI 系统将能自己设计自己的后继版本。同时维持其'AI 仍有非零概率灭绝人类'的警告——Time 5-22 以全篇报道方式收录。",
+      "detail": "Anthropic 联合创始人、Policy 负责人 **Jack Clark** 5-20 周三在 **Oxford University** 公开演讲（同期为 Schwarzman Centre for the Humanities 关联活动），并配套发布了同题 essay 在 Import AI 订阅栏目；**Time 5-22** 以 'Anthropic Sells Claude's Promise While Warning About AI's Dangers' 全篇收录。\n\n**四组核心预测**\n\n1. **诺奖级发现 within 12 months**：AI 将与人类共同做出**一项诺贝尔奖级别的科学发现**——预测被外界普遍解读为指向化学 / 生医 / 物理领域 (近年 AlphaFold 已经接近 Nobel Chemistry 的状态)，配合 OpenAI 同周 5-20 证伪 Erdős 单位距离猜想 ([[openai-erdos-conjecture-disproved]]) 作为论据；\n\n2. **双足机器人 within 2 years**：bipedal robots 将开始协助 tradespeople（电工 / 水管工 / 建筑工人）现场作业——隐含 Figure AI / 1X 等公司将在两年内进入 commercial trades；\n\n3. **AI-only 公司 within 18 months**：仅由 AI 运营的公司将在 18 个月内做到月入数百万美元；\n\n4. **AI 自我设计 by end-2028**：AI 系统将能 design their own successors——即递归自我改进 (recursive self-improvement) 的临界点；Clark 同时把这一时间点画在 'unpredictable future' 的起点。\n\n**同时维持的风险口径**\n\n• Clark 反复强调存在 'a non-zero chance of killing everyone on the planet' 的情景；\n• 'important to clearly state that that risk hasn't gone away'；\n• 即便最坏情景不发生，未来几年的颠覆性也'比有生之年任何一段都强'。\n\n**Time 文章的 framing**\n\nTime 直接把标题定为 'Anthropic Sells Claude's Promise While Warning About AI's Dangers'——指出 Anthropic 同时向开发者卖 Claude / 向政策圈喊风险这一'双轨叙事'。文章把 Clark 描述为这一双轨的执行人，并与 4 月 Claude Mythos 一同上线、可造国家级 cyber-offensive 工具但**不公开发布**的事实并列展开。",
+      "key_quotes": [
+        "AI will work with humans to make a Nobel prize-winning discovery within 12 months.",
+        "Bipedal robots will assist tradespeople within two years.",
+        "Companies run solely by AIs would be generating millions of dollars in revenue within 18 months.",
+        "By the end of 2028 AI systems would be able to design their own successors.",
+        "AI posed a 'non-zero' chance of killing everybody on the planet.",
+        "Even Anthropic itself had underestimated the scale and speed of AI advancement."
+      ],
+      "significance": "Anthropic 把'卖产品 + 喊风险'的双轨说到能写进 Time 标题的程度——这是该公司 PR 战略的一次顶点暴露。对 Jack Clark 而言，他要么用更具体的时间点（12mo / 24mo / 18mo / 2028）替代过去 'AI is dangerous' 的抽象警告，要么这些预测在一年后变成可被外界 verify 的标的。对外部读者，这是少见的可被时间记账的 AGI 路标——12 个月后看是否真有 AI 共著的诺奖工作；24 个月后看是否真有 bipedal robots 在工地上；18 个月后看是否真有 AI-only 公司月入数百万；2028 看是否真有 recursive self-improvement——把抽象预测变成了可证伪命题。",
+      "links": [
+        "https://time.com/article/2026/05/22/anthropic-claude-code-jack-clark-ai-safety/",
+        "https://www.techcentral.ie/anthropic-co-founder-predicts-that-ai-will-within-a-year/",
+        "https://www.resultsense.com/news/2026-05-21-jack-clark-anthropic-ai-nobel-prize-prediction/",
+        "https://www.schwarzmancentre.ox.ac.uk/people/jack-clark-bnrd"
+      ],
+      "tags": ["Jack Clark", "Anthropic", "Oxford", "Nobel", "诺奖", "AGI", "recursive self-improvement"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "9",
+      "title": "Microsoft + EY 五年 $10 亿合资把 AI 'pilot to production'：'四大 + Hyperscaler' 第一次正式联合下场卖企业级 AI 落地",
+      "source": "Microsoft / EY",
+      "source_name": "Microsoft Blog",
+      "source_url": "https://blogs.microsoft.com/blog/2026/04/21/accelerating-frontier-transformation-with-microsoft-partners/",
+      "story_key": "microsoft-ey-1b-pilots-to-production",
+      "event_date": "2026-05-21",
+      "summary": "Microsoft 与 EY 5-21 联合公告：未来 **5 年共同投入超过 $10 亿美元**，专门帮助大企业把 AI 从 PoC / pilot 阶段推进到生产环境——覆盖金融、税务、风险、HR、供应链与受监管行业。是 Big 4 + 顶级 hyperscaler 首次以这一规模与时间维度公开联手锁定'企业 AI 落地'缺口。",
+      "detail": "Microsoft 与 EY 5-21 共同公告战略联盟：\n\n• 承诺：**五年内共同投入超过 $10 亿美元**；\n• 用途：帮企业客户把 AI 系统从 PoC / pilot 推进到 production；\n• 覆盖领域：finance, tax, risk, HR, supply chain, 以及 regulated industries (medical / banking / public sector)；\n• 战略框架：把 EY 的行业 + 合规 + 流程咨询能力与 Microsoft 的 Copilot / Agent 365 / Azure AI 栈深度整合；\n• 是 4-21 Microsoft 'Accelerating Frontier Transformation with Microsoft partners' 框架在 5-21 第一个具体落地的合作伙伴。\n\n时点 + 对比：\n• 与 5-14 Anthropic + PwC 'Big 4' 战略联盟 ([[anthropic-pwc-partnership]]) 形成 PwC 押 Anthropic、EY 押 Microsoft + OpenAI 的二选一阵营；\n• 与 5-22 Anthropic 在 Code with Claude London ([[anthropic-managed-agents-sandboxes-mcp-tunnels]]) 强调 'self-hosted sandbox + MCP tunnels'恰好正面竞争 —— 双方都在把 AI Agent 推到企业边界之内；\n• 与 5-01 微软 365 E7 Frontier Suite ($99 / user / month) 上线相互配套：E7 给客户底层套件，EY + Microsoft 合资给客户人员 + 实施服务。\n\n'pilot to production' 是 2025-2026 企业 AI 最大隐性瓶颈：根据多家 IDC / Gartner 调研，超过 70% 的企业 AI POC 没有进入生产，原因是数据、合规、变更管理。Microsoft + EY 的 $10 亿是第一份把'让 PoC 进 production'写进合资公告的资金承诺。",
+      "key_quotes": [
+        "Microsoft and EY will invest more than $1 billion over five years to help enterprise clients move AI systems from pilots into production.",
+        "Across finance, tax, risk, HR, supply chain, and regulated industries.",
+        "AI is no longer an assistant. It is infrastructure."
+      ],
+      "significance": "企业 AI 的'最后一公里'第一次被金额化承诺——五年 $10 亿。这是 hyperscaler + Big 4 联盟模式从 PwC-Anthropic（5-14）到 EY-Microsoft（5-21）的复制扩散；接下来 Deloitte / KPMG 极可能也将与 Google / OpenAI 形成对等阵营。对中国企业用户而言，这暗示未来一年'AI Agent 进生产'的标准玩法很可能就是'hyperscaler 出栈 + Big 4 出人 + 客户出数据'的三方分润——CIO 们要重新评估自己在这个分润链中的位置。",
+      "links": [
+        "https://windowsforum.com/threads/microsoft-and-ey-invest-1b-to-move-enterprise-ai-pilots-into-production.419215/",
+        "https://blogs.microsoft.com/blog/2026/04/21/accelerating-frontier-transformation-with-microsoft-partners/"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "EY", "$1B", "企业 AI", "pilot to production", "Copilot", "Azure"],
+      "category": "product_operators"
+    },
+    {
+      "id": "10",
+      "title": "Decart $3 亿 Series B 锁 ~$40 亿估值：Radical / Nvidia / Adobe / Toyota 同盘押，Karpathy 个人入资——把 'real-time world model' 跑到 AWS Trainium3 上正式商用",
+      "source": "Decart",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://siliconangle.com/2026/05/18/decart-raises-300m-ai-optimization-software-world-models/",
+      "story_key": "decart-300m-radical",
+      "event_date": "2026-05-18",
+      "summary": "前沿实验室 Decart 5-18 公告 **$3 亿美元融资、估值 ~$40 亿**——Radical Ventures 领投，Nvidia / Adobe Ventures / Toyota Ventures / eBay Ventures / Atreides / Valor 全部新入；Sequoia / Benchmark / Zeev 老股东跟投，Andrej Karpathy / Nintendo 家族 / Michael Eisner 个人入资。同步公告与 AWS 战略合作，'Lucy2' world model 正式跑在 **Trainium3** 上。",
+      "detail": "以色列裔前沿实验室 **Decart** 5-18 公告完成 **$3 亿美元**新一轮融资：\n\n• 投后估值 **~$40 亿美元**；\n• 累计融资超过 **$4.5 亿美元**（含此前所有轮次）；\n• 领投：**Radical Ventures**（曾投 Cohere）；\n• **首次入场**的新投资人：**Nvidia、Adobe Ventures、Toyota Ventures、eBay Ventures、Atreides Management、Valor Equity Partners**——单看名单可见 chip / creative / 汽车 / 电商 / hedge fund 同时押注；\n• 老股东跟投：Sequoia Capital、Benchmark、Zeev Ventures；\n• 个人投资人罕见名单：**Andrej Karpathy（5-19 刚加入 Anthropic）**、Michael Eisner、**Nintendo 家族**、游戏投资人 Moritz Baier-Lentz。\n\n业务范围\n• Decart 把自己定位为 'frontier AI research lab'——专攻 real-time video 与 world models；\n• 主要产品线：DOS (operating system 级 inference 抽象)、Lucy (world model)、Oasis (优化基础设施)；\n• Founded 2023，San Francisco 总部，New York + Tel Aviv 办公室；\n• 公告同步揭露与 **AWS 战略合作 + commercial agreement + 联合 go-to-market**——是首批把 real-time world model 在 **AWS Trainium 芯片** 上规模化部署的公司之一；**Lucy2 目前运行在 Trainium3 硬件**上。\n\n'world model' 赛道的当下竞争\n• 一周前 5-15 [[runway-world-models-pivot]]：Runway 估值 $53 亿宣布转型 world models；\n• 同期 [[ami-labs-yann-lecun]]：Yann LeCun 3 月已为 AMI Labs 募 $10 亿专做 world models；\n• Google I/O 5-19 [[gemini-omni-leak-io-2026]]：Gemini Omni 视频 world model 同周 GA；\n• Decart 是这一波中唯一同时拿到 **Nvidia + AWS Trainium 双押** 的——意味着无论训练 / 推理用什么硬件路线它都已经在阵营内。\n\nKarpathy 同时（个人）入资 Decart 与（员工）入职 Anthropic 是 5 月最有趣的人才信号：他把 world model 这条线押在了 Decart，把 LLM 预训练这条线押在了 Anthropic——同一周做出两个押注。",
+      "key_quotes": [
+        "Decart said it has now raised more than $450 million to date.",
+        "Decart is among the first companies deploying real-time world models on Amazon's Trainium chips at scale, with Lucy2 currently running on Trainium3 hardware.",
+        "Individual investors included Andrej Karpathy, Michael Eisner, the Nintendo family, and gaming investor Moritz Baier-Lentz."
+      ],
+      "significance": "world models 赛道正在从 Yann LeCun 的纯理论 / Runway 的视频应用，向 Decart 这样的'real-time + 跑在 Trainium 上 + 拿到 Nvidia 同时入资'的全栈实战公司收敛。Karpathy 同时押注 Decart（个人）与 Anthropic（雇佣关系）也是新的人才结构信号——一个研究者可以既是另一家前沿公司的雇员，又是 world model 实验室的财务投资人。对 AWS 而言这是其 Trainium 芯片争夺 inference 客户的最具体一份胜仗：拿下了一家公认的 frontier lab 在 Trainium3 上做生产部署。",
+      "links": [
+        "https://siliconangle.com/2026/05/18/decart-raises-300m-ai-optimization-software-world-models/",
+        "https://decart.ai/publications/decart-raises-300m-tech-leaders-back-the-company-as-both-customers-and-investors",
+        "https://en.globes.co.il/en/article-decart-raises-300m-including-nvidia-investment-report-1001543260",
+        "https://thenextweb.com/news/decart-300-million-radical-ventures-world-models"
+      ],
+      "tags": ["Decart", "Series B", "$300M", "world models", "AWS Trainium", "Nvidia", "Karpathy"],
+      "category": "builders"
+    }
+  ]
+}

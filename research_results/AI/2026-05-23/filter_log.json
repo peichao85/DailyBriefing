@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-23",
+  "total_candidates": 16,
+  "kept": 10,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "openai-confidential-ipo-s1",
+      "event_date": "2026-05-22",
+      "title_en": "OpenAI confidentially files S-1 with SEC Friday, targets September 2026 listing at $850B-$1T+",
+      "source": "CNBC / Axios / Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Major news: OpenAI filed confidential draft S-1 on Friday 5-22, with Goldman Sachs and Morgan Stanley as underwriters, targeting Q4 2026 IPO at valuation between $850B and >$1T."
+    },
+    {
+      "story_key": "anthropic-q2-revenue-first-profit",
+      "event_date": "2026-05-20",
+      "title_en": "Anthropic tells investors Q2 revenue $10.9B (+130% QoQ), first operating profit $559M",
+      "source": "CNBC / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Different from 5-15 anthropic-1t-valuation-50b-round which covered the funding mechanics. This story is specifically about the operational financial projection: $10.9B Q2 revenue vs $4.8B Q1 (130% growth) and $559M operating profit (first ever)."
+    },
+    {
+      "story_key": "openai-erdos-conjecture-disproved",
+      "event_date": "2026-05-20",
+      "title_en": "OpenAI reasoning model autonomously disproves 80-year-old Erdős unit-distance conjecture using algebraic number theory",
+      "source": "OpenAI / TechCrunch / Scientific American",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. General-purpose reasoning model (not math-specialized) disproved 1946 Erdős conjecture by finding infinite family of constructions via Golod-Shafarevich theory. Fields medalist Tim Gowers called it 'milestone in AI mathematics'."
+    },
+    {
+      "story_key": "hark-series-a-adcock",
+      "event_date": "2026-05-21",
+      "title_en": "Brett Adcock's Hark closes $700M Series A at $6B valuation for 'universal' AI interface, Nvidia/Intel/AMD all in",
+      "source": "TechCrunch / BusinessWire",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Figure AI founder Brett Adcock's third unicorn — secretive personal AI hardware co launched late 2025 with his own $100M. Round led by Parkway VC with Nvidia, AMD, Intel, Qualcomm all participating; first models due summer 2026."
+    },
+    {
+      "story_key": "modal-labs-series-c",
+      "event_date": "2026-05-21",
+      "title_en": "Modal Labs raises $355M Series C at $4.65B as serverless AI inference ARR hits $300M",
+      "source": "SiliconANGLE / Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. AI inference infrastructure startup valuation 4x'd from $1.1B in Sept 2025. CEO Erik Bernhardsson disclosed annualized revenue surged from $60M to $300M. Led by Redpoint and General Catalyst."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-22",
+      "title_en": "Full text of Trump's pulled AI EO published by Politico/Axios: explicit anti-licensing clause and Treasury 'clearinghouse'",
+      "source": "Axios / Politico / Gizmodo",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 5-20 (draft details from Axios scoop) and 5-21 (Trump pulled signing). New info on 5-22: actual draft text leaked widely by Politico/Axios — explicit clause 'nothing shall be construed to authorize mandatory governmental licensing, preclearance, or permitting' for AI models, plus Treasury Dept clearinghouse mechanism details. Both Trump-tech-allies sourcing (Marc Andreessen, David Sacks reported to have lobbied against signing) and full document publication are new."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-22",
+      "title_en": "Project Glasswing first-month update: 10,000+ critical bugs found, Cloudflare 2,000, Mozilla fixes 271 in Firefox 150",
+      "source": "Anthropic / Benzinga / Investing.com",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-18 (story was about Anthropic relaxing initial secrecy policy to let partners disclose participation). 5-22 brings entirely new operational data: 10,000+ high/critical-severity vulnerabilities found in first month, Cloudflare alone 2,000 bugs (400 high/critical), Mozilla 271 Firefox 150 fixes, 1000+ open-source projects scanned with 6,202 estimated H/C bugs and 530 disclosed. This is the first concrete output data from Glasswing — not present in any prior coverage."
+    },
+    {
+      "story_key": "jack-clark-oxford-predictions",
+      "event_date": "2026-05-20",
+      "title_en": "Jack Clark at Oxford: AI-collaborated Nobel within 12 months, recursive self-improvement by 2028, 'non-zero chance of killing everyone'",
+      "source": "Channel 4 / Time / Result Sense",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Substantive set of predictions in Oxford speech 5-20 reinforced by Time interview 5-22: Nobel within 12 months, AI-only companies generating millions in 18 months, AI designing successors by 2028 — paired with reiterated 'non-zero chance of killing everyone' warning. Time 5-22 framing 'Anthropic sells Claude's promise while warning about AI's dangers' is a notable PR positioning."
+    },
+    {
+      "story_key": "microsoft-ey-1b-pilots-to-production",
+      "event_date": "2026-05-21",
+      "title_en": "Microsoft + EY commit $1B over five years to move enterprise AI from pilots to production",
+      "source": "Microsoft Blog / Windows Forum",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major enterprise AI services bet — Microsoft and EY pooling >$1B over five years to scale AI in finance, tax, risk, HR, supply chain. Signal that Big 4 + cloud are now jointly underwriting the 'pilot to production' gap that has plagued enterprise AI."
+    },
+    {
+      "story_key": "decart-300m-radical",
+      "event_date": "2026-05-18",
+      "title_en": "Decart raises $300M led by Radical Ventures at ~$4B, Nvidia + Adobe + Toyota in, deploys world models on AWS Trainium3",
+      "source": "SiliconANGLE / Globes / Decart",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Tel Aviv / SF frontier lab focused on real-time world models and inference optimization — $300M led by Radical, Nvidia + Adobe + Toyota + eBay + Atreides + Valor new in, Karpathy / Nintendo family on cap table. Strategic AWS partnership: Lucy2 running on Trainium3. Within 5-day freshness window."
+    },
+    {
+      "story_key": "spacex-cursor-acquisition-option",
+      "event_date": "2026-04-21",
+      "title_en": "SpaceX has $60B option to acquire Cursor 30 days after IPO, $10B breakup fee",
+      "source": "CNBC / TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-21 is 32 days old — far beyond 5-day freshness limit. Story is being recycled in coverage but the underlying announcement was a month ago."
+    },
+    {
+      "story_key": "google-gemini-35-flash-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Hassabis 'foothills of the singularity' I/O keynote framing",
+      "source": "Semafor / Fast Company",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 5-19 with title 'Gemini 3.5 Flash 一夜跑赢 Gemini 3.1 Pro...' under same story_key. The 'foothills of singularity' framing is rhetorical color from the I/O keynote already covered; no substantive new model/product info."
+    },
+    {
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-19",
+      "title_en": "Apple-Google partnership for Siri using Gemini reaffirmed at Cloud Next 26",
+      "source": "Google Cloud",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already covered under apple-ios27-siri-extensions on 5-19. The Thomas Kurian Cloud Next remark is reaffirmation, not net new info."
+    },
+    {
+      "story_key": "cohere-aleph-alpha-merger",
+      "event_date": "2026-04-24",
+      "title_en": "Cohere and Aleph Alpha merge as 'transatlantic AI powerhouse'",
+      "source": "TechCrunch / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is 29 days old — beyond 5-day freshness limit. Story is from April."
+    },
+    {
+      "story_key": "thinking-machines-interaction-model",
+      "event_date": "2026-05-12",
+      "title_en": "Mira Murati's Thinking Machines unveils TML-Interaction-Small real-time multimodal model",
+      "source": "TechCrunch / MarkTechPost",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-12 is 11 days old — beyond 5-day freshness limit."
+    },
+    {
+      "story_key": "ms-suleyman-18-months-white-collar",
+      "event_date": "2026-02-13",
+      "title_en": "Microsoft AI chief Mustafa Suleyman predicts 18 months for full white-collar automation",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Original Fortune publication date 2026-02-13; only the 5-22 Fortune republish ('Microsoft AI chief gives it 18 months') is recent. Underlying event is months old."
+    }
+  ]
+}
