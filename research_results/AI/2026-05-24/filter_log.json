@@ -1,0 +1,287 @@
+{
+  "date": "2026-05-24",
+  "total_candidates": 30,
+  "kept": 9,
+  "dropped": 21,
+  "decisions": [
+    {
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-22",
+      "title_en": "Anthropic to close $30B+ round at $900B+ valuation as soon as next week — tops OpenAI",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Brand-new financing-close confirmation. Bloomberg 5-22 reports Sequoia / Dragoneer / Altimeter / Greenoaks each putting ~$2B as co-leads. story_key not in lookback (lookback only has 5-20 anthropic-q2-revenue-first-profit, which is the revenue disclosure, not the round close)."
+    },
+    {
+      "story_key": "xai-grok-third-party-connectors",
+      "event_date": "2026-05-22",
+      "title_en": "Grok adds Vercel, Canva, Gamma, S&P Global connectors",
+      "source": "xAI / Grok product blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Brand-new product surface expansion landed 5-22. story_key not in lookback. Distinct from earlier SpaceXAI / Grok 4.3 / Grok Build stories."
+    },
+    {
+      "story_key": "adobe-gemini-creativity-connector",
+      "event_date": "2026-05-19",
+      "title_en": "Adobe Firefly Creativity Connector coming to Google Gemini — Photoshop / Premiere / Illustrator orchestrated from chat",
+      "source": "Adobe Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Adobe 5-19 published Creativity Connector announcement, distinct product surface from prior I/O coverage (which focused on Gemini models). story_key not in lookback."
+    },
+    {
+      "story_key": "mini-shai-hulud-npm-attack",
+      "event_date": "2026-05-19",
+      "title_en": "TeamPCP Mini Shai-Hulud worm: 639 malicious npm packages published via @antv compromise in 1 hour",
+      "source": "Snyk / Wiz / Akamai disclosure",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Largest single-hour npm attack wave to date hit 5-19 via @antv maintainer compromise. Follows 5-11 TanStack wave but is a new event, new scale, new technique (provenance-attestation indistinguishable). story_key not in lookback."
+    },
+    {
+      "story_key": "nvidia-h200-china-clearance",
+      "event_date": "2026-05-21",
+      "title_en": "Huang: Nvidia has 'largely conceded' China's AI chip market to Huawei",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Returning from 5-18 lookback entry where Huang said 'market 早晚会开' / China revenue at zero. New on 5-21: Huang explicitly admits Nvidia has 'largely conceded' to Huawei — a sharp tonal shift from 'wait and see' to 'lost battle'. Substantive new information."
+    },
+    {
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-23",
+      "title_en": "Vatican confirms Chris Olah (not Jack Clark) joins Pope Leo XIV at Magnifica Humanitas release tomorrow; Pope to speak personally breaking precedent",
+      "source": "National Catholic Reporter / America Magazine",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Returning from 5-18 lookback. New info: (1) Anthropic representative is co-founder Chris Olah, NOT Jack Clark as earlier reports indicated; (2) Pope will personally speak at the presentation, breaking centuries of precedent; (3) co-presenter panel confirmed (3 cardinals + 2 women theologians: Fernández, Czerny, Rowlands, Lushombo); (4) full title confirmed 'On the Protection of Human Dignity in the Age of Artificial Intelligence'. Release tomorrow 11:30am Vatican Synod Hall."
+    },
+    {
+      "story_key": "google-gemini-science-package",
+      "event_date": "2026-05-19",
+      "title_en": "Google bundles AI Co-Scientist + AlphaEvolve + WeatherNext into single Gemini for Science platform",
+      "source": "MIT Technology Review",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "5-19 I/O science-track announcement: unified Gemini for Science platform combining AI Co-Scientist (hypothesis generation), AlphaEvolve (algorithm optimization), WeatherNext, plus AlphaGenome / AlphaEarth. Distinct from the lookback Gemini 3.5 Flash / Antigravity / WebMCP stories. story_key not in lookback."
+    },
+    {
+      "story_key": "bezos-prometheus-modern-cad",
+      "event_date": "2026-05-20",
+      "title_en": "Bezos finally describes Project Prometheus: 'modern CAD', 'nothing to do with robotics', 120 hires from OpenAI / DeepMind / Meta / xAI",
+      "source": "GeekWire / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "First-time public description of stealth $38B startup from Bezos himself on 5-20: 'artificial general engineer' for designing physical objects, 'a modern version of CAD'. Also brushed off AI-bubble concerns. story_key not in lookback (no prior Prometheus entries)."
+    },
+    {
+      "story_key": "microsoft-copilot-chain-of-debate",
+      "event_date": "2026-05-21",
+      "title_en": "Nadella demos 'Chain of Debate' multi-agent control + names ex-Snap Jacob Andreou EVP over unified Copilot org",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "5-21 Fortune cover story: Nadella demos 'Chain of Debate' (instruct + control multiple AI agents in parallel), Microsoft merges commercial + consumer Copilot orgs under ex-Snap exec Jacob Andreou as EVP, Copilot DAU growing 3× YoY, $190B 2026 capex. Substantial new strategic disclosure. story_key not in lookback."
+    },
+    {
+      "story_key": "openai-erdos-conjecture-disproved",
+      "event_date": "2026-05-20",
+      "title_en": "Continued coverage of OpenAI disproving Erdős unit distance conjecture",
+      "source": "Various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 with full Golod-Shafarevich detail. Today's coverage is recap / commentary; no substantive new technical content."
+    },
+    {
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "title_en": "Karpathy joins Anthropic pre-training team",
+      "source": "Various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-19 in detail. No new development today."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-22",
+      "title_en": "Trump AI EO walkback / draft leaks",
+      "source": "Politico / Axios",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20, 5-21 and 5-22. Three full entries already on the books with the EO content + walkback + draft leak. No new development in 5-23 / 5-24 window."
+    },
+    {
+      "story_key": "meta-8000-ai-layoffs",
+      "event_date": "2026-05-20",
+      "title_en": "Meta layoffs surveillance audio leaked",
+      "source": "buildfastwithai aggregator",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-19 in detail (Wang's Superintelligence Labs pods, 8000 cut). Surveillance-audio angle is from April 30 audio leaked in same period — not material enough for a new entry."
+    },
+    {
+      "story_key": "jack-clark-oxford-predictions",
+      "event_date": "2026-05-20",
+      "title_en": "Jack Clark Oxford predictions on AI / Nobel / recursive self-improvement",
+      "source": "Time",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 in full. No new development."
+    },
+    {
+      "story_key": "anthropic-gates-foundation-partnership",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic + Gates Foundation $200M / 4-year partnership for global health + education + agriculture",
+      "source": "Anthropic Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Event_date 2026-05-14 is 10 days old (>5 day limit). Despite ongoing media discussion, the underlying announcement is past the freshness gate."
+    },
+    {
+      "story_key": "telegram-bot-to-bot-ai",
+      "event_date": "2026-05-07",
+      "title_en": "Telegram launches AI bot-to-bot communication + Managed Bots",
+      "source": "Telegram Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Event_date 2026-05-07 is 17 days old (>5 day limit)."
+    },
+    {
+      "story_key": "musk-altman-openai-trial",
+      "event_date": "2026-05-18",
+      "title_en": "Musk loses OpenAI trial / Altman testifies",
+      "source": "Various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-18 (musk-altman-openai-trial). No new development."
+    },
+    {
+      "story_key": "google-gemini-35-flash-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini 3.5 Flash launch",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-19 with full benchmark detail."
+    },
+    {
+      "story_key": "google-antigravity-2-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Google Antigravity 2.0 launch",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-19 in full."
+    },
+    {
+      "story_key": "gemini-omni-leak-io-2026",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini Omni Flash launch / Gemini Intelligence agent layer",
+      "source": "Google I/O",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Two full lookback entries on 5-19 already cover Omni Flash + agent layer + Gemini Spark."
+    },
+    {
+      "story_key": "apple-ios27-siri-extensions",
+      "event_date": "2026-05-19",
+      "title_en": "Apple WWDC 2026 + iOS 27 Siri Extensions",
+      "source": "Apple",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-19 in full."
+    },
+    {
+      "story_key": "openai-confidential-ipo-s1",
+      "event_date": "2026-05-22",
+      "title_en": "OpenAI files confidential S-1",
+      "source": "WSJ / TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-22 in full."
+    },
+    {
+      "story_key": "anthropic-q2-revenue-first-profit",
+      "event_date": "2026-05-20",
+      "title_en": "Anthropic $10.9B Q2 revenue + first operating profit",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 in full. The new 5-22 funding-close story is on a separate story_key (anthropic-900b-funding-round)."
+    },
+    {
+      "story_key": "modal-labs-series-c",
+      "event_date": "2026-05-21",
+      "title_en": "Modal Labs $355M Series C",
+      "source": "Reuters",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-21 in full."
+    },
+    {
+      "story_key": "hark-series-a-adcock",
+      "event_date": "2026-05-21",
+      "title_en": "Hark $700M Series A at $6B",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-21 in full."
+    },
+    {
+      "story_key": "nvidia-q1-fy27-earnings",
+      "event_date": "2026-05-20",
+      "title_en": "Nvidia Q1 FY27 earnings",
+      "source": "Nvidia",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 with both preview and actual numbers."
+    },
+    {
+      "story_key": "spacex-ipo-s1-filing",
+      "event_date": "2026-05-20",
+      "title_en": "SpaceX public S-1 filing",
+      "source": "SEC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 with full TAM / xAI burn / Anthropic Colossus detail."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-22",
+      "title_en": "Project Glasswing Mythos vulnerability disclosure update",
+      "source": "Anthropic Blog",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-22 in full."
+    },
+    {
+      "story_key": "microsoft-ey-1b-pilots-to-production",
+      "event_date": "2026-05-21",
+      "title_en": "Microsoft + EY 5-year $1B enterprise AI partnership",
+      "source": "Microsoft",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-21 in full."
+    },
+    {
+      "story_key": "cursor-cloud-agents-research",
+      "event_date": "2026-05-21",
+      "title_en": "Cursor cloud agent engineering notes",
+      "source": "Cursor Blog",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-21 in full."
+    },
+    {
+      "story_key": "altman-sam-yc-tokens-equity",
+      "event_date": "2026-05-19",
+      "title_en": "OpenAI YC tokens-for-equity ($2M / 2% / uncapped SAFE)",
+      "source": "YC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 (openai-yc-tokens-equity) in full."
+    }
+  ]
+}
