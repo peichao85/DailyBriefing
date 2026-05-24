@@ -1,0 +1,208 @@
+{
+  "date": "2026-05-25",
+  "category": "AI",
+  "researched_at": "2026-05-25T07:10:00Z",
+  "sources_checked": [
+    "Vatican News", "Vatican.va Press Office", "National Catholic Reporter", "America Magazine", "OSV News",
+    "Stripe Newsroom", "Stripe Blog", "PYMNTS", "Payments Dive",
+    "The Hacker News", "CyberScoop", "Help Net Security", "BleepingComputer", "OX Security", "TechTimes",
+    "The Information", "Bloomberg", "CNBC",
+    "Office of Gov. Newsom", "CalMatters", "StateScoop", "CBS Sacramento", "The Hill",
+    "More Perfect Union (leaked audio)", "IBTimes UK", "eWeek", "Techlusive",
+    "TechCrunch", "Publishers Weekly", "TechTimes",
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@geoffreyhinton",
+    "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46", "@alighodsi",
+    "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "教皇 Leo XIV 首份通谕《Magnifica Humanitas》今日 11:30 梵蒂冈 Synod Hall 正式发布——Pope 史上首次亲临任何'社会通谕'记者会、Anthropic Chris Olah 五人发布团唯一科技代表",
+      "source": "Vatican",
+      "source_name": "Vatican News",
+      "source_url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-25",
+      "summary": "Pope Leo XIV 首份通谕《Magnifica Humanitas: 论人工智能时代的人之尊严保护》今日（5-25）11:30 a.m. 罗马时间在梵蒂冈 Synod Hall 正式公开发布——这是教廷历史上首次有在位教皇亲自出席任何'社会通谕'的官方新闻发布会，发布五人组中 Anthropic 联合创始人 Chris Olah 是唯一受邀的科技公司代表。",
+      "detail": "今日（2026-05-25）罗马时间上午 11:30，梵蒂冈 Synod Hall（主教会议大厅）正式公开发布教皇 Leo XIV 的首份通谕——《**Magnifica Humanitas: On the Protection of Human Dignity in the Age of Artificial Intelligence**》（壮丽的人类：论人工智能时代的人之尊严保护）。通谕落款日期为 5-15，恰好是教皇 Leo XIII 1891 年《Rerum Novarum》签署 **135 周年**——后者是天主教社会训导回应工业革命冲击的奠基性文本，今天的《Magnifica Humanitas》被定位为'AI 时代的《Rerum Novarum》'。\n\n现场发布会有两层史无前例的破例：(1) **教皇本人亲临**——在位教皇出席自家'社会通谕'的官方记者会，是教廷数百年来罕见做法，此前的《Laudato Si'》《Fratelli Tutti》等当代通谕均由枢机主教代为发布；(2) **同台发布五人小组**首次完整曝光，含 Cardinal Víctor Manuel Fernández（信理部部长）、Cardinal Michael Czerny（促进人类整体发展部部长）、Anna Rowlands 教授（杜伦大学 Catholic social thought）、Léocadie Lushombo 教授（圣塔克拉拉大学神学伦理）、以及 **Christopher Olah**——Anthropic 联合创始人、其'mechanistic interpretability'（机制可解释性）研究是当前业内最受尊重的 AI 安全研究方向之一。Olah 是发布小组中**唯一的科技公司代表**——既非 OpenAI、亦非 Google DeepMind 或 Microsoft——这一选择被广泛解读为梵蒂冈在 AI 安全 / 对齐研究上对 Anthropic 路线的隐性背书。\n\n通谕的核心议题——根据已公开的标题、签署时机、与 Cardinal Czerny 提前数周的访谈——聚焦于：人格尊严在 AI 时代如何被技术'稀释'（替代决策、生成式拟人化）、AI 介入下的工作意义与劳动权（直接呼应 Rerum Novarum 的劳工议题）、对穷人与边缘群体的 AI'数字殖民'风险、以及对 frontier lab 的伦理呼吁。是天主教会针对 AI 的首份具有最高教廷权威的官方文本。\n\n**背景回顾：** 梵蒂冈 5-18 公布通谕标题与发布日期；5-23 更新明确 Anthropic 同台代表换为 Chris Olah（而非此前广传的 Jack Clark）、Pope 将亲自致辞——为今日的正式发布定下'科技-神学同台'的史无前例格局。",
+      "key_quotes": [
+        "Magnifica Humanitas: On the Protection of Human Dignity in the Age of Artificial Intelligence",
+        "Pope Leo XIV will himself attend the Vatican press conference — a first for any modern papal social document.",
+        "Christopher Olah, co-founder of Anthropic, will speak on a panel presenting the document."
+      ],
+      "significance": "天主教会以教皇通谕（最高教阶文本）形式正式介入 AI 议题，并把 Anthropic 而非 OpenAI / Google 拉到同台——这同时奠定两件事：(1) AI 已被'机构化道德权威'纳入与工业革命同级别的人类范式转移议题，全球 14 亿天主教徒今后会从堂区层面接受 AI 伦理教导；(2) Anthropic 'safety-first' 的品牌叙事得到全球最古老机构之一的正面盖章——这是任何同行 AI 公司至今无法获得的'软权力'锚点，将直接影响未来政府监管、企业采购与公众舆论对 frontier lab 的差异化判断。",
+      "links": [
+        "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+        "https://www.vatican.va/content/leo-xiv/en/events/event.dir.html/content/vaticanevents/en/2026/5/25/presentazione-enciclica.html",
+        "https://www.ncronline.org/vatican/vatican-news/pope-leo-present-his-encyclical-ai-alongside-anthropic-co-founder",
+        "https://www.americamagazine.org/vatican-dispatch/2026/05/18/pope-leo-encyclical-artifical-intelligence-anthropic"
+      ],
+      "image": "img/pope-leo-xiv.png",
+      "image_type": "logo",
+      "tags": ["教廷", "AI 伦理", "Pope Leo XIV", "Anthropic", "Magnifica Humanitas"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Stripe Sessions 2026 一口气甩出 288 项发布：Stripe Projects 全员开放、Google AI Mode 内电商打通、Tempo 链 + Machine Payments Protocol 让 agent 自带钱包跑微支付",
+      "source": "Stripe",
+      "source_name": "Stripe Newsroom",
+      "source_url": "https://stripe.com/newsroom/news/sessions-2026",
+      "story_key": "stripe-sessions-2026-ai-launches",
+      "event_date": "2026-05-22",
+      "summary": "Stripe 5-22 起在年度 Sessions 2026 大会推出史无前例的 **288 项产品 / 功能**，把公司战略明确押到'AI 经济基础设施'——核心三道动作：Stripe Projects 全员 GA（含 32 家 provider）、与 Google 打通让企业在 AI Mode 与 Gemini app 内直接卖货、推出基于 Tempo 区块链的 Machine Payments Protocol（MPP）让 AI agent 用稳定币微支付方式自主交易。",
+      "detail": "Stripe 在 5-22 开幕的 Sessions 2026（年度客户大会，至 5-24）一次性推出 **288 项新产品 / 功能**——是公司历史上单场大会发布数量最多的一次，明确把核心叙事从'支付公司'迁移到'AI 经济基础设施提供方'。\n\n**核心一：Stripe Projects 全员 GA。** 开发者（或其 AI agent）可直接在写代码 / 提示词的地方注册、采购、集成所需 SaaS 服务一键部署——此次新增 14 家合作方（Render、Twilio、Sentry、WorkOS、Browserbase、GitLab、ElevenLabs 等），加上既有合作方共 **32 家 provider**（Vercel、Clerk、Supabase、Hugging Face、Cloudflare 等悉数在列）。\n\n**核心二：与 Google 联合做'agentic commerce'。** Stripe 与 Google 同步公告战略合作，企业商家可以**直接在 Google AI Mode 与 Gemini app 内**向消费者卖货——延续此前 OpenAI、Microsoft、Meta 三家的同类合作。同时 Stripe 把 Agentic Commerce Suite 开放给 Wix、BigCommerce、WooCommerce 等第三方平台，让其商家也能进入 AI 入口流量。\n\n**核心三：Machine Payments Protocol（MPP）+ Tempo 链。** Stripe 与 Tempo（其与 Paradigm 共建的稳定币支付链）联合发布 MPP——一个让 AI agent 编程式与企业交易的协议，支持微支付、定期付款、流式支付。同步推出**streaming payments**：把 Metronome 精确用量追踪 + Tempo 稳定币微支付组合，让'按使用量秒级结算'成为 AI-native 商业模式。Bridge（Stripe 的稳定币基础设施）扩展支持 Tempo、Plasma、Celo、Sui 多链跨链转账。Digital Asset Accounts 与 Privy 联合发布，单一 API 即可让任何开发者快速建稳定币金融产品。",
+      "key_quotes": [
+        "AI is the biggest platform shift for the economy since the internet, and in the not-too-distant future agents will account for most transactions online.",
+        "288 new products and features at Stripe Sessions.",
+        "Streaming payments — an AI-native business model — combines precise tracking from Metronome with stablecoin micropayments on the Tempo blockchain."
+      ],
+      "significance": "把'AI agent 自带支付能力'从概念正式推进到协议 + 平台层落地——一次性给到三段管线：上游有 Projects（agent 采购 SaaS）、中游有 AI Mode/Gemini 内电商（agent 代客下单），下游有 MPP + Tempo（agent 之间互相结算）。Stripe + Google 这一对合作把过去 6 个月 OpenAI / Microsoft / Meta 同类合作锁定为通用模板：未来无论用户在哪家 AI 入口，背后清算大概率都是 Stripe + 稳定币链路。这一周后再谈'agentic commerce'是否会发生已经过时——剩下的问题只是哪一家 agent 入口能跑出最大 GMV。",
+      "links": [
+        "https://stripe.com/newsroom/news/sessions-2026",
+        "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+        "https://www.paymentsdive.com/news/stripe-google-partner-on-agentic-commerce/818915/",
+        "https://www.pymnts.com/artificial-intelligence-2/2026/stripe-scales-ai-economic-infrastructure-with-google-deal/"
+      ],
+      "image": "assets/logos/stripe-logo.png",
+      "image_type": "logo",
+      "tags": ["Stripe", "Agentic Commerce", "Stripe Projects", "Tempo", "Google"],
+      "category": "builders"
+    },
+    {
+      "id": "3",
+      "title": "GitHub 自己被人摸了：CISO 5-21 公开 3,800 个内部仓库通过 18 分钟挂马的 Nx Console VS Code 插件被外传——OpenAI、Grafana、Mistral 同链被打",
+      "source": "GitHub",
+      "source_name": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+      "story_key": "github-nx-console-breach",
+      "event_date": "2026-05-20",
+      "summary": "GitHub CISO 5-21 公开承认，约 **3,800 个内部私有源码仓库**被攻击组织 TeamPCP 通过一个仅在 VS Code Marketplace 上挂了 **18 分钟**的恶意 Nx Console 扩展（v18.95.0）窃取——下游受害单位经核实还包括 **OpenAI、Grafana Labs、Mistral AI**，是 2026 年迄今规模最大的 VS Code 插件供应链攻击。",
+      "detail": "GitHub CISO Alexis Wales 5-21 通过官方安全报告确认：5-18 上午，被植入恶意代码的 Nx Console VS Code 扩展（版本 18.95.0）在 Microsoft 官方 Visual Studio Marketplace 上活了仅 **18 分钟**——但这 18 分钟内被自动更新拉取到 **超过 6,000 台**已安装该插件（全网装机量 2.2M+）的开发者机器；其中包括 GitHub 内部工程师的开发机，足以让攻击组织 **TeamPCP** 在窗口期内导出 GitHub 自家**约 3,800 个内部私有仓库**的源代码。\n\n攻击链条：恶意插件启动时静默执行一条 shell 命令，伪装成例行 MCP 设置任务，从 nrwl/nx 官方 GitHub 仓库一个被预先植入的 commit 上拉取并执行恶意脚本——脚本是凭据窃取器，扫走 GitHub token、npm 凭据、AWS key、Vault secrets、SSH 私钥等。攻击的根源可追溯至更早的 **TanStack npm 供应链攻击**——攻击者通过该攻击爬到一名 Nx 贡献者的 GitHub Personal Access Token，进而入侵其本地开发环境签发出受信的 marketplace 扩展。\n\n**下游受害名单经核实包括：**\n- **GitHub** —— 约 3,800 个内部仓库被外传\n- **OpenAI** —— 工程师机器中招，部分内部代码被扫\n- **Grafana Labs** —— 同周公开确认遭遇相关泄漏\n- **Mistral AI** —— 法国前沿实验室，VS Code 装机有 Nx Console 的工程师中招\n\nTeamPCP 自称这次行动是'演示现代开发者供应链的脆弱性'——与 5-19 'Mini Shai-Hulud' 第 5 波（针对 npm OIDC 凭证、@antv 1 小时投毒 323 包）系同一组织。两次攻击的共同点是绕过了行业'凭据真实可信'的信任假设：5-19 用合法 OIDC 签发恶意 npm 包绕过 npm provenance，5-18 用合法签名的 marketplace 扩展绕过 VS Code 信任链。",
+      "key_quotes": [
+        "The poisoned build of the Nx Console VS Code extension — live on Microsoft's official Visual Studio Marketplace for just 18 minutes on May 18 — gave TeamPCP enough access to exfiltrate approximately 3,800 of GitHub's internal source code repositories.",
+        "Confirmed downstream victims include OpenAI, Grafana Labs, and Mistral AI.",
+        "Initial access vector: a Nx contributor's GitHub personal access token scraped during a separate TanStack supply chain attack."
+      ],
+      "significance": "Marketplace 扩展、npm 包、Docker 镜像——'凭据合法但内容恶意'已成 2026 年最高频供应链攻击模式，行业目前没有任何即时检测手段（合规审核滞后于 18 分钟传播窗口）。GitHub、OpenAI、Mistral 同列受害名单意味着**没有任何顶级 AI 实验室能假定自己内部代码是安全的**——这将迫使 frontier lab 在未来季度大幅加固开发环境（VS Code 扩展白名单、零信任分隔、agent-bound 凭据），并直接利好 Anthropic Claude Security、Snyk、Aikido 等代码扫描型 AI 安全工具的市场。",
+      "links": [
+        "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+        "https://www.helpnetsecurity.com/2026/05/20/github-breached-teampcp/",
+        "https://cyberscoop.com/github-internal-repositories-vs-code-extension-attack/",
+        "https://www.bleepingcomputer.com/news/security/github-links-repo-breach-to-tanstack-npm-supply-chain-attack/"
+      ],
+      "image": "assets/logos/github-logo.png",
+      "image_type": "logo",
+      "tags": ["GitHub", "供应链攻击", "TeamPCP", "Nx Console", "VS Code"],
+      "category": "trending"
+    },
+    {
+      "id": "4",
+      "title": "Anthropic 摸到 Microsoft 头上：早期谈判租用 Maia 200 AI 芯片——Claude 已有 Nvidia / Trainium / TPU，再加 Microsoft 自研硅就成首个跑全四家芯片的前沿实验室",
+      "source": "@DanielaAmodei",
+      "source_name": "The Information",
+      "source_url": "https://www.theinformation.com/",
+      "story_key": "anthropic-microsoft-maia-chip-talks",
+      "event_date": "2026-05-21",
+      "summary": "The Information 5-21 独家：Anthropic 与 Microsoft 处于**早期谈判**阶段，讨论让 Claude 模型租用 Microsoft 自研的 **Maia 200 AI 芯片**——若成交，Anthropic 将成为 Microsoft Azure 之外第一家 Maia 大客户，Claude 也将首次同时跑在 Nvidia、AWS Trainium、Google TPU、Microsoft Maia 四家硅之上。",
+      "detail": "The Information 5-21 首发、Bloomberg / CNBC 同日跟进：Anthropic 与 Microsoft 已进入早期谈判阶段，讨论让 Claude 模型在 Microsoft 自研的 **Maia 200** AI 芯片上跑训练 / 推理。Microsoft 1 月宣布 Maia 200 时强调'相比舰队当前硅，token / dollar 提升 30%+'（Satya Nadella 4 月财报会原话），但此前一直只对 Azure 内部应用开放——Anthropic 若签约将是 **Maia 首个对外大客户**。\n\n**为何 Anthropic 现在要谈 Microsoft 硅：**\n1. **Dario Amodei 本月早些时候在公开活动直言 Anthropic'存在算力困难'**——Q1 需求年化增速 80×，远超公司原本规划的 10×；现有 Nvidia + Trainium + TPU 三家供给依然紧张。\n2. **多硅路线 = 议价权 + 可用性**——Anthropic 已是行业内 chip-diversity 最广的前沿实验室，再加 Microsoft 让其在与单一供应商谈采购时维持优势；同时'多芯片可运行同一模型'本身就是技术壁垒（需要专门的 compiler / kernel 团队）。\n3. **微软算盘**——Maia 长期'只服务 Azure 自有工作负载'被市场视为短板，落后 Amazon Trainium / Google TPU 在外部客户开放的进度。拉到 Anthropic 这条最大对外 AI 客户为 Maia 开服，相当于一次性补齐'前沿模型可用性背书'。\n\n**注意：** Bloomberg 与 CNBC 均强调这是**早期谈判**（early-stage talks），可能不会成交；但消息释放本身已经让 Microsoft 股价 5-21 盘后涨 1.8%、Nvidia 跌 0.6%。",
+      "key_quotes": [
+        "Anthropic is in talks with Microsoft to adopt its Maia artificial intelligence chip.",
+        "Maia 200 offers over 30% improved tokens per dollar, compared to the latest silicon in our fleet — Satya Nadella, April earnings call",
+        "Anthropic has had 'difficulties with compute' — Dario Amodei, public event earlier this month"
+      ],
+      "significance": "前沿实验室的硅路线从'专攻一家'迁移到'四家全跑'是 2026 年最重要的基础设施趋势之一——这意味着 (1) **Nvidia 'CUDA + ASIC 单一选择'的捆绑被打破**，前沿模型变得 silicon-agnostic；(2) **Microsoft 终于摆脱'Azure-only'供给定位**、首次以芯片厂商身份进入前沿模型供给市场——这是 Microsoft 与 Anthropic 在 4 月 $5B 投资公告后的下一步深化，也将进一步把 OpenAI 在 Microsoft 生态内的独家优势挤压到只剩'消费品牌'。",
+      "links": [
+        "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+        "https://www.bloomberg.com/news/articles/2026-05-21/anthropic-in-talks-to-use-microsoft-ai-chips-information-says",
+        "https://finance.yahoo.com/markets/stocks/articles/microsoft-maia-chip-talks-anthropic-131543201.html"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Microsoft", "Maia", "AI 芯片", "Claude"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "Newsom 在 Meta 8,000 人裁员后第二天就签下'全美首份' AI 劳动行政令：WARN 法案 180 天内必须改、CA 上线全美第一个 AI 跨行业影响 dashboard——直接对冲 Trump 同日撤签",
+      "source": "@gavinnewsom",
+      "source_name": "Office of Gov. Newsom",
+      "source_url": "https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/",
+      "story_key": "newsom-california-ai-workforce-eo",
+      "event_date": "2026-05-21",
+      "summary": "加州州长 Gavin Newsom 5-21 签署号称'全美首份'的 AI 劳动行政令——在 Meta 前一天 5-20 启动 8,000 人 AI 裁员的次日，正面落地三件事：要求 180 天内出具 California **WARN Act**（裁员提前通知法）修订建议、上线**全美第一个跨行业 AI 影响 dashboard**、要求州府评估对被替代员工的补偿与再培训方案。",
+      "detail": "Gavin Newsom 5-21 在加州州府签署'全美首个 AI 劳动行政令'——签字时间发生在两个戏剧性背景下：(1) 前一天（5-20）Meta 启动 8,000 人 AI 重组裁员、是 2026 年至今单家最大规模 AI 归因裁员；(2) 同一天（5-21）下午 Trump 政府临门撤签自家的 AI 行政令、白宫 EO 议程实质冻结。Newsom 直接以加州第一州长身份占住'AI 劳动保护'议程缺口。\n\n**行政令三大具体动作：**\n1. **修 WARN Act**——加州 Worker Adjustment and Retraining Notification Act（裁员提前通知法）必须 **180 天内**提交修订建议，重点是让 WARN 能针对'AI 替代'触发的裁员发出**早期预警数据**，让劳工 / 工会 / 监管能在裁员前介入。\n2. **AI Impact Dashboard**——州政府上线**全美第一个跨行业 AI 影响 dashboard**，公开显示 AI 在不同行业、不同岗位等级的就业冲击数据，作为后续州法立法依据。\n3. **被替代员工救济**——州府需评估并建议补偿安排、临时性补贴就业项目、再培训项目；与劳工、产业、学界联合协商'最佳实践'与'早期经济预警信号'报告。\n\n这是美国州一级第一次对 AI 劳动冲击给出系统性、立法路径式的回应——之前只有 New York、Illinois 的零散反算法歧视州法。CA 此举可能在未来 12-18 个月内成为其他 democratic-led 州的政策模板，并把'WARN Act for AI'写入 2026 中期选举议程。",
+      "key_quotes": [
+        "California will become the first state in the country with a framework to respond to potential workforce disruption from AI.",
+        "WARN Act revisions due within 180 days, focused on early-warning data for AI-driven layoffs.",
+        "Signed one day after Meta began executing the largest single round of AI-attributed tech-sector layoffs of 2026."
+      ],
+      "significance": "白宫 EO 撤签 + Newsom 即时落地形成 2026 年 AI 监管的'联邦-州'反向格局：联邦层面在产业说客（Zuckerberg / Musk / Sacks 直接打给 Trump）压力下连最弱的'自愿框架'都签不下来；州层面 CA 用 AI 劳动议题作为政治抓手，把 AI 监管议程绑定到对'蓝领-中产工作消失'最敏感的选民群体上。这一格局如复制到 NY / IL / MA 等大州，前沿 AI 公司未来在美国的合规面将更碎片化、单点风险更高。",
+      "links": [
+        "https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/",
+        "https://calmatters.org/economy/technology/2026/05/california-ai-layoffs-order/",
+        "https://thehill.com/policy/technology/5889582-california-ai-job-losses/",
+        "https://statescoop.com/california-gov-newsom-executive-order-ai-workforce-disruption/"
+      ],
+      "image": "img/gavin-newsom.jpg",
+      "image_type": "logo",
+      "tags": ["加州", "Newsom", "AI 监管", "WARN Act", "劳工"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "5-20 同日：Meta 裁 8,000 人 + More Perfect Union 同日放出 Zuckerberg 4-30 内部录音——'Model Capability Initiative' 全员强制装监控、Gmail/GChat/VSCode 键盘鼠标全采集喂 AI",
+      "source": "Meta",
+      "source_name": "IBTimes UK",
+      "source_url": "https://www.ibtimes.co.uk/meta-layoffs-update-leaked-zuckerberg-audio-1798063",
+      "story_key": "meta-mci-employee-surveillance-leak",
+      "event_date": "2026-05-20",
+      "summary": "More Perfect Union 5-20 公开 Mark Zuckerberg 4-30 全员会议**完整内部录音**：Meta 内部一个被称为 '**Model Capability Initiative (MCI)**' 的强制性员工监控项目——在 Gmail、GChat、VSCode、Metamate 等指定 app 上全程采集**鼠标点击、键盘按键、定期屏幕截图**——直接喂给 Meta 的内部 AI 训练。录音正好掉在 Meta 启动 8,000 人 AI 重组裁员的同一天。",
+      "detail": "进步派工会媒体 More Perfect Union 在 2026-05-20（Meta 启动 8,000 人 AI 重组裁员当天）公开了一段 Mark Zuckerberg **4-30 全员（all-hands）会议**的完整内部录音，曝光 Meta 此前从未公开承认过的一个强制员工监控项目——内部代号 '**Model Capability Initiative (MCI)**'。\n\n**MCI 项目细节（Zuckerberg 录音原话）：**\n- 监控范围：一份'被批准的 app 清单'，包括 **Gmail、GChat、VSCode、以及 Meta 自家的内部 AI 助手 Metamate**\n- 采集数据：**鼠标点击、键盘按键、定期屏幕截图**——全员、强制、不可关闭\n- 用途：用真实资深工程师的工作流数据训练 Meta 内部 AI 编码模型\n- 选员工而非外部承包商的理由（Zuckerberg 原话）：'我们自家工程师的水平超过业内通用外包人才——拿他们的真实工作流训练，让 Meta 比任何竞争对手更快做出强大 coder AI'\n- Zuckerberg 自己也在录音里承认：'对你们（员工）而言，让我们把所有细节都说清楚不是战略上的好事'——明白会被泄漏却故意只说一半\n\n**时间线上的关键性巧合：**\n- **4-30：** Zuckerberg 在 all-hands 上首次完整解释 MCI\n- **5-20 早间：** Meta 启动 8,000 人 AI 重组裁员（5-19 已被预告）\n- **5-20 同日：** More Perfect Union 放出 4-30 录音全文\n\n外界普遍认为录音放出的时间是工会推动 / 离职员工反击的结果——把 Meta 用员工劳动训练 AI、随后用 AI 替代员工的'双向收割'放到舆论桌面上。Meta 官方未对录音真伪正式回应、未否认 MCI 项目存在。",
+      "key_quotes": [
+        "It is not strategically in your interest for us to communicate everything in all the detail that we normally would on this. — Mark Zuckerberg, 4-30 all-hands",
+        "Model Capability Initiative collects mouse clicks, keystrokes, and occasional screenshots of employees' devices across Gmail, GChat, VSCode, and Metamate.",
+        "Meta intentionally selected its own engineers as training subjects because their expertise exceeded outside contractors."
+      ],
+      "significance": "把 AI 时代'雇主-雇员-AI'三角关系最敏感的一面用录音形式逼到桌面：员工在不知情或被半信息告知的情况下，其工作流被采集喂训替代自己的 AI 模型；同一周该模型背后驱动的'AI 提效'又成为 8,000 人裁员的官方理由。这件事可能直接刺激 (1) FTC / EEOC 对 AI 训练用员工数据的合规调查；(2) 工会要求把'AI 训练用员工数据'写入集体谈判条款；(3) 上市公司治理标准要求披露员工监控-AI训练-裁员的连接关系。Meta 的 MCI 模板若被其他大厂效仿，将开启'内部员工数据'作为下一波 AI 训练数据来源的争议——是 'AI 红利分配' 议题的标志性事件。",
+      "links": [
+        "https://www.thenews.com.pk/latest/1403208-zuckerberg-leaked-audio-shows-meta-used-employees-to-train-ai",
+        "https://www.eweek.com/news/meta-employee-tracking-ai-layoffs-neuron/",
+        "https://www.ibtimes.co.uk/meta-layoffs-update-leaked-zuckerberg-audio-1798063",
+        "https://minutemirror.com.pk/mark-zuckerberg-leaked-audio-reveals-meta-monitored-employee-activity-to-train-ai-models-559034/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "Zuckerberg", "员工监控", "MCI", "录音泄漏"],
+      "category": "trending"
+    },
+    {
+      "id": "7",
+      "title": "ElevenReader 一夜签下 **20 万**真人朗读有声书：$11/月独立 app 正面打 Audible——同日 Spotify 自家有声书工具也宣布是 ElevenLabs 驱动，AI 语音公司一脚踩到产业链两端",
+      "source": "ElevenLabs",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
+      "story_key": "elevenlabs-200k-audiobook-deal",
+      "event_date": "2026-05-22",
+      "summary": "ElevenLabs（估值 $110 亿）5-22 公开其 ElevenReader app 已**与多家主要出版社签下 20 万本真人朗读有声书**的授权——以 **$11/月**订阅形式正面对标 Amazon Audible 与 Spotify 有声书层；同日 Spotify 公告其自家**有声书创作工具背后由 ElevenLabs 驱动**——ElevenLabs 同时拿下 C 端订阅入口与 B 端创作工具背书两条腿。",
+      "detail": "ElevenLabs（估值 $110 亿，AI 语音 / 合成赛道最大独角兽）5-22 在 ElevenLabs Summit 公开两条大新闻：\n\n**条目一：ElevenReader 跑通了'真人有声书 + AI 朗读'双轨。** 其 ElevenReader app（iOS / Android，**$11/月** 订阅）已与多家主要出版社签下**约 200,000 本真人朗读有声书**的授权——这是 ElevenReader 第一次跑出与 Audible / Spotify 同档的内容深度，外加 ElevenLabs 自家 AI 语音可用于**实时 streaming 朗读任意文本**（招股材料 / PDF / 网页都行），实现'购买出版社授权真人版 + 用 AI 朗读其他文本'的混合订阅，独家差异化。\n\n**条目二：Spotify 自家有声书工具背后是 ElevenLabs。** TechCrunch 5-21 同日公告：Spotify 推出自家**有声书 AI 创作工具**——让作者 / 出版社上传文本生成有声书、直接发到 Spotify 平台——背后**完全由 ElevenLabs 提供 AI 语音 API 与朗读引擎**。\n\n**ElevenLabs 同时拿下 C 端订阅 + B 端创作工具的卡位含义：**\n- C 端：ElevenReader 直接收消费者 $11/月，正面挑战 Audible ($14.95/月)\n- B 端：Spotify 自家工具背后用 ElevenLabs，等于 ElevenLabs 同时拿走 Spotify 的'有声书产能'\n- 巩固自身护城河：在被 Bookwire（B2B 集成）、Spotify（平台集成）、ElevenReader（自家 C 端）三处同时铺开后，ElevenLabs 几乎成了'有声书 AI 语音'的事实标准\n\n**ElevenLabs 同时面临的诉讼：** 一群配音演员近期提起集体诉讼，控告 ElevenLabs 未授权使用其声音录音作为训练数据——5-22 公告与诉讼同期落地。",
+      "key_quotes": [
+        "ElevenReader's 200,000 licensed human-narrated titles represent a credible opening bid for competing with established audiobook platforms.",
+        "Spotify launches an ElevenLabs-powered audiobook creation tool. — TechCrunch, 5-21",
+        "ElevenReader is available on iOS and Android at $11 per month — a direct competitive threat to Audible and Spotify's audiobook tier."
+      ],
+      "significance": "AI 语音公司从'B2B 把语音卖给应用方'迁移到'直接成为 C 端订阅入口 + B 端创作工具背书'是 2026 年 audio AI 赛道最重要的商业模式转折——同样的模式如果 ElevenLabs 在'有声书'品类跑通，下一步是 podcast、视频配音、客服语音多个垂直的同样收割。Audible 在 Amazon 内部一直是'被忽视的 $50 亿业务'，ElevenLabs 这个 $11/月的正面冲击 + 真人朗读授权深度，可能 18 个月内打开有声书订阅的市场份额，并迫使 Audible / Spotify 加速整合各自的 AI 语音能力。",
+      "links": [
+        "https://www.techtimes.com/articles/317030/20260522/elevenreader-lands-200000-human-narrated-titles-11-subscription-takes-aim-audible.htm",
+        "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
+        "https://publishingperspectives.com/2026/02/elevenlabs-summit-an-audiobook-company-that-isnt-about-audiobooks/",
+        "https://www.publishersweekly.com/pw/by-topic/digital/content-and-e-books/article/99655-elevenlabs-valued-at-11b-doubles-down-on-audiobooks.html"
+      ],
+      "image": "assets/logos/elevenlabs-logo.png",
+      "image_type": "logo",
+      "tags": ["ElevenLabs", "ElevenReader", "Audiobook", "Spotify", "Audible"],
+      "category": "builders"
+    }
+  ]
+}

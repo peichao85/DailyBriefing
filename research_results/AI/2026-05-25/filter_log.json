@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-25",
+  "total_candidates": 17,
+  "kept": 7,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-25",
+      "title_en": "Pope Leo XIV's Magnifica Humanitas encyclical formally released at Vatican Synod Hall with Anthropic's Chris Olah on the launch panel",
+      "source": "Vatican / Vatican News",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 05-18 (encyclical title announced) and 05-23 (launch lineup with Olah replacing Clark + Pope personally attending). Today is the actual public release of the full text at 11:30 a.m. Vatican time — this is the substantive event itself, not pre-event reporting. Title and detail must focus on the released text's content and the live presentation, not the prior buildup."
+    },
+    {
+      "story_key": "stripe-sessions-2026-ai-launches",
+      "event_date": "2026-05-22",
+      "title_en": "Stripe Sessions 2026 ships 288 launches — Stripe Projects GA, Google AI Mode payment partnership, Tempo blockchain agent payments protocol",
+      "source": "Stripe Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Stripe Sessions 2026 ran May 22-24 with 288 launches total — agentic commerce going mainstream with Google, Wix, BigCommerce; Stripe Projects GA with 32 providers; streaming stablecoin payments on Tempo. Major industry-shaping event."
+    },
+    {
+      "story_key": "github-nx-console-breach",
+      "event_date": "2026-05-20",
+      "title_en": "GitHub CISO confirms ~3,800 internal repos exfiltrated via 18-minute trojanized Nx Console VS Code extension — OpenAI, Grafana, Mistral also breached",
+      "source": "GitHub / The Hacker News / CyberScoop",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct from 5-19 mini-shai-hulud-npm-attack (npm/OIDC vector). This is a VS Code Marketplace supply chain attack via Nx Console v18.95.0 live for 18 min on 5-18; GitHub CISO publicly confirmed 3,800-repo exfiltration on 5-20-21. Downstream victims include OpenAI, Grafana, Mistral AI."
+    },
+    {
+      "story_key": "anthropic-microsoft-maia-chip-talks",
+      "event_date": "2026-05-21",
+      "title_en": "Anthropic in early talks to rent Microsoft Maia 200 AI chips — would add Microsoft silicon to Claude's already-diversified Nvidia/Trainium/TPU stack",
+      "source": "The Information / Bloomberg / CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. The Information broke 5-21 that Anthropic and Microsoft are in early discussions for Anthropic to adopt Maia 200; would be Microsoft's first major external Maia customer (Maia has been Azure-internal only). Anthropic CEO publicly cited 'compute difficulties' earlier this month. Strategically significant for the multi-silicon picture."
+    },
+    {
+      "story_key": "newsom-california-ai-workforce-eo",
+      "event_date": "2026-05-21",
+      "title_en": "Newsom signs first-of-its-kind California AI workforce executive order one day after Meta layoffs — WARN Act revisions, AI impact dashboard, displaced-worker programs",
+      "source": "Office of Gov. Newsom / CalMatters / StateScoop",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Direct contrast to Trump's withdrawn federal EO on 5-21 the same day. California's first-of-its-kind state AI workforce order: WARN Act revisions, state AI impact dashboard, recommendations for displaced workers, all due within 180 days. Significant state-vs-federal split on AI policy."
+    },
+    {
+      "story_key": "meta-mci-employee-surveillance-leak",
+      "event_date": "2026-05-20",
+      "title_en": "Leaked April 30 audio: Zuckerberg describes Meta's mandatory 'Model Capability Initiative' tracking keystrokes/Gmail/VSCode to train AI — drops same day 8,000 layoffs hit",
+      "source": "More Perfect Union (leaked audio) / IBTimes UK / eWeek",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct from 5-19 meta-8000-ai-layoffs (focused on layoffs and Wang reorg). Today's story is the surveillance program — keystrokes, mouse clicks, Gmail/GChat/VSCode/Metamate monitoring under 'Model Capability Initiative' — revealed by leaked April 30 all-hands audio that More Perfect Union published 5-20, same day as layoffs."
+    },
+    {
+      "story_key": "elevenlabs-200k-audiobook-deal",
+      "event_date": "2026-05-22",
+      "title_en": "ElevenReader licenses 200,000 human-narrated audiobooks at $11/mo — directly targets Audible; same-day Spotify launches its own ElevenLabs audiobook tool",
+      "source": "TechCrunch / Publishers Weekly / TechTimes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. ElevenLabs ($11B val) acquired licensing rights to 200K human-narrated audiobooks for its ElevenReader app at $11/month — first credible Audible competitor at scale. Same-day Spotify launched its own ElevenLabs-powered audiobook creation tool, signaling ElevenLabs is the audiobook AI backbone for both consumer-facing and creator-facing platforms."
+    },
+    {
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-23",
+      "title_en": "Anthropic $30B/$900B round details extended in Yahoo/IBTimes recaps",
+      "source": "Yahoo Finance / IBTimes",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-22 with title 'Anthropic $30B+ 新轮下周敲定 $900B+ 估值: Sequoia / Dragoneer / Altimeter / Greenoaks 各 ~$2B 共领投'. Today's coverage is the same Bloomberg 5-22 scoop being recycled; no confirmation the round has actually closed, no new investor disclosures, no new terms. DROP until close is confirmed."
+    },
+    {
+      "story_key": "openai-confidential-ipo-s1",
+      "event_date": "2026-05-23",
+      "title_en": "OpenAI S-1 filing follow-up commentary across analysts",
+      "source": "Roborhythms / TECHi / Investing.com",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-22 with title 'OpenAI 周五真把 S-1 递了'. Today's coverage is analyst commentary on the same filing; no new SEC actions, no roadshow date, no terms. DROP."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-22",
+      "title_en": "Anthropic Glasswing initial update wolfSSL detail",
+      "source": "Anthropic / Quasa / Forrester",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-22 with title 'Project Glasswing 首份数据落地: Mythos Preview 一个月扫出 10,000+ 高危漏洞'. The wolfSSL exploit example and 2-week patch-cycle commentary are details within the same announcement. DROP."
+    },
+    {
+      "story_key": "google-gemini-science-package",
+      "event_date": "2026-05-22",
+      "title_en": "MIT Tech Review analysis: Google I/O shows AI-driven science shifting from specialized to agentic",
+      "source": "MIT Technology Review",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-19 with title 'Google 5-19 一夜把 AlphaEvolve + AI Co-Scientist + WeatherNext 揉进单一 \"Gemini for Science\"'. MIT TR 5-22 piece is analytic commentary on the same I/O announcement and the Hassabis 'foothills of singularity' line is from the same keynote. DROP."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-23",
+      "title_en": "Trump AI EO leak follow-up commentary",
+      "source": "Politico / Axios",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-22 with title 'Trump 撤签后 24 小时: 完整 AI 行政令草案被 Politico / Axios 同步泄露'. No new movement on signing this week; the EO remains delayed indefinitely. DROP."
+    },
+    {
+      "story_key": "nvidia-q1-fy27-earnings",
+      "event_date": "2026-05-22",
+      "title_en": "Huang $200B 'CPUs for AI agents' market commentary post-earnings",
+      "source": "TechCrunch / Motley Fool / Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 with title 'Nvidia Q1 FY27 实盘: $816 亿营收 / $752 亿数据中心'. The $200B CPU market quote is from the same earnings cycle (5-20-21). DROP."
+    },
+    {
+      "story_key": "spacex-ipo-s1-filing",
+      "event_date": "2026-05-23",
+      "title_en": "SpaceX SPCX IPO follow-up commentary and roadshow June 8 date",
+      "source": "CNBC / Bloomberg / Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-20 with title 'SpaceX 5-20 公开 S-1'. Today's coverage repeats S-1 details; roadshow date (June 8) is too distant to drive a separate brief. DROP."
+    },
+    {
+      "story_key": "anthropic-gates-foundation-200m",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic + Gates Foundation $200M global health/education partnership",
+      "source": "Anthropic / Gates Foundation / Yahoo Finance",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is 11 days old (>5 day limit). Significant story but stale for daily briefing format."
+    },
+    {
+      "story_key": "spacex-cursor-model-training",
+      "event_date": "2026-05-18",
+      "title_en": "Cursor partners with SpaceX/xAI on next-gen model — Colossus 2 10x compute",
+      "source": "Cursor blog / TechWireAsia",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-18 is 7 days old (>5 day limit). DROP."
+    },
+    {
+      "story_key": "isomorphic-labs-2b-series-b",
+      "event_date": "2026-05-12",
+      "title_en": "Isomorphic Labs raises $2.1B Series B to push AI drug design to human trials",
+      "source": "R&D World / Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-12 is 13 days old (>5 day limit). DROP."
+    }
+  ]
+}
