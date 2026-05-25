@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-26",
+  "total_candidates": 14,
+  "kept": 4,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "huawei-tau-scaling-law-logicfolding",
+      "event_date": "2026-05-25",
+      "title_en": "Huawei unveils Tau Scaling Law + LogicFolding to target 1.4nm-equivalent chips by 2031",
+      "source": "Huawei Newsroom / SCMP / Bloomberg / Tom's Hardware",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in 7-day lookback. Huawei announced at IEEE ISCAS Shanghai on 5-25 a new 'Tau Scaling Law' temporal scaling framework + 'LogicFolding' stacked architecture claiming 55% density gain and 41% power efficiency boost; target 1.4nm-equivalent density by 2031, first Kirin chips this fall, Ascend AI processors by 2030. Major sanctions-busting / post-Moore narrative."
+    },
+    {
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-25",
+      "title_en": "Magnifica Humanitas 42,300-word text formally released; Pope urges 'disarm AI', Olah says AI 'too big for big tech alone'",
+      "source": "CNN / NBC / CBS / NCRegister / Anthropic blog",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key appeared in lookback on 2026-05-18, 2026-05-23, and 2026-05-25 (the 5-25 item covered the announcement of the release ceremony happening that day). Today's substantive new info: actual encyclical text (42,300 words) is now public, Pope's direct 'disarm AI' centerpiece quote, AI 'must not remain in hands of few', warning of AI fueling warfare; Olah's specific remarks ('AI is too big for big tech alone', 'we need informed critics who will tell the labs when we are failing'); Pope's reciprocal 'great sign of hope' statement to Olah. None of this content was in prior coverage."
+    },
+    {
+      "story_key": "tesla-grok-fsd-cybercab-confirmation",
+      "event_date": "2026-05-25",
+      "title_en": "Tesla Sr. Staff Engineer Yun-Ta Tsai publicly confirms Grok Build extensively used in FSD + Cybercab development",
+      "source": "Basenor / Yun-Ta Tsai X post",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First named senior Tesla AI engineer to publicly disclose Grok's depth in active FSD and Cybercab software development; moves xAI-Tesla AI integration from high-level Musk statements to on-record engineering confirmation."
+    },
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-05-23",
+      "title_en": "Jensen Huang lands Taipei 9 days ahead of GTC Taipei keynote; Vera Rubin ramp strains Taiwan supply chain",
+      "source": "Tech Times / NVIDIA / wccftech",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Jensen Huang arrived at Songshan Airport 5-23 ahead of June 1 GTC Taipei keynote + June 2-5 Computex 2026 ('AI Together'); Vera Rubin platform has ~2M parts per unit and 150 Taiwan ecosystem partners, straining supply chain. Novel forward-looking event with 3-day-old anchor."
+    },
+    {
+      "story_key": "openai-deployment-company",
+      "event_date": "2026-05-11",
+      "title_en": "OpenAI launches $4B Deployment Company with TPG/Advent/Bain/Brookfield + Tomoro acquisition",
+      "source": "OpenAI / Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-11 is 15 days old (>5 day limit). Was widely covered in earlier briefings."
+    },
+    {
+      "story_key": "anthropic-microsoft-maia-chip-talks",
+      "event_date": "2026-05-21",
+      "title_en": "Anthropic in early talks with Microsoft for Maia 200 AI chip",
+      "source": "The Information / CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-05-21 in briefing. Today's coverage repeats: 'still in talks, no deal signed, both declined comment'. No substantive new information."
+    },
+    {
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-22",
+      "title_en": "Anthropic $30B+ funding round expected to close 'as soon as next week'",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-05-22 with $900B valuation, $30B size, Sequoia/Dragoneer/Altimeter/Greenoaks ~$2B each as lead investors. As of today, the round is still 'expected to close this week' — no confirmation of actual close, no new investor disclosure, no new financial detail."
+    },
+    {
+      "story_key": "anthropic-q2-revenue-first-profit",
+      "event_date": "2026-05-20",
+      "title_en": "Anthropic Q2 revenue $10.9B / first operating profit $559M",
+      "source": "WSJ / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-20 is 6 days old (>5 day limit). Already covered in prior briefing."
+    },
+    {
+      "story_key": "cohere-command-a-plus-release",
+      "event_date": "2026-05-20",
+      "title_en": "Cohere releases Command A+ 218B Sparse MoE under Apache 2.0",
+      "source": "Cohere / VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-20 is 6 days old (>5 day limit, just outside)."
+    },
+    {
+      "story_key": "mistral-emmi-acquisition",
+      "event_date": "2026-05-19",
+      "title_en": "Mistral AI acquires Vienna's Emmi AI for physics-aware industrial models",
+      "source": "Leaders League / tech.eu",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 7 days old (>5 day limit)."
+    },
+    {
+      "story_key": "google-ai-mode-1b-users",
+      "event_date": "2026-05-19",
+      "title_en": "Google AI Mode crosses 1B monthly users with detailed behavioral data",
+      "source": "Google blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 7 days old (>5 day limit). Already implicitly covered as part of Google I/O 2026 stories in prior briefings."
+    },
+    {
+      "story_key": "cursor-composer-25-release",
+      "event_date": "2026-05-19",
+      "title_en": "Cursor releases Composer 2.5 with 25x synthetic task training",
+      "source": "Cursor blog",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-05-18 in briefing. Today only repeats benchmark numbers and pricing. No substantive new information."
+    },
+    {
+      "story_key": "white-house-ai-model-vetting-eo",
+      "event_date": "2026-05-22",
+      "title_en": "Trump AI EO leaked text + clearinghouse details",
+      "source": "Politico / Axios",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-05-21 (Trump pulled signing) and 2026-05-22 (leaked text). No new development between 5-22 and 5-26 — no new signing date, no new text changes."
+    },
+    {
+      "story_key": "ai-labs-consolidation-wave",
+      "event_date": "2026-05-25",
+      "title_en": "StartupHub 5-25 framing essay: 'Four labs, four acquisitions in five days' marks AI consolidation phase",
+      "source": "StartupHub.ai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Although the framing essay was published 5-25, the underlying deals — Anthropic+Stainless (5-18 already covered), Mistral+Emmi (5-19, freshness-DROP), Meta+Dreamer (date unclear), Google DeepMind+Contextual AI (date unclear) — are all either already published or outside freshness window. The meta-analysis itself is not a 'world event'."
+    }
+  ]
+}

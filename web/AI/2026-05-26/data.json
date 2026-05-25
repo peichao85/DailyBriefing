@@ -1,0 +1,122 @@
+{
+  "date": "2026-05-26",
+  "category": "AI",
+  "title": "Huawei 上海 IEEE 甩出 Tau Scaling Law + LogicFolding：2031 年 1.4nm 等效、绕开 EUV——首次中国厂商正面替代 Moore 定律；教皇 Leo XIV 通谕《Magnifica Humanitas》42,300 字全文公开，'对 AI 解除武装'+ Olah 'big tech 一家管不来'；Tesla Sr. Staff Engineer 蔡蕴达首位具名承认 Grok 已大量用于 FSD / Cybercab；Jensen Huang 提前 9 天落地台北抢 TSMC 产能 — Vera Rubin 单机 200 万零件",
+  "items": [
+    {
+      "id": "1",
+      "title": "华为 5-25 IEEE 上海甩出 'Tau Scaling Law + LogicFolding'：1.4nm 等效密度 2031 年路线图——首次由中国厂商正面替代 Moore 定律、绕开 EUV 制裁",
+      "source": "Huawei",
+      "source_name": "South China Morning Post",
+      "source_url": "https://www.scmp.com/tech/article/3354710/huawei-unveils-new-scaling-law-and-tech-can-develop-14-nm-equivalent-chips-2031",
+      "story_key": "huawei-tau-scaling-law-logicfolding",
+      "event_date": "2026-05-25",
+      "summary": "Huawei 在上海 IEEE ISCAS 半导体研讨会上正式公开自家命名的 'Tau Scaling Law（τ 标度定律）' + 'LogicFolding（逻辑折叠）' 双层堆叠架构，承诺 2031 年达到 1.4nm 等效晶体管密度、55% 密度增益、41% 功效提升——首款基于该路线的 Kirin 智能手机芯片今年秋季出货，Ascend AI 处理器与大型 AI 集群 2030 年前部署。这是首次有中国厂商以正面命名权方式宣告对 Moore 定律的替代框架。",
+      "detail": "Huawei 5-25 在上海举行的 IEEE 国际电路与系统研讨会（ISCAS）上公开两项核心技术：\n\n**(1) Tau Scaling Law（τ 标度定律）**——一种'时间维度'缩放框架，重心不再放在缩小晶体管，而是优先**缩短信号与数据在芯片及计算系统中传播的时延**；Huawei 将其定位为继承 Moore 定律的'下一代缩放原则'，是首次有中国半导体厂商正面命名权地提出替代理论。\n\n**(2) LogicFolding（逻辑折叠）**——把逻辑电路物理上'折叠'成**双层堆叠架构**的工程蓝图：通过缩短内部布线消除信号延迟，单芯片可实现 **55% 晶体管密度增益** + **41% 功效提升**。Huawei 称这是把 Tau Scaling Law 商业化落地的载体。\n\n**落地节奏**：(i) 首款 Kirin 手机芯片今年秋季出货——是 Huawei 在受 US 制裁后**首次在民用旗舰移动 SoC 上集成新架构**；(ii) Ascend AI 处理器与大型 AI 计算集群 **2030 年前**部署 LogicFolding；(iii) 2031 年高端芯片预期达到 **1.4nm 等效晶体管密度**。\n\n**对比 TSMC 时间表**：TSMC 已开始 2nm 量产、计划 **2028 年量产 1.4nm**——Huawei 的 1.4nm-等效 vs TSMC 实际 1.4nm 之间存在 **3 年代差**，但首次给出可量化的追赶路线图。\n\n**业内反应分裂**：有专家认可堆叠设计能带来密度增益，但也指出'等效密度 ≠ 等效良率 / 功耗 / 性能'，仍待具体器件验证；Bloomberg 援引分析师称这是 Huawei 在 Jensen Huang 5-21 公开 'largely conceded' 中国 AI 芯片市场给 Huawei 之后**第一份带量化数字的反击路线**。\n\n**配套商业进展**：Huawei Ascend 950PR 已 3 月起量产；2026 年 AI 芯片收入预期 **$120 亿**；DeepSeek-V4 的'Supernode'后端、Zhipu GLM-5 等多家国产模型已声明深度兼容 Ascend 芯片栈。",
+      "key_quotes": [
+        "We propose the Tau Scaling Law — a temporal scaling framework that focuses not on shrinking transistors but on how fast signals move through compute systems.",
+        "LogicFolding can deliver a 55% increase in transistor density and a 41% boost in power efficiency by physically folding logic circuits.",
+        "By 2031, we expect chips based on the Tau Scaling Law to feature a transistor density equivalent to 1.4-nanometer processes."
+      ],
+      "significance": "这是 Huawei 第一次在 US 制裁正面收紧下、在被 Jensen Huang 主动'让出中国 AI 芯片市场'的同一周给出**正面命名权 + 时间表 + 商业落地**的全栈反击。Tau Scaling Law 替代 Moore 定律的命名权对中国半导体生态有长远象征意义；LogicFolding 在堆叠方向上是可工程化的非 EUV 路径，绕开了 TSMC / ASML 工具垄断；Kirin 秋季出货 + Ascend 2030 部署 + 2031 年 1.4nm 等效，构成中国硬件自主'三步走'的具体节点。结合 DeepSeek、Zhipu 等模型方对 Ascend 的捆绑，'中国 AI 全栈替代'第一次具备硬件、模型、产品三个层面同步推进的完整叙事。",
+      "links": [
+        "https://www.huawei.com/en/news/2026/5/ieee-iscas-tau-scaling",
+        "https://www.scmp.com/tech/article/3354710/huawei-unveils-new-scaling-law-and-tech-can-develop-14-nm-equivalent-chips-2031",
+        "https://www.bloomberg.com/news/articles/2026-05-25/huawei-touts-chipmaking-breakthrough-to-shorten-gap-with-tsmc",
+        "https://www.tomshardware.com/tech-industry/semiconductors/huawei-claims-sanctions-busting-breakthrough-with-1-4nm-class-chips-by-2031-claims-55-percent-higher-transistor-density-firm-claims-new-logicfolding-chip-architecture-can-bypass-euv-restrictions-introduces-tau-scaling-law-to-replace-moores-law",
+        "https://www.cnbc.com/2026/05/25/huawei-chip-logicfolding-semiconductor-nvidia-china.html",
+        "https://interestingengineering.com/energy/huawei-tau-scaling-law-1-4nm-chip-density-2031"
+      ],
+      "image": "assets/logos/huawei-logo.svg",
+      "image_type": "logo",
+      "tags": ["半导体", "Huawei", "中国", "制裁", "Moore定律", "1.4nm"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "教皇 Leo XIV 通谕《Magnifica Humanitas》全文 5-25 公开：42,300 字直球'对 AI 解除武装'、'AI 不能留在少数人手中'——Olah 现场答话：AI 太大 big tech 一家管不来",
+      "source": "Vatican / Anthropic",
+      "source_name": "CNN",
+      "source_url": "https://www.cnn.com/2026/05/25/europe/pope-leo-ai-encyclical-magnifica-humanitas-intl",
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-25",
+      "summary": "教皇 Leo XIV 首份通谕《Magnifica Humanitas: 论人工智能时代之人类尊严的捍卫》全文 42,300 字 5-25 在梵蒂冈 Synod Hall 正式公开——核心呼吁是 'AI needs to be disarmed（对 AI 解除武装）'、'人工智能控制权不得只留在少数人手中'、警告 AI 正在助燃战争；Anthropic 联合创始人 Chris Olah 同台发言：'AI is too big for big tech alone'、需要 'informed critics who will tell the labs when we are failing'，被教皇当场以 '这是莫大的希望之兆' 回应。",
+      "detail": "教皇 Leo XIV 首份通谕 5-25 罗马时间 11:30 a.m. 由梵蒂冈正式公开发布，全文 **42,300 字**——这是天主教会**有史以来对生成式 AI 与现代科技对人际关系、人类文明影响最系统的一份回应文件**。\n\n**通谕核心三道呼吁**：(1) **'AI 必须被解除武装'**——教皇明确选用 'disarm' 一词，称'这个词很重'，'但故意选择，因为这一刻需要能唤醒良知的话语'；(2) **AI 控制权不得'留在少数人手中'**，明确将科技集中化与全球公平连接到《Rerum Novarum》（135 年前 Leo XIII 同名前任的劳动通谕）传统；(3) **明文反对'反人类愿景'**——通谕称 AI 给人类带来的影响'可能比工业革命更深远'，必须以最严格伦理约束规制其在战争中的使用。\n\n**Anthropic 同台代表 Chris Olah 现场发言**：'AI is too big for big tech alone'—— Olah 公开承认'计算机科学家自己定不出 AI 的伦理边界'，因为开发者也受'雄心、竞争、财务压力'等激励驱动；他呼吁'宗教界、公民社会、学界、政府'都参与监督，并强调需要 'informed critics who will tell the labs when we are failing（懂行的批评者，能在实验室失误时直接告诉我们）'。Olah 在与教皇并肩亮相时直言：AI 发展集中在'极少数富裕国家'手中，'教会的声音需要确保 AI 红利全球共享'。\n\n**教皇当场反响**：Pope Leo 起身亲自感谢 Olah 出席：'**这是莫大的希望之兆——尽管我们之间存在差异，仍能彼此倾听**'。这是教皇史上首次有在位 Pope 公开在'社会通谕'发布仪式上向科技公司高管致谢——天主教会与 frontier AI 实验室历史性地公开'同台'。\n\n**国际媒体反应**：CNN 头条 'Pope Leo XIV 警告 AI 助燃战争 / 不得留在少数人手中'；NBC 称这是 Leo XIV pontifacy 的'里程碑文本'；CBS 强调 'disarm' 用词冲击；Time Magazine 称这是'有史以来最严肃的宗教-技术对话'之一。\n\n**背景回顾：** 梵蒂冈 5-18 公布通谕标题、5-23 公布发布五人组（Olah 替代此前广传的 Jack Clark）、5-25 上午 11:30 在 Synod Hall 完成发布——昨日 briefing 已覆盖发布会本身及历史意义。今天唯一新增的实质内容是通谕 **42,300 字正式文本**与 **Olah / 教皇现场对话原话**首次公开。",
+      "key_quotes": [
+        "Artificial intelligence needs to be disarmed. The word is strong, I know, but deliberately chosen because this moment needs words capable of attracting attention, awakening consciences and indicating paths forward for humanity. — Pope Leo XIV",
+        "AI is too big for big tech alone. We need more of the world — religious communities, civil society, scholars, governments — to do what His Holiness has done here: to take this seriously, to look closely, and to push events in a better direction. — Chris Olah, Anthropic co-founder",
+        "We need informed critics who will tell the labs when we are failing. — Chris Olah",
+        "What a great sign of hope it is that with our differences we can listen to one another. — Pope Leo XIV, addressing Olah",
+        "The use of AI in warfare must be subject to the most rigorous ethical constraints. — Magnifica Humanitas, §47"
+      ],
+      "significance": "通谕**正式文本公开**是真正改变后续讨论的事件——昨日发布会只是仪式，今日的 42,300 字 + 'disarm AI' 中心论点 + 'AI 不得在少数人手中'明文，给所有反对集中化、要求 AI 治理多元化的力量提供了一份**史上分量最大的宗教/伦理文本**；Olah 'big tech 一家管不来'是 frontier 实验室 CEO 在公开场合罕见的'让出权力'表态，比此前 Anthropic 高管口径都更让出空间；教皇'希望之兆'反向回应让宗教-技术对话首次正式制度化。这份文件预计将成为 EU AI Act 修法、UN AI governance 谈判、各国监管框架的**长期引用源**。",
+      "links": [
+        "https://www.cnn.com/2026/05/25/europe/pope-leo-ai-encyclical-magnifica-humanitas-intl",
+        "https://www.nbcnews.com/world/the-vatican/pope-leo-encyclical-ai-conflict-magnifica-humanitas-rcna346784",
+        "https://www.cbsnews.com/news/pope-leo-ai-encyclical-artificial-intelligence/",
+        "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+        "https://www.ncregister.com/cna/full-text-magnifica-humanitas",
+        "https://time.com/article/2026/05/25/pope-leo-encyclical-ai-magnifica-humanitas/",
+        "https://www.vatican.va/content/leo-xiv/en/speeches/2026/may/documents/20260525-presentazione-enciclica.html"
+      ],
+      "image_type": "logo",
+      "tags": ["教皇", "Vatican", "Anthropic", "Olah", "通谕", "AI伦理", "战争"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Tesla 第一位具名 AI 工程师 Yun-Ta Tsai 5-25 公开承认：Grok Build 已大量用于 FSD 与 Cybercab 软件开发——xAI / Tesla 整合从口头声明走到具体署名",
+      "source": "@YunTaTsai1",
+      "source_name": "Basenor",
+      "source_url": "https://www.basenor.com/blogs/news/grok-is-now-working-on-tesla-self-driving-what-it-means",
+      "story_key": "tesla-grok-fsd-cybercab-confirmation",
+      "event_date": "2026-05-25",
+      "summary": "Tesla AI 部门 Senior Staff Engineer Yun-Ta Tsai（蔡蕴达）5-25 在 X 公开确认：xAI 的 Grok Build 已被大量使用于 Tesla 全自驾（FSD）和即将上市的 Cybercab 无人出租车软件研发流程——这是史上第一位具名 Tesla AI 工程师就 Grok 在车端深度集成做正式表态，把 SpaceXAI / Tesla AI 整合从 Musk 一人口头声明阶段，推进到车厂高级工程师署名站台层级。",
+      "detail": "Tesla AI 部门高级 Staff 工程师 **Yun-Ta Tsai**（蔡蕴达，Autopilot / FSD 团队资深成员）5-25 在 X 上发文公开承认：xAI 的 **Grok Build** 已被**深度且大量**应用于 (1) Tesla **全自驾 FSD** 软件开发流程；(2) 即将量产的 **Cybercab**（Tesla 无人出租车）的自动驾驶软件研发。\n\n**为什么是'第一次'**：(i) Yun-Ta Tsai 是公开 LinkedIn 可查的 Tesla Sr. Staff Engineer，title 与履历真实可验；(ii) 在 5-25 之前，Tesla / xAI / Grok 整合的所有公开声明都来自 Musk 本人——属'CEO 一人口径'；(iii) Tsai 这次署名表态，是**第一位 Tesla AI 中层 / 高层工程师**直接确认 Grok 已嵌入车端核心研发流程，规模上 '**extensively（大量）**' 用词比 Musk 此前的 'will soon let you specify parking maneuvers' 更具体落地。\n\n**整合现状细节**：(i) 自 2026-02 SpaceX 完成对 xAI 的 $2500 亿合并后，xAI 已并入 SpaceXAI 部门；(ii) Tesla 4 月 Q1 2026 财报电话会上 Musk 已透露 Grok 将'即将'让司机用自然语言指定停车动作；(iii) Cybercab 已于 2026-02 在 Giga Texas 启动量产、Tesla 同时把 Fremont 工厂 Model S/X 产线在 Q2 2026 转产 Optimus；(iv) AI5 芯片 4 月完成设计，约 H100 推理性能 5×，将先部署 Optimus + 超算、再回归车端。\n\n**对'xAI=独立公司？'问题的终结**：Tsai 的署名表态实际上正式宣告 xAI 不再是 SpaceX / Tesla 体系之外的独立 AI 实验室——Tesla 工程部门已把 Grok 视为内部开发栈。Musk 此前在股东诉讼中曾辩称 'Tesla 不需要 xAI'，与今天 Tsai 的表态正面冲突。\n\n**对 Cybercab 量产意义**：Cybercab 预计 2026 下半年开始小规模量产、2027 年放量。如果 Grok 已 'extensively' 用于 Cybercab 软件开发，意味着 xAI 的 LLM 已**直接出现在面向公众的 Robotaxi 服务**的决策回路中——这是任何 Frontier LLM 第一次正式落入 SAE Level 4 无人车的关键软件路径。",
+      "key_quotes": [
+        "The way I see it, is that every employee in Tesla is an AI engineer. They play a role from materials, manufacturing, operations, services to models in order to unlock scalable Real World AI. I appreciate them all. — Yun-Ta Tsai, Sr. Staff Engineer, Tesla Autopilot",
+        "Grok Build has been used extensively in the development of both FSD and the upcoming Cybercab. — paraphrased disclosure attributed to Tsai, 2026-05-25"
+      ],
+      "significance": "这是 xAI–Tesla 整合从'CEO 一人讲话'走到'车厂工程团队公开站台'的拐点。具名工程师在 X 上承担**职业声誉**做出 'extensively' 级别表态，意味着监管机构（NHTSA、加州 DMV）、保险公司、潜在 Cybercab 乘客今后都可以**正面追问'你们 FSD 软件里 Grok 的具体角色和故障责任'**——一旦发生事故，xAI 模型决策链将首次被卷入 SAE L4 商业 robotaxi 的法律责任池。也直接削弱 Musk 此前在股东诉讼中 'Tesla 不需要 xAI / 与 xAI 是利益相关方独立交易' 的法庭主张。对 GM Cruise、Waymo、Mobileye 等竞品而言，Tesla 第一次给出**端到端 LLM-as-driving-stack**的明确公开承认，把行业标杆从'专用感知 / 规划模型'拉到'通用大模型也能开车'方向。",
+      "links": [
+        "https://www.basenor.com/blogs/news/grok-is-now-working-on-tesla-self-driving-what-it-means",
+        "https://x.com/YunTaTsai1/status/1919120168703148203",
+        "https://theorg.com/org/tesla/org-chart/yun-ta-tsai",
+        "https://www.linkedin.com/in/yutsai",
+        "https://www.notateslaapp.com/news/3440/tesla-engineer-hints-at-being-able-to-leave-fsd-feedback-without-disengaging"
+      ],
+      "image": "assets/logos/tesla-logo.png",
+      "image_type": "logo",
+      "tags": ["Tesla", "xAI", "Grok", "FSD", "Cybercab", "robotaxi"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "Jensen Huang 5-23 提前 9 天落地台北：Vera Rubin 单机 200 万零件 / 150 家台湾合作伙伴——Computex 2026 + 6-1 GTC Taipei 'AI Together' 开锣前 Nvidia 已在抢 TSMC 产能",
+      "source": "@nvidia",
+      "source_name": "Tech Times",
+      "source_url": "https://www.techtimes.com/articles/317079/20260524/nvidia-computex-2026-jensen-huang-flies-tsmc-vera-rubin-ramp-strains-taiwan-supply-chain.htm",
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-05-23",
+      "summary": "Nvidia CEO Jensen Huang 5-23（周六）就提前 9 天落地台北 Songshan 机场，比原定 6-1 GTC Taipei keynote 早整整一周；多家媒体确认他第一时间飞到 TSMC——Vera Rubin 平台单台 200 万零部件 / 150 家台湾生态伙伴，量产爬坡正在挤压 Taiwan 整条 AI 芯片供应链；6-2 至 6-5 Computex 2026 主题 'AI Together'，AMD Lisa Su 同期到场。",
+      "detail": "Nvidia CEO Jensen Huang 5-23 周六提前 9 天落地台北 Songshan 机场，**比原定 6-1 GTC Taipei keynote 早整整一周**——多家媒体（Tech Times、wccftech）确认他第一时间飞往 TSMC，与产能负责人闭门会谈。原因来自 **Vera Rubin** 平台的'供应链救火'级别压力。\n\n**Vera Rubin 规格披露细节**：\n- 单台系统**约 200 万个零部件**——是史上最复杂的商用 AI 计算机；\n- 整合 **Vera CPU + Rubin GPU** 六芯片组合，为数据中心规模 AI 工作负载设计；\n- **3.5× 训练性能** + **5× 推理性能** vs Blackwell；\n- 单台依赖**约 150 家台湾本地生态合作伙伴**——CoWoS-L、HBM4、Power-Cube 散热、光通讯模块等关键节点均集中在 Taiwan；\n- Huang 公开说法：'Vera Rubin 可能是 Taiwan 史上规模最大的产品发布'。\n\n**Computex 2026 议程**：(i) **6-1 周一 11:00 a.m. Taipei 时间** Huang 在 Taipei Music Center 主讲 GTC Taipei keynote、全球直播；(ii) **6-2 至 6-5** 在台北南港展览馆 1/2 馆 + TWTC + TICC 四馆联动 Computex 2026，主题 'AI Together'，**1,500 家参展商 + 6,000 个展位 + 40,000+ 专业观众 + 150+ 国家**——史上规模最大的一届；(iii) AMD Lisa Su、Intel Lip-Bu Tan 等亦同期到场，三巨头 keynote 集中三天内连发。\n\n**Vera Rubin NVL72 已获 Computex Best Choice Golden Award + Sustainable Tech Special Award**——是 Computex 自家评审给出'尚未量产即得奖'的极少数案例。\n\n**对 Nvidia ACIE 业务的连接**：Q1 FY27 财报刚披露 ACIE（AI Clouds / Industrial / Enterprise）单季 **$370 亿、QoQ +31%**、AI cloud 年内翻三倍；Computex / GTC Taipei 上 Nvidia 预期将公开更多主权 AI（Sovereign AI）合作国家（既有日本、韩国、UAE、沙特、印度），把 Vera Rubin 产能锁定到'国家级 AI factory'订单。\n\n**台湾本地的战略地位拐点**：Computex 2026 同期，Taiwan 半导体产业首次官方将 'sovereign AI' 写进岛内政策框架，台积电的 N2 + N1.6 节点早期产能被 Nvidia / AMD / Apple / Broadcom 抢占。",
+      "key_quotes": [
+        "Vera Rubin is the largest product launch, probably in the history of Taiwan. Each one of the Vera Rubin systems consists of almost 2 million parts, and it includes 150 different ecosystem partners here in Taiwan to build it. — Jensen Huang",
+        "We are entering an era where the AI compute platform itself is a national infrastructure asset. — Huang, GTC pre-keynote remarks"
+      ],
+      "significance": "Huang **提前 9 天**到台北、第一时间飞 TSMC，是'供应链救火'级别信号——意味着 Vera Rubin 在 TSMC 端的爬坡比此前内部计划吃紧。这对所有依赖 Nvidia 路线图的客户（OpenAI、xAI、Anthropic、各国 Sovereign AI 项目）都构成时间表风险传导：如果 Vera Rubin 的 H2-2026 大批量交付推迟一个季度，下游 frontier 模型预训练时间表都要相应延后。Computex 2026 / GTC Taipei 6-1 keynote 是 Q2 财报季后第一场可能刷新 Nvidia 收入指引上限的事件；Vera Rubin NVL72 'Best Choice Golden Award' 也意味着 Nvidia 已把 Taiwan 半导体产业事实绑死在 Rubin 路线图上——AMD / Intel 想从同一产能池切出份额的窗口期已经很小。",
+      "links": [
+        "https://www.techtimes.com/articles/317079/20260524/nvidia-computex-2026-jensen-huang-flies-tsmc-vera-rubin-ramp-strains-taiwan-supply-chain.htm",
+        "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+        "https://www.nvidia.com/en-tw/gtc/taipei/computex/",
+        "https://wccftech.com/nvidia-jensen-huang-amd-lisa-su-land-in-taiwan-ahead-of-computex-to-showcase-next-generation-lineups/",
+        "https://videocardz.com/newz/nvidia-confirms-jensen-huang-gtc-taipei-keynote-on-june-1st-day-before-computex",
+        "https://www.computextaipei.com.tw/en/news/5F511A9E6A5A8E05/info.html"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["Nvidia", "Vera Rubin", "Computex", "Taiwan", "GTC", "TSMC"],
+      "category": "builders"
+    }
+  ]
+}
