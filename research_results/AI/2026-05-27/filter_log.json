@@ -1,0 +1,98 @@
+{
+  "date": "2026-05-27",
+  "total_candidates": 10,
+  "kept": 4,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "qualcomm-bytedance-asic-deal",
+      "event_date": "2026-05-26",
+      "title_en": "Qualcomm strikes AI chip deal with ByteDance for data centers",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in 7-day lookback. ByteDance to buy millions of Qualcomm ASICs for AI agent software; Qualcomm shares jumped up to 8.3% intraday on May 26. First high-profile non-Nvidia buyer for Qualcomm AI data-center silicon."
+    },
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-05-27",
+      "title_en": "Jensen Huang attends NVIDIA Taipei T17/T18 employee event launching Taiwan HQ groundbreaking",
+      "source": "Focus Taiwan",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-23 ('Jensen 5-23 提前 9 天落地台北：Vera Rubin 单机 200 万零件 / 150 家台湾合作伙伴'). New info on 5-27: Jensen TODAY attends company-wide convention at Beitou T17/T18 plots, Taipei Mayor Chiang Wan-an also attends, official Taiwan HQ project launch — confirmed dated event, not just speculation."
+    },
+    {
+      "story_key": "pope-leo-xiv-ai-encyclical",
+      "event_date": "2026-05-26",
+      "title_en": "Pope Leo XIV's encyclical links AI to historical slavery; historic Vatican apology",
+      "source": "NBC News",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-25 ('对 AI 解除武装、AI 不能留在少数人手中') and 5-23 / 5-18 prior coverage. New info: full reading of encyclical text reveals (1) Vatican's HISTORIC APOLOGY for legitimizing slavery in 15th-century papal bulls — not in prior coverage; (2) explicit link between AI-era labor (data labeling, content moderation, rare mineral mining for AI chips) and historical slave trade — substantively new framing not in prior coverage."
+    },
+    {
+      "story_key": "hyperscaler-debt-cds-boom",
+      "event_date": "2026-05-23",
+      "title_en": "AI debt boom fuels surge in hyperscaler credit derivatives trading",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Bloomberg 5-23 reports hyperscalers have borrowed $250B+ globally for AI; BofA monthly notional CDS volume up 10× since 2025; Microsoft/Amazon/Oracle CDS hit $4.6B Q1 notional vs $759M YoY; hedge funds shorting cost of protection."
+    },
+    {
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-22",
+      "title_en": "Anthropic $30B round at $900B closing this week",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Previously published 2026-05-22 ('Anthropic $30B+ 新轮下周敲定 $900B+ 估值'). No confirmed close yet. The 'closing soon' angle was already covered. No substantive new information (no formal close announcement)."
+    },
+    {
+      "story_key": "anthropic-agent-sdk-metered",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic moves Claude Agent SDK / claude -p / GitHub Actions / 3rd-party agents to separate metered credit on June 15",
+      "source": "The New Stack",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is 13 days old (>5 day limit). The announcement was made via @ClaudeDevs on May 13-14, well outside the freshness window."
+    },
+    {
+      "story_key": "microsoft-claude-code-cancellation",
+      "event_date": "2026-05-14",
+      "title_en": "Microsoft cancels internal Claude Code licenses by June 30 after token billing burned annual AI budget",
+      "source": "Windows Central / The Verge",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is 13 days old (>5 day limit). Originally reported by The Verge / Tom Warren on May 14."
+    },
+    {
+      "story_key": "amd-venice-2nm-ramp",
+      "event_date": "2026-05-21",
+      "title_en": "AMD ramps 6th-gen EPYC Venice CPUs on TSMC 2nm process",
+      "source": "AMD Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-21 is 6 days old (>5 day limit). First HPC product to ramp on TSMC 2nm, but outside the freshness window."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-26",
+      "title_en": "HelpNetSecurity recap: Claude Mythos finds 10,000+ critical vulnerabilities",
+      "source": "Help Net Security",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-22 (anthropic-mythos-glasswing-disclosure: '10,000+ 高危漏洞, Cloudflare 单家 2,000 / 400 高危, Mozilla Firefox 150 现修 271 条'). May 26 HelpNet article is recap of Anthropic's May 22 Project Glasswing initial update — no substantive new information."
+    },
+    {
+      "story_key": "salesforce-q1-fy27-earnings",
+      "event_date": "2026-05-27",
+      "title_en": "Salesforce Q1 FY27 earnings report Agentforce ARR",
+      "source": "Money Morning / CNBC",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Salesforce reports Q1 FY27 earnings tonight (post-market 5-27) but actual results / earnings call commentary not yet published. Pre-earnings preview alone is not substantive enough to publish without the actual numbers. Will revisit tomorrow if numbers / commentary land."
+    }
+  ]
+}
