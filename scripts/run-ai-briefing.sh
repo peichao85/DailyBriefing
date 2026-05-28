@@ -60,7 +60,7 @@ run_stage "Research" "Run the ai_research skill for today ($DATE)" 20 || exit 1
 # GitHub Trending is best-effort — it must not block the AI pipeline if the GitHub API hiccups.
 log "PDF Builder, Web Builder & GitHub Trending started (parallel)"
 
-run_stage "PDF Builder" "Run the ai_pdf_builder skill for today ($DATE)" &
+run_stage "PDF Builder" "Run the ai_pdf_builder skill for today ($DATE)" 7 &
 PID_PDF=$!
 
 run_stage "Web Builder" "Run the ai_web_builder skill for today ($DATE)" &
@@ -72,8 +72,17 @@ PID_GH=$!
 FAILED=0
 
 if ! wait "$PID_PDF"; then
-  echo "ERROR: PDF Builder failed." >> "$LOG"
-  FAILED=1
+  # The Claude session can exit non-zero (e.g. budget cap during final QA) after
+  # the PDF artifact is already on disk. Treat that as success if the file is a
+  # valid PDF; only mark FAILED when the artifact itself is missing or broken.
+  PDF_ARTIFACT="pdf/AI/daily-tech-ai-briefing-${DATE}-cn.pdf"
+  if [ -f "$PDF_ARTIFACT" ] && pdfinfo "$PDF_ARTIFACT" >/dev/null 2>&1; then
+    echo "WARNING: PDF Builder exited non-zero but $PDF_ARTIFACT is a valid PDF; continuing." >> "$LOG"
+    log "PDF Builder exited non-zero but artifact valid (treating as success)"
+  else
+    echo "ERROR: PDF Builder failed and artifact missing or invalid." >> "$LOG"
+    FAILED=1
+  fi
 fi
 
 if ! wait "$PID_WEB"; then
