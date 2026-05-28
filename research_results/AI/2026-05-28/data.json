@@ -1,0 +1,311 @@
+{
+  "date": "2026-05-28",
+  "category": "AI",
+  "researched_at": "2026-05-28T07:10:00Z",
+  "sources_checked": [
+    "Bloomberg",
+    "CNBC",
+    "TechCrunch",
+    "Reuters",
+    "Axios",
+    "SecurityWeek",
+    "Tom's Hardware",
+    "TechTimes",
+    "Microsoft Copilot Blog",
+    "Google AI for Developers",
+    "Bloomberg Law",
+    "Anthropic",
+    "@sama",
+    "@demishassabis",
+    "@ilyasut",
+    "@DanielaAmodei",
+    "@elonmusk",
+    "@alexandr_wang",
+    "@mntruell",
+    "@mikeyk",
+    "@JeffDean",
+    "@ylecun",
+    "@geoffreyhinton",
+    "@AndrewYNg",
+    "@karpathy",
+    "@julien_c",
+    "@ScottWu46",
+    "@alighodsi",
+    "@JonathanRoss321",
+    "@lexfridman",
+    "@garrytan",
+    "@DrJimFan"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "AI coding 这家把 OpenAI 与 Anthropic 推到台前：Cognition 单日敲 $10 亿 Series D 锁 $26B 估值——Devin ARR 12 个月从 $3700 万跳到 $4.92 亿、13 倍翻番、Founders Fund / Lux / General Catalyst 联手领投",
+      "source": "Cognition",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-27/ai-coding-startup-cognition-raises-1-billion-at-26-billion-value",
+      "story_key": "cognition-series-d-26b",
+      "event_date": "2026-05-27",
+      "summary": "Cognition AI（Devin 的开发商）5-27 公告完成 **$10 亿美元 Series D**、估值 **$260 亿美元**——Lux Capital + General Catalyst + 8VC 联席领投，Founders Fund / Ribbit / Atreides 跟投；ARR 12 个月内从 $3700 万跳到 $4.92 亿、12 倍。估值比 9 个月前 $102 亿翻 2.5 倍。",
+      "detail": "**Cognition 5-27 周三宣布完成 $10 亿美元 Series D 融资、投后估值 $260 亿美元**——按 25 亿美元 pre-money 计算，本轮被 **Lux Capital、General Catalyst、8VC 联席领投**，**Peter Thiel 的 Founders Fund、Ribbit Capital、Atreides Management** 跟投。\n\n**ARR 12 个月翻 12 倍：从 $3700 万到 $4.92 亿。** CEO Scott Wu 在博文 'More Devins in More Places' 中披露 Cognition 现在 annualized revenue 已达 **$4.92 亿美元**——相比 2025-5 月 Devin 上线时的 $3700 万 ARR，**12 个月内增长 13 倍**；同时企业用户数量也增长 10 倍。Citi、Mercedes-Benz、Goldman Sachs、Dell 以及美军已经是 Devin 的付费客户。\n\n**Devin 自己写自己 90% 的代码。** Cognition 同步公开一个极具标志性的内部数字：公司自家的代码库里 **90% 的代码由 Devin（自家产品）自主写入**——基本完成 'AI coding agent 自我开发' 的闭环。这正是 Lux Capital 给本轮新闻稿里写下的核心叙事点。\n\n**估值 9 个月翻 2.5 倍。** Cognition 上一轮 Series C 在 2025-9 月以 $102 亿估值收 $4 亿——本轮 $260 亿距上一轮仅 8 个月。注意 5-22 OpenAI 提交 confidential S-1 时披露 OpenAI 估值 $852B–$1T，5-26 Anthropic $30B+ Series H 锁 $900B+——Cognition 这一档 '$26B 估值' 已经把 AI coding agent 类别正式从'前沿实验室子赛道'切到了'独立顶层主战场'，是 2026 年 5 月这一波融资浪潮的核心头条之一。",
+      "key_quotes": [
+        "More Devins in More Places — Cognition 5-27 Series D 公告标题",
+        "Annualized revenue grew from $37M in May 2025 to $492M today, a 13-fold increase in 12 months — Cognition 博文",
+        "90% of our own code is now written by Devin — Scott Wu, CEO"
+      ],
+      "significance": "Cognition 5-27 这一轮把 AI coding agent 从'明星实验室子赛道'正式抬到独立顶层主战场——$26B 估值、$4.92 亿 ARR、12 倍年增、9 个月翻 2.5 倍，所有数字都把 Devin 与 Anthropic Claude Code、Cursor Composer、OpenAI Codex 摆到同一价格梯队。更重要的是 '90% 自家代码由 Devin 写' 的内部数字——这是 AI coding agent 第一次在公开融资材料里完成 '自我闭环开发' 的实证，意味着接下来的估值锚已不再是 'AI 能不能替代工程师'，而是'多大比例工程师不再需要写代码'。Lux + General Catalyst + 8VC + Founders Fund 同盘押注同一公司也告诉市场：AI 编程 layer 的赢家圈即将定型。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-27/ai-coding-startup-cognition-raises-1-billion-at-26-billion-value",
+        "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+        "https://cognition.ai/blog/series-d",
+        "https://thenextweb.com/news/cognition-just-raised-1-billion-at-a-26-billion-valuation-and-90-of-its-own-code-is-written-by-its-ai"
+      ],
+      "image": "assets/logos/cognition-logo.svg",
+      "image_type": "logo",
+      "tags": ["funding", "ai-coding", "cognition", "devin", "series-d"],
+      "category": "builders"
+    },
+    {
+      "id": "2",
+      "title": "SK Hynix 5-27 收盘踏过 $1 万亿——韩国史上首家 + 全球第三家亚洲万亿公司，盘中飙 11%、年内涨 250%、HBM 2026 产能已全部售罄，Nvidia AI 内存供应商地位封神",
+      "source": "SK Hynix",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-27/sk-hynix-joins-1-trillion-club-on-ai-memory-chip-dominance",
+      "story_key": "sk-hynix-trillion-club",
+      "event_date": "2026-05-27",
+      "summary": "SK Hynix 5-27 周三盘中最高飙 **11%**，市值正式踏过 **$1 万亿美元**——韩国史上首家、亚洲第三家万亿市值公司，仅次于 Samsung（本月早些时候）和 TSMC。SK Hynix 年内已涨 **~250%**，**2026 全年 HBM 产能已售罄**，Q1 收入 ₩52.6 万亿首次单季破 ₩50 万亿、同比 +198%。",
+      "detail": "**SK Hynix 与 Micron 5-27 同日突破 $1 万亿。** Bloomberg 5-27 独家报道：SK Hynix Inc. 与 Micron Technology Inc. 在 5-27 同日首次以收盘市值站上 $1 万亿美元——SK Hynix 盘中最高飙 **11%**，韩国 KOSPI 指数同步跳涨 2.3%，开盘几分钟内涨 5.1% 至历史新高 8,457.09，**'sidecar' 算法熔断机制被触发**临时停牌。\n\n**亚洲第三家万亿俱乐部成员。** SK Hynix 成为继 Samsung Electronics（本月早些时候）和 TSMC 之后**第三家进入 $1T 俱乐部的亚洲公司**——也是韩国历史上**第一家**跨过这一门槛的本土公司。年内股价已涨约 **250%**，主要由 AI 服务器与加速器对高带宽内存（HBM）的爆发性需求驱动。\n\n**Nvidia 'HBM 单一最大供应商'地位封神 + 2026 产能全部售罄。** SK Hynix 是 Nvidia Blackwell / Rubin 平台 HBM3E / HBM4 的主供应商——**2026 全年 HBM 产能已全部预售完毕**。Q1 2026 收入达 ₩**52.6 万亿韩元**，**首次单季突破 ₩50 万亿**，同比 **+198%**、环比 **+60%**。\n\n**与 Nvidia $150B Taiwan capex 同日叠加。** SK Hynix $1T 与 Nvidia Jensen Huang 同日（5-27 Computex 前夜）在台北宣告 $150B / 年台湾资本开支两件事**同日发生**，把 Asia AI 算力链同时摆到了全球资本市场叙事最高点：'Nvidia → TSMC → SK Hynix' 三段链条 5-27 当天市值首次同时进入万亿俱乐部。",
+      "key_quotes": [
+        "SK Hynix becomes third Asian company in the $1 trillion club after Samsung and TSMC — Bloomberg 5-27",
+        "HBM capacity is sold out for 2026 — SK Hynix earnings guidance",
+        "Memory chip prices doubled in Q1 alone and may rise another 63% this quarter — Bloomberg analysis"
+      ],
+      "significance": "SK Hynix 跨过 $1T 与 Nvidia 5-27 宣布 $150B / 年台湾资本开支同日叠加——AI 算力链三段（Nvidia 设计 → TSMC 制造 → SK Hynix HBM 内存）首次同日在万亿俱乐部对位站齐。这不再是单个公司股价里程碑，而是 AI 硬件价值链整体重定价的市场化确认：单是 SK Hynix 2026 HBM 已经售罄、Q1 收入同比 +198%、单季首破 ₩50 万亿，宣告 AI 算力需求已经把'内存厂'从周期股彻底重定义为'AI 基础设施核心层'。 OpenAI / Anthropic 5-22 至 5-26 估值同步飙升的真正 anchor 出现了——它在亚洲、它叫 HBM。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-27/sk-hynix-joins-1-trillion-club-on-ai-memory-chip-dominance",
+        "https://www.cnbc.com/2026/05/27/sk-hynix-shares-ai-chip-rally-1-trillion.html",
+        "https://www.euronews.com/business/2026/05/27/memory-chip-giants-sk-hynix-and-micron-cross-1tn-valuation-amid-ai-mania",
+        "https://money.usnews.com/investing/news/articles/2026-05-26/sk-hynix-joins-1-trillion-club-after-samsung-micron-on-ai-chip-boom"
+      ],
+      "image": "assets/logos/sk-hynix-logo.svg",
+      "image_type": "logo",
+      "tags": ["sk-hynix", "hbm", "ai-memory", "nvidia-supplier", "market-cap"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Jensen Huang 5-27 台北亲口落定：Nvidia 把台湾年度 capex 从 $100-150 亿直接抬到 $150B/年——同比 10×、Beitou T17/T18 新总部 4,000 人 2030 入驻、'Taiwan 就是 AI 革命的 epicenter'",
+      "source": "Nvidia",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/27/nvidia-taiwan-investment-150-billion-spending.html",
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-05-27",
+      "summary": "Nvidia CEO Jensen Huang 5-27 周三下午在台北 Beitou-Shilin T17 / T18 总部动工现场亲口宣布——Nvidia 在台湾的年度资本开支将从过去 4-5 年的 **$100-150 亿**直接抬到 **$1000-1500 亿美元 / 年**（10× 跃升），新总部 2030 年完成、可容纳 **4,000 名**员工，并将 Taiwan 命名为 **'AI 革命的 epicenter'**。\n\n**背景回顾：** Nvidia 5-23 周六 Huang 提前 9 天落地台北抢 TSMC 产能、5-27 上午 Beitou T17 / T18 总部破土，台北市长 Chiang Wan-an 同台。",
+      "detail": "**Huang 5-27 当面把 capex 数字从模糊'数十亿'抬到'1,500 亿'。** Jensen Huang 5-27 下午在 Beitou-Shilin 科技园区 T17 / T18 总部建设现场对约 1,000 名 Nvidia 员工和现场记者亲口表态：'**Four years ago, five years ago, Nvidia was spending about $10, $15 billion a year in Taiwan. Now, we're spending $100 going to $150 billion in Taiwan each year**'——把 Nvidia 在 Taiwan 的年度资本开支从过去的 $100-150 亿美元直接量化到 **$1000-1500 亿美元**，10 倍跃升，并把 Taiwan 命名为 **'epicenter of the AI revolution'**。\n\n**新总部 2030 入驻 / 4,000 人 / 无电梯 + 大量幕墙玻璃。** 新总部建设细节首次公开：Beitou-Shilin 科技园区内 T17 与 T18 两块地号、总规模可容纳 **4,000 名员工**、设计灵感来自 Nvidia 美国 Santa Clara 下一代总部——**整栋楼无电梯**、外墙大量玻璃幕墙、2030 年完工入驻。\n\n**\"Banquet of the Century\" 上下游同桌就餐。** 5-26 周二晚 Huang 在台北一家 Hot Pot 餐厅与 **TSMC CEO C.C. Wei、Foxconn 董事长 Young Liu、MediaTek CEO Rick Tsai、Quanta 副董事长 C.C. Leung、Wistron、Delta Electronics、ASUS 董事长**等台湾全产业链顶层人物聚餐——韩国媒体直接以 'Banquet of the Century / 世纪宴会' 命名报道。Huang 同时透露 **Grace Blackwell 量产顺利、Vera Rubin 已开始制造**，'**接下来半年会极其繁忙**'。\n\n**与 SK Hynix $1T 同日叠加。** Nvidia 5-27 这一笔 $150B / 年 capex 与 SK Hynix 5-27 同日跨过 $1T 市值在时间上**同步发生**——意味着 AI 算力链三大节点（Nvidia 设计 / TSMC 制造 / SK Hynix HBM）在同一天向全球资本市场宣告：未来 5 年的钱已经落到亚洲、并且数字以万亿计。",
+      "key_quotes": [
+        "Four years ago, five years ago, Nvidia was spending about $10, $15 billion a year in Taiwan. Now, we're spending $100 going to $150 billion in Taiwan each year. — Jensen Huang, 5-27 Beitou",
+        "Taiwan is the epicenter of the AI revolution. — Jensen Huang, 5-27",
+        "The next half-year will be extremely busy. — Huang at 5-26 dinner with C.C. Wei"
+      ],
+      "significance": "Huang 5-27 把 Nvidia 在 Taiwan 的年度资本开支从过去含糊的'数十亿美元'级别一次性量化到 **$1500 亿美元 / 年 + 10 倍跃升**——这不是 GTC keynote 的 PR 数字，是 CEO 在总部破土现场对自己员工的直接承诺，意味着 Taiwan AI 产业链 4-5 年内将吸收一笔接近 **TSMC 全公司单年资本支出 5 倍**的 Nvidia 订单沉淀。叠加同日 SK Hynix 跨 $1T、Samsung 本月早些时候已 $1T、TSMC 长期 $1T——AI 算力链亚洲三段在 5-27 同日齐站万亿俱乐部，这是全球 AI 资本流向'西方设计 / 东方制造'格局首次被以万亿市值同步盖章的标志性事件。",
+      "links": [
+        "https://www.cnbc.com/2026/05/27/nvidia-taiwan-investment-150-billion-spending.html",
+        "https://www.benzinga.com/markets/tech/26/05/52799950/jensen-huang-says-nvidia-will-pour-150-billion-a-year-into-booming-ai-hub-taiwan",
+        "https://www.taiwannews.com.tw/news/6370635",
+        "https://kfgo.com/2026/05/26/nvidia-ceo-says-taiwan-is-epicentre-of-ai-revolution/"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["nvidia", "taiwan", "capex", "headquarters", "huang", "tsmc"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "4",
+      "title": "中国正式把 AI 研究员升格为 '核物理学家'：Bloomberg 5-26 独家——DeepSeek / Alibaba 私企前沿科学家、创始人、高管出境须先获政府批准，从国企蔓延到全部头部 AI 民企",
+      "source": "中国监管层",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms",
+      "story_key": "china-ai-talent-travel-restrictions",
+      "event_date": "2026-05-26",
+      "summary": "Bloomberg 5-26 独家：中国正在把出境审批限制扩大到 **Alibaba、DeepSeek 等私营 AI 头部公司**的核心研究员、创始人与高级管理者——以前仅适用于核物理学家与国企高管的出境管控，现在被正式延伸到民营 AI 战略人才。",
+      "detail": "**中国正式将'前沿 AI 人才'升格到'核物理学家'级出境管控。** Bloomberg 5-26 独家：中国政府正以多个监管机构名义，对私营 AI 公司核心人员实施前所未有的出境审批限制——**Alibaba Group Holding Ltd.、DeepSeek 等头部民营 AI 公司**的创始人、高级研究员、关键执行官，未来出境需先获相关主管部门批准。\n\n**从国企 / 核科学家向民营前沿 AI 公司全面扩展。** 此前出境前审批程序在中国仅保留给**核物理学家、关键航天工程师、国有大型企业高管**等极少数群体。本次 Bloomberg 报道的关键升级是：**首次把私营 AI 公司核心人才纳入同一管控框架**——5-26 节点之前，DeepSeek 等公司虽然已对部分高管的私人出境实施内部审批（2025-12 月报道），但'政府层面 + 行业范围'同步落地是 5-26 才正式被披露。\n\n**审批主体多元——多家部委联合下发。** Bloomberg 援引知情人士透露，相关指令由多家政府机关分别下发，覆盖公司层面 + 高校层面的 AI 研究人员（包括接受政府资助的科研机构）。其中一些机构指令直接要求企业承担'出境备案 / 审批协调'责任。\n\n**国家安全资产化定性。** Bloomberg 援引人士的核心定性是——中国政府现在把顶层 AI 人才**视为国家安全资产**，给出与历来对核科学家相同水平的人员流动控制。\n\n**对照 Nvidia 5-21 'largely conceded' 中国 AI 芯片市场。** 这一动作与 Nvidia CEO Huang 5-21 公开表态'largely conceded'中国 AI 芯片市场给 Huawei 形成精准对位：硬件端美国主动让位、人才端中国主动锁门——5 月底中美 AI 脱钩进入 '硬件 + 人才' 双向闭合阶段。",
+      "key_quotes": [
+        "China expands travel curbs that were previously reserved for nuclear scientists to top AI talent at private firms — Bloomberg 5-26",
+        "The government now views top AI talent as a national-security asset — Bloomberg 报道援引知情人",
+        "Founders, senior researchers and key executives now need approval from relevant authorities — Bloomberg 5-26"
+      ],
+      "significance": "5-26 这一步是中国把'AI 顶级人才出境'从公司内部管理升格为国家级管控的**正式起点**——以前对核物理学家、卫星工程师才适用的出境审批，现在第一次明文覆盖到 Alibaba、DeepSeek 这一级私营 AI 公司，意味着北京已经把 AI 顶级人才完全等同于国家安全资产看待。叠加 5-21 Huang 公开表态'largely conceded'中国 AI 芯片市场给 Huawei——5 月底中美 AI 关系正式从'硬件单向脱钩'升级为'硬件 + 顶级人才' 双向闭合：美国走芯片、中国守人才，两侧都开始拒绝对方进入自己最关键的资源池。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms",
+        "https://cryptobriefing.com/china-restricts-travel-ai-talent-alibaba-deepseek/",
+        "https://www.businesstoday.in/technology/artificial-intelligence/story/china-clamps-down-on-overseas-travel-for-top-ai-executives-533501-2026-05-27"
+      ],
+      "image": "assets/logos/deepseek-logo.png",
+      "image_type": "logo",
+      "tags": ["china", "deepseek", "alibaba", "travel-restrictions", "national-security", "geopolitics"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic Mythos 1 个月扫出 23,019 条候选漏洞、外部安全公司确认 1,726 条真实——wolfSSL CVE-2026-5194 第一条真正落地的 'AI 找的 0-day' 正式公开\n\n背景回顾：5-22 Anthropic Project Glasswing initial update 首次披露 '一个月扫出 10,000+ 高 / 严重级'，本次为 5-26 跟进披露含外部验证数据 + 首例 CVE。",
+      "source": "Anthropic",
+      "source_name": "SecurityWeek",
+      "source_url": "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/",
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-26",
+      "summary": "Anthropic 5-26 通过 SecurityWeek 披露 Mythos Preview 单 1 个月扫描共发现 **23,019 条候选漏洞**——外部安全公司复核 1,900 条后**确认 1,726 条（90.8% 真阳性）**，其中 1,000+ 条为高 / 严重级；首例由 Mythos 发现并正式获 CVE 编号的漏洞为 **CVE-2026-5194**——wolfSSL 加密库远程未授权完全控制服务器的关键级 0-day，已对外披露。\n\n**背景回顾：** Anthropic 5-22 首次披露 Mythos / Project Glasswing 数据时给出'1 个月 10,000+ 高 / 严重级'的总量口径——本次 5-26 跟进给出**精细化分层数字**与**第一条具名 CVE**。",
+      "detail": "**Mythos Preview 1 个月：23,019 候选 / 1,726 外部确认 / 90.8% 真阳率。** SecurityWeek 5-26 深度报道援引 Anthropic 内部 Project Glasswing 数据：Mythos Preview 在第一个月扫描中共生成 **23,019 条**候选漏洞——其中 **1,900 条**经独立安全公司复核，**1,726 条**被确认为有效漏洞（**90.8% 真阳性率**），其中 1,000+ 条为'高 / 严重'级别。这是 5-22 Anthropic 自家博客 '10,000+ 高 / 严重'声明发布 4 天后第一次以外部第三方独立验证给出**真阳性比率**。\n\n**首条 Mythos CVE 正式落地：wolfSSL CVE-2026-5194。** Anthropic 5-26 同步披露第一条由 Mythos 发现并完成 CVD 流程的具名漏洞——**CVE-2026-5194**：**wolfSSL 加密库**内一处可被未授权远程攻击者**完全控制服务器**的关键级别 0-day。wolfSSL 是嵌入式 / IoT / 工业控制领域使用最广泛的 SSL/TLS 实现之一，CVE 被记录为'AI 自主发现 0-day'第一次正式列入 NVD 数据库。\n\n**98 / 281 OSS 已修补 + 1,596 条已 disclose。** 截至 5-22，Anthropic 已经在 281 个 OSS 项目里 disclose 了 1,596 条漏洞，其中 **97 条已被项目维护者修补**（修复率约 6.1%）。Anthropic 同期估算继续扩展扫描后总计真阳数会到 **6,200 条**高 / 严重级。\n\n**自家 CVE 编号 + 政策放开同步。** 5-26 同期 Anthropic 修订其披露协议——允许合作伙伴（即受邀做 Mythos 测试的少数安全公司）相互**共享发现**、并与 Project Glasswing 圈外的安全团队、政府机构、行业组织、OSS 维护者、记者甚至公众分享部分信息——这是 5-22 之前不允许的。",
+      "key_quotes": [
+        "Mythos Preview detected 23,019 potential vulnerabilities across 1,000+ OSS projects — SecurityWeek 5-26",
+        "External security firms reviewed 1,900 findings; 1,726 confirmed valid (90.8% true positive) — Anthropic Project Glasswing initial update",
+        "CVE-2026-5194: wolfSSL critical RCE, attacker can take complete control of server from unauthenticated position — Mythos 首条 CVE"
+      ],
+      "significance": "本次 5-26 数据有两个关键 '第一'。第一，是 AI 找漏洞首次给出**外部独立验证的真阳性率（90.8%）**——这一数字直接打掉了'AI 安全扫描全是噪声 / 误报'的关键质疑，意味着 Mythos 类模型已经达到可以信任的工业级 vulnerability 发现工具的精度门槛。第二，**CVE-2026-5194 是 NVD 数据库内第一条具名'AI 自主发现的 0-day'**——wolfSSL 是嵌入式与工业控制领域最广泛的 TLS 实现，这条 CVE 标志着'AI 主导的供应链安全发现'从研究项目跨进了生产级 CVD 流程。叠加 5-22 同期日本财务大臣宣布 Japan 政府与三大银行将获 Mythos 准入——美 / 日两国监管层与金融机构正在把 Mythos 当作金融关键基础设施的 '0-day 防御层'。",
+      "links": [
+        "https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/",
+        "https://news.slashdot.org/story/26/05/26/2026259/mythos-detected-23000-vulnerabilities-across-1000-oss-projects",
+        "https://www.anthropic.com/research/glasswing-initial-update",
+        "https://cryptobriefing.com/anthropic-mythos-23000-oss-vulnerabilities/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["anthropic", "mythos", "cve", "wolfssl", "ai-security", "project-glasswing"],
+      "category": "research"
+    },
+    {
+      "id": "6",
+      "title": "Demis Hassabis 5-26 Axios 复盘 I/O 'singularity foothills' 言论：AGI 把可能时点从 2030 提前到 2029、'**留给社会准备的时间只剩几年**'、刻意用强烈措辞向政策制定者敲钟",
+      "source": "@demishassabis",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/05/26/deepmind-ceo-demis-hassabis",
+      "story_key": "hassabis-axios-foothills-agi-2026",
+      "event_date": "2026-05-26",
+      "summary": "Google DeepMind CEO Demis Hassabis 5-26 接受 Axios 单独采访——把 5-19 I/O 上'我们正站在 singularity 的 foothills（山脚）'的表态进一步收紧：AGI **2030 仍是基准、2029 已是可能时点**，'**只剩几年时间让社会做准备**'；并明确解释他的强烈措辞是**有意为之**——意在唤醒被他认为'仍未当回事'的政策制定者与经济学家。",
+      "detail": "**'2029 现在已是 AGI 可能时点。'** Hassabis 5-26 在与 Axios 记者 Mike Allen 的后续采访中，把他 5-19 I/O 主题演讲结尾'**we're at the foothills of the singularity / 我们正站在奇点的山脚**'的判断进一步具象化——AGI 的预测时点 'broadly still 2030, with 2029 now seen as a possibility'，比此前 4 年时点更前移一年。\n\n**\"只剩几年准备时间。\"** Hassabis 在采访中强调：**'只剩几年时间让社会做准备'**——这是 DeepMind CEO 首次以这种压缩到个位数年份的时间框架公开表达对 AGI 准备度的焦虑感。\n\n**承认用词刻意激进——是给政策制定者敲钟。** Hassabis 罕见地公开承认他选择 'foothills of the singularity'、'preparation' 等词是**有意为之**：'I used some of the terms I used, yeah, which were a little bit provocative'——他认为 **'governments, economists are still not taking this seriously enough'**（政策制定者与经济学家仍然没把这件事当回事），所以选择以更强烈的语言推动社会层面紧迫感。\n\n**AI agents '是更强系统的 practice run'。** Hassabis 把今天广泛炒作的 AI agents 定性为'a little bit like a practice run'（一种'彩排'）——为后续更强大的系统做铺垫，不是终点。这与 Google I/O 同期 Gemini 3.5 Flash + Gemini Spark 同步推出形成自洽叙事：'agents 不是 AGI 目标本身，是过渡形态'。\n\n**5-19 I/O 与 5-26 Axios 之间的递进。** 5-19 I/O 当晚他说出 'foothills of the singularity'被业界部分解读为公司营销口径——5-26 这次访谈把这一表态明确**升格为个人正式立场**并配上时间表，这是 DeepMind CEO 自 2024 年 Nobel Prize 加冕以来对 AGI 时间表最具体的一次公开锁定。",
+      "key_quotes": [
+        "We're at the foothills of the singularity — Hassabis, 5-19 Google I/O closing",
+        "Broadly still 2030, though now 2029 is a possibility — Hassabis to Axios, 5-26",
+        "Only a few years left to prepare for AGI — Hassabis 5-26 Axios",
+        "Governments, economists are still not taking this seriously enough — Hassabis 5-26",
+        "AI agents are a little bit like a practice run [for AGI] — Hassabis 5-26"
+      ],
+      "significance": "Hassabis 5-26 把 AGI 可能时点从 2030 提前到 2029，并以 'only a few years to prepare' 直接定调社会准备时间——这是 DeepMind CEO 自 2024 Nobel Chemistry 加冕之后最具体也最压缩的 AGI 公开时间表。更关键的是他承认 5-19 'foothills of the singularity'语言**刻意激进**、是用来给政策制定者敲钟——一句'仍未当回事'，把整个企业 AGI timeline 叙事从'PR 宣传'升格为'公共政策呼吁'。叠加 Jack Clark 5-20 牛津发言'一年内 AI 合著诺奖发现 / 2028 年 AI 设计自己的后继版'、Anthropic 同期 $900B 估值——前沿实验室的 4 / 5 把手在 1 周内集中把 AGI 时间表从'数十年'压到了'数年'。",
+      "links": [
+        "https://www.axios.com/2026/05/26/deepmind-ceo-demis-hassabis",
+        "https://www.semafor.com/article/05/20/2026/google-exec-demis-hassabis-predicts-were-at-the-foothills-of-the-singularity",
+        "https://www.digitaltoday.co.kr/en/view/57022/google-deepmind-ceo-says-world-at-start-of-singularity-renews-agi-vision"
+      ],
+      "image": "img/demis-hassabis.jpg",
+      "image_type": "logo",
+      "tags": ["hassabis", "deepmind", "agi-timeline", "axios", "singularity"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "7",
+      "title": "Samsung 5-27 上午 10:00 工会通过史无前例的 '芯片工人 $40 万 / 非芯片工人 $4,000' 分红——韩国小股东行动总部正在告诉这个决定违宪，公司内部已传出 HBM 包装线 '故意减速' 抗议",
+      "source": "Samsung Electronics",
+      "source_name": "Tom's Hardware",
+      "source_url": "https://www.tomshardware.com/tech-industry/samsung-pay-deal-clears-court-challenge-as-chip-workers-400000-bonuses-near-approval",
+      "story_key": "samsung-chip-bonus-vote-lawsuit",
+      "event_date": "2026-05-27",
+      "summary": "Samsung Electronics 工会 5-27 上午 10:00 完成对 '半导体部门 10 年滚动 12% 营业利润分红' 协议的最终批准投票——存储芯片工人未来 10 年内最多可拿 **₩6 亿韩元（~$40 万美元）/ 人**奖金；与此同时**韩国小股东行动总部**已威胁起诉宣布协议违反《商法》，**DX 部门（消费电子）员工**——仅获 ₩600 万（~$4,000）——正发起内部 injunction，并已出现 HBM 包装线**故意减速生产抗议**的报道。",
+      "detail": "**'$40 万 vs $4,000' 史无前例分红差距。** Samsung Electronics 5-20 与代表约 48,000 名员工的工会达成临时协议——把半导体部门未来 **10 年内最高 12% 营业利润**拿出来发奖金，存储芯片部门员工人均最多可获 ₩6 亿韩元（约 **$40 万美元**）；同公司 DX（消费电子）部门员工只能从既有体系拿到约 ₩600 万（约 **$4,000**）。**100 倍人均差距**——是韩国企业史上最大单部门分红倾斜。\n\n**工会 5-27 上午 10 点完成正式投票。** 截至 5-25，公司层面与劳工双方的最终批准结果仍未确定——投票截止时间被设在 **5-27 上午 10:00**。这场投票本身已经经历了 18 天罢工预警，5-20 达成协议才暂时避免大规模停产。\n\n**韩国小股东行动总部正威胁诉讼。** **Korea Shareholder Action Headquarters** 5-22 起公开威胁起诉以撤销协议，理由是分红计划**绕过《商法》必经的股东审批流程**、属于董事会越权行为。一旦法院支持，公司 5-20 与工会签的全部协议可能被打回原形。\n\n**非芯片部门员工同步发起 injunction。** Samsung Electronics Co Union（SECU，拥有 13,000 名 DX 部门会员）公开表示**自己被排除在投票流程之外**，已通过法律渠道发起阻止投票生效的 injunction。\n\n**HBM 包装线传出 '故意减速生产'。** Tom's Hardware 援引内部消息源——分红争议已经蔓延到 Samsung HBM3E / HBM4 包装产线（packaging 是 HBM 良率与产能的最关键环节），出现**故意减慢生产节奏抗议**的报道，可能直接威胁 Samsung 对 Nvidia 的 HBM 交付时间表。\n\n**与 SK Hynix 同日$1T 形成对比。** SK Hynix 同一天（5-27）跨过 $1 万亿市值——而 Samsung 同日内部正面临 '$40 万 / $4,000' 分红撕裂、HBM 包装线故意减速、小股东诉讼威胁三重风险——同一产业链同一天的两个反向命运。",
+      "key_quotes": [
+        "Memory chip workers stand to receive ~600 million won (~$400,000) per person — Samsung-union pay agreement",
+        "DX division employees would receive approximately 6 million won (~$4,000) — Tom's Hardware",
+        "The plan violates Korea's Commercial Act by bypassing required shareholder approval — Korea Shareholder Action Headquarters",
+        "Resentment disrupts packaging operations, threatening HBM delivery schedules — Tom's Hardware 内部消息源"
+      ],
+      "significance": "Samsung 5-27 这一笔分红投票是 AI 时代'劳动者议价权重写'的标志性事件——存储芯片工人因为占据 HBM 这一 AI 关键供给的稀缺位，第一次成功把分红倍数撕开到普通同公司同事 100 倍。这种'部门间财富天差地别'已经引发同公司非芯片部门员工与小股东双线反扑。更关键的是 HBM 包装线的'故意减速生产'风险——可能直接威胁 Samsung 对 Nvidia / OpenAI / Anthropic 的 HBM4 交付时间表，是 AI 算力链上 SK Hynix（5-27 $1T）之外的另一个供给侧脆弱点。",
+      "links": [
+        "https://www.tomshardware.com/tech-industry/samsung-pay-deal-clears-court-challenge-as-chip-workers-400000-bonuses-near-approval",
+        "https://www.tomshardware.com/tech-industry/samsungs-bonus-dispute-spreads-to-chip-packaging-divisions-threatening-hbm-delivery-schedules",
+        "https://www.techtimes.com/articles/317086/20260525/samsung-electronics-bonus-deal-faces-shareholder-lawsuit-micron-tsmc-widen-capex-lead.htm",
+        "https://www.neowin.net/news/samsung-workers-seeking-to-block-companys-266-billion-bonus-to-chip-employees/"
+      ],
+      "image": "assets/logos/samsung-logo.svg",
+      "image_type": "logo",
+      "tags": ["samsung", "hbm", "labor", "shareholder-lawsuit", "ai-supply-chain"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "Microsoft Copilot Studio 5-26 月度更新：computer-using agents 全球商用 GA、新增 Workflows 全沉浸视图 + 实时语音 + 模型可选 + 凭证管理——Microsoft 成首家把 'CUA + 工作流 + 语音' 三件套全部 GA 的 hyperscaler",
+      "source": "Microsoft",
+      "source_name": "Microsoft Copilot Blog",
+      "source_url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
+      "story_key": "microsoft-copilot-studio-may-2026-update",
+      "event_date": "2026-05-26",
+      "summary": "Microsoft 5-26 发布 Copilot Studio 5 月月度更新——computer-using agents（CUA）正式 GA 扩展到**所有 Power Platform 商用地区**，并加上凭证管理、模型选择、抗 UI 漂移自适应等三件企业级能力；同步推出 **Workflows 全沉浸编辑视图**与 **Copilot Agent 实时语音体验**——Microsoft 成为首家把 'CUA + 工作流 + 实时语音' 三件套同时 GA 推到全球商用客户的 hyperscaler。",
+      "detail": "**Computer-Using Agents 全球商用 GA。** Microsoft 5-26 在官方 Copilot 博客确认 CUA（computer-using agents）的 GA 状态从 5-13 的初期版本进一步扩展到**所有 Power Platform 商用地区**——这意味着 CUA 现在可在任何 Microsoft 商用 Azure 区域被部署使用。CUA 能直接操作没有 API 的桌面应用与网站（点击、填表、提取数据、跨应用 workflow），把过去被脆弱 RPA 脚本 / 人工补丁覆盖的自动化场景接管过来。\n\n**三件企业级新能力同步上线。** GA 版本同时增加：(1) **更安全的凭证管理**——agent 在用户账号下执行操作时密钥不暴露给 agent 上下文；(2) **模型可选**——客户可针对不同自动化场景挑选最合适的底层模型；(3) **更具弹性的自动化**——CUA 现在能适应 UI 变化（按钮位置、表单字段名变更等），减少传统 RPA 脚本最常见的故障源。\n\n**Workflows 全沉浸编辑视图。** Copilot Studio 同步推出新的 **Workflows 体验**——把过去散落在不同 designer 的工作流统一到单一沉浸式编辑界面，开发者可以在一个 canvas 上拖拽编排 agent 触发器、动作、判断分支与多 agent 协作。\n\n**Copilot Agents 实时语音体验。** Microsoft 5-26 同步把 **real-time voice**（实时语音输入 + 输出）能力开放给 Copilot Agents——客户可以构建带原生语音对话能力的 agent，跟 ChatGPT Advanced Voice Mode / Gemini Live 等正面对标。\n\n**Microsoft 成 'CUA + 工作流 + 实时语音' 三件套 GA 第一家 hyperscaler。** Microsoft 在 5-13 已经成为首家把 computer-using agents 商用 GA 的 hyperscaler——5-26 这次月度更新进一步把'CUA + Workflows + 实时语音'三件套同时 GA，远超 OpenAI / Anthropic 同期仍以 preview / beta 状态推出的对应能力。",
+      "key_quotes": [
+        "Computer-using agents are now generally available across all commercial Power Platform geographies — Microsoft Copilot Blog 5-26",
+        "Build agents that interact directly with websites and desktop applications through the UI — same as a human user — Microsoft",
+        "New workflows experience and real-time voice for Copilot Agents — May 2026 update"
+      ],
+      "significance": "Microsoft 5-26 这次 Copilot Studio 月度更新是企业 AI agent 战场的一个标志性时刻——'CUA + Workflows + 实时语音'三件套同时 GA 到所有商用区域，意味着 Microsoft 已经把 5-21 'Chain of Debate' 多 agent 编排框架 + Jacob Andreou 统一商用 / 消费 Copilot 部门两件事的成果落到了真正的 GA 产品里。同期 OpenAI / Anthropic 同等能力仍停留在 preview / 受限可用阶段——这是 Microsoft 在 AI 企业 agent 落地速度上对前沿实验室的一次实质性领先。叠加 5-21 Microsoft + EY 5 年 $10 亿企业 AI 落地合资——Microsoft 正在以'落地能力 + 4 大顾问体系 + GA 产品'的组合把企业 agent 主战场从'实验室竞速'拉到'部署执行'。",
+      "links": [
+        "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
+        "https://techcommunity.microsoft.com/blog/copilot-studio-blog/computer-using-agents-in-microsoft-copilot-studio-are-now-generally-available/4519427",
+        "https://devops.com/microsoft-copilot-studio-brings-computer-using-agents-to-the-enterprise/",
+        "https://windowsnews.ai/article/copilot-studio-gets-smarter-agents-voice-and-workflow-overhaul-whats-new-in-may-2026.419696"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["microsoft", "copilot-studio", "computer-using-agents", "workflows", "voice"],
+      "category": "product_operators"
+    },
+    {
+      "id": "9",
+      "title": "Gemini Interactions API 5-26 新 schema 转为默认 / 6-8 老版彻底下架——outputs → steps 结构化时间线 + 新 response_format 重构、给 mid-flight steering 与异步 tool call 让路",
+      "source": "Google",
+      "source_name": "Google AI for Developers",
+      "source_url": "https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026",
+      "story_key": "gemini-interactions-api-may-2026-migration",
+      "event_date": "2026-05-26",
+      "summary": "Google Gemini API v1beta Interactions 接口 5-26 起 **新 schema 转为默认响应格式**——`outputs` 数组被替换为 `steps` 结构化时间线、新 `response_format` 多态字段重构输出控制；**老 schema 6-8 永久下架**，迁移窗口仅 13 天。改动是为支持后续 mid-flight steering（实时引导）与异步 tool call 等新能力。",
+      "detail": "**5-26 新 schema 转为默认 / 6-8 老 schema 永久下架。** Google AI for Developers 官方迁移指南确认 Gemini Interactions API v1beta 的**两组 breaking changes** 自 5-26 起新 schema 转为默认响应格式——开发者必须在 **2026-06-08 前**完成迁移，过期后老 schema 彻底下架。\n\n**`outputs` 数组 → `steps` 结构化时间线。** 最核心的变更：响应结构从过去的扁平 `outputs` 数组（仅含模型生成内容）改为 **`steps` 数组**——每个 step 带类型 discriminator，能够独立表达模型推理、工具调用、外部交互、用户中断等不同事件类型，形成单次请求的**结构化时间线**。\n\n**新 `response_format` 多态字段重构输出控制。** 第二组变更：过去散落在 `response_mime_type`、各种输出配置字段里的所有控制开关被统一整合到一个**多态 `response_format` 字段**——同时移除 `response_mime_type`。\n\n**临时兼容窗口可用 Api-Revision header。** 开发者如未完成迁移，可以通过设置请求头 **`Api-Revision: 2026-05-07`** 临时回退老 schema——但该 escape hatch 仅到 6-8 失效，之后所有调用强制走新 schema。\n\n**改动是为后续 'mid-flight steering' + 异步 tool call 让路。** Google 在迁移文档明确这次重构的目的是为下一阶段的能力**让路** ——包括 **mid-flight steering**（用户在模型生成过程中实时修改方向 / 引导）和**异步 tool call**（agent 在多个工具间并行执行而无需阻塞主响应流），两者都需要响应结构本身支持'按时间分步、多类型事件可中断、可异步插入'的容器形态。",
+      "key_quotes": [
+        "outputs array ➡️ new steps schema for structured timelines — Gemini API migration guide",
+        "Legacy schema permanently removed on June 8, 2026 — Google AI for Developers",
+        "Use Api-Revision: 2026-05-07 to temporarily opt out — migration guide",
+        "Designed to support future capabilities like mid-flight steering and asynchronous tool calls — Google"
+      ],
+      "significance": "Gemini Interactions API 5-26 这次切换看似只是 schema 重构，实质是 Google **官方把 'mid-flight steering + 异步 tool call' 列为下一阶段 agent infra 的核心能力**——这是 Anthropic Claude Managed Agents（5-19 Self-Hosted Sandboxes + MCP Tunnels）、OpenAI Realtime API、xAI Grok connectors 同期同步发力的'后台 + 工具'子赛道。 Google 通过强制 13 天迁移窗口 + 老 schema 完全下架 的执行力度，**赌定 agent 不再是'问答 + 工具调用'两步式 RPC、而是'按时间分步、可中断、可异步'的事件流容器**——这是 2026 年 agent API 设计哲学的一次明确分界。所有靠 Gemini API 已部署的 agent / app 必须在 6-8 前完成迁移，否则强制下线。",
+      "links": [
+        "https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026",
+        "https://ai.google.dev/gemini-api/docs/changelog",
+        "https://byteiota.com/gemini-interactions-api-migrate-before-june-8/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["google", "gemini-api", "breaking-change", "agent-infrastructure", "tool-calling"],
+      "category": "product_operators"
+    },
+    {
+      "id": "10",
+      "title": "MIT 研究警告：AI 自起诉浪潮正把美国联邦法院按到地上——pro se 诉讼 docket 活动同比 +158%、2026 联邦诉状抽样 18%+ 含 AI 生成文本，Miami-Dade / Broward 法院 5 月起强制 AI 披露",
+      "source": "Bloomberg Law",
+      "source_name": "Bloomberg Law",
+      "source_url": "https://news.bloomberglaw.com/business-and-practice/big-law-grapples-with-ai-fueled-pro-se-surge-rising-legal-costs",
+      "story_key": "ai-pro-se-lawsuit-surge",
+      "event_date": "2026-05-25",
+      "summary": "Bloomberg Law 5-25 + MIT 研究人员同期警告：AI 加持的 'pro se（自起诉）' 浪潮正在压垮美国联邦法院——自起诉案件占联邦民事诉讼比例从 11% 跳到 16.8%、案件 docket 活动同比 +158%；2026 联邦诉状抽样中 **18%+ 含 AI 生成文本**；pro se 雇佣诉讼一年内 +49%、FHA 公平住房诉讼 +69%。Miami-Dade / Broward 县法院 5 月起强制律师与 pro se 当事人**披露生成式 AI 使用**。",
+      "detail": "**自起诉占比从 11% 跳到 16.8% / docket 活动 +158%。** Bloomberg Law 5-25 援引 MIT 研究人员数据：美国 FY2025 联邦民事诉讼中自起诉案件占比已从历史正常水平 **11% 升至 16.8%**，对应 docket 上的活动事件数同比 **+158%**——尽管单案平均时长未明显延长，但总量井喷已经在挤压法院容量。\n\n**18%+ 联邦诉状含 AI 生成文本。** 一个针对 1,600 份联邦民事诉状的抽样显示——**2026 年提交的诉状中超过 18% 包含明确可识别为 AI 生成的文本**——这一比例在生成式 AI 出现之前接近零。意味着 1 年内 AI 工具已经成为 pro se 诉状最主要的起草工具。\n\n**雇佣诉讼 +49% / FHA +69%。** 具体类别看 AI 增量最猛的是**雇佣诉讼**：pro se 雇佣诉讼一年内从约 4,100 件涨到 6,400 件、增长 **49%**——同期请律师的雇佣诉讼仅 +15%。**FHA（公平住房法案）pro se 诉讼**前 9 个月同比 **+69%**。\n\n**Miami-Dade / Broward 法院 5 月起强制 AI 披露。** 应对 AI 律师井喷，Florida 的 Miami-Dade 与 Broward 两县法院 2026-5 同期发布协同要求——所有律师与自起诉当事人在递交任何法庭文件时**必须主动披露生成式 AI 使用情况**、并对 AI 辅助生成的内容承担**核对准确性**的法律义务。这是 Florida 州首次把 AI 文件披露作为法院程序性强制要求。\n\n**对企业法务的实际成本影响 10-15%。** Fisher Phillips 在 5 月发布的客户提示中量化：被起诉企业为应对 pro se 诉讼浪潮，**法律支出预计需要增加 10-15%**——主要花在筛掉低质量 AI 起草诉状、对 AI hallucinated 引用的法律条款做交叉核对、以及向法庭申请 sanction 程序。",
+      "key_quotes": [
+        "Self-filed federal civil cases rose from an 11% norm to 16.8% by FY2025, with docket activity up 158% — MIT researcher analysis",
+        "AI-generated text in more than 18% of 2026 federal filings, up from near zero before generative AI — sample of 1,600 complaints",
+        "Pro se employment filings up 49% year-over-year — Bloomberg Law",
+        "Miami-Dade and Broward courts now require attorneys and pro se litigants to disclose generative AI use — Florida 5-2026"
+      ],
+      "significance": "AI 已经在美国联邦法院里把'律师 vs 自起诉当事人'的资源对比第一次翻盘——18% 的诉状已经由 AI 起草、自起诉占比一年从 11% 升到 16.8%、docket 活动暴涨 158%。这是生成式 AI **第一次以系统性规模冲击美国司法基础设施容量**——意味着 ChatGPT / Claude / Gemini 等工具已经把'起诉权'从过去需要律师代理的少数精英手里平民化下放给数千万原本接触不到法律服务的普通人，但同时也在以同等速度生产'AI hallucinated 引用'式的低质量诉状。Florida 强制 AI 披露条例是美国本土第一次把'AI 在司法系统的使用边界'从立法层级下放到法院程序层级的尝试——未来 12 个月内这一模式会复制到其他州。这是 AI 平民化与公共制度承压的一次具体碰撞。",
+      "links": [
+        "https://news.bloomberglaw.com/business-and-practice/big-law-grapples-with-ai-fueled-pro-se-surge-rising-legal-costs",
+        "https://winbuzzer.com/2026/05/25/mit-researcher-warns-ai-filing-surge-could-swamp-courts-xcxwbn/",
+        "https://adaquickscan.com/blog/ai-chatgpt-ada-lawsuits-2026-pro-se-surge",
+        "https://www.fisherphillips.com/en/insights/insights/how-ai-is-transforming-employment-litigation"
+      ],
+      "tags": ["legal", "pro-se-lawsuits", "ai-democratization", "courts", "florida"],
+      "category": "news"
+    }
+  ]
+}

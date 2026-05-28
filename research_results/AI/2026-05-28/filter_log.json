@@ -1,0 +1,161 @@
+{
+  "date": "2026-05-28",
+  "total_candidates": 17,
+  "kept": 10,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "cognition-series-d-26b",
+      "event_date": "2026-05-27",
+      "title_en": "Cognition raises $1B at $26B valuation; Devin ARR jumped from $37M to $492M YoY",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major AI coding agent funding announced May 27 — round co-led by Lux/General Catalyst/8VC; ARR grew 13x in 12 months; valuation more than doubled from Sept 2025 $10B."
+    },
+    {
+      "story_key": "sk-hynix-trillion-club",
+      "event_date": "2026-05-27",
+      "title_en": "SK Hynix joins $1 trillion market cap club on AI memory chip rally",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. SK Hynix shares jumped 11% on May 27 crossing $1T; third Asian company after Samsung and Micron; 2026 HBM capacity already sold out. Note: hyperscaler-debt-cds-boom (5-23) is a different story (debt/CDS angle)."
+    },
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-05-27",
+      "title_en": "Huang announces Nvidia $150B/year Taiwan capex, 10x current spend; HQ groundbreaking at Beitou T17/T18",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-23 (Huang arrival) and 5-27 (T17/T18 groundbreaking ceremony, mayor attendance). NEW INFO: official capex figures — $150B/year vs current $10-15B (10x); 4,000 employees, 2030 completion; 'epicenter of AI revolution' language. The prior 5-27 entry was the morning groundbreaking; this is the afternoon/evening capex disclosure with hard numbers."
+    },
+    {
+      "story_key": "china-ai-talent-travel-restrictions",
+      "event_date": "2026-05-26",
+      "title_en": "China expands overseas travel restrictions to top AI talent at DeepSeek, Alibaba private firms",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Bloomberg 5-26 exclusive: China extends travel curbs (previously for nuclear scientists & SOE execs) to top private-sector AI talent at Alibaba and DeepSeek; founders/senior researchers need government approval. Major geopolitical escalation."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-26",
+      "title_en": "Anthropic Mythos data update: 23,019 candidate vulnerabilities, 1,726 confirmed; wolfSSL CVE-2026-5194 disclosed",
+      "source": "SecurityWeek",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 5-22 with '10,000+ H/C vulnerabilities' headline figure. NEW INFO: revised total to 23,019 candidate findings; 1,726 externally validated by partners (90.8% true positive rate); first major CVE disclosed publicly (CVE-2026-5194 critical wolfSSL crypto flaw); 1,596 vulnerabilities disclosed across 281 OSS projects; 97 patched."
+    },
+    {
+      "story_key": "samsung-chip-bonus-vote-lawsuit",
+      "event_date": "2026-05-27",
+      "title_en": "Samsung union ratification vote on $400K chip worker bonuses ended amid shareholder lawsuit",
+      "source": "Tom's Hardware",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Samsung union vote on memory worker $400K bonuses ended 10am May 27; Korea Shareholder Action Headquarters threatened lawsuit; non-chip employees seek injunction over $4K/$400K disparity; reports of intentional production slowdowns affecting HBM delivery."
+    },
+    {
+      "story_key": "gemini-interactions-api-may-2026-migration",
+      "event_date": "2026-05-26",
+      "title_en": "Gemini Interactions API new schema becomes default May 26; legacy outputs array removed June 8",
+      "source": "Google AI for Developers",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major dev-facing breaking change live May 26: new steps array replaces outputs array; new polymorphic response_format consolidates output controls; legacy schema removed June 8. Supports future mid-flight steering and async tool calls."
+    },
+    {
+      "story_key": "hassabis-axios-foothills-agi-2026",
+      "event_date": "2026-05-26",
+      "title_en": "Demis Hassabis Axios post-IO: 2029 now possible for AGI, 'foothills of singularity', few years to prepare",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Axios 5-26 follow-up interview with Hassabis after his Google I/O 'foothills of the singularity' keynote: he revised AGI timeline from 2030 to 2029-2030; says provocative language was intentional to alarm policymakers and economists; 'only a few years left to prepare for AGI'."
+    },
+    {
+      "story_key": "microsoft-copilot-studio-may-2026-update",
+      "event_date": "2026-05-26",
+      "title_en": "Microsoft Copilot Studio May 2026 update: broader CUA GA, workflows experience, real-time voice",
+      "source": "Microsoft Copilot Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Microsoft May 2026 update post on 5-26 expands computer-using agents GA (initially 5-13) to broader commercial Power Platform geos with credential management, model selection, resilient automations; adds new workflows experience and real-time voice for Copilot Agents."
+    },
+    {
+      "story_key": "ai-pro-se-lawsuit-surge",
+      "event_date": "2026-05-25",
+      "title_en": "MIT researcher warns AI-generated pro se lawsuits could swamp US courts; 18% of 2026 federal filings contain AI text",
+      "source": "Bloomberg Law",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. MIT researcher warning + Bloomberg Law analysis 5-25: pro se filings rose from 11% to 16.8%, docket activity up 158%; sample shows 18%+ of 2026 federal complaints contain AI text; pro se employment filings +49% YoY; FHA filings +69% YoY; Miami-Dade and Broward courts issued coordinated AI disclosure requirements in May 2026."
+    },
+    {
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-27",
+      "title_en": "Anthropic $30B+ round expected to close this week at $900B+ valuation",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 5-22 with title 'Anthropic $30B+ 新轮下周敲定 $900B+ 估值' which already covered the lead investors, round size, and 'next week' close timeline. No confirmed official-close announcement from Anthropic itself this week; only third-party blog claims of closure. No substantive new information beyond what 5-22 already disclosed."
+    },
+    {
+      "story_key": "openai-disney-sora",
+      "event_date": "2025-12-11",
+      "title_en": "Disney-OpenAI Sora licensing agreement",
+      "source": "NPR",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2025-12-11 is 168 days old. Originally announced Dec 2025, terminated March 2026 — both events are historical."
+    },
+    {
+      "story_key": "anthropic-gates-foundation-200m",
+      "event_date": "2026-05-14",
+      "title_en": "Anthropic + Gates Foundation $200M partnership for health/education in low-income countries",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is 14 days old (>5 day limit)."
+    },
+    {
+      "story_key": "thinking-machines-interaction-models",
+      "event_date": "2026-05-13",
+      "title_en": "Mira Murati Thinking Machines unveils 0.4s real-time interaction models",
+      "source": "Semafor",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-13 is 15 days old (>5 day limit)."
+    },
+    {
+      "story_key": "eu-ai-act-omnibus",
+      "event_date": "2026-05-07",
+      "title_en": "EU AI Act Omnibus agreement reached; HRAIS deadlines deferred",
+      "source": "Consilium",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 21 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-singapore-applied-ai-lab",
+      "event_date": "2026-05-20",
+      "title_en": "OpenAI opens first overseas Applied AI Lab in Singapore with S$300M commitment",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-20 is 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "japan-finance-min-mythos-access",
+      "event_date": "2026-05-22",
+      "title_en": "Japan finance minister: government and megabanks to get Claude Mythos access",
+      "source": "Japan Today",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-22 is 6 days old (>5 day limit). Borderline but outside the strict 5-day window."
+    }
+  ]
+}
