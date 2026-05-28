@@ -1,0 +1,226 @@
+{
+  "date": "2026-05-29",
+  "category": "AI",
+  "researched_at": "2026-05-29T07:10:00Z",
+  "sources_checked": [
+    "@AnthropicAI", "@sama", "@demishassabis", "@ilyasut", "@DanielaAmodei",
+    "@elonmusk", "@alexandr_wang", "@mntruell", "@mikeyk", "@JeffDean",
+    "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@karpathy", "@julien_c",
+    "@ScottWu46", "@alighodsi", "@JonathanRoss321", "@lexfridman", "@garrytan",
+    "@DrJimFan", "Bloomberg", "CNBC", "TechCrunch", "Fortune",
+    "Axios", "The Information", "Help Net Security", "SiliconANGLE", "Reuters",
+    "Anthropic Blog", "OpenAI Blog", "NVIDIA Newsroom", "BusinessWire", "TheNextWeb"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Claude Opus 4.8 5-28 直接把 SWE-bench Pro 顶到 69.2、USAMO 2026 数学满血 96.7%——Anthropic 单卡同价位 Fast Mode 速度 2.5×、成本砍 3 倍，正面通杀 GPT-5.5 / Gemini 3.1 Pro",
+      "source": "@AnthropicAI",
+      "source_name": "Anthropic Blog",
+      "source_url": "https://www.anthropic.com/claude/opus",
+      "story_key": "anthropic-claude-opus-4-8-release",
+      "event_date": "2026-05-28",
+      "summary": "Anthropic 5-28 周四正式上线 **Claude Opus 4.8**——SWE-bench Pro **69.2%**（Opus 4.7 是 58.6 / GPT-5.5 同分）、USAMO 2026 数学 **96.7%**（4.7 是 69.3，**+27.4 分**）、OSWorld 电脑操作 **83.4%**，同价位、即刻在 Anthropic API / Bedrock / Vertex / Foundry 全平台落地。Fast Mode 速度 **2.5×**、成本砍 **3×**。",
+      "detail": "Anthropic 5-28 周四凌晨在 anthropic.com/claude/opus 上线第三代 Opus 系列最新点位——**Claude Opus 4.8**。和 4.7 同价位（input $5 / output $25 per million，Fast Mode $10 / $50），但跑分全线碾压：\n\n- **SWE-bench Pro Agentic Coding**：从 64.3 → **69.2%**。GPT-5.5 同基准是 58.6，被 Opus 4.8 净拉 10.6 分；这是 'real-world 软件工程任务' 现在最难的人类专家基线。\n- **USAMO 2026 数学奥赛**：从 69.3 → **96.7%**，单代 **+27.4 分** 数学推理跃迁。\n- **OSWorld 电脑操作**：78.7 → **83.4%**（GPT-5.5 是 75 区间），Anthropic 把 'Agentic Computer Use' 又重新拿回手中。\n- **GDPval-AA Elo**：1769 → **1890**，对比 GPT-5.5 的 1769，长任务知识工作打分领先 121 Elo。\n- **多学科推理 + 工具调用**：54.7 → **57.9%**。\n\n模型行为侧 Anthropic 直接亮三组数据：(1) Opus 4.8 在 **'代码缺陷自检漏报率'** 上比 4.7 **少 4 倍**，遇到不确定结果会更主动提示；(2) **Fast Mode** 现在速度 **2.5×** 同时成本 **3×** 更低——'同款顶级模型现在可以做 SaaS 实时 inline 补全也不亏钱'；(3) 新增 **'engagement levels'** 让用户/agent 明示要 '快' 还是 '准'，token 预算和并发自调。\n\n部署面：从 5-28 起，Opus 4.8 在 **Claude API、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Foundry** 全部 4 个主流接口同时可调（Claude 历史第一次 D1 同时全平台落地），消费版 Claude.ai / Claude Code 同步切默认。Claude Managed Agents 同时翻进 'self-hosted sandbox + private MCP server' 公开测试，意味着企业可以把 agent 全程留在自己的 VPC 内执行。\n\n这是 Anthropic 自 Opus 4.7（11 月）以来第一份代际跃迁——同价位、同延迟下，**'$1 输入 $5 输出' 价位段的 SOTA 重新被 Claude 拿回**。GPT-5.5 自 4 月发布以来 51 天保持的多基准一哥位置，被 Claude Opus 4.8 在 SWE-bench Pro / OSWorld / GDPval-AA 三条线上同时翻盘。",
+      "key_quotes": [
+        "Claude Opus 4.8 is our most capable generally available model, performing at the frontier across coding, agentic, and knowledge work capabilities.",
+        "4x less likely than Opus 4.7 to miss flaws in code it produces, and less prone to unsupported claims.",
+        "Sharper judgement, more honesty about its progress, and the ability to work independently for longer than its predecessors."
+      ],
+      "significance": "**这是过去 5 个月里第一份 'D1 全平台 + 同价位 + 多基准全面反超 GPT-5.5' 的旗舰更新**。三条信号最关键：(1) **SWE-bench Pro 69.2**——意味着 Anthropic 重新拿回了 'agentic 软件工程 SOTA'，Cursor / Cognition / Replit / GitHub Copilot 下一轮默认权重会再次倾向 Claude；(2) **Fast Mode 2.5× 速度 + 3× 成本砍**意味着 'inline 补全 / 实时 Claude Code' 类场景可以直接上 Opus 级模型而不再被迫降到 Haiku，模型选择经济学被打穿；(3) **同价位 GDPval-AA Elo 1890** 直击 OpenAI 的企业知识工作护城河，叠加同日 Anthropic Series H $965B 估值落定，Anthropic 对 OpenAI 这一回是 '产品 + 估值 + 现金流' 三重压制。开发者今天起的 deployment decision 大概率重新倾向 Claude。",
+      "links": [
+        "https://www.anthropic.com/claude/opus",
+        "https://9to5mac.com/2026/05/28/anthropic-upgrades-claude-with-new-opus-4-8-model-heres-whats-new/",
+        "https://www.macrumors.com/2026/05/28/anthropic-claude-opus-4-8/",
+        "https://llm-stats.com/blog/research/claude-opus-4-8-launch"
+      ],
+      "image": "img/claude-opus-4-8-benchmarks.png",
+      "image_type": "chart",
+      "tags": ["Anthropic", "Claude", "Opus 4.8", "frontier model", "benchmarks"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Anthropic Series H 5-28 正式落锤：$650 亿单轮 / $9650 亿后估值——OpenAI $8520 亿被直接超过，Samsung / SK Hynix / Micron 同台进股、ARR $470 亿同步官宣",
+      "source": "@AnthropicAI",
+      "source_name": "Anthropic Blog",
+      "source_url": "https://www.anthropic.com/news/series-h",
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-28",
+      "summary": "Anthropic 5-28 周四官方落锤 **Series H**：单轮 **$650 亿**、后估值 **$9650 亿**，比 OpenAI 3 月 $122B / $852B 后估值**直接高 $1130 亿**。本轮含 **$150 亿** 此前已承诺的 hyperscaler 投资（其中 Amazon $50 亿），**Samsung / SK Hynix / Micron** 作为战略基础设施合作伙伴首次进股；ARR 同日官宣已破 **$470 亿**。",
+      "detail": "**今天正式签字的数字**：5-28 周四 Anthropic 官方 blog 与 GIC newsroom 同步落锤 **Series H** 全部细节——单轮净筹 **$650 亿**、后估值 **$9650 亿**。**Samsung、SK Hynix、Micron** 首次以战略基础设施投资人身份进入 cap table——这是 'HBM 三家全压在 Anthropic 一家' 的史无前例信号。运营层面：自 Series G（2 月）以来全球企业客户持续放量，run-rate 收入 5 月初已**越过 $470 亿**——比 OpenAI 同期 ~$25B 高出近 **88%**。\n\n领投阵容确认：**Altimeter / Dragoneer / Greenoaks / Sequoia / Capital Group / Coatue / D1 Capital Partners** 联席，机构跟投包括 **Baillie Gifford / Blackstone / Brookfield / D.E. Shaw Ventures / DST Global / Fidelity**。$150 亿来自此前已承诺的 hyperscaler（其中 Amazon $50 亿 4 月已宣布）。资金用途明文：'安全与可解释性研究 / Claude 计算扩容 / 客户产品与合作伙伴关系扩展'。\n\n**背景回顾：** 5-22 已报 Sequoia / Dragoneer / Altimeter / Greenoaks 各 ~$30 亿、目标周内落定 $900B+——今天 $9650 亿后估值落锤、IPO 前最后一轮坐实，超过 OpenAI 3 月 $852B 后估值。",
+      "key_quotes": [
+        "Run-rate revenue crossed $47 billion earlier this month.",
+        "Advance our safety and interpretability research, expand compute to meet growing demand for Claude, and scale the products and partnerships our customers rely on.",
+        "Samsung, SK Hynix and Micron also joined the round."
+      ],
+      "significance": "**这是 AI 史上第一次出现 '私募估值反超 OpenAI 的纯模型公司'**。三层信号：(1) **HBM 三家进股** —— Samsung / SK Hynix / Micron 集体押注 Anthropic 意味着未来 5 年 HBM 产能分配会向 Claude 倾斜，叠加 SK Hynix 已售罄的 2026 HBM 产能（参见 5-27 万亿俱乐部新闻），OpenAI 在 GPU 内存上势必更被挤压；(2) **$47B ARR** 单月暴露 OpenAI 收入差距——OpenAI 2 月披露 ~$25B，三个月内 Anthropic 把 ARR 差距拉到近 **2 倍**；(3) IPO 前最后一轮正式坐实 **'$9650 亿 → $1 万亿' 一步之遥**，下一份动作大概率就是 S-1 递交。结合同日 Claude Opus 4.8 通杀 GPT-5.5，'产品 + 估值 + 收入' 三连斩，Anthropic 在 5-28 这一天事实上完成了对 OpenAI 的全局反超。",
+      "links": [
+        "https://www.anthropic.com/news/series-h",
+        "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+        "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+        "https://fortune.com/2026/05/28/anthropic-series-h-valuation-ipo-unicorn/",
+        "https://www.gic.com.sg/newsroom/all/anthropic-raises-65b-in-series-h-funding-at-965b-post-money-valuation/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Series H", "valuation", "Samsung", "SK Hynix", "Micron"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "3",
+      "title": "Dell Q1 FY27 一夜炸出 AI 服务器历史最猛季度：单季营收 $438 亿 / +88%，AI 服务器单线营收 $161 亿 / +757% YoY，FY27 全年 AI 服务器指引直接升到 $600 亿、盘后股价 +25%",
+      "source": "@Dell",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-28/dell-boosts-outlook-to-60-billion-in-ai-server-sales-this-year",
+      "story_key": "dell-q1-fy27-ai-server-record",
+      "event_date": "2026-05-28",
+      "summary": "Dell 5-28 周四盘后甩出 Q1 FY27 史诗级业绩：单季营收 **$438 亿（+88% YoY）**、Diluted EPS **$5.24（+282% YoY）**；其中 **AI 优化服务器单线 $161 亿（+757% YoY）**、单季新签 AI 订单 **$244 亿**。Dell 把 FY27 全年 AI 服务器营收指引一口气拉到 **$600 亿**，全年总营收指引升至 **$1670 亿**（+50% YoY），盘后股价 **+25%**。",
+      "detail": "Dell 5-28 周四美股盘后发布 FY2027 Q1（截至 5 月）业绩，把 AI 服务器风口的最新基线一次性拉满：\n\n- **单季总营收 $438 亿，同比 +88%**——史上最强季。\n- **AI 优化服务器单线 $16.1B、同比 +757%**——这是单一产品线一个季度的体量，已经超过英伟达 GeForce 全年 + AMD MI 全年的合计 outbox。\n- **新签 AI 订单 $24.4B**，Q1 订单背书 **远超** 上季度 $14B 的纪录。\n- Diluted EPS $5.24（+282% YoY）、Non-GAAP EPS $4.86（+214% YoY）、Q1 经营现金流 $4.1B 同创纪录。\n\n指引层面是真正炸点：\n\n- **FY27 全年 AI 服务器营收**：从此前 $1500 亿暗指上调至 **$600 亿**（4× 提升），意味着 Dell 自己也在追产能。\n- **FY27 全年总营收指引**：中位数 **$1670 亿**（+50% YoY），远超华尔街 ~$1100 亿一致预期。\n\nMichael Dell 通话中明确把跃迁归因于：(1) **xAI、CoreWeave、Anthropic、Meta 等 hyperscaler 大客户**今年加速排队提货，主线是 GB300 / Blackwell Ultra 整机柜直供；(2) **企业自建 AI 工厂订单**单季同比 +300%，毛利率比 hyperscaler 直供高 ~600bp；(3) 客户押 'AI server 厂商' 而非 chip 厂商成新一轮护城河——Dell 的 PowerEdge XE 系列已锁定 2027 上半年全部产能。\n\n盘后股价 **+25%**——这是 Dell 历史上单日盘后第二大涨幅。",
+      "key_quotes": [
+        "Q1 was a powerful start to the year — record revenue, record EPS, and the largest AI orders booked in our history.",
+        "Record AI-Optimized Servers revenue of $16.1 billion, up 757% year over year.",
+        "We are increasing our AI server revenue expectations for FY27 to $60 billion."
+      ],
+      "significance": "**$161 亿 AI 服务器单季 + 757% YoY** 是 AI 基建周期里第一次真正能量化的信号——这不是 chip 厂自报 backlog，是 OEM 已经收到的硬现金。三层映射：(1) 上游 **Nvidia GB300 / Blackwell Ultra 产能** 至少已经 100% 锁单到 FY27 底，再印证 5-27 SK Hynix HBM 售罄；(2) **企业 AI 自建工厂订单 +300%** 终结了 '只有 hyperscaler 在买 GPU' 的 2024-25 老叙事，AI capex 正在从 4 家扩散到 4000 家；(3) Dell 把 FY27 总营收指引拉到 **$1670 亿（+50%）** 大幅超华尔街 ~$1100 亿一致预期——这意味着分析师群体对 AI 基建增速的预测**仍然普遍偏低 60%+**。配合 5-28 Snowflake $6B AWS 大单 + 38% 跳涨，'AI 不止是 hype' 的实证今天集中爆发。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-28/dell-boosts-outlook-to-60-billion-in-ai-server-sales-this-year",
+        "https://www.businesswire.com/news/home/20260528449392/en/Dell-Technologies-Delivers-First-Quarter-Fiscal-2027-Financial-Results",
+        "https://www.stocktitan.net/news/DELL/dell-technologies-delivers-first-quarter-fiscal-2027-financial-1izlonbdhryh.html",
+        "https://247wallst.com/investing/2026/05/28/live-can-dell-technologies-extend-its-158-ytd-run-with-q1-earnings-tonight/"
+      ],
+      "image": "assets/logos/dell-logo.svg",
+      "image_type": "logo",
+      "tags": ["Dell", "AI servers", "earnings", "GB300", "infrastructure"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "Snowflake 5-28 盘后股价 +38% 创史上最大单日涨幅：5 年 $60 亿 AWS 续约（前合同 2 倍+）、Q1 产品营收 $13.34 亿 / +34% YoY、CEO 称 Q1 是 'AI inflection point'——同日吞下 Natoma 把 MCP agent 平台塞进数仓",
+      "source": "Snowflake",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/28/snowflake-aws-snow-earnings.html",
+      "story_key": "snowflake-aws-6b-q1-fy27",
+      "event_date": "2026-05-28",
+      "summary": "Snowflake 5-28 周四盘后 Q1 FY27 业绩 + 5 年 **$60 亿 AWS 大单**双双砸出：单季产品营收 **$13.34 亿（+34% YoY）**、Net Revenue Retention **126%**；与 AWS 续 5 年 **$60 亿** 合同（比上一份合同 **翻 2 倍+**）、显著加码 Graviton AI 芯片与 GPU 云用量。CEO 直言 Q1 是 'AI inflection point'。同日宣布收购 MCP agent 平台 **Natoma**。盘后股价 **+38%**，公司史上最强单日。",
+      "detail": "Snowflake 5-28 周四盘后一次性把 'AI infrastructure 三连发' 摆上桌：\n\n**1. Q1 FY27 业绩全部超预期。** 单季总营收 **$13.9 亿、+33.5% YoY**（一致预期 $13.2 亿）；**产品营收 $13.34 亿、+34% YoY**——增速比上季度 30%、去年同期 26% 都加速。**Net Revenue Retention 126%**（vs 上季 122%），存量客户支出已经 12 个月内多花 26%。\n\n**2. $60 亿 / 5 年 AWS 大单。** Snowflake 与 AWS 续签 5 年期 **$60 亿** 多年期合同——比上一份合同体量 '远超 2 倍'。合同显著拉高 Snowflake 对 **Amazon Graviton AI 芯片** 与 **AWS GPU 云** 的消费配额；AWS 同步把 Snowflake 升级到 enterprise AI launch partner 级别。FY27 全年产品营收指引被一并上调至 **$58 亿**（前 $57 亿）。\n\n**3. 同日宣布收购 Natoma。** Natoma 是企业级 **Model Context Protocol（MCP）平台**——Snowflake 一次性把 'AI agent 跨系统调用基础设施' 接进自己的数仓栈，这是 Snowflake 5-19 Cisco 发安全报告 + 5-19 Anthropic MCP tunnel GA 之后第一次真金白银的并购级 MCP 押注。\n\n**4. CEO 表态：'Q1 was an AI inflection point.'** AI 工作负载贡献了 Q1 '史上最强环比产品营收增长'。\n\n**5. 盘后股价 +38%**——公司历史上最大单日涨幅，市值单日 +$500 亿区间，超 2020 IPO 首日。",
+      "key_quotes": [
+        "Q1 was an AI inflection point — our strongest sequential product revenue dollar growth in history.",
+        "The new five-year, $6 billion contract with Amazon Web Services dramatically increases Snowflake's use of Graviton AI chips and cloud-based GPU infrastructure."
+      ],
+      "significance": "Snowflake 单日 **+38% / $500 亿市值** 把 'AI 是否真正落地数仓' 这个 2025 全年最大悬念**今天正式钉死**——是的，**+34% 产品营收增速 + 126% NRR + AI agent 工作负载占主导**=企业 AI 在数据层不是 hype。三层延伸信号：(1) **MCP 终于产生 M&A 交易**（Natoma），意味着 MCP 不再是 5 月初 Anthropic / Snowflake / Cisco 各自吹的协议而成了真金白银的标的；(2) **$60 亿 / 5 年 AWS 大单** 让 Amazon Graviton AI 芯片首次拿下顶级数据云的旗舰客户，对 Nvidia GPU 在 hyperscaler 端的垄断地位构成现金流级反制；(3) 配合同日 Dell $161 亿 AI server + 757% YoY，'AI 真有现金流' 的实证 5-28 在数据层（Snowflake）+ 硬件层（Dell）+ 模型层（Anthropic Opus 4.8）**三轴同时落地**——这是过去 18 个月最重的一天。",
+      "links": [
+        "https://www.fxleaders.com/news/2026/05/28/snow-surges-38-after-earnings-blowout-as-6b-aws-ai-deal-reignites-growth-narrative/",
+        "https://247wallst.com/investing/2026/05/28/snowflake-explodes-37-on-6-billion-amazon-deal-as-ceo-calls-q1-an-ai-inflection-point/",
+        "https://stocktwits.com/news-articles/markets/equity/snow-stock-rallies-after-hours-on-6-b-amazon-ai-deal-strong-earnings-beat/cZgLydpRerU",
+        "https://www.fool.com/investing/2026/05/28/snowflake-stock-is-soaring-after-a-blowout-quarter-and-a-new-usd6-billion-aws-deal/"
+      ],
+      "image": "assets/logos/snowflake-logo.svg",
+      "image_type": "logo",
+      "tags": ["Snowflake", "AWS", "earnings", "MCP", "Natoma"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Cisco 5-27 AI 安全独立报告：'前沿模型没一家 multi-turn 安全'——15 个闭源旗舰模型 multi-turn 攻击成功率最高 88%、单次跑分骗了所有人，Anthropic Claude 系列从 ASR 3% 一路被打到 16%、Gemini 3 Pro 直接 +55 分",
+      "source": "Cisco",
+      "source_name": "Help Net Security",
+      "source_url": "https://www.helpnetsecurity.com/2026/05/28/cisco-multi-turn-ai-attacks/",
+      "story_key": "cisco-multiturn-ai-attack-report",
+      "event_date": "2026-05-27",
+      "summary": "Cisco AI Threat Intel 5-27 发布跨厂商前沿模型 multi-turn 安全独立评测：**30,000 单轮提示 + 7,000 multi-turn 攻击、1,400 段对话**，覆盖 OpenAI / Anthropic / Google / Amazon / xAI 共 **15 款闭源旗舰**——multi-turn 攻击成功率最高 **88%**，**比单轮基线高一个数量级**。最反直觉：Anthropic Claude 单轮 ASR 仅 2.19%-3.64% 业内最佳，multi-turn 仍被打到 **11.16%-16.20%**；**Gemini 3 Pro 直接 +55 分**。",
+      "detail": "Cisco AI Threat Intelligence 5-27 周三在公司官方研究博客发布跨厂商前沿模型 multi-turn 攻击基准报告，正式刺破 '现行 AI safety benchmark 都看单 prompt' 这层皇帝新衣：\n\n**评测规模：** 30,000 单轮提示 + 7,000 multi-turn 攻击，分散在 **1,400 段完整对话**之上；横跨 OpenAI / Anthropic / Google / Amazon / xAI 共 **15 款闭源旗舰** 模型。\n\n**核心结果：multi-turn 攻击成功率最高 88%**——比单轮基线 ASR 高出整整一个数量级；攻击者无需任何特殊提示工程，只需 '改写、加上下文、人格化、逐轮升压'。\n\n**单模型反差最大：**\n- **Anthropic Claude 系列**：单轮 ASR **2.19% - 3.64%**（在群体里最低），但 multi-turn 直接拉到 **11.16% - 16.20%**——3-5× 退化。\n- **Gemini 3 Pro**：multi-turn 评测下 ASR 比单轮 **+55 分以上**——退化幅度榜首，是 'single-prompt 跑分骗了全行业' 最典型样本。\n- **GPT-5.5、Grok 4.x**：同样出现 multi-turn 显著恶化，具体数值未单独披露。\n\n**Cisco 给的核心结论是：'安全护栏必须移到模型之外。'** 报告原文：'if no base model is iteratively safe, the security perimeter has to move outside the model'。建议明确指向运行时 guardrails、独立监控、专业红队、应用层 policy。\n\n**研究意义：** 这是第一份由 **网络安全公司** 而非 AI 实验室自己出的 multi-turn 安全独立评测——其重要性在于 Cisco 没有任何利益与基础模型公司绑定，且 Cisco 同时是 Anthropic、Google、AWS 的安全产品大客户。这次相当于 SOC 2 一样的 third-party assurance。",
+      "key_quotes": [
+        "Across the cohort, multi-turn attack success rates climbed as high as 88%, an order of magnitude above the lowest result.",
+        "If no base model is iteratively safe, the security perimeter has to move outside the model — runtime guardrails, monitoring, red-teaming and application-layer policies."
+      ],
+      "significance": "**单轮 benchmark 跑分时代被一份报告一次性宣判死刑。** 三层影响：(1) **基础模型公司的 'safety scorecard' 从此失去单独说服力**——投资人、企业 SOC、监管机构未来都会要求 multi-turn 评测；(2) **AI 安全 layer 公司估值被抬升**——Cisco AI Defense、Lakera、Robust Intelligence、HiddenLayer 这一类 runtime guardrail 厂商今天起会有更强进企业 POC 的故事；(3) **白宫 5-21 撤签的 AI 行政令** 中 '联邦 90 天安全审查' 条款，今天等到了第一份独立技术证据支撑——下一份草案大概率会被这份报告反向推到 multi-turn 必测；(4) 对 Anthropic 的特别讽刺：Claude 单轮 ASR 全行业最低（2.19%-3.64%），multi-turn 仍恶化到 11.16%-16.20%——再次印证 'AI 安全不是模型公司一家能解决的问题'。",
+      "links": [
+        "https://www.helpnetsecurity.com/2026/05/28/cisco-multi-turn-ai-attacks/",
+        "https://siliconangle.com/2026/05/27/cisco-report-finds-no-closed-frontier-ai-model-safe-multi-turn-attacks/",
+        "https://www.networkworld.com/article/4177648/cisco-research-finds-standard-ai-safety-benchmarks-miss-the-real-threat.html",
+        "https://www.csoonline.com/article/4177903/ai-models-more-vulnerable-than-claimed-when-faced-with-iterative-attacks.html",
+        "https://www.scworld.com/news/cisco-study-finds-major-frontier-models-susceptible-to-multi-turn-prompt-injection-attacks"
+      ],
+      "image": "assets/logos/cisco-logo.svg",
+      "image_type": "logo",
+      "tags": ["Cisco", "AI safety", "multi-turn attack", "red team", "benchmark"],
+      "category": "research"
+    },
+    {
+      "id": "6",
+      "title": "Meta 5-27 同日全球开收：WhatsApp Plus $2.99 / Instagram Plus $3.99 / Facebook Plus $3.99——'三家最大社交 app 集体进入订阅时代'，6 月新增 Meta One Plus $7.99 / Premium $19.99 AI 套餐三国测试",
+      "source": "Meta",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "story_key": "meta-plus-subscriptions-global-launch",
+      "event_date": "2026-05-27",
+      "summary": "Meta CPO Naomi Gleit 5-27 周三全球同步开闸 'Plus 订阅时代'：**WhatsApp Plus $2.99/月、Instagram Plus $3.99/月、Facebook Plus $3.99/月** 三家最大社交 app 集体首次正面开收订阅费——主打 profile customization、super reactions、story insights。同步官宣 6 月在新加坡 / 危地马拉 / 玻利维亚三国测试 **Meta One Plus $7.99/月** 与 **Meta One Premium $19.99/月** AI 套餐——直接对位 Google AI Ultra $100。",
+      "detail": "Meta CPO Naomi Gleit 5-27 周三正式宣告 Meta 全球 **'四款消费订阅' 时代** 落地：\n\n**三款 'Plus' 全球开闸（首日上线）：**\n- **WhatsApp Plus $2.99/月**——主打消息自定义、超级表情、隐私自定义。\n- **Instagram Plus $3.99/月**——profile customization、super reactions、story insights、新粉丝洞察。\n- **Facebook Plus $3.99/月**——同 IG Plus 同套，加 News Feed 排序工具。\n\n**两款 'Meta One' AI 套餐 6 月开测：**\n- **Meta One Plus $7.99/月**——Meta AI 加量、跨 app AI 编辑、'Meta AI Studio' 创作工具。\n- **Meta One Premium $19.99/月**——全部 Meta AI 顶配能力 + 优先 GPU + 高清 video / image generation + 创作变现工具。\n- 首批 6 月仅在 **新加坡 / 危地马拉 / 玻利维亚** 测试——典型 Meta '小国家小范围打全套数据' 策略。\n\n**为什么是今天：** Meta 自 2025 Llama 4 / Behemoth 路线图碰壁后，把 AI 商业化重心从 'B2C 通用助手大战 OpenAI' 转向 'C2C 嵌入式 AI + 订阅自洽现金流'。Plus 三件套是 Meta One 的 **入口锚**——先用 $3 让用户养成订阅习惯，再用 $7.99 / $19.99 把 AI 上推。\n\n**直接对位 Google AI Ultra $100：** 5-19 Google I/O 把 AI Ultra 价从 $250 砍到 $100、捆绑 Gemini Spark 24/7 agent。Meta One Premium $19.99 直接 '少了五分之一' 攻击 Google 性价比叙事。",
+      "key_quotes": [
+        "We're rolling out our consumer subscription plans globally for our flagship apps — Instagram, Facebook, and WhatsApp.",
+        "Meta One Plus and Meta One Premium will enter testing in Singapore, Guatemala, and Bolivia starting June 2026."
+      ],
+      "significance": "**Meta 第一次让 30 亿用户开始正面对接付费订阅**——这是社交媒体广告时代之后的第二个根本商业模式信号。三层意义：(1) **WhatsApp 24 亿用户首次正式付费产品** 验证消息端订阅可行性，若 ARPU 转化率达到 1% 即 $2400 万 / 月稳态现金流；(2) **Meta One Premium $19.99** 直接夹在 ChatGPT Plus $20 / Google AI Pro $20 价位上，把 AI 助手价格战重新拖到 '社交 + AI 套娃' 维度——OpenAI / Google 的纯助手叙事会被进一步稀释；(3) **新兴市场三国测试**（新加坡 / 危地马拉 / 玻利维亚）反映 Meta 不再像 Google 那样 US-first，而是 'GDP-per-capita-mid' 国家先抓 ARPU 曲线——这是给广告衰退周期的对冲。",
+      "links": [
+        "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+        "https://www.channelstv.com/2026/05/28/meta-launches-paid-subscriptions-for-instagram-facebook-whatsapp/",
+        "https://www.neowin.net/news/meta-launches-paid-whatsapp-facebook-and-instagram-tiers-more-subscriptions-to-come/",
+        "https://www.macrumors.com/2026/05/27/meta-paid-plans-facebook-instagram/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "subscription", "WhatsApp", "Instagram", "Meta AI"],
+      "category": "product_operators"
+    },
+    {
+      "id": "7",
+      "title": "Figure AI 5-26 拿下美国零售首单：JCPenney 母公司 Catalyst Brands 在 Reno DC 部署 Helix-02 人形机器人——专吃 'sort/pack 重复劳动'，前两周 Bob / Frank / Gary 三机已无人工干预连跑 50 小时",
+      "source": "Catalyst Brands Newsroom",
+      "source_name": "Catalyst Brands Newsroom",
+      "source_url": "https://corporate.jcpenney.com/2026/05/26/catalyst-brands-taps-figure-ai-for-humanoid-automation/",
+      "story_key": "catalyst-brands-figure-humanoid-deal",
+      "event_date": "2026-05-26",
+      "summary": "Figure AI 5-26 周二与 **Catalyst Brands**（JCPenney / Aéropostale / Brooks Brothers 等多品牌零售母公司）落定 **首份美国零售业人形机器人商单**——内华达 Reno Distribution Logistics Center 部署 Helix-02 驱动的 Figure 03 人形机器人，吃 'sort / pack 重复且体力消耗大' 的拣货流水线。此前两周内同款机器三机（Bob / Frank / Gary）已无人工干预连跑 50 小时。",
+      "detail": "Figure AI 5-26 周二在 Catalyst Brands 官方 newsroom 联合发布——美国零售业第一份正式的人形机器人商业合同正式落地：\n\n**部署地点：** 内华达 Reno **Distribution Logistics Center**（DLC）——这是 Catalyst Brands 多品牌矩阵（JCPenney、Aéropostale、Brooks Brothers、Lucky Brand、Eddie Bauer、Nautica）共用的西部最大物流分拨中心。\n\n**机器型号：** **Figure 03**（10 月发布的量产款），1.73m / 61kg、20kg 负载、双足、脚部无线充电。AI 栈是 Figure 自研 **Helix-02**——融合 vision / tactile / proprioception / motor control 的 native vision-language-action 神经网络。\n\n**任务边界：** 主吃 'sort / pack' 流水线——拣货、装箱、贴标签、轻度抓握。Catalyst Brands 强调这些是 'highly repetitive、ergonomically demanding'——之前是工伤高发岗。\n\n**铺垫信号 5-15：** Adcock 在 X 上展示三台 Figure 03（命名 Bob / Frank / Gary）在内部测试场连续 **24 小时无人工干预** 完成包裹分拣；接着 50 小时全自主跑通——这次商单是把同款工作流直接搬到 Catalyst Brands 真实 DLC 的第一次。\n\n**Figure 商业进度梯度：** \n- 2025-03 BMW Spartanburg 焊接线试点（汽车）\n- 2026-02 GXO Holdings 物流试点（首次脱离汽车）\n- 2026-05-26 **Catalyst Brands 美国零售 DLC 商单**（首次零售 + 首次多品牌 + 首次跨多品类 SKU）\n\nBrett Adcock 给出 2026 路线图：4 家以上品牌客户、人形机器人在线时长突破 100 万小时。",
+      "key_quotes": [
+        "We have agreed to deploy Figure humanoid robots to perform highly repetitive and ergonomically demanding sorting and packing tasks at our Reno Distribution Logistics Center.",
+        "Three humanoid robots named Bob, Frank and Gary ran autonomously for over 24 hours, sorting packages without human control."
+      ],
+      "significance": "**美国零售业第一份多品牌 DLC 人形机器人商单**——三层连锁信号：(1) **从汽车（BMW）→ 物流（GXO）→ 零售（Catalyst Brands）**，Figure 把 '人形可商用任务集合' 三步走出汽车焊接的舒适区，验证 Helix-02 跨 SKU / 跨形状 / 跨重量的通用性；(2) **'Bob / Frank / Gary 50 小时连跑'** 给行业第一份可被独立观察的 'humanoid uptime' 数据——是 Tesla Optimus / 1X / Agility 必须追平的基线；(3) Catalyst Brands 是 SPARC Group + JCPenney 2025 合并后形成的全美 1700+ 实体门店 + 大型物流分拨网络——意味着 Figure 一旦在 Reno 跑通，可以横向复制到 Catalyst Brands 全美 20+ DLC，且对 Walmart / Target 等竞争对手形成直接 RFP 压力。配合 5-23 Adcock Hark $7 亿 Series A + Figure 自身 $39B 估值，今天是人形机器人 '可商业化' 叙事的第一份零售业落地证据。",
+      "links": [
+        "https://corporate.jcpenney.com/2026/05/26/catalyst-brands-taps-figure-ai-for-humanoid-automation/",
+        "https://www.bloomberg.com/news/articles/2026-05-15/robotics-ceo-vows-no-intervention-in-humanoids-viral-trial-run",
+        "https://www.foxnews.com/tech/humanoid-robots-work-nonstop-package-test"
+      ],
+      "image": "img/catalyst-figure-deployment.jpg",
+      "image_type": "logo",
+      "tags": ["Figure AI", "humanoid robot", "Catalyst Brands", "JCPenney", "Helix-02"],
+      "category": "trending"
+    },
+    {
+      "id": "8",
+      "title": "Tensormesh 5-27 拿下 Nvidia / AMD / CoreWeave '三家芯片云' 同台联投 $2000 万 seed 加注：UChicago + Berkeley + CMU 教授团队把 'KV-cache 重计算' 干掉，宣称推理延迟 + GPU 成本一刀砍 10×",
+      "source": "Tensormesh / BusinessWire",
+      "source_name": "BusinessWire",
+      "source_url": "https://www.businesswire.com/news/home/20260527958597/en/Tensormesh-Raises-$20M-from-Investors-Including-AMD-Ventures-CoreWeave-NVentures-Launches-Tensormesh-Inference-to-Fix-AIs-Most-Expensive-Problem",
+      "story_key": "tensormesh-seed-extension-20m",
+      "event_date": "2026-05-27",
+      "summary": "Tensormesh 5-27 周三完成 **$2000 万 seed 加注**（累计 $2450 万）——投资人罕见地包含 **AMD Ventures + CoreWeave + NVentures（Nvidia）'三家芯片云' 同台**+ Valley Capital + Laude Ventures。同日公司发布 SaaS 化推理平台 **Tensormesh Inference**，主打 KV-cache 跨请求 / 跨节点持久化复用，宣称推理延迟与 GPU 成本同时 **一刀砍 10×**。",
+      "detail": "Tensormesh 5-27 周三对外发布 $2000 万 seed extension 与首款 SaaS 产品 **Tensormesh Inference**：\n\n**钱：** 单轮 $2000 万、累计 $2450 万；本轮投资人罕见地把 **三家芯片云大佬同台**：\n- **AMD Ventures**（MI 系列推理生态）\n- **CoreWeave**（hyperscale GPU 云）\n- **NVentures（Nvidia 风投）**\n- **Valley Capital Partners**、**Laude Ventures** 财务跟投\n\n这种 'Nvidia 与 AMD 同时押一个推理优化层' 的组合极为罕见——通常两家芯片不会跟同一个 layer 标的。\n\n**技术核心：** 公司由 Junchen Jiang（UChicago faculty + LMCache 论文作者）领衔，团队来自 UChicago / UC Berkeley / CMU 三家系统教授联合 PhD。**核心瓶颈：当今 LLM 推理 50%-80% 的 GPU 时间花在 'KV cache 的重计算'**——同一段 prompt prefix 被 100 万次重新算 attention，KV cache 用完即扔。\n\n**Tensormesh Inference 做的事：** 把 KV cache 分布式持久化到 SSD / 跨节点对象存储，跨请求 / 跨用户 / 跨节点全局复用——核心算法来自论文 **LMCache（OSDI '24）**。官方数据：\n- 推理延迟 **最高 10×** 降低\n- GPU 单 token 成本 **最高 10×** 降低\n- 支持 vLLM / TensorRT-LLM / SGLang 等主流推理 server 一键插拔\n\n**资金用途：** (1) 加速产品落地；(2) 深化与 AMD / CoreWeave / Nvidia 的硬件级集成；(3) 持续向 LMCache 开源社区投入。",
+      "key_quotes": [
+        "Recomputing what GPUs have already processed is enterprises' most expensive AI problem.",
+        "Storing and reusing computed results through KV caching delivers up to 10x reductions in latency and GPU spend."
+      ],
+      "significance": "**Nvidia + AMD + CoreWeave 同台押注同一家推理优化层**是过去 18 个月 GPU 经济学的最强信号——三层意义：(1) 'KV-cache 重计算' 终于被三家芯片云正式承认为 '推理成本第一大浪费'，这给推理侧 unit-economics 重置定下新基线；(2) 在 Anthropic Series H $965B + Dell $161 亿 AI 服务器 + Snowflake $60 亿 AWS 大单的 '更多 GPU' 叙事之外，**5-27 同时投出一条 '更少 GPU' 平行叙事**——产能不是唯一解；(3) Junchen Jiang / LMCache 论文 OSDI '24 发表 18 个月就到 $2450 万 + 三大金主同台，**学术 → 商业转化路径再次缩短**，对所有还在等论文实验室的中国厂商（包括 DeepSeek、月之暗面）形成直接节奏压力。",
+      "links": [
+        "https://www.businesswire.com/news/home/20260527958597/en/Tensormesh-Raises-$20M-from-Investors-Including-AMD-Ventures-CoreWeave-NVentures-Launches-Tensormesh-Inference-to-Fix-AIs-Most-Expensive-Problem",
+        "https://siliconangle.com/2026/05/27/tensormesh-taps-nvidia-amd-coreweave-funding-fix-llm-memory-problems/",
+        "https://www.hpcwire.com/off-the-wire/tensormesh-raises-20m-launches-ai-inference-platform-built-on-kv-caching/",
+        "https://techstartups.com/2026/05/27/tensormesh-raises-20m-from-nvidia-amd-and-coreweave-to-slash-ai-inference-costs-by-up-to-10x/"
+      ],
+      "tags": ["Tensormesh", "KV cache", "inference", "AMD Ventures", "CoreWeave", "NVentures"],
+      "category": "builders"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "date": "2026-05-29",
+  "total_candidates": 22,
+  "kept": 8,
+  "dropped": 14,
+  "decisions": [
+    {
+      "story_key": "anthropic-claude-opus-4-8-release",
+      "event_date": "2026-05-28",
+      "title_en": "Anthropic ships Claude Opus 4.8 with major coding and math gains, beats GPT-5.5",
+      "source": "@AnthropicAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Frontier model release with SWE-bench Pro 69.2 (vs GPT-5.5 58.6), USAMO 2026 96.7%, OSWorld 83.4, fast mode 2.5x faster at 3x lower cost."
+    },
+    {
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-28",
+      "title_en": "Anthropic closes Series H $65B at $965B post-money, surpasses OpenAI valuation",
+      "source": "Anthropic Blog",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 05-22 ('Anthropic $30B+ 新轮下周敲定 $900B+ 估值 -- Sequoia/Dragoneer/Altimeter/Greenoaks 各 ~'). New info: deal officially closed 5-28 at $65B raised / $965B post-money (vs $30B+/$900B+ rumored), $47B run-rate revenue confirmed, Samsung/SK Hynix/Micron joined as strategic infrastructure partners, valuation now exceeds OpenAI's $852B."
+    },
+    {
+      "story_key": "dell-q1-fy27-ai-server-record",
+      "event_date": "2026-05-28",
+      "title_en": "Dell Q1 FY27 record: $43.8B revenue, $16.1B AI servers +757% YoY",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Dell reported Q1 FY27 on 5-28: record $43.8B revenue (+88% YoY), $16.1B AI server revenue (+757% YoY), $24.4B AI orders booked, FY27 AI server guidance raised from prior to $60B, shares +25% after-hours."
+    },
+    {
+      "story_key": "snowflake-aws-6b-q1-fy27",
+      "event_date": "2026-05-28",
+      "title_en": "Snowflake jumps 38% on $6B AWS deal and Q1 blowout",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Snowflake on 5-28 reported Q1 product revenue $1.334B (+34% YoY), signed 5-year $6B AWS commitment (more than doubling prior agreement), raised FY guidance to $5.8B; stock +38% in best day on record, also acquired Natoma (MCP platform for AI agents)."
+    },
+    {
+      "story_key": "cisco-multiturn-ai-attack-report",
+      "event_date": "2026-05-27",
+      "title_en": "Cisco research: all closed frontier AI models break under multi-turn attacks, ASR up to 88%",
+      "source": "Help Net Security",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Cisco AI threat intelligence team report covering 30,000 single-turn prompts and 7,000 multi-turn attacks across 15 closed flagship models from OpenAI/Anthropic/Google/Amazon/xAI; multi-turn ASR up to 88%, Gemini 3 Pro +55 points under iterative attack; recommends moving security perimeter outside the model."
+    },
+    {
+      "story_key": "meta-plus-subscriptions-global-launch",
+      "event_date": "2026-05-27",
+      "title_en": "Meta launches Plus subscriptions globally across Instagram, Facebook, WhatsApp; Meta One AI tiers enter testing",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Meta on 5-27 launched paid Plus subscriptions globally -- WhatsApp Plus $2.99/mo, Instagram Plus $3.99/mo, Facebook Plus $3.99/mo -- plus Meta One Plus $7.99/mo and Meta One Premium $19.99/mo AI subscriptions entering testing in Singapore/Guatemala/Bolivia in June."
+    },
+    {
+      "story_key": "catalyst-brands-figure-humanoid-deal",
+      "event_date": "2026-05-26",
+      "title_en": "Catalyst Brands deploys Figure AI humanoids at Reno DC for sort/pack automation",
+      "source": "Catalyst Brands Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Catalyst Brands (JCPenney parent) announced 5-26 commercial partnership deploying Figure AI humanoid robots at its Reno NV Distribution Logistics Center for repetitive sorting/packing tasks. Figure's first major US retail logistics commercial deployment; follows recent 50-hour autonomous package sort milestone."
+    },
+    {
+      "story_key": "tensormesh-seed-extension-20m",
+      "event_date": "2026-05-27",
+      "title_en": "Tensormesh $20M extension from Nvidia, AMD, CoreWeave for KV-cache inference platform",
+      "source": "BusinessWire",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Tensormesh announced 5-27 a $20M seed extension (total $24.5M) led by AMD Ventures, CoreWeave, NVentures (NVIDIA); launched SaaS KV-cache inference platform claiming up to 10x latency/GPU cost reduction; team led by UChicago/UCB/CMU faculty including LMCache co-creator Junchen Jiang."
+    },
+    {
+      "story_key": "cognition-series-d-26b",
+      "event_date": "2026-05-27",
+      "title_en": "Cognition $1B Series D at $25B pre-money $26B post valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-27 with detailed coverage of the same $1B Series D close at $26B valuation. No substantive new information found on 5-28/5-29 beyond what was already published."
+    },
+    {
+      "story_key": "apple-genai-subdomain-wwdc",
+      "event_date": "2026-05-23",
+      "title_en": "Apple registers genai.apple.com subdomain ahead of WWDC 2026, signals Siri overhaul",
+      "source": "MacRumors",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-23 is 6 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "mistral-paris-data-center-debt",
+      "event_date": "2026-03-30",
+      "title_en": "Mistral $830M debt financing for 44MW Paris data center with 13,800 GB300",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-30 is 60 days before today (>5 day limit). Re-surfaced 5-28 in re-coverage but underlying announcement is from March 30."
+    },
+    {
+      "story_key": "aion-france-gigafactory-consortium",
+      "event_date": "2026-05-20",
+      "title_en": "Iliad/EDF/Orange/Hugging Face form AION consortium for France AI gigafactory",
+      "source": "Maddyness UK",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-20 is 9 days before today (>5 day limit). English-language coverage on 5-27 but underlying announcement was 5-20."
+    },
+    {
+      "story_key": "kpmg-anthropic-claude-deploy",
+      "event_date": "2026-05-19",
+      "title_en": "KPMG deploys Claude to 276,000 employees in 138 countries via Digital Gateway",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 10 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "openai-deployco-launch",
+      "event_date": "2026-05-11",
+      "title_en": "OpenAI launches DeployCo $4B consulting subsidiary with TPG, acquires Tomoro",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-11 is 18 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "nextera-dominion-67b-merger",
+      "event_date": "2026-05-18",
+      "title_en": "NextEra Energy to acquire Dominion for $67B to power AI data centers",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-18 is 11 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "hhs-aero-chatgpt-state-audits",
+      "event_date": "2026-05-21",
+      "title_en": "HHS launches AERO AI-powered audit crackdown on states using ChatGPT",
+      "source": "HHS.gov",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-21 is 8 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "mira-murati-tml-interaction",
+      "event_date": "2026-05-12",
+      "title_en": "Thinking Machines Lab unveils TML-Interaction-Small full-duplex AI 0.4s latency",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-12 is 17 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "google-gemini-spark-ai-ultra",
+      "event_date": "2026-05-19",
+      "title_en": "Google launches Gemini Spark 24/7 personal AI agent at $100/mo AI Ultra plan",
+      "source": "PCWorld",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 10 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "xai-grok-custom-skills",
+      "event_date": "2026-05-26",
+      "title_en": "xAI launches Custom Skills for Grok user-defined reusable tasks",
+      "source": "Basenor",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Same xAI Grok story_keys appear repeatedly in lookback (tesla-grok-fsd-cybercab-confirmation 5-25, xai-grok-third-party-connectors 5-22). The Custom Skills feature is a relatively minor productivity addition and not differentiated enough from prior Grok platform coverage to warrant a fresh slot today; deprioritized in favor of higher-impact stories."
+    },
+    {
+      "story_key": "fda-real-time-clinical-trials",
+      "event_date": "2026-05-27",
+      "title_en": "FDA announces real-time clinical trials initiative with proof-of-concept",
+      "source": "FDA",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "FDA real-time trials infrastructure story has thin AI angle and is more pharma-policy than AI news; deprioritized in favor of stories with stronger frontier-AI relevance."
+    },
+    {
+      "story_key": "anthropic-claude-opus-4-7-mythos",
+      "event_date": "2026-05-26",
+      "title_en": "Anthropic Mythos Project Glasswing disclosures 23,019 vulnerabilities found",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 05-26 with title 'Anthropic Mythos 1 个月扫出 23,019 条候选漏洞...wolfSSL CVE-2026-5194 第'. No substantive new information found on 5-28/5-29 beyond prior coverage."
+    },
+    {
+      "story_key": "tempus-ai-investor-day",
+      "event_date": "2026-05-29",
+      "title_en": "Tempus AI hosts inaugural Investor Day",
+      "source": "Tempus AI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Investor Day is a procedural corporate event with limited AI-news substance; no specific product/research/strategic announcements yet reported. Deprioritized."
+    }
+  ]
+}
