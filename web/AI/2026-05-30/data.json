@@ -1,0 +1,179 @@
+{
+  "date": "2026-05-30",
+  "category": "AI",
+  "title": "CNN 开打电视台 AI 版权第一枪起诉 Perplexity '抄 17,000 篇'；Apple LLM 版 Siri 定档 6-8 WWDC、内核外包给 Google 定制 Gemini；OpenAI 给'系统性风险'划硬线（死 50 人 / 损 $10 亿）；NBA 要把出界球判罚交给 AI；Anthropic 上线 Claude Design、Harvey 接入 Mistral、Oculus 联创 Sesame 语音 app 登陆 iOS",
+  "items": [
+    {
+      "id": "1",
+      "title": "CNN 开打电视台 AI 版权第一枪：5-28 起诉 Perplexity'抄了 17,000 篇报道'——还假冒'Comet Plus 能看 CNN 付费内容'，Perplexity 回怼'事实不受版权保护'",
+      "source": "CNN",
+      "source_name": "NPR",
+      "source_url": "https://www.npr.org/2026/05/28/g-s1-124680/cnn-sues-ai-company-perplexity-alleging-it-violates-copyright-protections",
+      "story_key": "cnn-perplexity-copyright-suit",
+      "event_date": "2026-05-28",
+      "summary": "CNN 5-28 周四在纽约南区联邦法院起诉 AI 搜索公司 Perplexity，指其非法抓取并分发 17,000+ 篇 CNN 报道、照片与视频，并虚假宣传'Comet Plus'订阅可访问 CNN 付费内容——这是 CNN 首次、也被认为是任何电视台首次发起的 AI 版权诉讼。",
+      "detail": "CNN 5-28 周四在**纽约南区联邦法院（SDNY）**正式起诉 AI 搜索公司 **Perplexity**，指控其侵犯 CNN 的版权与商标——这是 CNN 第一次就 AI 提起版权诉讼，也被广泛认为是**任何电视新闻机构首次**发起此类诉讼。\n\n诉状核心指控有两条：(1) Perplexity **抓取并复制了超过 17,000 篇** CNN 的报道、图片、视频等内容，既从 CNN 自有平台、也从第三方平台抓取，然后**实时**喂给其大模型生成回答——用户问新闻时，Perplexity 可能直接调用 CNN 的报道，却既不把流量导回 CNN 网站、也不向 CNN 付费；(2) Perplexity **虚假宣传**与 CNN 存在合作关系，声称用户升级到 **'Comet Plus'** 付费层即可访问 CNN 的优质内容。CNN 要求法院判予法定赔偿并禁止 Perplexity 继续使用其内容。\n\n背景上，CNN 去年曾试图与 Perplexity 谈成内容授权协议但未谈拢，随后封禁了 Perplexity 的抓取爬虫。Perplexity 首席传播官 Jesse Dwyer 强硬回应：'**你不能给事实上版权（You can't copyright facts）**'。值得注意的是，Perplexity 同时还面临 **The New York Times、Chicago Tribune** 等多家出版机构的类似法律挑战——这场诉讼是出版方与 AI 搜索公司之间版权战争全面升级的又一标志。",
+      "key_quotes": [
+        "Perplexity CCO Jesse Dwyer: \"You can't copyright facts.\"",
+        "CNN alleges Perplexity scraped more than 17,000 of its stories, photos and videos."
+      ],
+      "significance": "这是'AI 答案引擎 vs 新闻版权'冲突的标志性升级：第一家电视台下场，把战线从文字出版商扩展到广播电视，且首次把'AI 假冒付费授权关系（Comet Plus）'写进诉由。判例若成立，将直接冲击 Perplexity 这类'实时抓取 + 生成回答'的商业模式，并为 NYT 等其他在审案件提供风向标——决定 AI 搜索究竟要付费授权还是被判侵权。",
+      "links": [
+        "https://www.npr.org/2026/05/28/g-s1-124680/cnn-sues-ai-company-perplexity-alleging-it-violates-copyright-protections",
+        "https://www.cnn.com/2026/05/28/media/cnn-sues-perplexity-ai-copyright",
+        "https://variety.com/2026/biz/news/cnn-sues-perplexity-alleging-copyright-infringement-1236760987/",
+        "https://www.aljazeera.com/economy/2026/5/28/cnn-sues-perplexity-alleging-unlawful-distribution-of-copyrighted-content"
+      ],
+      "image": "img/perplexity-logo.svg",
+      "image_type": "logo",
+      "tags": ["CNN", "Perplexity", "版权诉讼", "AI搜索", "Comet"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Apple 的 LLM 版 Siri 定档 6-8 WWDC：iOS 27 独立 Siri app 像 ChatGPT 一样能连续对话——核心跑在 Google 定制 Gemini 上，但推理走 Apple 私有云",
+      "source": "Apple",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/features/2026-05-28/apple-ios-27-photos-screenshots-revamped-siri-pro-camera-app-new-ai-features",
+      "story_key": "apple-llm-siri-ios27",
+      "event_date": "2026-05-28",
+      "summary": "Bloomberg 的 Mark Gurman 5-28 报道：Apple 将在 6-8 WWDC 2026 随 iOS 27 预览彻底重做的 LLM 版 Siri——独立 Siri app 支持持续对话、上下文记忆与多步推理，核心由 Google 为苹果定制的 Gemini 模型驱动，但查询经 Apple Private Cloud Compute 处理而非走 Google 服务器。",
+      "detail": "据 Bloomberg 的 **Mark Gurman** 5-28 报道，Apple 准备在 **6-8 WWDC 2026** 随 **iOS 27** 预览一款彻底重做的 **Siri**——这是被多次跳票后，苹果对话式助手的关键一战。\n\n新 Siri 将以**独立 app** 形态出现，能像 **ChatGPT / Gemini** 一样同时处理语音与文字交互，支持**持续聊天记录、连续对话、上下文记忆与多步推理**；并集成进 iPhone 的灵动岛（Dynamic Island），测试中的界面采用全暗色设计。app 还支持文档与照片上传、常驻语音模式，并提供下拉菜单让用户把查询**直接转给 ChatGPT、Google Gemini 或 Claude**。\n\n最受关注的是底层：新 Siri **部分由 Google 的 Gemini 驱动**——具体是 Google **专门为 Apple 训练的一款定制模型**；但苹果强调查询将通过自家 **Private Cloud Compute** 基础设施处理，而非直接送进 Google 的服务器，以维持其隐私叙事。同场 iOS 27 还将带来面向专业用户的 **Pro 相机 app** 与加入新 AI 能力、重做的 **Photos**。\n\n信号意义在于：苹果在自研前沿模型迟迟达不到旗舰水准后，选择把全球装机量最大的助手入口的智能内核**外包给最大竞争对手之一**——把 Apple↔Google 的绑定从搜索默认协议延伸到'设备端智能内核'。",
+      "key_quotes": [
+        "Gurman: Apple will preview an LLM-powered, standalone Siri app at WWDC on June 8 alongside iOS 27.",
+        "Siri runs on a custom model based on Google's Gemini, processed through Apple's Private Cloud Compute rather than Google's servers."
+      ],
+      "significance": "这可能是 2026 年消费 AI 最重要的格局变化：全球最大的助手入口 Siri，其智能内核被外包给 Google 定制 Gemini。它一面坐实苹果自研前沿模型的失利，一面把 Apple↔Google 依赖从搜索扩展到'设备端智能'，直接重塑 OpenAI、Anthropic 争夺消费端入口的战局——'谁的模型住进 iPhone'成为比应用商店更深一层的平台权力。",
+      "links": [
+        "https://www.bloomberg.com/news/features/2026-05-28/apple-ios-27-photos-screenshots-revamped-siri-pro-camera-app-new-ai-features",
+        "https://9to5mac.com/2026/05/28/apple-revamped-siri-ios-27-wwdc/",
+        "https://www.macrumors.com/2026/05/26/ios-27-siri-dark-colors/",
+        "https://decrypt.co/369415/apple-ios-27-leaks-siri-redesign-chatgpt"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "Siri", "iOS 27", "Gemini", "WWDC", "Google"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "OpenAI 5-29 把'前沿风险'写成合规文件：Frontier Governance Framework 对齐加州新法 + 欧盟 AI 法案——并给'系统性风险'定了硬线：单次事件死 50 人或损失 $10 亿",
+      "source": "OpenAI",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/openai-frontier-governance-framework/",
+      "story_key": "openai-frontier-governance-framework",
+      "event_date": "2026-05-29",
+      "summary": "OpenAI 5-29 发布 Frontier Governance Framework，把其安全与安保实践对齐到加州《Transparency in Frontier AI Act》与欧盟 AI 法案的通用 AI 行为准则——并首次给'系统性风险'下了量化定义：单次事件导致 50 人以上死亡或 $10 亿美元财产损失。",
+      "detail": "OpenAI 5-29 周五发布 **Frontier Governance Framework（前沿治理框架）**，把公司的安全与安保实践明确对齐到正在落地的监管要求——尤其是**加州《Transparency in Frontier AI Act》**与**欧盟 AI 法案的通用 AI（GPAI）行为准则**。这份框架建立在 OpenAI 既有的 **Preparedness Framework（准备框架）**之上，把其中相关部分提炼成一份**面向具体监管义务**的公开治理文件。\n\n框架覆盖的风险评估与缓解领域包括：**网络攻击（cyber offense）、CBRN（化生放核）风险、有害操纵（harmful manipulation）、失控（loss of control）**，并对模型上报、安全风险管理、事件响应、外部专家意见与框架更新机制作出规定。\n\n最具操作性的一点是：框架**首次给'系统性风险'下了量化定义**——指可预见的、可能造成严重危害的重大风险，**具体包括单次事件导致超过 50 人死亡、或造成 $10 亿美元财产损失**的情形。把'严重危害'落到具体的人命与金额数字，意味着 OpenAI 试图为前沿模型风险建立一套可审计、可对监管交代的客观门槛——这在主要实验室的公开治理文件中相当罕见。",
+      "key_quotes": [
+        "Systemic risk is defined to include scenarios where a model contributes to greater than 50 fatalities or causes $1 billion in property damages from a single incident.",
+        "The framework aligns with California's Transparency in Frontier AI Act and the EU AI Act's GPAI Code of Practice."
+      ],
+      "significance": "这是前沿实验室'安全承诺'从抽象原则走向可量化、可审计合规文件的一步。把'系统性风险'锚定到'50 人死亡 / $10 亿损失'这样的硬数字，等于给监管机构提供了客观抓手，也为加州新法与欧盟 AI 法案的执行树立了第一份来自头部实验室的对齐范本——其他实验室大概率要被迫给出可比口径。",
+      "links": [
+        "https://openai.com/index/openai-frontier-governance-framework/",
+        "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/openai-rolls-out-frontier-governance-framework",
+        "https://www.techerati.com/news-hub/openais-frontier-signals-a-shift-in-enterprise-ai-governance/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "AI治理", "前沿安全", "欧盟AI法案", "加州", "合规"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "NBA 要把'出界球'判罚交给 AI：5-27 Adam Silver 官宣环场摄像头自动判线——'把所有客观判罚从裁判手里拿走'，对标 Hawk-Eye 鹰眼",
+      "source": "NBA",
+      "source_name": "Yahoo Sports",
+      "source_url": "https://sports.yahoo.com/nba/article/adam-silver-says-nba-will-eventually-adopt-ai-automated-system-to-review-out-of-bounds-calls-014337959.html",
+      "story_key": "nba-ai-officiating-system",
+      "event_date": "2026-05-27",
+      "summary": "NBA 总裁 Adam Silver 5-27 表示，联盟将采用一套类似 Hawk-Eye 鹰眼的 AI 自动判罚系统——用环绕球场的摄像头即时、自动地判定出界球与时钟违例，把客观判罚从裁判手中移走，无需人工回放或教练挑战。",
+      "detail": "NBA 总裁 **Adam Silver** 5-27 表示，联盟将逐步采用一套基于 **AI + 摄像头**的自动判罚系统，处理**出界球（out-of-bounds）**等客观判罚。该系统建立在 NBA 与 **Sony Hawk-Eye Innovations（鹰眼）**既有合作之上——用环绕球场布置的摄像头**即时、自动**地完成判定，'把所有客观判罚从裁判手里拿走'。\n\nSilver 描述的目标是：让边界线与时钟违例的判定**自动化、瞬时化**，无需触发人工回放中断或教练挑战流程。他援引了 Hawk-Eye 技术——该技术同样被用于 **MLB（美国职棒）新的自动好球带挑战系统**。\n\n这一表态的意义超出体育本身：它是 AI'客观裁决'在**高对抗、高争议、即时性要求极高**的现实场景中替代人类判断的又一标志性落地。把'球是否出界'这类二元客观事实交给 AI 摄像头系统，本质上是用机器感知取代人类肉眼判罚——既减少争议与申诉，也把人类裁判的角色压缩到只剩主观判断（如犯规尺度）。对一个全球数十亿观众的顶级体育联盟而言，这是 AI 进入大众日常体验最直观的一次。",
+      "key_quotes": [
+        "Adam Silver: \"It'll take all objective calls out of the hands of the referees.\"",
+        "The NBA will move to a Hawk-Eye-style AI system for instantaneous, automatic out-of-bounds calls."
+      ],
+      "significance": "这是 AI'客观裁决'渗透进大众日常体验的标志性一步：把高争议、强即时性的判罚交给机器感知，意味着 AI 替代人类判断正从工厂、代码走向数十亿观众注视的赛场。它也为 MLB 自动好球带之后，职业体育大规模采用 AI 裁判提供了又一范本，重新定义'裁判'这一职业的边界。",
+      "links": [
+        "https://sports.yahoo.com/nba/article/adam-silver-says-nba-will-eventually-adopt-ai-automated-system-to-review-out-of-bounds-calls-014337959.html",
+        "https://thesportsrush.com/adam-silver-nba-ai-officiating-calls/",
+        "https://www.basketballnetwork.net/latest-news/adam-silver-says-nba-will-soon-use-ai-for-out-of-bounds-calls"
+      ],
+      "tags": ["NBA", "Adam Silver", "AI裁判", "Hawk-Eye", "体育"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Anthropic 把 Claude 推向设计台：5-27 Anthropic Labs 上线 Claude Design——用对话直接产出可交付的精致设计稿",
+      "source": "Anthropic",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news",
+      "story_key": "anthropic-claude-design-launch",
+      "event_date": "2026-05-27",
+      "summary": "Anthropic 5-27 通过 Anthropic Labs 推出 Claude Design——一款让用户与 Claude 协作、用对话直接生成精致设计稿的新产品，把 Claude 的能力从代码与文档扩展到视觉设计创作。",
+      "detail": "Anthropic 5-27 通过其 **Anthropic Labs** 实验产品线推出 **Claude Design**——一款让用户与 Claude **协作创作精致设计稿（polished designs）**的新产品。用户以自然语言对话的方式提出需求，Claude 直接产出可交付的设计成果，把模型能力从此前主打的代码（Claude Code）、办公协作（Claude Cowork）进一步扩展到**视觉设计**这一新场景。\n\n这一动作延续了 Anthropic 近期密集的产品扩张节奏：在前沿模型（Claude Opus 4.8）、企业协作（Cowork）、安全（Mythos）连续落地之后，Claude Design 把战线推进到设计 / 创意工具领域，直接进入 Figma、Canva、Adobe Firefly 等设计软件与 AI 创意工具的腹地。对 Anthropic 而言，这既是把 Claude 的多模态与 agentic 能力变现为更多垂直场景的尝试，也是在'通用 AI 工作站'竞争中补齐设计这块拼图——让 Claude 从'写代码、做文档'的助手，向'端到端完成创意产出'的工具演进。",
+      "key_quotes": [
+        "Claude Design lets you collaborate with Claude to create polished designs.",
+        "Launched via Anthropic Labs, Anthropic's experimental product line."
+      ],
+      "significance": "这是 Anthropic 把 Claude 从'代码 + 文档'助手向'创意产出工具'扩张的一步，直接切入 Figma / Canva / Adobe Firefly 的设计腹地。它显示头部实验室正把前沿模型能力快速垂直化、产品化，争夺'通用 AI 工作站'里每一个具体工作流——设计是继编程、办公之后的下一块必争之地。",
+      "links": [
+        "https://www.anthropic.com/news",
+        "https://llm-stats.com/llm-updates"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude Design", "Anthropic Labs", "设计工具", "AI创意"],
+      "category": "product_operators"
+    },
+    {
+      "id": "6",
+      "title": "Harvey 多模型版图再添一家：5-26 把 Mistral 装进法律 AI 平台——OpenAI / Anthropic / Google 之外加入欧洲模型，先供 1,500+ 律所的欧盟客户",
+      "source": "Harvey",
+      "source_name": "Harvey",
+      "source_url": "https://www.harvey.ai/blog/mistral-now-live-in-harvey",
+      "story_key": "harvey-mistral-partnership",
+      "event_date": "2026-05-26",
+      "summary": "法律 AI 公司 Harvey 5-26 宣布把 Mistral 的模型接入其多模型平台——加入此前已有的 OpenAI、Anthropic、Google，覆盖合规、诉讼、合同分析等场景，先向欧盟客户开放，随后扩展到美国与澳大利亚。",
+      "detail": "估值约 $110 亿的法律 AI 公司 **Harvey** 5-26 宣布与 **Mistral** 达成合作，把后者的模型家族接入 Harvey 平台。Harvey 平台采用**多模型（multi-model）架构**——会针对手头任务自动识别并路由到最合适的模型；Mistral 由此加入 Harvey 既有的 **OpenAI、Anthropic、Google** 模型阵容。\n\n选择 Mistral 的理由集中在其特点：**强性能 + 高效执行、长上下文理解、多语言能力**——这些恰好契合法律团队跨大型文档集、跨司法辖区、跨语言工作的需求。合作覆盖合规、诉讼、合同分析等领域，让 Mistral 得以接触 Harvey 在 **60+ 国家、1,500+ 家机构**的客户基础。Mistral 模型将**先向欧盟客户开放**，随后在美国与澳大利亚普遍可用——这一'欧盟优先'的节奏也呼应了 Harvey 近期开设巴黎办公室、向欧洲扩张的布局。\n\n更深一层，这印证了垂直 AI 应用层的一条主流路线：不绑定单一前沿模型，而是把多家模型作为可路由的后端，按任务择优调用——既对冲单一供应商风险，也让欧洲客户在数据主权敏感场景下有'欧洲模型'可选。",
+      "key_quotes": [
+        "Mistral joins Harvey's roster of AI providers, which includes OpenAI, Anthropic and Google.",
+        "Mistral models will first be available to customers in the EU, followed by the U.S. and Australia."
+      ],
+      "significance": "这是垂直 AI 应用层'多模型路由'战略的又一例证：领先的法律 AI 不押注单一前沿模型，而把多家模型当作按需择优的后端。Mistral 的加入既给欧洲客户提供了'数据主权友好'的本土选项，也凸显应用层正在成为各家前沿模型争夺分发的新战场——模型公司开始为'进入 Harvey 这样的入口'而竞争。",
+      "links": [
+        "https://www.harvey.ai/blog/mistral-now-live-in-harvey",
+        "https://aibusiness.com/generative-ai/mistral-ai-taps-legal-sector-harvey-partnership",
+        "https://www.heise.de/en/news/Mistral-and-Harvey-AI-Targeting-the-legal-sector-11307123.html"
+      ],
+      "image": "assets/logos/mistral-logo.png",
+      "image_type": "logo",
+      "tags": ["Harvey", "Mistral", "法律AI", "多模型", "欧盟"],
+      "category": "product_operators"
+    },
+    {
+      "id": "7",
+      "title": "Oculus 联创回归 AI 战场：Sesame 5-28 上线 iOS 语音 app——四个有记忆、有人格的 AI 伴侣（Maya/Miles/Simone/Charlie），39 国免费，为 2027 AI 眼镜铺路",
+      "source": "Sesame",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "story_key": "sesame-ios-voice-app",
+      "event_date": "2026-05-28",
+      "summary": "由 Oculus 联合创始人 Brendan Iribe 创办的 Sesame 5-28 上线 iOS app，提供四个各有独立声音、人格与记忆的语音 AI 伴侣（Maya、Miles、Simone、Charlie）——主打自然流畅的对话，已在 39 国免费开放，并为公司 2027 年的 AI 眼镜铺路。",
+      "detail": "由 **Oculus 联合创始人 Brendan Iribe** 等人创办的对话式 AI 公司 **Sesame** 5-28 周四正式上线 **iOS app**，公开预览其打磨一年多的语音 AI agent。\n\n产品提供**四个各具独立声音、人格、观点与记忆**的 AI agent——**Maya、Miles、Simone、Charlie**。Sesame 的核心主张是重做被 ChatGPT 等普及的传统聊天机器人体验，让对话**像跟真人说话一样自然流畅**——即使 AI 需要时间思考也不卡顿。为此公司自建了快速检索系统让 AI 拥有最新信息，并能在**说话的同时并行跑多路搜索**，把结果边说边织进回答。beta 期还迭代出带图片结果的搜索卡片、笔记、文字模式（不便出声时）、深度追问，以及一个'隐身模式'——agent 可读取此前上下文但不留存任何记忆。\n\napp 当日在 **39 个国家**上线、目前**全功能免费**。但 Sesame 的野心不止于一个 app：它只是通往公司更大目标的第一步——团队预期在 **2027 年推出智能眼镜（AI eyewear）**，而这套自然语音技术正是其可穿戴硬件的关键组件。Iribe 的 Oculus 履历（被 Meta 收购）为这家公司带来远超同侪的关注度与硬件落地可信度，让'前 VR 大佬转战 AI 语音 + 眼镜'成为可穿戴 AI 叙事里值得跟踪的新变量。",
+      "key_quotes": [
+        "Sesame's voice AI is designed to feel less like a chatbot and more like talking to a person.",
+        "The app is the first step toward Sesame's AI eyewear, expected to launch in 2027."
+      ],
+      "significance": "这是'消费级语音 AI + AI 眼镜'叙事里一个高声望的新入局者。Iribe 的 Oculus 背景让 Sesame 天然具备硬件落地可信度，其'app 先行、眼镜随后'路径直接对标 Meta Ray-Ban、OpenAI io 等可穿戴 AI 路线——预示自然语音将成为下一代 AI 硬件入口的核心战场。",
+      "links": [
+        "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+        "https://winbuzzer.com/2026/05/29/sesame-launches-iphone-voice-ai-app-with-four-agents-xcxwbn/",
+        "https://www.ibtimes.sg/oculus-founders-ai-startup-sesame-debuts-ios-app-human-like-voice-agents-87110"
+      ],
+      "tags": ["Sesame", "语音AI", "Brendan Iribe", "iOS", "AI眼镜"],
+      "category": "product_operators"
+    }
+  ]
+}

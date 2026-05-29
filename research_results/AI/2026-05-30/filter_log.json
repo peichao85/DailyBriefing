@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-30",
+  "total_candidates": 19,
+  "kept": 7,
+  "dropped": 12,
+  "decisions": [
+    {
+      "story_key": "cnn-perplexity-copyright-suit",
+      "event_date": "2026-05-28",
+      "title_en": "CNN sues Perplexity over alleged AI copyright theft of 17,000 stories",
+      "source": "CNN / NPR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First AI copyright suit by CNN and reportedly any TV network; filed SDNY 2026-05-28; Comet Plus false-advertising claim."
+    },
+    {
+      "story_key": "apple-llm-siri-ios27",
+      "event_date": "2026-05-28",
+      "title_en": "Apple to preview LLM Siri (custom Gemini) at WWDC June 8 with iOS 27",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Gurman report 2026-05-28: standalone Siri app on custom Gemini via Private Cloud Compute; previewed June 8."
+    },
+    {
+      "story_key": "openai-frontier-governance-framework",
+      "event_date": "2026-05-29",
+      "title_en": "OpenAI publishes Frontier Governance Framework aligning with CA + EU AI law",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Published 2026-05-29; quantifies systemic risk (>50 fatalities or $1B damage)."
+    },
+    {
+      "story_key": "nba-ai-officiating-system",
+      "event_date": "2026-05-27",
+      "title_en": "NBA's Adam Silver announces AI-automated out-of-bounds officiating",
+      "source": "Yahoo Sports",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Silver 2026-05-27 confirmed Hawk-Eye-style AI camera system for objective calls."
+    },
+    {
+      "story_key": "anthropic-claude-design-launch",
+      "event_date": "2026-05-27",
+      "title_en": "Anthropic launches Claude Design via Anthropic Labs",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New design-creation product launched 2026-05-27; distinct from prior Opus 4.8 / Cowork stories."
+    },
+    {
+      "story_key": "harvey-mistral-partnership",
+      "event_date": "2026-05-26",
+      "title_en": "Harvey adds Mistral models to its multi-model legal AI platform",
+      "source": "Harvey",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Announced 2026-05-26 (4 days, within window); EU-first rollout to 1,500+ orgs."
+    },
+    {
+      "story_key": "sesame-ios-voice-app",
+      "event_date": "2026-05-28",
+      "title_en": "Sesame (Oculus co-founder Brendan Iribe) launches conversational voice AI iOS app",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Public iOS launch 2026-05-28 in 39 countries; precursor to 2027 AI eyewear."
+    },
+    {
+      "story_key": "openai-dell-codex-enterprise",
+      "event_date": "2026-05-18",
+      "title_en": "OpenAI + Dell bring Codex to on-prem / hybrid enterprise",
+      "source": "OpenAI / Dell",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Verified announcement date is 2026-05-18 (Dell Technologies World), 12 days old (>5 day limit). Initial roundups mislabeled it as fresh."
+    },
+    {
+      "story_key": "lecun-ami-labs-seed",
+      "event_date": "2026-03-09",
+      "title_en": "Yann LeCun's AMI Labs raises $1.03B seed at $3.5B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Verified announcement date is 2026-03-09, ~80 days old. A weekly roundup re-surfaced it; fails freshness."
+    },
+    {
+      "story_key": "snap-ai-layoffs-65pct-code",
+      "event_date": "2026-04-15",
+      "title_en": "Snap lays off ~1,000 (16%) as AI writes 65% of new code",
+      "source": "Variety / CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Verified the layoffs were announced 2026-04-15, ~45 days old. May coverage was commentary, not a new event."
+    },
+    {
+      "story_key": "wayve-stellantis-us-deal",
+      "event_date": "2026-05-21",
+      "title_en": "Wayve to bring self-driving to Stellantis US vehicles",
+      "source": "TechCrunch / Stellantis",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Verified announcement at Stellantis investor day 2026-05-21, 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "thinking-machines-50b-round",
+      "event_date": "2025-11-13",
+      "title_en": "Thinking Machines Lab in talks to raise at ~$50B",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "The $50B funding talks date to 2025-11-13, over six months old. Fails freshness badly."
+    },
+    {
+      "story_key": "japan-anthropic-mythos-access",
+      "event_date": "2026-05-13",
+      "title_en": "Japan government + banks to get Claude Mythos access",
+      "source": "Reuters / Nippon.com",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Bessent visit and finance-minister announcement were mid-May (~2026-05-13/22), >5 days old. Could not anchor a development within the window."
+    },
+    {
+      "story_key": "deepseek-v4-pro-price-cut",
+      "event_date": "2026-05-22",
+      "title_en": "DeepSeek makes 75% V4-Pro price cut permanent",
+      "source": "Bloomberg / Engadget",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Verified date 2026-05-22, 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "microsoft-japan-10b-investment",
+      "event_date": "2026-04-03",
+      "title_en": "Microsoft to invest $10B in Japan AI data centers with SoftBank",
+      "source": "Nikkei Asia",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Verified announcement 2026-04-03, ~57 days old."
+    },
+    {
+      "story_key": "google-gemini-3-5-flash-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Google launches Gemini 3.5 Flash at I/O 2026",
+      "source": "Google Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at I/O 2026-05-19, 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cursor-composer-2-5-launch",
+      "event_date": "2026-05-18",
+      "title_en": "Cursor ships Composer 2.5 coding model",
+      "source": "Cursor Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released 2026-05-18, 12 days old."
+    },
+    {
+      "story_key": "meta-plus-subscriptions-global-launch",
+      "event_date": "2026-05-27",
+      "title_en": "Meta launches Instagram/Facebook/WhatsApp subscriptions",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-05-27 in the lookback under the same story_key; no substantively new development today."
+    }
+  ]
+}
