@@ -1,0 +1,170 @@
+{
+  "date": "2026-05-31",
+  "total_candidates": 18,
+  "kept": 8,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "softbank-france-ai-datacenters",
+      "event_date": "2026-05-30",
+      "title_en": "SoftBank pledges up to €75B to build 5GW of AI data centers in France",
+      "source": "Bloomberg / SoftBank",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major new infrastructure commitment announced 2026-05-30 (SoftBank PR 05-31), within 5-day window."
+    },
+    {
+      "story_key": "openai-rosalind-biodefense",
+      "event_date": "2026-05-29",
+      "title_en": "OpenAI launches Rosalind Biodefense, opens GPT-Rosalind life-sciences model to governments",
+      "source": "Axios / OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New program + GPT-Rosalind model announced 2026-05-29."
+    },
+    {
+      "story_key": "foundation-humanoid-ukraine-military",
+      "event_date": "2026-05-30",
+      "title_en": "Foundation tests Phantom MK-1 humanoid robots in Ukraine combat theater, targets US military",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First known humanoid deployment in a combat theater, reported 2026-05-30."
+    },
+    {
+      "story_key": "meta-ai-pendant-wearables",
+      "event_date": "2026-05-29",
+      "title_en": "Meta developing AI pendant and 'Wearables for Work', aims 10M wearables H2 2026",
+      "source": "The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New hardware strategy memo surfaced 2026-05-29."
+    },
+    {
+      "story_key": "microsoft-nvidia-n1x-ai-pc",
+      "event_date": "2026-05-30",
+      "title_en": "Microsoft + Nvidia tease 'A new era of PC' / N1X Arm chip ahead of Computex & Build",
+      "source": "The Decoder",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Coordinated teaser 2026-05-30 of Nvidia N1X-powered Windows PCs, debut next week."
+    },
+    {
+      "story_key": "altman-amodei-jobs-walkback",
+      "event_date": "2026-05-26",
+      "title_en": "Altman and Amodei walk back AI 'jobs apocalypse' warnings ahead of IPOs",
+      "source": "Fortune / TIME",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Altman 'pretty wrong', Amodei reframes automation; event 2026-05-26, exactly 5 days, within window."
+    },
+    {
+      "story_key": "xai-colorado-ai-bias-law",
+      "event_date": "2026-05-28",
+      "title_en": "Colorado AI bias law enforcement stayed after xAI lawsuit",
+      "source": "HR Dive",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Federal magistrate granted joint stay 2026-05-28."
+    },
+    {
+      "story_key": "anthropic-milan-europe-expansion",
+      "event_date": "2026-05-27",
+      "title_en": "Anthropic opens Milan office, its 6th in Europe, amid 9x EMEA growth",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Milan office opened 2026-05-27."
+    },
+    {
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "title_en": "Andrej Karpathy joins Anthropic pre-training team",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-erdos-math-proof",
+      "event_date": "2026-05-20",
+      "title_en": "OpenAI model disproves 80-year-old Erdos discrete-geometry conjecture",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-20 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "google-gemma-4-release",
+      "event_date": "2026-04-02",
+      "title_en": "Google releases Gemma 4 open models",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Canonical announcement date is 2026-04-02; 'May 29' was SEO restatement. Far outside window."
+    },
+    {
+      "story_key": "nvidia-q1-fy27-earnings",
+      "event_date": "2026-05-20",
+      "title_en": "Nvidia posts record $81.6B Q1 FY27 revenue, $91B guidance",
+      "source": "Nvidia",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Reported 2026-05-20, 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "figure-ai-helix-autonomous-run",
+      "event_date": "2026-05-13",
+      "title_en": "Figure AI humanoids sort 28,000 packages in 200-hour autonomous run",
+      "source": "Fox News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Run started 2026-05-13, 18 days old; also overlaps already-published catalyst-brands-figure-humanoid-deal."
+    },
+    {
+      "story_key": "humanoid-schaeffler-deal",
+      "event_date": "2026-05-13",
+      "title_en": "Humanoid signs Schaeffler deal to deploy thousands of robots",
+      "source": "The Robot Report",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced 2026-05-13, 18 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cognition-series-d-26b",
+      "event_date": "2026-05-27",
+      "title_en": "Cognition raises $1B Series D at $26B valuation",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-27 (cognition-series-d-26b). No substantively new information."
+    },
+    {
+      "story_key": "openai-110b-raise",
+      "event_date": "2026-05-28",
+      "title_en": "OpenAI closes $110B round at $840B valuation",
+      "source": "Crunchbase",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Figures conflict with OpenAI's March round ($122B/$852B); appears to be a restated/aggregated figure, not a fresh 05-28 event. Unverified as a new development."
+    },
+    {
+      "story_key": "dell-q1-fy27-ai-server-record",
+      "event_date": "2026-05-28",
+      "title_en": "Dell Q1 FY27 record AI-server revenue, stock +32%",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-28 (dell-q1-fy27-ai-server-record). No new information."
+    },
+    {
+      "story_key": "softbank-france-ai-datacenters-rumor",
+      "event_date": "2026-05-12",
+      "title_en": "SoftBank in talks for major France data center project",
+      "source": "Japan Times",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Earlier rumor stage 2026-05-12; superseded by the confirmed 05-30 announcement which is kept."
+    }
+  ]
+}
