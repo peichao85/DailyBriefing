@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-01",
+  "total_candidates": 15,
+  "kept": 6,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-06-01",
+      "title_en": "Jensen Huang delivers GTC Taipei keynote: N1X laptop chip reveal, Vera Rubin NVL72, DLSS 5",
+      "source": "NVIDIA",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key seen in lookback (5-23 Huang lands in Taipei, 5-27 HQ groundbreaking x2). NEW: the actual GTC Taipei keynote happened today 6-1 at 11am Taipei time. First formal reveal of N1X ARM laptop SoC (MediaTek-designed 20-core ARM + Blackwell GPU 6144 CUDA cores, 180-200 TOPS, 128GB LPDDR5X), DLSS 5, Vera Rubin NVL72 partner/delivery news (tray assembly cut from 2h to 5min, 5x inference, 10x lower cost-per-token), surprise H2 product teased. Distinct from arrival/groundbreaking."
+    },
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-05-29",
+      "title_en": "SpaceX (xAI-merged) IPO valuation resets to $1.8T floor ahead of June 8 roadshow",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. SpaceX (which absorbed xAI/Grok in Feb) reset its IPO valuation floor to $1.8T (down from >$2T April target); roadshow to begin June 8, pricing ~June 11, ticker SPCX, raising up to $75B. AI-relevant via xAI absorption."
+    },
+    {
+      "story_key": "groq-650m-funding",
+      "event_date": "2026-05-29",
+      "title_en": "Groq raising $650M from existing investors after Nvidia's $20B not-acqui-hire",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. AI inference chip startup Groq reportedly raising $650M, months after Nvidia's ~$20B not-an-acquisition licensing deal that pulled senior Groq staff to Nvidia."
+    },
+    {
+      "story_key": "aws-bedrock-grok",
+      "event_date": "2026-05-29",
+      "title_en": "AWS in talks to add SpaceXAI's Grok to Bedrock despite near-zero enterprise demand",
+      "source": "Business Insider",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Business Insider exclusive: AWS in talks to add Grok to Bedrock; integration already done. Notable angle: Netskope data shows Grok enterprise usage peaked at 5/1000 users then fell to 2/1000."
+    },
+    {
+      "story_key": "sentinelone-ai-layoffs",
+      "event_date": "2026-05-29",
+      "title_en": "SentinelOne cuts ~230 jobs (8%) framing layoffs as AI-driven productivity",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. SentinelOne cutting ~8% of workforce (~230 jobs) alongside Q1 FY27 earnings; CEO Tomer Weingarten cites AI productivity gains; weak guidance sent shares down ~8-12%."
+    },
+    {
+      "story_key": "github-copilot-usage-billing",
+      "event_date": "2026-06-01",
+      "title_en": "GitHub Copilot transitions all plans to usage-based (token) billing today",
+      "source": "The GitHub Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. The transition to usage-based metered billing for all Copilot plans takes effect today, June 1. Plans keep base prices but add AI Credit allotments; usage metered by input/output/cached tokens (1 credit = $0.01)."
+    },
+    {
+      "story_key": "openai-chatgpt-finance",
+      "event_date": "2026-05-15",
+      "title_en": "OpenAI launches personal finance experience in ChatGPT with bank linking",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-15 (TechCrunch/9to5Mac/MacRumors) is 17 days old, exceeds 5-day limit. OpenAI's index page surfaced in 5-29 searches but launch was 5-15."
+    },
+    {
+      "story_key": "groupon-ai-layoffs",
+      "event_date": "2026-05-21",
+      "title_en": "Groupon cuts ~400 jobs (24%) under AI-native 'Project Foundry'",
+      "source": "Fast Company",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-21 is 11 days old, exceeds 5-day limit."
+    },
+    {
+      "story_key": "servicenow-project-arc",
+      "event_date": "2026-05-05",
+      "title_en": "NVIDIA + ServiceNow launch Project Arc autonomous desktop agent at Knowledge 2026",
+      "source": "NVIDIA Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-05 is 27 days old, exceeds 5-day limit."
+    },
+    {
+      "story_key": "google-gemma4-release",
+      "event_date": "2026-04-02",
+      "title_en": "Google releases Gemma 4 open models built off Gemini 3",
+      "source": "Google Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-02 is ~60 days old, exceeds 5-day limit."
+    },
+    {
+      "story_key": "trump-ai-executive-order",
+      "event_date": "2026-05-21",
+      "title_en": "Trump postpones AI executive order signing citing China lead",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-21 is 11 days old, exceeds 5-day limit."
+    },
+    {
+      "story_key": "deepseek-tencent-alibaba-funding",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek raising money from Tencent and Alibaba at $20B valuation",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Tied to DeepSeek V4 launch (4-24) and surrounding coverage; no fresh development within 5 days."
+    },
+    {
+      "story_key": "anthropic-900b-funding-round",
+      "event_date": "2026-05-28",
+      "title_en": "Anthropic $65B Series H at $965B valuation, tops OpenAI",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-28 (anthropic-900b-funding-round) with full round details and $47B ARR. No substantively new information in 5-29 rehash coverage."
+    },
+    {
+      "story_key": "anthropic-claude-opus-4-8-release",
+      "event_date": "2026-05-28",
+      "title_en": "Anthropic ships Claude Opus 4.8",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-28 (anthropic-claude-opus-4-8-release) with benchmarks. No new info."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-disclosure",
+      "event_date": "2026-05-29",
+      "title_en": "Anthropic says Mythos-class models coming to all customers in weeks",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Mythos already published (5-22 Glasswing, 5-26 Mythos disclosure with CVE). The 'coming in weeks' line is a restatement, no substantive new development."
+    }
+  ]
+}

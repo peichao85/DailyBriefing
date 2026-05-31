@@ -1,0 +1,189 @@
+{
+  "date": "2026-06-01",
+  "category": "AI",
+  "title": "Jensen Huang 今日 GTC Taipei 抢闸 Computex：Nvidia 第一颗笔记本芯片 N1X 正式登场，把 AI PC 从'协处理器'推进到'换掉整颗 SoC'的主处理器时代，叠加 Vera Rubin NVL72 量产；Musk 帝国合体上市——吞下 xAI 的 SpaceX IPO 估值下修到 $1.8 万亿；Groq 加募约 $6 亿押注推理芯片，'推理经济'军备竞赛白热化；AWS 把昔日宿敌 Musk 的 Grok 塞进 Bedrock，云厂商竞做'模型中立超市'；SentinelOne 一边晒 Q1 加速增长一边砍 8% 员工；GitHub Copilot 今起全员转向'按 token 计费'，AI 编程从包月迈入按量付费",
+  "items": [
+    {
+      "id": "1",
+      "title": "Jensen Huang 今日 GTC Taipei 揭幕：Nvidia 第一颗笔记本芯片 N1X 正式登场——MediaTek 设计 20 核 ARM + Blackwell GPU、180-200 TOPS，叠加 DLSS 5 与 Vera Rubin NVL72 量产，把'AI PC'从协处理器时代推进到主处理器时代",
+      "source": "NVIDIA",
+      "source_name": "VideoCardz",
+      "source_url": "https://videocardz.com/newz/nvidia-confirms-jensen-huang-gtc-taipei-keynote-on-june-1st-day-before-computex",
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-06-01",
+      "summary": "Jensen Huang 6-1 上午 11 点（台北时间）在台北流行音乐中心开讲 GTC Taipei keynote——首次正式发布 Nvidia 第一颗专为笔记本设计的 SoC **N1X**：由 MediaTek 操刀的 20 核 ARM CPU 配 Blackwell 架构 GPU（6,144 CUDA core）、最高 128GB LPDDR5X、180-200 AI TOPS；同台还有 DLSS 5、Vera Rubin NVL72 量产与生态伙伴进度。",
+      "detail": "Nvidia CEO Jensen Huang 6-1 上午 11:00（台北时间，即美东 5-31 晚 11 点）在台北流行音乐中心（Taipei Music Center）登台 GTC Taipei 2026 keynote——抢在 Computex 2026 正式开幕（6-2）前一天独占舞台。\n\n本次最受瞩目的是 Nvidia **第一颗为笔记本而非机柜设计的芯片 N1X** 的正式发布。N1X 由 **MediaTek 设计 20 核 ARM CPU**、搭配 Blackwell 架构集成 GPU（**6,144 个 CUDA core**），支持最高 **128GB LPDDR5X** 内存，目标 **180-200 AI TOPS**，采用 TSMC 3nm 工艺。这是 Nvidia 把数据中心 AI 算力下沉到个人 PC、与 Qualcomm Snapdragon X、Apple、Intel 正面争夺'下一台笔记本'的关键落子——值得注意的是，MediaTek 原定的 Computex keynote 临时取消，把整个笔记本 SoC 的发布舞台让给了 Nvidia。\n\n数据中心侧，keynote 给出 **Vera Rubin NVL72** 的量产与交付进度：单机柜 72 颗 Vera Rubin GPU、每颗 288GB HBM4，整套系统约 200 万个零部件、由 150 家台湾生态伙伴共同建造；新的免线缆/免水管/免风扇托盘设计把单托盘组装时间从 2 小时压到 5 分钟，宣称相对 Blackwell 实现最高 5× 推理吞吐、10× 更低的每 token 成本。Huang 还预告 DLSS 5 神经渲染，并卖了个关子：'今年下半年会非常非常忙——Grace Blackwell、Vera Rubin，还有一个我们还没告诉任何人的全新产品。'\n\n**背景回顾：** Huang 5-23 提前 9 天飞抵台北抢 TSMC 产能、5-27 在 Beitou T17/T18 为 Nvidia 台湾新总部破土并把台湾年度 capex 抬到 $1500 亿/年；今日 GTC Taipei keynote 是这一连串造势的正式落点。",
+      "key_quotes": [
+        "The second half of this year is going to be very, very busy with Grace Blackwell, Vera Rubin, and we have a surprise new product that we haven't told anyone about yet.",
+        "Each one of the Vera Rubin systems consists of almost 2 million parts, and it includes 150 different ecosystem partners here in Taiwan to build it."
+      ],
+      "significance": "N1X 的正式发布意味着 Nvidia 第一次把自家 GPU 装进'主处理器'位置的消费级笔记本，直接踏入 Qualcomm/Apple/Intel 的腹地——AI PC 的竞争从'加一颗 NPU 协处理器'升级为'换掉整颗 SoC'。叠加 Vera Rubin NVL72 量产，Nvidia 在同一场 keynote 把战线从云端机柜一路铺到你的膝上，巩固了从训练到推理、从数据中心到终端的全栈垄断节奏。",
+      "links": [
+        "https://videocardz.com/newz/nvidia-confirms-jensen-huang-gtc-taipei-keynote-on-june-1st-day-before-computex",
+        "https://www.nvidia.com/en-tw/gtc/taipei/keynote/",
+        "https://wccftech.com/mediatek-abruptly-pulled-from-computex-2026-keynote-slot-handing-nvidia-the-stage/",
+        "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "Nvidia",
+        "N1X",
+        "Vera Rubin",
+        "Computex",
+        "AI PC",
+        "MediaTek"
+      ],
+      "category": "builders"
+    },
+    {
+      "id": "2",
+      "title": "SpaceX（已吞下 xAI）IPO 估值地板砍到 $1.8 万亿：从 4 月喊的 $2 万亿+ 主动回撤，6-8 启动路演、6-11 定价、SPCX 登 Nasdaq，目标募资最高 $750 亿冲刺史上最大 IPO",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-05-29",
+      "summary": "已在 2 月合并 xAI（Grok 母体）的 SpaceX，把 IPO 估值地板重设到 **$1.8 万亿**——较 4 月一度瞄准的 $2 万亿+ 主动回撤。投资人路演定 6-8 启动、6-11 定价，股票以 **SPCX** 登陆 Nasdaq，结构上仍瞄准最高 **$750 亿** 募资，若达成将刷新全球 IPO 纪录。",
+      "detail": "SpaceX 的世纪 IPO 进入临门一脚。这家公司 2026 年 2 月与 Elon Musk 的 AI 实验室 **xAI（Grok 的母体）合并**——xAI 此前先并入 X、再被装进 SpaceX、最终成为现在名为 SpaceXAI 的一个部门——因此这桩 IPO 同时是当下规模最大的'AI 公司上市'。\n\n5-20 SpaceX 已确认向 SEC 递交 S-1 招股书。最新进展是 **估值地板被重设到 $1.8 万亿美元**，明显低于 4 月一度对外瞄准的 **$2 万亿以上**——2 月合并 xAI 时的参考估值约 $1.25 万亿。时间表上，面向机构投资者的路演计划 **6-8 启动**，最终定价瞄准 **6-11**，随后在 **Nasdaq（及 Nasdaq Texas）以 SPCX 代码** 开始交易。\n\n交易结构仍瞄准 **最高 $750 亿** 募资规模，若足额完成将超过此前全球 IPO 纪录。招股书也首次让外界一窥其财务：巨额亏损与 Musk 的庞大持股结构是市场反复消化的两大焦点，而把高烧不退的 xAI/Grok 业务并入，则同时是估值故事里的增长想象与风险敞口。",
+      "key_quotes": [
+        "The revised SpaceX IPO valuation floor now sits at $1.8 trillion, a pullback from the above-$2 trillion target floated in April."
+      ],
+      "significance": "这是把'前沿 AI'与'商业航天'打包上市的第一例超大型 IPO，估值地板的主动下修说明即便是 Musk 帝国，面对 $1.8-2 万亿这种量级也要向公开市场的定价纪律低头。SPCX 一旦交易，将给整个 AI 一级市场（OpenAI/Anthropic 的 IPO 排队）提供最直接的公开估值锚点，也让 Grok 这块此前在企业市场遇冷的资产第一次接受散户与机构的逐日定价。",
+      "links": [
+        "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+        "https://en.cryptonomist.ch/2026/05/29/spacex-ipo-valuation-1-8-trillion/",
+        "https://finance.yahoo.com/markets/article/spacex-files-ipo-prospectus-offering-a-peek-into-its-finances-205406189.html"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "SpaceX",
+        "xAI",
+        "IPO",
+        "Elon Musk",
+        "Grok",
+        "Nasdaq"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Groq 又要进钱：向现有投资人募 $650 万…不，$6.5 亿——12 月被 Nvidia '$200 亿 not-acqui-hire' 掏走核心团队与硬件授权后，AI 推理芯片黑马重新单飞补血",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "story_key": "groq-650m-funding",
+      "event_date": "2026-05-29",
+      "summary": "AI 推理芯片公司 **Groq** 5-29 被曝正向现有投资人募集 **$6.5 亿美元** 新融资——就在 2025 年 12 月与 Nvidia 达成约 **$200 亿** 的'非收购'授权协议（部分高管转投 Nvidia、硬件技术对 Nvidia 授权）之后，公司选择重新单飞补血。",
+      "detail": "据 TechCrunch 5-29 报道，主打超低延迟 AI 推理的芯片公司 **Groq（CEO Jonathan Ross）** 正在向现有投资人募集 **约 $6.5 亿美元** 新一轮资金。\n\n这轮融资的微妙之处在于时点：2025 年 12 月，Groq 与 **Nvidia** 达成了一桩典型的'**not-an-acquisition（非收购式收购）**'交易——据报价值约 **$200 亿美元**，内容包括 Groq 部分顶级高级员工转投 Nvidia，以及 Groq 把自家硬件技术对 Nvidia 授权。这类'掏空团队 + 授权技术、但不并表'的结构在 2025-2026 年被频繁用于规避反垄断审查（类似手法此前见于多家 AI 公司）。\n\n在核心人才与技术部分流向行业霸主之后，Groq 选择以独立公司身份继续融资、补充弹药，说明其 LPU（语言处理单元）推理路线仍被现有投资人看好，押注'推理算力'这条与训练并列的第二增长曲线。",
+      "key_quotes": [
+        "After Nvidia's $20B not-acqui-hire, AI chip startup Groq is reportedly raising $650M from existing investors."
+      ],
+      "significance": "Groq 的再融资是观察'推理芯片'赛道的风向标：在 Nvidia 已用 $200 亿把它半数收编之后，现有投资人仍愿继续加注，反映市场认定推理（而非训练）将是下一阶段算力支出的主战场。同时，这桩'非收购'交易后的独立续命，也再次暴露巨头用结构化交易吸纳前沿团队、又规避审查的行业常态。",
+      "links": [
+        "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
+      ],
+      "tags": [
+        "Groq",
+        "AI芯片",
+        "推理",
+        "Nvidia",
+        "融资",
+        "LPU"
+      ],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "AWS 要把 Musk 的 Grok 塞进 Bedrock——可企业根本不买账：Netskope 实测每千名企业用户只剩 2 人在用、被安全主管直接称为'edgelord LLM'，集成都做好了就差没人要",
+      "source": "Business Insider",
+      "source_name": "The Register",
+      "source_url": "https://www.theregister.com/ai-ml/2026/05/29/aws_reportedly_to_tuck_elon_musks_grok_into_bedrock_despite_zero_enterprise_demand/5248832",
+      "story_key": "aws-bedrock-grok",
+      "event_date": "2026-05-29",
+      "summary": "据 Business Insider 独家，**AWS 正在洽谈把 SpaceXAI 的 Grok 模型接入 Bedrock** 平台，且 SpaceX 侧的集成工作已完成、上线只是时间问题。但企业需求几乎为零：Netskope 数据显示 Grok 在企业用户中的渗透率从每千人 5 人跌到 **2 人**，使用时长不到 ChatGPT 一半。",
+      "detail": "据 Business Insider 独家报道（5-29），**Amazon Web Services 正在与 SpaceXAI 洽谈，把 Grok 系列模型接入其 Bedrock 模型托管平台**。报道称 SpaceX 一侧的集成工作已经完成，上线'高度可能'，只是具体日期未定。对 AWS 而言，把 Grok 纳入可进一步把 Bedrock 做成'模型大全'式的中立托管枢纽；对 SpaceXAI 而言，则能借道 AWS 触及其庞大的企业客户群。\n\n但这桩交易最反讽的地方在于：**企业端几乎没有需求**。安全公司 Netskope 对数千家企业客户的实测数据显示，Grok 在企业用户中的使用渗透率一度仅为每千人 5 人，随后进一步跌到 **每千人 2 人**，且用户在 Grok 上花费的时间不到 ChatGPT 用户的一半。一位 Netskope 高管直言 Grok '不会进入美国企业的主流'。The Register 的报道更以企业安全主管对 Grok 的辛辣评价（'edgelord LLM'）为标题，凸显 Grok 因内容争议在企业合规圈的口碑问题。",
+      "key_quotes": [
+        "Grok's enterprise usage among thousands of corporate customers peaked at just 5 out of 1,000 users, then dropped to 2 out of 1,000.",
+        "It's just not going to enter the mainstream for corporate America."
+      ],
+      "significance": "这条新闻揭示了 Musk 的 AI 资产在企业市场的真实处境：渠道（AWS Bedrock）可以靠商业谈判搞定，但企业采购最终看的是合规与口碑——而 Grok 恰恰在这两点上失分。它也反衬出 Bedrock'什么模型都收'的中立平台策略：把模型上架是一回事，能否被企业真正调用是另一回事。对正在冲刺 IPO、把 xAI 价值并入估值故事的 SpaceX 来说，这是一个不太好看的需求侧注脚。",
+      "links": [
+        "https://www.theregister.com/ai-ml/2026/05/29/aws_reportedly_to_tuck_elon_musks_grok_into_bedrock_despite_zero_enterprise_demand/5248832",
+        "https://x.com/BusinessInsider/status/2060063007518924871"
+      ],
+      "image": "assets/logos/grok-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "AWS",
+        "Bedrock",
+        "Grok",
+        "xAI",
+        "企业AI",
+        "Netskope"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "SentinelOne 一边晒 Q1 加速增长、一边砍 8% 人——CEO 直言 AI 让'几个月的活几周就干完'，约 230 个岗位被裁、弱指引把股价打下 8-12%，网络安全成 AI 裁员新现场",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/05/29/sentinelone-s-stock-earnings-ai-layoffs.html",
+      "story_key": "sentinelone-ai-layoffs",
+      "event_date": "2026-05-29",
+      "summary": "网络安全公司 **SentinelOne** 在 5-28 Q1 FY27 财报后宣布裁员约 **8%（约 230 人）**——CEO Tomer Weingarten 称公司已从加大 AI 使用中获得'实打实的生产力'提升，AI 工具现在几周就能完成过去要几个月的工作。叠加偏弱的业绩指引，股价应声下挫 **8%-12%**。",
+      "detail": "网络安全厂商 **SentinelOne** 在 5-28 公布 Q1 FY2027 财报的同时宣布裁员：削减约 **8% 的员工、约 230 个岗位**。\n\nCEO **Tomer Weingarten** 把这次裁员明确框定为 AI 驱动的'主动进化'而非收缩——他表示公司在内部加大 AI 工具使用后已经看到'实打实的生产力'提升，原本需要数月才能完成的工作如今几周即可交付。财报本身其实并不差：营收同比加速到约 21%、ARR 同比加速约 23%、利润率同比改善约 550 个基点并显著超过指引。但偏弱的前瞻指引盖过了增长亮点，财报后股价一度下挫 **8% 至 12%**。\n\nSentinelOne 由此加入 Meta、Snap、Groupon 等公司行列——把裁员公开包装为'AI 原生转型'，而非传统意义上的成本削减。这一叙事正在 2026 年的科技业迅速标准化。",
+      "key_quotes": [
+        "AI tools now complete work in weeks that previously took months.",
+        "Weingarten framed the cuts as a deliberate evolution, citing meaningful productivity from ramped AI use."
+      ],
+      "significance": "当一家'卖 AI 安全'的公司自己用 AI 裁掉 8% 员工，'AI 提效'的叙事就从供给侧（卖工具）闭环到了需求侧（自己用工具裁人）。值得注意的是 SentinelOne 的增长其实在加速——这说明 2026 年的 AI 裁员越来越不是'业务不行'，而是'同样的活需要更少的人'，把生产力提升直接兑现为人头削减。这与近期 Altman、Amodei 对'AI 抢工作'的公开降调形成尖锐对照。",
+      "links": [
+        "https://www.cnbc.com/2026/05/29/sentinelone-s-stock-earnings-ai-layoffs.html",
+        "https://techstartups.com/2026/05/29/sentinelone-lays-off-8-of-workforce-as-ai-push-and-weak-guidance-send-shares-down-12/"
+      ],
+      "tags": [
+        "SentinelOne",
+        "AI裁员",
+        "网络安全",
+        "生产力",
+        "财报"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "GitHub Copilot 今日起全员转向'按 token 计费'：Pro/Pro+/Business/Enterprise 月费不变，但改发 AI Credit 额度、超额按各模型 API 价逐 token 扣——'同样的钱，能用的更少了'",
+      "source": "The GitHub Blog",
+      "source_name": "The GitHub Blog",
+      "source_url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "story_key": "github-copilot-usage-billing",
+      "event_date": "2026-06-01",
+      "summary": "**GitHub Copilot 从今日（6-1）起把全部套餐切换为基于用量的计费**。各档月费不变（Pro $10、Pro+ $39、Business $19/人、Enterprise $39/人），但改为每月发放一笔 **AI Credit 额度**（1 credit = $0.01），超额部分按各模型的 input/output/cached token API 价逐 token 扣费；代码补全与 Next Edit 建议仍全包不耗 credit。",
+      "detail": "**GitHub Copilot 在 6-1 今日正式把所有套餐迁移到'按用量计费（usage-based billing）'模型**——这是其定价结构的一次根本性转变。\n\n机制上：各档**基础月费维持不变**——Copilot Pro $10/月、Pro+ $39/月、Business $19/人/月、Enterprise $39/人/月。但每个套餐现在改为附带一笔每月 **GitHub AI Credit 额度**（例如 Pro+ 含 $39 的 credit，**1 个 AI credit = $0.01 美元**），用量按 **token 消耗**（含 input、output 与 cached token）依据各模型挂牌 API 价逐一计量；额度用完后，付费套餐可继续购买增量用量。**代码补全（code completions）与 Next Edit 建议仍包含在所有套餐内、不消耗 credit**。\n\n迁移细节：月付 Pro/Pro+ 用户 6-1 自动转入新计费；年付 Pro/Pro+ 用户则维持原有的按 premium request 计费直到套餐到期。开发者社区对此反应两极，不少人总结为'**同样的价格，能用的更少了（you will get less, but pay the same price）**'——担心重度 agent 使用会在月中就把额度烧完。",
+      "key_quotes": [
+        "Every Copilot plan will include a monthly allotment of GitHub AI Credits, with the option for paid plans to purchase additional usage.",
+        "You will get less, but pay the same price."
+      ],
+      "significance": "这是头部 AI 编程工具从'订阅包月'转向'按 token 计量'的标志性一步——当 agent 化编码让单位任务的 token 消耗暴涨，固定月费已经盖不住推理成本，厂商必须把成本风险转嫁给用户。GitHub 的做法（保月费、发额度、超额逐 token 扣）很可能成为 Cursor、Cognition 等同行的模板，意味着开发者的 AI 工具开支将从'可预测的固定项'变成'随用量浮动的可变项'。",
+      "links": [
+        "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+        "https://usagebox.com/articles/github-copilot-usage-based-billing-2026",
+        "https://visualstudiomagazine.com/articles/2026/04/27/devs-sound-off-on-usage-based-copilot-pricing-change-you-will-get-less-but-pay-the-same-price.aspx"
+      ],
+      "image": "assets/logos/github-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "GitHub",
+        "Copilot",
+        "计费",
+        "token",
+        "AI编程",
+        "定价"
+      ],
+      "category": "product_operators"
+    }
+  ]
+}
