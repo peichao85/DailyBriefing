@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-02",
+  "total_candidates": 15,
+  "kept": 6,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "microsoft-build-2026-polaris",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft unveils in-house coding model Project Polaris + open-sources Windows Agent Framework at Build 2026",
+      "source": "Microsoft",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Build 2026 keynote today (6-2): Microsoft announces homegrown coding model Project Polaris to replace OpenAI/GPT in GitHub Copilot, open-sources Windows Agent Framework under MIT, Copilot Workspace GA."
+    },
+    {
+      "story_key": "alphabet-80b-ai-raise-berkshire",
+      "event_date": "2026-06-01",
+      "title_en": "Alphabet plans $80B equity raise for AI buildout, Berkshire Hathaway invests $10B",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 6-1 Alphabet announces $80B equity offering for AI infra; Berkshire $10B private placement, deepening Buffett's AI bet."
+    },
+    {
+      "story_key": "anthropic-ipo-filing",
+      "event_date": "2026-06-01",
+      "title_en": "Anthropic confidentially files for US IPO to beat OpenAI",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 6-1 Anthropic confirms confidential SEC filing for IPO, after $965B Series H, ahead of OpenAI/SpaceX listings."
+    },
+    {
+      "story_key": "openai-robotics-division",
+      "event_date": "2026-06-01",
+      "title_en": "OpenAI launches dedicated robotics division to build humanoids, Tesla stock falls",
+      "source": "Yahoo Finance",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Altman posts over weekend launching OpenAI Robotics for humanoids; Tesla -3.57% Monday 6-1 on Optimus rivalry."
+    },
+    {
+      "story_key": "florida-openai-altman-lawsuit",
+      "event_date": "2026-06-01",
+      "title_en": "Florida AG sues OpenAI and Sam Altman, seeks personal liability over ChatGPT safety",
+      "source": "NPR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 6-1 Florida AG Uthmeier files 83-page suit, first state to sue OpenAI, names Altman personally."
+    },
+    {
+      "story_key": "nvidia-groot-humanoid-platform",
+      "event_date": "2026-06-01",
+      "title_en": "NVIDIA + Unitree launch Isaac GR00T reference humanoid robot (H2 Plus) for researchers",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. 6-1 at GTC Taipei NVIDIA picks Unitree H2 + Sharpa hands + Jetson Thor as first open humanoid reference design, plus Cosmos 3 world model."
+    },
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-06-01",
+      "title_en": "Jensen Huang GTC Taipei keynote: Vera Rubin full production, Vera CPU, RTX Spark, agentic era",
+      "source": "SiliconANGLE",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Same GTC Taipei keynote already published 6-1 (N1X laptop chip / RTX Spark + Vera Rubin NVL72 mass production). Data-center recap (Vera CPU, 'useful AI has arrived') is the same event, no substantively new development."
+    },
+    {
+      "story_key": "ai2-molmoact-2",
+      "event_date": "2026-05-05",
+      "title_en": "Ai2 releases MolmoAct 2 open robotics foundation model",
+      "source": "Ai2",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-05 is 28 days old (>5 day limit)."
+    },
+    {
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "title_en": "Andrej Karpathy joins Anthropic pre-training team",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 14 days old (>5 day limit)."
+    },
+    {
+      "story_key": "deepmind-contextual-ai-acquihire",
+      "event_date": "2026-05-20",
+      "title_en": "Google DeepMind acquihires 20+ Contextual AI researchers for ~$90M",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-20 is 13 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-deployment-company-tomoro",
+      "event_date": "2026-05-12",
+      "title_en": "OpenAI launches Deployment Company, acquires Tomoro",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-12 is 21 days old (>5 day limit)."
+    },
+    {
+      "story_key": "meta-muse-spark",
+      "event_date": "2026-04-08",
+      "title_en": "Meta launches Muse Spark flagship LLM",
+      "source": "Meta",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-08 is ~55 days old (>5 day limit)."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek releases V4-Pro / V4-Flash open models",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 is ~39 days old (>5 day limit)."
+    },
+    {
+      "story_key": "groq-650m-funding",
+      "event_date": "2026-05-29",
+      "title_en": "Groq seeks $650M to scale inference cloud",
+      "source": "The AI Insider",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-29 ('Groq raising $650M after Nvidia $20B deal'). 6-1 coverage is a rehash, no substantively new information."
+    },
+    {
+      "story_key": "cognition-series-d-26b",
+      "event_date": "2026-05-27",
+      "title_en": "Cognition CPO discusses Devin growth on podcast",
+      "source": "Latent Space",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Cognition Series D / $26B already published 2026-05-27. 6-1 podcast appearance adds no new corporate development."
+    }
+  ]
+}

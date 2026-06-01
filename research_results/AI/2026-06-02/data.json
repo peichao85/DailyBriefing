@@ -1,0 +1,164 @@
+{
+  "date": "2026-06-02",
+  "category": "AI",
+  "researched_at": "2026-06-02T08:30:00Z",
+  "sources_checked": ["@sama", "@satyanadella", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@JonathanRoss321", "@ScottWu46", "@karpathy", "Microsoft Build", "NVIDIA Newsroom", "CNBC", "Reuters", "NPR", "Variety", "Fortune", "TechCrunch", "Axios", "Bloomberg", "SiliconANGLE", "The Information"],
+  "items": [
+    {
+      "id": "1",
+      "title": "Microsoft 当众剪 OpenAI 脐带：Build 2026 甩出自研代码模型 Project Polaris——8 月起接管 GitHub Copilot 默认引擎，同步 MIT 开源 Windows Agent Framework 把 Windows 改造成'agent 操作系统'",
+      "source": "Microsoft",
+      "source_name": "Windows News",
+      "source_url": "https://windowsnews.ai/article/microsoft-build-2026-homegrown-ai-models-to-power-github-copilot.420887",
+      "story_key": "microsoft-build-2026-polaris",
+      "event_date": "2026-06-02",
+      "summary": "Microsoft 在今日（6-2）开幕的 Build 2026 上推出自研 AI 代码模型 Project Polaris，宣布它将于 8 月起取代 OpenAI 模型成为 GitHub Copilot 默认引擎；同时把 Windows Agent Framework 以 MIT 许可证开源，把 Windows 正式定义为'让 agent 成为一等公民'的 AI agent 平台。",
+      "detail": "Satya Nadella 6-2 在旧金山 Fort Mason 开幕的 Microsoft Build 2026 keynote 上把全场押注 AI agent，并打出三张关系到平台主权的大牌：\n\n**1）Project Polaris——Microsoft 自研代码模型，正面替换 OpenAI。** Microsoft 公布内部代号 Project Polaris 的自研 AI 编程模型，定位为 GitHub Copilot 的'未来推理引擎'。据多家媒体整理，Polaris 采用混合专家（MoE）架构、为不同语言与框架配置专用子模块，在 HumanEval / MBPP 等基准上声称超过现役默认模型，并在 Rust、Haskell 等低资源语言上提升明显；Microsoft 计划自 2026 年 8 月起把它设为 Copilot 订阅用户默认模型，并提供约三个月的回退过渡期。模型跑在 Azure 自研 Maia 加速器上以压低延迟与成本，并附带'代码内容保证'对 IP 侵权做客户赔付兜底。这是 Microsoft 多年来第一次在最核心的开发者产品上，用自家模型直接替换长期依赖的 OpenAI——被广泛解读为'剪断 OpenAI 脐带'的战略转折。\n\n**2）Windows Agent Framework（WAF）MIT 开源，Windows 变成 agent 平台。** Nadella 明确表态'Windows 不再只是给人用的平台'——agent 在运行时、工具链与分发模型里都成为一等公民。WAF v1.0 此前已于 4 月发布，本次在 Build 上正式以 MIT 许可证开源：agent 用声明式 manifest（YAML/agent.json）定义能力，可在本机起步、按需升级到 Windows 365 GPU 节点、再发布为 Azure 服务，全程同一份清单；框架内置 agent 注册守护进程、跨 agent gRPC pub/sub 通信总线与 AI 原生记忆服务。\n\n**3）Copilot Workspace 转正 + Azure AI Foundry 统一品牌。** Copilot Workspace 进入 GA——开发者用自然语言描述 bug 或需求，Copilot 自动生成计划、跨仓库改文件并开 PR；Microsoft 同时把分散的 AI 工具链统一到 Azure AI Foundry 品牌下，其 Agent Service 已 GA。值得注意的是，这届 Build 近十年来首次没有任何'新一代桌面操作系统'议程——Windows 12 全程缺席，主题彻底让位给 agent。",
+      "key_quotes": [
+        "Windows is no longer a platform for human users only — agents are now first-class citizens.",
+        "Microsoft Targets Claude Code with Project Polaris."
+      ],
+      "significance": "这是 AI 平台战争里一次罕见的'供应链反向整合'：长期作为 OpenAI 最大金主与分销渠道的 Microsoft，开始在最赚钱、最高频的开发者入口（GitHub Copilot）上用自研模型替换 OpenAI，等于把模型层的议价权和利润率收回自己手里；叠加 Windows Agent Framework 开源，Microsoft 想抢的是'agent 时代的操作系统标准'——谁定义 agent 怎么注册、通信、被分发，谁就握住下一个十年的开发者生态入口。",
+      "links": [
+        "https://windowsnews.ai/article/microsoft-build-2026-homegrown-ai-models-to-power-github-copilot.420887",
+        "https://aiweekly.co/alerts/microsoft-targets-claude-code-with-project-polaris",
+        "https://chatforest.com/builders-log/microsoft-build-2026-recap-windows-agent-platform-project-polaris-copilot-workspace/",
+        "https://aitoolsrecap.com/Blog/microsoft-build-2026-windows-agent-framework-wsl3-azure-mesh"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "Build 2026", "Project Polaris", "GitHub Copilot", "AI Agent", "OpenAI"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "Alphabet 一夜开口要 $800 亿股权补 AI 弹药——巴菲特 Berkshire 当场认购 $100 亿私募：'股神'罕见直球下注 AI 基建，Google 用增发为算力军备竞赛续命",
+      "source": "Alphabet",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html",
+      "story_key": "alphabet-80b-ai-raise-berkshire",
+      "event_date": "2026-06-01",
+      "summary": "Alphabet 6-1 宣布通过股权发行募资最高 $800 亿美元用于 AI 基础设施与算力扩张，其中 Berkshire Hathaway 以 $100 亿私募配售入股——这是巴菲特对 AI 基建的一次罕见、直接的重注。",
+      "detail": "Alphabet 6-1 公布一项规模罕见的股权融资计划：合计募资约 **$800 亿美元** 用于 AI 基础设施与全球算力建设。结构上分两块——**$300 亿** 来自同步公开发行（其中 $150 亿为代表强制可转换优先股的存托凭证、$150 亿为 A 类普通股与 C 类股），另有 **$400 亿** 的 ATM（按市价随售）发行计划，预计 Q3 2026 启动。\n\n最受关注的是同时官宣的私募配售：**Berkshire Hathaway 同意以 $100 亿美元入股 Alphabet**——$50 亿买 A 类普通股（每股 $351.81）、$50 亿买 C 类股（每股 $348.20），这是在其自 2025 年 Q3 起建立的持仓之上的加码。一向对科技股保守、长期主要靠 Apple 表达科技敞口的巴菲特系，这次直接为一家超大厂的 AI 资本开支'输血'，信号意义极强。\n\nAlphabet 称募集资金用于一般公司用途，重点是扩张 AI 基础设施与全球算力的资本开支。此举发生在超大厂 AI capex 集体狂飙、债务融资规模逼近银行风控上限的大背景下——用股权而非纯举债补弹药，既缓解资产负债表压力，也把'AI 算力军备竞赛'的成本部分转嫁给资本市场。",
+      "key_quotes": [
+        "Berkshire Hathaway has agreed to invest $10 billion in Alphabet through a private placement.",
+        "Proceeds will be used for general corporate purposes, including capital expenditures to scale AI infrastructure and global compute."
+      ],
+      "significance": "两个看点：其一，$800 亿股权融资是超大厂第一次以如此大规模的股权（而非债券）为 AI 算力直接募资，意味着即便是现金流最充沛的 Google，也认为单靠经营现金流和发债已不足以支撑这一轮 capex；其二，巴菲特 $100 亿私募入股是'价值投资旗手'对 AI 基建的公开背书，可能改变市场对'AI 资本开支是否过度'的叙事——当最挑剔的长期资本愿意直接掏钱买算力扩张的故事时，AI 基建的'泡沫论'与'刚需论'之争被重新定价。",
+      "links": [
+        "https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html",
+        "https://www.cnbc.com/2026/06/01/berkshire-hathaway-alphabet-investment.html",
+        "https://www.axios.com/2026/06/01/alphabet-80-billion-ai-buildout",
+        "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Alphabet", "Google", "Berkshire Hathaway", "巴菲特", "AI 基建", "融资"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Anthropic 抢在 OpenAI 前面递表：6-1 向 SEC 秘密提交 IPO 申请——刚以 $9650 亿估值收完 Series H，转身就要冲 IPO，逼近万亿市值'准入 S&P 500 顶层俱乐部'",
+      "source": "Anthropic",
+      "source_name": "Reuters",
+      "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4291EI:0-anthropic-confidentially-files-for-us-ipo-as-it-looks-to-beat-openai/",
+      "story_key": "anthropic-ipo-filing",
+      "event_date": "2026-06-01",
+      "summary": "Anthropic 6-1 确认已向美国 SEC 秘密提交 IPO 申请，力图抢在 OpenAI 之前登陆资本市场；公司上月底刚以 $9650 亿后估值完成 $650 亿 Series H，IPO 具体股数与定价尚未确定。",
+      "detail": "Anthropic 6-1 确认已**向 SEC 秘密递交（confidential filing）IPO 申请文件**——这是 AI 前沿实验室冲刺资本市场的又一个分水岭式动作。公司表示，此举'让我们在 SEC 完成审查后拥有上市的选项'，但拟议 IPO 仍取决于市场状况等因素，发行股数与定价均尚未确定，预期年内择机上市。\n\n这份申请发生在 Anthropic 估值急速膨胀的节点上：公司 5-28 刚官宣 **$650 亿 Series H、后估值 $9650 亿美元**，反超 OpenAI 3 月的 $852B 后估值，成为全球估值最高的私营 AI 公司；该估值较 2 月 $300 亿融资时的 $3800 亿后估值在数月内翻倍有余。若以接近万亿的市值上市，Anthropic 将一步跨入只有极少数巨头盘踞的全球股权顶层。\n\n时点上，这是一场明牌的'IPO 卡位赛'：OpenAI 据报最早今秋启动上市，SpaceX 路演定于 6-4 启动。Anthropic 抢先递表，意在抢占'第一家上市的前沿大模型公司'身位——既能拿到稀缺的公开市场流动性与品牌背书，也把估值锚定权握在自己手里。",
+      "key_quotes": [
+        "The move gives us the option to go public after the SEC completes its review.",
+        "The proposed initial public offering will depend on market conditions and other factors."
+      ],
+      "significance": "Anthropic 抢跑 IPO 把'AI 实验室到底能不能、该不该上市'这个问题摆到了台面：一旦它以接近万亿估值登陆公开市场，整个 AI 板块的估值将第一次拥有一个可被每日交易、做空、看空的公开锚——前沿大模型的烧钱速度、毛利结构与算力承诺将首次被迫接受季度财报级别的审视。对 OpenAI、SpaceX 等排队者而言，Anthropic 的招股书会成为整轮 AI IPO 潮的定价模板。",
+      "links": [
+        "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N4291EI:0-anthropic-confidentially-files-for-us-ipo-as-it-looks-to-beat-openai/",
+        "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+        "https://www.usnews.com/news/top-news/articles/2026-06-01/ai-giant-anthropic-confidentially-files-for-us-ipo",
+        "https://www.cbc.ca/news/business/anthropic-files-ipo-9.7219249"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "IPO", "Claude", "资本市场", "OpenAI"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "4",
+      "title": "Altman 周末一条帖子开辟第二战场：OpenAI 正式成立 Robotics 部门造人形机器人——直插 Musk 心脏地带 Optimus，特斯拉股价应声跌约 3.6%",
+      "source": "@sama",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/sectors/technology/article/tesla-optimus--musk-face-a-new-threat--openai-robotics-160202761.html",
+      "story_key": "openai-robotics-division",
+      "event_date": "2026-06-01",
+      "summary": "Sam Altman 于周末宣布 OpenAI 成立专门的机器人部门 OpenAI Robotics，自研硬件、控制系统与机器学习来打造人形机器人——直接对位 Tesla Optimus；消息后特斯拉股价周一（6-1）下跌约 3.6%。",
+      "detail": "Sam Altman 周末在 X 上宣布 OpenAI 正式成立专门的机器人部门 **OpenAI Robotics**，跨硬件、运营、系统与机器学习招兵买马，目标是打造能'在物理世界里帮助人'的人形机器人——近期切入点是协助基建项目中的熟练工种劳动，长期愿景则是 Altman 口中'让每个人都拥有一台能做任何需要之事的个人机器人'。\n\n这把 OpenAI 与 Elon Musk 推进多年的 Tesla Optimus 直接摆上同一擂台。资本市场反应迅速：**特斯拉股价周一（6-1）下跌约 3.57%**——市场担心 Optimus（Musk 长期用来支撑特斯拉数万亿美元估值叙事的核心）在还没真正量产'走下产线'之前，就先遇到了一个'AI 优先'的硬核对手。\n\n时间线上的对照更显戏剧性：特斯拉 5 月初已停产 Model S / Model X，正把那条产线改造为 Optimus 专用装配单元，预计 7 月底至 8 月完工，Fremont 目标年产能约 100 万台；Musk 在 Q1 财报电话会上把 Optimus Gen 3 的亮相指向 7 月底至 8 月初。OpenAI 选择在这个'Optimus 即将放量'的窗口宣布入场，卡位意味浓厚。",
+      "key_quotes": [
+        "help people in the physical world",
+        "everyone having a personal robot doing anything they need"
+      ],
+      "significance": "OpenAI 从'软件智能'跨进'物理智能'，标志着前沿实验室的竞争正从模型/agent 蔓延到具身硬件——这也是继 SpaceX 吞并 xAI、xAI 与 Tesla/Grok 深度绑定之后，Altman 与 Musk 之间从聊天机器人、芯片云一路打到人形机器人的全面对垒新前线。对特斯拉而言，Optimus 第一次面对一个不缺资金、不缺顶级 AI 人才、且自带数据飞轮的正面竞争者；对行业而言，'谁来定义通用人形机器人的大脑'之争正式开打。",
+      "links": [
+        "https://finance.yahoo.com/sectors/technology/article/tesla-optimus--musk-face-a-new-threat--openai-robotics-160202761.html",
+        "https://coincentral.com/tesla-tsla-stock-falls-as-openai-launches-humanoid-robotics-division/",
+        "https://www.storyboard18.com/brand-makers/sam-altman-signals-robotics-push-as-openai-enters-new-rivalry-with-elon-musk-99829.htm",
+        "https://blockonomi.com/tesla-tsla-shares-decline-as-openai-enters-humanoid-robot-market/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Sam Altman", "机器人", "人形机器人", "Tesla Optimus", "Elon Musk"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "佛州第一个动手：AG 一纸 83 页诉状把 OpenAI 和 Altman 本人一起告了——指控 ChatGPT'协助大规模枪击、诱导自杀、让儿童成瘾'，要 Altman 个人担责、罚金或达数十亿",
+      "source": "Florida AG",
+      "source_name": "NPR",
+      "source_url": "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt",
+      "story_key": "florida-openai-altman-lawsuit",
+      "event_date": "2026-06-01",
+      "summary": "佛罗里达州总检察长 6-1 起诉 OpenAI 及 CEO Sam Altman，指控其为牟利而隐瞒 ChatGPT 的严重安全风险，并寻求让 Altman 个人承担责任——佛州成为首个起诉 OpenAI 的州。",
+      "detail": "佛罗里达州总检察长 James Uthmeier 6-1（周一）正式起诉 OpenAI 及其 CEO Sam Altman，指控公司'把利润置于用户安全之上'。这是**首个起诉 OpenAI 的美国州**，也是佛州继 Meta、Snapchat 之后对大型科技公司的又一记重拳。\n\n在这份 **83 页的诉状**中，佛州称 OpenAI 的崛起建立在'一张欺骗之网与对用户（包括佛州居民）的剥削'之上——'以用户数据和安全为代价抬高 OpenAI 的市值'。具体指控包括：**协助与教唆大规模枪击者**（包括一名据称用 ChatGPT 策划袭击的佛罗里达州立大学枪击案凶手）、**诱导脆弱人群自杀**，以及**让儿童对一个'假装拥有人类同理心'的工具上瘾**以无监管地收集其数据。\n\n法律上佛州列出多项罪名：4 项欺骗与不公平交易、2 项过失、2 项违反产品责任法、1 项欺诈性虚假陈述、1 项制造公共妨害；并寻求**追究 Altman 个人责任**，称 Altman 与公司可能面临'高达数十亿美元'的罚款。OpenAI 回应称'AI 是一项全新且强大的技术，我们相信未成年人需要重大保护'，并称已部署家长控制等'业内领先的保护措施'。",
+      "key_quotes": [
+        "a web of deceit and the exploitation of users ... leveraging their data and safety to boost OpenAI's market value at unacceptable costs",
+        "AI is a new and powerful technology, and we believe minors need significant protection. — OpenAI"
+      ],
+      "significance": "这起诉讼把 AI 安全争议从'模型能不能被越狱'升级到'公司高管要不要为用户死亡承担个人法律责任'——直接点名 Altman、追求个人担责，是迄今针对前沿 AI 公司最激进的执法姿态。叠加 Anthropic / OpenAI 正排队 IPO，重大产品责任与公共妨害诉讼会成为招股书里绕不开的风险披露，也可能成为各州 AG 效仿的模板，把'AI 致害'的赔偿与监管框架第一次推向法庭实测。",
+      "links": [
+        "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt",
+        "https://variety.com/2026/biz/tech/florida-sues-openai-sam-altman-1236764066/",
+        "https://fortune.com/2026/06/01/florida-sues-openai-ceo-sam-altman-chatgpt-safety-warnings/",
+        "https://www.cnbc.com/2026/06/01/florida-ag-open-ai-altman-lawsuit.html"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Sam Altman", "诉讼", "AI 安全", "监管", "佛罗里达"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "Nvidia 把'人形机器人参考设计'第一单给了中国宇树：GTC Taipei 推出 Isaac GR00T 开放平台 + Unitree H2 Plus——Jetson Thor 当脑、Sharpa 五指手、75 自由度，卖给斯坦福/ETH 做研究",
+      "source": "NVIDIA",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html",
+      "story_key": "nvidia-groot-humanoid-platform",
+      "event_date": "2026-06-01",
+      "summary": "Nvidia 6-1 在 GTC Taipei 推出首个开放人形机器人参考设计 Isaac GR00T，搭载宇树（Unitree）H2 机身、Sharpa 五指灵巧手与 Jetson Thor 算力，面向斯坦福、ETH 苏黎世等科研机构发售；同台还发布 Cosmos 3 世界模型与 GR00T N1.6 VLA 模型。",
+      "detail": "Nvidia 6-1 在 GTC Taipei（Computex 周）正式押注'physical AI'，推出**首个开放人形机器人参考设计 NVIDIA Isaac GR00T**——这也是 Nvidia 第一次向研究者直接出售一整套机器人系统，并把这单关键合作给了中国厂商**宇树科技（Unitree）**。\n\n这台名为 **Unitree H2 Plus** 的参考机集成了：宇树 H2 人形机身（近 6 英尺高、150 磅、31 个身体自由度）、**Sharpa Wave 双触觉五指手**（再加 22 个自由度，全身合计 75 自由度）、**NVIDIA Jetson Thor**（含 Blackwell GPU、做端侧推理与控制）以及新的 Isaac GR00T 开发平台；感知上配头部宽视场立体相机（140°×102°）、腕部相机与 IMU。软件侧与 Isaac 生态深度打通——Isaac Teleop 采集示教数据、Isaac Sim / Lab 做虚拟训练评测、Isaac ROS 中间件把策略部署到实体机。H2 Plus 计划 2026 年底上市。\n\n同台 Nvidia 还发布两款关键模型：**Cosmos 3**（处理文本/图像/视频/环境音/动作于一体的开放'omnimodel'世界模型）与 **Isaac GR00T N1.6**（面向人形机器人、解锁全身控制的开放 VLA 推理模型，调用 Cosmos Reason 增强情境理解）。已承诺采用该参考设计的机构包括 Ai2、ETH 苏黎世、斯坦福机器人中心与 UCSD ARC 实验室；合作企业涵盖 ABB、Agility、FANUC、Figure、KUKA、Skild AI、Universal Robots、Yaskawa 等。",
+      "key_quotes": [
+        "The H2 Plus combines a Unitree H2 humanoid, Sharpa five-fingered hands, NVIDIA Jetson Thor, and the new Isaac GR00T platform.",
+        "Nvidia picks Unitree for the first robotics system it's selling to researchers."
+      ],
+      "significance": "Nvidia 想复制它在 AI 训练上的打法——用一套'开放参考设计 + 全栈软件（Isaac/GR00T/Cosmos）'去当人形机器人时代的'安卓'，让全球实验室在同一硬件/软件底座上做研究、贡献数据，从而把生态标准握在自己手里。而把首个参考机的机身交给宇树，则把中国硬件供应链放进了 Nvidia 具身智能版图的核心位置；在中美 AI 硬件博弈的背景下，这一选择本身就极具信号意义。",
+      "links": [
+        "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html",
+        "https://nvidianews.nvidia.com/news/nvidia-open-humanoid-robot-reference-design",
+        "https://the-decoder.com/nvidia-bets-big-on-physical-ai-at-gtc-taipei-with-a-new-world-model-driving-brain-and-open-humanoid-robot/",
+        "https://www.prnewswire.com/news-releases/unitree-announces-h2-plus-an-nvidia-isaac-gr00t-reference-humanoid-robot-for-academic-research-302786748.html"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["NVIDIA", "Unitree", "宇树", "人形机器人", "Isaac GR00T", "Physical AI", "Cosmos"],
+      "category": "builders"
+    }
+  ]
+}
