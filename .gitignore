@@ -5,3 +5,6 @@ pdf/AI/tmp/
 .claude/
 # Local runtime logs — not meant for remote
 research_results/*/logs/
+# Python bytecode cache
+__pycache__/
+*.pyc
