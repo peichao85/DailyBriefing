@@ -55,7 +55,13 @@ Create `web/AI/YYYY-MM-DD/data.json` with the following schema:
 
 Only some items have images — that's intentional. Do not add images to items that don't have them in the research data.
 
-If the research data includes images in `research_results/AI/YYYY-MM-DD/img/`:
+### Cached images (`assets/` paths)
+
+If an item's `image` field starts with `assets/` (e.g. `assets/logos/openai-logo.png`), it means the research skill reused a globally cached logo. **Pass it through unchanged** — do NOT copy anything. The frontend resolves `assets/` paths relative to the `web/` root. Also pass through `image_type` unchanged.
+
+### New images (`img/` paths)
+
+For items with `image` pointing to `research_results/AI/YYYY-MM-DD/img/`:
 - Copy only the images referenced by items to `web/AI/YYYY-MM-DD/img/`
 - Compress/resize for web: max 200KB per image, max 800px width, JPEG quality 85% for photos, PNG for diagrams/charts
 - Keep the `"image"` field as a relative path like `img/filename.png`

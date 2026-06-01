@@ -202,6 +202,33 @@ Images are gathered only for items kept by the filter gate in Step 4. Never sear
 
 **Target coverage:** aim for roughly **3–4 of every 10 kept items** to have an image. This is a floor on effort, not a cap — most AI stories have *something* reasonable available (a company logo, a headshot, a product screenshot, a press photo). Default to finding one; only skip when you've genuinely checked the ladder below and nothing fits.
 
+### Logo caching (check BEFORE downloading)
+
+Before searching for or downloading any logo, check the global cache at `web/assets/logos/`. The cache contains frequently reused logos:
+
+```
+web/assets/logos/
+  openai-logo.png
+  anthropic-logo.png
+  meta-logo.png
+  google-logo.png
+  nvidia-logo.png
+  microsoft-logo.png
+  amazon-logo.png
+  apple-logo.png
+  ...
+```
+
+**Matching rule:** If the story's primary company/organization has a cached logo whose filename clearly matches (e.g. `openai-logo.png` for OpenAI, `anthropic-logo.png` for Anthropic), **reuse the cached file** — set `"image": "assets/logos/<filename>"` and do NOT download a new copy. The frontend resolves `assets/` paths globally.
+
+Only search/download when:
+- The logo is genuinely not in the cache
+- The story is about a person and you need a headshot
+- The story needs a chart, screenshot, or diagram (these are never cached)
+- The cached logo is for a different subsidiary/brand than the one in the story
+
+If you download a new logo that is likely to be reused (major AI company, well-known product), save it to BOTH `research_results/AI/YYYY-MM-DD/img/` AND `web/assets/logos/` so future days can cache it.
+
 ### Item ordering and the hero card
 
 Order `items[]` by **news importance** — the day's most important story is always `id=1`, regardless of whether it has an image. The web page renders `items[0]` as the full-width **hero card**. Never demote a more important story to `id=2` just because a less important story has a better image. News priority wins.
@@ -228,7 +255,9 @@ You should still aim for the 3–4/10 target across the day. A zero-image day (o
 
 ### File naming and `image_type`
 
-Download to `research_results/AI/YYYY-MM-DD/img/` with descriptive filenames (e.g. `claude-mythos-architecture.png`, `sam-altman.jpg`, `gpqa-benchmark-chart.png`). Set the item's `"image"` field to `img/filename.png`.
+For **cached logos**, set `"image": "assets/logos/<filename>"`.
+
+For **newly downloaded images**, save to `research_results/AI/YYYY-MM-DD/img/` with descriptive filenames (e.g. `claude-mythos-architecture.png`, `sam-altman.jpg`, `gpqa-benchmark-chart.png`). Set the item's `"image"` field to `img/filename.png`.
 
 **`image_type` is REQUIRED on every item that has an `image`** — downstream skills use it to choose display size:
 
