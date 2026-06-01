@@ -75,7 +75,7 @@
     </header>
 
     <!-- Day Title (hidden for sectioned briefings where the title is just a redundant label) -->
-    <div class="day-title" x-show="briefing && !isSectioned" x-text="briefing?.title || ''"></div>
+    <div class="day-title" x-show="briefing && !isSectioned && !isDocument" x-text="briefing?.title || ''"></div>
 
     <!-- Loading -->
     <div class="loading" x-show="loading">正在加载简报数据...</div>
@@ -84,7 +84,7 @@
     <div class="error-msg" x-show="error" x-text="error"></div>
 
     <!-- Flat Card Grid (AI category: single items[] array) -->
-    <div class="card-grid" x-show="briefing && !loading && !isSectioned">
+    <div class="card-grid" x-show="briefing && !loading && !isSectioned && !isDocument">
       <template x-for="(item, idx) in (briefing?.items || [])" :key="item.id">
         <div class="card"
           :class="{
@@ -312,6 +312,86 @@
       </template>
     </div>
 
+    <!-- Document Report (USStocks 美股复盘: briefing.format === 'document') -->
+    <!-- All sections render on one page; a sticky left rail (TOC) tracks scroll. -->
+    <div x-show="briefing && !loading && isDocument" class="doc" x-init="initDocScrollSpy()">
+      <!-- One-line takeaway banner (full width) -->
+      <div class="doc-headline" x-show="briefing?.headline"
+        :style="'border-left-color:' + categoryAccent + ';'">
+        <span class="doc-headline-label" :style="'background:' + categoryAccent + ';'">今日总结</span>
+        <span class="doc-headline-text" x-html="renderMarkdown(briefing?.headline || '')"></span>
+      </div>
+
+      <div class="doc-layout">
+        <!-- Sticky left table-of-contents -->
+        <nav class="doc-nav" x-show="(briefing?.sections || []).length > 1">
+          <template x-for="section in (briefing?.sections || [])" :key="section.id">
+            <a class="doc-nav-link" :class="{ active: activeDocSection === section.id }"
+              @click.prevent="scrollToSection(section.id)"
+              :style="activeDocSection === section.id ? 'color:' + categoryAccent + '; border-left-color:' + categoryAccent + '; border-bottom-color:' + categoryAccent + ';' : ''"
+              x-text="(section.icon ? section.icon + ' ' : '') + section.label"></a>
+          </template>
+        </nav>
+
+        <!-- Content: every section stacked -->
+        <div class="doc-content">
+          <template x-for="section in (briefing?.sections || [])" :key="section.id">
+            <section class="doc-section" :data-sec="section.id">
+              <h2 class="doc-section-title" :style="'color:' + categoryAccent + ';'"
+                x-text="(section.icon ? section.icon + ' ' : '') + section.label"></h2>
+              <div class="section-subtitle-line" style="text-align:left;margin-left:0"
+                x-show="section.subtitle" x-text="section.subtitle"></div>
+              <template x-for="(block, bi) in (section.blocks || [])" :key="bi">
+                <div class="doc-block">
+                  <!-- heading -->
+                  <template x-if="block.type === 'heading'">
+                    <h3 class="doc-h" :style="'color:' + categoryAccent + '; border-left-color:' + categoryAccent + ';'"
+                      x-text="block.text"></h3>
+                  </template>
+                  <!-- prose -->
+                  <template x-if="block.type === 'prose'">
+                    <div class="doc-prose" x-html="renderMarkdown(block.md || '')"></div>
+                  </template>
+                  <!-- callout -->
+                  <template x-if="block.type === 'callout'">
+                    <div class="doc-callout" :class="'tone-' + (block.tone || 'info')">
+                      <div class="doc-callout-title" x-show="block.title" x-text="block.title"></div>
+                      <div class="doc-callout-body" x-html="renderMarkdown(block.md || '')"></div>
+                    </div>
+                  </template>
+                  <!-- table -->
+                  <template x-if="block.type === 'table'">
+                    <div class="doc-table-wrap">
+                      <div class="doc-table-title" x-show="block.title"
+                        :style="'color:' + categoryAccent + ';'" x-text="block.title"></div>
+                      <table class="doc-table">
+                        <thead>
+                          <tr>
+                            <template x-for="(col, ci) in (block.columns || [])" :key="ci">
+                              <th x-text="col"></th>
+                            </template>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <template x-for="(row, ri) in (block.rows || [])" :key="ri">
+                            <tr>
+                              <template x-for="(cell, ci) in row" :key="ci">
+                                <td :class="cellClass(block, ci, cell)" x-html="renderInline(String(cell == null ? '' : cell))"></td>
+                              </template>
+                            </tr>
+                          </template>
+                        </tbody>
+                      </table>
+                    </div>
+                  </template>
+                </div>
+              </template>
+            </section>
+          </template>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer>&copy; 2026 Daily Briefing</footer>
   </div>
@@ -366,9 +446,12 @@
     };
 
     const CATEGORY_HEADERS = {
-      'AI':     { subtitle: '精选自 50+ 位 AI 领袖、研究者与建造者的动态' },
+      'AI':       { subtitle: '精选自 50+ 位 AI 领袖、研究者与建造者的动态' },
       // GitHub sub-sections carry their own subtitles, so the category-level one is suppressed.
-      'GitHub': { subtitle: '' },
+      'GitHub':   { subtitle: '' },
+      // USStocks (美股复盘): document render mode, emerald accent. US color
+      // convention — green = up, red = down — drives the table +/- coloring.
+      'USStocks': { subtitle: '美股收盘复盘 · 数据驱动的次日交易参考', accent: '#34D399' },
     };
 
     function briefingApp() {
@@ -386,6 +469,8 @@
         error: null,
         expandedId: null,
         currentSectionId: null,
+        activeDocSection: null,   // document-mode scrollspy: id of section in view
+        _docSpyBound: false,
         calendarOpen: false,
         calendarYear: null,
         calendarMonth: null,
@@ -463,7 +548,23 @@
         // Computed
         get hasPrev() { return this.currentIndex < this.dates.length - 1; },
         get hasNext() { return this.currentIndex > 0; },
-        get isSectioned() { return !!(this.briefing && this.briefing.sections); },
+        // Document mode (美股复盘): a section[].blocks[] report with tables/prose.
+        get isDocument() { return (this.briefing?.format === 'document'); },
+        // GitHub-style sectioned cards — distinct from document mode, which also
+        // uses a `sections` array but renders blocks, not item cards.
+        get isSectioned() { return !this.isDocument && !!(this.briefing && this.briefing.sections); },
+        get categoryAccent() {
+          return (CATEGORY_HEADERS[this.currentCategory] || {}).accent || DEFAULT_THEME.accent;
+        },
+        // Color a +/- numeric cell (US convention: green up, red down).
+        cellClass(block, colIdx, cell) {
+          if (!block.posneg || !block.posneg.includes(colIdx)) return '';
+          const s = String(cell == null ? '' : cell).trim();
+          if (!s || s === '—' || s === '-' || s.indexOf('暂无') !== -1) return '';
+          const num = parseFloat(s.replace(/[^0-9.+-]/g, ''));
+          if (isNaN(num) || num === 0) return '';
+          return num > 0 ? 'cell-pos' : 'cell-neg';
+        },
         get currentSection() {
           const s = this.briefing?.sections;
           if (!s || !s.length) return null;
@@ -605,8 +706,11 @@
             if (sections.length) {
               const keep = sections.some(s => s.id === this.currentSectionId);
               if (!keep) this.currentSectionId = sections[0].id;
+              // Document mode: reset scrollspy to the first section on (re)load.
+              this.activeDocSection = sections[0].id;
             } else {
               this.currentSectionId = null;
+              this.activeDocSection = null;
             }
           } catch (e) {
             this.briefing = null;
@@ -619,6 +723,43 @@
           if (this.currentSectionId === id) return;
           this.currentSectionId = id;
           this.expandedId = null;
+        },
+
+        // Document mode: scrollspy + click-to-jump for the sticky left TOC.
+        initDocScrollSpy() {
+          if (this._docSpyBound) return;
+          this._docSpyBound = true;
+          const update = () => {
+            if (!this.isDocument) return;
+            const secs = document.querySelectorAll('.doc-section[data-sec]');
+            if (!secs.length) return;
+            const offset = 120;  // header is not sticky; small top margin
+            let current = secs[0].getAttribute('data-sec');
+            secs.forEach(s => {
+              if (s.getBoundingClientRect().top - offset <= 0) {
+                current = s.getAttribute('data-sec');
+              }
+            });
+            // At the very bottom, force the last section active.
+            if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) {
+              current = secs[secs.length - 1].getAttribute('data-sec');
+            }
+            if (current && current !== this.activeDocSection) this.activeDocSection = current;
+          };
+          let ticking = false;
+          window.addEventListener('scroll', () => {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(() => { update(); ticking = false; });
+          }, { passive: true });
+          this.$nextTick(update);
+        },
+
+        scrollToSection(id) {
+          const el = document.querySelector('.doc-section[data-sec="' + id + '"]');
+          if (!el) return;
+          this.activeDocSection = id;
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
         },
 
         prevDate() {

@@ -25,6 +25,7 @@ from pathlib import Path
 CATEGORY_LABELS = {
     "AI": "AI 科技",
     "GitHub": "GitHub 趋势",
+    "USStocks": "美股复盘",
 }
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
