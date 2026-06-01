@@ -446,12 +446,14 @@
     };
 
     const CATEGORY_HEADERS = {
-      'AI':       { subtitle: '精选自 50+ 位 AI 领袖、研究者与建造者的动态' },
+      // Subtitles are intentionally empty across all categories so the date
+      // picker sits at the same height when switching tabs (no description gap).
+      'AI':       { subtitle: '' },
       // GitHub sub-sections carry their own subtitles, so the category-level one is suppressed.
       'GitHub':   { subtitle: '' },
       // USStocks (美股复盘): document render mode, emerald accent. US color
       // convention — green = up, red = down — drives the table +/- coloring.
-      'USStocks': { subtitle: '美股收盘复盘 · 数据驱动的次日交易参考', accent: '#34D399' },
+      'USStocks': { subtitle: '', accent: '#34D399' },
     };
 
     function briefingApp() {
