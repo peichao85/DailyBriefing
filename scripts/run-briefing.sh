@@ -71,7 +71,22 @@ PID_WEB=$!
 run_stage "GitHub Trending Builder" "Run the github_trending_builder skill for today ($DATE)" 3 &
 PID_GH=$!
 
-run_stage "US Stocks Briefing" "Run the us_stocks_briefing skill for today ($DATE)" 15 &
+# US Stocks: skip the (paid) recap when the market is closed and the latest
+# completed session is already published — weekends, holidays, or a same-day
+# re-run. The helper's --check-only exits 3 in that case; any other result
+# (new session, or an inconclusive check) falls through and runs the stage.
+run_us_stocks() {
+  local check_rc=0
+  python3 skills/us_stocks_briefing/scripts/fetch_market_data.py \
+    --date "$DATE" --check-only >> "$LOG" 2>&1 || check_rc=$?
+  if [ "$check_rc" -eq 3 ]; then
+    log "US Stocks Briefing skipped (market closed / latest session already published)"
+    return 0
+  fi
+  run_stage "US Stocks Briefing" "Run the us_stocks_briefing skill for today ($DATE)" 15
+}
+
+run_us_stocks &
 PID_US=$!
 
 FAILED=0

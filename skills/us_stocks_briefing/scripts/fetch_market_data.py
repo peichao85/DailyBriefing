@@ -366,14 +366,47 @@ def stock_group(symbols, quotes):
     return out
 
 
+def latest_trading_day() -> str | None:
+    """Resolve the most recent completed session date cheaply (SPY/QQQ last bar).
+
+    Mirrors the trading_day logic of the full run but with a minimal fetch so it
+    can be used as a fast pre-flight check. Returns YYYY-MM-DD or None.
+    """
+    for sym in ("SPY", "QQQ"):
+        hist = nasdaq_history(sym, "etf", days=14)
+        if hist:
+            return hist[-1]["date"]
+    return None
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--date", default=datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     ap.add_argument("--project-root", default=None)
+    ap.add_argument("--check-only", action="store_true",
+                    help="Resolve the latest completed trading session and exit "
+                         "without fetching/writing. Exit 3 if that session is "
+                         "already published under web/USStocks/<day>/; exit 0 if "
+                         "there is new work to do (or the day can't be resolved).")
     args = ap.parse_args()
 
     project_root = (Path(args.project_root).resolve() if args.project_root
                     else Path(__file__).resolve().parents[3])
+
+    if args.check_only:
+        td = latest_trading_day()
+        if not td:
+            print("check-only: could not resolve latest trading day; "
+                  "assuming work is needed.")
+            return 0
+        published = project_root / "web" / "USStocks" / td / "data.json"
+        if published.exists():
+            print(f"check-only: latest session {td} already published "
+                  f"({published.relative_to(project_root)}); "
+                  f"market closed / nothing new.")
+            return 3
+        print(f"check-only: latest session {td} not yet published; proceeding.")
+        return 0
 
     # --- gather all CNBC symbols in one go ---
     all_rows = (INDICES + TECH_ETFS + SECTOR_ETFS + THEME_ETFS + MACRO_ASSETS)

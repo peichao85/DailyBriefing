@@ -50,6 +50,13 @@ cd <project_root>
 python3 skills/us_stocks_briefing/scripts/fetch_market_data.py --date <date>
 ```
 
+> **Market-closed pre-flight (orchestrator only).** The helper also supports
+> `--check-only`, which resolves the most recent completed session and exits
+> **3** if `web/USStocks/<trading_day>/data.json` already exists (weekend /
+> holiday / same-day re-run → nothing new), or **0** if there is work to do.
+> `scripts/run-briefing.sh` uses this to skip the paid recap on closed days. A
+> manual run of this skill is not gated by it — it always regenerates.
+
 It writes `research_results/USStocks/<date>/raw.json` with:
 
 - `trading_day` — the actual session the data represents (use this as the
