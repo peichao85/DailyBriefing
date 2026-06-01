@@ -22,7 +22,7 @@ Stage 1: Research ($20) ──→ Stage 2: PDF Builder ($5)  ──→ git commi
 
 ```bash
 # Run full pipeline (research → parallel PDF+web → git push)
-./scripts/run-ai-briefing.sh
+./scripts/run-briefing.sh
 
 # Install daily cron job (7:36 AM UTC)
 ./scripts/setup-cron.sh
@@ -60,7 +60,7 @@ claude -p "Run the ai_web_builder skill for today"
 ## Environment Requirements
 
 - Claude Code CLI, Node.js/npm, Python 3 with `python-pptx`, LibreOffice (`soffice`), Poppler (`pdftoppm`), Chinese fonts (Noto Sans CJK or similar)
-- Bash timeout env vars set in `scripts/run-ai-briefing.sh`: `BASH_DEFAULT_TIMEOUT_MS=600000` (10min), `BASH_MAX_TIMEOUT_MS=900000` (15min)
+- Bash timeout env vars set in `scripts/run-briefing.sh`: `BASH_DEFAULT_TIMEOUT_MS=600000` (10min), `BASH_MAX_TIMEOUT_MS=900000` (15min)
 
 ## Skills System
 

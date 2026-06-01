@@ -139,7 +139,7 @@ Shape:
 
 ## Step 5: Do NOT update `web/manifest.json`
 
-The orchestrator (`scripts/run-ai-briefing.sh`) rebuilds `web/manifest.json` from disk as a post-step via `scripts/rebuild_manifest.py`. This skill writes its data files and exits.
+The orchestrator (`scripts/run-briefing.sh`) rebuilds `web/manifest.json` from disk as a post-step via `scripts/rebuild_manifest.py`. This skill writes its data files and exits.
 
 ## Constraints
 

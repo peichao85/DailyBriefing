@@ -31,6 +31,7 @@ cd "$PROJECT_ROOT"
 DATE=$(date +%Y-%m-%d)
 mkdir -p research_results/AI/logs
 mkdir -p research_results/GitHub/logs
+mkdir -p research_results/USStocks/logs
 
 LOG="research_results/AI/logs/briefing-${DATE}.log"
 
@@ -56,9 +57,10 @@ run_stage() {
 # Stage 1: Research (must complete before builders)
 run_stage "Research" "Run the ai_research skill for today ($DATE)" 20 || exit 1
 
-# Stage 2, 3 & 4: PDF Builder, Web Builder, and GitHub Trending Builder run in parallel.
-# GitHub Trending is best-effort — it must not block the AI pipeline if the GitHub API hiccups.
-log "PDF Builder, Web Builder & GitHub Trending started (parallel)"
+# Stages 2-5: PDF Builder, Web Builder, GitHub Trending, and US Stocks recap run in parallel.
+# GitHub Trending and US Stocks are best-effort — they must not block the AI pipeline if
+# their external data sources (GitHub API / market data feeds) hiccup.
+log "PDF Builder, Web Builder, GitHub Trending & US Stocks started (parallel)"
 
 run_stage "PDF Builder" "Run the ai_pdf_builder skill for today ($DATE)" 7 &
 PID_PDF=$!
@@ -68,6 +70,9 @@ PID_WEB=$!
 
 run_stage "GitHub Trending Builder" "Run the github_trending_builder skill for today ($DATE)" 3 &
 PID_GH=$!
+
+run_stage "US Stocks Briefing" "Run the us_stocks_briefing skill for today ($DATE)" 15 &
+PID_US=$!
 
 FAILED=0
 
@@ -96,6 +101,12 @@ if ! wait "$PID_GH"; then
   log "GitHub Trending Builder FAILED (non-fatal)"
 fi
 
+if ! wait "$PID_US"; then
+  # Non-fatal: US Stocks recap is best-effort. Log a warning but do NOT set FAILED.
+  echo "WARNING: US Stocks Briefing failed (non-fatal)." >> "$LOG"
+  log "US Stocks Briefing FAILED (non-fatal)"
+fi
+
 if [ "$FAILED" -ne 0 ]; then
   log "Aborting due to builder failure(s)"
   exit 1
@@ -117,7 +128,7 @@ log "Manifest rebuild finished"
 log "Git commit & push started"
 git add web/ pdf/ research_results/
 # Unstage log files so they are never pushed to remote
-git reset HEAD research_results/AI/logs/ research_results/GitHub/logs/ >/dev/null 2>&1 || true
+git reset HEAD research_results/AI/logs/ research_results/GitHub/logs/ research_results/USStocks/logs/ >/dev/null 2>&1 || true
 if git diff --cached --quiet; then
   echo "No changes to commit." >> "$LOG"
 else

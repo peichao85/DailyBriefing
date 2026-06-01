@@ -72,7 +72,7 @@ The web page displays images inside the card when present — they appear below 
 
 ## Step 3: Do NOT update `web/manifest.json`
 
-The manifest is rebuilt from disk by the orchestrator (`scripts/run-ai-briefing.sh` → `scripts/rebuild_manifest.py`) as a post-step after all parallel builders finish. This avoids a write race between `ai_web_builder` and `github_trending_builder`, both of which run in parallel and would otherwise be updating the same file. Simply write the new `web/AI/<date>/data.json` and the rebuild step will pick it up automatically.
+The manifest is rebuilt from disk by the orchestrator (`scripts/run-briefing.sh` → `scripts/rebuild_manifest.py`) as a post-step after all parallel builders finish. This avoids a write race between `ai_web_builder` and `github_trending_builder`, both of which run in parallel and would otherwise be updating the same file. Simply write the new `web/AI/<date>/data.json` and the rebuild step will pick it up automatically.
 
 ## Constraints
 

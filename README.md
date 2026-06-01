@@ -24,7 +24,7 @@ After all stages complete, the pipeline commits and pushes changes to GitHub, wh
 ```
 ├── index.html                  ← Web entry point (GitHub Pages root)
 ├── scripts/
-│   ├── run-ai-briefing.sh      ← Main pipeline orchestration script
+│   ├── run-briefing.sh      ← Main pipeline orchestration script
 │   └── setup-cron.sh           ← Installs daily cron job
 ├── skills/                     ← Claude Code skills (pipeline stages)
 │   ├── ai_research/            ← Stage 1: research & data gathering
@@ -63,7 +63,7 @@ After all stages complete, the pipeline commits and pushes changes to GitHub, wh
 ### Run the full pipeline manually
 
 ```bash
-./scripts/run-ai-briefing.sh
+./scripts/run-briefing.sh
 ```
 
 ### Set up the daily cron job
@@ -109,7 +109,7 @@ The web interface is a single-page app with:
 | Research budget | $20 USD per run | `skills/ai_research/` |
 | PDF budget | $5 USD per run | `skills/ai_pdf_builder/` |
 | Web budget | $5 USD per run | `skills/ai_web_builder/` |
-| Bash timeout | 10 min default / 15 min max | `scripts/run-ai-briefing.sh` |
+| Bash timeout | 10 min default / 15 min max | `scripts/run-briefing.sh` |
 
 ## License
 
