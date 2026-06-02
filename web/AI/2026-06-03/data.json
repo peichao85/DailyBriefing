@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-03",
+  "category": "AI",
+  "title": "巨头与监管同时「踩刹车又踩油门」：Trump 签 AI 安全行政令请最强模型发布前先交政府测、Microsoft 一口气甩 7 个自研 MAI 模型彻底「去 OpenAI 化」、OpenAI 把 Codex 塞进每个 ChatGPT 抢全员办公入口，而华尔街用 $360 亿史上最大芯片债替 Anthropic 买 Google TPU",
+  "items": [
+    {
+      "id": "1",
+      "title": "Trump 180 度转身给前沿 AI 装刹车：签 AI 安全行政令，请各家'最强模型发布前先交政府测最多 30 天'——从'放手不管'到自愿预审",
+      "source": "NPR",
+      "source_name": "NPR",
+      "source_url": "https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order",
+      "story_key": "trump-ai-safety-executive-order",
+      "event_date": "2026-06-02",
+      "summary": "Trump 6-2 签署一份酝酿已久的 AI 安全行政令，请 AI 公司在公开发布前最多提前 30 天自愿把最强模型交政府测试，并要求联邦机构制定模型网络能力基准、设立'AI 网络安全信息交换中心'。这是本届政府从一贯的'放手不管'转向为前沿 AI 装上安全阀。",
+      "detail": "美国总统 Trump 6-2 周二签署了一份酝酿已久的人工智能安全行政令，标志着白宫对 AI 的态度从此前高调的'放手不管（hands-off）'出现明显转向——首次把'前沿模型发布前的安全审查'写进联邦政策。\n\n**核心条款：自愿、最长 30 天的预发布测试。** 行政令请 AI 公司在把最强大的模型向公众发布之前，最多提前 **30 天**自愿提交给政府进行测试。值得注意的是全令以'自愿（voluntary）'为基调，而非强制——这给了它政治上的可行性，也限制了它的牙齿。\n\n**配套机制：网络能力基准 + 漏洞情报中心。** 行政令同时指示联邦机构：(1) 制定评估 AI 模型**网络攻防能力**的基准；(2) 建立一个'**AI 网络安全信息交换中心（AI cybersecurity clearinghouse）**'，集中审查与共享漏洞信息；(3) 加固政府自身的安全防御。\n\n**一波三折的出台过程。** 这份行政令原计划上月就签，但白宫一度因担心'干扰 AI 创新'而临时撤回——Trump 当时表示，担忧此举会在与中国的全球竞赛中拖累美国企业的领先优势。早期版本曾给政府最多 **90 天**审查窗口，最终被砍到 **30 天**，被视为对产业界压力的让步。",
+      "key_quotes": [
+        "asks AI companies to voluntarily submit their most powerful models for the government to test up to 30 days before releasing them",
+        "an AI cybersecurity clearinghouse"
+      ],
+      "significance": "这是 Trump 政府首次在 AI 安全上从'放手'转向'设阀'，确立了'前沿模型预发布测试'的联邦先例。但'自愿'定性与从 90 天砍到 30 天的窗口，暴露了同一组矛盾：既想给最危险的能力（尤其网络攻击）装刹车，又怕监管拖慢美国在对华竞赛中的速度。对各大实验室而言，它短期内更像一套合规姿态而非硬约束，却为未来强制化埋下接口。",
+      "links": [
+        "https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order",
+        "https://www.kpbs.org/news/science-technology/2026/06/02/trump-signs-ai-safety-order-seeking-voluntary-review-of-new-models"
+      ],
+      "tags": ["AI 政策", "行政令", "Trump", "网络安全", "前沿模型"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "OpenAI 把 Codex 塞进每一个 ChatGPT：一口气甩 6 个'行业版'插件 + Sites 一句话生成可分享 app——agent 编程从开发者玩具变'全员办公底座'",
+      "source": "@sama",
+      "source_name": "9to5Mac",
+      "source_url": "https://9to5mac.com/2026/06/02/openai-putting-codex-inside-chatgpt-app-everywhere-releasing-6-business-plugins/",
+      "story_key": "openai-codex-chatgpt-business",
+      "event_date": "2026-06-02",
+      "summary": "OpenAI 6-2 在'Intelligence at Work'直播宣布把 Codex agent 能力接进 ChatGPT app（未来数周全量），并推出 6 个面向业务的 Codex 插件、把 annotations 扩展到文档/表格/幻灯片，以及 Sites——让 Codex 把工作直接变成带 URL 的可分享网站或 app。",
+      "detail": "OpenAI 6-2 通过一场名为'**Intelligence at Work**'的直播，把原本面向工程师的 Codex 推向全体业务用户，核心是'让 agent 编程能力无处不在'。\n\n**Codex 进驻 ChatGPT，无处不在。** OpenAI 宣布将在'未来几周'把 Codex 的 agent 功能直接装进 ChatGPT app 的各个入口——此前 Codex 与 ChatGPT 是相对割裂的两条线，这次整合意在让用户搞清楚'两者是连在一起的'。\n\n**6 个'行业版'Codex 插件。** OpenAI 一次性放出 6 个面向具体业务场景的 Codex 插件，覆盖**销售、数据分析、创意制作、产品设计、公开股权投资、投资银行**——把通用编程 agent 切成带行业 know-how 的垂直助手。\n\n**Annotations 从代码扩到办公文档。** 开发者早已用 annotations 在 Codex 里精修代码、Markdown 和网站；这次同样的交互被延伸到你创建的**文档、电子表格、幻灯片**上。\n\n**Sites：一句话变成可分享的网站/app。** 新功能 Sites 让 Codex 把你的工作、想法和计划直接变成一个**可交互的网站或 app**，团队可通过 URL 浏览、使用与分享，先向 Business 与 Enterprise 套餐推送。",
+      "key_quotes": [
+        "Intelligence at Work",
+        "Codex can turn your work, ideas, and plans into an interactive website or app your team can explore, use, and share with a URL"
+      ],
+      "significance": "这是 OpenAI 把 Codex 从'程序员的 agent'重新定位成'企业全员的生产力底座'的关键一步：用行业插件下沉到销售/投行/设计等非工程岗，用 annotations 和 Sites 把'写代码'抽象成'让 agent 产出可交付物'。正面冲击的是 Microsoft Copilot、Cursor 等同样在抢'agent 办公入口'的玩家——尤其在 Microsoft 刚于 Build 上用自研模型替换 OpenAI 之际，OpenAI 选择直接绕过分发渠道、把价值锁在 ChatGPT 自己的超级入口里。",
+      "links": [
+        "https://9to5mac.com/2026/06/02/openai-putting-codex-inside-chatgpt-app-everywhere-releasing-6-business-plugins/",
+        "https://releasebot.io/updates/openai"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Codex", "ChatGPT", "AI agent", "企业软件"],
+      "category": "product_operators"
+    },
+    {
+      "id": "3",
+      "title": "Microsoft 再补一刀'去 OpenAI 化'：Suleyman 一口气甩 7 个自研 MAI 模型，含首个推理模型 MAI-Thinking-1（编程追平 Claude Opus 4.6）+ agent 概念设备 Project Solara",
+      "source": "@mikeyk",
+      "source_name": "GeekWire",
+      "source_url": "https://www.geekwire.com/2026/microsoft-unveils-seven-homegrown-ai-models-in-bid-for-long-term-self-sufficiency/",
+      "story_key": "microsoft-build-2026-polaris",
+      "event_date": "2026-06-02",
+      "summary": "Microsoft AI 负责人 Mustafa Suleyman 在 Build 2026 一口气发布 7 个自研 MAI 模型，主打'长期自给'：包括公司首个推理模型 MAI-Thinking-1（350 亿参数、未蒸馏第三方、编程基准追平 Claude Opus 4.6、盲测追平 Claude Sonnet 4.6），以及 MAI-Code-1、MAI-Image 2.5、MAI-Voice 2、MAI-Transcribe 1.5；同时亮相面向 agent 的概念设备 Project Solara。",
+      "detail": "在 Build 2026 主舞台，Microsoft AI 首席 **Mustafa Suleyman** 把'减少对外部 AI 供应商依赖'摆到台前——一口气发布 **7 个自研 MAI 模型**，官方口径是为'长期自给（long-term self-sufficiency）'。\n\n**MAI-Thinking-1：Microsoft 第一个推理模型。** 这是公司首个基于文本的'推理'模型，**350 亿参数**，号称在盲测人评中**追平 Anthropic 的 Claude Sonnet 4.6**，并在一项被广泛使用的编程基准（SWE-bench Pro）上**追平更强的 Claude Opus 4.6**。关键信号是：它**用商业授权数据训练、未从第三方模型蒸馏**——直接回应'Microsoft 模型只是 OpenAI 套壳'的质疑。目前通过 Microsoft Foundry 私有预览，客户可申请试用。\n\n**一整套 MAI 家族。** 除推理模型外，还有专为 GitHub / VS Code 调优的 **MAI-Code-1**、视觉模型 **MAI-Image 2.5**、语音 **MAI-Voice 2**、多语种转写 **MAI-Transcribe 1.5** 等——覆盖文本推理、代码、图像、语音、转写的完整能力栈。\n\n**Project Solara：面向 agent 的概念硬件。** Microsoft 同台亮出 Project Solara——一个'agent 优先'的平台，配两款概念设备，外形更像**智能时钟**与**工牌（work ID badge）**而非传统 PC/笔记本，定位是'传统设备不在场或不合适'的场景。\n\n**背景回顾：** 同一场 6-2 Build，Microsoft 已发自研代码模型 Project Polaris（8 月起接管 GitHub Copilot 默认引擎）并以 MIT 开源 Windows Agent Framework，被解读为'剪断 OpenAI 脐带'。",
+      "key_quotes": [
+        "seven homegrown AI models in a bid for long-term self-sufficiency",
+        "MAI-Thinking-1 ... matches the more capable Claude Opus 4.6 on a widely used coding benchmark"
+      ],
+      "significance": "Polaris 替换 Copilot 引擎只是替换'一个产品的一个模型'；这次 7 个 MAI 模型则是 Microsoft 自建'推理 + 代码 + 图像 + 语音 + 转写'的完整模型栈，标志去 OpenAI 化从战术升级为战略。首个推理模型就敢拿来对标 Anthropic 前沿、且强调'未蒸馏'，是在为'独立能力'立信用；Project Solara 则透露 Microsoft 对'后 PC 时代 agent 硬件'的押注。对 OpenAI 而言，最大盟友兼最大渠道正系统性地把自己变成可替代项。",
+      "links": [
+        "https://www.geekwire.com/2026/microsoft-unveils-seven-homegrown-ai-models-in-bid-for-long-term-self-sufficiency/",
+        "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+        "https://www.tomsguide.com/news/live/microsoft-build-2026"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "MAI", "Suleyman", "推理模型", "Project Solara", "Build 2026"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "史上最大芯片融资债：Apollo + Blackstone 张罗 $360 亿私募信贷，替 Anthropic 买 Google 自研 TPU——Broadcom 给最大档兜底还款",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-05-28/apollo-shops-36-billion-debt-deal-to-buy-google-chips-for-anthropic",
+      "story_key": "anthropic-tpu-36b-debt-financing",
+      "event_date": "2026-06-02",
+      "summary": "Apollo 与 Blackstone 正在为 Anthropic 张罗约 $360 亿美元债务融资，用于购买 Google 定制 TPU 芯片再租回给 Anthropic；Broadcom 为最大档付款兜底。本周开簿、定价细节浮出——若成，将是史上最大私募信贷交易与最大芯片融资债。",
+      "detail": "私募信贷正以前所未有的规模涌进 AI 算力。Apollo Global Management 与 Blackstone 正联手为 **Anthropic** 的下一波 AI 基础设施张罗约 **$360 亿美元（$36B）** 债务融资，本周进入开簿、定价细节开始浮出。\n\n**钱怎么花：买 Google TPU 再租回。** 这笔债务将用于购买 Google 的定制 **TPU（张量处理单元）** 芯片，Anthropic 随后以租赁方式使用——一种把重资产算力'表外化'的结构。帮助 Google 设计这些芯片的 **Broadcom** 为交易中最大的几档**付款兜底（backstop）**，显著增强了债务的信用。\n\n**规模之最。** 若顺利完成，这将同时成为**史上最大的私募信贷交易**与**最大的芯片融资债务交易**。\n\n**为什么是现在。** Anthropic 的 Claude 与 Claude Code 今年需求暴涨，算力缺口愈发紧迫；其算力栈已横跨 Nvidia GPU、AWS Trainium 与 Google TPU。公司上月底刚以 **$9650 亿**后估值收完 $650 亿 Series H，并已向 SEC 秘密递交 IPO——一边股权融资、一边用巨额债务为芯片买单。",
+      "key_quotes": [
+        "Apollo Global Management and Blackstone are arranging roughly $36 billion in debt financing to fund Anthropic's next wave of AI infrastructure",
+        "Broadcom ... is backstopping payments on the largest portions of the transaction"
+      ],
+      "significance": "这笔交易把'AI 算力金融化'推到新极值：当股权和经营现金流喂不饱算力需求，债务与私募信贷开始直接为 GPU/TPU 买单，且规模刷新纪录。它把 Google TPU、Broadcom、Anthropic 与华尔街信贷机器绑在一起，既是对 Google 自研芯片产能的背书，也放大了此前已被 Bloomberg 警示的 hyperscaler'AI 债务+CDS'系统性风险——一旦 AI 收入兑现不及预期，承压的将不只是科技股，还有信贷市场。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-05-28/apollo-shops-36-billion-debt-deal-to-buy-google-chips-for-anthropic",
+        "https://pitchbook.com/news/articles/pricing-details-emerge-on-36b-private-credit-deal-for-anthropic"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "私募信贷", "Google TPU", "Broadcom", "AI 基础设施", "债务融资"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Qualcomm 正式杀进数据中心：Computex 推 'Dragonfly' 芯片品牌、喊'2026 是 AI agent 元年'——可股价反跌约 9%，被 Nvidia 光芒盖过",
+      "source": "Qualcomm",
+      "source_name": "Gizmochina",
+      "source_url": "https://www.gizmochina.com/2026/06/02/qualcomm-announces-new-chip-brand-dragonfly-aimed-squarely-at-data-centers/",
+      "story_key": "qualcomm-dragonfly-datacenter",
+      "event_date": "2026-06-01",
+      "summary": "Qualcomm CEO Cristiano Amon 6-1 在 Computex keynote 宣布 2026 是'AI agent 元年'，正式推出数据中心芯片品牌 Dragonfly——涵盖 CPU、AI 推理加速器与 ASIC 三类，标志 Qualcomm 正式进军数据中心。未公布具体规格（6-24 投资者日给路线图），消息后 QCOM 股价反跌约 9%。",
+      "detail": "一直以手机芯片为根基的 **Qualcomm**，正式把战线推进到数据中心。CEO **Cristiano Amon** 6-1 在 Computex 2026 keynote 上宣称 **2026 是'AI agent 元年'**，并正式推出专攻数据中心的全新芯片品牌 **Dragonfly**。\n\n**Dragonfly 是什么。** 它是 Qualcomm 面向数据中心产品的专属品牌，规划**三类产品：CPU、AI 推理加速器、以及 ASIC（专用集成电路）**。Amon 表示公司正与 hyperscaler 合作，把 Dragonfly 产品部署到工业规模环境中。\n\n**先有客户、后有规格。** 发布会上 Qualcomm **未披露具体产品规格**，称将于本月晚些时候（**6-24 投资者日**）给出详细路线图。公司计划今年晚些时候出货首款数据中心 ASIC——首个客户是中国的 **ByteDance**，据报为多代际、数百万颗量级的长期合作。\n\n**市场不买账。** 尽管叙事宏大，QCOM 股价当日却**反跌约 9%**——被 Nvidia 同期的 Computex 攻势盖过，叠加缺乏硬规格，投资者对其能否真正在 Nvidia/AMD/Broadcom 主导的数据中心市场分一杯羹存疑。",
+      "key_quotes": [
+        "2026 will be the 'Year of the AI Agent'",
+        "Qualcomm is preparing three categories of data center products: CPUs, AI inference accelerators and ASICs"
+      ],
+      "significance": "这是 Qualcomm 从手机/边缘正式转身、用 Dragonfly 品牌切入数据中心 AI 推理的标志性一步，瞄准的是 Nvidia 训练霸权之外、增长更快的'推理'蛋糕。但'先有客户（ByteDance）、规格留到投资者日'的打法和当日 ~9% 的股价下跌，说明市场对'又一个挑战 Nvidia 的故事'已相当谨慎——叙事容易，落地难。",
+      "links": [
+        "https://www.gizmochina.com/2026/06/02/qualcomm-announces-new-chip-brand-dragonfly-aimed-squarely-at-data-centers/",
+        "https://www.digitimes.com/news/a20260602PD217/qualcomm-ai-agent-data-center-market-computex-2026.html"
+      ],
+      "image": "assets/logos/qualcomm-logo.png",
+      "image_type": "logo",
+      "tags": ["Qualcomm", "Dragonfly", "数据中心", "AI 推理", "Computex", "ASIC"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "Tencent 要给十几亿人的 WeChat 装一个 AI agent：最快本月走合规、迈向公开上线——消息一出腾讯股价跳涨",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-02/tencent-gains-after-report-it-s-set-to-launch-wechat-ai-agent",
+      "story_key": "tencent-wechat-ai-agent",
+      "event_date": "2026-06-02",
+      "summary": "据 FT、Bloomberg 6-2 报道，Tencent 计划最快本月为 WeChat 的 AI agent 启动合规流程、迈向公开发布；消息令腾讯股价跳涨。这将把 AI agent 直接嵌入中国最大的超级 app。",
+      "detail": "中国互联网巨头 **Tencent** 准备把 AI agent 直接装进它的国民级超级 app。据《金融时报》报道、Bloomberg 6-2 跟进：Tencent 计划**最快本月（this month）**为 WeChat 的 AI agent 启动一项**合规流程**，以推进公开发布。\n\n**为什么重要。** WeChat 覆盖十几亿用户，集社交、支付、小程序、生活服务于一体——把一个能自主完成任务的 AI agent 嵌进这样一个超级入口，潜在的就是全球用户规模最大的消费级 agent 部署之一。\n\n**合规是闸门。** 报道强调，公开上线需先走完中国对生成式 AI 产品的合规流程，这也是时间表的关键变量。消息一出，**腾讯股价跳涨**，显示市场把'WeChat 原生 agent'视为重要催化剂。",
+      "key_quotes": [
+        "plans to begin a compliance process for a public launch of the agent as soon as this month"
+      ],
+      "significance": "若落地，WeChat 的分发能力可能让它一夜成为体量最大的消费级 AI agent 之一，并把中国大厂的 agent 竞赛从'模型比拼'推进到'超级 app 入口之争'。同时它也提示：在中国，决定上线节奏的往往不是模型能力，而是合规审批这道闸门。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-02/tencent-gains-after-report-it-s-set-to-launch-wechat-ai-agent"
+      ],
+      "tags": ["Tencent", "WeChat", "AI agent", "中国 AI", "超级 app"],
+      "category": "news"
+    }
+  ]
+}

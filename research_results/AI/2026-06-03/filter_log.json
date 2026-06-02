@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-03",
+  "total_candidates": 14,
+  "kept": 6,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "trump-ai-safety-executive-order",
+      "event_date": "2026-06-02",
+      "title_en": "Trump signs AI safety executive order seeking voluntary pre-release model review",
+      "source": "NPR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Trump signed an AI safety EO on 6-2 asking labs to voluntarily submit top models for up to 30 days of govt testing before release; also directs cyber-capability benchmarks and an AI cybersecurity clearinghouse. Marks a shift from the hands-off stance."
+    },
+    {
+      "story_key": "openai-codex-chatgpt-business",
+      "event_date": "2026-06-02",
+      "title_en": "OpenAI 'Intelligence at Work': Codex everywhere in ChatGPT, six business plugins, Sites",
+      "source": "9to5Mac",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. At a 6-2 livestream OpenAI announced Codex inside the ChatGPT app everywhere, six business-focused Codex plugins (sales, data analytics, creative, product design, public-equity investing, investment banking), annotations for docs/sheets/slides, and Sites (Codex builds shareable web apps)."
+    },
+    {
+      "story_key": "microsoft-build-2026-polaris",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft unveils seven homegrown MAI models incl first reasoning model MAI-Thinking-1, plus Project Solara devices",
+      "source": "GeekWire",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Published 6-2 as Project Polaris + Windows Agent Framework. New info: Suleyman revealed SEVEN in-house MAI models including MAI-Thinking-1 (Microsoft's first reasoning model, 35B params, matches Claude Opus 4.6 on coding, no distillation), MAI-Code-1, MAI-Image 2.5, MAI-Voice 2, MAI-Transcribe 1.5, and Project Solara agent-first concept devices (smart-clock + work badge). Distinct self-sufficiency push beyond Polaris/WAF."
+    },
+    {
+      "story_key": "anthropic-tpu-36b-debt-financing",
+      "event_date": "2026-06-02",
+      "title_en": "Apollo + Blackstone syndicate record $36B chip-debt deal to buy Google TPUs for Anthropic",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Apollo and Blackstone arranging ~$36B private-credit/debt to buy custom Google TPUs that Anthropic leases; Broadcom backstops the largest tranches. Books open this week with pricing details emerging — would be the largest private-credit deal and biggest chip-financing debt transaction in history."
+    },
+    {
+      "story_key": "qualcomm-dragonfly-datacenter",
+      "event_date": "2026-06-01",
+      "title_en": "Qualcomm launches Dragonfly data-center chip brand at Computex; stock falls ~9%",
+      "source": "Gizmochina",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. At Computex (6-1) CEO Cristiano Amon declared 2026 the 'Year of the AI Agent' and launched Dragonfly, a dedicated data-center brand spanning CPUs, AI inference accelerators and ASICs — Qualcomm's formal data-center entry. No specs given (roadmap promised June 24 Investor Day); QCOM fell ~9%, overshadowed by Nvidia."
+    },
+    {
+      "story_key": "tencent-wechat-ai-agent",
+      "event_date": "2026-06-02",
+      "title_en": "Tencent set to launch WeChat AI agent; shares jump",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. FT/Bloomberg (6-2): Tencent plans to begin a compliance process for a public launch of a WeChat AI agent as soon as this month; Tencent shares jumped on the report."
+    },
+    {
+      "story_key": "google-gemma-4",
+      "event_date": "2026-04-02",
+      "title_en": "Google Gemma 4 open models (Apache 2.0)",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-02 is ~2 months old (>5 day limit). Surfaced in search but not new."
+    },
+    {
+      "story_key": "runway-series-e",
+      "event_date": "2026-02-10",
+      "title_en": "Runway raises $315M Series E at $5.3B",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-02-10; ~4 months old. A misleading Crunchbase snippet implied 6-2, but the round closed in February."
+    },
+    {
+      "story_key": "meta-muse-spark",
+      "event_date": "2026-04-08",
+      "title_en": "Meta debuts Muse Spark flagship model (Superintelligence Labs)",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-08; ~2 months old (>5 day limit)."
+    },
+    {
+      "story_key": "novo-nordisk-openai",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk partners with OpenAI across R&D/manufacturing",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14; ~7 weeks old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-gates-foundation",
+      "event_date": "2026-05-15",
+      "title_en": "Anthropic + Gates Foundation $200M global-health AI pact",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-15 is 19 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openrouter-series-b",
+      "event_date": "2026-05-26",
+      "title_en": "OpenRouter raises $113M Series B at $1.3B (CapitalG)",
+      "source": "Crunchbase",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-26 is 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-06-01",
+      "title_en": "Nvidia declares Vera Rubin in full production, RTX Spark PC chip, GR00T N2 at Computex",
+      "source": "NVIDIA",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Computex/Vera Rubin/N1X narrative already published across 5-27, 5-27, and 6-1 (incl. N1X laptop chip = RTX Spark and Vera Rubin NVL72 production). The 'full production' declaration is the same storyline with no substantively new fact for readers."
+    },
+    {
+      "story_key": "xai-grok-v9-cursor-option",
+      "event_date": "2026-05-28",
+      "title_en": "Grok V9-Medium finishes training; SpaceXAI holds option to buy Cursor for $60B",
+      "source": "TechTimes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-28 is 6 days old (>5 day limit); release only 'expected mid-June' with no 6-1+ development confirmed."
+    }
+  ]
+}
