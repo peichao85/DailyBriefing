@@ -8,26 +8,36 @@ DailyBriefing is an automated daily Tech & AI news briefing system. It researche
 
 ## Pipeline Architecture
 
+Three independent briefings, each its own cron job and entry script. Shared bash
+lives in `scripts/briefing-common.sh` (env setup, `run_stage`, `commit_and_push`
+with manifest rebuild + rebase-safe push). Each script rebuilds `web/manifest.json`
+from disk and commits/pushes its own outputs.
+
 ```
-Stage 1: Research ($20) ──→ Stage 2: PDF Builder ($5)  ──→ git commit & push
-                         └──→ Stage 3: Web Builder ($5) ──┘
+run-ai-briefing.sh:   Research ($20) ──→ PDF Builder ($7)  ──→ commit & push  (web/AI, pdf/AI, research_results/AI)
+                                      └─→ Web Builder ($5) ──┘
+run-github-trending.sh: GitHub Trending ($3) ─────────────→ commit & push  (web/GitHub, research_results/GitHub)
+run-us-stocks-briefing.sh: --check-only guard → US Stocks ($15) → commit & push  (web/USStocks, research_results/USStocks)
 ```
 
-- **Research** must complete before builders start. PDF and Web builders run in parallel.
-- Research outputs to `research_results/AI/YYYY-MM-DD/` (git-tracked).
-- PDF outputs to `pdf/AI/` (git-tracked). Web outputs to `web/AI/` + `web/manifest.json` (git-tracked).
-- Each stage is a Claude Code skill in `skills/`. The orchestrator is `skills/daily_AI_briefing/`.
+- In the AI script, **Research** must finish before the PDF/Web builders, which run in parallel.
+- GitHub and US-stocks are best-effort and run on their own schedules (see `scripts/setup-cron.sh`).
+- The US-stocks pre-flight (`fetch_market_data.py --check-only`, exit 3) skips weekends/holidays/same-day re-runs.
+- Each stage is a Claude Code skill in `skills/`.
 
 ## Commands
 
 ```bash
-# Run full pipeline (research → parallel PDF+web → git push)
-./scripts/run-briefing.sh
+# Run an individual briefing end-to-end (research/build → commit & push)
+./scripts/run-ai-briefing.sh
+./scripts/run-github-trending.sh
+./scripts/run-us-stocks-briefing.sh
 
-# Install daily cron job (7:36 AM UTC)
+# Install the daily cron jobs (AI 06:58 SH, GitHub 08:30 SH,
+# US-stocks 11:00 SH Apr–Oct / 12:00 SH Nov–Mar ≈ 7h after US close)
 ./scripts/setup-cron.sh
 
-# Run individual stages
+# Run individual skill stages by hand
 claude -p "Run the ai_research skill for today"
 claude -p "Run the ai_pdf_builder skill for today"
 claude -p "Run the ai_web_builder skill for today"
@@ -47,7 +57,7 @@ claude -p "Run the ai_web_builder skill for today"
 - **No external dependencies at runtime**: Alpine.js is vendored in `web/js/`, fonts in `web/fonts/`. No CDN calls.
 - **Dark theme**: Background `#0A1628`, accent `#00C2FF`, body text `#CBD5E1`. Defined in `web/css/style.css` and inline in `index.html`.
 - **Image optimization for web**: Max 200KB, max 800px width, JPEG quality 85%.
-- **Automatic git commit message format**: `Daily AI briefing: YYYY-MM-DD` (commits `research_results/`, `web/`, and `pdf/` directories).
+- **Automatic git commit messages** (one per briefing script): `Daily AI briefing: YYYY-MM-DD`, `Daily GitHub trending: YYYY-MM-DD`, `Daily US stocks recap: YYYY-MM-DD`. Each commits only its own `web/<cat>`, `research_results/<cat>`, (and `pdf/AI` for AI) plus the rebuilt `web/manifest.json`. Log files under `research_results/*/logs/` are never pushed.
 
 ## Data Schemas
 
@@ -60,7 +70,7 @@ claude -p "Run the ai_web_builder skill for today"
 ## Environment Requirements
 
 - Claude Code CLI, Node.js/npm, Python 3 with `python-pptx`, LibreOffice (`soffice`), Poppler (`pdftoppm`), Chinese fonts (Noto Sans CJK or similar)
-- Bash timeout env vars set in `scripts/run-briefing.sh`: `BASH_DEFAULT_TIMEOUT_MS=600000` (10min), `BASH_MAX_TIMEOUT_MS=900000` (15min)
+- Bash timeout env vars set in `scripts/briefing-common.sh`: `BASH_DEFAULT_TIMEOUT_MS=600000` (10min), `BASH_MAX_TIMEOUT_MS=900000` (15min)
 
 ## Skills System
 

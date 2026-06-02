@@ -24,8 +24,11 @@ After all stages complete, the pipeline commits and pushes changes to GitHub, wh
 ```
 ├── index.html                  ← Web entry point (GitHub Pages root)
 ├── scripts/
-│   ├── run-briefing.sh      ← Main pipeline orchestration script
-│   └── setup-cron.sh           ← Installs daily cron job
+│   ├── briefing-common.sh       ← Shared bash (env, run_stage, commit_and_push)
+│   ├── run-ai-briefing.sh       ← AI pipeline: research → PDF + web
+│   ├── run-github-trending.sh   ← GitHub trending briefing
+│   ├── run-us-stocks-briefing.sh ← US-stocks (美股复盘) recap
+│   └── setup-cron.sh            ← Installs the three daily cron jobs
 ├── skills/                     ← Claude Code skills (pipeline stages)
 │   ├── ai_research/            ← Stage 1: research & data gathering
 │   ├── ai_pdf_builder/         ← Stage 2: PPTX → PDF generation
@@ -60,10 +63,12 @@ After all stages complete, the pipeline commits and pushes changes to GitHub, wh
 
 ## Usage
 
-### Run the full pipeline manually
+### Run a briefing manually
 
 ```bash
-./scripts/run-briefing.sh
+./scripts/run-ai-briefing.sh         # research → PDF + web → commit & push
+./scripts/run-github-trending.sh     # GitHub trending → commit & push
+./scripts/run-us-stocks-briefing.sh  # US-stocks recap → commit & push
 ```
 
 ### Set up the daily cron job
@@ -105,11 +110,13 @@ The web interface is a single-page app with:
 
 | Setting | Value | Location |
 |---------|-------|----------|
-| Cron schedule | `36 07 * * *` (7:36 AM UTC daily) | `scripts/setup-cron.sh` |
+| Cron — AI briefing | `58 06 * * *` (06:58 Asia/Shanghai) | `scripts/setup-cron.sh` |
+| Cron — GitHub trending | `30 08 * * *` (08:30 Asia/Shanghai) | `scripts/setup-cron.sh` |
+| Cron — US-stocks recap | 11:00 Asia/Shanghai (Apr–Oct) / 12:00 (Nov–Mar), ≈7h after US close | `scripts/setup-cron.sh` |
 | Research budget | $20 USD per run | `skills/ai_research/` |
 | PDF budget | $5 USD per run | `skills/ai_pdf_builder/` |
 | Web budget | $5 USD per run | `skills/ai_web_builder/` |
-| Bash timeout | 10 min default / 15 min max | `scripts/run-briefing.sh` |
+| Bash timeout | 10 min default / 15 min max | `scripts/briefing-common.sh` |
 
 ## License
 
