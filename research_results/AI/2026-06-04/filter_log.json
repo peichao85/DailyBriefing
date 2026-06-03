@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-04",
+  "total_candidates": 11,
+  "kept": 6,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "deepseek-74b-funding",
+      "event_date": "2026-06-03",
+      "title_en": "DeepSeek nears $7.4B first-ever funding round at ~$59B valuation, led by Tencent and CATL",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. China's largest-ever startup raise; first external funding after long self-funding; ~6x valuation jump from $10B (April)."
+    },
+    {
+      "story_key": "eu-tech-sovereignty-package",
+      "event_date": "2026-06-03",
+      "title_en": "European Commission proposes Tech Sovereignty Package: Chips Act 2.0 + Cloud and AI Development Act",
+      "source": "European Commission",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major EU policy: triple datacenter capacity in 5-7 years, prioritize advanced foundry, cloud/AI sovereignty framework."
+    },
+    {
+      "story_key": "anthropic-claude-partner-network",
+      "event_date": "2026-06-03",
+      "title_en": "Anthropic adds Services Track tiers + Partner Hub to Claude Partner Network",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. 3-tier certified-services structure (Select/Preferred/Global Premier); 40,000 firms applied, 10,000 certified consultants since March."
+    },
+    {
+      "story_key": "coralogix-series-f-agent-observability",
+      "event_date": "2026-06-03",
+      "title_en": "Coralogix raises $200M Series F at $1.6B to build the monitoring layer for AI agents",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Observability bet on autonomous agents; >$100M ARR, 60% growth, led by Advent + CPPIB."
+    },
+    {
+      "story_key": "tempus-lens-oncology-agentic",
+      "event_date": "2026-05-31",
+      "title_en": "Tempus unveils next-gen Lens, an agentic AI platform for oncology drug development",
+      "source": "Business Wire",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. event_date 2026-05-31 is 4 days old (within 5-day limit). Validated AI agents for biomarker validation and trial design."
+    },
+    {
+      "story_key": "apoha-waveform-materials-ai",
+      "event_date": "2026-06-03",
+      "title_en": "Apoha exits stealth with $36M to build materials-discovery AI from liquid 'wave form' data",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel approach (VIBE wave-form embeddings); Boehringer Ingelheim partnership at >90% precision on antibody screening."
+    },
+    {
+      "story_key": "gemini-3-5-flash",
+      "event_date": "2026-05-19",
+      "title_en": "Google Gemini 3.5 Flash beats 3.1 Pro on coding/agentic benchmarks",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 (Google I/O) is 16 days old (>5 day limit). Gemini 3.5 Pro GA not yet shipped."
+    },
+    {
+      "story_key": "xai-grok-build",
+      "event_date": "2026-05-14",
+      "title_en": "xAI launches Grok Build coding agent in early beta",
+      "source": "Engadget",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is 21 days old (>5 day limit)."
+    },
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-06-02",
+      "title_en": "Nvidia brands its N1X laptop SoC as 'RTX Spark' at GTC Taipei",
+      "source": "TechRadar",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-01 covering the N1X laptop SoC and Vera Rubin. RTX Spark is the consumer brand name for the same N1X chip; no substantive new facts beyond rebranding."
+    },
+    {
+      "story_key": "microsoft-build-2026-polaris",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft details MAI-Code-1-Flash and MAI-Thinking-1 at Build",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-02 (Suleyman's 7 MAI models incl. MAI-Thinking-1 and MAI-Code-1). No substantive new information."
+    },
+    {
+      "story_key": "openai-codex-chatgpt-business",
+      "event_date": "2026-06-02",
+      "title_en": "OpenAI Codex now used by 5M+ weekly; Sites and annotations recap",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-02 (Codex into ChatGPT, 6 business plugins, Sites, annotations). Weekly-usage figure alone is not a substantive new development."
+    }
+  ]
+}

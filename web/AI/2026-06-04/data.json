@@ -1,0 +1,144 @@
+{
+  "date": "2026-06-04",
+  "category": "AI",
+  "title": "最自给自足的中国前沿实验室也撑不住烧钱了：拒了所有外部钱的 DeepSeek 开闸首轮就要 $74 亿、估值两月暴涨 6 倍冲 ~$590 亿，腾讯 / CATL / 国家队同台；欧盟同日甩出 Chips Act 2.0 + 云与 AI 法案要 5–7 年把数据中心翻三倍，官员撂话「不能让任何人手握 kill switch」；Anthropic 给咨询生态立三档 KPI、资本则系统性为「盯梢自主 agent」买单",
+  "items": [
+    {
+      "id": "1",
+      "title": "一直拒外部钱的 DeepSeek 终于开闸：首轮就要 ¥500 亿 / $74 亿，估值两个月暴涨 6 倍冲 ~$590 亿——腾讯认 ¥100 亿、CATL ¥50 亿、创始人梁文锋自掏 ¥200 亿，北京'国家队'进场",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal",
+      "story_key": "deepseek-74b-funding",
+      "event_date": "2026-06-03",
+      "summary": "据 Bloomberg 6-3 报道，长期拒绝外部融资、坚持自掏腰包追 AGI 的 DeepSeek 正接近敲定成立以来首轮外部融资——约 ¥500 亿（$74 亿），投后估值接近 ¥4000 亿（~$590 亿），较 4 月约 $100 亿估值暴涨约 6 倍，有望成为中国史上最大单笔创业融资之一。",
+      "detail": "DeepSeek 长期以'专注 AGI、不被资本绑架'为由拒绝外部融资，靠创始人梁文锋的量化基金幻方（High-Flyer）输血。6-3 这一轮是公司成立以来首次对外开闸，结构高度集中——计划把投资人数控制在 10 家以内，预计未来两周内完成。\n\n出资名单已现雏形：梁文锋本人自掏约 ¥200 亿领投；腾讯考虑 ¥100 亿、CATL（宁德时代）约 ¥50 亿、NetEase（网易）与 JD.com（京东）各约 ¥30 亿，将成为最大外部投资者；VC 侧包括 IDG Capital、Monolith、Loyal Valley Capital、Shixiang Tech 等。多家报道还提到国家背景的'国家人工智能产业投资基金'参与——被视为北京层面对 DeepSeek 的一次明确背书。\n\n投后估值接近 $590 亿（一说 $520–590 亿区间），相较 4 月一度流传的约 $100 亿估值实现约 6 倍跃升。这笔钱被普遍解读为 DeepSeek 在全球前沿竞赛白热化、算力与人才成本飙升背景下，对此前'纯自筹'路线的一次战略转向。",
+      "key_quotes": [
+        "DeepSeek long rejected external funding to focus on pursuit of artificial general intelligence.",
+        "The round marks a six-fold leap in valuation amid intensifying global competition."
+      ],
+      "significance": "这是 DeepSeek 自我定位的根本转向：从'拒绝资本、靠幻方输血追 AGI'到接受巨额外部资金，意味着即便最自给自足的中国前沿实验室也撑不住算力军备竞赛的烧钱速度。腾讯、CATL、网易、京东加上国家级基金同台，等于把 DeepSeek 抬成'中国 AI 国家队'的核心载体；接近 $600 亿的估值也让它一举进入全球前沿实验室估值第一梯队的讨论范围。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal",
+        "https://www.scmp.com/tech/big-tech/article/3355818/deepseek-nears-us7b-haul-first-ever-funding-round-backing-tencent-catl",
+        "https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html"
+      ],
+      "image": "assets/logos/deepseek-logo.png",
+      "image_type": "logo",
+      "tags": ["DeepSeek", "融资", "中国AI", "腾讯", "CATL"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "欧盟 6-3 甩出'技术主权大礼包'：Chips Act 2.0 + Cloud and AI Development Act——要 5–7 年内把数据中心容量翻三倍、在欧洲建先进晶圆厂，官员撂话'不能让任何人手握 kill switch'",
+      "source": "European Commission",
+      "source_name": "European Commission",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-tech-sovereignty-package-strengthen-europes-digital-autonomy-and-resilience",
+      "story_key": "eu-tech-sovereignty-package",
+      "event_date": "2026-06-03",
+      "summary": "欧盟委员会 6-3 发布'欧洲技术主权一揽子计划'，涵盖半导体、AI、云与开源，核心是两部立法提案——Chips Act 2.0 与 Cloud and AI Development Act——目标 5–7 年内把欧洲数据中心容量翻三倍、优先在欧盟内建先进制程晶圆厂，并建立统一的云与 AI 主权评估框架。",
+      "detail": "面对核心数字技术高度依赖美国供应商、AI 又把算力需求推向新高，欧盟委员会 6-3 端出'技术主权一揽子计划'，希望让欧洲在 AI 上从依赖者转为领跑者。\n\n两部立法提案是重点：**Chips Act 2.0** 旨在补强先进半导体产能、撬动供需两端投资，委员会明确表示将'优先'在区内建设先进制程晶圆厂；**Cloud and AI Development Act** 作为'AI Continent Action Plan'的一部分，要简化全欧数据中心部署条件、设立全欧统一的云与 AI 主权评估框架，并定下'5–7 年内数据中心容量翻三倍'的硬目标。配套还有开源战略与能源数字化/AI 战略路线图。\n\n欧盟官员把基调定在'保护公民'与'掌握自主权'——据 CNBC 报道，有官员直言推动该计划是因为'我们要确保没有任何人手握 kill switch（断电开关）'，矛头直指对域外厂商的过度依赖。",
+      "key_quotes": [
+        "We want to be sure nobody has a kill switch.",
+        "The Cloud and AI Development Act will set a goal of tripling data center capacity in Europe over the next five-to-seven years."
+      ],
+      "significance": "这是欧盟把'数字主权'从口号变成立法动作的关键一步：Chips Act 2.0 直接对标台积电/英特尔级别的先进晶圆制造，Cloud and AI Development Act 则为本土算力扩张和'主权云'松绑。对全球 AI 格局而言，欧洲正式从'监管者'转向'建设者+保护主义者'，叠加 SoftBank、Mistral 等本土投入，欧洲算力自给的路线图开始成形，也给美系云厂商在欧业务埋下合规与本地化压力。",
+      "links": [
+        "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-tech-sovereignty-package-strengthen-europes-digital-autonomy-and-resilience",
+        "https://www.cnbc.com/2026/06/03/europe-tech-sovereignty-us-tech-reliance.html",
+        "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en"
+      ],
+      "tags": ["欧盟", "芯片", "数据中心", "AI政策", "数字主权"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Anthropic 给咨询生态立 KPI：Claude Partner Network 上线 Services Track 三档认证 + Partner Hub——3 个月已 4 万家申请、1 万名顾问拿证，最高 Global Premier 要 1000 名持证 + 100 客户",
+      "source": "Anthropic",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "story_key": "anthropic-claude-partner-network",
+      "event_date": "2026-06-03",
+      "summary": "Anthropic 6-3 为成立仅 3 个月的 Claude Partner Network 加上两块拼图：分级的 Services Track 与 Partner Hub 门户。Services Track 按'持证顾问数 / 生产部署数 / 客户背书数'分 Select、Preferred、Global Premier 三档；自 3 月上线以来已有逾 4 万家公司申请、逾 1 万名顾问拿到 Claude 认证。",
+      "detail": "Anthropic 6-3 宣布把 Claude 更深地推进企业服务市场，为合作网络补上'能力分级'与'可视化门户'两件事。\n\n**Services Track** 用硬指标给服务商分级：**Select** 需至少 10 名持 Claude 认证的顾问、2 个生产环境客户部署、1 条公开客户背书；**Preferred** 抬到 100 名持证顾问、15 个活跃部署客户、3 条公开背书；顶档 **Global Premier** 要求 1000 名持证顾问、覆盖至少 3 个地区的 100 个客户部署、15 条公开背书，外加由具名高管牵头、双方共建的业务计划。**Partner Hub** 则是一个门户：合作伙伴能实时看到自己距离各档要求还差多少，客户也能据此找到最适配项目规模的服务商。\n\n公司称自 3 月该网络上线以来，已有逾 **40,000 家公司**申请、逾 **10,000 名顾问**拿到 Claude 认证。",
+      "key_quotes": [
+        "The Services Track reflects what a firm has actually built and delivered with Claude.",
+        "More than 40,000 firms have applied and more than 10,000 consultants have earned a Claude certification since March."
+      ],
+      "significance": "这是 Anthropic 把'模型能力'变成'渠道与生态护城河'的标准动作——对标 AWS/Microsoft/Salesforce 的合作伙伴分级体系。用认证、部署量、客户背书三把尺子给咨询商排座次，等于让埃森哲、德勤这类系统集成商为'谁更懂 Claude'明牌竞赛，把企业落地的中间层牢牢绑在 Claude 上。在 Claude Code 已领跑编程市场之际，这一步是从'卖 token'向'卖企业落地能力'的纵深延伸。",
+      "links": [
+        "https://www.anthropic.com/news/services-track-partner-hub",
+        "https://qz.com/anthropic-claude-partner-network-services-track-hub-enterprise-060326",
+        "https://www.pymnts.com/artificial-intelligence-2/2026/anthropic-updates-partner-program-as-enterprise-ai-adoption-grows/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude", "合作伙伴", "企业服务", "认证"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "AI agent 越自主越要被盯梢：可观测性公司 Coralogix 收 $2 亿 Series F、估值 $16 亿——押注'监控自主 agent'成刚需，年营收破 $1 亿、增超 60%，CEO 称'仪表盘正被 AI 助手蚕食'",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "story_key": "coralogix-series-f-agent-observability",
+      "event_date": "2026-06-03",
+      "summary": "软件可观测性公司 Coralogix 6-3 宣布完成 $2 亿 Series F，投后估值 $16 亿，由 Advent 与加拿大养老金 CPPIB 领投。公司押注：随着能自主写代码、自主完成任务的 AI agent 大规模进入生产环境，企业将急需一层专门'监控 agent 行为、诊断故障'的工具。",
+      "detail": "Coralogix 做的是收集并分析日志、指标、链路（logs/metrics/traces），帮企业监控软件健康、排查宕机、优化应用，客户超 5,000 家，包括 IBM、Tradeweb、JFrog。6-3 这轮 $2 亿 Series F 由 Advent 与 CPPIB 领投，Greenfield Partners、Brighton Park Capital 跟投，累计融资达 $5.5 亿，投后估值 $16 亿。\n\n增长数据撑起这次加注：过去一年营收增长超 **60%**、年化营收一年多前已破 **$1 亿**、约 **30 个企业客户年付费超 $100 万**，全球 600+ 员工。\n\n核心叙事是'AI agent 可观测性'：当自主 agent 在生产环境里越来越多地自己写代码、自己干活，企业需要更精细的工具去追踪它们的行为、定位失败、维持可靠性。CEO Ariel Assaraf 还点出一个有意思的趋势——'界面层正在被慢慢蚕食'，客户越来越倾向用 AI 助手而非传统仪表盘来查询运维数据。",
+      "key_quotes": [
+        "The interface layer is slowly getting eroded.",
+        "Customers prefer querying operational data through AI assistants rather than traditional dashboards."
+      ],
+      "significance": "这笔钱押的是 AI 时代基础设施里一个正在成形的新刚需：'agent 可观测性'。当软件不再只由人写、而是由自主 agent 在生产环境里持续改动，谁来监控这些 agent 不出乱子就成了企业必买项——这与本周早些时候 Tensormesh 等推理层创业的热度一脉相承，资本正系统性地为'agent 运行时'这一层买单。CEO 关于'仪表盘被 AI 助手蚕食'的判断，也预示运维交互范式可能从'看图'转向'问 AI'。",
+      "links": [
+        "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+        "https://www.startuphub.ai/ai-news/technology/2026/databricks-crushes-monitoring-scale"
+      ],
+      "tags": ["Coralogix", "可观测性", "AI agent", "融资", "企业软件"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "Tempus 把'agentic AI'搬进抗癌药研发：新一代 Lens 平台用验证过的 AI agent 跑 biomarker / 试验设计——结果可交互可分享，还能一键切到 code view 审计底层分析逻辑",
+      "source": "Business Wire",
+      "source_name": "Business Wire",
+      "source_url": "https://www.businesswire.com/news/home/20260531652876/en/Tempus-Unveils-the-Next-Generation-of-Lens-Expanding-its-Agentic-AI-Platform-for-Oncology-Drug-Development",
+      "story_key": "tempus-lens-oncology-agentic",
+      "event_date": "2026-05-31",
+      "summary": "Tempus AI 5-31 发布新一代 Lens——面向肿瘤药物研发的 agentic AI 平台，把全球最大的真实世界多模态数据集之一、肿瘤基础模型、经验证的 AI agent 与科研工作流整合到同一平台，目标是以药物研发所需的速度产出可执行洞见。",
+      "detail": "Tempus 5-31 把旗舰平台 Lens 升级为'agentic'形态，主打把数据、AI 工具与算力打通成一个连续的研发工作台。\n\n平台内置一批**定制且经过验证的 AI agent**，针对真实世界数据的常见场景（如 biomarker 验证、临床试验设计支持）做了优化，对应药物研发的不同阶段。产出形式强调可用性与可审计：结果通过交互式、可分享的应用与报告呈现，用户可随时切到 'code view' 审计底层分析逻辑，或把整个项目导出到私有 Workspace。整套能力建立在十余年纵向真实世界数据，以及把这些数据转化为可用证据的多年经验之上。",
+      "key_quotes": [
+        "Lens combines one of the world's largest real-world multimodal datasets, oncology foundation models, validated AI agents, and scientific workflows in a single platform."
+      ],
+      "significance": "这是 agentic AI 在生命科学落地的一个具体样本：不是聊天机器人，而是把'验证过的 agent + 真实世界肿瘤数据 + 可审计输出'打包给药企的研发流程。可切换 code view、可导出私有 Workspace 的设计直指生物医药对可解释性与合规的硬要求——在 OpenAI Rosalind、各家纷纷进军科学 AI 的当口，Tempus 用自有数据壁垒在肿瘤这个高价值垂直领域卡位。",
+      "links": [
+        "https://www.businesswire.com/news/home/20260531652876/en/Tempus-Unveils-the-Next-Generation-of-Lens-Expanding-its-Agentic-AI-Platform-for-Oncology-Drug-Development",
+        "https://www.biospace.com/press-releases/tempus-unveils-the-next-generation-of-lens-expanding-its-agentic-ai-platform-for-oncology-drug-development"
+      ],
+      "tags": ["Tempus", "医疗AI", "agentic AI", "药物研发", "肿瘤"],
+      "category": "research"
+    },
+    {
+      "id": "6",
+      "title": "从 stealth 走出的 Apoha 募 $3600 万：不学分子结构，改学材料在液体里'抖'出来的波形——VIBE 几分钟出 1000+ 维'行为指纹'，已和 Boehringer 用 >90% 精度筛抗体",
+      "source": "Fortune",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/06/03/apoha-36-million-series-a-funding-round-exit-stealth-wave-form-ai-liquid-intelligence/",
+      "story_key": "apoha-waveform-materials-ai",
+      "event_date": "2026-06-03",
+      "summary": "深科技创业公司 Apoha 6-3 带着 $3600 万融资走出 stealth——它不去建模分子结构，而是测量材料样本悬浮在液体、受控施力时产生的'波形'，每个样本几分钟内生成 1000+ 维数值描述符，转成 AI 可学习的'行为指纹'，用于发现蛋白质、食品、涂料等新物质。",
+      "detail": "Apoha 走的是一条与主流'结构建模'不同的材料发现路线。其测量系统 **VIBE（Variations in Inter-facial Behaviour Under Excitation）** 让材料样本悬浮在液体中并施加受控物理应力，捕捉其产生的波动模式——几分钟内为每个样本产出 **1000+ 个数值描述符**（传统测试需数天到数周），CEO Shamit Shrivastava 称之为可供 AI 学习的'behavioral embedding（行为嵌入/指纹）'。\n\n融资方面，$3600 万来自 2024 年种子轮与 2026 年春季一轮合计，由欧洲 VC Singular 领投，Draper Associates、Redalpine、Seedcamp、Wilbe、Nucleus 跟投，并获 Innovate UK 拨款。创始团队为 CEO Shamit Shrivastava（机械工程博士、牛津博后、持液体波形分析专利）与 COO Anshika Srivastava（前高盛银行家）。\n\n成绩单上，公司与 **Boehringer Ingelheim** 合作，以 **>90% 精度**识别高风险抗体候选；在 236 个临床试验抗体上，其平台跑赢 12 项行业标准制药测试；已完成约 40 个客户项目，团队 25 人。",
+      "key_quotes": [
+        "VIBE converts measurements into a behavioral embedding — a numerical fingerprint AI models can learn from.",
+        "The platform outperformed 12 industry-standard pharmaceutical tests on 236 clinical-trial antibodies."
+      ],
+      "significance": "Apoha 代表 AI for science 的一个反直觉方向：与其费力建模分子的静态结构，不如直接测量材料在物理激励下的动态'行为'，再交给 AI 学习。这种把物理测量转成高维 embedding 的思路，可能绕开结构预测的诸多难题，在抗体筛选、新材料、食品配方等领域提供更快更便宜的实验前过滤。和 Boehringer 的 >90% 精度结果，是这套'波形即数据'范式从理念走向产业验证的早期信号。",
+      "links": [
+        "https://fortune.com/2026/06/03/apoha-36-million-series-a-funding-round-exit-stealth-wave-form-ai-liquid-intelligence/"
+      ],
+      "tags": ["Apoha", "AI for science", "材料发现", "新药", "融资"],
+      "category": "research"
+    }
+  ]
+}
