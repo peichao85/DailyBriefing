@@ -1,0 +1,171 @@
+{
+  "date": "2026-06-05",
+  "category": "AI",
+  "title": "Vibe coding 把 Supabase 送上 $105 亿，AI 音乐 Suno 估到 $54 亿——一级市场狂热融资的同时，二级市场开始追问 $7000 亿资本开支何时回本",
+  "items": [
+    {
+      "id": "1",
+      "title": "Vibe coding 把数据库公司送上 $105 亿：Supabase 一年估值翻倍——9 月才 $50 亿、现在 $500M Series F 估到 $10.5B，平台上数据库一年暴涨 600%，多数由 Claude Code / Codex 自动建出来",
+      "source": "Supabase",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/04/database-startup-supabase-raises-500-million-10point5-billion-valuation.html",
+      "story_key": "supabase-series-f",
+      "event_date": "2026-06-04",
+      "summary": "开源 Postgres 平台 Supabase 6-4 宣布完成 $5 亿 Series F、投后估值 $105 亿，较去年 10 月的 $50 亿翻倍——平台上的数据库数量一年暴涨 600%，其中大多数如今由 Claude Code 与 OpenAI Codex 这类 AI 编程工具自动创建。",
+      "detail": "Supabase 6 月 4 日宣布完成 $5 亿（$500M）Series F 融资，投后估值达 $105 亿（$10.5B）——较 2025 年 10 月那轮 $50 亿估值在约 8 个月内直接翻倍。公司由 Paul Copplestone（CEO）与 Ant Wilson（CTO）于 2020 年创立，提供基于开源 PostgreSQL 的后端开发平台（数据库、鉴权、存储、向量检索等），早于 LLM 引爆的 vibe-coding 热潮成立，如今成为这股浪潮最大的受益者之一。\n\n增长数据极为陡峭：平台开发者已超 900 万，自上轮融资以来用户翻倍有余；平台上托管的数据库数量同比暴涨 600%。公司明确表示，这些新增数据库中的大多数由 AI 编程工具自动创建——其中 Anthropic 的 Claude Code 是 2026 年最大的单一来源，OpenAI 的 Codex 紧随其后。换句话说，当人们用自然语言'让 AI 帮我建个 app'时，AI 在后台默默替他们开了一个 Supabase 后端。公司同时发布了开源横向扩展层 Multigres 的预览版，为 Postgres 生态带来分片、零停机迁移与高可用能力，剑指更大规模的生产负载。",
+      "key_quotes": [
+        "More than 9 million developers use Supabase; databases on the platform are up 600% year over year.",
+        "Claude Code and Codex are now responsible for the majority of databases created on Supabase, with Claude Code the largest contributor in 2026."
+      ],
+      "significance": "这是 AI 编程浪潮第一次以如此清晰的财务数字外溢到基础设施层：vibe coding 不只是养肥了 Cursor、Claude Code、Codex 这些'前端'工具，也在'后端'催生了真实、可计量的算力与数据库需求。Supabase 一年估值翻倍、数据库数 600% 的增长，给'AI 编程到底有没有真实落地'提供了一个难得的、非厂商自报的旁证——AI 写出来的代码正在被部署、被托管、在跑。",
+      "links": [
+        "https://www.cnbc.com/2026/06/04/database-startup-supabase-raises-500-million-10point5-billion-valuation.html",
+        "https://www.prnewswire.com/news-releases/supabase-raises-500m-at-10-5b-to-accelerate-lead-in-agentic-infrastructure-302791787.html"
+      ],
+      "image": "assets/logos/supabase-logo.png",
+      "image_type": "logo",
+      "tags": ["Supabase", "vibe coding", "融资", "Postgres", "AI编程"],
+      "category": "builders"
+    },
+    {
+      "id": "2",
+      "title": "$7000 亿 AI 豪赌的另一面：分析师警告投资人正逼近'忍耐极限'——四大科技今年合计砸 $700B 资本开支，若需求换不来'有利润的收入'，市场要的就不再是愿景而是抵押品",
+      "source": "The National",
+      "source_name": "The National",
+      "source_url": "https://www.thenationalnews.com/future/technology/2026/06/04/how-big-techs-misstep-on-700bn-ai-bet-may-drive-investors-to-breaking-point/",
+      "story_key": "bigtech-700b-ai-capex-doubts",
+      "event_date": "2026-06-04",
+      "summary": "6-4 一篇分析指出，Alphabet、Amazon、Meta、Microsoft、Apple 今年 AI 资本开支合计逼近 $7000 亿，但若巨额投入无法转化为'有利润的收入'，投资人会从'为规模买单'转向'要求更硬的回报与条款'，AI 叙事正逼近一个'忍耐极限'。",
+      "detail": "在 Alphabet 一夜开口募资 $850 亿、Anthropic 递表 IPO、SpaceX 下周路演的同一周，市场上也响起了越来越大的反向声音。6 月 4 日 The National 的一篇分析把今年的天量资本开支摆上台面：Amazon 计划资本开支约 $2000 亿、Microsoft 约 $1900 亿、Alphabet 指引最高 $1900 亿、Meta 上调到 $1250–1450 亿——五大科技合计逼近 $7000 亿。\n\n核心论点是'错配'（misstep）：钱在按炒作而非按价值创造的节奏砸出去，而需求尚未稳定转化为利润。文章引述多位分析师——Alina Timofeeva 直言'如果需求换不来有利润的收入，投资人就会要求更苛刻的条款'；Zest Equity 联创 Rawan Baddour 称'无纪律的 AI 支出会烧光资本'；媒体顾问 Mazen Hayek 提醒'前沿 AI 受制于能源与硅'。一个微妙的市场信号是：财报后 Meta、Microsoft 因开支规模承压下跌，而 Alphabet、Amazon 靠云增长上涨——华尔街已经在用脚投票，分化出'谁的烧钱配得上回报'。",
+      "key_quotes": [
+        "\"If demand does not translate into profitable revenue, investors will demand tougher terms.\" — Alina Timofeeva",
+        "\"Undisciplined AI spending will burn capital.\" — Rawan Baddour, Zest Equity",
+        "\"Frontier AI is constrained by energy and silicon.\" — Mazen Hayek"
+      ],
+      "significance": "在 AI 一级市场天量融资、IPO 排队的狂热里，这是来自二级市场的清醒提示：2026 下半年的真正分水岭，是资本叙事从'为规模融资'切换到'为回报问责'。它解释了为什么同样在砸钱，Meta/Microsoft 被打、Alphabet/Amazon 被奖——市场开始按'每一美元资本开支能否兑现现金流'重新定价，而不是按 AI 故事本身。",
+      "links": [
+        "https://www.thenationalnews.com/future/technology/2026/06/04/how-big-techs-misstep-on-700bn-ai-bet-may-drive-investors-to-breaking-point/",
+        "https://fortune.com/2026/06/03/big-techs-ai-spending-is-on-track-to-top-700-billi/"
+      ],
+      "tags": ["AI泡沫", "资本开支", "Big Tech", "投资", "宏观"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "ChatGPT 学会'做梦'：OpenAI 上线 Dreaming 记忆系统——在你离开时后台自学、自动把'7 月要去新加坡'改写成'已经去过'，服务成本砍 5×，免费用户也将用上",
+      "source": "OpenAI",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "story_key": "openai-chatgpt-dreaming-memory",
+      "event_date": "2026-06-04",
+      "summary": "OpenAI 6-4 推出名为 Dreaming 的新记忆系统：通过后台进程跨多次对话综合、刷新 ChatGPT 对用户的记忆，解决'记忆陈旧、出错、难扩展'的老问题；服务成本降约 5×，即将向免费用户推开。",
+      "detail": "OpenAI 6 月 4 日发布 Dreaming——一套'更强、更可扩展的记忆综合系统'，目标是解决 ChatGPT 记忆在数亿用户、跨多年时间尺度上的三大顽疾：陈旧（staleness）、错误（correctness）与扩展性（scalability）。\n\n机制上，Dreaming 借助一个后台进程，让 ChatGPT 在用户不在线时'回看'大量历史对话、综合并刷新记忆状态，从而在下次对话时提供最新、最相关的上下文。一个直观例子：随着时间推移，系统会把'你 7 月要去新加坡'自动改写为'你 2026 年 7 月去过新加坡'。综合出的记忆可在'记忆摘要页'查看与编辑——用户能一眼看到 ChatGPT 对自己的认知、增删信息、并指定哪些话题该在何时被主动提起。\n\n落地节奏：近期优化把服务免费用户所需算力降低约 5×，使 Dreaming 得以在未来数周向免费用户推开，并为 Plus/Pro 用户提升记忆容量。目前已开始在美国向 Plus 与 Pro 用户灰度，随后扩展到更多国家及 Free/Go 档。",
+      "key_quotes": [
+        "Dreaming lets ChatGPT learn from many conversations and synthesize its memory state to always provide the freshest, most relevant context.",
+        "Recent improvements reduced the compute required to serve dreaming to Free users by approximately 5x."
+      ],
+      "significance": "记忆是 AI 助手从'问答工具'走向'长期个人代理'的关键一环。Dreaming 把记忆从'被动追加的事实清单'升级为'会随时间自我修订的状态'，并通过 5× 的成本下降把它带给免费用户——这意味着'有记忆的 ChatGPT'要从付费特权变成默认体验，也进一步加深了用户与平台的数据黏性与切换成本。",
+      "links": [
+        "https://openai.com/index/chatgpt-memory-dreaming/",
+        "https://9to5mac.com/2026/06/04/openai-says-chatgpts-memory-feature-is-getting-smarter-and-coming-to-free-users/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "ChatGPT", "记忆", "产品"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "Stargate 的'谷仓'破土：OpenAI 与 Oracle 在密歇根 Saline 动工 $160 亿数据中心——1.4GW 吃电堪比一座核反应堆，配套给 40 万本州学生发 $4500 万 Codex 额度",
+      "source": "OpenAI",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/01/stargate-project-michigan-live-updates.html",
+      "story_key": "openai-stargate-michigan",
+      "event_date": "2026-06-01",
+      "summary": "OpenAI 与 Oracle 6-1 在密歇根 Saline Township 为 Stargate 数据中心园区（外号 The Barn '谷仓'）举行动工仪式，首期投资约 $160 亿、规划用电 1.4GW；州长 Whitmer 与 Sam Altman 同台，配套向 40 万本州学生发放 $4500 万 Codex 额度。",
+      "detail": "6 月 1 日，OpenAI 与 Oracle 在密歇根 Saline Township 为其 Stargate 超大规模数据中心园区举行正式动工仪式——这座被两家公司戏称为 The Barn（谷仓）的园区首期投资约 $160 亿，规划用电高达 1.4 吉瓦（GW），相当于一座核反应堆的发电量；整体建设预计 2027 年底完工、2028 年初投入运营。密歇根民主党州长 Gretchen Whitmer 与 OpenAI CEO Sam Altman、Oracle 高管同台站台。\n\n这一项目此前并不平静：当地农业小镇曾投票否决该数据中心计划，但数周后施工照常启动，围绕农田占用、用水用电与社区收益的争议持续发酵。为缓和阻力，方案附带一揽子社区收益——包括向 40 万名符合条件的密歇根高校、社区学院与技校学生（18 岁以上）在 2026–2027 学年发放最高 $4500 万的 Codex 使用额度，另有 $400 万农田保护信托、$800 万消防经费、$1000 万 Saline 娱乐中心改建等。Altman 也借此场合再次承认，业界此前在'AI 与就业'议题上的沟通存在失误。",
+      "key_quotes": [
+        "The data center will use 1.4 gigawatts of power — the equivalent of a nuclear reactor.",
+        "OpenAI will make up to $45 million in Codex credits available to more than 400,000 eligible Michigan students."
+      ],
+      "significance": "Stargate 从 PPT 走向'破土动工'，是 AI 算力军备竞赛进入'钢筋水泥'阶段的实证；而'小镇投票否决—照常开工—用奖学金式额度换社区支持'的剧情，也把数据中心扩张与地方政治、农田、电网之间的张力摆到台前——算力的瓶颈正越来越多地不在芯片，而在土地、电力与民意。",
+      "links": [
+        "https://www.cnbc.com/2026/06/01/stargate-project-michigan-live-updates.html",
+        "https://www.detroitnews.com/story/news/local/michigan/2026/06/01/openai-ceo-sam-altman-oracle-clay-magouyrk-visit-saline-township-data-center-site/90296951007/",
+        "https://www.datacenterdynamics.com/en/news/oracle-and-openai-start-construction-on-stargate-data-center-campus-in-saline-township-michigan/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Oracle", "Stargate", "数据中心", "算力"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "一边被三大唱片公司告、一边估值翻 2.2 倍：AI 音乐 Suno 拿 $4 亿 Series D 估到 $54 亿——Bond Capital 领投，发布稿里'刻意'不见一位艺人背书",
+      "source": "Suno",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/",
+      "story_key": "suno-series-d",
+      "event_date": "2026-06-03",
+      "summary": "AI 音乐生成公司 Suno 6-3 宣布完成 $4 亿 Series D、估值 $54 亿——七个月内从 $24.5 亿翻 2.2 倍，由 Bond Capital 领投；与此同时它仍深陷 Universal、Sony、GEMA 的版权诉讼，融资公告里没有任何具名艺人背书。",
+      "detail": "Suno 6 月 3 日宣布完成 $4 亿（$400M）Series D 融资，估值达 $54 亿（$5.4B）——相比七个月前的 $24.5 亿，估值在短时间内翻了约 2.2 倍。本轮由曾投资 OpenAI 与 Kalshi 的 Bond Capital 领投，IVP、Forerunner、Union Square Ventures、Alkeon、Quiet 等参投，Matrix、Lightspeed、Menlo、Schroders Capital 等老股东跟投。Suno 的产品让用户用文字提示生成原创歌曲，C 轮时披露的日生成量已超 700 万首、年化收入约 $2 亿。\n\n融资的另一面是悬而未决的法律风险：Suno 仍被 Universal Music Group、Sony 以及德国 GEMA 起诉，Warner 已于 2025 年 11 月和解并达成授权。Sony 与 UMG 起初指控其训练使用了 560 首受版权保护作品，近期的诉讼文件把这一指控扩大到额外 61,000+ 首。Suno 主张训练属于合理使用（fair use）。TechCrunch 还点出一个'耐人寻味'的细节：在版权阴云下，这次融资公告里没有出现任何具名艺人的背书。",
+      "key_quotes": [
+        "Suno raised $400M Series D at a $5.4B valuation, led by Bond Capital.",
+        "Sony and UMG's claims expanded from 560 copyrighted works to allegations of 61,000+ additional songs."
+      ],
+      "significance": "Suno 同时握着两张牌：飙升的用户与营收、以及可能颠覆其商业模式的版权诉讼。资本愿意在悬而未决的官司上给出 $54 亿，说明投资人押注'生成式音乐的市场'大过'法律风险'；而'公告里不敢放艺人背书'，则赤裸裸暴露了 AI 创作与内容版权之间尚未弥合的裂痕。",
+      "links": [
+        "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/",
+        "https://www.bloomberg.com/news/articles/2026-06-03/ai-music-startup-suno-raises-capital-at-5-4-billion-valuation"
+      ],
+      "tags": ["Suno", "AI音乐", "融资", "版权", "诉讼"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "ChatGPT 广告进入'效果时代'：OpenAI 给 Ads Manager 加上转化优化（Conversion-Optimized）投放——从'卖曝光'迈向'按转化要预算'，AI 助手的变现螺丝再拧一圈",
+      "source": "OpenAI",
+      "source_name": "PPC Land",
+      "source_url": "https://ppc.land/openais-chatgpt-ads-are-getting-conversion-optimization-heres-what-changes/",
+      "story_key": "openai-chatgpt-ads-manager",
+      "event_date": "2026-06-05",
+      "summary": "OpenAI 6-5 起在 ChatGPT Ads Manager Beta 向符合条件的广告主开放'转化优化'（conversion-optimized）投放——广告系统从单纯卖曝光/点击，升级为按转化目标自动优化，标志 ChatGPT 广告进入效果营销阶段。",
+      "detail": "OpenAI 6 月 5 日开始向 ChatGPT Ads Manager Beta 中符合条件的广告主推送'转化优化'（conversion-optimized campaigns）能力。此前 ChatGPT 广告的演进已走了几步：2 月 9 日首次面向美国 Free / Go 用户上线、采用 $200,000 起投与 $60 CPM 的托管模式；随后逐步开放自助 Ads Manager 并下调门槛；5 月 5 日全面向所有美国广告主开放自助投放、取消最低消费，支持 CPC/CPM 竞价。据报道，平台上线头六周即录得约 $1 亿广告收入。\n\n这次'转化优化'的加入是质变而非量变：广告系统不再只按曝光或点击计费，而是能围绕广告主定义的转化目标（如注册、购买）自动优化投放，把效果营销的标准玩法搬进对话式 AI。它意味着 ChatGPT 的广告产品正从'品牌曝光'走向'可归因的转化'，向 Google/Meta 成熟的效果广告体系靠拢。",
+      "key_quotes": [
+        "Conversion-optimized campaigns began rolling out to eligible advertisers in the ChatGPT Ads Manager Beta on June 5, 2026.",
+        "The platform generated $100 million in revenue during its first six weeks."
+      ],
+      "significance": "在'AI 烧钱何时回本'的质疑声里，广告是 OpenAI 最直接的现金牛路径之一。从托管曝光到自助投放、再到转化优化，ChatGPT 广告体系正以惊人的速度补齐效果营销的拼图——这既是 OpenAI 给资本市场的'变现答卷'，也意味着对话式 AI 这块全新流量入口，正被快速纳入与搜索、信息流同台竞争的广告战场。",
+      "links": [
+        "https://ppc.land/openais-chatgpt-ads-are-getting-conversion-optimization-heres-what-changes/",
+        "https://openai.com/index/new-ways-to-buy-chatgpt-ads/"
+      ],
+      "tags": ["OpenAI", "ChatGPT", "广告", "变现", "效果营销"],
+      "category": "product_operators"
+    },
+    {
+      "id": "7",
+      "title": "花了 $140 亿挖来 Alexandr Wang，模型却迟迟开不出门：Meta 再度推迟 Muse Spark 开发者 API、连发布日期都给不出——超级智能实验室的'交付焦虑'摆上台面",
+      "source": "Meta",
+      "source_name": "Implicator.ai",
+      "source_url": "https://www.implicator.ai/meta-delays-muse-spark-developer-api-again-with-no-launch-date-set/",
+      "story_key": "meta-muse-spark-api-delay",
+      "event_date": "2026-06-04",
+      "summary": "据 6-4 报道，Meta 再次推迟其旗舰模型 Muse Spark 的开发者 API，且至今未给出明确发布日期——尽管此前已多次承诺面向开发者开放，目前仍只在与合作伙伴小范围测试。",
+      "detail": "Meta 旗舰模型 Muse Spark 于今年 4 月 8 日由 Meta Superintelligence Labs（MSL）发布——这是 MSL 的首款模型，主打'小而快'、可在科学/数学/健康类复杂问题上推理，采用闭源、多模态（接受语音/文本/图像输入、输出文本），已部署进 Facebook、Instagram、WhatsApp、Messenger 及 Ray-Ban 智能眼镜。\n\n但'让外部开发者用上它'这一步，Meta 一拖再拖。据 6 月 4 日报道，截至 6 月 2 日，Meta 仍未为 Muse Spark 开发者 API 设定明确发布日期，只是在与部分合作伙伴测试，并表示'计划本月内（6 月）发布'——而这已是多次延期。对一家刚以约 $140 亿入股 Scale AI、把 Alexandr Wang 招入麾下重整 AI 体系的公司而言，旗舰模型迟迟无法对开发者开放，难免被解读为新设的超级智能实验室在工程化与交付节奏上仍存在摩擦。\n\n背景回顾：Meta 4 月发布 Muse Spark 作为其 AI 体系'从头重构'的首款模型，此后承诺面向开发者开放 API。",
+      "key_quotes": [
+        "Meta had no launch date set for the Muse Spark developer API as of June 2, despite earlier plans for a developer rollout.",
+        "Meta was testing the API with partners and planned to release it this month."
+      ],
+      "significance": "模型本身能发布、对外 API 却反复跳票，往往是组织与工程成熟度的试纸。在 Anthropic、OpenAI、Google 都在把模型迅速产品化、平台化的当下，Meta 用天价挖人重组的超级智能实验室却卡在'交付'这一关——这让市场对其 $1250–1450 亿 AI 资本开支能否兑现，多了一分审视。",
+      "links": [
+        "https://www.implicator.ai/meta-delays-muse-spark-developer-api-again-with-no-launch-date-set/",
+        "https://techcrunch.com/2026/04/08/meta-debuts-the-muse-spark-model-in-a-ground-up-overhaul-of-its-ai/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "Muse Spark", "模型", "Superintelligence Labs"],
+      "category": "frontier_leaders"
+    }
+  ]
+}

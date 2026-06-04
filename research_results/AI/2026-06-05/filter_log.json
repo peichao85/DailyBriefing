@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-05",
+  "total_candidates": 18,
+  "kept": 7,
+  "dropped": 11,
+  "decisions": [
+    {
+      "story_key": "supabase-series-f",
+      "event_date": "2026-06-04",
+      "title_en": "Supabase raises $500M at $10.5B valuation as vibe-coding fuels Postgres demand",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Fresh Series F (June 4) at $10.5B, doubled since Oct; databases +600% YoY driven by Claude Code/Codex."
+    },
+    {
+      "story_key": "bigtech-700b-ai-capex-doubts",
+      "event_date": "2026-06-04",
+      "title_en": "Big Tech's $700bn AI bet may push investors to a 'breaking point'",
+      "source": "The National",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 4 analysis with fresh analyst quotes on capex/return mismatch across Alphabet/Amazon/Meta/Microsoft/Apple."
+    },
+    {
+      "story_key": "openai-chatgpt-dreaming-memory",
+      "event_date": "2026-06-04",
+      "title_en": "OpenAI launches 'Dreaming', a background memory system for ChatGPT, coming to free users",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 4 product/research: background memory synthesis, 5x cheaper to serve, rolling to Plus/Pro then Free."
+    },
+    {
+      "story_key": "openai-stargate-michigan",
+      "event_date": "2026-06-01",
+      "title_en": "OpenAI and Oracle break ground on $16B Stargate data center in Saline Township, Michigan",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 1 groundbreaking, 1.4GW, plus $45M Codex credits for 400K MI students. Within 5-day window."
+    },
+    {
+      "story_key": "suno-series-d",
+      "event_date": "2026-06-03",
+      "title_en": "AI music generator Suno raises $400M Series D at $5.4B despite copyright suits",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 3 raise led by Bond Capital, valuation 2.2x in 7 months, amid UMG/Sony/GEMA litigation."
+    },
+    {
+      "story_key": "openai-chatgpt-ads-manager",
+      "event_date": "2026-06-05",
+      "title_en": "ChatGPT Ads Manager adds conversion-optimized campaigns",
+      "source": "PPC Land",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Conversion-optimization beta rolling out June 5; ad platform monetization deepening."
+    },
+    {
+      "story_key": "meta-muse-spark-api-delay",
+      "event_date": "2026-06-04",
+      "title_en": "Meta again delays Muse Spark developer API with no launch date",
+      "source": "Implicator.ai",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 4 development: MSL repeatedly delays the API, signaling execution friction after the $14B Wang/Scale deal."
+    },
+    {
+      "story_key": "anthropic-ipo-filing",
+      "event_date": "2026-06-01",
+      "title_en": "Anthropic confidentially files for IPO",
+      "source": "Reuters",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-01 (anthropic-ipo-filing). No substantively new info today."
+    },
+    {
+      "story_key": "microsoft-build-2026-polaris",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft Build: MAI models, Project Polaris, Windows Agent Framework",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-02 (microsoft-build-2026-polaris). Roundup rehash only."
+    },
+    {
+      "story_key": "alphabet-80b-ai-raise-berkshire",
+      "event_date": "2026-06-01",
+      "title_en": "Alphabet to raise up to $85B for AI; Berkshire buys $10B",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-01 (alphabet-80b-ai-raise-berkshire). No new development."
+    },
+    {
+      "story_key": "nvidia-computex-vera-rubin-2026",
+      "event_date": "2026-06-01",
+      "title_en": "Nvidia unveils N1X laptop chip / 'reinventing the PC' at Computex",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-01 (nvidia-computex-vera-rubin-2026). No new info."
+    },
+    {
+      "story_key": "openai-codex-chatgpt-business",
+      "event_date": "2026-06-02",
+      "title_en": "OpenAI brings Codex into ChatGPT with business plugins and Sites",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-02 (openai-codex-chatgpt-business). No new development."
+    },
+    {
+      "story_key": "openai-rosalind-biodefense",
+      "event_date": "2026-06-03",
+      "title_en": "OpenAI adds new capabilities to GPT-Rosalind life-sciences model",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 05-29 (openai-rosalind-biodefense). June 3 'new capabilities' are promotional and largely rehash prior benchmark claims."
+    },
+    {
+      "story_key": "sk-hynix-1t-marketcap",
+      "event_date": "2026-05-27",
+      "title_en": "SK Hynix hits $1 trillion market cap on AI memory boom",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-27 is 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "gemini-3-5-flash-ga",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini 3.5 Flash generally available",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 17 days old (>5 day limit)."
+    },
+    {
+      "story_key": "perplexity-computer-enterprise",
+      "event_date": "2026-03-12",
+      "title_en": "Perplexity launches Computer for Enterprise at Ask 2026",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-12 far outside 5-day window."
+    },
+    {
+      "story_key": "xai-grok-connectors-skills",
+      "event_date": "2026-05-18",
+      "title_en": "xAI ships Grok Connectors, Skills and enterprise tier",
+      "source": "xAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Launches dated May 6-22, outside 5-day window."
+    },
+    {
+      "story_key": "amazon-1m-robots-deepfleet",
+      "event_date": "2025-07-02",
+      "title_en": "Amazon hits 1M warehouse robots, launches DeepFleet AI",
+      "source": "Amazon",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Milestone was July 2025; surfaced in roundups but not a fresh event."
+    }
+  ]
+}
