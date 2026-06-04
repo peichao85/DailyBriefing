@@ -1,0 +1,550 @@
+{
+  "date": "2026-06-04",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-06-04",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "Odysseus：自托管 AI 工作台一周破 4.3 万星",
+          "source": "@pewdiepie-archdaemon",
+          "source_name": "GitHub",
+          "summary": "面向个人和开发者的自托管 AI 工作台，把 ChatGPT、Claude 式的对话与 Agent 体验搬到自己的硬件上，强调本地优先与隐私优先。",
+          "detail": "Odysseus 定位为 ChatGPT/Claude 网页体验的自托管替代品，所有数据跑在用户自有硬件上。它支持接入 vLLM、llama.cpp、Ollama、OpenRouter、OpenAI 等本地或云端模型，内置 Agent 模式可调用 MCP、网页、文件、shell、skills、memory 等工具自动完成任务，并提供 Cookbook 扫描硬件、推荐模型并一键下载部署。",
+          "significance": "发布约一周即收获 43,523 stars，登顶本周新晋热门榜首。",
+          "links": [
+            "https://github.com/pewdiepie-archdaemon/odysseus"
+          ],
+          "image": "assets/github-avatars/pewdiepie-archdaemon-odysseus.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "AI",
+            "Agent",
+            "自托管",
+            "开源"
+          ],
+          "stars": 43523,
+          "stars_gained": null,
+          "language": "JavaScript",
+          "forks": 5053,
+          "owner": "pewdiepie-archdaemon",
+          "repo": "odysseus"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "WechatOnCloud：在自有服务器上跑「服务端微信」",
+          "source": "@Gloridust",
+          "source_name": "GitHub",
+          "summary": "把微信会话部署在自己的 NAS 或服务器上，让多端浏览器共享同一个微信会话，实现自由连接。",
+          "detail": "云微 WechatOnCloud 让用户在自有 NAS 或服务器上运行「服务端微信」，多个浏览器端共享同一个微信会话。项目以容器方式分发，支持 amd64 与 arm64 架构，适合需要在多设备间统一访问微信的自部署场景。",
+          "significance": "发布一周即获得 1,917 stars，位列本周新晋第二。",
+          "links": [
+            "https://github.com/Gloridust/WechatOnCloud"
+          ],
+          "image": "assets/github-avatars/Gloridust-WechatOnCloud.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "自托管",
+            "NAS",
+            "开源"
+          ],
+          "stars": 1917,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 531,
+          "owner": "Gloridust",
+          "repo": "WechatOnCloud"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "goose：WHOOP 5.0 本地健康数据伴侣概念验证",
+          "source": "@b-nnett",
+          "source_name": "GitHub",
+          "summary": "面向 WHOOP 5.0 手环的本地优先健康数据项目，iOS 应用直连手环、自行处理数据包，目前为开发者评估用的早期概念验证。",
+          "detail": "Goose 是一个本地优先的 WHOOP 5.0 数据与健康指标项目，iOS 应用直接连接 WHOOP 5.0 手环并在本地路由处理数据包，核心用 Rust 实现。作者明确标注当前为 Alpha 概念验证，仅供能自行用 Xcode 构建 Rust core 的开发者评估，性能尚未优化，首个公测计划 2026 年 6 月 13 日上 TestFlight。",
+          "significance": "上线数日即获得 1,457 stars，位列本周新晋第三。",
+          "links": [
+            "https://github.com/b-nnett/goose"
+          ],
+          "image": "assets/github-avatars/b-nnett-goose.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Rust",
+            "WHOOP",
+            "健康数据",
+            "iOS",
+            "开源"
+          ],
+          "stars": 1457,
+          "stars_gained": null,
+          "language": "Rust",
+          "forks": 413,
+          "owner": "b-nnett",
+          "repo": "goose"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "aBaiAutoplus：多平台 AI 账号自动注册与管理",
+          "source": "@asz798838958",
+          "source_name": "GitHub",
+          "summary": "面向多平台 AI 服务的账号自动注册与管理工具，主打协议化付款一键开通 ChatGPT Plus。",
+          "detail": "aBaiAutoplus 用 Python 实现多平台 AI 账号的自动注册与集中管理，并提供协议化付款流程以一键开通 ChatGPT Plus 等订阅。项目以 Release 形式分发，README 主要由徽章和说明构成。",
+          "significance": "发布一周即获得 1,387 stars，位列本周新晋第四。",
+          "links": [
+            "https://github.com/asz798838958/aBaiAutoplus"
+          ],
+          "image": "assets/github-avatars/asz798838958-aBaiAutoplus.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "自动化",
+            "开源"
+          ],
+          "stars": 1387,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 653,
+          "owner": "asz798838958",
+          "repo": "aBaiAutoplus"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "中国人投资美股指南：从开户到出金的完整科普",
+          "source": "@zgwl",
+          "source_name": "GitHub",
+          "summary": "面向中国大陆投资者的美股科普合集，覆盖开户、税务、合规、选券商、入金到出金的全流程。",
+          "detail": "这是一份写给中国大陆投资者的美股科普，共九篇，按「先搞懂规则、再把钱投进去、最后安全取回来」的顺序展开，依次讲解开户、CRS/FATCA 税务、按风险分级的合规路径、美国券商挑选、银行与加密入金、出金路径以及 ITIN 美国税号申请。作者强调仅为个人科普、不构成投资税务法律建议，最后校订于 2026 年 5 月。",
+          "significance": "发布数日即获得 839 stars，位列本周新晋第五。",
+          "links": [
+            "https://github.com/zgwl/chinese-buy-us-stock-guide"
+          ],
+          "image": "assets/github-avatars/zgwl-chinese-buy-us-stock-guide.jpg",
+          "image_type": "logo",
+          "tags": [
+            "美股",
+            "投资",
+            "科普",
+            "开源"
+          ],
+          "stars": 839,
+          "stars_gained": null,
+          "language": null,
+          "forks": 136,
+          "owner": "zgwl",
+          "repo": "chinese-buy-us-stock-guide"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "Skylight：用 RTL-SDR 把头顶飞机实时投影到天花板",
+          "source": "@cpaczek",
+          "source_name": "GitHub",
+          "summary": "用廉价 RTL-SDR 接收 ADS-B 信号，把正从头顶飞过的飞机实时投影到天花板，并叠加太阳、月亮、星空、ISS 等天空图层。",
+          "detail": "Skylight 通过廉价 RTL-SDR 无线电解码 ADS-B 信号，把正在头顶飞过的飞机以投影方式实时渲染到天花板上,如同透过屋顶的「X 光」。它还提供太阳、月亮、星星、ISS 的实时天空图层以及每架飞机的航向信息,前端用 React/TypeScript 实现,可跑在 Raspberry Pi 上,定位为艺术装置。",
+          "significance": "上线数日即获得 763 stars,位列本周新晋第六。",
+          "links": [
+            "https://github.com/cpaczek/skylight"
+          ],
+          "image": "assets/github-avatars/cpaczek-skylight.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "RTL-SDR",
+            "Raspberry Pi",
+            "ADS-B",
+            "开源"
+          ],
+          "stars": 763,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 42,
+          "owner": "cpaczek",
+          "repo": "skylight"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "Memory OS：让 Hermes Agent 拥有 7 层持久记忆",
+          "source": "@ClaudioDrews",
+          "source_name": "GitHub",
+          "summary": "为 Hermes Agent 打造的七层记忆操作系统,用 Qdrant 提供持久记忆、结构化事实与自动整理的 wiki,全本地运行且兼容任意 LLM 提供商。",
+          "detail": "Memory OS 为 Hermes Agent 提供七层记忆架构:基于 Qdrant 的持久记忆、带信任评分的结构化事实、fabric 召回、自动整理的 wiki 流水线以及精准的上下文注入。它能对历史所有对话做语义检索,记忆基础设施完全跑在本地,兼容 OpenRouter、OpenAI、Anthropic、Ollama 等任意 LLM 提供商,主打 token 高效的长期记忆。",
+          "significance": "发布一周即获得 750 stars,位列本周新晋第七。",
+          "links": [
+            "https://github.com/ClaudioDrews/memory-os"
+          ],
+          "image": "assets/github-avatars/ClaudioDrews-memory-os.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "记忆",
+            "开源"
+          ],
+          "stars": 750,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 74,
+          "owner": "ClaudioDrews",
+          "repo": "memory-os"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "tab-labeler:本地重命名浏览器标签页的轻量扩展",
+          "source": "@SenhorH",
+          "source_name": "GitHub",
+          "summary": "面向 Chromium 浏览器的 Manifest V3 扩展,可在本地给杂乱的标签页重命名、加 emoji 前缀,整理混乱的会话。",
+          "detail": "tab-labeler 是一个轻量的 Manifest V3 浏览器扩展,用于本地重命名标签页。它支持从弹窗重命名当前标签、重置标题、跨刷新保持标签、查看所有已重命名标签,并提供「✅ 完成」「🔥 重要」「📌 稍后读」「🐛 Bug」「🧪 测试」等 emoji 快捷预设,还能通过内容脚本处理 SPA 的标题变化和快捷键操作。",
+          "significance": "上线数日即获得 552 stars,位列本周新晋第八。",
+          "links": [
+            "https://github.com/SenhorH/tab-labeler"
+          ],
+          "image": "assets/github-avatars/SenhorH-tab-labeler.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "浏览器扩展",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 552,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 38,
+          "owner": "SenhorH",
+          "repo": "tab-labeler"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "卡脖子美股战法:用供应链瓶颈思维研究 AI 美股",
+          "source": "@qiuqiubuchongle-cloud",
+          "source_name": "GitHub",
+          "summary": "一个用供应链瓶颈思维研究 AI 美股的工具,帮你拆系统、找卡点、拉证据,把热门叙事翻译成结构化的供应链研究。",
+          "detail": "chokepoint-atlas(卡脖子美股战法)用 Python 实现,专门帮助研究「AI 产业链里谁在卡脖子」。它做四件事:先选一个真实系统(如 NVIDIA DSX AI Factory、TPU pod、机器人执行器链条、数据中心供电与液冷),再把系统拆成上下游,接着找出需求放大时最先堵车的卡点,最后从财报、电话会、新闻、研报中整理出可复用的研究包。作者强调它不喊单,而是把热门叙事翻译成供应链研究。",
+          "significance": "发布数日即获得 523 stars,位列本周新晋第九。",
+          "links": [
+            "https://github.com/qiuqiubuchongle-cloud/chokepoint-atlas"
+          ],
+          "image": "assets/github-avatars/qiuqiubuchongle-cloud-chokepoint-atlas.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "美股",
+            "AI",
+            "供应链",
+            "开源"
+          ],
+          "stars": 523,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 114,
+          "owner": "qiuqiubuchongle-cloud",
+          "repo": "chokepoint-atlas"
+        },
+        {
+          "id": "new_hot-10",
+          "title": "female-portrait-director:模块化的 AI 人像提示词导演 Skill",
+          "source": "@liyue-aigc",
+          "source_name": "GitHub",
+          "summary": "一个模块化的 Codex Skill,用于结构化生成与扩展 AI 女性人像提示词,提供视觉导演式的提示工程框架。",
+          "detail": "female-portrait-director 是一个用于 AI 图像生成的结构化提示词生成与视觉导演系统。V1.4.1 通过单一按需加载的风格文件路由每个请求,锁定显式参数或授权的参考图主体,产出连贯的摄影提示词或保身份/保产品的直接图像编辑。它并非通用提示词集合,而是可扩展的女性人像提示词 Skill 框架,能从少量输入参数扩展出面部、体型、服装、场景、镜头、姿势、灯光等完整提示,支持中英日韩多语言。",
+          "significance": "发布数日即获得 504 stars,位列本周新晋第十。",
+          "links": [
+            "https://github.com/liyue-aigc/female-portrait-director"
+          ],
+          "image": "assets/github-avatars/liyue-aigc-female-portrait-director.jpg",
+          "image_type": "logo",
+          "tags": [
+            "AI",
+            "提示工程",
+            "Codex",
+            "开源"
+          ],
+          "stars": 504,
+          "stars_gained": null,
+          "language": null,
+          "forks": 74,
+          "owner": "liyue-aigc",
+          "repo": "female-portrait-director"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "ECC:跨 harness 的 Agent 性能优化系统",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "面向 Claude Code、Codex、Opencode、Cursor 等多种 Agent 框架的性能优化系统,集成 skills、本能、记忆、安全与研究优先的开发流程。",
+          "detail": "ECC 是一个 harness 原生的 Agent 操作系统,为 Claude Code、Codex、Opencode、Cursor 等多种编码 Agent 提供 skills、instincts、memory、security 与研究优先的开发能力,实现跨 harness 的统一 Agent 工作流。项目已发布 ecc-universal、ecc-agentshield 等 npm 包,覆盖 12+ 语言生态、170+ 贡献者。",
+          "significance": "本周新增约 3,000 stars,累计已超 20 万星,是本周增长最快的项目之一。",
+          "links": [
+            "https://github.com/affaan-m/ECC"
+          ],
+          "image": "assets/github-avatars/affaan-m-ECC.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "AI",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 205718,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 31583,
+          "owner": "affaan-m",
+          "repo": "ECC"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "Hermes Agent:会随你成长的 AI Agent",
+          "source": "@NousResearch",
+          "source_name": "GitHub",
+          "summary": "Nous Research 出品的开源 AI Agent,定位为「会随你成长」的长期协作伙伴,兼容主流模型与 harness。",
+          "detail": "Hermes Agent 是 Nous Research 开源的 AI Agent 框架,主打「随用户成长」的长期能力。项目用 Python 实现,采用 MIT 许可,提供完整文档与 Discord 社区,兼容 Claude、Codex、OpenAI、OpenClaw 等多种模型与 harness 生态。",
+          "significance": "本周新增约 3,000 stars,累计接近 18 万星,持续位居增长榜前列。",
+          "links": [
+            "https://github.com/NousResearch/hermes-agent"
+          ],
+          "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "开源"
+          ],
+          "stars": 179093,
+          "stars_gained": 3000,
+          "language": "Python",
+          "forks": 30679,
+          "owner": "NousResearch",
+          "repo": "hermes-agent"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "opencode:开源 AI 编码 Agent",
+          "source": "@anomalyco",
+          "source_name": "GitHub",
+          "summary": "用 TypeScript 实现的开源 AI 编码 Agent,面向开发者提供终端中的智能编码助手。",
+          "detail": "opencode 是一个开源 AI 编码 Agent,用 TypeScript 编写,通过 opencode-ai npm 包分发,并提供网页 console。项目拥有活跃的 Discord 社区,目标是成为完全开源的编码 Agent 选择。",
+          "significance": "本周新增约 3,000 stars,累计超 16.9 万星,稳居增长榜前列。",
+          "links": [
+            "https://github.com/anomalyco/opencode"
+          ],
+          "image": "assets/github-avatars/anomalyco-opencode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 169469,
+          "stars_gained": 3000,
+          "language": "TypeScript",
+          "forks": 20275,
+          "owner": "anomalyco",
+          "repo": "opencode"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "awesome:各类有趣主题的 awesome 清单总集",
+          "source": "@sindresorhus",
+          "source_name": "GitHub",
+          "summary": "由 sindresorhus 维护的元清单,汇集各类有趣主题的 awesome-list,是 GitHub 上最知名的资源索引之一。",
+          "detail": "awesome 是 GitHub 上最知名的「清单的清单」,汇集了关于编程语言、框架、工具、平台等各类有趣主题的 awesome-list 资源集合,长期作为开发者寻找优质资源的入口。",
+          "significance": "本周新增 2,303 stars,累计超 47 万星,显示出常青项目持续的吸引力。",
+          "links": [
+            "https://github.com/sindresorhus/awesome"
+          ],
+          "image": "assets/github-avatars/sindresorhus-awesome.jpg",
+          "image_type": "logo",
+          "tags": [
+            "资源清单",
+            "awesome-list",
+            "开源"
+          ],
+          "stars": 472671,
+          "stars_gained": 2303,
+          "language": null,
+          "forks": 35296,
+          "owner": "sindresorhus",
+          "repo": "awesome"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "OpenClaw:跨平台的个人 AI 助手 🦞",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "跨任意操作系统与平台的个人 AI 助手,强调数据自有,用 TypeScript 实现。",
+          "detail": "OpenClaw 是一个跨平台的个人 AI 助手,主打「拥有自己的数据」,可运行在任意操作系统与平台上。项目用 TypeScript 实现,提供 CI 流水线与定期 Release,风格诙谐(以龙虾为吉祥物)。",
+          "significance": "本周新增 2,253 stars,累计超 37.6 万星,位列增长榜前列。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "assets/github-avatars/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "助手",
+            "开源"
+          ],
+          "stars": 376582,
+          "stars_gained": 2253,
+          "language": "TypeScript",
+          "forks": 78679,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "n8n:面向技术团队的 AI 原生工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "fair-code 许可的工作流自动化平台,兼具可视化搭建与自定义代码,内置 AI 能力、400+ 集成,支持自托管或云端。",
+          "detail": "n8n 是面向技术团队的工作流自动化平台,兼具代码的灵活与 no-code 的速度。它提供 400+ 集成、基于 LangChain 的 AI Agent 工作流构建能力,支持编写 JavaScript/Python 与引入 npm 包,可自托管(fair-code 许可)或用云服务,并具备高级权限、SSO 与离网部署等企业能力。",
+          "significance": "本周新增 1,157 stars,累计超 19 万星,持续位居增长榜。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "assets/github-avatars/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "自动化",
+            "工作流",
+            "开源"
+          ],
+          "stars": 190977,
+          "stars_gained": 1157,
+          "language": "TypeScript",
+          "forks": 58251,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "Ollama:本地一键运行各类开源大模型",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "让用户在本地快速运行 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等开源模型。",
+          "detail": "Ollama 用 Go 实现,提供 macOS、Windows、Linux 的一键安装脚本与官方 Docker 镜像,让用户在本地快速下载并运行 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等开源模型。它还提供 ollama-python、ollama-js 等库,可连接现有 Agent 工作流。",
+          "significance": "本周新增 732 stars,累计超 17.3 万星,保持稳定增长。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "assets/github-avatars/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "AI",
+            "LLM",
+            "本地模型",
+            "开源"
+          ],
+          "stars": 173069,
+          "stars_gained": 732,
+          "language": "Go",
+          "forks": 16417,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "VS Code:微软开源的代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软与社区共同开发的开源代码编辑器 Code - OSS,以 MIT 许可发布。",
+          "detail": "Visual Studio Code(Code - OSS)是微软与社区共同开发的开源代码编辑器,源码以 MIT 许可公开。仓库不仅承载代码与 issue,还公开了路线图、月度迭代计划与收尾计划,基于 Electron 与 TypeScript 构建。",
+          "significance": "本周新增 449 stars,累计超 18.5 万星,作为常青项目持续受关注。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "assets/github-avatars/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 185759,
+          "stars_gained": 449,
+          "language": "TypeScript",
+          "forks": 40345,
+          "owner": "microsoft",
+          "repo": "vscode"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "prompts.chat:全球最大的开源 AI 提示词库",
+          "source": "@f",
+          "source_name": "GitHub",
+          "summary": "前身为 Awesome ChatGPT Prompts,可分享、发现和收藏社区提示词,免费开源并支持企业私有自托管。",
+          "detail": "prompts.chat(前身 Awesome ChatGPT Prompts)自称全球最大的开源 AI 提示词库,可分享、发现和收藏社区提示词,兼容 ChatGPT、Claude、Gemini、Llama、Mistral 等模型。项目用 Next.js/TypeScript 重构为网站形态,免费开源,组织可自托管以保证完整隐私。",
+          "significance": "本周新增 440 stars,累计超 16.3 万星,保持稳定增长。",
+          "links": [
+            "https://github.com/f/prompts.chat"
+          ],
+          "image": "assets/github-avatars/f-prompts.chat.jpg",
+          "image_type": "logo",
+          "tags": [
+            "HTML",
+            "AI",
+            "提示工程",
+            "开源"
+          ],
+          "stars": 163267,
+          "stars_gained": 440,
+          "language": "HTML",
+          "forks": 21218,
+          "owner": "f",
+          "repo": "prompts.chat"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "Langflow:构建与部署 AI Agent 和工作流的可视化平台",
+          "source": "@langflow-ai",
+          "source_name": "GitHub",
+          "summary": "用于构建和部署 AI 驱动的 Agent 与工作流的平台,提供可视化编排与内置 API、MCP 服务器。",
+          "detail": "Langflow 是构建与部署 AI Agent 和工作流的平台,提供可视化的编排体验,同时内置 API 与 MCP 服务器,可把每个工作流变成能被任意框架应用集成的工具。项目用 Python 实现,采用 MIT 许可。",
+          "significance": "本周新增 413 stars,累计超 14.9 万星,持续位居增长榜。",
+          "links": [
+            "https://github.com/langflow-ai/langflow"
+          ],
+          "image": "assets/github-avatars/langflow-ai-langflow.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "工作流",
+            "开源"
+          ],
+          "stars": 149190,
+          "stars_gained": 413,
+          "language": "Python",
+          "forks": 9183,
+          "owner": "langflow-ai",
+          "repo": "langflow"
+        }
+      ]
+    }
+  ]
+}
