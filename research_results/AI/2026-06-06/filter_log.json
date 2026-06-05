@@ -1,0 +1,116 @@
+{
+  "date": "2026-06-06",
+  "total_candidates": 12,
+  "kept": 5,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "anthropic-recursive-self-improvement",
+      "event_date": "2026-06-05",
+      "title_en": "Anthropic warns AI may soon build its own successors, urges coordinated pause mechanism",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Anthropic published 'When AI builds itself' on 6-5 with striking internal data (>80% of merged code AI-written as of May 2026, engineers merge ~8x more code/day than 2024, autonomous task length doubling every 4 months to 12-16h) and a call for a verifiable cross-lab slowdown mechanism."
+    },
+    {
+      "story_key": "great-american-ai-act",
+      "event_date": "2026-06-04",
+      "title_en": "Obernolte & Trahan unveil 269-page bipartisan Great American AI Act discussion draft",
+      "source": "Roll Call",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First comprehensive federal AI framework from Congress: 3-year preemption of state AI-development laws, mandates for >$500M-revenue frontier devs (safety frameworks, incident reporting, semi-annual third-party audits), codifies Commerce CAISI. Distinct from the 6-2 Trump EO."
+    },
+    {
+      "story_key": "generalist-ai-400m-physical-agi",
+      "event_date": "2026-06-04",
+      "title_en": "Generalist AI raises $400M at $2B valuation for physical AGI, backed by Nvidia/Bezos/Fei-Fei Li",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. $400M led by Radical Ventures at $2B post; backers include NVIDIA NVentures, Bezos Expeditions, plus angels Fei-Fei Li, Naval Ravikant, Eric Yuan, Bin Lin. Building cross-embodiment robotics foundation models (GEN-1)."
+    },
+    {
+      "story_key": "amazon-engineers-datacenter-protest",
+      "event_date": "2026-06-03",
+      "title_en": "Amazon engineers testify against AI data centers amid 30k+ layoffs; Seattle council passes 1-year moratorium",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. AWS engineers (Amazon Employees for Climate Justice) testified at Seattle City Council against $200B AI capex while Amazon cut 30,000+ corporate jobs; council unanimously passed a one-year limit on new mega data centers. Novel labor-vs-capex angle distinct from prior bigtech-capex story."
+    },
+    {
+      "story_key": "ideogram-4-release",
+      "event_date": "2026-06-03",
+      "title_en": "Ideogram 4.0 ships as 9.3B open-weight image model with native 2K and JSON layout",
+      "source": "Ideogram",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Ideogram's first downloadable foundation model: 9.3B diffusion transformer trained from scratch, native 2K, structured JSON prompting/bounding-box layout, #1 open-weight on DesignArena. Apache-2.0 inference code, non-commercial weights license."
+    },
+    {
+      "story_key": "cognition-series-d",
+      "event_date": "2026-05-27",
+      "title_en": "Cognition (Devin) raises $1B at $26B valuation",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-27 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "google-gemini-3-5-flash",
+      "event_date": "2026-05-19",
+      "title_en": "Google launches Gemini 3.5 Flash at I/O",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 18 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-gpt55-cyber-eu",
+      "event_date": "2026-05-11",
+      "title_en": "OpenAI gives EU access to GPT-5.5-Cyber while Anthropic withholds Mythos",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Core announcement dated 2026-05-11 (CNBC), 26 days old (>5 day limit). The only June element is a 6-1 account-security requirement, not a substantive news event."
+    },
+    {
+      "story_key": "trump-ai-safety-executive-order",
+      "event_date": "2026-06-02",
+      "title_en": "White House AI innovation & security executive order",
+      "source": "The White House",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-06-02 as 'Trump 180 度转身给前沿 AI 装刹车'. The whitehouse.gov action is the same 6-2 EO; no substantively new development."
+    },
+    {
+      "story_key": "apple-llm-siri-ios27",
+      "event_date": "2026-06-05",
+      "title_en": "WWDC 2026 preview: overhauled LLM Siri expected Monday June 8",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-05-28 ('Apple 的 LLM 版 Siri 定档 6-8 WWDC'). The 6-5 coverage is a preview rehash; the actual WWDC reveal is 6-8 (has not happened yet)."
+    },
+    {
+      "story_key": "openai-chatgpt-dreaming-memory",
+      "event_date": "2026-06-04",
+      "title_en": "OpenAI ChatGPT Dreaming V3 memory rolls out to Plus/Pro",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 2026-06-04 as 'ChatGPT 学会做梦'. 6-5 roundups merely restate the same rollout; no new facts."
+    },
+    {
+      "story_key": "oracle-bondholder-ai-debt-suit",
+      "event_date": "2026-01-14",
+      "title_en": "Oracle bondholders sue over concealed $38B AI debt for OpenAI deal",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Suit filed 2026-01-14, ~5 months old (>5 day limit)."
+    }
+  ]
+}

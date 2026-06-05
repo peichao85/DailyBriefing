@@ -1,0 +1,129 @@
+{
+  "date": "2026-06-06",
+  "category": "AI",
+  "researched_at": "2026-06-06T08:30:00+08:00",
+  "sources_checked": ["@DanielaAmodei", "@sama", "@DrJimFan", "@alexandr_wang", "Anthropic", "Roll Call", "FedScoop", "Bloomberg", "CNBC", "Fortune", "Axios", "Scientific American", "Ideogram", "TechCrunch", "SiliconANGLE"],
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic 自己拉响警报：AI 快要能'造下一代 AI'了——内部 80% 代码已由 Claude 写、工程师日合入代码量较 2024 翻 8 倍，喊话全行业先备好'一键暂停'机制",
+      "source": "Anthropic",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "story_key": "anthropic-recursive-self-improvement",
+      "event_date": "2026-06-05",
+      "summary": "Anthropic 6-5 发布长文《When AI builds itself》，警告 AI 正逼近一个临界点——能在很少人类参与下自主设计、开发自己的'下一代'（即 recursive self-improvement 递归自我改进），并罕见地用自家内部数据佐证加速度，呼吁前沿实验室建立一套可验证、可协调的'减速/暂停'机制。",
+      "detail": "Anthropic 在 6-5 通过其政策研究机构发表《When AI builds itself》，把一个过去多停留在思想实验层面的话题摆上台面：AI 系统正接近能够'自主设计并开发其后继系统'的门槛——也就是递归自我改进（recursive self-improvement）。公司强调'我们还没到那一步，这也并非不可避免'，但警告这一天可能比多数机构准备得更早到来。\n\n为佐证'加速度真实存在'，Anthropic 罕见地公开了一组内部数据：截至 2026 年 5 月，合入公司代码库的代码已有逾 80% 由 Claude 生成（Claude Code 于 2025 年初推出前这一比例还是个位数）；工程师如今每天合入的代码量约为 2024 年的 8 倍；而 AI 能自主完成的任务时长大约每 4 个月翻一倍——从一年前的约 90 分钟，跳到如今的 12–16 小时。这条'任务时长曲线'被视为衡量 AI 自动化研发能力的关键指标。\n\n基于此，Anthropic 呼吁所有前沿 AI 实验室共同建立一套'可协调、可验证'的机制：一旦某个递归自我改进的危险阈值被跨越，各家能够协同地放慢或暂停开发，而不是陷入'谁先停谁吃亏'的竞赛困境。Fortune、Axios、Scientific American 等多家媒体将其解读为业界领跑者之一在 IPO 前夜主动给自家技术'踩刹车'的姿态。",
+      "key_quotes": [
+        "We are not there yet, and recursive self-improvement is not inevitable.",
+        "More than 80% of the code merged into Anthropic's systems is now written by Claude.",
+        "The length of tasks AI can complete autonomously has been doubling roughly every four months."
+      ],
+      "significance": "这是头部实验室首次用自家硬数据，把'AI 造 AI'从科幻论调拉成可量化的工程趋势——'任务时长每 4 个月翻倍'若持续，递归自我改进的时间表将远早于公众预期。更关键的是，Anthropic 主动提议跨实验室的协调暂停机制，等于承认单靠商业竞赛无法自我约束，把'谁来按下刹车'这个治理难题摆到了所有前沿厂商和监管者面前。",
+      "links": [
+        "https://www.anthropic.com/institute/recursive-self-improvement",
+        "https://fortune.com/2026/06/05/anthropic-ai-pause-development-recursive-self-improvement/",
+        "https://www.axios.com/2026/06/04/anthropic-warns-ai-build-successors",
+        "https://www.scientificamerican.com/article/anthropic-warns-ai-may-soon-begin-recursive-self-improvement/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "递归自我改进", "AI安全", "治理"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "美国国会甩出史上最全联邦 AI 法案草案：269 页《Great American AI Act》——3 年内冻结各州'管开发'立法、给 5 亿美元营收以上的前沿大厂上'安全框架+半年一审'紧箍咒",
+      "source": "Roll Call",
+      "source_name": "Roll Call",
+      "source_url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
+      "story_key": "great-american-ai-act",
+      "event_date": "2026-06-04",
+      "summary": "众议员 Jay Obernolte（共和党）与 Lori Trahan（民主党）6-4 公布两党合拟的 269 页讨论稿《Great American Artificial Intelligence Act》——这是美国国会迄今最全面的联邦 AI 治理框架，核心是 3 年内优先于（preempt）各州'专门规管 AI 开发'的立法，并给大型前沿开发者套上强制安全义务。",
+      "detail": "6-4 周四，众议院 AI 工作组的两位核心成员 Jay Obernolte（R-加州）与 Lori Trahan（D-麻省）发布了酝酿已久的 269 页讨论稿《Great American Artificial Intelligence Act》，被多家媒体称为国会迄今提出的最全面联邦 AI 框架。它紧随 6-2 Trump 签署的'自愿前沿模型预审'行政令而来，但走得更远、更具强制性。\n\n草案最具争议的一条是州法优先（preemption）：联邦法将在 3 年日落期内，优先于各州'专门规管 AI 模型开发'的法律——意在终结当前各州（如科罗拉多、加州）法规各行其是的'拼图式'监管。对年营收超过 5 亿美元的大型前沿开发者，草案要求其公开安全框架、上报重大事故、并接受每半年一次的第三方审计；同时把商务部的'AI 标准与创新中心'（CAISI）写入法律、扩大 AI 研究与劳动力培养计划。\n\n这份'讨论稿'尚非正式法案，目的是先广泛征求业界、专家与公众反馈。预优先条款已招致安全派批评——Alliance for Secure AI 的 Brendan Steinhauser 直言'这不能成为剥夺各州自行设立 AI 防护栏能力的理由'；消费者组织 Public Citizen 则指其'削去各州保护消费者、劳动者与儿童的权力'。",
+      "key_quotes": [
+        "The most comprehensive federal AI framework ever put forward by Congress.",
+        "It does not justify preempting states' ability to pass their own AI safeguards. — Brendan Steinhauser, Alliance for Secure AI"
+      ],
+      "significance": "这是联邦层面第一次同时回答'要不要统一监管'与'怎么管前沿大厂'两个问题：3 年州法优先若落地，将一举改变美国 AI 合规版图，让大厂从应付 50 套州规转向单一联邦标准；而'5 亿营收门槛+强制审计+事故上报'则把此前 OpenAI、Anthropic 的自愿承诺往法律义务方向推。preemption 之争也预示这将是 2026 年最硬的一场 AI 立法拉锯。",
+      "links": [
+        "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
+        "https://obernolte.house.gov/media/press-releases/obernolte-trahan-release-discussion-draft-great-american-ai-act",
+        "https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/"
+      ],
+      "tags": ["AI监管", "美国国会", "州法优先", "前沿模型"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "李飞飞、贝索斯、黄仁勋一起押的'物理 AGI'：机器人创业 Generalist 拿 $4 亿、估值冲 $20 亿——不绑单一机型，要做能横跨人形/机械臂/仓储机的'通用机器人大脑'",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-04/nvidia-backed-robotics-startup-generalist-ai-valued-at-2-billion",
+      "story_key": "generalist-ai-400m-physical-agi",
+      "event_date": "2026-06-04",
+      "summary": "机器人创业公司 Generalist AI 6-4 宣布完成 $4 亿新融资、投后估值 $20 亿，由 Radical Ventures 领投，NVIDIA NVentures、Bezos Expeditions 跟投，李飞飞、Naval Ravikant、袁征（Eric Yuan）、林斌等以天使身份入局——目标是打造可跨多种机器人本体的'物理 AGI'基础模型。",
+      "detail": "Generalist AI 6-4 宣布完成 $4 亿美元新一轮融资，累计募资超过 $5 亿，投后估值达 $20 亿。本轮由 Radical Ventures 领投，8VC、Union Square Ventures、Hanabi Capital、Norwest 参投；老股东 NVIDIA 旗下 NVentures、Boldstart、Spark Capital、Bezos Expeditions、NFDG 等继续加注。引人注目的是新晋天使阵容——'AI 教母'李飞飞、Naval Ravikant、Zoom 创始人袁征（Eric Yuan）、小米联合创始人林斌悉数在列。\n\n与许多绑定单一机型（如某款人形机器人）的公司不同，Generalist 的路线是做'通用'——构建一套能跨多种机器人本体工作的基础模型，覆盖人形机器人、仓储机器、工业机械臂等多种自主平台，公司将其愿景称为'物理 AGI'（physical AGI）。今年 4 月公司曾发布 GEN-1，号称在可靠性、速度与灵巧操作上跨任务提升。新资金将用于扩展机器人 AI 模型、扩大数据采集、增加算力基础设施并支持与商业伙伴的部署。",
+      "key_quotes": [
+        "Generalist is building foundation models intended to work across a range of robotic systems — from humanoids and warehouse machines to industrial arms.",
+        "New angel investors include Fei-Fei Li, Naval Ravikant, Eric Yuan and Bin Lin."
+      ],
+      "significance": "'物理 AGI'正成为继语言模型之后的下一条资本主线——而 Generalist 押的是'通用机器人大脑'而非单一硬件，这与 Nvidia GR00T 的开放平台思路同频，也解释了 NVIDIA 与李飞飞为何同时下注。在人形机器人估值普遍虚高之际，一个'横跨本体、卖模型而非卖机器'的玩家拿到顶级投资人背书，标志着 robotics foundation model 这条赛道开始独立成形。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-04/nvidia-backed-robotics-startup-generalist-ai-valued-at-2-billion",
+        "https://siliconangle.com/2026/06/04/generalist-ai-raises-400m-2b-valuation-build-general-intelligence-real-world/",
+        "https://www.siliconrepublic.com/start-ups/nvidia-fei-fei-li-back-generalists-400m-round-to-scale-ai-robotics"
+      ],
+      "tags": ["机器人", "物理AGI", "融资", "李飞飞", "NVIDIA"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "Amazon 自家工程师当众反水：一边裁 3 万人、一边砸 $2000 亿建 AI 数据中心——西雅图市议会顺势全票通过'一年内限建超大数据中心'",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/03/amazon-engineers-in-seattle-slam-employer-for-ai-data-amid-layoffs.html",
+      "story_key": "amazon-engineers-datacenter-protest",
+      "event_date": "2026-06-03",
+      "summary": "一批 Amazon（含 AWS）工程师 6-3 在西雅图市议会听证会上公开抨击雇主：在裁掉逾 3 万名公司员工的同时，今年却要砸约 $2000 亿建 AI 数据中心。市议会随后全票通过提案，对新建超大数据中心实施为期一年的限制。",
+      "detail": "6-3，多名 Amazon 工程师出现在西雅图市议会听证会上，公开支持对本地大型 AI 数据中心建设的监管——而这些数据中心正由他们的雇主大举兴建，与此同时公司还在大规模裁员。AWS 软件工程师 Patrick Schloesser 在会上说：'据报道今年 Amazon 资本开支高达 $2000 亿，大部分流向数据中心和 AI'，并主张'你建这些东西就得提供好的就业，每次大裁员还应缴一笔为城市岗位融资的新税'。\n\n这些工程师——Schloesser 与同事 Liesl Wigand、Darius Irani——是 Amazon Employees for Climate Justice 的成员，该组织长期就气候立场、员工待遇等议题向公司施压。背景是 Amazon 自 2025 年 10 月以来已裁撤逾 3 万名公司岗位。听证会后，西雅图市议会全票通过一项提案，对新建超大型数据中心实施为期一年的限制。",
+      "key_quotes": [
+        "You've got to provide good jobs building these things, and you've got to pay a new tax that funds city jobs every time you conduct a large layoff. — Patrick Schloesser, AWS",
+        "Amazon has laid off more than 30,000 corporate employees since October."
+      ],
+      "significance": "这是 AI 资本狂潮第一次在'自家技术骨干'内部撞上反弹——当裁员与千亿级数据中心投资同时发生，矛盾从财报电话会蔓延到市政听证。西雅图的一年期限建令更是一个信号：AI 数据中心的扩张正开始遭遇地方政治与社区阻力，电力、税收、就业的账本被摆上台面，巨头的'算力军备竞赛'未必能一路畅通。",
+      "links": [
+        "https://www.cnbc.com/2026/06/03/amazon-engineers-in-seattle-slam-employer-for-ai-data-amid-layoffs.html",
+        "https://fortune.com/2026/06/05/amazon-engineer-seattle-data-center-hearing-speak-out-ai-layoffs/",
+        "https://seekingalpha.com/news/4600520-amazon-engineers-support-seattle-data-center-pause-amid-internal-layoff-backlash"
+      ],
+      "image": "assets/logos/amazon-logo.png",
+      "image_type": "logo",
+      "tags": ["Amazon", "数据中心", "裁员", "AI资本开支"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Ideogram 把自家最强图像模型开源了：4.0 是 93 亿参数、从零训练的扩散 Transformer——原生 2K、能用 JSON 排版定位，DesignArena 开放权重榜登顶",
+      "source": "Ideogram",
+      "source_name": "Ideogram",
+      "source_url": "https://ideogram.ai/news/ideogram-4.0/",
+      "story_key": "ideogram-4-release",
+      "event_date": "2026-06-03",
+      "summary": "图像生成公司 Ideogram 6-3 发布 4.0——其首个可下载的基础模型：93 亿参数、从零训练的扩散 Transformer，支持原生 2K 出图、结构化 JSON 提示与边界框排版，在 DesignArena 开放权重模型中排名第一。",
+      "detail": "6-3，以文字渲染见长的图像生成公司 Ideogram 推出 4.0，并首次把它做成可下载的开放权重基础模型。模型为 93 亿（9.3B）参数、从零训练的扩散 Transformer（Diffusion Transformer），而非在既有模型上微调，在 DesignArena 的开放权重榜单上排名第一。\n\n核心能力上，4.0 支持原生最高 2048 像素（2K）出图，无需额外的放大模型；在文字渲染上进一步提升，强化多语言、多行文本、不同字重、logo、招牌、字幕与水印等复杂排版的准确度；并引入结构化 JSON 提示接口——可用 JSON 显式指定边界框布局与配色，便于做可控的设计排版。许可方面采取'代码与权重分离'：推理代码为 Apache-2.0，模型权重则受 Ideogram 非商业模型协议约束——可自由下载、微调、用于研究与非生产用途，但商业部署需另购付费授权。",
+      "key_quotes": [
+        "Ideogram 4.0 is a 9.3B-parameter Diffusion Transformer trained from scratch, not a fine-tune.",
+        "Inference code is Apache 2.0, but model weights fall under a non-commercial model agreement."
+      ],
+      "significance": "在开放权重图像模型多被中国团队（如 Qwen-Image、各类 SDXL 衍生）主导之际，Ideogram 把自己最看家的'文字与排版渲染'能力开源，给设计向工作流提供了一个可本地跑、可微调的强基座。结构化 JSON 排版接口更是把'生成图片'推向'生成可控版面'，对海报、UI、品牌物料等真实设计场景意义明显——尽管非商业许可仍给商用画了一道线。",
+      "links": [
+        "https://ideogram.ai/news/ideogram-4.0/",
+        "https://www.buildfastwithai.com/blogs/ideogram-4-open-weight-image-model",
+        "https://github.com/ideogram-oss/ideogram4"
+      ],
+      "tags": ["Ideogram", "图像生成", "开放权重", "模型发布"],
+      "category": "builders"
+    }
+  ]
+}
