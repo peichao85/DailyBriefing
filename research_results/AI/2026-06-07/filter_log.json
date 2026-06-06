@@ -1,0 +1,116 @@
+{
+  "date": "2026-06-07",
+  "total_candidates": 12,
+  "kept": 7,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "chatgpt-1-billion-users",
+      "event_date": "2026-06-02",
+      "title_en": "ChatGPT hits 1 billion monthly active users, fastest app ever",
+      "source": "Reuters / Sensor Tower",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Sensor Tower data reported June 2-3 shows ChatGPT crossed 1B MAU, fastest app in history."
+    },
+    {
+      "story_key": "ai-ceos-dna-screening-letter",
+      "event_date": "2026-06-05",
+      "title_en": "Altman, Amodei, Hassabis, Suleyman urge Congress to mandate synthetic DNA screening",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Joint letter signed June 5 by CEOs of OpenAI, Anthropic, Google DeepMind, Microsoft AI."
+    },
+    {
+      "story_key": "ai-labs-machine-consciousness",
+      "event_date": "2026-06-05",
+      "title_en": "DeepMind, Anthropic, Meta expand machine-consciousness and AI welfare research",
+      "source": "Financial Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. FT reports labs hiring philosophers/psychologists for AI welfare research; Ted Chiang Atlantic essay (June 3) provides counterpoint."
+    },
+    {
+      "story_key": "openai-gpt55-cyber-eu",
+      "event_date": "2026-06-05",
+      "title_en": "OpenAI EU Cyber Action Plan opens GPT-5.5-Cyber to European defenders",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI announces EU Cyber Action Plan extending GPT-5.5 and GPT-5.5-Cyber to EU businesses, governments, agencies, EU AI Office."
+    },
+    {
+      "story_key": "anthropic-glasswing-mythos",
+      "event_date": "2026-06-02",
+      "title_en": "Anthropic expands Project Glasswing / Claude Mythos to ~150 orgs in 15+ countries",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in 7-day lookback. June 2 expansion to critical infrastructure (power, water, healthcare, comms); Mythos surfaced 10,000+ high/critical vulns since April."
+    },
+    {
+      "story_key": "ramp-series-f-ai-spend",
+      "event_date": "2026-06-04",
+      "title_en": "Ramp raises $750M Series F at $44B, betting on AI token spend management",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 4 round led by ICONIQ/GIC/OTPP nearly triples valuation in a year; AI-spend-control narrative."
+    },
+    {
+      "story_key": "xai-grok-voice-imagine",
+      "event_date": "2026-06-04",
+      "title_en": "xAI ships Grok Voice, Grok Imagine 1.5, and Grok Build coding agent",
+      "source": "eWeek",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 4 rollout of Grok Voice + Imagine 1.5 (tops Video Arena I2V), with Grok Build coding agent and git-worktrees support."
+    },
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-04",
+      "title_en": "SpaceX IPO roadshow launches",
+      "source": "Reuters",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-05-29 with full roadshow timeline (start, June 11 pricing, June 12 SPCX Nasdaq listing, $75B raise). Roadshow launch June 4 adds no substantively new fact beyond what was already published."
+    },
+    {
+      "story_key": "microsoft-build-2026-polaris",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft MAI models / Build 2026 coding push",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-02 (twice). No new development since."
+    },
+    {
+      "story_key": "google-io-gemini-35-flash",
+      "event_date": "2026-05-19",
+      "title_en": "Google I/O: Gemini 3.5 Flash, Ultra price cut to $200",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 19 days old (>5 day limit)."
+    },
+    {
+      "story_key": "claude-sonnet-4-8-leak",
+      "event_date": "2026-03-31",
+      "title_en": "Claude Sonnet 4.8 leak from npm source map",
+      "source": "community",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying artifact (source map) shipped 2026-03-31; ongoing speculation with no confirmed event in last 5 days."
+    },
+    {
+      "story_key": "deepmind-co-scientist-nature",
+      "event_date": "2026-05-XX",
+      "title_en": "DeepMind Co-Scientist / Hypothesis Generation tool",
+      "source": "Google DeepMind",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Co-Scientist originally announced earlier in 2026; no confirmed new development within the last 5 days. Only the niche 'Solipsistic superintelligence' paper (June 4) is fresh but too narrow to publish."
+    }
+  ]
+}
