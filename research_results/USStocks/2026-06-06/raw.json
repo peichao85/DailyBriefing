@@ -1,0 +1,1688 @@
+{
+  "report_date": "2026-06-06",
+  "trading_day": "2026-06-05",
+  "generated_at": "2026-06-06T03:02:04.892989+00:00",
+  "source_notes": {
+    "snapshots": "CNBC quote-html-webservice (delayed)",
+    "history": "Nasdaq api historical",
+    "yields": "FRED fredgraph.csv",
+    "breadth_internals": "NOT fetched — skill marks best-effort / 暂无可靠数据"
+  },
+  "indices": [
+    {
+      "symbol": ".DJI",
+      "name": "道琼斯工业",
+      "last": 50866.78,
+      "change": -695.15,
+      "change_pct": "-1.35%",
+      "open": 51610.02,
+      "high": 51660.4,
+      "low": 50781.45,
+      "volume": "643,352,754",
+      "prev_close": 51561.93,
+      "yr_high": 51660.4,
+      "yr_low": 41981.14
+    },
+    {
+      "symbol": ".SPX",
+      "name": "标普 500",
+      "last": 7383.74,
+      "change": -200.57,
+      "change_pct": "-2.64%",
+      "open": 7537.36,
+      "high": 7541.81,
+      "low": 7368.63,
+      "volume": null,
+      "prev_close": 7584.31,
+      "yr_high": 7620.9,
+      "yr_low": 5921.2
+    },
+    {
+      "symbol": ".IXIC",
+      "name": "纳斯达克综合",
+      "last": 25709.432,
+      "change": -1121.526,
+      "change_pct": "-4.18%",
+      "open": 26536.593,
+      "high": 26572.248,
+      "low": 25648.469,
+      "volume": "1,969,235,735",
+      "prev_close": 26830.958,
+      "yr_high": 27190.21,
+      "yr_low": 19226.22
+    },
+    {
+      "symbol": ".NDX",
+      "name": "纳斯达克 100",
+      "last": 28957.599,
+      "change": -1450.212,
+      "change_pct": "-4.77%",
+      "open": 29992.369,
+      "high": 30051.08,
+      "low": 28929.884,
+      "volume": "574,117,692",
+      "prev_close": 30407.812,
+      "yr_high": 30762.2,
+      "yr_low": 21472.77
+    },
+    {
+      "symbol": ".RUT",
+      "name": "罗素 2000",
+      "last": 2833.502,
+      "change": -101.825,
+      "change_pct": "-3.47%",
+      "open": 2914.029,
+      "high": 2914.029,
+      "low": 2819.034,
+      "volume": "0",
+      "prev_close": 2833.502,
+      "yr_high": 2943.97,
+      "yr_low": 2086.79
+    },
+    {
+      "symbol": ".SOX",
+      "name": "费城半导体 SOX",
+      "last": 12220.76,
+      "change": -1396.735,
+      "change_pct": "-10.26%",
+      "open": 13062.553,
+      "high": 13111.437,
+      "low": 12217.316,
+      "volume": "0",
+      "prev_close": 13617.495,
+      "yr_high": 13998.14,
+      "yr_low": 4959.55
+    },
+    {
+      "symbol": ".VIX",
+      "name": "VIX 波动率",
+      "last": 21.51,
+      "change": 6.11,
+      "change_pct": "+39.68%",
+      "open": 15.87,
+      "high": 21.57,
+      "low": 15.56,
+      "volume": null,
+      "prev_close": 15.4,
+      "yr_high": 35.3,
+      "yr_low": 13.38
+    }
+  ],
+  "tech_etfs": [
+    {
+      "symbol": "SPY",
+      "name": "SPY 标普ETF",
+      "last": 737.55,
+      "change": -19.54,
+      "change_pct": "-2.58%",
+      "open": 752.31,
+      "high": 752.82,
+      "low": 735.53,
+      "volume": "77,064,763",
+      "prev_close": 757.09,
+      "yr_high": 760.4,
+      "yr_low": 591.05,
+      "tech": {
+        "price": 737.55,
+        "ma20": 746.29,
+        "ma50": 713.54,
+        "ma100": 697.58,
+        "ma200": 683.93,
+        "rsi14": 48.6,
+        "macd": {
+          "macd": 9.97,
+          "signal": 12.05,
+          "hist": -2.08
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "QQQ",
+      "name": "QQQ 纳指100ETF",
+      "last": 705.06,
+      "change": -35.55,
+      "change_pct": "-4.80%",
+      "open": 730.06,
+      "high": 731.69,
+      "low": 704.32,
+      "volume": "88,230,555",
+      "prev_close": 740.61,
+      "yr_high": 748.65,
+      "yr_low": 522.66,
+      "tech": {
+        "price": 705.06,
+        "ma20": 722.01,
+        "ma50": 667.81,
+        "ma100": 638.23,
+        "ma200": 621.82,
+        "rsi14": 48.0,
+        "macd": {
+          "macd": 17.43,
+          "signal": 20.7,
+          "hist": -3.27
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "DIA",
+      "name": "DIA 道指ETF",
+      "last": 509.7,
+      "change": -7.0,
+      "change_pct": "-1.35%",
+      "open": 517.71,
+      "high": 517.75,
+      "low": 508.75,
+      "volume": "6,140,704",
+      "prev_close": 516.7,
+      "yr_high": 517.75,
+      "yr_low": 419.62,
+      "tech": {
+        "price": 509.7,
+        "ma20": 503.75,
+        "ma50": 490.87,
+        "ma100": 488.27,
+        "ma200": 479.12,
+        "rsi14": 65.0,
+        "macd": {
+          "macd": 5.83,
+          "signal": 5.52,
+          "hist": 0.31
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "IWM",
+      "name": "IWM 罗素2000ETF",
+      "last": 281.65,
+      "change": -10.36,
+      "change_pct": "-3.55%",
+      "open": 289.1,
+      "high": 289.4,
+      "low": 280.15,
+      "volume": "33,176,446",
+      "prev_close": 292.01,
+      "yr_high": 292.88,
+      "yr_low": 206.81,
+      "tech": {
+        "price": 281.65,
+        "ma20": 284.93,
+        "ma50": 274.12,
+        "ma100": 266.7,
+        "ma200": 255.44,
+        "rsi14": 54.2,
+        "macd": {
+          "macd": 3.76,
+          "signal": 4.38,
+          "hist": -0.62
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "SMH",
+      "name": "SMH 半导体ETF",
+      "last": 569.69,
+      "change": -57.84,
+      "change_pct": "-9.22%",
+      "open": 605.09,
+      "high": 607.0,
+      "low": 569.69,
+      "volume": "21,118,046",
+      "prev_close": 627.53,
+      "yr_high": 642.77,
+      "yr_low": 249.76,
+      "tech": {
+        "price": 569.69,
+        "ma20": 584.09,
+        "ma50": 506.94,
+        "ma100": 453.85,
+        "ma200": 396.7,
+        "rsi14": 53.5,
+        "macd": {
+          "macd": 28.85,
+          "signal": 31.35,
+          "hist": -2.5
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "IGV",
+      "name": "IGV 软件ETF",
+      "last": 95.85,
+      "change": -4.21,
+      "change_pct": "-4.21%",
+      "open": 99.41,
+      "high": 100.0,
+      "low": 95.08,
+      "volume": "18,318,903",
+      "prev_close": 100.06,
+      "yr_high": 117.99,
+      "yr_low": 73.93,
+      "tech": {
+        "price": 95.85,
+        "ma20": 95.0,
+        "ma50": 87.77,
+        "ma100": 87.42,
+        "ma200": 98.67,
+        "rsi14": 56.1,
+        "macd": {
+          "macd": 3.59,
+          "signal": 3.46,
+          "hist": 0.13
+        },
+        "trend": "中期偏弱"
+      }
+    }
+  ],
+  "sectors": [
+    {
+      "symbol": "XLK",
+      "name": "信息技术",
+      "last": 180.3,
+      "change": -12.87,
+      "change_pct": "-6.66%",
+      "open": 188.89,
+      "high": 189.22,
+      "low": 179.8,
+      "volume": "26,017,493",
+      "prev_close": 193.17,
+      "yr_high": 198.73,
+      "yr_low": 117.56,
+      "ret_5d": -5.61,
+      "ret_1mo": 6.04,
+      "tech": {
+        "price": 180.3,
+        "ma20": 182.8,
+        "ma50": 163.01,
+        "ma100": 152.04,
+        "ma200": 146.88,
+        "rsi14": 54.3,
+        "macd": {
+          "macd": 7.9,
+          "signal": 8.41,
+          "hist": -0.5
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "XLC",
+      "name": "通信服务",
+      "last": 111.67,
+      "change": -1.44,
+      "change_pct": "-1.27%",
+      "open": 112.79,
+      "high": 113.36,
+      "low": 111.14,
+      "volume": "8,973,058",
+      "prev_close": 113.11,
+      "yr_high": 120.41,
+      "yr_low": 101.99,
+      "ret_5d": -3.47,
+      "ret_1mo": -4.84,
+      "tech": {
+        "price": 111.67,
+        "ma20": 115.45,
+        "ma50": 115.04,
+        "ma100": 115.57,
+        "ma200": 115.43,
+        "rsi14": 30.3,
+        "macd": {
+          "macd": -0.79,
+          "signal": -0.27,
+          "hist": -0.52
+        },
+        "trend": "空头排列"
+      }
+    },
+    {
+      "symbol": "XLY",
+      "name": "可选消费",
+      "last": 114.86,
+      "change": -2.4,
+      "change_pct": "-2.05%",
+      "open": 117.4,
+      "high": 118.1,
+      "low": 114.57,
+      "volume": "7,670,438",
+      "prev_close": 117.26,
+      "yr_high": 125.01,
+      "yr_low": 103.86,
+      "ret_5d": -4.97,
+      "ret_1mo": -4.18,
+      "tech": {
+        "price": 114.86,
+        "ma20": 118.38,
+        "ma50": 116.26,
+        "ma100": 116.6,
+        "ma200": 117.62,
+        "rsi14": 45.0,
+        "macd": {
+          "macd": 0.02,
+          "signal": 0.55,
+          "hist": -0.53
+        },
+        "trend": "空头排列"
+      }
+    },
+    {
+      "symbol": "XLF",
+      "name": "金融",
+      "last": 52.3,
+      "change": 0.11,
+      "change_pct": "+0.21%",
+      "open": 52.38,
+      "high": 52.48,
+      "low": 52.06,
+      "volume": "40,950,816",
+      "prev_close": 52.19,
+      "yr_high": 56.52,
+      "yr_low": 47.67,
+      "ret_5d": 1.4,
+      "ret_1mo": 0.89,
+      "tech": {
+        "price": 52.3,
+        "ma20": 51.5,
+        "ma50": 51.26,
+        "ma100": 51.57,
+        "ma200": 52.57,
+        "rsi14": 61.3,
+        "macd": {
+          "macd": 0.1,
+          "signal": 0.06,
+          "hist": 0.04
+        },
+        "trend": "中期偏弱"
+      }
+    },
+    {
+      "symbol": "XLI",
+      "name": "工业",
+      "last": 174.18,
+      "change": -1.98,
+      "change_pct": "-1.12%",
+      "open": 175.61,
+      "high": 176.37,
+      "low": 173.48,
+      "volume": "8,741,344",
+      "prev_close": 176.16,
+      "yr_high": 179.31,
+      "yr_low": 141.28,
+      "ret_5d": 0.61,
+      "ret_1mo": -1.52,
+      "tech": {
+        "price": 174.18,
+        "ma20": 173.06,
+        "ma50": 171.01,
+        "ma100": 170.26,
+        "ma200": 162.03,
+        "rsi14": 58.4,
+        "macd": {
+          "macd": 0.77,
+          "signal": 0.61,
+          "hist": 0.16
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "XLV",
+      "name": "医疗保健",
+      "last": 153.01,
+      "change": 0.93,
+      "change_pct": "+0.61%",
+      "open": 153.38,
+      "high": 154.7,
+      "low": 152.92,
+      "volume": "20,605,737",
+      "prev_close": 152.08,
+      "yr_high": 160.59,
+      "yr_low": 127.96,
+      "ret_5d": 2.37,
+      "ret_1mo": 5.23,
+      "tech": {
+        "price": 153.01,
+        "ma20": 147.68,
+        "ma50": 146.76,
+        "ma100": 150.67,
+        "ma200": 148.66,
+        "rsi14": 69.8,
+        "macd": {
+          "macd": 1.13,
+          "signal": 0.65,
+          "hist": 0.48
+        },
+        "trend": "中期偏多"
+      }
+    },
+    {
+      "symbol": "XLP",
+      "name": "必需消费",
+      "last": 83.44,
+      "change": 1.4,
+      "change_pct": "+1.71%",
+      "open": 82.59,
+      "high": 84.39,
+      "low": 82.44,
+      "volume": "16,723,490",
+      "prev_close": 82.04,
+      "yr_high": 90.14,
+      "yr_low": 75.16,
+      "ret_5d": 0.64,
+      "ret_1mo": -0.95,
+      "tech": {
+        "price": 83.44,
+        "ma20": 84.02,
+        "ma50": 83.13,
+        "ma100": 84.2,
+        "ma200": 81.42,
+        "rsi14": 43.8,
+        "macd": {
+          "macd": -0.31,
+          "signal": -0.03,
+          "hist": -0.28
+        },
+        "trend": "多头排列"
+      }
+    },
+    {
+      "symbol": "XLE",
+      "name": "能源",
+      "last": 57.67,
+      "change": -1.08,
+      "change_pct": "-1.84%",
+      "open": 58.67,
+      "high": 58.78,
+      "low": 57.63,
+      "volume": "27,890,369",
+      "prev_close": 58.75,
+      "yr_high": 63.46,
+      "yr_low": 40.83,
+      "ret_5d": 2.45,
+      "ret_1mo": 1.18,
+      "tech": {
+        "price": 57.67,
+        "ma20": 58.22,
+        "ma50": 58.15,
+        "ma100": 56.1,
+        "ma200": 50.36,
+        "rsi14": 42.0,
+        "macd": {
+          "macd": 0.0,
+          "signal": 0.07,
+          "hist": -0.07
+        },
+        "trend": "中期偏多"
+      }
+    },
+    {
+      "symbol": "XLU",
+      "name": "公用事业",
+      "last": 44.35,
+      "change": 0.41,
+      "change_pct": "+0.93%",
+      "open": 44.04,
+      "high": 44.62,
+      "low": 43.97,
+      "volume": "21,236,190",
+      "prev_close": 43.94,
+      "yr_high": 47.8,
+      "yr_low": 39.89,
+      "ret_5d": -0.16,
+      "ret_1mo": -2.98,
+      "tech": {
+        "price": 44.35,
+        "ma20": 44.51,
+        "ma50": 45.46,
+        "ma100": 45.29,
+        "ma200": 44.47,
+        "rsi14": 54.5,
+        "macd": {
+          "macd": -0.43,
+          "signal": -0.4,
+          "hist": -0.03
+        },
+        "trend": "中期偏弱"
+      }
+    },
+    {
+      "symbol": "XLB",
+      "name": "材料",
+      "last": 50.63,
+      "change": -0.99,
+      "change_pct": "-1.92%",
+      "open": 51.41,
+      "high": 51.65,
+      "low": 50.5,
+      "volume": "12,336,594",
+      "prev_close": 51.62,
+      "yr_high": 54.14,
+      "yr_low": 42.04,
+      "ret_5d": -1.02,
+      "ret_1mo": -3.4,
+      "tech": {
+        "price": 50.63,
+        "ma20": 51.02,
+        "ma50": 51.11,
+        "ma100": 50.87,
+        "ma200": 47.82,
+        "rsi14": 52.9,
+        "macd": {
+          "macd": 0.01,
+          "signal": -0.04,
+          "hist": 0.05
+        },
+        "trend": "中期偏多"
+      }
+    },
+    {
+      "symbol": "XLRE",
+      "name": "房地产",
+      "last": 44.7,
+      "change": 0.3,
+      "change_pct": "+0.68%",
+      "open": 44.33,
+      "high": 45.05,
+      "low": 44.21,
+      "volume": "5,297,174",
+      "prev_close": 44.4,
+      "yr_high": 45.05,
+      "yr_low": 39.73,
+      "ret_5d": 1.61,
+      "ret_1mo": -0.09,
+      "tech": {
+        "price": 44.7,
+        "ma20": 44.16,
+        "ma50": 43.47,
+        "ma100": 42.86,
+        "ma200": 42.1,
+        "rsi14": 66.9,
+        "macd": {
+          "macd": 0.12,
+          "signal": 0.16,
+          "hist": -0.04
+        },
+        "trend": "多头排列"
+      }
+    }
+  ],
+  "themes": [
+    {
+      "symbol": "SOXX",
+      "name": "半导体 SOXX",
+      "last": 539.77,
+      "change": -62.95,
+      "change_pct": "-10.44%",
+      "open": 577.86,
+      "high": 580.5,
+      "low": 539.57,
+      "volume": "21,531,114",
+      "prev_close": 602.72,
+      "yr_high": 618.84,
+      "yr_low": 214.41,
+      "ret_5d": -5.15,
+      "ret_1mo": 6.49
+    },
+    {
+      "symbol": "CIBR",
+      "name": "网络安全 CIBR",
+      "last": 86.7,
+      "change": -4.0,
+      "change_pct": "-4.41%",
+      "open": 89.65,
+      "high": 90.0,
+      "low": 86.29,
+      "volume": "2,496,023",
+      "prev_close": 90.7,
+      "yr_high": 94.4,
+      "yr_low": 60.07,
+      "ret_5d": -2.63,
+      "ret_1mo": 23.56
+    },
+    {
+      "symbol": "CLOU",
+      "name": "云计算 CLOU",
+      "last": 23.88,
+      "change": -0.92,
+      "change_pct": "-3.71%",
+      "open": 24.58,
+      "high": 24.65,
+      "low": 23.73,
+      "volume": "393,408",
+      "prev_close": 24.8,
+      "yr_high": 26.44,
+      "yr_low": 17.52,
+      "ret_5d": -1.61,
+      "ret_1mo": 6.94
+    },
+    {
+      "symbol": "BOTZ",
+      "name": "AI/自动化 BOTZ",
+      "last": 37.98,
+      "change": -2.1,
+      "change_pct": "-5.24%",
+      "open": 39.48,
+      "high": 39.48,
+      "low": 37.86,
+      "volume": "1,429,347",
+      "prev_close": 40.08,
+      "yr_high": 41.71,
+      "yr_low": 30.22,
+      "ret_5d": -5.4,
+      "ret_1mo": -4.76
+    },
+    {
+      "symbol": "AIQ",
+      "name": "AI/自动化 AIQ",
+      "last": 62.52,
+      "change": -5.55,
+      "change_pct": "-8.15%",
+      "open": 66.14,
+      "high": 66.19,
+      "low": 62.33,
+      "volume": "3,973,391",
+      "prev_close": 68.07,
+      "yr_high": 70.26,
+      "yr_low": 40.95,
+      "ret_5d": -7.13,
+      "ret_1mo": 3.68
+    },
+    {
+      "symbol": "IWO",
+      "name": "小盘成长 IWO",
+      "last": 366.27,
+      "change": -16.63,
+      "change_pct": "-4.34%",
+      "open": 378.19,
+      "high": 378.2,
+      "low": 363.96,
+      "volume": "607,615",
+      "prev_close": 382.9,
+      "yr_high": 384.5,
+      "yr_low": 272.16,
+      "ret_5d": -3.81,
+      "ret_1mo": -2.1
+    },
+    {
+      "symbol": "IWN",
+      "name": "小盘价值 IWN",
+      "last": 209.44,
+      "change": -5.6,
+      "change_pct": "-2.60%",
+      "open": 213.42,
+      "high": 213.66,
+      "low": 208.71,
+      "volume": "1,121,580",
+      "prev_close": 215.04,
+      "yr_high": 215.7,
+      "yr_low": 151.19,
+      "ret_5d": -2.07,
+      "ret_1mo": -1.56
+    },
+    {
+      "symbol": "RSP",
+      "name": "等权标普 RSP",
+      "last": 207.83,
+      "change": -3.0,
+      "change_pct": "-1.42%",
+      "open": 209.87,
+      "high": 210.36,
+      "low": 207.29,
+      "volume": "10,849,285",
+      "prev_close": 210.83,
+      "yr_high": 210.95,
+      "yr_low": 175.98,
+      "ret_5d": -0.48,
+      "ret_1mo": 1.45
+    },
+    {
+      "symbol": "SCHG",
+      "name": "大盘成长 SCHG",
+      "last": 33.75,
+      "change": -1.04,
+      "change_pct": "-2.99%",
+      "open": 34.58,
+      "high": 34.64,
+      "low": 33.61,
+      "volume": "11,459,287",
+      "prev_close": 34.79,
+      "yr_high": 35.42,
+      "yr_low": 27.69,
+      "ret_5d": -3.9,
+      "ret_1mo": -0.18
+    },
+    {
+      "symbol": "VTV",
+      "name": "大盘价值 VTV",
+      "last": 212.02,
+      "change": -2.92,
+      "change_pct": "-1.36%",
+      "open": 214.3,
+      "high": 214.44,
+      "low": 211.81,
+      "volume": "4,006,112",
+      "prev_close": 214.94,
+      "yr_high": 215.25,
+      "yr_low": 170.95,
+      "ret_5d": 0.08,
+      "ret_1mo": 1.96
+    }
+  ],
+  "macro_assets": [
+    {
+      "symbol": ".DXY",
+      "name": "美元指数 DXY",
+      "last": 100.071,
+      "change": 0.658,
+      "change_pct": "+0.66%",
+      "open": 99.432,
+      "high": 100.109,
+      "low": 99.163,
+      "volume": null,
+      "prev_close": 99.413,
+      "yr_high": 100.64,
+      "yr_low": 95.55
+    },
+    {
+      "symbol": "@GC.1",
+      "name": "黄金",
+      "last": 4353.9,
+      "change": -151.1,
+      "change_pct": "-3.35%",
+      "open": 4503.0,
+      "high": 4508.7,
+      "low": 4336.6,
+      "volume": "173,440",
+      "prev_close": 4505.0,
+      "yr_high": 5586.2,
+      "yr_low": 3250.5
+    },
+    {
+      "symbol": "@CL.1",
+      "name": "WTI 原油",
+      "last": 90.25,
+      "change": -2.79,
+      "change_pct": "-3.00%",
+      "open": 92.82,
+      "high": 93.63,
+      "low": 89.68,
+      "volume": "215,733",
+      "prev_close": 93.04,
+      "yr_high": 119.48,
+      "yr_low": 54.98
+    },
+    {
+      "symbol": "@LCO.1",
+      "name": "Brent 原油",
+      "last": 93.09,
+      "change": null,
+      "change_pct": "UNCH",
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "volume": "0",
+      "prev_close": 93.09,
+      "yr_high": 126.41,
+      "yr_low": 58.72
+    },
+    {
+      "symbol": "BTC.CB=",
+      "name": "比特币",
+      "last": 60908.14,
+      "change": 612.29,
+      "change_pct": "+1.02%",
+      "open": 60272.37,
+      "high": 61942.0,
+      "low": 59920.0,
+      "volume": "28,308",
+      "prev_close": 60295.85,
+      "yr_high": 126279.6,
+      "yr_low": 59920.0
+    },
+    {
+      "symbol": "ETH.CB=",
+      "name": "以太坊",
+      "last": 1575.5,
+      "change": 2.47,
+      "change_pct": "+0.16%",
+      "open": 1573.42,
+      "high": 1618.33,
+      "low": 1556.88,
+      "volume": "476,790",
+      "prev_close": 1573.03,
+      "yr_high": 1618.33,
+      "yr_low": 0.0
+    }
+  ],
+  "yields": {},
+  "technicals_stocks": [
+    {
+      "symbol": "AAPL",
+      "price": 307.34,
+      "ma20": 304.25,
+      "ma50": 281.24,
+      "ma100": 270.95,
+      "ma200": 265.19,
+      "rsi14": 58.3,
+      "macd": {
+        "macd": 8.46,
+        "signal": 9.4,
+        "hist": -0.93
+      },
+      "trend": "多头排列"
+    },
+    {
+      "symbol": "AMD",
+      "price": 466.38,
+      "ma20": 473.93,
+      "ma50": 358.72,
+      "ma100": 286.71,
+      "ma200": 245.97,
+      "rsi14": 58.5,
+      "macd": {
+        "macd": 43.42,
+        "signal": 47.59,
+        "hist": -4.17
+      },
+      "trend": "多头排列"
+    },
+    {
+      "symbol": "AMZN",
+      "price": 246.03,
+      "ma20": 264.12,
+      "ma50": 251.16,
+      "ma100": 234.9,
+      "ma200": 232.13,
+      "rsi14": 35.6,
+      "macd": {
+        "macd": -0.42,
+        "signal": 3.08,
+        "hist": -3.5
+      },
+      "trend": "中期偏多"
+    },
+    {
+      "symbol": "ANET",
+      "price": 154.27,
+      "ma20": 152.27,
+      "ma50": 152.28,
+      "ma100": 143.88,
+      "ma200": 140.94,
+      "rsi14": 59.5,
+      "macd": {
+        "macd": 3.64,
+        "signal": 2.28,
+        "hist": 1.35
+      },
+      "trend": "多头排列"
+    },
+    {
+      "symbol": "AVGO",
+      "price": 385.73,
+      "ma20": 429.02,
+      "ma50": 398.41,
+      "ma100": 363.72,
+      "ma200": 355.79,
+      "rsi14": 39.5,
+      "macd": {
+        "macd": 8.74,
+        "signal": 12.35,
+        "hist": -3.61
+      },
+      "trend": "中期偏多"
+    },
+    {
+      "symbol": "CEG",
+      "price": 254.83,
+      "ma20": 279.37,
+      "ma50": 289.29,
+      "ma100": 294.13,
+      "ma200": 321.77,
+      "rsi14": 44.4,
+      "macd": {
+        "macd": -8.0,
+        "signal": -5.47,
+        "hist": -2.54
+      },
+      "trend": "空头排列"
+    },
+    {
+      "symbol": "COHR",
+      "price": 376.99,
+      "ma20": 380.83,
+      "ma50": 333.52,
+      "ma100": 283.97,
+      "ma200": 210.82,
+      "rsi14": 48.6,
+      "macd": {
+        "macd": 18.22,
+        "signal": 18.23,
+        "hist": -0.0
+      },
+      "trend": "多头排列"
+    },
+    {
+      "symbol": "CRM",
+      "price": 185.66,
+      "ma20": 181.61,
+      "ma50": 181.31,
+      "ma100": 191.48,
+      "ma200": 220.13,
+      "rsi14": 58.0,
+      "macd": {
+        "macd": 2.99,
+        "signal": 1.73,
+        "hist": 1.25
+      },
+      "trend": "中期偏弱"
+    },
+    {
+      "symbol": "GOOGL",
+      "price": 368.53,
+      "ma20": 385.38,
+      "ma50": 354.5,
+      "ma100": 335.22,
+      "ma200": 304.04,
+      "rsi14": 30.4,
+      "macd": {
+        "macd": 1.7,
+        "signal": 6.85,
+        "hist": -5.15
+      },
+      "trend": "多头排列"
+    },
+    {
+      "symbol": "META",
+      "price": 593.0,
+      "ma20": 612.72,
+      "ma50": 619.52,
+      "ma100": 633.27,
+      "ma200": 662.45,
+      "rsi14": 42.8,
+      "macd": {
+        "macd": -3.75,
+        "signal": -3.49,
+        "hist": -0.26
+      },
+      "trend": "空头排列"
+    },
+    {
+      "symbol": "MRVL",
+      "price": 263.47,
+      "ma20": 208.52,
+      "ma50": 165.35,
+      "ma100": 124.09,
+      "ma200": 103.49,
+      "rsi14": 69.0,
+      "macd": {
+        "macd": 33.51,
+        "signal": 24.41,
+        "hist": 9.11
+      },
+      "trend": "多头排列"
+    },
+    {
+      "symbol": "MSFT",
+      "price": 416.67,
+      "ma20": 422.58,
+      "ma50": 408.35,
+      "ma100": 411.48,
+      "ma200": 456.38,
+      "rsi14": 47.7,
+      "macd": {
+        "macd": 5.54,
+        "signal": 6.19,
+        "hist": -0.65
+      },
+      "trend": "中期偏弱"
+    },
+    {
+      "symbol": "NVDA",
+      "price": 205.1,
+      "ma20": 219.1,
+      "ma50": 203.45,
+      "ma100": 193.77,
+      "ma200": 188.57,
+      "rsi14": 34.1,
+      "macd": {
+        "macd": 2.3,
+        "signal": 4.26,
+        "hist": -1.96
+      },
+      "trend": "多头排列"
+    },
+    {
+      "symbol": "OKLO",
+      "price": 58.09,
+      "ma20": 66.6,
+      "ma50": 63.35,
+      "ma100": 66.9,
+      "ma200": 85.66,
+      "rsi14": 45.3,
+      "macd": {
+        "macd": -0.4,
+        "signal": 0.31,
+        "hist": -0.71
+      },
+      "trend": "空头排列"
+    },
+    {
+      "symbol": "ORCL",
+      "price": 213.68,
+      "ma20": 203.98,
+      "ma50": 179.52,
+      "ma100": 169.55,
+      "ma200": 206.78,
+      "rsi14": 58.0,
+      "macd": {
+        "macd": 14.39,
+        "signal": 12.24,
+        "hist": 2.15
+      },
+      "trend": "中期偏多"
+    },
+    {
+      "symbol": "PLTR",
+      "price": 135.53,
+      "ma20": 139.58,
+      "ma50": 140.9,
+      "ma100": 145.6,
+      "ma200": 161.07,
+      "rsi14": 51.3,
+      "macd": {
+        "macd": 1.09,
+        "signal": 0.79,
+        "hist": 0.3
+      },
+      "trend": "空头排列"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 391.0,
+      "ma20": 425.87,
+      "ma50": 395.29,
+      "ma100": 403.49,
+      "ma200": 414.14,
+      "rsi14": 37.3,
+      "macd": {
+        "macd": 4.14,
+        "signal": 8.61,
+        "hist": -4.46
+      },
+      "trend": "空头排列"
+    },
+    {
+      "symbol": "VRT",
+      "price": 300.51,
+      "ma20": 335.42,
+      "ma50": 313.08,
+      "ma100": 270.16,
+      "ma200": 216.01,
+      "rsi14": 23.8,
+      "macd": {
+        "macd": -0.98,
+        "signal": 3.18,
+        "hist": -4.16
+      },
+      "trend": "中期偏多"
+    },
+    {
+      "symbol": "VST",
+      "price": 148.76,
+      "ma20": 150.29,
+      "ma50": 154.38,
+      "ma100": 158.45,
+      "ma200": 172.1,
+      "rsi14": 57.9,
+      "macd": {
+        "macd": 0.11,
+        "signal": -0.18,
+        "hist": 0.29
+      },
+      "trend": "空头排列"
+    }
+  ],
+  "movers": {
+    "mag7": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "last": 205.1,
+        "change_pct": "-6.20%",
+        "change": -13.56
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corp",
+        "last": 416.67,
+        "change_pct": "-2.66%",
+        "change": -11.38
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc",
+        "last": 307.34,
+        "change_pct": "-1.25%",
+        "change": -3.89
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Class A",
+        "last": 368.53,
+        "change_pct": "-0.98%",
+        "change": -3.66
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc",
+        "last": 246.03,
+        "change_pct": "-3.06%",
+        "change": -7.76
+      },
+      {
+        "symbol": "META",
+        "name": "Meta Platforms Inc",
+        "last": 593.0,
+        "change_pct": "-5.51%",
+        "change": -34.57
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla Inc",
+        "last": 391.0,
+        "change_pct": "-6.56%",
+        "change": -27.45
+      }
+    ],
+    "ai_hardware": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "last": 205.1,
+        "change_pct": "-6.20%",
+        "change": -13.56
+      },
+      {
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices Inc",
+        "last": 466.38,
+        "change_pct": "-10.86%",
+        "change": -56.82
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc",
+        "last": 385.73,
+        "change_pct": "-7.92%",
+        "change": -33.18
+      },
+      {
+        "symbol": "MRVL",
+        "name": "Marvell Technology Inc",
+        "last": 263.47,
+        "change_pct": "-16.74%",
+        "change": -52.96
+      },
+      {
+        "symbol": "MU",
+        "name": "Micron Technology Inc",
+        "last": 864.01,
+        "change_pct": "-13.25%",
+        "change": -131.99
+      },
+      {
+        "symbol": "TSM",
+        "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+        "last": 415.17,
+        "change_pct": "-6.69%",
+        "change": -29.75
+      },
+      {
+        "symbol": "ASML",
+        "name": "ASML Holding NV",
+        "last": 1641.74,
+        "change_pct": "-6.59%",
+        "change": -115.73
+      },
+      {
+        "symbol": "ARM",
+        "name": "Arm Holdings PLC",
+        "last": 342.93,
+        "change_pct": "-12.84%",
+        "change": -50.51
+      },
+      {
+        "symbol": "INTC",
+        "name": "Intel Corp",
+        "last": 99.17,
+        "change_pct": "-11.28%",
+        "change": -12.61
+      },
+      {
+        "symbol": "QCOM",
+        "name": "Qualcomm Inc",
+        "last": 215.94,
+        "change_pct": "-10.98%",
+        "change": -26.63
+      },
+      {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer Inc",
+        "last": 41.64,
+        "change_pct": "-11.22%",
+        "change": -5.26
+      },
+      {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc",
+        "last": 394.39,
+        "change_pct": "-6.55%",
+        "change": -27.66
+      },
+      {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Co",
+        "last": 49.2,
+        "change_pct": "-8.36%",
+        "change": -4.49
+      },
+      {
+        "symbol": "ANET",
+        "name": "Arista Networks Inc",
+        "last": 154.27,
+        "change_pct": "-7.07%",
+        "change": -11.74
+      },
+      {
+        "symbol": "CLS",
+        "name": "Celestica Inc",
+        "last": 371.71,
+        "change_pct": "-12.61%",
+        "change": -53.65
+      },
+      {
+        "symbol": "VRT",
+        "name": "Vertiv Holdings Co",
+        "last": 300.51,
+        "change_pct": "-7.23%",
+        "change": -23.41
+      },
+      {
+        "symbol": "COHR",
+        "name": "Coherent Corp",
+        "last": 376.99,
+        "change_pct": "-10.64%",
+        "change": -44.91
+      },
+      {
+        "symbol": "LITE",
+        "name": "Lumentum Holdings Inc",
+        "last": 863.66,
+        "change_pct": "-8.62%",
+        "change": -81.42
+      },
+      {
+        "symbol": "AAOI",
+        "name": "Applied Optoelectronics Inc",
+        "last": 177.0,
+        "change_pct": "-12.76%",
+        "change": -25.89
+      }
+    ],
+    "software": [
+      {
+        "symbol": "CRM",
+        "name": "Salesforce Inc",
+        "last": 185.66,
+        "change_pct": "-1.64%",
+        "change": -3.09
+      },
+      {
+        "symbol": "NOW",
+        "name": "ServiceNow Inc",
+        "last": 112.45,
+        "change_pct": "-5.79%",
+        "change": -6.91
+      },
+      {
+        "symbol": "SNOW",
+        "name": "Snowflake Inc",
+        "last": 238.26,
+        "change_pct": "-2.42%",
+        "change": -5.92
+      },
+      {
+        "symbol": "ORCL",
+        "name": "Oracle Corp",
+        "last": 213.68,
+        "change_pct": "-9.59%",
+        "change": -22.66
+      },
+      {
+        "symbol": "ADBE",
+        "name": "Adobe Inc.",
+        "last": 251.44,
+        "change_pct": "-2.70%",
+        "change": -6.98
+      },
+      {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks Inc",
+        "last": 272.05,
+        "change_pct": "-2.58%",
+        "change": -7.2
+      },
+      {
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings Inc",
+        "last": 671.02,
+        "change_pct": "-6.68%",
+        "change": -48.07
+      },
+      {
+        "symbol": "DDOG",
+        "name": "Datadog Inc",
+        "last": 234.11,
+        "change_pct": "-3.90%",
+        "change": -9.49
+      },
+      {
+        "symbol": "NET",
+        "name": "Cloudflare Inc",
+        "last": 250.11,
+        "change_pct": "-6.90%",
+        "change": -18.53
+      },
+      {
+        "symbol": "MDB",
+        "name": "MongoDB Inc",
+        "last": 350.74,
+        "change_pct": "-7.74%",
+        "change": -29.44
+      },
+      {
+        "symbol": "PLTR",
+        "name": "Palantir Technologies Inc",
+        "last": 135.53,
+        "change_pct": "-4.35%",
+        "change": -6.17
+      },
+      {
+        "symbol": "APP",
+        "name": "Applovin Corp",
+        "last": 557.2,
+        "change_pct": "-0.30%",
+        "change": -1.67
+      },
+      {
+        "symbol": "TEAM",
+        "name": "Atlassian Corp",
+        "last": 99.47,
+        "change_pct": "-2.00%",
+        "change": -2.03
+      },
+      {
+        "symbol": "WDAY",
+        "name": "Workday Inc",
+        "last": 144.28,
+        "change_pct": "-2.45%",
+        "change": -3.63
+      },
+      {
+        "symbol": "INTU",
+        "name": "Intuit Inc",
+        "last": 296.76,
+        "change_pct": "-1.73%",
+        "change": -5.22
+      },
+      {
+        "symbol": "SHOP",
+        "name": "Shopify Inc",
+        "last": 109.54,
+        "change_pct": "-5.60%",
+        "change": -6.5
+      }
+    ],
+    "ai_power": [
+      {
+        "symbol": "CEG",
+        "name": "Constellation Energy Corp",
+        "last": 254.83,
+        "change_pct": "-3.69%",
+        "change": -9.76
+      },
+      {
+        "symbol": "VST",
+        "name": "Vistra Corp",
+        "last": 148.76,
+        "change_pct": "-3.21%",
+        "change": -4.94
+      },
+      {
+        "symbol": "NRG",
+        "name": "NRG Energy Inc",
+        "last": 129.2,
+        "change_pct": "-3.14%",
+        "change": -4.19
+      },
+      {
+        "symbol": "ETN",
+        "name": "Eaton Corporation PLC",
+        "last": 395.94,
+        "change_pct": "-5.42%",
+        "change": -22.67
+      },
+      {
+        "symbol": "PWR",
+        "name": "Quanta Services Inc",
+        "last": 695.11,
+        "change_pct": "-3.35%",
+        "change": -24.06
+      },
+      {
+        "symbol": "GEV",
+        "name": "GE Vernova Inc",
+        "last": 933.61,
+        "change_pct": "-3.09%",
+        "change": -29.72
+      },
+      {
+        "symbol": "VRT",
+        "name": "Vertiv Holdings Co",
+        "last": 300.51,
+        "change_pct": "-7.23%",
+        "change": -23.41
+      },
+      {
+        "symbol": "FLNC",
+        "name": "Fluence Energy Inc",
+        "last": 22.91,
+        "change_pct": "-15.62%",
+        "change": -4.24
+      },
+      {
+        "symbol": "OKLO",
+        "name": "Oklo Inc",
+        "last": 58.09,
+        "change_pct": "-11.16%",
+        "change": -7.3
+      },
+      {
+        "symbol": "SMR",
+        "name": "Nuscale Power Corp",
+        "last": 10.5,
+        "change_pct": "-12.50%",
+        "change": -1.5
+      },
+      {
+        "symbol": "BE",
+        "name": "Bloom Energy Corp",
+        "last": 263.61,
+        "change_pct": "-9.53%",
+        "change": -27.76
+      },
+      {
+        "symbol": "NEE",
+        "name": "Nextera Energy Inc",
+        "last": 85.84,
+        "change_pct": "+0.92%",
+        "change": 0.78
+      },
+      {
+        "symbol": "SO",
+        "name": "Southern Co",
+        "last": 92.6,
+        "change_pct": "+1.07%",
+        "change": 0.98
+      },
+      {
+        "symbol": "DUK",
+        "name": "Duke Energy Corp",
+        "last": 124.22,
+        "change_pct": "+1.97%",
+        "change": 2.4
+      },
+      {
+        "symbol": "APLD",
+        "name": "Applied Digital Corp",
+        "last": 39.62,
+        "change_pct": "-10.26%",
+        "change": -4.53
+      },
+      {
+        "symbol": "IREN",
+        "name": "IREN Ltd",
+        "last": 54.35,
+        "change_pct": "-12.14%",
+        "change": -7.51
+      },
+      {
+        "symbol": "CORZ",
+        "name": "Core Scientific Inc",
+        "last": 25.85,
+        "change_pct": "-7.38%",
+        "change": -2.06
+      }
+    ]
+  },
+  "top_gainers": [
+    {
+      "symbol": "DUK",
+      "name": "Duke Energy Corp",
+      "last": 124.22,
+      "change_pct": "+1.97%",
+      "change": 2.4
+    },
+    {
+      "symbol": "SO",
+      "name": "Southern Co",
+      "last": 92.6,
+      "change_pct": "+1.07%",
+      "change": 0.98
+    },
+    {
+      "symbol": "NEE",
+      "name": "Nextera Energy Inc",
+      "last": 85.84,
+      "change_pct": "+0.92%",
+      "change": 0.78
+    },
+    {
+      "symbol": "APP",
+      "name": "Applovin Corp",
+      "last": 557.2,
+      "change_pct": "-0.30%",
+      "change": -1.67
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Class A",
+      "last": 368.53,
+      "change_pct": "-0.98%",
+      "change": -3.66
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc",
+      "last": 307.34,
+      "change_pct": "-1.25%",
+      "change": -3.89
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce Inc",
+      "last": 185.66,
+      "change_pct": "-1.64%",
+      "change": -3.09
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit Inc",
+      "last": 296.76,
+      "change_pct": "-1.73%",
+      "change": -5.22
+    }
+  ],
+  "top_losers": [
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology Inc",
+      "last": 263.47,
+      "change_pct": "-16.74%",
+      "change": -52.96
+    },
+    {
+      "symbol": "FLNC",
+      "name": "Fluence Energy Inc",
+      "last": 22.91,
+      "change_pct": "-15.62%",
+      "change": -4.24
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology Inc",
+      "last": 864.01,
+      "change_pct": "-13.25%",
+      "change": -131.99
+    },
+    {
+      "symbol": "ARM",
+      "name": "Arm Holdings PLC",
+      "last": 342.93,
+      "change_pct": "-12.84%",
+      "change": -50.51
+    },
+    {
+      "symbol": "AAOI",
+      "name": "Applied Optoelectronics Inc",
+      "last": 177.0,
+      "change_pct": "-12.76%",
+      "change": -25.89
+    },
+    {
+      "symbol": "CLS",
+      "name": "Celestica Inc",
+      "last": 371.71,
+      "change_pct": "-12.61%",
+      "change": -53.65
+    },
+    {
+      "symbol": "SMR",
+      "name": "Nuscale Power Corp",
+      "last": 10.5,
+      "change_pct": "-12.50%",
+      "change": -1.5
+    },
+    {
+      "symbol": "IREN",
+      "name": "IREN Ltd",
+      "last": 54.35,
+      "change_pct": "-12.14%",
+      "change": -7.51
+    }
+  ]
+}
