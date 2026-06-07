@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-08",
+  "total_candidates": 14,
+  "kept": 5,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-08",
+      "title_en": "Apple WWDC 2026: redesigned standalone Siri, iOS 27, third-party model support",
+      "source": "Apple",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Apple's WWDC 2026 keynote (June 8, 10am PT) unveils a fully redesigned Siri as a standalone chatbot app, iOS 27/macOS 27, and first-ever option to route Siri to third-party models (Gemini, Claude, ChatGPT). Day's biggest consumer-AI story."
+    },
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-04",
+      "title_en": "SpaceX IPO roadshow launches early, fixed $135/share = $1.77T valuation",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-05-29 with an $1.8T valuation floor and a planned 6-8 roadshow start. New info: roadshow actually launched June 4 (ahead of schedule after faster SEC review); SpaceX set a FIXED $135/share price (556.6M shares), bypassing the usual range process, for a $1.77T valuation and ~$75B raise; pricing June 11, Nasdaq debut June 12. Concrete, substantively new terms."
+    },
+    {
+      "story_key": "flourish-brain-inspired-ai",
+      "event_date": "2026-06-04",
+      "title_en": "Bezos-backed Flourish raises $500M to build brain-inspired 20-50W AI",
+      "source": "SiliconANGLE",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Flourish exited stealth (announced June 6, round closed ~June 4) with $500M at $2.5B valuation, backed by Jeff Bezos, Lux Capital, GV, Catalio; building Cortex AI via connectomics to find the brain's 'core algorithm' and run AI at 20-50W vs today's massive draw."
+    },
+    {
+      "story_key": "byd-humanoid-robots",
+      "event_date": "2026-06-04",
+      "title_en": "BYD confirms humanoid robot program, may sell via dealer network",
+      "source": "CnEVPost",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. BYD EVP Stella Li confirmed BYD is developing humanoid robots (codename 'Yao-Shun-Yu', started 2022, under its 15th Business Unit), could sell them through its auto dealer network, and is building a Xi'an park targeting 50,000 robots/year."
+    },
+    {
+      "story_key": "helion-series-g-fusion",
+      "event_date": "2026-06-04",
+      "title_en": "Altman-backed Helion raises $465M Series G to power AI/Microsoft with fusion",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Helion (Sam Altman-backed) raised $465M Series G led by Thrive Capital at $15.5B post-money to scale toward delivering fusion power to the grid as early as 2028, including a plant for Microsoft; directly tied to AI-driven power demand."
+    },
+    {
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-08",
+      "title_en": "Apple WWDC expectations roundups",
+      "source": "TechRadar",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Pre-keynote 'what to expect' roundups are superseded by the actual keynote coverage kept above; folded into the single apple-wwdc-2026-siri item."
+    },
+    {
+      "story_key": "claude-opus-4-8",
+      "event_date": "2026-05-28",
+      "title_en": "Anthropic releases Claude Opus 4.8",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-28 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "gemini-35-flash",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini 3.5 Flash generally available",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 20 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-realtime-voice-models",
+      "event_date": "2026-05-07",
+      "title_en": "OpenAI launches GPT-Realtime-2/Translate/Whisper voice models",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-07 is 32 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-hiro-acquisition",
+      "event_date": "2026-04-13",
+      "title_en": "OpenAI acqui-hires personal finance startup Hiro",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-13 is ~8 weeks old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-deployment-company",
+      "event_date": "2026-05-12",
+      "title_en": "OpenAI launches $4B Deployment Company, acquires Tomoro",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-12 is 27 days old (>5 day limit)."
+    },
+    {
+      "story_key": "rhoda-ai-series-a",
+      "event_date": "2026-03-10",
+      "title_en": "Rhoda AI exits stealth with $450M Series A for robotic intelligence",
+      "source": "BusinessWire",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-10 is ~3 months old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-ipo-filing",
+      "event_date": "2026-06-01",
+      "title_en": "Anthropic confidentially files S-1 for IPO",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-01 (anthropic-ipo-filing). Today's mentions are recaps in weekly roundups with no substantively new development."
+    },
+    {
+      "story_key": "xai-grok-voice-imagine",
+      "event_date": "2026-06-04",
+      "title_en": "xAI ships Grok Build / Skills / Connectors",
+      "source": "xAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-04 (xai-grok-voice-imagine covering Grok Voice/Imagine/Build). Skills/Connectors are incremental product add-ons without a clear fresh-dated milestone; no substantive new development to report."
+    }
+  ]
+}

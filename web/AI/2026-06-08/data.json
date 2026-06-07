@@ -1,0 +1,121 @@
+{
+  "date": "2026-06-08",
+  "category": "AI",
+  "title": "Tim Cook 最后一届 WWDC 摊牌 AI：Siri 重做成独立 App、破例允许改接 Gemini/Claude/ChatGPT；史上最大 IPO SpaceX 跳过询价直接 $135/股锁定 $1.77 万亿；AI 电荒催生两条新路线——Bezos 押脑启发、Altman 押核聚变",
+  "items": [
+    {
+      "id": "1",
+      "title": "Tim Cook 最后一届 WWDC 交出'迟到的 AI 答卷'：Siri 重做成独立聊天 App，还破天荒允许用户改接 Gemini / Claude / ChatGPT",
+      "source": "Apple",
+      "source_name": "Crypto Briefing",
+      "source_url": "https://cryptobriefing.com/apple-wwdc-2026-siri-ai-overhaul/",
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-08",
+      "summary": "Apple 在 6 月 8 日 WWDC 2026 主题演讲上公布全面重做的 Siri：以独立聊天 App 形态登场，并首次允许用户把 Siri 后端切换到 Gemini、Claude 或 ChatGPT 等第三方模型，配合 iOS 27 / macOS 27 把系统级 AI 推向'agentic'。",
+      "detail": "Apple 在 6 月 8 日上午 10 点（太平洋时间）召开的 WWDC 2026 主题演讲上，把'重做 Siri'摆在整场 AI 战略的正中央——这被外界普遍视为 Apple 对 2024 年以来 Apple Intelligence 一再跳票的一次'纠偏'(corrective moment)。\n\n新版 Siri 的核心变化有三点：其一，Siri 首次以独立聊天 App 的形态出现，配备专门的对话界面，并采用与 Dynamic Island 融合的深色视觉；其二，强化上下文感知——不只听懂'你问了什么'，还要理解'你为什么问'，并能跨多个 App 连续完成任务（cross-app multitasking），向真正的 agent 迈进；其三，也是最具信号意义的一点：iOS 27 将允许用户把 Siri 的后端模型切换为第三方供应商，明确点名 Google Gemini、Claude 与 ChatGPT。\n\n这一'开放接入'意味着 Apple 承认——至少部分用户愿意用一部分隐私换取更强的能力，因此与其死守自研模型，不如把选择权交给用户。iOS 27 与 macOS 27 将作为底座，把更多 AI 能力下沉到端侧。本届也被广泛报道为 Tim Cook 任内的最后一届 WWDC。",
+      "key_quotes": [
+        "Apple positioned this rollout as a 'corrective moment' after AI initiative delays.",
+        "iOS 27 will let users select alternative AI providers for Siri, including Google Gemini, Claude and ChatGPT."
+      ],
+      "significance": "Apple 是最后一个'认真摊牌'的科技巨头。把 Siri 做成独立聊天 App 并允许接入 Gemini/Claude/ChatGPT，等于公开承认自研模型一时追不上前沿——这既给三大模型厂打开了十亿级 iPhone 入口，也把'谁来当 Siri 的大脑'变成新的兵家必争之地，重塑消费级 AI 的分发格局。",
+      "links": [
+        "https://cryptobriefing.com/apple-wwdc-2026-siri-ai-overhaul/",
+        "https://www.techradar.com/tech/5-things-to-expect-at-wwdc-2026-from-siri-2-0-to-tim-cooks-apple-farewell"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "Siri", "WWDC 2026", "iOS 27", "Apple Intelligence", "端侧 AI"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "史上最大 IPO 提前开跑：SpaceX 跳过询价直接定价 $135/股、估值锁定 $1.77 万亿——6-11 定价、6-12 登 Nasdaq",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-04",
+      "summary": "SpaceX 的 IPO 路演已于 6 月 4 日提前启动，并一反常规跳过价格区间、直接给出固定发行价 $135/股——对应约 $1.77 万亿估值、发行 5.566 亿股、募资约 $750 亿，6-11 定价、6-12 以 SPCX 登陆 Nasdaq。",
+      "detail": "已在 2 月吞下 xAI（Grok 母体）的 SpaceX，把这场冲击'史上最大 IPO'的发行节奏明显提前并具体化。因 SEC 审查快于预期，路演已于 6 月 4 日启动，早于此前传出的'6-8 那一周'。\n\n更不寻常的是定价方式：SpaceX 没有按惯例先给一个价格区间再询价，而是直接锁定固定发行价 $135/股。按此价格、发行 5.566 亿股计算，公司估值约 $1.77 万亿、目标募资约 $750 亿——这一规模将刷新全球 IPO 纪录，是迄今美股最大 IPO（阿里巴巴）的三倍多。该 $135 定价假设 EchoStar 频谱与 Cursor 两笔交易顺利完成。定价定于 6 月 11 日，6 月 12 日以代码 SPCX 在 Nasdaq 挂牌交易。\n\n背景回顾：5 月底 SpaceX 已把 IPO 估值地板从 4 月一度瞄准的 $2 万亿+ 主动下调至 $1.8 万亿，并合并了 xAI。",
+      "key_quotes": [
+        "SpaceX went straight to a fixed price of $135 per share, bypassing the range process entirely.",
+        "Targeting a $75 billion raise at a $1.75 trillion valuation — which would be the largest IPO in stock market history."
+      ],
+      "significance": "从'估值地板'到'固定发行价'，SpaceX 把市场预期变成了硬数字——跳过询价区间直接定价，是对需求极度自信的强势姿态。作为已并入 xAI 的实体，SPCX 上市将成为公开市场上体量最大的'AI+航天'标的，其表现会直接为后面排队的 OpenAI、Anthropic IPO 定调。",
+      "links": [
+        "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+        "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": ["SpaceX", "xAI", "IPO", "SPCX", "Nasdaq", "Elon Musk"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "Bezos 押注'抄人脑'解 AI 电荒：脑启发创业 Flourish 募 $5 亿、估值 $25 亿，目标让 AI 跑在 20-50 瓦",
+      "source": "@jeffbezos",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://siliconangle.com/2026/06/04/ai-startup-flourish-reportedly-raises-500m-round-backed-jeff-bezos/",
+      "story_key": "flourish-brain-inspired-ai",
+      "event_date": "2026-06-04",
+      "summary": "脑启发 AI 创业公司 Flourish 走出隐身，募集 $5 亿、估值 $25 亿，由 Jeff Bezos、Lux Capital、GV（Alphabet）、Catalio 等支持；公司用连接组学(connectomics)逆向人脑'核心算法'，目标让 AI 系统跑在 20-50 瓦——约等于一台笔记本的功耗。",
+      "detail": "在'AI 越来越吃电'成为行业头号约束的当口，一家名为 Flourish 的脑启发(brain-inspired) AI 创业公司 6 月初走出隐身：本轮约 $5 亿融资（6-4 前后敲定、6-6 披露），投后估值约 $25 亿，背后是 Jeff Bezos、Lux Capital、GV（Alphabet 旗下风投）与 Catalio Capital 等。据报道 Bezos 起初承诺约 $5000 万，随着其他重量级投资人涌入又近乎翻倍加注。\n\nFlourish 在做的是 Cortex AI——一套试图直接模仿大脑工作方式的系统：通过绘制真实神经元及其连接（即连接组学 connectomics）去寻找大脑的'核心算法'(core algorithm)。其最激进的目标是能耗：让 AI 系统跑在 20 到 50 瓦区间，与当下动辄千瓦、兆瓦级的算力消耗形成鲜明对比。换句话说，这是一条与'堆 GPU、堆数据中心、堆电'完全相反的技术路线——用更接近生物大脑的架构，从根上压低 AI 的能耗。",
+      "key_quotes": [
+        "Cortex AI aims to run at 20 to 50 watts — a laptop's power draw — versus the massive energy today's AI requires.",
+        "Bezos reportedly committed about $50 million before nearly doubling his stake as other high-profile investors piled in."
+      ],
+      "significance": "当四大科技今年合计砸近 $7000 亿建数据中心、电力成为 AI 第一约束时，Flourish 代表的是被资本重新重视的'另一条路'：不靠蛮力堆算力，而靠更像大脑的架构把能耗砍几个数量级。Bezos 亲自加注、估值一上来就 $25 亿，说明顶级资本愿意为'低功耗 AI'这个长期赌注下重注。",
+      "links": [
+        "https://siliconangle.com/2026/06/04/ai-startup-flourish-reportedly-raises-500m-round-backed-jeff-bezos/",
+        "https://www.techtimes.com/articles/317921/20260606/jeff-bezos-bets-flourish-500-million-startup-trying-copy-brain-fix-ais-power-crisis.htm"
+      ],
+      "tags": ["Flourish", "Jeff Bezos", "脑启发 AI", "connectomics", "低功耗", "融资"],
+      "category": "research"
+    },
+    {
+      "id": "4",
+      "title": "造车的也来抢人形机器人：BYD 确认自研机器人'尧舜禹'——2022 年立项、或借遍布全国的 4S 店网络卖货，西安基地年产能瞄 5 万台",
+      "source": "BYD",
+      "source_name": "CnEVPost",
+      "source_url": "https://cnevpost.com/2026/06/03/byd-enters-humanoid-robot-market/",
+      "story_key": "byd-humanoid-robots",
+      "event_date": "2026-06-04",
+      "summary": "BYD 执行副总裁李柯证实公司正研发人形机器人——项目代号'尧舜禹'，2022 年立项、归口第十五事业部；未来若进入家庭，可能借助 BYD 庞大的汽车经销商网络销售，西安产业园规划年产能最终达 5 万台。",
+      "detail": "继多家中国车企之后，BYD 也正式确认杀入人形机器人赛道。BYD 执行副总裁李柯（Stella Li）在一档访谈节目中证实，公司正在研发人形机器人，项目代号'尧舜禹'(Yao-Shun-Yu)，早在 2022 年就已立项，归口于聚焦电子集成与智能化的第十五事业部。\n\nBYD 的打法高度复用造车积累：把它在电池、传感器、电机与车载 AI 上的能力迁移到机器人本体，目标是做能执行多种任务的通用人形机器人。商业化路径上也很'BYD'——李柯表示，未来这些机器人若进入家庭，可能直接通过 BYD 遍布全国的汽车经销商网络销售；公司还可能搭建开放平台，既做自研机器人，也与外部机器人公司合作，而非只卖自家产品。产能方面，位于西安的新产业园规划最终达到约 5 万台/年的机器人产能。",
+      "key_quotes": [
+        "BYD will sell humanoid robots through its vast auto dealer network if these robots enter households in the future.",
+        "A new industrial park in Xi'an is designed to eventually reach an annual production capacity of 50,000 robots."
+      ],
+      "significance": "人形机器人正成为 2026 年最热的资本与产业赛道，而车企是最危险的搅局者：BYD 把造车的供应链、成本控制、电池/电机/传感器与遍布全国的经销网络一次性平移过来，意味着它有能力把人形机器人像电动车一样'规模化、平价化'——这对纯机器人创业公司是直接的成本与渠道降维打击。",
+      "links": [
+        "https://cnevpost.com/2026/06/03/byd-enters-humanoid-robot-market/",
+        "https://technode.com/2026/06/04/byd-is-developing-humanoid-robots-according-to-source/"
+      ],
+      "tags": ["BYD", "人形机器人", "尧舜禹", "具身智能", "中国制造", "机器人"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "为 AI 电荒下注'核聚变'：Altman 押的 Helion 拿 $4.65 亿 Series G、估值 $155 亿——目标 2028 给电网供电，先点亮 Microsoft",
+      "source": "@sama",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
+      "story_key": "helion-series-g-fusion",
+      "event_date": "2026-06-04",
+      "summary": "Sam Altman 重押的核聚变创业公司 Helion 6 月 4 日宣布完成 $4.65 亿 Series G，由 Thrive Capital 领投，投后估值 $155 亿，累计融资达 $15 亿；公司目标最早 2028 年向电网供应聚变电力，并已签约为 Microsoft 供电。",
+      "detail": "在'电力是 AI 时代真正的瓶颈'已成共识的背景下，Sam Altman 长期重押的核聚变公司 Helion 6 月 4 日宣布完成 $4.65 亿 Series G 融资，由 Thrive Capital 领投，新晋投资人包括 Alta Park、Anti Fund、BoxGroup、Lux Capital、Peak XV、以及 Ford 执行董事长 Bill Ford 等，老股东 Lightspeed、SoftBank Vision Fund 2、Dustin Moskovitz 的 Good Ventures 等跟投。本轮后公司累计融资达约 $15 亿，投后估值 $155 亿。\n\n这笔钱将用于加速聚变商业化部署、扩大制造产能。公司称其第七代原型机 Polaris 已实现多项行业首创里程碑，首座聚变电厂 Orion 也在推进——若能兑现与 Microsoft 的供电协议条款，Helion 给电网送上聚变电力的时间最早可到 2028 年。这是 AI 巨头'自己解决电从哪来'叙事的又一具体落子。",
+      "key_quotes": [
+        "Helion has set an aggressive timeline to deploy fusion power to the grid, as early as 2028 if it can deliver on the terms of its deal with Microsoft.",
+        "The round brings total invested to date in Helion to $1.5 billion and values the company at $15.5 billion post-money."
+      ],
+      "significance": "AI 的扩张正在被电力卡脖子，于是'买电、发电、造电'成了前沿玩家的新战场。Altman 一边推 OpenAI，一边重押 Helion 聚变，本质是在为未来的算力提前锁定清洁、廉价、可规模化的电源；$155 亿估值与 Microsoft 供电协议，说明聚变已从科研叙事被资本和云厂商当成'AI 基建'来认真采购。",
+      "links": [
+        "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
+        "https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power"
+      ],
+      "tags": ["Helion", "核聚变", "Sam Altman", "AI 电力", "Thrive Capital", "Microsoft"],
+      "category": "news"
+    }
+  ]
+}
