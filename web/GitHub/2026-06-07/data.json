@@ -1,0 +1,534 @@
+{
+  "date": "2026-06-07",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-06-07",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "goose：WHOOP 5.0 本地优先健康伴侣 App",
+          "source": "@b-nnett",
+          "source_name": "GitHub",
+          "summary": "面向开发者的 WHOOP 5.0 本地优先健康数据项目，iOS App 直连手环、本地处理指标，目前为 Alpha 概念验证。",
+          "detail": "goose 是一个 local-first 的 WHOOP 5.0 数据与健康指标项目，iOS App 连接 WHOOP 5.0 手环并将数据包路由到本地处理。核心采用 Rust 编写，需要 Xcode 自行构建，作者明确标注当前仅为 Alpha 概念验证、性能尚未优化、运行会明显卡顿，公开测试版计划于 2026 年 6 月 13 日通过 TestFlight 发布。该版本仅支持 WHOOP 5.0 代手环。",
+          "significance": "发布一周即收获 2,167 stars，位列本周新晋热门第一。",
+          "links": [
+            "https://github.com/b-nnett/goose"
+          ],
+          "image": "assets/github-avatars/b-nnett-goose.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Rust",
+            "健康",
+            "iOS",
+            "本地优先",
+            "开源"
+          ],
+          "stars": 2167,
+          "stars_gained": null,
+          "language": "Rust",
+          "forks": 505,
+          "owner": "b-nnett",
+          "repo": "goose"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "Skylight：用 RTL-SDR 把头顶航班投影到天花板",
+          "source": "@cpaczek",
+          "source_name": "GitHub",
+          "summary": "通过廉价 RTL-SDR 接收机解码 ADS-B 信号，将正从你头顶飞过的飞机实时投影到天花板，并叠加太阳、月亮、星空与 ISS 图层。",
+          "detail": "Skylight 解码来自廉价 RTL-SDR 无线电的 ADS-B 信号，把实际飞越上空的飞机以物理位置渲染到天花板上，宛如穿透屋顶的 X 光。除航迹外还提供实时天空图层（太阳、月亮、星辰、ISS）以及每架飞机的目的地信息。项目使用 TypeScript 与 React，可运行在 Raspberry Pi 上，作者预告将推出成品套件。",
+          "significance": "作为一周内新建的艺术装置类项目即收获 2,070 stars，位列本周新晋热门第二。",
+          "links": [
+            "https://github.com/cpaczek/skylight"
+          ],
+          "image": "assets/github-avatars/cpaczek-skylight.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "RTL-SDR",
+            "Raspberry Pi",
+            "飞行追踪",
+            "开源"
+          ],
+          "stars": 2070,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 196,
+          "owner": "cpaczek",
+          "repo": "skylight"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "JoyAI-Echo：京东开源分钟级长视频生成模型",
+          "source": "@jd-opensource",
+          "source_name": "GitHub",
+          "summary": "京东开源的长音视频生成模型，面向分钟级、多镜头的音画同步生成，强调故事级一致性。",
+          "detail": "JoyAI-Echo 是京东开源的独立、仅推理版本，用于分钟级、多镜头的音视频生成。它采用蒸馏后的 DMD 生成器、配对的跨模态记忆机制以及故事级一致性设计，以推进长音视频生成的前沿。项目提供论文、项目主页与 Hugging Face 权重，基于 Python 实现。",
+          "significance": "发布一周即收获 702 stars，位列本周新晋热门第三。",
+          "links": [
+            "https://github.com/jd-opensource/JoyAI-Echo"
+          ],
+          "image": "assets/github-avatars/jd-opensource-JoyAI-Echo.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "视频生成",
+            "多模态",
+            "开源"
+          ],
+          "stars": 702,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 44,
+          "owner": "jd-opensource",
+          "repo": "JoyAI-Echo"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "sandboxes：一条命令搭建自托管开发沙箱",
+          "source": "@tastyeffectco",
+          "source_name": "GitHub",
+          "summary": "面向 AI 应用构建产品的开源引擎，为每位用户提供隔离的云端开发环境、内置编码 Agent 和实时预览 URL，无需 Kubernetes。",
+          "detail": "sandboxes 是面向 AI app-builder 产品的开源引擎，可在单台机器上用一条命令为每个用户提供隔离的开发环境、内置编码 Agent 与实时预览 URL。控制平面为单个 Go 二进制文件，基于 Docker 运行，定位为编码 Agent 与 SaaS 工厂场景的自托管方案，目前处于 beta 阶段，采用 MIT 许可证。",
+          "significance": "发布一周即收获 469 stars，位列本周新晋热门第四。",
+          "links": [
+            "https://github.com/tastyeffectco/sandboxes"
+          ],
+          "image": "assets/github-avatars/tastyeffectco-sandboxes.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "Agent",
+            "Docker",
+            "自托管",
+            "开源"
+          ],
+          "stars": 469,
+          "stars_gained": null,
+          "language": "Go",
+          "forks": 10,
+          "owner": "tastyeffectco",
+          "repo": "sandboxes"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "Anima：让每件硬件拥有灵魂的开源 Agent OS",
+          "source": "@Fullive-AI",
+          "source_name": "GitHub",
+          "summary": "面向智能硬件的开源 Agent OS，为家居设备赋予感知、决策、学习和可扩展的 AI 能力。",
+          "detail": "Anima 是面向智能硬件的开源 Agent OS，目标不是再造一个设备控制面板，而是让家居硬件具备感知、决策、学习与可扩展的 AI 能力。其名取自拉丁语「灵魂」，理念是将原本被动等待指令的智能设备接入一个可运行的智能中枢，让灯光、空调等设备主动协作。项目基于 Python，提供中英文文档。",
+          "significance": "发布一周即收获 343 stars，位列本周新晋热门第五。",
+          "links": [
+            "https://github.com/Fullive-AI/Anima"
+          ],
+          "image": "assets/github-avatars/Fullive-AI-Anima.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Agent",
+            "智能硬件",
+            "AI",
+            "开源"
+          ],
+          "stars": 343,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 8,
+          "owner": "Fullive-AI",
+          "repo": "Anima"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "ai-coding-starter-kit：Agent 编码实战入门工具包",
+          "source": "@CWS6206",
+          "source_name": "GitHub",
+          "summary": "面向现代 Agent 化软件开发的入门工具包，汇集可用于 Claude Code、Codex、Cursor、Gemini CLI 的 Agent 技能、模板与安全清单。",
+          "detail": "ai-coding-starter-kit 是一个为 Claude Code、Codex、Cursor 与 Gemini CLI 等工具准备的 Agent 化开发入门套件，内容从作者博客文章中提炼而成。仓库收录了实用的 Agent 技能（含安装命令、用途与上游链接）、CLAUDE.md 等配置模板，以及安装技能前的安全审查清单，覆盖规划、开发、测试、评审到加固的工作流。采用 GPLv3 许可证。",
+          "significance": "发布一周即收获 260 stars，位列本周新晋热门第六。",
+          "links": [
+            "https://github.com/CWS6206/ai-coding-starter-kit"
+          ],
+          "image": "assets/github-avatars/CWS6206-ai-coding-starter-kit.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Agent",
+            "开发工具",
+            "Claude Code",
+            "模板",
+            "开源"
+          ],
+          "stars": 260,
+          "stars_gained": null,
+          "language": null,
+          "forks": 20,
+          "owner": "CWS6206",
+          "repo": "ai-coding-starter-kit"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "deanonymizer：评估公开发言去匿名风险的 CLI",
+          "source": "@ni5arga",
+          "source_name": "GitHub",
+          "summary": "一款防御性 OSINT 命令行工具，基于公开评论与发帖记录评估个人的再识别（去匿名化）风险。",
+          "detail": "deanonymizer 是面向防御性 OSINT 暴露度量的命令行系统，通过聚合弱信号、对身份假设打分并给出带证据链的整改建议，估算个人在公开语料中的再识别风险。它支持 Reddit、Hacker News，以及 web、GitHub 与 StackOverflow，核心前提是：单独看似无害的低熵信息，在跨平台融合后可能变得可识别。项目基于 TypeScript，设计参考了相关学术研究。",
+          "significance": "发布一周即收获 253 stars，位列本周新晋热门第七。",
+          "links": [
+            "https://github.com/ni5arga/deanonymizer"
+          ],
+          "image": "assets/github-avatars/ni5arga-deanonymizer.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "命令行",
+            "OSINT",
+            "安全",
+            "开源"
+          ],
+          "stars": 253,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 83,
+          "owner": "ni5arga",
+          "repo": "deanonymizer"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "InfiPlot：AI 实时生成全部图文的互动剧情游戏",
+          "source": "@zonghaoyuan",
+          "source_name": "GitHub",
+          "summary": "号称全球首个由 AI 实时生成全部文字与图像内容的交互式剧情游戏，没有预设剧情与角色。",
+          "detail": "InfiPlot 是一款所有内容由 AI 实时生成的互动剧情游戏，没有预设剧情或角色，全部图文都按玩家需求定制生成，可体验穿越、校园、宫斗、科研等多种幻想场景。项目基于 TypeScript，提供免费在线试玩，并支持一键部署到 Vercel 与 Cloudflare Workers（后者因更长 CPU 时间需付费计划）。",
+          "significance": "发布一周即收获 213 stars，位列本周新晋热门第八。",
+          "links": [
+            "https://github.com/zonghaoyuan/infiplot"
+          ],
+          "image": "assets/github-avatars/zonghaoyuan-infiplot.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "游戏",
+            "互动剧情",
+            "开源"
+          ],
+          "stars": 213,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 32,
+          "owner": "zonghaoyuan",
+          "repo": "infiplot"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "beautiful-feishu-whiteboard：飞书白板配色技能库",
+          "source": "@zarazhangrui",
+          "source_name": "GitHub",
+          "summary": "为 Agent 准备的飞书（Lark）白板技能，提供 35 套精选配色风格，用于生成美观且可编辑的飞书白板。",
+          "detail": "beautiful-feishu-whiteboard 收录了 35 套精选配色风格，用于构建美观且可编辑的飞书 / Lark 白板。它是供 Claude Code 等读取 SKILL.md 的 Agent 使用的技能，而非自动布局图表工具：由 Agent 负责排版，模板提供配色、氛围以及白板渲染器的硬性规则。其规则源自对飞书 SVG 白板渲染器能力边界的实测经验（仅原生形状、无透明度、文字颜色导出怪癖等）。基于 Shell 实现。",
+          "significance": "发布一周即收获 211 stars，位列本周新晋热门第九。",
+          "links": [
+            "https://github.com/zarazhangrui/beautiful-feishu-whiteboard"
+          ],
+          "image": "assets/github-avatars/zarazhangrui-beautiful-feishu-whiteboard.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Shell",
+            "Agent",
+            "飞书",
+            "设计",
+            "开源"
+          ],
+          "stars": 211,
+          "stars_gained": null,
+          "language": "Shell",
+          "forks": 12,
+          "owner": "zarazhangrui",
+          "repo": "beautiful-feishu-whiteboard"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "ECC：跨工具的 Agent 工作流性能优化系统",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "面向 Claude Code、Codex、Opencode、Cursor 等的 Agent harness 性能优化系统，整合技能、本能、记忆、安全与研究优先的开发流程。",
+          "detail": "ECC 是一个 harness-native 的 Agent 操作系统，把技能（skills）、本能（instincts）、记忆、安全与研究优先的开发方法整合到一起，可跨 Claude Code、Codex、Opencode、Cursor 等多种工具运行。项目以 JavaScript 为主，提供 ecc-universal、ecc-agentshield 等 npm 包，覆盖 12 种以上语言生态。",
+          "significance": "本周新增约 3,000 stars，累计已超 20 万，位列上升之星榜首。",
+          "links": [
+            "https://github.com/affaan-m/ECC"
+          ],
+          "image": "assets/github-avatars/affaan-m-ECC.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "Agent",
+            "Claude Code",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 209155,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 32078,
+          "owner": "affaan-m",
+          "repo": "ECC"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "Hermes Agent：Nous Research 的成长型 AI Agent",
+          "source": "@NousResearch",
+          "source_name": "GitHub",
+          "summary": "Nous Research 推出的「会与你一同成长」的 AI Agent，兼容 Claude、OpenAI、Codex 等多种模型与工具生态。",
+          "detail": "Hermes Agent 是 Nous Research 开发的 AI Agent，定位为「会随你成长的 Agent」。从其主题标签看，它面向 Claude、ChatGPT、OpenAI、Codex 等多种模型与 Agent 生态，基于 Python 实现，提供文档站点与 Discord 社区，采用 MIT 许可证。",
+          "significance": "本周新增约 3,000 stars，累计超 18 万，位列上升之星第二。",
+          "links": [
+            "https://github.com/NousResearch/hermes-agent"
+          ],
+          "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "LLM",
+            "开源"
+          ],
+          "stars": 184761,
+          "stars_gained": 3000,
+          "language": "Python",
+          "forks": 31719,
+          "owner": "NousResearch",
+          "repo": "hermes-agent"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "opencode：开源 AI 编码 Agent",
+          "source": "@anomalyco",
+          "source_name": "GitHub",
+          "summary": "一个开源的 AI 编码 Agent，面向终端的开发者协作场景。",
+          "detail": "opencode 是一个开源的 AI 编码 Agent，定位为「the open source coding agent」。项目以 TypeScript 为主，提供 opencode-ai npm 包、控制台应用与 Discord 社区，开发活跃。",
+          "significance": "本周新增约 3,000 stars，累计超 17 万，位列上升之星第三。",
+          "links": [
+            "https://github.com/anomalyco/opencode"
+          ],
+          "image": "assets/github-avatars/anomalyco-opencode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "编码 Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 170849,
+          "stars_gained": 3000,
+          "language": "TypeScript",
+          "forks": 20471,
+          "owner": "anomalyco",
+          "repo": "opencode"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "OpenClaw：跨平台的个人 AI 助手",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "可在任意操作系统与平台运行的个人 AI 助手，强调数据自有、私有部署的「龙虾之道」。",
+          "detail": "OpenClaw 是一款个人 AI 助手，主打跨操作系统、跨平台运行，并强调用户「拥有自己的数据」。项目以 TypeScript 为主，提供 CI 工作流与发布版本，社区氛围以龙虾主题与口号著称。",
+          "significance": "本周新增约 2,283 stars，累计超 37 万，体量居榜单之首，位列上升之星第四。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "assets/github-avatars/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "助手",
+            "数据自有",
+            "开源"
+          ],
+          "stars": 377301,
+          "stars_gained": 2283,
+          "language": "TypeScript",
+          "forks": 78864,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "yt-dlp：功能丰富的命令行音视频下载器",
+          "source": "@yt-dlp",
+          "source_name": "GitHub",
+          "summary": "支持数千个站点的命令行音视频下载器，是 youtube-dl 的活跃分支。",
+          "detail": "yt-dlp 是一个功能丰富的命令行音视频下载器，支持数千个网站，是基于已停更的 youtube-dlc、对 youtube-dl 的分支项目。基于 Python 实现，内置 SponsorBlock 等能力，提供详细的安装、网络与使用选项文档。",
+          "significance": "本周新增约 2,048 stars，累计超 16 万，位列上升之星第五。",
+          "links": [
+            "https://github.com/yt-dlp/yt-dlp"
+          ],
+          "image": "assets/github-avatars/yt-dlp-yt-dlp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "命令行",
+            "下载器",
+            "youtube-dl",
+            "开源"
+          ],
+          "stars": 168645,
+          "stars_gained": 2048,
+          "language": "Python",
+          "forks": 14182,
+          "owner": "yt-dlp",
+          "repo": "yt-dlp"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "n8n：原生支持 AI 的工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "面向技术团队的 fair-code 工作流自动化平台，融合可视化搭建与自定义代码，提供 400+ 集成与原生 AI 能力。",
+          "detail": "n8n 是一个工作流自动化平台，为技术团队兼顾代码的灵活性与 no-code 的速度。它提供 400+ 集成、基于 LangChain 的原生 AI Agent 工作流能力，支持编写 JavaScript/Python 或引入 npm 包，可自托管（fair-code 许可）或使用云服务，并具备高级权限、SSO 与气隙部署等企业特性。基于 TypeScript。",
+          "significance": "本周新增约 1,179 stars，累计超 19 万，位列上升之星第六。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "assets/github-avatars/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "工作流自动化",
+            "自托管",
+            "开源"
+          ],
+          "stars": 191374,
+          "stars_gained": 1179,
+          "language": "TypeScript",
+          "forks": 58342,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "Ollama：本地运行开源大模型的利器",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "让你在本地快速运行 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等开源大模型。",
+          "detail": "Ollama 让用户在 macOS、Windows、Linux 与 Docker 上快速运行各类开源大模型，包括 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等。提供一行安装脚本、命令行交互，以及 ollama-python、ollama-js 等官方库，可与现有 Agent 对接。基于 Go 实现。",
+          "significance": "本周新增约 870 stars，累计超 17 万，位列上升之星第七。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "assets/github-avatars/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "LLM",
+            "本地部署",
+            "AI",
+            "开源"
+          ],
+          "stars": 173393,
+          "stars_gained": 870,
+          "language": "Go",
+          "forks": 16476,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "VS Code：微软开源代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软与社区共同开发的开源代码编辑器，源码以 MIT 许可证开放。",
+          "detail": "Visual Studio Code（「Code - OSS」）是微软与社区共同开发的开源代码编辑器，仓库不仅承载代码与 issue，还公开路线图、月度迭代计划与收尾计划。基于 TypeScript 与 Electron，源码以标准 MIT 许可证向所有人开放。",
+          "significance": "本周新增约 554 stars，累计超 18 万，位列上升之星第八。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "assets/github-avatars/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "Electron",
+            "微软",
+            "开源"
+          ],
+          "stars": 186010,
+          "stars_gained": 554,
+          "language": "TypeScript",
+          "forks": 40362,
+          "owner": "microsoft",
+          "repo": "vscode"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "Langflow：构建与部署 AI Agent 的可视化平台",
+          "source": "@langflow-ai",
+          "source_name": "GitHub",
+          "summary": "用于构建和部署 AI 驱动 Agent 与工作流的强大平台，兼具可视化编排与内置 API/MCP 服务。",
+          "detail": "Langflow 是一个用于构建和部署 AI 驱动 Agent 与工作流的平台，为开发者提供可视化编排体验，同时内置 API 与 MCP 服务，可将每个工作流转化为能集成进任意框架应用的工具。基于 Python，采用 MIT 许可证。",
+          "significance": "本周新增约 437 stars，累计超 14 万，位列上升之星第九。",
+          "links": [
+            "https://github.com/langflow-ai/langflow"
+          ],
+          "image": "assets/github-avatars/langflow-ai-langflow.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "可视化",
+            "开源"
+          ],
+          "stars": 149310,
+          "stars_gained": 437,
+          "language": "Python",
+          "forks": 9200,
+          "owner": "langflow-ai",
+          "repo": "langflow"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "Oh My Zsh：社区驱动的 zsh 配置框架",
+          "source": "@ohmyzsh",
+          "source_name": "GitHub",
+          "summary": "社区驱动的 zsh 配置管理框架，内置 300+ 插件、140+ 主题与自动更新工具。",
+          "detail": "Oh My Zsh 是一个开源、社区驱动（2,500+ 贡献者）的 zsh 配置管理框架，内置 300+ 可选插件（rails、git、macOS、docker、homebrew、node、php、python 等）、140+ 主题，以及让你紧跟社区更新的自动更新工具。基于 Shell 实现。",
+          "significance": "本周新增约 410 stars，累计超 18 万，位列上升之星第十。",
+          "links": [
+            "https://github.com/ohmyzsh/ohmyzsh"
+          ],
+          "image": "assets/github-avatars/ohmyzsh-ohmyzsh.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Shell",
+            "命令行",
+            "zsh",
+            "效率工具",
+            "开源"
+          ],
+          "stars": 187827,
+          "stars_gained": 410,
+          "language": "Shell",
+          "forks": 26375,
+          "owner": "ohmyzsh",
+          "repo": "ohmyzsh"
+        }
+      ]
+    }
+  ]
+}
