@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-09",
+  "category": "AI",
+  "researched_at": "2026-06-09T08:30:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@JeffDean", "@DrJimFan", "@JonathanRoss321", "@alighodsi", "@ScottWu46",
+    "TechCrunch", "CNBC", "Reuters", "Bloomberg", "The Information", "SiliconANGLE",
+    "Crunchbase News", "OpenAI Newsroom", "NVIDIA Newsroom", "Korea JoongAng Daily",
+    "Center for Democracy & Technology", "404 Media", "Releasebot"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "连自家有 TPU 的 Google 都顶不住算力荒：罕见向 SpaceX 租 GPU——$9.2 亿/月、约 $300 亿三年期，租的还是托管 xAI 的数据中心、约 11 万张 Nvidia GPU",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "story_key": "google-spacex-compute-deal",
+      "event_date": "2026-06-05",
+      "summary": "Google 同意自 2026 年 10 月起到 2029 年 6 月、每月向 SpaceX 支付约 $9.2 亿（全期近 $300 亿）租用约 11 万张 Nvidia GPU 及配套算力——这些容量托管在 SpaceX 为 xAI 建的数据中心里，用来给需求暴涨的 Gemini Enterprise 兜底。",
+      "detail": "据 TechCrunch、CNBC 6 月 5 日报道，Google 与 SpaceX 达成一笔不寻常的算力租赁协议：自 2026 年 10 月起至 2029 年 6 月，Google 每月向 SpaceX 支付约 $9.2 亿美元，换取约 11 万张 Nvidia GPU 以及配套的 CPU、内存等资源，全期合计接近 $300 亿美元。9 月之前为产能爬坡期，按更低费率结算。\n\n这笔交易的反常之处在于‘谁向谁租’：Google 本身既有自研 TPU、又是全球三大云之一，如今却要外购 Nvidia GPU——而且这些容量就托管在 SpaceX 为 Elon Musk 旗下 xAI 建设的数据中心内。换言之，Google 在向竞争对手的‘房东’租算力。Google 方面把它定义为一笔‘短期、及时’的桥接产能（bridge capacity），用以满足企业级 agent 平台 Gemini Enterprise 超预期的需求——据 Google Cloud 披露，Gemini Enterprise 需求环比增长 300%。\n\n协议留了退出口：2026 年 12 月 31 日之后，双方均可提前 90 天通知终止；若 SpaceX 未能在 2026 年 9 月 30 日前交付承诺的 GPU 数量，经一个月宽限期后 Google 可立即终止，或按实际交付量接受并相应削减月费。该交易在 SpaceX 预计登陆 Nasdaq（6-12，代码 SPCX、目标估值约 $1.77 万亿）的前一周公布。",
+      "key_quotes": [
+        "Google will pay SpaceX $920 million per month from October 2026 through June 2029 for access to roughly 110,000 Nvidia GPUs.",
+        "A short-term, timely agreement to ensure bridge capacity to meet surging customer demand for Gemini Enterprise.",
+        "Gemini Enterprise demand grew 300% quarter-over-quarter."
+      ],
+      "significance": "这笔 $300 亿的桥接租约把当下 AI 算力荒的极端程度摆上台面——连手握自研 TPU 的 Google 都得临时外购 Nvidia GPU，甚至不惜向托管 xAI 的 SpaceX 设施租用。它也勾勒出一种全新的‘算力中间商’格局：SpaceX 正从火箭与卫星公司，顺势变成把闲置/规划中算力转租给超大厂的基础设施玩家，并在 IPO 前夜亮出一张近 $300 亿的长期合同。",
+      "links": [
+        "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+        "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "SpaceX", "xAI", "算力", "Nvidia GPU", "Gemini Enterprise", "数据中心"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "黄仁勋首尔一趟签下一连串大单：把整个韩国拉进‘AI 工业革命’——SK 海力士绑定下一代 HBM、SK 电讯建吉瓦级 AI 云、LG 做人形机器人、现代搞‘AI Valley’",
+      "source": "NVIDIA",
+      "source_name": "Reuters",
+      "source_url": "https://www.investing.com/news/stock-market-news/nvidia-announces-deals-with-south-koreas-sk-hynix-naver-and-doosan-for-ai-data-centres-4729739",
+      "story_key": "nvidia-south-korea-ai-deals",
+      "event_date": "2026-06-08",
+      "summary": "6 月 8 日，Nvidia 在 CEO 黄仁勋访韩期间一口气与韩国多家巨头签约：与 SK 海力士结成多年期先进 AI 存储合作，SK 电讯将建吉瓦级 AI 云（首座数据中心 2027 上线），Naver、Doosan 用 Nvidia 技术建‘AI 工厂’，LG 合作人形机器人，现代深化自动驾驶与 AI 制造。",
+      "detail": "据 Reuters 等 6 月 8 日报道，Nvidia 在黄仁勋（Jensen Huang）自上周五开始的访韩行程（适逢 APEC CEO 峰会）中，与一批韩国产业巨头集中签署 AI 合作协议，把韩国定位为 Nvidia 全球 AI 版图的重要一极。\n\n关键合作包括：与 SK 海力士（SK hynix）签订为期两年以上、可持续延展的多年期技术合作，共同开发面向全球 AI 数据中心的下一代先进存储——Nvidia 称目前每年已向 SK 海力士采购‘数十上百亿美元’，未来还将大幅增长；SK 电讯（SK Telecom）将建设吉瓦级（gigawatt-scale）AI 云，首座数据中心计划 2027 年上线；Naver 与 Doosan 将采用 Nvidia 技术建设各自的 AI 设施；LG 集团将在人形机器人上展开合作；现代汽车集团（Hyundai）则深化自动驾驶与 AI 驱动的智能制造，黄仁勋把现代规划中、位于新万金（Saemangeum）的 AI 数据中心称为可比肩加州硅谷的‘AI Valley’。多数交易未披露具体金额。",
+      "key_quotes": [
+        "SK Telecom will build a gigawatt-scale AI cloud with the first data centre online in 2027.",
+        "LG will collaborate on humanoid robots; Hyundai will deepen work on autonomous mobility and AI-powered manufacturing.",
+        "Huang referred to Hyundai's planned data centre in Saemangeum as an 'AI Valley'."
+      ],
+      "significance": "这是 Nvidia 把‘卖芯片’升级为‘绑定整个国家产业链’打法的又一标志：一次访问就把存储（SK 海力士）、电信云（SK 电讯）、互联网（Naver）、重工（Doosan）、消费电子+机器人（LG）、汽车（现代）一并锁进自家生态。对韩国，这意味着以举国之力押注 AI 基建与人形机器人；对 Nvidia，则是在算力荒中进一步把上游 HBM 供应与下游需求一手握牢。",
+      "links": [
+        "https://www.investing.com/news/stock-market-news/nvidia-announces-deals-with-south-koreas-sk-hynix-naver-and-doosan-for-ai-data-centres-4729739",
+        "https://blogs.nvidia.com/blog/korea-ai-apec-ceo-summit/",
+        "https://www.koreajoongangdaily.com/business/nvidia-to-support-gigawatt-scale-computing-infrastructure-for-sk-naver/12625215"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["NVIDIA", "黄仁勋", "韩国", "SK海力士", "HBM", "SK电讯", "现代", "LG", "人形机器人"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "ChatGPT 广告第一次‘出海’：6-6 在英国上线——这是北美/澳新之外的首个市场，日韩巴西墨西哥排队跟上，付费用户仍免广告",
+      "source": "@sama",
+      "source_name": "TechCrunch",
+      "source_url": "https://ppc.land/chatgpt-ads-go-live-in-the-uk-as-openai-expands-pilot-beyond-us/",
+      "story_key": "openai-chatgpt-ads-manager",
+      "event_date": "2026-06-06",
+      "summary": "OpenAI 6 月 6 日把 ChatGPT 面向消费者的广告投放扩展到英国——这是其首次在北美、澳大利亚、新西兰之外的市场展示广告；日本、韩国、巴西、墨西哥将在未来数周跟进。广告只面向 Free 与 Go 用户，付费档（Plus/Pro/商业/企业/教育）仍无广告。",
+      "detail": "据 TechCrunch、PPC Land 6 月 6 日报道，OpenAI 把 ChatGPT 的消费者广告试点首次推出北美以外：英国成为第一个看到 ChatGPT 广告的非北美/澳新市场。OpenAI 负责变现的副总裁表示，接下来数周还将把广告带到日本、韩国、巴西与墨西哥。\n\n广告仅展示给 Free 和 Go 两档用户；订阅 Plus、Pro、Business、Enterprise、Education 的付费用户不会看到广告。OpenAI 强调了几条‘安全栏’：广告不会影响 ChatGPT 给出的回答、与广告主之间对话内容保持私密、不向 18 岁以下用户投放，也不会出现在健康、政治、心理健康等敏感或受监管话题旁边。\n\n背景回顾：OpenAI 自 2026 年 2 月起在美国对 Free/Go 用户试水 ChatGPT 内广告，并于 6-5 为 Ads Manager 加上‘转化优化’投放工具，把变现从卖曝光推向按转化要预算。",
+      "key_quotes": [
+        "ChatGPT's advertising pilot is active in the UK, the first time the platform has served ads outside North America, Australia, and New Zealand.",
+        "Ads do not influence the answers ChatGPT gives you, and conversations with ChatGPT are kept private from advertisers.",
+        "Subscribers to paid plans will not see ads."
+      ],
+      "significance": "广告‘出海’说明 OpenAI 不再把 ChatGPT 内广告当作美国本土的小范围试验，而是按地区有节奏地全球铺开——这是把一个 10 亿月活产品系统性变现的关键一步。同时它也把‘AI 助手要不要、以及如何插广告’这一争议，从美国扩散到英国乃至更多国家的监管与舆论视野。",
+      "links": [
+        "https://ppc.land/chatgpt-ads-go-live-in-the-uk-as-openai-expands-pilot-beyond-us/",
+        "https://techcrunch.com/2026/02/09/chatgpt-rolls-out-ads/",
+        "https://openai.com/index/our-approach-to-advertising-and-expanding-access/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "ChatGPT", "广告", "变现", "英国", "Free/Go"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "企业 AI 的战场已经不在‘模型谁更强’：本周多家分析齐声指出——真正的护城河是‘谁掌控 agent 运行时’，Microsoft、ServiceNow、Google、Snowflake、Databricks 正抢这把椅子",
+      "source": "SiliconANGLE",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://siliconangle.com/2026/06/07/snowflake-databricks-model-makers-battle-agentic-client-ai-back-end/",
+      "story_key": "enterprise-agentic-platform-war",
+      "event_date": "2026-06-07",
+      "summary": "本周（6-7 起）多篇行业分析形成共识：企业 AI 的竞争焦点已从‘哪个基础模型跑分更高’转向‘谁拥有 agent 运行的那一层’——即掌控记忆、上下文、治理与‘代表企业去执行动作’的 agentic client/runtime。Microsoft、ServiceNow、Google Cloud、Snowflake、Databricks 正围绕这把椅子贴身肉搏。",
+      "detail": "据 SiliconANGLE（6-7）、Futurum、Windows News 等本周多篇分析，到 2026 年年中，企业里关于 AI 的讨论已经不再是‘哪个前沿模型在榜单上更强’，而是‘谁拥有 agentic client’——那个管理记忆、上下文，并能代表企业安全地去执行动作的运行时/界面，正成为控制企业 AI 的关键‘咽喉点’。\n\n各家路线各异：Microsoft 以 Agent 365 + Azure AI Foundry 打造企业 AI 控制平面，深度绑定 Microsoft Graph、Fabric、Teams 与企业身份，并在 Build 2026（6-2）把 Windows 改造成‘agent 操作系统’；ServiceNow 推出 Action Fabric，通过 GA 的 MCP Server 把自家‘行动系统’向任何 agent（无论基于 ServiceNow、Claude、Copilot 还是自研）开放，并与 Google Cloud 结成 agent 平台联盟；Snowflake 在 Summit 2026 把 Snowflake Intelligence/Cortex Code 重新包装为 CoWork/CoCo，并由 Anthropic 总裁 Daniela Amodei 同台站台；Databricks 则把 AI/BI Agent 织进 Unity Catalog，在列级血缘与权限内自主跑 Spark、改仪表盘。共识是：到 2026 年中，治理与运行时控制权已取代‘模型跑分’，成为企业选型的首要理由。",
+      "key_quotes": [
+        "The contest has visibly moved beyond the model.",
+        "By June 2026, the enterprise AI conversation has shifted from which model performs best to who owns the agentic client.",
+        "That client has become the ultimate chokepoint for controlling enterprise memory, context, and execution."
+      ],
+      "significance": "这标志着企业 AI 价值链的重心正在迁移：当各家前沿模型能力趋于接近，差异化与锁定效应转移到‘谁掌控 agent 的运行时、记忆与治理’。对 CIO，这意味着选型逻辑从‘买最强模型’变成‘选最难被替换的平台底座’；对厂商，则是一场围绕 MCP、身份与行动权限的标准与生态卡位战。",
+      "links": [
+        "https://siliconangle.com/2026/06/07/snowflake-databricks-model-makers-battle-agentic-client-ai-back-end/",
+        "https://futurumgroup.com/insights/who-will-control-the-enterprise-agentic-workforce-cios-face-a-new-platform-war/",
+        "https://windowsnews.ai/article/agentic-ai-platform-war-who-controls-enterprise-memory-context-and-action-in-june-2026.423571"
+      ],
+      "tags": ["企业AI", "AI agent", "agentic runtime", "Microsoft", "ServiceNow", "Snowflake", "Databricks", "MCP"],
+      "category": "trending"
+    },
+    {
+      "id": "5",
+      "title": "为防‘提示词注入’偷数据，ChatGPT 加了个‘锁定模式’：一键切断网页与外部服务访问，给 agent 时代的数据外泄上把锁",
+      "source": "@sama",
+      "source_name": "OpenAI",
+      "source_url": "https://releasebot.io/updates/openai/chatgpt",
+      "story_key": "openai-lockdown-mode",
+      "event_date": "2026-06-04",
+      "summary": "OpenAI 6 月 4 日为 ChatGPT 上线可选的‘Lockdown Mode（锁定模式）’：开启后会限制 ChatGPT 对网页与外部服务的访问，以降低因 prompt injection（提示词注入）攻击导致的数据外泄风险。",
+      "detail": "据 OpenAI 6 月 4 日发布说明，ChatGPT 新增一项名为 Lockdown Mode 的可选安全设置。开启后，它会收紧 ChatGPT 对网页和外部服务（如联网检索、第三方连接器/工具）的访问权限，目的是减少‘提示词注入’攻击的攻击面——这类攻击会把恶意指令藏在网页、文档或工具返回内容里，诱导模型把用户的私密数据偷偷外发。\n\n随着 ChatGPT 越来越多地以 agent 形态自主联网、调用工具、读写外部数据，提示词注入正从理论风险变成现实威胁。Lockdown Mode 的思路类似手机/操作系统上的‘锁定模式’：以牺牲部分功能为代价，给高风险或高敏感场景提供一个更小、更可控的攻击面。",
+      "key_quotes": [
+        "Lockdown Mode limits access to the web and external services to help reduce the risk of data exfiltration from prompt injection attacks."
+      ],
+      "significance": "这是前沿厂商把‘agent 安全’做成面向终端用户的开关、而非仅停留在后台防护的一个具体信号。当 AI 助手获得联网与工具调用等‘行动能力’，提示词注入导致的数据外泄就成了绕不开的系统性风险；一个可一键收紧权限的锁定模式，为高敏感用户提供了务实的兜底选项。",
+      "links": [
+        "https://releasebot.io/updates/openai/chatgpt"
+      ],
+      "tags": ["OpenAI", "ChatGPT", "安全", "prompt injection", "数据外泄", "Lockdown Mode"],
+      "category": "product_operators"
+    }
+  ]
+}

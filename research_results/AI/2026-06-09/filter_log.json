@@ -1,0 +1,179 @@
+{
+  "date": "2026-06-09",
+  "total_candidates": 19,
+  "kept": 5,
+  "dropped": 14,
+  "decisions": [
+    {
+      "story_key": "google-spacex-compute-deal",
+      "event_date": "2026-06-05",
+      "title_en": "Google to pay SpaceX $920M/month (~$30B) for GPU capacity at xAI data centers",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Google agrees to pay SpaceX ~$920M/month from Oct 2026-June 2029 (~$30B) for ~110k Nvidia GPUs hosted at xAI data centers, as bridge capacity for Gemini Enterprise (demand +300% QoQ)."
+    },
+    {
+      "story_key": "nvidia-south-korea-ai-deals",
+      "event_date": "2026-06-08",
+      "title_en": "Nvidia signs sweeping AI deals with South Korean giants during Huang's Seoul trip",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. June 8: SK hynix memory partnership, SK Telecom gigawatt AI cloud (2027), Naver/Doosan AI factories, LG humanoid robots, Hyundai autonomous + 'AI Valley' Saemangeum."
+    },
+    {
+      "story_key": "openai-chatgpt-ads-manager",
+      "event_date": "2026-06-06",
+      "title_en": "ChatGPT ads go live in the UK — first consumer ad rollout outside North America/ANZ",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Prior published 06-05 as 'openai-chatgpt-ads-manager' (advertiser-side Conversion-Optimized tooling). New development 06-06: consumer ads expand to UK — first market outside US/Australia/NZ; Japan/Korea/Brazil/Mexico next."
+    },
+    {
+      "story_key": "enterprise-agentic-platform-war",
+      "event_date": "2026-06-07",
+      "title_en": "Enterprise AI contest moves 'beyond the model' to who owns the agentic runtime",
+      "source": "SiliconANGLE",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. This-week synthesis (June 7-8 analyses): Microsoft Agent 365/Windows, ServiceNow Action Fabric, Google Cloud, Snowflake CoWork/CoCo, Databricks all converging on the agentic client/runtime as the new battleground."
+    },
+    {
+      "story_key": "openai-lockdown-mode",
+      "event_date": "2026-06-04",
+      "title_en": "OpenAI adds ChatGPT 'Lockdown Mode' to blunt prompt-injection data exfiltration",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Optional security setting limiting web/external-service access to reduce data exfiltration from prompt-injection attacks (release notes June 4)."
+    },
+    {
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-08",
+      "title_en": "More WWDC Siri details: custom 1.2T Gemini model, $1B/yr licensing",
+      "source": "Apple",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 06-08 ('Tim Cook last WWDC, Siri redone, third-party models'). The 1.2T Gemini / $1B licensing figures are color on the same announcement, no substantive new development."
+    },
+    {
+      "story_key": "openai-dreaming-memory",
+      "event_date": "2026-06-04",
+      "title_en": "OpenAI Dreaming V3 memory: 82.8% recall, Plus/Pro US rollout",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 06-04 (openai-chatgpt-dreaming-memory). The 'V3' metrics (82.8% recall) and Plus/Pro US rollout describe the same June 4 launch, not a new development."
+    },
+    {
+      "story_key": "deepseek-funding",
+      "event_date": "2026-06-03",
+      "title_en": "DeepSeek nears ~$7.4B first external raise",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 06-03 (deepseek-74b-funding). No substantive new info; round still not closed; V4.1 not yet released."
+    },
+    {
+      "story_key": "pentagon-replaces-claude",
+      "event_date": "2026-05-21",
+      "title_en": "Pentagon tests OpenAI/Google/xAI to replace Anthropic Claude ('too safe for war')",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying break was 2026-05-21 (Bloomberg); June 8 TechTimes is a recap feature. event_date 19 days old (>5)."
+    },
+    {
+      "story_key": "cognition-devin-funding",
+      "event_date": "2026-05-28",
+      "title_en": "Cognition raises $1B at $26B valuation for Devin",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-27/28, ~12 days old (>5)."
+    },
+    {
+      "story_key": "alphasense-funding",
+      "event_date": "2026-06-03",
+      "title_en": "AlphaSense raises $350M at $7.5B valuation, $600M ARR",
+      "source": "GlobeNewswire",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-03, 6 days old (>5)."
+    },
+    {
+      "story_key": "gemma-4-release",
+      "event_date": "2026-06-03",
+      "title_en": "Google DeepMind releases Gemma 4 12B encoder-free multimodal model",
+      "source": "Google DeepMind",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-03, 6 days old (>5)."
+    },
+    {
+      "story_key": "softbank-roze-ipo",
+      "event_date": "2026-04-29",
+      "title_en": "SoftBank weighs $100B IPO for AI-robotics spinout Roze",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-29/30, ~40 days old (>5)."
+    },
+    {
+      "story_key": "openai-hiro-acquisition",
+      "event_date": "2026-04-13",
+      "title_en": "OpenAI acqui-hires personal-finance startup Hiro",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-13, ~57 days old (>5)."
+    },
+    {
+      "story_key": "mira-murati-nvidia-gigawatt",
+      "event_date": "2026-03-10",
+      "title_en": "Nvidia invests in Murati's Thinking Machines; 1GW compute",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-10, ~90 days old (>5)."
+    },
+    {
+      "story_key": "gpt-5-5-instant-default",
+      "event_date": "2026-05-05",
+      "title_en": "GPT-5.5 Instant becomes ChatGPT default",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-05, ~35 days old (>5)."
+    },
+    {
+      "story_key": "grok-skills-connectors",
+      "event_date": "2026-05-18",
+      "title_en": "xAI ships Grok Skills + Connectors",
+      "source": "xAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Skills 2026-05-18, Connectors 2026-05-06; >5 days. Grok agentic stack (Voice/Imagine/Build) already covered 06-04."
+    },
+    {
+      "story_key": "glm-5-release",
+      "event_date": "2026-02-11",
+      "title_en": "Zhipu/Z.ai GLM-5 frontier open-weight model",
+      "source": "Z.ai",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-02-11, ~4 months old (>5)."
+    },
+    {
+      "story_key": "cdt-dark-patterns-report",
+      "event_date": "2026-05-28",
+      "title_en": "CDT taxonomy of 37 'dark patterns' in AI chatbots",
+      "source": "Center for Democracy & Technology",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "CDT report PDF dated 2026-05-28 (~12 days). Aggregators relisted it June 8 but the publication is >5 days old."
+    }
+  ]
+}
