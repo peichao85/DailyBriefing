@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-10",
+  "total_candidates": 14,
+  "kept": 6,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-09",
+      "title_en": "Anthropic publicly releases Claude Fable 5, a guard-railed Mythos-class model",
+      "source": "@DanielaAmodei",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New public model launch on 2026-06-09 (TechCrunch). Distinct from anthropic-glasswing-mythos (Project Glasswing infra) and anthropic-recursive-self-improvement (essay) published earlier; this is the actual public model release + Mythos 5 upgrade."
+    },
+    {
+      "story_key": "openai-ipo-filing",
+      "event_date": "2026-06-08",
+      "title_en": "OpenAI confidentially files S-1 with SEC, one week after Anthropic",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI confidential S-1 filing 2026-06-08 (Fortune). Anthropic IPO filing (June 1) is a separate story and is itself stale."
+    },
+    {
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-08",
+      "title_en": "Apple pays Google ~$1B/year for custom 1.2T-param Gemini to power default Siri",
+      "source": "Apple/Google",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 06-08 with title about Siri rebuild + allowing users to switch backend to Gemini/Claude/ChatGPT. New info surfacing post-keynote (MacRumors): the DEFAULT cloud Siri runs a custom 1.2T-parameter Gemini, Apple pays Google ~$1B/year, weights run inside Apple Private Cloud Compute. Substantive new financial/architecture detail not in prior coverage."
+    },
+    {
+      "story_key": "miasma-worm-microsoft-github",
+      "event_date": "2026-06-08",
+      "title_en": "Miasma worm compromises 73 Microsoft GitHub repos, steals creds via AI coding tools",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Supply-chain worm disclosed 2026-06-08 (TechCrunch); credential-harvesting payload triggers when repos opened in Claude Code/Cursor/Gemini CLI/VS Code."
+    },
+    {
+      "story_key": "standard-bots-series-c",
+      "event_date": "2026-06-09",
+      "title_en": "Standard Bots raises $200M Series C at $1B valuation for US-made AI-native robots",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. $200M Series C at $1B valuation announced 2026-06-09 (Bloomberg, PRNewswire), led by General Catalyst + RoboStrategy."
+    },
+    {
+      "story_key": "openai-economic-research-exchange",
+      "event_date": "2026-06-08",
+      "title_en": "OpenAI launches Economic Research Exchange for external AI labor-impact research",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI launched the Economic Research Exchange on 2026-06-08 (openai.com); applications close July 5."
+    },
+    {
+      "story_key": "anthropic-ipo-filing",
+      "event_date": "2026-06-01",
+      "title_en": "Anthropic confidentially files for IPO at $965B valuation",
+      "source": "@DanielaAmodei",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-01 is 9 days old (>5 day limit). The fresh angle (OpenAI matching it) is captured under openai-ipo-filing."
+    },
+    {
+      "story_key": "pentagon-claude-replacement",
+      "event_date": "2026-05-21",
+      "title_en": "Pentagon tests OpenAI/Google/Grok to replace 'too safe' Anthropic Claude",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying developments (Hegseth supply-chain-risk designation in March, Pentagon testing rivals) date to March-May 2026; June 8 coverage is rehash. >5 day limit."
+    },
+    {
+      "story_key": "gemini-3-5-pro-release",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini 3.5 Pro expected to ship in June",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at I/O 2026-05-19; still not shipped as of 06-10. No concrete release event within 5 days."
+    },
+    {
+      "story_key": "mistral-vibe-rebrand",
+      "event_date": "2026-05-28",
+      "title_en": "Mistral rebrands Le Chat as Vibe, one agent for work and code",
+      "source": "Mistral AI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Launched 2026-05-28, >5 day limit. Slack-triggered Code Mode 'coming in June' has no concrete dated event."
+    },
+    {
+      "story_key": "nvidia-nemotron-coalition",
+      "event_date": "2026-03-16",
+      "title_en": "NVIDIA launches Nemotron Coalition of 8 AI labs for open frontier models",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at GTC 2026-03-16; far outside the 5-day window."
+    },
+    {
+      "story_key": "openai-chatgpt-dreaming-memory",
+      "event_date": "2026-06-09",
+      "title_en": "ChatGPT 'Dreaming' memory rolls out to Plus/Pro in US",
+      "source": "@sama",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 06-04 (openai-chatgpt-dreaming-memory) describing the Dreaming memory system. June 9 is an incremental GA rollout to Plus/Pro with no substantively new facts."
+    },
+    {
+      "story_key": "meta-muse-spark-api-delay",
+      "event_date": "2026-06-03",
+      "title_en": "Meta again delays Muse Spark developer API",
+      "source": "WSJ",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 06-04 (meta-muse-spark-api-delay). No new development since; still 'no scheduled date / testing with partners'."
+    },
+    {
+      "story_key": "ai-chatbot-market-share-q2",
+      "event_date": "2026-06-08",
+      "title_en": "Claude surges to 8.2% chatbot market share, ChatGPT falls to 54.7%",
+      "source": "Momentic",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Single low-reliability marketing-blog source with no corroboration from authoritative outlets; numbers unverifiable. Dropped for sourcing quality."
+    }
+  ]
+}

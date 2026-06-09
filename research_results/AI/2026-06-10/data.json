@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-10",
+  "category": "AI",
+  "researched_at": "2026-06-10T07:05:00+08:00",
+  "sources_checked": ["@sama", "@DanielaAmodei", "@demishassabis", "@alexandr_wang", "@elonmusk", "@karpathy", "@DrJimFan", "TechCrunch", "Fortune", "Bloomberg", "MacRumors", "CyberScoop", "Anthropic Blog", "OpenAI", "PRNewswire"],
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic 把'最强模型'放出来了——但拴着链子：公开发布 Claude Fable 5（Mythos 的'民用加锁版'），一碰网络/生化话题就自动降级到 Opus 4.8",
+      "source": "@DanielaAmodei",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-09",
+      "summary": "Anthropic 6 月 9 日公开发布迄今最强的面向大众模型 Claude Fable 5——它本质上是此前只对受信任伙伴开放的 Mythos 级模型的'加锁民用版'；同时把解锁版 Claude Mythos 5 通过 Project Glasswing 升级给少数网络防御方使用。",
+      "detail": "Anthropic 6 月 9 日推出 Claude Fable 5，称其能力'超过此前任何一款 Anthropic 公开放出的模型'，在软件工程、知识工作、视觉、科研等方向表现突出，并能比以往任何 Claude 自主运行更长时间。它是 Mythos 级模型第一次以民用形态对公众开放。\n\n关键在于'拴链子'的方式：Fable 5 对网络安全、生物、化学以及模型蒸馏等高风险领域设了硬性拦截——一旦触及这些话题，回答会自动改由能力更弱的 Claude Opus 4.8 来给，Anthropic 预计平均不到 5% 的会话会触发这种降级。为压住越狱风险，公司称做了大规模红队测试：'我们跑了一个外部 bug bounty，在超过 1000 小时的测试里没有产出任何通用越狱'。代价是隐私让步——所有用户（哪怕此前签了零留存协议）都被强制 30 天流量留存，用于识别新型攻击与误报。\n\n定价为每百万 input token \\$10、output token \\$50，约为此前 Claude Mythos Preview 的一半、Opus 4.8 的两倍。可用性上：API 与企业用量套餐即刻开通；Pro/Max/Team 及按席位的 Enterprise 计划自即日起到 6 月 22 日免费包含 Fable 5，6 月 23 日起改为消耗用量额度。数据分析公司 Hex 称 Fable 是'第一个在其核心分析基准上拿到 90% 的模型'。与此同时，Anthropic 把安全护栏拆掉的 Claude Mythos 5 通过 Project Glasswing 发给少数网络防御方与关键基础设施机构，声称其'拥有全球任何模型中最强的网络安全能力'。\n\n背景回顾：Anthropic 此前已通过 Project Glasswing 把受限版 Claude Mythos Preview 铺给关键基础设施做漏洞挖掘（6-2），并发长文《When AI builds itself》警告 AI 正逼近递归自我改进的临界点、呼吁全行业备好'减速/暂停'机制（6-5）。",
+      "key_quotes": [
+        "we ran an external bug bounty that produced no universal jailbreaks in over 1,000 hours of testing.",
+        "the first to get a 90% on its core analytics benchmark — Hex"
+      ],
+      "significance": "这是前沿实验室第一次把'接近内部最强'的能力直接交到公众手里，却用'按话题自动降级 + 全员强制留痕'两道闸把安全争议明摆上台面。它给出了一个新范式：高能力模型不再是'放或不放'的二选一，而是'带保险栓发布'——同一底座，对大众加锁成 Fable、对可信防御方解锁成 Mythos。这既是商业化提速，也是在自家'AI 太危险'警告之后给出的自我约束样板。",
+      "links": [
+        "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+        "https://cyberscoop.com/anthropic-claude-fable-5-release-mythos-guardrails/",
+        "https://www.macrumors.com/2026/06/09/anthropic-fable-5/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude Fable 5", "Claude Mythos", "AI安全", "模型发布"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Anthropic 抢跑一周后，OpenAI 也递表了：向 SEC 秘密提交 S-1、对标约 \\$8520 亿估值——目标 9 月上市，却自曝今年要亏约 \\$140 亿",
+      "source": "@sama",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
+      "story_key": "openai-ipo-filing",
+      "event_date": "2026-06-08",
+      "summary": "OpenAI 6 月 8 日向美国 SEC 秘密提交 S-1，迈出 IPO 第一步——恰好在头号对手 Anthropic 秘密递表整整一周之后。公司请来 Goldman Sachs 与 Morgan Stanley 操盘，目标最早 9 月挂牌。",
+      "detail": "OpenAI 6 月 8 日确认已向 SEC 秘密递交 Form S-1，正式启动 IPO 流程。时间点极具戏剧性——这正好是最大对手 Anthropic 于 6 月 1 日秘密递表的一周之后，两家前沿大厂在七天内先后把'军备竞赛'从一级市场推向公开市场。Fortune 报道里 OpenAI 的态度颇为坦白：'我们预计反正会泄露，所以干脆自己宣布'。\n\n财务细节首次摆上台面：OpenAI 上一轮私募估值约 \\$8520 亿（对应今年 3 月完成的 \\$1220 亿融资），承销由 Goldman Sachs 与 Morgan Stanley 牵头，目标最早在 2026 年 9 月挂牌、发行估值区间约 \\$7300 亿–\\$8500 亿。增长侧，ChatGPT 周活已达约 9 亿、2025 年年化经常性收入（ARR）超 \\$200 亿、近几年逐年翻三倍；但内部文件显示管理层预计 2026 年净亏损约 \\$140 亿，且要到 2029 年才会转盈。",
+      "key_quotes": [
+        "We expect it to leak so we're just announcing it.",
+        "ARR over $20 billion in 2025; projected ~$14 billion loss in 2026; not profitable until 2029."
+      ],
+      "significance": "AI 双雄一周内先后递表，意味着前沿模型公司正集体走向公开市场定价。对投资者而言，这是第一次能在招股书层面同时看到'天量估值'与'天量亏损'的张力——\\$8500 亿的故事要配上 2029 年才盈利的现实，公开市场会怎样给这种'烧钱换规模'的叙事定价，将直接影响整个 AI 估值体系。",
+      "links": [
+        "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
+        "https://www.fool.com/investing/2026/06/09/openai-just-filed-for-an-ipo-after-anthropic-beat-it-to-the-punch-heres-what-that-means-for-the-ai-investing-race/",
+        "https://news.bitcoin.com/openai-files-draft-s-1-at-852b-valuation-as-chatgpt-hits-900m-weekly-users/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "IPO", "S-1", "Anthropic", "资本市场"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "为了救活 Siri，Apple 一年掏约 \\$10 亿租 Google 的'脑子'：默认版 Siri 改跑 1.2 万亿参数定制 Gemini，但塞进自家 Private Cloud Compute 里",
+      "source": "Apple/Google",
+      "source_name": "MacRumors",
+      "source_url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-08",
+      "summary": "WWDC 之后细节浮出：重做版 Siri 的云端'大脑'默认由一只为 Apple 定制、约 1.2 万亿参数的 Google Gemini 驱动，Apple 为此每年向 Google 支付约 \\$10 亿；模型权重跑在 Apple 自家 Private Cloud Compute 中，不向 Google 共享用户数据。",
+      "detail": "WWDC 2026 主题演讲之后，Siri 重做的底层架构细节进一步明朗。重点不只是'允许用户切换第三方模型'，而是默认形态本身：新版 Siri 的云端智能默认由一只为 Apple 量身定制、约 1.2 万亿参数的 Google Gemini 模型驱动，Apple 为这份多年期授权每年向 Google 支付约 \\$10 亿。\n\nApple 在工程上做了'借脑但不交数据'的安排：Gemini 的模型权重运行在 Apple 自家的 Private Cloud Compute 框架内、采用端到端加密，查询通过 Apple 基础设施处理而非 Google 服务器，官方称不向 Google 共享用户数据。能力上，Gemini 版 Siri 支持个人上下文感知、屏幕内容理解（看懂屏幕上显示了什么）以及跨 App 的多步操作执行。\n\n背景回顾：Apple 在 6 月 8 日 WWDC 2026 上公布全面重做的 Siri——以独立聊天 App 形态登场，并首次允许用户把 Siri 后端切到 Gemini、Claude 或 ChatGPT。",
+      "key_quotes": [
+        "~$1 billion per year for a custom Gemini model with roughly 1.2 trillion parameters, running inside Apple's Private Cloud Compute."
+      ],
+      "significance": "这是 Apple 史上最大一笔'外包智能'——宁可每年掏约 \\$10 亿租 Google 的模型，也要先把 Siri 救活。它等于公开承认自研大模型一时追不上，并把最大竞争对手之一的模型变成 iPhone 的默认底座；同时'权重跑在自家私有云、不交数据'的设计，也给'隐私 vs. 能力'这道老题给出了一个被广泛效仿的工程答案。",
+      "links": [
+        "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+        "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "Google", "Gemini", "Siri", "Private Cloud Compute"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "AI 编程工具成了'投毒'入口：Miasma 蠕虫攻陷 Microsoft 73 个 GitHub 仓库——开发者一用 Claude Code/Cursor/Gemini CLI 打开，凭证就被偷",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "story_key": "miasma-worm-microsoft-github",
+      "event_date": "2026-06-08",
+      "summary": "6 月 5 日，自我复制的供应链蠕虫 Miasma 用盗来的贡献者凭证向 Microsoft 的 Azure/durabletask 等仓库推入恶意提交，植入'一旦在 AI 编程工具里打开就触发'的凭证窃取载荷，波及 Azure、Microsoft 等四大组织共 73 个 GitHub 仓库。",
+      "detail": "据 TechCrunch 6 月 8 日披露，一个名为 Miasma 的自我复制供应链蠕虫攻陷了 Microsoft 旗下 73 个 GitHub 仓库，横跨 Azure、Azure-Samples、Microsoft、MicrosoftDocs 四大组织。攻击者先用此前窃取的贡献者凭证，向 Azure/durabletask 仓库推入一条恶意提交，引入的配置文件会在仓库'被 AI 编程工具打开时'触发凭证窃取载荷。\n\n最毒的一环在于触发方式：当开发者用 Claude Code、Gemini CLI、Cursor、VS Code 等 AI 编码工具打开这些仓库时，载荷被自动激活、窃取用户密码与其他敏感凭证——攻击面从'人去读代码'变成了'agent/工具一加载配置就执行'。GitHub 随后用一次约 105 秒的自动化清扫禁用了受影响仓库；Microsoft 发言人 Ben Hope 表示公司'在调查潜在恶意内容期间临时下架了部分仓库'，部分经审查后已恢复。安全研究方指出，这已是 Microsoft 近几周内第二起开源项目被攻陷事件，且是对 Durable Task 项目的'再次沦陷'，暗示上一次并未彻底清除攻击者。",
+      "key_quotes": [
+        "We have temporarily removed some repositories as we investigated potential malicious content. — Microsoft spokesperson Ben Hope",
+        "73 Microsoft GitHub repositories compromised; payload triggered when opened in AI coding tools like Claude Code, Gemini CLI, Cursor, and VS Code."
+      ],
+      "significance": "这是首批专门'瞄准 AI 编码助手'的供应链攻击之一。当 vibe coding 把'git clone + 用 AI 工具打开'变成每天上百次的日常动作，每一次打开都可能成为新的入侵入口——配置文件能在 agent 加载时静默执行，意味着传统'别运行不信任的代码'已不足够，'别用 AI 工具打开不信任的仓库'成了新的安全红线。",
+      "links": [
+        "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+        "https://www.rescana.com/post/miasma-worm-supply-chain-attack-73-microsoft-github-repositories-compromised-via-ai-coding-tools"
+      ],
+      "image": "assets/logos/github-logo.png",
+      "image_type": "logo",
+      "tags": ["供应链攻击", "GitHub", "Microsoft", "AI编程工具", "网络安全"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "和中国抢机器人：Standard Bots 拿 \\$2 亿 Series C、估值冲 \\$10 亿——要在美国本土量产'AI 原生'工业机械臂，明年瞄准吃下美国 10% 新增工业机器人",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-09/standard-bots-raises-200-million-to-manufacture-robots-in-us",
+      "story_key": "standard-bots-series-c",
+      "event_date": "2026-06-09",
+      "summary": "工业机器人公司 Standard Bots 6 月 9 日宣布完成 \\$2 亿 Series C、投后估值 \\$10 亿，由 General Catalyst 与机器人专项基金 RoboStrategy 领投，资金用于在美国本土扩产'AI 原生'机械臂、与中国争夺先进机器人制造。",
+      "detail": "Standard Bots 6 月 9 日宣布完成 \\$2 亿 Series C 融资，投后估值达 \\$10 亿，由 General Catalyst 与专注机器人的基金 RoboStrategy 领投——较该公司约两年前那笔 \\$6300 万融资是一次大跨步。公司明确把这笔钱用于在美国本土加码机械臂产能，背景是美国正力图在'造更先进的机器人'上跟上中国。\n\n落地动作上，Standard Bots 正把位于纽约 Glen Cove 的工厂扩到 7 万平方英尺，推进其垂直整合的生产流程，目标是到明年拿下美国新增工业机器人部署量的约 10%。公司称已向数百家美国企业部署了'AI 原生'工业机器人，客户从中小制造商到《财富》100 强，覆盖油气、汽车、航空航天与数据中心等行业。",
+      "key_quotes": [
+        "$200M Series C at a $1 billion valuation, led by General Catalyst and RoboStrategy.",
+        "On pace to deliver 10% of new U.S. industrial robot deployments by next year."
+      ],
+      "significance": "在'物理 AI / 人形机器人'融资潮里，Standard Bots 走的是更务实的一条线——不追通用人形，而是把 AI 原生机械臂在美国本土量产、直接切入制造业产线。它踩中了'AI + 再工业化 + 对华供应链竞争'三条主线的交叉点，是资本把'AI 落到工厂车间'而非'落到聊天框'的一个清晰信号。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-09/standard-bots-raises-200-million-to-manufacture-robots-in-us",
+        "https://www.prnewswire.com/news-releases/standard-bots-raises-200-million-series-c-at-1-billion-valuation-to-scale-american-made-ai-native-industrial-robots-302795268.html"
+      ],
+      "tags": ["机器人", "Standard Bots", "融资", "再工业化", "General Catalyst"],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "AI 抢不抢饭碗，OpenAI 想自己攒证据：上线 Economic Research Exchange，给外部学者开放（受限）数据做就业影响研究",
+      "source": "@sama",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/economic-research-exchange/",
+      "story_key": "openai-economic-research-exchange",
+      "event_date": "2026-06-08",
+      "summary": "OpenAI 6 月 8 日推出 OpenAI Economic Research Exchange，邀请入选学者在隐私保护框架下、用结构化数据研究 AI 对劳动者、企业与机构的经济影响，申请 7 月 5 日截止、7 月 31 日前通知入选。",
+      "detail": "OpenAI 6 月 8 日上线 OpenAI Economic Research Exchange——一个支持外部高质量研究、专门考察 AI 经济影响的平台。入选研究者将以'结构化、按项目'的方式与 OpenAI Economic Research 团队合作，目标是产出关于 AI 如何影响劳动者、企业、机构与更广泛经济的'可信、独立'证据。\n\nOpenAI 欢迎在应用因果推断、计量、劳动经济学、生产率、教育、创业、公共财政、区域经济、发展与不平等等方向有实证功底的研究者投递；评审看方法严谨度、可行性、与平台优先级的契合、清晰里程碑等。申请现已开放，7 月 5 日截止，预计 7 月 31 日前通知入选名单。",
+      "key_quotes": [
+        "Selected researchers will conduct research through structured, project-based collaborations with OpenAI Economic Research.",
+        "Applications close July 5, 2026; notifications by July 31, 2026."
+      ],
+      "significance": "在 AI'抢工作'争议与 IPO 招股同时发酵之际，OpenAI 主动把'经济影响研究'纳入自己可控的合作与数据框架，既是公关也是议程设置：谁掌握数据、谁设定研究优先级，谁就更可能定义关于'AI 究竟是创造还是摧毁工作'的主流结论。",
+      "links": [
+        "https://openai.com/index/economic-research-exchange/",
+        "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42G0YO:0-openai-launches-openai-economic-research-exchange/"
+      ],
+      "tags": ["OpenAI", "AI与就业", "经济研究", "政策"],
+      "category": "news"
+    }
+  ]
+}
