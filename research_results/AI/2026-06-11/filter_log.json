@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-11",
+  "total_candidates": 13,
+  "kept": 6,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "anthropic-economic-futures-policy",
+      "event_date": "2026-06-10",
+      "title_en": "Amodei pledges $200M, proposes FAA-grade AI regulation and worker support",
+      "source": "@DanielaAmodei",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Anthropic released two policy proposals (govt should be able to block catastrophic-risk models, FAA/auto/drug-style testing regime) plus a $200M pledge to research AI labor-market impact and economic support for displaced workers."
+    },
+    {
+      "story_key": "ai-debt-bond-financing",
+      "event_date": "2026-06-10",
+      "title_en": "Amazon borrows $17.5B for AI; Morgan Stanley sees AI debt doubling to $570B in 2026",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Concrete new financing event (Amazon $17.5B delayed-draw term loan on top of bond sale) plus a fresh Morgan Stanley forecast that AI-linked debt issuance nearly doubles to ~$570B in 2026. Distinct from prior bigtech-700b-capex-doubts (analyst sentiment, 06-04) and amazon-engineers-datacenter-protest (06-03)."
+    },
+    {
+      "story_key": "openai-china-influence-ops",
+      "event_date": "2026-06-10",
+      "title_en": "OpenAI bans China-linked accounts using ChatGPT to seed US data-center/tariff narratives",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. OpenAI's new threat report details two operations ('Data Center Bandwagon', 'Tech and Tariffs') generating comics/comments to stoke US electricity-price and tariff debates; first time OpenAI sees a China-linked op targeting the AI data-center debate."
+    },
+    {
+      "story_key": "google-diffusiongemma-release",
+      "event_date": "2026-06-10",
+      "title_en": "Google DeepMind releases DiffusionGemma, a 26B open text-diffusion model",
+      "source": "MarkTechPost",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New experimental open-weights model (26B MoE, 3.8B active) generating text via parallel diffusion over 256-token blocks, up to 4x faster (1000+ tok/s on H100), day-zero vLLM support, Apache 2.0."
+    },
+    {
+      "story_key": "xai-engineer-safety-lawsuit",
+      "event_date": "2026-06-09",
+      "title_en": "Ex-xAI engineer Devin Kim sues xAI/SpaceX, alleges fired for Grok safety warnings",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Lawsuit filed in California state court Tuesday (06-09) alleging wrongful discharge/retaliation over AI-safety complaints about Grok; lands two days before SpaceX's IPO pricing."
+    },
+    {
+      "story_key": "cisa-ai-patch-deadline",
+      "event_date": "2026-06-10",
+      "title_en": "CISA moves to a 3-day critical-vuln patch deadline, citing AI-accelerated exploitation",
+      "source": "CSO Online",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. CISA shortens remediation deadline for the most critical exploited vulnerabilities to three days, explicitly citing AI models compressing the exploit window from weeks to hours."
+    },
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-11",
+      "title_en": "SpaceX prices IPO today, lists tomorrow on Nasdaq",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 06-04 ('史上最大 IPO 提前开跑', fixed $135/share, $1.77T, prices 06-11 / lists 06-12). Pricing only finalizes after market close today; no substantively new facts available at research time beyond what was already published."
+    },
+    {
+      "story_key": "microsoft-mai-models",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft launches seven in-house MAI models at Build",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-02 (Build) is 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "nvidia-ising-quantum",
+      "event_date": "2026-04-14",
+      "title_en": "NVIDIA launches Ising, first open AI models for quantum computing",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-14 is ~2 months old (>5 day limit)."
+    },
+    {
+      "story_key": "google-gemma4-12b",
+      "event_date": "2026-06-03",
+      "title_en": "Google releases Gemma 4 12B multimodal open model",
+      "source": "TechTimes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-03 is 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-microsoft-maia",
+      "event_date": "2026-05-21",
+      "title_en": "Anthropic in talks to run Claude on Microsoft Maia 200 chips",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "First reported 2026-05-21, still early-stage talks with no new development; >5 day limit."
+    },
+    {
+      "story_key": "openai-tbpn-acquisition",
+      "event_date": "2026-04-02",
+      "title_en": "OpenAI acquires tech talk show TBPN",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-02 is ~2 months old (>5 day limit)."
+    },
+    {
+      "story_key": "alphabet-ai-equity-offering",
+      "event_date": "2026-06-03",
+      "title_en": "Alphabet's ~$85B equity offering, ~40% covering equity-award taxes",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-03 is 8 days old (>5 day limit)."
+    }
+  ]
+}

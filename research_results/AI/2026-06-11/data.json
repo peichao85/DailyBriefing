@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-11",
+  "category": "AI",
+  "researched_at": "2026-06-11T07:10:00+08:00",
+  "sources_checked": [
+    "@DanielaAmodei", "@sama", "@elonmusk", "@demishassabis", "@JeffDean",
+    "Anthropic Newsroom", "TechCrunch", "Axios", "Reuters", "CNBC",
+    "MarkTechPost", "CSO Online", "Techmeme", "The Information", "Washington Times",
+    "Morgan Stanley", "buildfastwithai", "llm-stats", "crescendo.ai"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "Amodei 给 AI 监管开出'波音级'药方：政府该有权'否决'危险模型，并掏钱兜底被 AI 抢掉工作的人",
+      "source": "@DanielaAmodei",
+      "source_name": "Washington Times",
+      "source_url": "https://www.washingtontimes.com/news/2026/jun/10/ceo-suggests-job-loss-solutions-anthropic-pledges-200-million/",
+      "story_key": "anthropic-economic-futures-policy",
+      "event_date": "2026-06-10",
+      "summary": "Anthropic 6 月 10 日抛出两份政策提案：主张政府应有权'阻止或威慑'具有重大灾难性风险的 AI 模型上市，并把 AI 监管对标 FAA（航空）、药品、汽车那一套强制测试与审计；同时承诺投入 $2 亿研究 AI 对就业的冲击，CEO Dario Amodei 公开建议政府为被 AI 冲击的劳动者提供经济兜底。",
+      "detail": "Anthropic 6 月 10 日发布两份政策提案，罕见地把'怎么管 AI'写成了具体的制度蓝图。第一份针对灾难性风险：提案主张政府应当具备'阻止或威慑'（block or deter）那些'有重大灾难性危害风险'模型发布的能力。Amodei 把前沿 AI 类比为飞机、汽车与药品——'都是现代经济不可或缺、但一旦设计或操作不当就能害死大量人'的强力技术，因此 AI 模型也应像飞机一样先过强制的技术测试与审计、不达安全标准就不能发布，监管力度要对标 FAA。\n\n第二份针对就业冲击。Amodei 警告，这一轮技术可能比以往任何一次技术革命都更剧烈、持续更久地扰动劳动力市场；'在那样的世界里，真正的难题不再是如何激励增长，而是如何让所有人都能分享到收益。'为此他公开建议政府为受 AI 冲击的劳动者提供经济支持（economic support），并配套宣布 Anthropic 投入 $2 亿用于研究 AI 对就业、企业与机构的经济影响。\n\n这番表态把一家前沿实验室罕见地摆到了'请加强监管我'的位置上——与多数厂商游说'别管太严'形成反差，也把'谁来按下危险模型的发布键'这个问题正式推到了立法层面。",
+      "key_quotes": [
+        "The government should be able to block or deter the rollout of AI models that pose a significant risk of catastrophic harms.",
+        "The key challenge in such a world won't be incentivizing growth, but finding a way for everyone to share in the benefits."
+      ],
+      "significance": "这是前沿实验室一把手主动要求'被强监管'的标志性发声：Amodei 不只谈风险，而是给出了可落地的制度模板（FAA 式发布前审批 + 政府对失业者的经济兜底），把 AI 治理从抽象担忧推进到'谁有权否决模型、钱从哪来'的具体政策博弈，也为正在成形的美国联邦 AI 立法提供了来自产业内部的参照系。",
+      "links": [
+        "https://www.washingtontimes.com/news/2026/jun/10/ceo-suggests-job-loss-solutions-anthropic-pledges-200-million/",
+        "https://www.techmeme.com/260610/p53"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "AI 监管", "Dario Amodei", "就业冲击", "政策"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "AI 这场仗开始靠'借钱'打了：Amazon 一次性借 $175 亿、Morgan Stanley 警告今年 AI 债务要翻倍冲 $5700 亿",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "story_key": "ai-debt-bond-financing",
+      "event_date": "2026-06-10",
+      "summary": "刚发完债，Amazon 又向 Citi 牵头的银团签下 $175 亿延迟提取定期贷款，给今年约 $2000 亿的 AI 资本开支续血；同日 Morgan Stanley 预测，2026 年与 AI 挂钩的债务发行将几乎翻倍至约 $5700 亿——AI 扩张正从'用现金流自筹'转向'靠债券和银行贷款撑'。",
+      "detail": "AI 数据中心的钱越来越多来自'借'。Amazon 于 6 月 8 日签下一笔 $175 亿的高级无抵押'延迟提取定期贷款'（DDTL），由 Citibank 任管理代理，BofA、JPMorgan、HSBC、Wells Fargo 等国际银团参与；这种结构允许 Amazon 按需分批提款而非一次性拿满，承诺额度到 9 月 30 日到期，每笔提款自支用日起三年到期。这笔银行贷款紧接着一轮债券发行而来，目的都是给 Amazon 今年史上最庞大的资本开支计划之一续命——2026 年约 $2000 亿 capex、Q1 单季就花了 $442 亿（去年同期 $250 亿），云业务在手订单积压达 $3640 亿。\n\n这并非个案。Morgan Stanley 同期预测，2026 年与 AI 相关的债务发行规模将几乎翻倍、逼近 $5700 亿——也就是说，撑起这轮数据中心狂建的，正越来越多地是债券与银团贷款，而不是科技巨头一向引以为傲的自由现金流。当融资从'自掏腰包'切换到'加杠杆'，市场对'这些投入何时、能否转化为有利润的收入'的耐心，正被摆上更显眼的位置。",
+      "key_quotes": [
+        "Global debt issuance tied to artificial intelligence is on track to more than double to nearly $570 billion in 2026. — Morgan Stanley"
+      ],
+      "significance": "这是 AI 资本开支叙事的一个转折信号：当连现金流最充沛的 Amazon 都要靠 $175 亿银行贷款 + 债券来补 AI 缺口、全行业 AI 债务一年翻倍到 $5700 亿时，AI 扩张的风险开始从'股东买单'外溢到'信用市场买单'。债务驱动的建设一旦遇上需求或回报不及预期，回旋余地远小于现金驱动，这也是分析师反复提示'AI 投入正逼近忍耐极限'的财务底色。",
+      "links": [
+        "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+        "https://www.techtimes.com/articles/318171/20260610/morgan-stanley-sees-ai-debt-nearly-doubling-570-billion-2026-bonds-now-fund-buildout.htm"
+      ],
+      "image": "assets/logos/amazon-logo.png",
+      "image_type": "logo",
+      "tags": ["Amazon", "AI 资本开支", "债务融资", "Morgan Stanley", "数据中心"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "中国相关账号被抓现行：用 ChatGPT 编漫画带节奏，专攻美国'数据中心抬电价'和'反关税'两条舆论线",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/06/10/openai-china-ai-data-center-tariffs-chatgpt",
+      "story_key": "openai-china-influence-ops",
+      "event_date": "2026-06-10",
+      "summary": "OpenAI 6 月 10 日发布威胁报告，封禁一批据信与中国关联的账号——它们用 ChatGPT 批量生成评论与政治漫画，去煽动美国关于'AI 数据中心推高电价'和'反对特朗普关税'的舆论。OpenAI 称这是首次发现中国关联行动盯上'AI 数据中心'这一议题。",
+      "detail": "OpenAI 6 月 10 日（周三）公布最新威胁情报，封禁了一批它认为与中国相关的 ChatGPT 账号，这些账号被用来起草面向美国社交媒体的影响力行动。报告点名两个行动：其一名为 'Data Center Bandwagon'，由 OpenAI 认为与某中国政府承包商有关的用户操作，让 ChatGPT 生成关于电网容量、电价的评论和漫画，宣称 AI 数据中心正在推高美国家庭的电费，随后这些图文通过疑似虚假账号发到 X 上，并搭配真实新闻链接增强可信度；其二名为 'Tech and Tariffs'，用 ChatGPT 制作内容和政治漫画，批评特朗普的关税政策与美国争夺全球科技主导权的做法。\n\nOpenAI 强调这些行动'看起来并未奏效'，但显示出亲中行为体正在测试如何用 AI 工具放大美国本就存在的政治与经济裂痕。一名 OpenAI 官员对记者表示，这似乎是公司首次观察到中国关联行动利用其模型介入'AI 数据中心'这一具体议题——而数据中心的电力与成本争议，恰恰是当前美国 AI 扩张最敏感的社会摩擦点之一。",
+      "key_quotes": [
+        "This appears to be the first time we've seen a China-linked operation using our models to meddle in the AI data center debate. — OpenAI official"
+      ],
+      "significance": "它把'AI 既是工具也是战场'这件事具体化了：同一批模型一边被用来建数据中心、一边被用来攻击数据中心的舆论合法性。值得注意的是行动专挑'电价'和'关税'这两条最能撕裂美国民意的现实议题下手，说明 AI 影响力行动正从泛泛造势转向精准嵌入真实政策争论；而 OpenAI 主动披露，也是前沿厂商把'平台滥用治理'当作公开能力来展示。",
+      "links": [
+        "https://www.axios.com/2026/06/10/openai-china-ai-data-center-tariffs-chatgpt",
+        "https://www.investing.com/news/stock-market-news/openai-bans-suspected-chinalinked-accounts-for-seeking-surveillance-proposals-4274773"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "影响力行动", "中国", "数据中心", "AI 安全"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "文本也能像图片一样'去噪'生成：Google 开源 DiffusionGemma，一次并行刷 256 个 token、比逐字快 4 倍",
+      "source": "@demishassabis",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/",
+      "story_key": "google-diffusiongemma-release",
+      "event_date": "2026-06-10",
+      "summary": "Google DeepMind 6 月 10 日开源实验性模型 DiffusionGemma：260 亿参数 MoE（激活 38 亿），不再逐字生成，而是像扩散模型画图那样'从噪声里一次精修一整块文本'，每步并行去噪最多 256 个 token，在专用 GPU 上提速最高 4 倍（H100 超 1000 tok/s），并在 vLLM 等框架获得 day-zero 支持，Apache 2.0 许可。",
+      "detail": "Google DeepMind 6 月 10 日发布 DiffusionGemma——一个把'扩散生成'搬到文本上的实验性开源模型。传统大模型逐 token 自回归生成，DiffusionGemma 改成像扩散模型生成图像那样：从噪声出发，一次性精修一整块文本，每一步在一个 256-token 的'画布'上并行去噪。这带来两个特性：一是速度，在专用 GPU 上最高提速约 4 倍——H100 上超过 1000 tokens/秒、RTX 5090 上超过 700；二是'画布'上的双向注意力让模型能实时自我纠错，而非自回归那样一旦生成就难回头。\n\n工程上它相当亲民：260 亿参数 MoE、仅激活 38 亿，量化后可塞进 18GB 显存，发布即获得 vLLM、Transformers、MLX、Unsloth 的 day-zero 支持，并以宽松的 Apache 2.0 开源；它也是首个被 vLLM 原生支持的扩散式 LLM（dLLM）。Google 同时坦承：这是实验性模型，质量低于常规 Gemma 4，生产环境仍建议用 Gemma 4。",
+      "key_quotes": [
+        "It generates text the way diffusion models generate images: by starting from noise and refining a whole block of text at once.",
+        "1000+ tokens/sec on H100, 700+ on RTX 5090."
+      ],
+      "significance": "扩散式文本生成长期停留在研究演示，DiffusionGemma 把它做成了能在消费级显卡跑、且被主流推理框架原生支持的开源权重——这让'非自回归 LLM'第一次具备了被开发者大规模实验的工程条件。并行去噪 + 双向自纠错若能持续提质，可能在低延迟、可控生成等场景给一统江湖的自回归范式撕开一道口子。",
+      "links": [
+        "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/",
+        "https://vllm-project.github.io/2026/06/10/diffusion-gemma",
+        "https://developers.googleblog.com/en/diffusiongemma-the-developer-guide/"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "DiffusionGemma", "扩散模型", "开源模型", "推理加速"],
+      "category": "research"
+    },
+    {
+      "id": "5",
+      "title": "SpaceX 上市前两天'后院起火'：前 xAI 工程师起诉，称因给 Grok 提安全意见被开除",
+      "source": "@elonmusk",
+      "source_name": "Reuters",
+      "source_url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N42I0HW:0-musk-s-xai-accused-of-illegally-firing-engineer-who-raised-safety-concerns/",
+      "story_key": "xai-engineer-safety-lawsuit",
+      "event_date": "2026-06-09",
+      "summary": "xAI 早期核心工程师、现领导一家 AI 安全智库的 Devin Kim，6 月 9 日（周二）在加州法院起诉 xAI 及其母体 SpaceX，称自己因反复要求给 Grok 加装安全护栏、被公司高层视为眼中钉，最终在去年 9 月一场 AI 安全汇报前被联合创始人 Jimmy Ba 突然解雇，指控报复性与非法解雇。诉讼恰好赶在 SpaceX IPO 定价前两天落地。",
+      "detail": "Elon Musk 的 xAI 在 SpaceX 冲刺史上最大 IPO 的关口被告上法庭。前工程师 Devin Kim 6 月 9 日在加州州法院提起诉讼，称他给 Grok 开发设安全护栏的努力使自己成为公司高层的打击目标。诉状写道：'Kim 先生反复抱怨，xAI 不把 AI 安全放在优先位置——尤其是在 Grok 上——几乎注定公司会做出违法之举，从助长歧视到扩散大规模杀伤性武器。'\n\nKim 自述是 2024 年 xAI 的最初一批员工之一，入职数月后即被提拔到关键领导岗位；他称自己在去年 9 月、正准备向公司高层做一场 AI 安全汇报前，被 xAI 联合创始人 Jimmy Ba 突然解雇。诉讼指控 xAI 与 SpaceX 违反加州法律构成报复与非法解雇，索赔金额未具体披露。其时间点格外敏感——SpaceX（与 xAI 合并后的实体）计划 6 月 11 日为约 $1.77 万亿估值的 IPO 定价、12 日登陆 Nasdaq，这起诉讼把'Grok 安全治理'的争议直接摆到了招股的聚光灯下。",
+      "key_quotes": [
+        "Mr. Kim repeatedly complained that xAI's failure to prioritize AI safety, particularly with respect to Grok, virtually guaranteed that the Company would commit unlawful acts, from fomenting discrimination to proliferating weapons of mass destruction."
+      ],
+      "significance": "在 SpaceX/xAI 冲击史上最大 IPO 的当口，一桩'吹哨人被报复解雇'诉讼把投资者最不愿在招股期看到的治理风险摆上台面：它既是对 Grok 安全文化的具体指控，也呼应了同日 Anthropic 呼吁强监管的另一极——前沿厂商在'要不要、由谁来约束模型安全'上的分歧，正从理念之争变成法庭与监管层面的实际较量。",
+      "links": [
+        "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N42I0HW:0-musk-s-xai-accused-of-illegally-firing-engineer-who-raised-safety-concerns/",
+        "https://www.law360.com/employment-authority/discrimination/articles/2487708/former-xai-engineer-says-he-was-fired-over-safety-warnings"
+      ],
+      "image": "assets/logos/grok-logo.png",
+      "image_type": "logo",
+      "tags": ["xAI", "Grok", "Elon Musk", "AI 安全", "诉讼", "SpaceX"],
+      "category": "trending"
+    },
+    {
+      "id": "6",
+      "title": "AI 把'补漏洞'的时钟拨快了：CISA 把最危急漏洞的修复期限从两周砍到 3 天",
+      "source": "CSO Online",
+      "source_name": "CSO Online",
+      "source_url": "https://www.csoonline.com/article/4167422/cisa-mulls-new-three-day-remediation-deadline-for-critical-flaws.html",
+      "story_key": "cisa-ai-patch-deadline",
+      "event_date": "2026-06-10",
+      "summary": "美国网络安全机构 CISA 推动把'已被在野利用的最危急漏洞'的修复期限大幅压缩到 3 天，直接理由是 AI 模型正把黑客从漏洞披露到实际利用的时间窗，从数周/数天压缩到数小时——监管层第一次为'AI 加速攻击'专门改写打补丁的节奏。",
+      "detail": "CISA 正把联邦系统的漏洞修复节奏往极限推。新方案要求：对那些已在别处被观察到正被利用的最危急漏洞，民口联邦机构须在 3 天内完成修复——相比此前对关键漏洞约两周、一般漏洞最长三周的要求，是一次幅度极大的压缩。\n\n推动这一变化的明确理由，是 AI。报道称，像 Claude Mythos 这类先进模型正让'利用已知漏洞'变得近乎轻而易举，并能轻易发现此前未知的漏洞、或在漏洞刚披露时立刻抓住它发起复杂攻击，把攻击方的可乘之机从过去的几个月、几周、几天，压缩到以小时计。与此同时已有一纸紧急指令在执行：CISA 刚给联邦机构下了 72 小时最后通牒，要求修补一个正被勒索团伙在野利用的 Check Point VPN 严重漏洞。换句话说，防守方的'打补丁时钟'正被 AI 攻击的提速倒逼着重设。",
+      "key_quotes": [
+        "Advanced AI models are compressing the timeframe for hackers to exploit software flaws from months, weeks, or days to a matter of hours."
+      ],
+      "significance": "这是 AI 攻防外溢到政府运维规则的标志性一步：当模型把'从披露到被利用'压到小时级，传统以周计的修复节奏直接失效，监管被迫把合规时限重写到 3 天。它和近期 Anthropic Glasswing、OpenAI 把'网络战级'模型开给防御方等动向一脉相承——AI 正同时抬高攻与守两端的速度下限，而制度（如打补丁期限）成了最先被迫适配的一环。",
+      "links": [
+        "https://www.csoonline.com/article/4167422/cisa-mulls-new-three-day-remediation-deadline-for-critical-flaws.html",
+        "https://www.cpomagazine.com/cyber-security/concerns-about-ai-driven-exploitation-of-critical-vulnerabilities-prompt-cisa-plans-for-a-three-day-deadline-for-remediation/"
+      ],
+      "tags": ["CISA", "网络安全", "漏洞修复", "AI 攻防", "政策"],
+      "category": "news"
+    }
+  ]
+}
