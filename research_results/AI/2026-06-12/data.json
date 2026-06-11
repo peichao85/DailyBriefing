@@ -1,0 +1,144 @@
+{
+  "date": "2026-06-12",
+  "category": "AI",
+  "researched_at": "2026-06-12T00:00:00Z",
+  "sources_checked": ["@elonmusk", "@sama", "OpenAI", "Apple Newsroom", "Bloomberg", "TechCrunch", "NPR", "CNBC", "The Decoder", "Crunchbase", "TrendForce", "buildfastwithai"],
+  "items": [
+    {
+      "id": "1",
+      "title": "史上最大 IPO 今天敲钟：SpaceX 锁定 $135 发行价、估值 $1.77 万亿，认购超 $2500 亿、3.5–4 倍超额",
+      "source": "@elonmusk",
+      "source_name": "NPR",
+      "source_url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-ipo-price-elon-musk",
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-12",
+      "summary": "SpaceX 于 6 月 11 日正式定价：每股 $135、发行约 5.556 亿股、募资约 $750 亿，对应估值约 $1.77 万亿，6 月 12 日以 SPCX 登陆 Nasdaq——这是有记录以来规模最大的 IPO，超过 2019 年沙特 Aramco 的 $354 亿。机构认购需求一度突破 $2500 亿，约为募资额的 3.5–4 倍。",
+      "detail": "SpaceX 的 IPO 于 6 月 11 日晚完成定价，固定发行价 $135/股（公司一反常规、跳过询价区间），发行约 5.556 亿股 Class A 普通股，募资约 $750 亿，对应估值约 $1.77 万亿——上市首日就超过 Tesla 的市值。股票于 6 月 12 日在 Nasdaq 以代码 SPCX 开始交易。\n\n这笔交易刷新了历史：以募资额计，它超过 2019 年沙特 Aramco 的 $354 亿，成为有记录以来最大的 IPO。承销由 Goldman Sachs 牵头、共 21 家银行组成的承销团操盘。最引人注目的是零售配售比例——约 30% 的公开发行份额留给散户（通过 Robinhood、Fidelity、Charles Schwab、SoFi、E*TRADE 等以 $135 申购），远高于通常的 5–10%。\n\n需求极度火爆：报道称机构认购意向一度超过 $2500 亿，相对 $750 亿的募资额约为 3.5–4 倍超额认购，多数散户申购预计只能部分获配或落空。由于价格发现过程庞大，分析普遍预期股票会在上午晚些或午后才开盘，且开盘价可能明显高于 $135 发行价。Goldman Sachs CEO David Solomon 则公开把当前 AI/IPO 市场形容为过热的'贪婪模式'。\n\n背景回顾：SpaceX 已于 6 月 4 日提前启动路演并直接给出 $135 固定发行价计划，目标 6-11 定价、6-12 挂牌。",
+      "key_quotes": [
+        "Largest initial public offering in recorded history",
+        "Demand surpassed $250bn versus the $75bn SpaceX is seeking to raise"
+      ],
+      "significance": "这是把'AI/航天超级独角兽'第一次以历史最大规模推向公开市场，$1.77 万亿估值与近 4 倍超额认购，既是对 Musk 资本帝国（含为 xAI 供算力的数据中心）的一次集中定价，也是 2026 年 AI IPO 闸门（Anthropic、OpenAI 已秘密递表）正式放开的标志性事件；30% 的超高散户配售更把这场豪赌直接摆到普通投资者面前。",
+      "links": [
+        "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-ipo-price-elon-musk",
+        "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": ["SpaceX", "IPO", "Nasdaq", "Elon Musk", "资本市场"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "OpenAI 借 Oracle 把模型'塞进'企业已有云预算：用 Universal Credits 就能直接买 GPT 与 Codex",
+      "source": "OpenAI",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/openai-on-oracle-cloud/",
+      "story_key": "openai-oracle-cloud-deal",
+      "event_date": "2026-06-11",
+      "summary": "OpenAI 与 Oracle 6 月 11 日宣布合作：Oracle Cloud Infrastructure（OCI）客户可直接用手里既有的 Oracle Universal Credits（UCM）来购买和调用 OpenAI 的前沿模型与 Codex，无需另开采购流程。",
+      "detail": "OpenAI 6 月 11 日（公告于 6-10/6-11）宣布与 Oracle 达成合作：Oracle Cloud Infrastructure 的企业客户，可以把手中既有的 Oracle Universal Credits（通用云额度）直接抵扣 OpenAI 前沿模型与 Codex 的使用，等于把 OpenAI 接入了企业早已签好的云承诺与采购、治理流程，省去单独立项、单独走采购与合规的麻烦。\n\n对企业 IT 而言，这解决的是一个非常现实的痛点——很多公司更愿意通过自己已经信任、已经付过钱的采购渠道来部署 AI。该集成预计在'未来数周'上线。\n\n这步棋也延续了 OpenAI 与 Oracle 的深度绑定：双方此前已围绕 Stargate 数据中心展开大规模算力合作，如今再把分销前移到 Oracle 庞大的企业客户基础上。对 OpenAI 来说，这是一条绕过传统'先注册、再充值'的、面向大企业的新分销通道；对 Oracle 来说，则是用 AI 把自己既有的云额度盘活、增强黏性。",
+      "key_quotes": [
+        "Oracle customers will be able to apply eligible Oracle Universal Credits toward OpenAI models and Codex through OCI."
+      ],
+      "significance": "企业 AI 的竞争正从'模型谁更强'转向'谁更好买、更好接进现有 IT'。OpenAI 用 Oracle 既有的云预算和采购流程做杠杆，把自己嵌入大企业的支出闭环——这是分销与渠道层面的卡位，也是在 IPO 前把企业收入故事讲得更硬的一步。",
+      "links": [
+        "https://openai.com/index/openai-on-oracle-cloud/",
+        "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/openai-teams-up-with-oracle-cloud"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Oracle", "企业 AI", "Codex", "云"],
+      "category": "product_operators"
+    },
+    {
+      "id": "3",
+      "title": "台湾要把'卖 AI 芯片给中国'入刑：拟从只卡华为，扩到封锁全中国客户",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+      "story_key": "taiwan-ai-chip-export-controls",
+      "event_date": "2026-06-09",
+      "summary": "据 Bloomberg 6 月 9 日报道，台湾正研议大幅收紧对中国的 AI 芯片出口管制——从目前只针对华为等被列名企业，扩大到覆盖中国所有客户，并考虑将未经授权的出口入罪化，以与美国对齐。",
+      "detail": "据 Bloomberg 6 月 9 日报道，台湾正考虑一套远比现状严格的 AI 芯片对华出口管制：现行规则主要卡住华为等被列入黑名单的实体，而新方案拟首次把限制扩大到中国的所有客户，并赋予监管机构更强的法律权力，去阻止先进硬件（包括搭载 Nvidia 芯片的 AI 服务器）从台湾流向中国。有报道称，台湾还在权衡把未经授权的对华 AI 芯片出口'入刑'，让走私服务器成为刑事犯罪。\n\n与此同时，台湾国际贸易署（ITA）扩充了'战略性高科技商品实体清单'，一次性新增 265 个涉及武器扩散的实体（分布于中国、俄罗斯、伊朗、墨西哥、土耳其、阿联酋），并移除 13 个；向清单内实体出口需事先获得 ITA 批准。台湾经济部（MOEA）表示将持续强化对战略高科技出口的管控，以顺应全球出口管制趋势、维护国家安全。\n\n这一动向发生在台美高层就先进芯片管制等议题持续磋商之际。由于台湾掌握全球最先进的芯片制造，若'全中国客户'级别的管制落地，将直接收紧中国 AI 算力的供给侧来源，对 Foxconn 等服务器代工厂也意味着新的合规风险。",
+      "key_quotes": [
+        "Taiwan weighs criminal ban on AI chip exports to all of China",
+        "Sweeping export controls under consideration extending beyond blacklisted firms such as Huawei to cover all customers in China"
+      ],
+      "significance": "如果落地，这会是供给侧对中国 AI 算力的一次结构性收紧——管制对象从'某几家公司'升级为'整个国家市场'，且动用刑事手段堵走私。台湾位于全球先进芯片制造的咽喉，这一步既是技术地缘政治的再升级，也会重塑 Nvidia AI 服务器的全球流向与中国本土替代的紧迫性。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+        "https://www.tomshardware.com/tech-industry/taiwan-weighs-criminal-ban-on-ai-chip-exports-to-all-of-china-as-us-trade-talks-continue"
+      ],
+      "tags": ["出口管制", "AI 芯片", "台湾", "中国", "Nvidia", "地缘政治"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "OpenAI 悄悄'退一步'：放软 2028 全自动 AI 研究员目标，改口'人机协同'——还说'把一切都自动化不是我们想要的未来'",
+      "source": "OpenAI",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-says-entirely-automating-everything-is-not-the-future-we-want/",
+      "story_key": "openai-autonomous-researcher-walkback",
+      "event_date": "2026-06-10",
+      "summary": "OpenAI 在 IPO 前调整口径：把去年定下的'2028 年 3 月前造出完全自主 AI 研究员'目标，软化为'届时可能有相当比例的研究由 AI 与人类研究员协同完成'，并罕见地表态'把一切都自动化不是我们想要的未来'。",
+      "detail": "OpenAI 在一篇新博文里修正了自己最受关注的一个时间表。去年秋天，公司放话要在 2028 年 3 月前建成一个能独立开展研究的'完全自主 AI 研究员'；如今措辞变成——'我们内部相信，到 2028 年 3 月，我们可能有相当一部分研究是由 AI 系统与我们自己的研究员协同（in tandem）完成的'。从'完全自主'到'人机协同'，是一次明显的回撤。\n\nCEO Sam Altman 与首席科学家 Jakub Pachocki 在文中明确把自己摆在'反对把人类工作全部自动化'的一侧，称'把一切都自动化并不是我们想要的未来'，并呼吁建立一个能在必要时'减速'前沿开发的国际协调机制。\n\n这番表态的时点很微妙：恰逢 OpenAI 刚于 6 月 8 日秘密递交 S-1、迈向 IPO。把激进的'全自动研究员'叙事调成更稳妥、更具社会责任感的'人机协同'，既可能是对监管与公众情绪的回应，也与近期 Anthropic 等同行呼吁为'递归自我改进'预留'暂停/减速'机制的论调遥相呼应。",
+      "key_quotes": [
+        "Entirely automating everything is not the future we want.",
+        "By March of 2028 we may have a significant fraction of our research being done by AI systems in tandem with our own researchers."
+      ],
+      "significance": "这是头部实验室在'AI 自动化 AI'这件事上的一次公开降温。从'全自主研究员'退到'人机协同'，叠加对国际'减速'机制的呼吁，反映出前沿厂商在递归自我改进风险和 IPO 前的叙事管理之间，正主动给自己的激进时间表打折扣——口径之变本身就是信号。",
+      "links": [
+        "https://the-decoder.com/openai-says-entirely-automating-everything-is-not-the-future-we-want/"
+      ],
+      "tags": ["OpenAI", "AGI", "AI 安全", "Sam Altman", "递归自我改进"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "Apple 重做版 Siri 被欧盟挡在门外：4.5 亿用户用不上，欧盟反呛'这是你自己的商业选择'",
+      "source": "Apple Newsroom",
+      "source_name": "Apple Newsroom",
+      "source_url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/",
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-09",
+      "summary": "Apple 6 月 9 日宣布：重做的 Gemini 驱动版 Siri AI 将不会随 iOS 27 / iPadOS 27 在欧盟的 iPhone、iPad 上线，因与欧盟围绕《数字市场法》（DMA）互操作要求谈崩；欧委会次日公开反驳称这是 Apple 的'自愿商业选择'，并非法律强制。",
+      "detail": "WWDC 之后剧情急转：Apple 6 月 9 日确认，全面重做、由定制版 Google Gemini 驱动的新 Siri AI，将不会随今秋 iOS 27 与 iPadOS 27 在欧盟的 iPhone 和 iPad 上线，影响约 4.5 亿欧盟用户——而据 Apple 自己评估，超过 90% 的 Siri 交互正发生在这两类设备上。新版 Siri 仍会在欧盟的 macOS 27、visionOS 27、watchOS 27 上提供，即 Mac、Apple Watch、Vision Pro 用户不受影响。\n\n症结在《数字市场法》（DMA）。欧委会的顾虑是：让 Apple 这台跑着'向其头号移动对手（Google）授权来的第三方模型'的助手，在没有竞争对手获得同等平台级接入之前，先行在欧盟市场站稳 18 个月，正是 DMA 想要防止的那种竞争优势。Apple 提出了名为 Trusted System Agent 的方案和 18 个月的过渡窗口，请求一项为期 18 个月的 DMA 义务豁免，但被欧委会全部驳回。\n\n6 月 9 日（WWDC 次日），欧委会公开反驳 Apple：将新 Siri 拒于 4.5 亿欧盟用户之外，是 Apple 的'自愿商业选择'，而非法律义务——等于把'用户用不上 AI'的锅明确推回给 Apple。\n\n背景回顾：Apple 已在 6-8 WWDC 2026 公布以独立聊天 App 形态重做、可切换 Gemini/Claude/ChatGPT 的新 Siri。",
+      "key_quotes": [
+        "The European Commission said withholding Siri AI from EU users is a voluntary business choice, not a legal obligation.",
+        "Due to DMA, Siri AI delayed in EU for iOS 27 and iPadOS 27"
+      ],
+      "significance": "这是 DMA 与 AI 助手正面相撞的第一个标志性案例：监管直接决定了一项旗舰 AI 功能能否触达 4.5 亿欧洲用户，且把'谁该负责'的舆论焦点公开化。它预示着'平台型 AI 助手 + 第三方大模型'这种新形态，将在欧盟遭遇互操作性与公平接入的硬约束，也给 Google、Apple 们的欧洲 AI 路线图蒙上不确定性。",
+      "links": [
+        "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/",
+        "https://www.techtimes.com/articles/318136/20260610/eu-rejects-apple-siri-ai-exemption-commission-says-dma-never-blocked-launch.htm"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "Siri", "DMA", "欧盟", "Gemini", "监管"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "微软第三轮砍向中国团队：Azure 在京沪裁 200–400 人，边裁人边押 AI 重组",
+      "source": "@buildfastwithai",
+      "source_name": "buildfastwithai",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-10-2026",
+      "story_key": "microsoft-china-layoffs",
+      "event_date": "2026-06-10",
+      "summary": "微软 6 月 9–10 日在北京和上海裁撤约 200–400 名员工，主要涉及 Azure 团队——这是其在中国大陆的第三轮裁员，发生在公司围绕 AI 大举重组之际。",
+      "detail": "据多家科技媒体 6 月 9–10 日报道，微软在北京和上海裁撤了约 200–400 名员工，主要集中在 Azure 云业务，是微软在中国大陆进行的第三轮裁员。\n\n裁员发生在微软全球围绕 AI 重塑组织、并持续向数据中心与算力大举投入的背景下——一边是在 AI 基础设施上加码，一边是在部分区域和传统岗位上收缩。对中国市场而言，跨国云厂商本就面临本土合规与竞争压力，叠加 AI 驱动的全球性结构调整，区域团队首当其冲。\n\n这条消息与近期行业另一个反复出现的张力呼应：科技巨头一面宣布巨额 AI 资本开支，一面在员工层面做减法——'投 AI、裁人力'正成为这一周期里反复出现的画面。",
+      "key_quotes": [
+        "Microsoft laid off 200-400 employees in Beijing and Shanghai, marking its third workforce reduction in mainland China."
+      ],
+      "significance": "这是'AI 加码、人力收缩'叙事在跨国大厂中国区的又一个具体落点。它既反映微软在 AI 时代对组织和区域布局的再权衡，也提示在地缘与合规压力下，跨国云厂商的中国团队正持续承压。",
+      "links": [
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-10-2026"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "Azure", "裁员", "中国", "AI 重组"],
+      "category": "news"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-12",
+  "total_candidates": 16,
+  "kept": 6,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-12",
+      "title_en": "SpaceX prices record $135 IPO, begins trading on Nasdaq",
+      "source": "@elonmusk",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 06-04 (roadshow launch with proposed fixed $135 price plan). New development: IPO formally priced 06-11 at $135 (~$1.77T valuation, $75B raise), institutional demand topped $250B (3.5-4x oversubscribed), and shares begin trading today 06-12 on Nasdaq as SPCX — the largest IPO in recorded history, surpassing Saudi Aramco."
+    },
+    {
+      "story_key": "openai-oracle-cloud-deal",
+      "event_date": "2026-06-11",
+      "title_en": "OpenAI lets enterprises buy its models and Codex via Oracle cloud credits",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI and Oracle announced (06-10/06-11) that OCI customers can apply existing Oracle Universal Credits toward OpenAI frontier models and Codex, a new enterprise distribution channel."
+    },
+    {
+      "story_key": "taiwan-ai-chip-export-controls",
+      "event_date": "2026-06-09",
+      "title_en": "Taiwan weighs criminalizing AI chip exports to all of China",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Reported 06-09: Taiwan mulls sweeping controls extending beyond blacklisted firms (Huawei) to ALL China customers, aligning with US; ITA also expanded its Strategic High-Tech Entity List by 265 entities."
+    },
+    {
+      "story_key": "openai-autonomous-researcher-walkback",
+      "event_date": "2026-06-10",
+      "title_en": "OpenAI walks back 2028 'fully autonomous AI researcher' goal to human-AI 'tandem'",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI (Altman + Pachocki) softened its Oct-2025 pledge of a fully autonomous AI researcher by March 2028 to 'a significant fraction of research done by AI in tandem with humans', saying 'entirely automating everything is not the future we want', ahead of its IPO."
+    },
+    {
+      "story_key": "apple-wwdc-2026-siri",
+      "event_date": "2026-06-09",
+      "title_en": "EU blocks Apple's Gemini-powered Siri AI for 450M users, rebukes Apple over DMA",
+      "source": "Apple Newsroom",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 06-08 (WWDC reveal of rebuilt Gemini-powered Siri allowing third-party models). New development: Apple announced 06-09 the Siri AI upgrade will NOT ship on EU iPhones/iPads at iOS 27 launch due to DMA deadlock; the European Commission publicly rebuked Apple 06-09 calling it a voluntary business choice, affecting ~450M users."
+    },
+    {
+      "story_key": "microsoft-china-layoffs",
+      "event_date": "2026-06-10",
+      "title_en": "Microsoft cuts 200-400 Azure jobs in China amid AI restructuring",
+      "source": "@buildfastwithai",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Microsoft laid off 200-400 employees in Beijing and Shanghai (06-09/10), its third mainland-China workforce reduction, as it reshapes around AI."
+    },
+    {
+      "story_key": "cognition-series-d",
+      "event_date": "2026-05-27",
+      "title_en": "Cognition raises $1B at $26B valuation",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-27/28 is 15-16 days old (>5 day limit)."
+    },
+    {
+      "story_key": "nvidia-thinking-machines-partnership",
+      "event_date": "2026-03-10",
+      "title_en": "NVIDIA + Thinking Machines Lab 1GW Vera Rubin partnership",
+      "source": "NVIDIA Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-10 is ~3 months old (>5 day limit); surfaced only as background."
+    },
+    {
+      "story_key": "google-gemma4-release",
+      "event_date": "2026-06-03",
+      "title_en": "Google Gemma 4 12B multimodal open model",
+      "source": "Google Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Latest Gemma 4 12B variant shipped 2026-06-03, 9 days old (>5 day limit); core Gemma 4 family released April."
+    },
+    {
+      "story_key": "boston-dynamics-spot-gemini",
+      "event_date": "2026-04-15",
+      "title_en": "Boston Dynamics integrates Gemini Robotics-ER 1.6 into Spot",
+      "source": "IEEE Spectrum",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-15 is ~2 months old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-hiro-acquihire",
+      "event_date": "2026-04-13",
+      "title_en": "OpenAI acqui-hires Hiro Finance",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-13 is ~2 months old (>5 day limit)."
+    },
+    {
+      "story_key": "nanobanana2-gemini-flash-image",
+      "event_date": "2026-02-26",
+      "title_en": "Google Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-02-26 is ~3.5 months old (>5 day limit)."
+    },
+    {
+      "story_key": "gemini-3-5-pro-release",
+      "event_date": "2026-06-12",
+      "title_en": "Google Gemini 3.5 Pro launch",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Not actually released as of 06-12 — still 'coming next month' per Pichai. No concrete launch event to report; dropped to avoid speculative coverage."
+    },
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-09",
+      "title_en": "Anthropic releases Claude Fable 5",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published on 06-09 with full benchmark/pricing/Mythos details. No substantively new information today."
+    },
+    {
+      "story_key": "openrouter-series-b",
+      "event_date": "2026-06-12",
+      "title_en": "OpenRouter raises $113M Series B led by CapitalG",
+      "source": "Crunchbase",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Could not confirm the round closed within the 5-day window; appeared in a weekly roundup without a verifiable recent announcement date. Dropped for unverifiable freshness."
+    },
+    {
+      "story_key": "gptbot-crawler-share",
+      "event_date": "2026-06-10",
+      "title_en": "GPTBot overtakes ClaudeBot as third-largest AI crawler",
+      "source": "Cloudflare Radar",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Fresh but too minor/incremental (crawler market-share telemetry) to merit a briefing slot this day."
+    }
+  ]
+}
