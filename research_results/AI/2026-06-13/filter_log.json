@@ -1,0 +1,125 @@
+{
+  "date": "2026-06-13",
+  "total_candidates": 13,
+  "kept": 6,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "spacex-anthropic-colossus",
+      "event_date": "2026-06-12",
+      "title_en": "SpaceX leases Colossus 1 data center to Anthropic for $1.25B/month after Grok latency issues",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from prior 'google-spacex-compute-deal' (that was Google renting GPUs from SpaceX). New facts: SpaceX rented full Colossus 1 (Memphis) capacity to rival Anthropic at $1.25B/month on a 180-day lease after its own Grok teams hit latency/aging-network/mixed-GPU issues."
+    },
+    {
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-12",
+      "title_en": "Altman, Hassabis, Amodei and other AI leaders to attend G7 summit in Evian June 15-17",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First G7 with all three frontier-lab CEOs plus Mistral, Cohere, Meta, Salesforce, Sakana etc.; Macron personally invited Altman; AI infrastructure & regulation on the agenda."
+    },
+    {
+      "story_key": "kpmg-ai-report-hallucinations",
+      "event_date": "2026-06-12",
+      "title_en": "KPMG pulls flagship agentic-AI report riddled with AI hallucinations; only 5 of 45 citations correct",
+      "source": "Financial Times / The Register",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. GPTZero (verified by FT) found 40 of 45 citations fabricated/mangled; false claims about UBS, NHS, TfL; follows EY's similar retraction last month."
+    },
+    {
+      "story_key": "moonshot-ai-30b-valuation",
+      "event_date": "2026-06-08",
+      "title_en": "Moonshot AI (Kimi) seeks $2B at $30B valuation, 7x in six months",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. event_date 2026-06-08 is 5 days old (within 5-day limit). Third raise in six months; valuation up ~7x from $4.3B in Dec 2025; ARR topped $200M in April."
+    },
+    {
+      "story_key": "meta-ai-cost-controls",
+      "event_date": "2026-06-12",
+      "title_en": "Meta to cap employee AI token usage as internal spend hits billions; killed 'Claudeonomics' leaderboard",
+      "source": "The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Meta building internal platform to budget/limit employee token use weeks after pushing adoption; 60T tokens burned in 30 days; gaming of the now-shut leaderboard."
+    },
+    {
+      "story_key": "us-state-ai-legislation-june2026",
+      "event_date": "2026-06-12",
+      "title_en": "States diverge on AI: NY sends 7 AI bills to Hochul, RI bans therapy chatbots, Colorado vetoes algorithmic-pricing ban",
+      "source": "Transparency Coalition",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Amid federal preemption fights, states moved opposite directions in one week."
+    },
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-13",
+      "title_en": "SpaceX eligible for early MSCI large-cap index inclusion starting June 13",
+      "source": "MSCI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "spacex-xai-ipo published 06-12 and 06-04 covering pricing and Nasdaq debut. Index-inclusion timeline is a minor mechanical follow-up, no substantive new development."
+    },
+    {
+      "story_key": "google-gemini-35-flash",
+      "event_date": "2026-05-20",
+      "title_en": "Google Gemini 3.5 Flash generally available",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released at Google I/O 2026 on 2026-05-20, 24 days old (>5 day limit)."
+    },
+    {
+      "story_key": "google-gemma-4",
+      "event_date": "2026-04-02",
+      "title_en": "Google releases Gemma 4 open models",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released 2026-04-02, far beyond 5-day limit."
+    },
+    {
+      "story_key": "nvidia-south-korea-ai-deals",
+      "event_date": "2026-06-08",
+      "title_en": "NVIDIA deepens Hyundai robotics and SK hynix memory partnerships",
+      "source": "NVIDIA",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-08 under nvidia-south-korea-ai-deals; same Korea partnership set, no new development."
+    },
+    {
+      "story_key": "nvidia-agentperf-benchmark",
+      "event_date": "2026-06-12",
+      "title_en": "NVIDIA Blackwell tops new AgentPerf agentic benchmark",
+      "source": "Planet AI",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Vendor-run benchmark touting own hardware; low signal, not independently notable enough to publish."
+    },
+    {
+      "story_key": "ex-doge-ai-govtech",
+      "event_date": "2026-06-12",
+      "title_en": "Ex-DOGE staffers raise $130M for AI government-security startup",
+      "source": "Vanity Fair / Bloomberg",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Sources conflict materially: one frames it as a $130M a16z/Sequoia round for 'government systems security', another as 'Special', a firm buying companies to cut waste with AI backed by a16z/Steve Davis. Facts not verifiable to a confident, single account; dropped to avoid publishing inaccuracies."
+    },
+    {
+      "story_key": "meta-superintelligence-morale",
+      "event_date": "2026-06-12",
+      "title_en": "Meta Applied AI team describes 'soul-crushing' menial work",
+      "source": "Wired",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Morale/turnover angle folded into kept meta-ai-cost-controls item as context; exact Wired claims not independently confirmable, so not stood up as its own item."
+    }
+  ]
+}

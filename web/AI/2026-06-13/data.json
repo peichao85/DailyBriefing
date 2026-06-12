@@ -1,0 +1,154 @@
+{
+  "date": "2026-06-13",
+  "category": "AI",
+  "title": "上市次日就'打脸'：SpaceX 把最大 AI 数据中心租给死对头 Anthropic（$12.5 亿/月）；三大模型 CEO 首次同桌 G7；KPMG 旗舰报告被自家 AI 幻觉'反噬'；Moonshot 半年估值翻 7 倍冲 $300 亿",
+  "items": [
+    {
+      "id": "1",
+      "title": "上市第二天就'打脸'：SpaceX 把自家最大 AI 数据中心租给死对头 Anthropic——$12.5 亿/月，只因 Grok 自己用不顺",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-12/spacex-rented-out-computing-after-own-teams-had-trouble-using-it",
+      "story_key": "spacex-anthropic-colossus",
+      "event_date": "2026-06-12",
+      "summary": "据 Bloomberg 6 月 12 日报道，SpaceX 把位于孟菲斯的 Colossus 1 数据中心整租给竞争对手 Anthropic，月租约 $12.5 亿、180 天租期（90 天可双向取消）——原因是 SpaceX 自家 xAI 团队拿这座中心训练/运行 Grok 时遭遇严重延迟与老化网络问题。",
+      "detail": "就在 SpaceX 以史上最大 IPO 登陆 Nasdaq 的次日，Bloomberg 披露了一个颇为难堪的内情：SpaceX 决定把孟菲斯的 Colossus 1 数据中心全部算力租给 AI 竞争对手 Anthropic，月租约 $12.5 亿，采用 180 天租约、附带 90 天双向取消权，给 SpaceX 保留'随时收回'的余地。\n\n租出去的直接原因，是 SpaceX 自己用不顺手。Colossus 1 与另外两座相距逾 10 英里的站点互联时遭遇严重延迟（latency），叠加老化的网络基础设施；更麻烦的是，这座中心混装了 Nvidia 多个世代的芯片——Hopper、Blackwell 以及一些更老的加速器，不像后来的 Colossus 2、3 那样围绕 Blackwell 统一建成。混代硬件 + 高延迟互联，让它难以高效支撑 Grok 的训练与推理，于是 xAI 团队宁可把这块'不好用'的容量整体出租。\n\n对 Anthropic 而言，这是其'到处签算力'策略的又一笔：此前它已与多家数据中心签下十余份租赁意向，并有 Google 出资支持的项目。如今连死对头 xAI/SpaceX 的机房也照租不误——在算力即一切的当下，立场让位于产能。",
+      "key_quotes": [
+        "180-day lease with a 90-day mutual cancellation right",
+        "$1.25 billion per month to access SpaceX's Colossus 1 data center",
+        "latency issues when connecting Colossus 1 with two other sites located more than 10 miles away"
+      ],
+      "significance": "这笔交易撕开了'算力军备竞赛'最现实的一面：连刚成为万亿巨头的 SpaceX，自建机房也会因混代硬件和网络延迟而'用不顺'，只能转手套现；而 Anthropic 为抢产能，不惜向直接竞争对手租机房。它说明当下行业的真正瓶颈不是模型、而是'能跑得动的算力'，且商业立场在产能面前可以高度务实。对刚上市、被高估值绑定的 SpaceX，这也暴露了 xAI 基础设施执行层面的短板。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-12/spacex-rented-out-computing-after-own-teams-had-trouble-using-it",
+        "https://thenextweb.com/news/spacex-colossus-1-technical-problems-rented-anthropic",
+        "https://finance.yahoo.com/news/anthropic-to-rent-all-ai-capacity-at-spacexs-colossus-data-center-180327774.html"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": ["SpaceX", "Anthropic", "数据中心", "算力", "Grok"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "三大模型 CEO 首次同桌 G7：Altman、Hassabis、Amodei 一起赴法国峰会，AI 基建与监管摆上首脑午餐桌",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-12/anthropic-openai-google-executives-plan-to-attend-g7-summit",
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-12",
+      "summary": "6 月 12 日多家媒体确认：OpenAI 的 Sam Altman、Google DeepMind 的 Demis Hassabis、Anthropic 的 Dario Amodei 将一同出席 6 月 15–17 日在法国 Évian-les-Bains 举行的 G7 峰会——这是 G7 首次同时迎来三大前沿实验室掌门人。",
+      "detail": "据 Bloomberg、The Next Web 等 6 月 12 日报道，三大前沿 AI 实验室的负责人将首次齐聚 G7：Sam Altman（OpenAI）、Demis Hassabis（Google DeepMind）、Dario Amodei（Anthropic）确认出席 6 月 15–17 日在法国小镇 Évian-les-Bains 召开的 G7 峰会。法国总统 Macron 亲自向 Altman 发出邀请，这也将是他首次出席该年度峰会。\n\n出席名单远不止这三人，还包括 Mistral 的 Arthur Mensch、Cohere 的 Aidan Gomez、Black Forest Labs 的 Robin Rombach、印度 Sarvam AI 的 Pratyush Kumar、Synthesia 的 Victor Riparbelli、Meta 的 Alex Wang、Salesforce 的 Marc Benioff、以及日本 Sakana AI 的 Ren Ito——几乎把欧美日印的头部 AI 力量一网打尽。\n\n法国担任本届 G7 主席国，已就金融、能源与数字议题向国际能源署（IEA）寻求支持，AI 预计成为议程核心。周三的一场工作午餐将让各国政要与科技高管同桌，议题涵盖 AI 基础设施、网络与监管。",
+      "key_quotes": [
+        "first G7 meeting with representation from all three major AI companies",
+        "French President Emmanuel Macron extended a personal invitation to Altman",
+        "A working lunch on Wednesday will bring political leaders together with technology executives"
+      ],
+      "significance": "把三家相互竞争、又各自掌握前沿模型的实验室掌门人请进 G7，是 AI 从'产业话题'升级为'国家安全与外交议题'的标志性场景。在各国就 AI 监管、算力基建与能源博弈日益激烈之际，这种'政要+科技巨头同桌'的安排，可能直接影响接下来的跨国治理框架走向；同时也让三位 CEO 在公开场合罕见同框，外界会密切观察他们在监管口径上的分歧与默契。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-12/anthropic-openai-google-executives-plan-to-attend-g7-summit",
+        "https://thenextweb.com/news/g7-ai-summit-altman-amodei-hassabis",
+        "https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/"
+      ],
+      "tags": ["G7", "监管", "Sam Altman", "Demis Hassabis", "Dario Amodei"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "卖 AI 治理的 KPMG，自家旗舰报告却被 AI 编造引用'打脸'：45 条引文仅 5 条对得上，UBS/NHS 案例属虚构",
+      "source": "Financial Times",
+      "source_name": "The Register",
+      "source_url": "https://www.theregister.com/ai-and-ml/2026/06/12/kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations/",
+      "story_key": "kpmg-ai-report-hallucinations",
+      "event_date": "2026-06-12",
+      "summary": "四大会计师事务所之一 KPMG 撤下其旗舰报告《Redefining excellence in the age of agentic AI》——经 GPTZero 检测、FT 核实，报告 45 条引用中仅 5 条正确指向出处，其余多为捏造或张冠李戴，关于 UBS、NHS、伦敦交通局（TfL）的案例被指'与事实不符'。",
+      "detail": "一份本应论证'AI 好处'的报告，自己却成了 AI 幻觉（hallucination）的活教材。据 FT 报道（The Register、City AM 等转载），KPMG 去年 10 月发布的旗舰报告《Redefining excellence in the age of agentic AI》被研究机构 GPTZero 查出：全文 45 条引用里只有 5 条能正确指向真实出处，其余从'张冠李戴'到'部分捏造'再到'模糊到无法核实'不等。FT 核实后，KPMG 已从部分官网撤下该报告。\n\n具体硬伤包括：报告称 UBS'通过与 Microsoft 共同开发的平台，把 AI agent 用于投资顾问、风险管理与合规监控'，但 UBS 发言人对 FT 直言这一说法'与事实不符（factually incorrect）'；涉及 NHS（英国国民医疗体系）与伦敦交通局的案例同样被指有误。\n\n这并非孤例。就在上个月，另一家专业服务巨头 EY 也因报告中出现伪造脚注被 GPTZero 揪出、被迫撤稿。'一边向客户兜售 AI 治理、一边自家报告满是 AI 幻觉'，正成为四大共同的尴尬。",
+      "key_quotes": [
+        "only five of the report's 45 citations correctly pointed to the cited source",
+        "UBS told the FT the assertions were 'factually incorrect'",
+        "follows EY's retraction of a study last month over fake footnotes"
+      ],
+      "significance": "这起'乌龙'极具讽刺意味也极具警示性：连以严谨著称、且正大力对外销售'AI 治理与鉴证'服务的四大，自家旗舰刊物都未能挡住 AI 编造引用，说明幻觉风险已渗入企业最正式的对外输出。它给所有把生成式 AI 塞进研究、咨询、尽调流程的机构敲响警钟——没有人工逐条核验，AI 生成内容的可信度无法默认成立；同时也削弱了专业服务机构在 AI 时代的'可信中介'招牌。",
+      "links": [
+        "https://www.theregister.com/ai-and-ml/2026/06/12/kpmgs-ai-report-turns-into-a-demo-of-ai-hallucinations/",
+        "https://www.swissinfo.ch/eng/swiss-ai/kpmg-report-contained-ai-hallucinations-on-benefits-of-ai/91574511",
+        "https://www.finance-monthly.com/kpmg-ai-report-hallucinations-ubs-nhs-transport-for-london/"
+      ],
+      "tags": ["KPMG", "AI幻觉", "GPTZero", "企业AI", "EY"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "半年估值翻 7 倍：中国 Moonshot（Kimi）启动第三轮融资，目标募 $20 亿、估值冲 $300 亿",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-08/china-s-moonshot-ai-seeks-30-billion-value-in-new-funding-talks",
+      "story_key": "moonshot-ai-30b-valuation",
+      "event_date": "2026-06-08",
+      "summary": "据 Bloomberg 6 月 8 日报道，Kimi 母公司、北京的 Moonshot AI 正洽谈新一轮最高 $20 亿融资，对应估值约 $300 亿——较 2025 年 12 月的 $43 亿暴涨近 7 倍，这已是其半年内的第三轮募资。",
+      "detail": "中国 AI 的融资军备竞赛再加码。Bloomberg 6 月 8 日报道，Kimi 聊天机器人背后的北京公司 Moonshot AI 正在洽谈新一轮最高 $20 亿融资，估值约 $300 亿——相比 2025 年 12 月时的 $43 亿，半年内估值膨胀近 7 倍。\n\n这是 Moonshot 半年内的第三轮融资：就在 5 月，它刚完成一轮 $20 亿、投后估值越过 $200 亿；过去六个月已累计完成五轮、合计募资接近 $60 亿（约人民币 400 亿）。支撑这一估值狂飙的是业务的快速放量——其年化经常性收入（ARR）在 4 月突破 $2 亿，较 3 月初的 $1 亿大致翻倍，由 Kimi 消费端与企业端的双重需求拉动。\n\n在 DeepSeek、阿里 Qwen、Moonshot 等本土玩家激烈竞速的背景下，资本正以前所未有的速度向头部中国大模型公司集中。",
+      "key_quotes": [
+        "seeking as much as $2 billion in a new funding round that would value the startup at $30 billion",
+        "nearly seven times higher than the $4.3 billion in December 2025",
+        "annual recurring revenue topped $200 million in April"
+      ],
+      "significance": "Moonshot 半年估值翻 7 倍，是中国大模型赛道'高速烧钱、高速融资'的缩影——在算力与人才成本飙升、又要追赶美国前沿的压力下，头部公司必须靠连环融资续命。$300 亿估值若落地，将让 Kimi 跻身全球少数最贵 AI 创业公司之列，也反映出资本对'中国能跑出对标 OpenAI/Anthropic 的赢家'这一押注仍在加注；但估值与商业化（ARR 仅 $2 亿）之间的巨大落差，也埋下泡沫争议。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-08/china-s-moonshot-ai-seeks-30-billion-value-in-new-funding-talks",
+        "https://technode.com/2026/06/08/kimi-reaches-30-billion-valuation-after-sixfold-increase-in-half-a-year/",
+        "https://thenextweb.com/news/moonshot-ai-kimi-30-billion-valuation-china-ai-race"
+      ],
+      "tags": ["Moonshot", "Kimi", "中国AI", "融资", "估值"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "先逼员工用 AI、再给员工 token 上限：Meta 内部 30 天烧掉 60 万亿 token，连排行榜都被玩坏了",
+      "source": "The Information",
+      "source_name": "The Information",
+      "source_url": "https://www.theinformation.com/articles/tokenminimizing-meta-moves-curb-employee-ai-usage-ai-costs-reach-billions",
+      "story_key": "meta-ai-cost-controls",
+      "event_date": "2026-06-12",
+      "summary": "据 The Information 6 月 12 日报道，Meta 在内部备忘录中告知员工：将搭建平台来追踪并限制员工的 AI token 用量、设预算并对异常增长自动告警——就在数周前它还在大力推员工多用 AI 工具。",
+      "detail": "Meta 在 AI 成本上来了个一百八十度转弯。据 The Information 6 月 12 日报道，Meta 通过内部备忘录告知员工：公司正搭建一套内部平台，用来监控、设预算并限制员工的 AI token 消耗，并对显著的用量增长自动发出告警——而这距离它催促全员'多用 AI'才过去数周。\n\n转向的背后是失控的开销。此前一个名为'Claudeonomics'的内部仪表盘显示，全公司近 30 天的 token 总用量超过 60 万亿（60T）。更离谱的是，员工为了在排行榜上'冲榜'，会让 AI agent 空跑数小时去做无意义的研究任务刷量；Meta 已于 4 月关停了这个内部 token 排行榜。\n\n此举让 Meta 与同样收紧 AI 开支的 Microsoft、Uber 等巨头看齐——从'鼓励用 AI'转向'精打细算地用 AI'。这一收紧也发生在 Meta Superintelligence Labs 经历多轮重组、冻结招聘、士气承压之际。",
+      "key_quotes": [
+        "Meta is building an internal platform to track and limit employees' token usage",
+        "total usage over a recent 30-day period across the company amounted to over 60 trillion tokens",
+        "Employees left AI agents running for hours executing busywork research tasks to climb the leaderboard"
+      ],
+      "significance": "这是'AI 落地'从亢奋走向理性的典型信号：当连 Meta 这样的巨头都因员工把 token 当游戏刷、月耗 60 万亿而不得不设限，说明生成式 AI 的内部使用正在从'无限畅用'迈入'成本中心化管理'阶段。token 开销正成为大厂真实且可观的运营支出，'用 AI 提效'与'为 AI 买单'之间的张力被摆上台面——这也预示企业级 AI 工具下一步将围绕用量计量、预算与治理展开。",
+      "links": [
+        "https://www.theinformation.com/articles/tokenminimizing-meta-moves-curb-employee-ai-usage-ai-costs-reach-billions",
+        "https://www.gurufocus.com/news/8914541/meta-platforms-meta-implements-ai-token-spending-limits-to-control-costs",
+        "https://fortune.com/2026/04/09/meta-killed-employee-ai-token-dashboard/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "token成本", "企业AI", "效率", "成本控制"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "联邦还在吵，各州先各走各路：纽约一周把 7 部 AI 法案送州长，罗德岛禁'治疗聊天机器人'，科罗拉多否决算法定价禁令",
+      "source": "Transparency Coalition",
+      "source_name": "Transparency Coalition",
+      "source_url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june12-2026",
+      "story_key": "us-state-ai-legislation-june2026",
+      "event_date": "2026-06-12",
+      "summary": "在联邦层面仍就'是否优先于各州立法'拉锯之际，美国多州本周各自加码或叫停 AI 立法：纽约结束 2026 会期，向州长 Hochul 递交 7 部 AI 相关法案；罗德岛通过'治疗聊天机器人'禁令；科罗拉多州长 Polis 否决了算法定价禁令。",
+      "detail": "在联邦 AI 立法（如 269 页的《Great American AI Act》试图三年内优先于各州'管开发'立法）仍悬而未决之际，美国各州本周用截然不同的姿态填补真空。\n\n纽约州 2026 会期收尾，立法机构一口气向州长 Kathy Hochul 递交 7 部 AI 相关法案：包括禁止销售'AI 聊天机器人玩具'的 S 9408A（本周已获参众两院快速通过）、AI 信息披露法案 S 6954、以及针对高风险算法歧视的审计法案 S 1169。\n\n另一边，罗德岛通过了针对'治疗类聊天机器人'（therapy chatbot）的禁令，瞄准 AI 假冒心理治疗的风险；而科罗拉多州长 Jared Polis 则在 6 月 2 日否决了 HB 1210——一部本将禁止使用算法定价（algorithmic pricing）的法案，理由偏向不愿过度限制商业行为。",
+      "key_quotes": [
+        "New York legislators wrapped up their 2026 session after sending seven AI-related bills to Gov. Kathy Hochul",
+        "Rhode Island passed a therapy chatbot ban",
+        "Colorado Gov. Jared Polis exercised his veto power on a bill that would have prohibited the use of algorithmic pricing"
+      ],
+      "significance": "在联邦迟迟拿不出统一框架、又试图'preempt（优先/冻结）'各州立法的张力下，州一级正形成一张高度碎片化、甚至方向相反的 AI 监管拼图：有的州加码（玩具、披露、歧视审计、治疗机器人），有的州踩刹车（算法定价）。这种'五十州各自为政'会直接抬高企业的合规复杂度，也让'联邦该不该统一、能不能压住各州'成为接下来 AI 治理博弈的真正焦点。",
+      "links": [
+        "https://www.transparencycoalition.ai/news/ai-legislative-update-june12-2026",
+        "https://iapp.org/news/a/hochul-enacts-new-yorks-ai-safety-and-transparency-bill"
+      ],
+      "tags": ["AI监管", "美国各州", "纽约", "聊天机器人", "算法定价"],
+      "category": "news"
+    }
+  ]
+}
