@@ -1,0 +1,542 @@
+{
+ "date": "2026-06-13",
+ "category": "GitHub",
+ "title": "GitHub 趋势 · 2026-06-13",
+ "sections": [
+  {
+   "id": "new_hot",
+   "label": "新晋热门",
+   "subtitle": "过去 7 天新建仓库按星数排序",
+   "items": [
+    {
+     "id": "new_hot-1",
+     "title": "MiMo-Code：小米开源跨会话记忆编码代理",
+     "source": "@XiaomiMiMo",
+     "source_name": "GitHub",
+     "summary": "小米 MiMo 团队开源的终端原生 AI 编码助手，具备跨会话持久记忆，能在多次对话间保持对项目的理解。",
+     "detail": "MiMoCode 是一款终端原生的 AI 编码代理，可读写代码、执行命令、管理 Git，并通过持久记忆系统在不同会话间累积对项目的理解。配套提供 Website 与 long-horizon 长程任务相关博客，定位于长时间跨度的编码任务。",
+     "significance": "发布一周即收获 6,813 stars，位列本周新晋热门第一，是大厂入局开源编码代理赛道的最新力作。",
+     "links": [
+      "https://github.com/XiaomiMiMo/MiMo-Code"
+     ],
+     "image": "assets/github-avatars/XiaomiMiMo-MiMo-Code.jpg",
+     "image_type": "logo",
+     "tags": [
+      "TypeScript",
+      "Agent",
+      "编码助手",
+      "记忆",
+      "开源"
+     ],
+     "stars": 6813,
+     "stars_gained": null,
+     "language": "TypeScript",
+     "forks": 539,
+     "owner": "XiaomiMiMo",
+     "repo": "MiMo-Code"
+    },
+    {
+     "id": "new_hot-2",
+     "title": "improve：用强模型审计代码、为弱模型写执行计划",
+     "source": "@shadcn",
+     "source_name": "GitHub",
+     "summary": "一款 Agent Skill，用最强模型审计任意代码库并产出实现计划，再交给更便宜的模型去执行。",
+     "detail": "improve 的核心理念是「让最强模型负责智慧会复利的部分」——理解代码库、判断什么值得做、写出规格说明，而把具体实现交给廉价模型。该 skill 自身从不写代码，计划本身就是产物，最终生成形如 001-fix-n-plus-one.md 的自包含规格文件。",
+     "significance": "发布一周即收获 2,428 stars，位列本周新晋第二，出自 shadcn 之手，呼应了「强模型规划、弱模型执行」的分工趋势。",
+     "links": [
+      "https://github.com/shadcn/improve"
+     ],
+     "image": "assets/github-avatars/shadcn-improve.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Agent",
+      "代码审计",
+      "开发工具",
+      "开源"
+     ],
+     "stars": 2428,
+     "stars_gained": null,
+     "language": null,
+     "forks": 87,
+     "owner": "shadcn",
+     "repo": "improve"
+    },
+    {
+     "id": "new_hot-3",
+     "title": "NOOP：离线本地的 WHOOP 手环数据伴侣",
+     "source": "@NoopApp",
+     "source_name": "GitHub",
+     "summary": "通过蓝牙直接配对 WHOOP 手环、把全部数据留在本地设备的离线伴侣应用，无云端、无账号、无订阅。",
+     "detail": "NOOP 主打 local-first，强调「你的手环、你的数据、你的设备」。它通过蓝牙直连 WHOOP 手环，所有数据保存在本机，无需账号也无需订阅。支持 macOS、Android、iOS 三大平台。",
+     "significance": "发布一周即收获 1,541 stars，位列本周新晋第三，切中用户对可穿戴设备数据隐私与去订阅化的强烈诉求。",
+     "links": [
+      "https://github.com/NoopApp/noop"
+     ],
+     "image": "assets/github-avatars/NoopApp-noop.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Swift",
+      "本地优先",
+      "隐私",
+      "开源"
+     ],
+     "stars": 1541,
+     "stars_gained": null,
+     "language": "Swift",
+     "forks": 691,
+     "owner": "NoopApp",
+     "repo": "noop"
+    },
+    {
+     "id": "new_hot-4",
+     "title": "RoguePlanet：Windows Defender 竞态漏洞 PoC",
+     "source": "@MSNightmare",
+     "source_name": "GitHub",
+     "summary": "一个针对 Windows Defender 的竞态条件漏洞概念验证（PoC），面向安全研究人员公开披露。",
+     "detail": "RoguePlanet 是一个利用竞态条件（race condition）的漏洞 PoC，作者称在 Windows 11（正式版与 Canary 通道）及打了 2026 年 6 月补丁的 Windows 10 上测试有效，但成功率因机器而异。由于标准用户无法挂载 ISO 镜像，该 PoC 在 Windows Server 上不生效。",
+     "significance": "发布一周即收获 1,217 stars，位列本周新晋第四，反映安全社区对 Windows Defender 新披露漏洞的高度关注。",
+     "links": [
+      "https://github.com/MSNightmare/RoguePlanet"
+     ],
+     "image": "assets/github-avatars/MSNightmare-RoguePlanet.jpg",
+     "image_type": "logo",
+     "tags": [
+      "C++",
+      "安全研究",
+      "漏洞",
+      "开源"
+     ],
+     "stars": 1217,
+     "stars_gained": null,
+     "language": "C++",
+     "forks": 507,
+     "owner": "MSNightmare",
+     "repo": "RoguePlanet"
+    },
+    {
+     "id": "new_hot-5",
+     "title": "Ponytail：让 AI 代理像「最懒资深工程师」思考",
+     "source": "@DietrichGebert",
+     "source_name": "GitHub",
+     "summary": "一个 Agent Skill，让 AI 代理像团队里最懒的资深开发者那样思考——最好的代码是你从未写下的代码。",
+     "detail": "Ponytail 把那位「话不多、看你五十行代码、一言不发就改成一行还能跑」的资深工程师装进你的 AI 代理。它的对照示例显示：当你要一个日期选择器时，普通代理会装 flatpickr、写包装组件、加样式表，而 Ponytail 会引导代理用最克制的方式解决。",
+     "significance": "发布一周即收获 917 stars，位列本周新晋第五，戳中了开发者对 AI 代理过度工程、堆砌依赖的普遍吐槽。",
+     "links": [
+      "https://github.com/DietrichGebert/ponytail"
+     ],
+     "image": "assets/github-avatars/DietrichGebert-ponytail.jpg",
+     "image_type": "logo",
+     "tags": [
+      "JavaScript",
+      "Agent",
+      "claude-code",
+      "开源"
+     ],
+     "stars": 917,
+     "stars_gained": null,
+     "language": "JavaScript",
+     "forks": 41,
+     "owner": "DietrichGebert",
+     "repo": "ponytail"
+    },
+    {
+     "id": "new_hot-6",
+     "title": "GordenSuperPPTSkills：AI 生成可编辑 PPTX 技能包",
+     "source": "@GordenSun",
+     "source_name": "GitHub",
+     "summary": "用 GPT 生成「图片格式」的豪华 PPT，再还原成完全可编辑的 PPTX 文件的技能包。",
+     "detail": "该技能包拆成三个独立 skill：GordenImagePPTGen 把主题/内容生成为每页 .png 的图片型 PPT；GordenImage2PPTX 把图片 PPT 还原成「背景+骨架+图标+文本」四层的可编辑 pptx；GordenSuperPPTSkill 则把前两者串联，一键完成「先出图再转可编辑」。三者可拆分使用。",
+     "significance": "发布一周即收获 843 stars，位列本周新晋第六，解决了 AI 生成 PPT「好看但不可编辑」的长期痛点。",
+     "links": [
+      "https://github.com/GordenSun/GordenSuperPPTSkills"
+     ],
+     "image": "assets/github-avatars/GordenSun-GordenSuperPPTSkills.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Python",
+      "PPT",
+      "Agent",
+      "开源"
+     ],
+     "stars": 843,
+     "stars_gained": null,
+     "language": "Python",
+     "forks": 88,
+     "owner": "GordenSun",
+     "repo": "GordenSuperPPTSkills"
+    },
+    {
+     "id": "new_hot-7",
+     "title": "Core AI Models：苹果端侧 AI 模型导出与运行工具",
+     "source": "@apple",
+     "source_name": "GitHub",
+     "summary": "苹果官方发布的端侧 AI 工具集，涵盖模型导出配方、Python 原语与 Swift 运行时工具。",
+     "detail": "Core AI Models 面向在 Core AI 上构建端侧 AI，主要包含四部分：将 Hugging Face 等来源的热门开源模型导出为 Core AI 格式的配方、用于在 PyTorch 中自定义模型的 Python 构建块、基于 Core AI 框架在 macOS/iOS 上运行模型的 Swift 包，以及帮助编码代理用好 Core AI 的 Skills 插件。",
+     "significance": "发布一周即收获 831 stars，位列本周新晋第七，是苹果推进端侧 AI 生态、官方开源工具链的重要一步。",
+     "links": [
+      "https://github.com/apple/coreai-models"
+     ],
+     "image": "assets/github-avatars/apple-coreai-models.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Swift",
+      "端侧AI",
+      "Apple",
+      "开源"
+     ],
+     "stars": 831,
+     "stars_gained": null,
+     "language": "Swift",
+     "forks": 61,
+     "owner": "apple",
+     "repo": "coreai-models"
+    },
+    {
+     "id": "new_hot-8",
+     "title": "baoyu-design：本地运行 Claude Design 的 Agent Skill",
+     "source": "@JimLiu",
+     "source_name": "GitHub",
+     "summary": "把 claude.ai/design 背后的 Claude Design 引擎打包为可移植 Agent Skill，在本地代理中产出精致 UI。",
+     "detail": "baoyu-design 把 Claude Design 封装成便携式 Agent Skill，可放进 Cursor、Claude Code、Claude Desktop 等任意支持文件的编码代理。它能产出 UI 原型、线框图、落地页、仪表盘、移动应用和幻灯片，全部以自包含 HTML 形式生成，无需网站、无需单独订阅、无需上传，作者称配合 Opus 4.8 效果最佳。",
+     "significance": "发布一周即收获 828 stars，位列本周新晋第八，让 claude.ai/design 的设计能力得以本地化、可移植地运行。",
+     "links": [
+      "https://github.com/JimLiu/baoyu-design"
+     ],
+     "image": "assets/github-avatars/JimLiu-baoyu-design.jpg",
+     "image_type": "logo",
+     "tags": [
+      "JavaScript",
+      "设计",
+      "claude-code",
+      "开源"
+     ],
+     "stars": 828,
+     "stars_gained": null,
+     "language": "JavaScript",
+     "forks": 64,
+     "owner": "JimLiu",
+     "repo": "baoyu-design"
+    },
+    {
+     "id": "new_hot-9",
+     "title": "xiaohu-video-translate：一句话给外语视频配中文字幕",
+     "source": "@xiaohuailabs",
+     "source_name": "GitHub",
+     "summary": "对 AI 说一句话，自动完成外语视频的下载、转写、翻译、润色、烧录全流程，全程本地、转写零 API 费。",
+     "detail": "这是一套供 AI 编程命令行工具使用的 Skills，本质是「脚本+说明书」，不绑死任何一家，Claude Code、OpenClaw、Gemini CLI、Codex 都能用。装好后无需记命令，直接说「把这个链接翻译成中文字幕视频」，它便自动完成下载、提取音频、转写、翻译、润色到烧录字幕的一条龙流水线。",
+     "significance": "发布一周即收获 481 stars，位列本周新晋第九，把原本需开四五个软件、折腾一两小时的活串成全自动流水线。",
+     "links": [
+      "https://github.com/xiaohuailabs/xiaohu-video-translate"
+     ],
+     "image": "assets/github-avatars/xiaohuailabs-xiaohu-video-translate.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Python",
+      "视频翻译",
+      "Skills",
+      "开源"
+     ],
+     "stars": 481,
+     "stars_gained": null,
+     "language": "Python",
+     "forks": 75,
+     "owner": "xiaohuailabs",
+     "repo": "xiaohu-video-translate"
+    },
+    {
+     "id": "new_hot-10",
+     "title": "effective-html：生成精简优雅 HTML 计划与架构图的技能",
+     "source": "@plannotator",
+     "source_name": "GitHub",
+     "summary": "一组 Agent Skill，用于生成优雅简洁的 HTML 计划、架构图等自包含可视化产物。",
+     "detail": "effective-html 聚焦于生成具有强视觉表现力的自包含 HTML 交付物，包含 html（按描述生成 effective HTML 风格文件）、html-diagram（把架构、技术栈、系统理解渲染成全屏 HTML 图，含高质量 SVG）、html-plan 等多个专注型 skill。作者还展示了由 Fable 5 生成的图示示例。",
+     "significance": "发布一周即收获 465 stars，位列本周新晋第十，迎合了用 HTML 做轻量可视化文档与架构图的实用需求。",
+     "links": [
+      "https://github.com/plannotator/effective-html"
+     ],
+     "image": "assets/github-avatars/plannotator-effective-html.jpg",
+     "image_type": "logo",
+     "tags": [
+      "HTML",
+      "Skills",
+      "可视化",
+      "开源"
+     ],
+     "stars": 465,
+     "stars_gained": null,
+     "language": "HTML",
+     "forks": 23,
+     "owner": "plannotator",
+     "repo": "effective-html"
+    }
+   ]
+  },
+  {
+   "id": "rising_stars",
+   "label": "上升之星",
+   "subtitle": "过去 7 天星数增长最快",
+   "items": [
+    {
+     "id": "rising_stars-1",
+     "title": "ECC：跨代理框架的性能优化与技能系统",
+     "source": "@affaan-m",
+     "source_name": "GitHub",
+     "summary": "面向 Claude Code、Codex、Opencode、Cursor 等的代理框架性能优化系统，整合技能、记忆、安全与研究优先开发。",
+     "detail": "ECC（Enhanced Claude Code）是一套代理框架性能优化系统，涵盖 Skills、instincts、memory、security 与 research-first 开发理念，强调跨 harness 的代理工作流。项目支持 12+ 语言生态，提供 ecc-universal、ecc-agentshield 等 npm 包，README 自称已超 211.9K stars、32.5K forks、230+ 贡献者。",
+     "significance": "本周新增约 3,000 stars，作为跨代理框架优化方案持续高速吸引开发者关注。",
+     "links": [
+      "https://github.com/affaan-m/ECC"
+     ],
+     "image": "assets/github-avatars/affaan-m-ECC.jpg",
+     "image_type": "logo",
+     "tags": [
+      "JavaScript",
+      "Agent",
+      "开发工具",
+      "开源"
+     ],
+     "stars": 214304,
+     "stars_gained": 3000,
+     "language": "JavaScript",
+     "forks": 32931,
+     "owner": "affaan-m",
+     "repo": "ECC"
+    },
+    {
+     "id": "rising_stars-2",
+     "title": "Hermes Agent：会随你成长的 AI 代理",
+     "source": "@NousResearch",
+     "source_name": "GitHub",
+     "summary": "Nous Research 推出的 AI 代理，主打「会随你一同成长」，并提供桌面端与完整文档。",
+     "detail": "Hermes Agent 来自 Nous Research，定位为「会成长的代理」，配套提供 Hermes Desktop 桌面应用、官方文档站与 Discord 社区。项目以 Python 为主，是 Nous Research 在开源代理方向的旗舰产品之一。",
+     "significance": "本周新增约 3,000 stars，作为知名开源团队 Nous Research 的代理产品，热度持续攀升。",
+     "links": [
+      "https://github.com/NousResearch/hermes-agent"
+     ],
+     "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Python",
+      "Agent",
+      "AI",
+      "开源"
+     ],
+     "stars": 191978,
+     "stars_gained": 3000,
+     "language": "Python",
+     "forks": 33445,
+     "owner": "NousResearch",
+     "repo": "hermes-agent"
+    },
+    {
+     "id": "rising_stars-3",
+     "title": "opencode：开源的 AI 编码代理",
+     "source": "@anomalyco",
+     "source_name": "GitHub",
+     "summary": "一个完全开源的 AI 编码代理，提供配套控制台与活跃社区，是闭源编码助手的开放替代。",
+     "detail": "opencode 自我定位为「开源的 AI 编码代理」，仓库以 TypeScript 为主，包含 console 应用等多个 package，配套官网 opencode.ai 与 Discord 社区。它是当前开源编码代理赛道中关注度最高的项目之一。",
+     "significance": "本周新增约 3,000 stars，持续领跑开源 AI 编码代理赛道。",
+     "links": [
+      "https://github.com/anomalyco/opencode"
+     ],
+     "image": "assets/github-avatars/anomalyco-opencode.jpg",
+     "image_type": "logo",
+     "tags": [
+      "TypeScript",
+      "Agent",
+      "编码助手",
+      "开源"
+     ],
+     "stars": 173718,
+     "stars_gained": 3000,
+     "language": "TypeScript",
+     "forks": 20926,
+     "owner": "anomalyco",
+     "repo": "opencode"
+    },
+    {
+     "id": "rising_stars-4",
+     "title": "anthropics/skills：Anthropic 官方 Agent Skills 仓库",
+     "source": "@anthropics",
+     "source_name": "GitHub",
+     "summary": "Anthropic 官方维护的 Skills 公共仓库，Skills 是 Claude 动态加载以提升专项任务表现的指令、脚本与资源集合。",
+     "detail": "Skills 是一组文件夹形式的指令、脚本与资源，Claude 会按需动态加载以提升在专项任务上的表现，例如按企业品牌规范生成文档、用组织特定工作流分析数据或自动化个人任务。该仓库为 Anthropic 官方实现，关于 Agent Skills 标准可参见 agentskills.io。",
+     "significance": "本周新增约 3,000 stars，作为 Agent Skills 生态的官方源头，随 Skills 热潮持续升温。",
+     "links": [
+      "https://github.com/anthropics/skills"
+     ],
+     "image": "assets/github-avatars/anthropics-skills.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Python",
+      "Skills",
+      "Anthropic",
+      "开源"
+     ],
+     "stars": 149945,
+     "stars_gained": 3000,
+     "language": "Python",
+     "forks": 17700,
+     "owner": "anthropics",
+     "repo": "skills"
+    },
+    {
+     "id": "rising_stars-5",
+     "title": "yt-dlp：功能丰富的命令行音视频下载器",
+     "source": "@yt-dlp",
+     "source_name": "GitHub",
+     "summary": "支持数千个网站的功能丰富命令行音视频下载工具，是已停更的 youtube-dl 的活跃分支。",
+     "detail": "yt-dlp 是一款功能丰富的命令行音视频下载器，支持数千个站点，由现已不活跃的 youtube-dlc 分支而来、基于 youtube-dl。它内置 SponsorBlock 等能力，提供详尽的安装、更新、依赖与使用选项文档。",
+     "significance": "本周新增 1,908 stars，作为长青的下载工具，凭持续维护与广泛站点支持保持高人气。",
+     "links": [
+      "https://github.com/yt-dlp/yt-dlp"
+     ],
+     "image": "assets/github-avatars/yt-dlp-yt-dlp.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Python",
+      "命令行",
+      "下载工具",
+      "开源"
+     ],
+     "stars": 170141,
+     "stars_gained": 1908,
+     "language": "Python",
+     "forks": 14326,
+     "owner": "yt-dlp",
+     "repo": "yt-dlp"
+    },
+    {
+     "id": "rising_stars-6",
+     "title": "OpenClaw：跨平台的个人 AI 助手「小龙虾」",
+     "source": "@openclaw",
+     "source_name": "GitHub",
+     "summary": "一款可在任意操作系统与平台运行的个人 AI 助手，主打「拥有你自己的数据」，以龙虾为吉祥物。",
+     "detail": "OpenClaw 定位为「你自己的个人 AI 助手」，强调 own-your-data 与跨平台运行，以龙虾（lobster）为标志性形象。仓库以 TypeScript 为主，配备 CI 工作流与完整文档，是开源个人助手方向星标量最高的项目之一。",
+     "significance": "本周新增 1,873 stars，凭借 37.8 万的庞大星标基数与鲜明社区文化稳居开源助手前列。",
+     "links": [
+      "https://github.com/openclaw/openclaw"
+     ],
+     "image": "assets/github-avatars/openclaw-openclaw.jpg",
+     "image_type": "logo",
+     "tags": [
+      "TypeScript",
+      "AI助手",
+      "本地优先",
+      "开源"
+     ],
+     "stars": 378396,
+     "stars_gained": 1873,
+     "language": "TypeScript",
+     "forks": 79142,
+     "owner": "openclaw",
+     "repo": "openclaw"
+    },
+    {
+     "id": "rising_stars-7",
+     "title": "n8n：原生 AI 能力的 fair-code 工作流自动化平台",
+     "source": "@n8n-io",
+     "source_name": "GitHub",
+     "summary": "面向技术团队的工作流自动化平台，兼具代码灵活性与无代码速度，内置 AI 能力、支持自托管与 400+ 集成。",
+     "detail": "n8n 是一款 fair-code 许可的工作流自动化平台，让技术团队既能写 JavaScript/Python、引入 npm 包，也能用可视化界面搭建。它内置基于 LangChain 的 AI 原生能力，可用自有数据与模型构建 AI 代理工作流，支持自托管以完全掌控数据与部署，集成数量超 400。",
+     "significance": "本周新增 1,152 stars，作为自动化与 AI 代理结合的标杆平台持续保持高增长。",
+     "links": [
+      "https://github.com/n8n-io/n8n"
+     ],
+     "image": "assets/github-avatars/n8n-io-n8n.jpg",
+     "image_type": "logo",
+     "tags": [
+      "TypeScript",
+      "自动化",
+      "AI",
+      "开源"
+     ],
+     "stars": 192229,
+     "stars_gained": 1152,
+     "language": "TypeScript",
+     "forks": 58494,
+     "owner": "n8n-io",
+     "repo": "n8n"
+    },
+    {
+     "id": "rising_stars-8",
+     "title": "Ollama：本地运行开源大模型的一站式工具",
+     "source": "@ollama",
+     "source_name": "GitHub",
+     "summary": "让你在本地快速跑起 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等开源模型。",
+     "detail": "Ollama 帮助用户在本地用开源模型开始构建，支持 macOS、Windows、Linux 一键安装脚本，也提供官方 Docker 镜像 ollama/ollama。它覆盖 Kimi-K2.6、GLM-5.1、DeepSeek、Qwen、Gemma 等众多主流开源模型，以 Go 编写。",
+     "significance": "本周新增 850 stars，作为本地大模型运行的事实标准工具，随新模型不断上架持续吸量。",
+     "links": [
+      "https://github.com/ollama/ollama"
+     ],
+     "image": "assets/github-avatars/ollama-ollama.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Go",
+      "本地大模型",
+      "AI",
+      "开源"
+     ],
+     "stars": 173974,
+     "stars_gained": 850,
+     "language": "Go",
+     "forks": 16582,
+     "owner": "ollama",
+     "repo": "ollama"
+    },
+    {
+     "id": "rising_stars-9",
+     "title": "Claw Code：全程无人干预、由代理维护的 Rust 项目",
+     "source": "@ultraworkers",
+     "source_name": "GitHub",
+     "summary": "一个用 Rust 构建、由 Gajae-Code / LazyCodex 代理开发并维护、号称全程无人工干预的「代理管理博物馆展品」。",
+     "detail": "Claw Code 自称是「由代理管理的博物馆展品」，用 Rust 构建，由 LazyCodex（面向无脑用户的 codex）与 Gajae-Code（red-claw 代理 harness）开发并维护，强调全程没有人类介入。它是探索「AI 代理自主开发并维护软件」这一理念的实验性项目。",
+     "significance": "本周新增 530 stars，因「无人干预、完全由 AI 代理维护」的实验性概念引发好奇与关注。",
+     "links": [
+      "https://github.com/ultraworkers/claw-code"
+     ],
+     "image": "assets/github-avatars/ultraworkers-claw-code.jpg",
+     "image_type": "logo",
+     "tags": [
+      "Rust",
+      "Agent",
+      "实验",
+      "开源"
+     ],
+     "stars": 193695,
+     "stars_gained": 530,
+     "language": "Rust",
+     "forks": 109960,
+     "owner": "ultraworkers",
+     "repo": "claw-code"
+    },
+    {
+     "id": "rising_stars-10",
+     "title": "prompts.chat：全球最大的开源 AI 提示词库",
+     "source": "@f",
+     "source_name": "GitHub",
+     "summary": "前身为 Awesome ChatGPT Prompts，可分享、发现与收藏社区提示词，免费开源、支持自托管。",
+     "detail": "prompts.chat（前身 Awesome ChatGPT Prompts）自称世界最大的开源提示词库，可分享、发现并收藏社区提示词，兼容 ChatGPT、Claude、Gemini、Llama、Mistral 等多种模型。项目免费开源，企业可自托管以获得完整隐私。",
+     "significance": "本周新增 389 stars，作为提示词社区的长青标杆项目持续积累人气。",
+     "links": [
+      "https://github.com/f/prompts.chat"
+     ],
+     "image": "assets/github-avatars/f-prompts.chat.jpg",
+     "image_type": "logo",
+     "tags": [
+      "HTML",
+      "提示词",
+      "AI",
+      "开源"
+     ],
+     "stars": 163627,
+     "stars_gained": 389,
+     "language": "HTML",
+     "forks": 21224,
+     "owner": "f",
+     "repo": "prompts.chat"
+    }
+   ]
+  }
+ ]
+}
