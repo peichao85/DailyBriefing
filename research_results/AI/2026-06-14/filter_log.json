@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-14",
+  "total_candidates": 14,
+  "kept": 6,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-13",
+      "title_en": "US government orders Anthropic to suspend Fable 5 and Mythos 5 over jailbreak/national security",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key published 2026-06-09 (public release of Fable 5 / Glasswing Mythos). New development: Commerce Secretary Howard Lutnick issued an export-control directive (June 12, 5:21pm ET) barring all foreign-national access; Anthropic disabled both models entirely for all users to comply. First-ever US export-control action against a commercially deployed LLM. Not in lookback."
+    },
+    {
+      "story_key": "prometheus-bezos-physical-ai",
+      "event_date": "2026-06-11",
+      "title_en": "Bezos's Prometheus raises $12B at $41B valuation to build an 'artificial general engineer'",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from flourish-brain-inspired-ai (2026-06-04). Series B announced June 11, co-led by Bezos and Vik Bajaj."
+    },
+    {
+      "story_key": "neura-robotics-series-c",
+      "event_date": "2026-06-10",
+      "title_en": "Neura Robotics raises up to $1.4B Series C led by Tether at $7B valuation",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Largest full-stack robotics round; backers include Tether, Nvidia, Amazon, Qualcomm, Bosch, Schaeffler, EIB."
+    },
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-12",
+      "title_en": "SpaceX SPCX debuts +25% at $168.70; S-1 reveals $41.3B cumulative loss and $6.36B 2025 xAI operating loss",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "story_key published 2026-06-04 and 2026-06-12 (pricing/listing). New development: actual first-day trading result (closed +25% at $168.70, intraday $150-$176.52) and S-1 financial disclosures ($41.3B cumulative loss, 2025 revenue $18.67B / net loss $4.94B, xAI segment $6.36B operating loss). Prior items covered pricing only, not results."
+    },
+    {
+      "story_key": "china-humanoid-ipo-wave",
+      "event_date": "2026-06-12",
+      "title_en": "EngineAI files confidentially for Hong Kong IPO as China humanoid listing wave widens (Unitree $7B)",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. EngineAI HK confidential filing reported June 12; Unitree, PaXini Tech, Dreame, Linkerbot also pursuing listings."
+    },
+    {
+      "story_key": "google-gemini-live-translate",
+      "event_date": "2026-06-09",
+      "title_en": "Google launches Gemini 3.5 Live Translate: real-time streaming speech translation in 70+ languages",
+      "source": "Google Blog",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Consumer app live globally on Android/iOS June 9; streaming model, 70+ languages, 2000+ combinations, Listening Mode."
+    },
+    {
+      "story_key": "waymo-apple-proving-ground",
+      "event_date": "2026-06-05",
+      "title_en": "Waymo buys Apple's Project Titan Arizona proving ground for $220M",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Deal recorded June 5 in Maricopa County filings, first reported June 8 by TechCrunch. Underlying event 8-9 days before 2026-06-14, exceeds 5-day limit."
+    },
+    {
+      "story_key": "google-gemma4-release",
+      "event_date": "2026-06-03",
+      "title_en": "Google releases Gemma 4 12B multimodal open model under Apache 2.0",
+      "source": "Google Cloud Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released June 3, 11 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "microsoft-mai-seven-models",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft unveils seven homegrown MAI models at Build 2026",
+      "source": "GeekWire",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced June 2 at Build, 12 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-amazon-5gw-compute",
+      "event_date": "2026-04-20",
+      "title_en": "Anthropic expands Amazon compute deal to 5GW with $100B AWS commitment",
+      "source": "Anthropic Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced April 20-21; resurfaced in June recaps but no new development. Far outside 5-day window."
+    },
+    {
+      "story_key": "ramp-anthropic-overtakes-openai-adoption",
+      "event_date": "2026-05-13",
+      "title_en": "Ramp AI Index: Anthropic overtakes OpenAI in US business adoption",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "The first-time-overtake milestone was reported around May 13 (Axios). The June 13 aggregator recaps May data; no fresh June development within 5 days."
+    },
+    {
+      "story_key": "nvidia-groq-acquisition",
+      "event_date": "2025-12-24",
+      "title_en": "Nvidia buys Groq assets for ~$20B in largest deal ever",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced December 24, 2025; appeared in search but is roughly six months old."
+    },
+    {
+      "story_key": "openai-gpt56-kindle-leak",
+      "event_date": "2026-06-08",
+      "title_en": "GPT-5.6 'Kindle' alpha checkpoint leak spotted in Codex",
+      "source": "Windows Forum",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Unconfirmed leak/rumor dated 'early June' with no official OpenAI confirmation; speculative and not a verifiable dated event within window."
+    },
+    {
+      "story_key": "google-diffusiongemma-release",
+      "event_date": "2026-06-10",
+      "title_en": "Google DeepMind releases DiffusionGemma text-diffusion model",
+      "source": "DeepMind",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-10 in lookback with full coverage. No substantively new information."
+    }
+  ]
+}

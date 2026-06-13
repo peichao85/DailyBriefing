@@ -1,0 +1,190 @@
+{
+  "date": "2026-06-14",
+  "category": "AI",
+  "title": "美国首次用\"出口管制\"叫停已上线大模型：Anthropic 被迫全球下线 Fable 5 / Mythos 5；\"物理 AI\"资本狂飙——Bezos 的 Prometheus 估值 $410 亿、德国 Neura 与中国人形机器人扎堆冲刺；史上最大 IPO SpaceX 首日涨约 25%，xAI 去年经营巨亏 $63.6 亿",
+  "items": [
+    {
+      "id": "1",
+      "title": "美国第一次拿'出口管制'砍向一个已上线的大模型：发布仅 3 天，Anthropic 被勒令对全球'断供'Fable 5 / Mythos 5",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-13/anthropic-says-us-limits-foreign-access-to-fable-5-mythos-5",
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-13",
+      "summary": "美国商务部以国家安全为由向 Anthropic 下达出口管制指令，禁止任何外国人（含 Anthropic 的外籍员工、不论身在境内外）访问 Fable 5 与 Mythos 5；为确保合规，Anthropic 干脆对所有用户全面下线这两款模型——这是美国首次用为芯片和军用技术设计的出口管制工具，去叫停一个已商用部署、面向数亿人的大模型。",
+      "detail": "6 月 12 日美东时间下午 5:21，Anthropic 收到美国政府依据国家安全权限下发的出口管制指令，点名要求暂停 Claude Fable 5 与 Claude Mythos 5 对'任何外国人（whether inside or outside the United States），包括 Anthropic 的外籍员工'的访问。指令由商务部长 Howard Lutnick 致信 CEO Dario Amodei，并由商务部工业与安全局（BIS）参与起草。由于'仅对外国人断供'在工程上几乎无法精确执行，Anthropic 选择对全体用户彻底关闭这两款模型以确保合规，其余 Claude 模型不受影响。\n\n政府的依据是：有一家未具名公司声称找到了'越狱'（jailbreaking）Mythos 的方法。但 Anthropic 称自己只拿到口头证据，且该越狱'狭窄、非普适'——本质是让模型去读一段特定代码库并修复其中的软件漏洞，暴露的只是其他公开模型同样能发现的、已知的轻微漏洞。Anthropic 公开反驳：'我们不认同——发现一个狭窄的潜在越狱，就该成为召回一个已部署给数亿人的商用模型的理由'，并警告若把这一标准推广到全行业，'实际上会让所有前沿模型厂商的新模型发布全部停摆'。公司同时指责该行政动作'不符合'透明、公平与技术依据的原则。\n\n背景回顾：6 月 9 日 Anthropic 才公开发布迄今最强的面向大众模型 Claude Fable 5（Mythos 级模型的'民用加锁版'），并把解锁版 Mythos 5 通过 Project Glasswing 提供给少数网络防御方。",
+      "key_quotes": [
+        "We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people.",
+        "The directive applies to any foreign national, whether inside or outside the United States, including foreign national Anthropic employees."
+      ],
+      "significance": "这是美国政府第一次把原本用于芯片、军用技术的出口管制工具，直接套用到一个已经商用、面向数亿人的大语言模型上——意味着'模型权重/能力本身'被当成可管制的战略物项。它为整个行业立下一个危险先例：监管者可凭'存在某个狭窄越狱'就要求召回已上线模型，且'禁止外国人访问'在技术上等同于全面下线。叠加 Anthropic 临近 IPO 的时点，这把'国家安全 × 前沿模型'的合规风险提到了前所未有的高度。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-13/anthropic-says-us-limits-foreign-access-to-fable-5-mythos-5",
+        "https://www.anthropic.com/news/fable-mythos-access",
+        "https://www.nbcnews.com/tech/tech-news/anthropic-suspends-new-ai-models-fable-mythos-government-directive-rcna349901",
+        "https://thenextweb.com/news/anthropic-fable-mythos-us-government-suspension"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "Anthropic",
+        "出口管制",
+        "国家安全",
+        "Fable 5",
+        "Mythos 5",
+        "AI监管"
+      ],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "Bezos 给'物理世界'造通用工程师：Prometheus 一轮募 $120 亿、估值 $410 亿——半年累计融资破 $180 亿",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "story_key": "prometheus-bezos-physical-ai",
+      "event_date": "2026-06-11",
+      "summary": "Jeff Bezos 的工业 AI 创业公司 Prometheus 于 6 月 11 日宣布完成 $120 亿 B 轮、投后估值约 $410 亿，由 Bezos 本人领衔，JPMorgan、BlackRock、Goldman Sachs、DST Global、Arch Venture 跟投；公司要造一个'物理世界的通用工程师'，把从设计到制造的全链路当成一个端到端的 AI 问题。",
+      "detail": "Prometheus 由 Bezos 与斯坦福科学家 Vik Bajaj 共同执掌，6 月 11 日两位联合 CEO 首次在 CNBC 同框，公开解释公司在做什么。其目标是打造一个'artificial general engineer（通用人工工程师）'——用 AI 软件自动完成复杂物理系统从设计到制造的全过程，应用范围从喷气发动机到药物分子。Bezos 否认了'Prometheus 在做机器人'的传闻，强调公司是在为'发明与物理工程'造 AI，而非造机器人。\n\n这轮 $120 亿 B 轮接续去年底 $62 亿的启动轮，使公司在约 7 个月内累计融资超过 $180 亿，跻身'物理 AI（physical AI）'方向上有史以来最大的单笔押注之一。投资方阵容除 Bezos 外，囊括 JPMorgan、BlackRock、Goldman Sachs、DST Global 与 Arch Venture Partners 等重量级金融机构。",
+      "key_quotes": [
+        "Bezos: We're not being secretive.",
+        "Building an 'artificial general engineer' for the physical world."
+      ],
+      "significance": "这是'物理 AI / 工业 AI'赛道迄今最大的资本动作之一，标志着前沿投资从'语言与软件智能'外溢到'设计与制造实体系统'。Bezos 用个人财富 + 顶级金融机构组团、半年砸下 $180 亿，等于公开宣布：下一波 AI 红利可能不在聊天框，而在喷气发动机、药物分子这类'把原子搬来搬去'的硬工程里。它也与同日的机器人融资潮一起，把市场叙事推向'AI 进入物理世界'。",
+      "links": [
+        "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+        "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html",
+        "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
+      ],
+      "tags": [
+        "Prometheus",
+        "Jeff Bezos",
+        "物理AI",
+        "工业AI",
+        "融资"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "欧洲机器人下重注：德国 Neura 拿下最高 $14 亿 C 轮、估值 $70 亿——Tether 领投，Nvidia/Amazon/高通/博世同桌",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/10/neura-robotics-funding-ai-humanoid-robots.html",
+      "story_key": "neura-robotics-series-c",
+      "event_date": "2026-06-10",
+      "summary": "德国 Neura Robotics 6 月 10 日宣布完成最高 $14 亿 C 轮、估值约 $70 亿，由稳定币发行商 Tether 领投，Qualcomm、Amazon、Nvidia、Bosch、Schaeffler 与欧洲投资银行（EIB）等跟投——号称全栈机器人公司史上最大一轮，使其成为欧洲融资额最高的人形机器人企业。",
+      "detail": "Neura 主打'认知机器人（cognitive robots）'，包括其 4NE-1 人形机器人，强调能感知、推理并行动。这笔最高 $14 亿的 C 轮并非一次性到账，全额与业绩里程碑挂钩、属于'上限'。资金将用于把量产推向 2030 年的'数百万台'规模，并在全球铺开 NEURA Gyms——公司称之为'全球首个面向认知机器人与物理 AI 的真实世界训练场'。\n\n投资方阵容颇具看点：领投方是稳定币巨头 Tether（罕见出现在机器人赛道），战略股东则横跨芯片（Nvidia、Qualcomm）、云与电商（Amazon）、工业（Bosch、Schaeffler）以及欧洲投资银行。Neura 还计划把边缘 AI 与数字支付能力整合进机器人平台。多家分析也提醒：人形机器人的融资速度正远远跑在实际营收前面。",
+      "key_quotes": [
+        "The largest funding round ever for a full-stack robotics company.",
+        "Serial production toward multi-million robots by 2030."
+      ],
+      "significance": "在人形机器人被中美企业主导的格局里，这一轮把欧洲（德国）重新拉回牌桌，也是'物理 AI'资本热的又一例证。Tether 以稳定币利润领投机器人、Nvidia/Amazon/高通/博世同桌，显示加密资本与传统工业/芯片巨头正一起押注'机器人即下一代 AI 终端'。但'最高 $14 亿、与里程碑挂钩'的结构，以及融资远超营收的现实，也暴露出这股热潮的投机成分。",
+      "links": [
+        "https://www.cnbc.com/2026/06/10/neura-robotics-funding-ai-humanoid-robots.html",
+        "https://www.bloomberg.com/news/articles/2026-06-10/tether-backs-german-robotics-startup-neura-in-1-4-billion-round",
+        "https://neura-robotics.com/record-series-c/"
+      ],
+      "tags": [
+        "Neura Robotics",
+        "人形机器人",
+        "物理AI",
+        "Tether",
+        "融资",
+        "欧洲"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "史上最大 IPO 首日定音：SpaceX 收涨约 25% 报 $168.70；招股书自曝累计亏损 $413 亿、xAI 去年经营亏 $63.6 亿",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/12/spacex-spcx-ipo-debut.html",
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-12",
+      "summary": "SpaceX（SPCX）6 月 12 日在 Nasdaq 首日交易收报 $168.70、较 $135 发行价涨约 25%，盘中区间 $150.00–$176.52，市值约 $1.77 万亿；同时其 S-1 披露自 2002 年成立以来累计亏损 $413 亿，2025 年营收 $186.7 亿、净亏 $49.4 亿，其中 xAI 板块 2025 年经营亏损达 $63.6 亿。",
+      "detail": "作为有记录以来规模最大的 IPO，SPCX 首日表现被 Anthropic、OpenAI 等排队上市的 AI 公司当作风向标。股票开盘后冲高至盘中高点 $176.52、低点 $150.00，最终收于 $168.70，较发行价上涨约 25%，对应市值约 $1.77 万亿。围绕它的衍生交易同样火爆：Hyperliquid 的 SPCX-USDC 永续合约上市前已报约 $176、24 小时成交超 $2.33 亿；至少 25 只 SPCX 相关 ETF 已注册，过半为杠杆产品，Fidelity 把最低门槛降到 $2,000。\n\n更受关注的是招股书里的财务底牌：SpaceX 自 2002 年成立以来累计亏损 $413 亿；2025 年营收 $186.7 亿、净亏 $49.4 亿，其中 Starlink 贡献营收 $114 亿、EBITDA 利润率约 63%，而并入的 xAI 板块 2025 年经营亏损高达 $63.6 亿——这把'AI 烧钱'的体量直接摆到了公开市场面前。分析普遍认为，这场'有序上涨'的首秀验证了市场愿意给 AI 基建约 90 倍 EBITDA 的估值，为 Anthropic（目标 Q4、拟募约 $60 亿）和 OpenAI（最早 Q4）的上市铺路。\n\n背景回顾：SpaceX 此前已于 6 月 11 日跳过询价直接定价 $135/股、募资约 $750 亿、估值锁定约 $1.77 万亿，机构认购需求一度超 $2500 亿。",
+      "key_quotes": [
+        "SPCX closed at $168.70, up roughly 25% from the $135 IPO price.",
+        "Accumulated deficit since 2002: $41.3 billion; xAI segment 2025 operating loss: $6.36 billion."
+      ],
+      "significance": "首日股价与招股书数字一起，把'AI/航天巨亏也能撑起 $1.77 万亿'这件事钉在了公开市场上：一方面 25% 的有序上涨验证了投资者对 AI 基建的高估值容忍度，给 Anthropic、OpenAI 的 IPO 扫清心理障碍；另一方面 xAI 一年经营亏 $63.6 亿、SpaceX 累计亏 $413 亿，也第一次让公众清楚看到'前沿 AI 的烧钱速度'到底是什么量级。",
+      "links": [
+        "https://www.cnbc.com/2026/06/12/spacex-spcx-ipo-debut.html",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-13-2026"
+      ],
+      "image": "assets/logos/spacex-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "SpaceX",
+        "xAI",
+        "IPO",
+        "SPCX",
+        "美股",
+        "AI基建"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "中国人形机器人扎堆冲 IPO：EngineAI 秘密递表港交所，Unitree 拟募 $70 亿，PaXini/追觅/灵宝排队跟进",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-12/humanoid-robot-manufacturer-engineai-is-said-to-file-for-hong-kong-ipo",
+      "story_key": "china-humanoid-ipo-wave",
+      "event_date": "2026-06-12",
+      "summary": "据 Bloomberg 6 月 12 日报道，深圳人形/四足机器人厂商 EngineAI（2023 年成立）已向港交所秘密递交 IPO 申请，由中金公司与中信证券保荐；与此同时行业龙头 Unitree（宇树）已申报约 $70 亿规模 IPO，BYD 投资的灵巧手厂商 PaXini Tech、追觅（Dreame）、灵宝（Linkerbot）等也在筹划上市，掀起一波中国人形机器人扎堆登陆资本市场的浪潮。",
+      "detail": "EngineAI 4 月刚完成 2 亿元人民币（约 $2790 万）B 轮，估值超 100 亿元人民币（约 $15 亿），由河南投资集团关联基金与立讯精密（Luxshare）领投；6 月 1 日在深圳启用 1.2 万平方米工厂、开始量产并交付首批 T800 机器人，产线规划年产能 1 万台。此次为秘密递表，营收等关键数字暂未披露，发行规模与时点未定，公司仍可能撤回。\n\n更大的背景是整个中国人形机器人板块集体奔赴公开市场：龙头 Unitree 已申报约 $70 亿 IPO；BYD 背景的灵巧手公司 PaXini Tech、家用清洁机器人起家的追觅、以及 Linkerbot 等都在权衡或推进上市。报道援引数据称，相关港股 IPO 已累计募资约 $226 亿，2025 年中国人形机器人融资已超 $10 亿。",
+      "key_quotes": [
+        "EngineAI is working with China International Capital Corp and Citic Securities on the possible share sale.",
+        "Unitree has filed for a $7 billion IPO."
+      ],
+      "significance": "与 Bezos 的 Prometheus、欧洲的 Neura 同框出现，这股中国人形机器人 IPO 潮说明'物理 AI'已从实验室和融资轮，走到了二级市场的估值检验阶段。中国厂商选择密集赴港上市，既是为产能扩张和价格战补充弹药，也意味着投资者将第一次拿到这些公司的真实营收与亏损数据——人形机器人'故事'与'报表'的对账时刻正在到来。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-12/humanoid-robot-manufacturer-engineai-is-said-to-file-for-hong-kong-ipo",
+        "https://thenextweb.com/news/engineai-hong-kong-ipo-humanoid-robots",
+        "https://cryptobriefing.com/engineai-hong-kong-ipo-filing/"
+      ],
+      "tags": [
+        "人形机器人",
+        "EngineAI",
+        "Unitree",
+        "港股IPO",
+        "中国",
+        "物理AI"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "翻译耳机要被一个模型干掉了？Google 上线 Gemini 3.5 Live Translate：边说边译、70+ 语言、保留语气语调",
+      "source": "Google Blog",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+      "story_key": "google-gemini-live-translate",
+      "event_date": "2026-06-09",
+      "summary": "Google 6 月 9 日上线 Gemini 3.5 Live Translate：一个把'语音直接译成语音'的流式音频模型，支持 70+ 种语言、2000+ 语言组合，不等说完整句就开始翻译（仅滞后数秒），并保留说话者的语调、节奏、重音与音高；消费端已在全球 Android/iOS 的 Google 翻译 App 上线。",
+      "detail": "与传统'先等整句说完再翻译'的系统不同，Gemini 3.5 Live Translate 是一个流式（streaming）模型：在说话者还在讲时就同步开译，只滞后几秒以保持上下文与对话节奏。它能自动检测 70 多种语言、无需手动选择语种，并在生成译文音频时保留原始的语调、节奏、重音和音高，让翻译听起来更自然。\n\n发布采取多端同步：开发者可通过 Gemini Live API 接入，企业客户在 Google Meet 中使用，消费者则通过 Android/iOS 的 Google 翻译 App 体验，并配有'Listening Mode（聆听模式）'——可直接用手机听筒收听译文音频。面向 Google Workspace 商业客户的私有预览本月起开放，更大范围推送将在今年晚些时候跟进。",
+      "key_quotes": [
+        "Converts spoken language to spoken language in near real-time across more than 70 languages.",
+        "Begins translating while the speaker is still talking, staying only a few seconds behind."
+      ],
+      "significance": "实时、保留语气的语音对语音翻译，是'AI 抹平语言障碍'最直观的落地形态之一，也直接冲击专用翻译耳机/设备的市场——一个模型 + 一部手机 App 就能覆盖 70+ 语言。把它同时塞进 Google 翻译、Meet 和开发者 API，等于 Google 用 Gemini 把'实时翻译'变成一项可被任意应用调用的系统级能力。",
+      "links": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+        "https://winbuzzer.com/2026/06/10/google-launches-gemini-35-live-voice-translation-model-xcxwbn/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "Google",
+        "Gemini",
+        "实时翻译",
+        "语音AI",
+        "多语言"
+      ],
+      "category": "research"
+    }
+  ]
+}
