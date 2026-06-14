@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-15",
+  "total_candidates": 15,
+  "kept": 5,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-15",
+      "title_en": "G7 Evian summit opens with AI dominant; allies split over AI sovereignty",
+      "source": "Reuters / TechPolicy.Press",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published on 06-12 as a preview ('three lab CEOs will attend'). New on 06-15: the summit actually convenes (June 15-17), the tech-CEO roster expanded well beyond the three labs (Mensch, Gomez, Rombach, Benioff, Alex Wang, Ito, etc.), a Wednesday tech working lunch on AI infra/regulation is scheduled, and the dominant new framing is an openly widening US-EU-Canada rift over AI sovereignty with governance language expected to be 'watered down' and the US opposing multilateral rules."
+    },
+    {
+      "story_key": "anthropic-enterprise-adoption-lead",
+      "event_date": "2026-06-12",
+      "title_en": "Ramp June AI Index: Anthropic 41% vs OpenAI 39.5% — Claude now the enterprise default",
+      "source": "Ramp / VentureBeat",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. The June 2026 Ramp AI Index (real corporate-card/invoice spend across 50k+ US firms) shows Anthropic rising 2.5pts to 41% while OpenAI slips 0.1pt to 39.5% — Anthropic now the most-adopted paid AI in US enterprise, a fresh monthly data release widening the lead first reported in May."
+    },
+    {
+      "story_key": "moonshot-kimi-k27-code",
+      "event_date": "2026-06-12",
+      "title_en": "Moonshot open-sources Kimi K2.7-Code (1T MoE coding model) under Modified MIT",
+      "source": "Moonshot AI / VentureBeat",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New open-weights coding-focused model: 1T total / 32B active MoE, weights on Hugging Face under Modified MIT, +21.8% on Kimi Code Bench v2 and ~30% fewer reasoning tokens vs K2.6."
+    },
+    {
+      "story_key": "openai-gpt52-retirement",
+      "event_date": "2026-06-12",
+      "title_en": "OpenAI quietly retires GPT-5.2, auto-migrates everyone to GPT-5.5",
+      "source": "TechTimes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. OpenAI discontinued GPT-5.2 Instant/Thinking/Pro with no splashy announcement; existing chats auto-continue on the matching GPT-5.5 model. Developers must re-test prompts/parsing and pin model versions."
+    },
+    {
+      "story_key": "cineca-iqm-quantum-hpc",
+      "event_date": "2026-06-11",
+      "title_en": "Italy's CINECA activates IQM 54-qubit Radiance, integrated with Leonardo supercomputer",
+      "source": "olegov digest / CINECA",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. CINECA brings IQM's 54-qubit Radiance quantum computer online integrated with the Leonardo supercomputer for hybrid classical-quantum HPC/AI workflows."
+    },
+    {
+      "story_key": "microsoft-mai-models",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft Build 2026 launches 7 in-house MAI models incl MAI-Thinking-1",
+      "source": "Microsoft AI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-02 (Build keynote) is 13 days old (>5 day limit)."
+    },
+    {
+      "story_key": "alibaba-qwen37-plus",
+      "event_date": "2026-06-02",
+      "title_en": "Alibaba launches Qwen3.7-Plus multimodal agent model",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-02 is 13 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-daybreak-cyber",
+      "event_date": "2026-05-15",
+      "title_en": "OpenAI launches Daybreak cybersecurity suite (GPT-5.5-Cyber)",
+      "source": "CyberScoop",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-15 is a month old (>5 day limit)."
+    },
+    {
+      "story_key": "cognition-series-d",
+      "event_date": "2026-05-27",
+      "title_en": "Cognition raises $1B Series D at $26B for Devin",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-27 is 19 days old (>5 day limit)."
+    },
+    {
+      "story_key": "skild-ai-funding",
+      "event_date": "2026-01-14",
+      "title_en": "Skild AI raises $1.4B at $14B for robot foundation model",
+      "source": "BusinessWire",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-01-14 is 5 months old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-amazon-compute",
+      "event_date": "2026-04-20",
+      "title_en": "Anthropic-Amazon expand to 5GW compute / up to $25B",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-20 is ~2 months old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-gpt56-leak",
+      "event_date": "2026-06-03",
+      "title_en": "GPT-5.6 'kindle-alpha' checkpoint leaks in dev channels",
+      "source": "Windows Forum / TechTimes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-03 (leak surfaced) is 12 days old (>5 day limit); also unconfirmed/not an official release."
+    },
+    {
+      "story_key": "spacex-xai-ipo",
+      "event_date": "2026-06-13",
+      "title_en": "SPCX added to MSCI large-cap indices; ETFs proliferate",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "spacex-xai-ipo already published 06-12 (debut +25% at $168.70). MSCI index inclusion and ETF launches are mechanical follow-ons, no substantively new development."
+    },
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-13",
+      "title_en": "Continued coverage of Anthropic Fable 5 / Mythos 5 export-control shutdown",
+      "source": "various",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "anthropic-claude-fable-5 already published 06-13 with the export-control shutdown. No new facts beyond prior coverage."
+    },
+    {
+      "story_key": "china-humanoid-ipo-wave",
+      "event_date": "2026-06-13",
+      "title_en": "EngineAI Hong Kong IPO / China humanoid IPO wave (continued)",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "china-humanoid-ipo-wave already published 06-12 covering EngineAI, Unitree, PaXini, Dreame, Linkerbot. No new development."
+    }
+  ]
+}

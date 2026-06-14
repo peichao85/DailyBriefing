@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-15",
+  "category": "AI",
+  "title": "AI 首次坐上 G7 主桌，西方盟友却在'AI 主权'上公开分裂；企业付费市场 Anthropic 41% 反超 OpenAI",
+  "items": [
+    {
+      "id": "1",
+      "title": "AI 第一次成为 G7 峰会主角，西方却先吵起来了：法国 Évian 峰会今开幕，盟友在'AI 主权'上公开分裂",
+      "source": "G7 / Reuters",
+      "source_name": "TechPolicy.Press",
+      "source_url": "https://www.techpolicy.press/g7-summit-set-to-kick-off-amidst-allies-widening-rift-over-ai-sovereignty/",
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-15",
+      "summary": "第 52 届 G7 峰会 6 月 15 日在法国 Évian-les-Bains 开幕，AI 首次成为首脑议程的核心；但峰会一开场就暴露出美、欧、加在'AI 主权'上的公开分裂——美国明确反对任何可能削弱其产业优势的多边 AI 规则，原本的治理表述预计将被大幅'稀释'。",
+      "detail": "为期三天（6 月 15–17 日）的 G7 峰会在法国阿尔卑斯山小镇 Évian-les-Bains 拉开帷幕，AI 被摆上首脑桌的核心位置——这是 G7 历史上 AI 第一次成为主线议题而非边角料。出席阵容也远超此前确认的三大实验室掌门：除了 OpenAI 的 Sam Altman、Google DeepMind 的 Demis Hassabis、Anthropic 的 Dario Amodei，受邀名单还扩展到 Mistral 的 Arthur Mensch、Cohere 的 Aidan Gomez、Black Forest Labs 的 Robin Rombach、Salesforce 的 Marc Benioff、Meta 的 Alex Wang、Sakana AI 的 Ren Ito 等一长串科技高管；周三还专门安排了一场科技领袖工作午餐，议题锁定 AI 基础设施、算力网络与监管。法国总统 Macron 把这届峰会当成展示'欧洲 AI 领头羊'姿态的舞台，甚至亲自向 Altman 发出邀请。\n\n但峰会真正的看点，是西方盟友之间罕见公开的裂痕。多方报道指出，美国、欧盟、加拿大在 6 月初各自抛出了相互竞争的国家级 AI 战略，核心已经从两年前'防范生成式 AI 危害'的硬性承诺，转向'抢夺 AI 的经济红利'。本届峰会预计将大幅淡化任何 AI 治理与多边规则的表述：美国明确反对可能削弱其产业领先优势的多边协议，而欧洲与加拿大则一边想减少对少数几家美国公司的依赖、一边又要避免倒向中国，并准备掏出公共财政的数十亿美元来'买'自主权。换句话说，盟友们已经不再谈'共同规则'，而是在比谁能更快摆脱对方。\n\n背景回顾：6 月 12 日多家媒体确认三大前沿实验室 CEO 将首次同桌 G7；本条覆盖的是峰会今日正式开幕、阵容大幅扩容及'AI 主权'分裂这一新进展。",
+      "key_quotes": [
+        "The allies are no longer negotiating shared rules — they are racing to reduce dependence on a handful of US firms while avoiding new dependence on China.",
+        "Any references to AI governance are expected to be watered down."
+      ],
+      "significance": "这标志着 AI 治理的全球叙事发生转向：从 2024 年前后'多边管控风险'的共识，滑向 2026 年'各国抢经济与主权红利'的零和竞争。当 G7 都无法就 AI 规则达成统一口径、反而公开分裂，意味着未来全球 AI 监管更可能走向碎片化的国家管辖、补贴竞赛与算力民族主义，而非统一标准——这对跨国部署模型的实验室和企业是实打实的合规与市场风险。",
+      "links": [
+        "https://www.techpolicy.press/g7-summit-set-to-kick-off-amidst-allies-widening-rift-over-ai-sovereignty/",
+        "https://www.euronews.com/my-europe/2026/06/14/wars-tariffs-and-ai-what-to-expect-from-the-g7-summit-in-evian",
+        "https://thenextweb.com/news/g7-ai-summit-altman-amodei-hassabis"
+      ],
+      "tags": ["G7", "AI主权", "监管", "地缘政治", "Macron"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "企业里'默认的 AI'换人了：Ramp 6 月指数显示 Anthropic 41% 反超 OpenAI，靠的是真金白银的刷卡数据",
+      "source": "Ramp",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+      "story_key": "anthropic-enterprise-adoption-lead",
+      "event_date": "2026-06-12",
+      "summary": "最新的 Ramp 6 月 AI 指数显示，Anthropic 的 Claude 已占据 41% 的美国企业付费采用率、环比再升 2.5 个百分点，而 OpenAI 微跌 0.1 点至 39.5%——Anthropic 不只是追平，而是把'企业默认 AI'这个头衔从 OpenAI 手里抢了过来。",
+      "detail": "金融科技公司 Ramp 的 AI 指数与一般的问卷调查不同：它基于超过 5 万家美国企业真实的公司卡刷卡与发票数据，统计的是企业到底为哪家 AI 真金白银地付费。最新的 6 月指数显示，Anthropic 的 Claude 占据 41% 的美国企业付费采用率，环比上升 2.5 个百分点；OpenAI 则基本走平、微跌 0.1 个百分点至 39.5%，被反超 1.5 个百分点。\n\n这是一个分水岭式的信号。过去两年的行业叙事一直是'OpenAI 是默认选项，其他人都在追赶'；而 Ramp 的支出数据现在说的是——在企业市场，Claude 才是新的默认。过去一年里 Anthropic 把自己的企业份额翻了两番，OpenAI 同期只涨了 0.3 个百分点。不过 VentureBeat 也提醒，这条领先并不稳固：IDC 的另一份调查显示真正'深度使用'Claude 的企业仅 19%，仍落后于 OpenAI 与 Google；同时定价、模型供给波动、以及大厂自研模型（如微软 MAI）都是可能抹平这点优势的变量。",
+      "key_quotes": [
+        "The narrative for two years was 'OpenAI is the default, everyone else is catching up.' The Ramp data says Anthropic is now the default in enterprise.",
+        "This is real spend data, not consumer downloads."
+      ],
+      "significance": "消费端 ChatGPT 仍是流量之王，但企业付费市场才是 AI 商业化最肥的利润池，也是 Anthropic 与 OpenAI 双双冲刺 IPO 时投资人最看重的指标。基于刷卡数据（而非问卷）的反超，说明 Claude 在编码、Agent、企业工作流等高价值场景里正实质性蚕食 OpenAI 的基本盘——这直接影响两家公司即将到来的上市估值叙事。",
+      "links": [
+        "https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead",
+        "https://ramp.com/leading-indicators/ai-index-june-2026"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "OpenAI", "企业采用", "Ramp", "IPO"],
+      "category": "trending"
+    },
+    {
+      "id": "3",
+      "title": "中国开源又上一城：Moonshot 开源 Kimi K2.7-Code，1 万亿参数 MoE、推理 token 直降 30%",
+      "source": "Moonshot AI",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary",
+      "story_key": "moonshot-kimi-k27-code",
+      "event_date": "2026-06-12",
+      "summary": "Kimi 母公司 Moonshot AI 于 6 月 12 日开源了专攻编码的 Kimi K2.7-Code：1 万亿总参数 / 320 亿激活的 MoE 架构，权重以 Modified MIT 许可挂上 Hugging Face，官方称在自家 Kimi Code Bench v2 上较 K2.6 提升 21.8%，同时把推理 token 用量砍掉约 30%。",
+      "detail": "Moonshot AI 把旗下编码模型 Kimi K2.7-Code 开源放出，定位是上一代 K2.6 的'编码优先'继任者。模型采用 Mixture-of-Experts 架构，1 万亿总参数、每 token 激活约 320 亿参数，256K 上下文窗口；权重已上线 Hugging Face，采用允许商用（需署名）的 Modified MIT 许可，API 在 platform.moonshot.ai 提供，本地可用 vLLM、SGLang 或 Docker Model Runner 跑起来。\n\n性能上，Moonshot 给出的自测数据是：Kimi Code Bench v2 +21.8%、Program Bench +11.0%、MLS Bench Lite +31.5%，并且相较 K2.6 把'达到同等效果所需的推理 token'压低了约 30%——对要长期跑 Agent 的团队来说，这意味着实打实的成本下降。当然，1T 参数也带来现实门槛：完整权重体量庞大（约 340GB 级别），本地部署对显存和存储要求很高，更多是面向有自建推理能力的企业与服务商。",
+      "key_quotes": [
+        "+21.8% on Kimi Code Bench v2, +11.0% on Program Bench, ~30% lower reasoning-token usage versus K2.6.",
+        "1 trillion total parameters, 32 billion active per token, Modified MIT license."
+      ],
+      "significance": "在 OpenAI、Anthropic 把最强编码模型越关越紧（闭源 + 出口管制）的大背景下，中国厂商持续用'开源 + 宽松商用许可'的打法抢开发者生态。Kimi K2.7-Code 把一个万亿级编码模型的权重直接放出，并主打'更省 token'，进一步压低了自建 AI 编码 Agent 的门槛，是闭源前沿与开源追赶之间又一次正面交锋。",
+      "links": [
+        "https://www.digitalapplied.com/blog/kimi-k2-7-code-release-open-source-coding-model",
+        "https://nerova.ai/news/moonshot-kimi-k2-7-code-release-june-2026"
+      ],
+      "tags": ["Moonshot", "Kimi", "开源", "编码模型", "MoE"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "悄悄'拔插头'：OpenAI 下线 GPT-5.2，把所有人静默迁到 GPT-5.5",
+      "source": "OpenAI",
+      "source_name": "TechTimes",
+      "source_url": "https://www.techtimes.com/articles/318345/20260613/openai-retires-gpt-52-moves-everyone-gpt-55-what-changes-chatgpt-users-developers.htm",
+      "story_key": "openai-gpt52-retirement",
+      "event_date": "2026-06-12",
+      "summary": "OpenAI 在没有大张旗鼓宣布的情况下，于 6 月 12 日下线了 GPT-5.2 的 Instant / Thinking / Pro 三档模型，把所有用户静默迁移到对应的 GPT-5.5 版本——正在进行的对话会自动续到 GPT-5.5 上。",
+      "detail": "OpenAI 悄悄退役了 GPT-5.2 系列（Instant、Thinking、Pro 三档），现存的会话会自动切换到对应的 GPT-5.5 模型继续运行。对绝大多数普通 ChatGPT 用户来说，这次切换几乎无感，因为 GPT-5.5 整体更强；但 TechTimes 指出，不同模型版本在语气、啰嗦程度、格式习惯、拒答行为上会有差异，部分用户可能察觉到回复风格的微妙变化。\n\n真正受影响的是开发者。这次迁移没有走'分阶段日落'的正式流程，而是一次安静的运营动作，因此 OpenAI 的实务建议很直接：检查生产系统里是否还硬编码引用了 GPT-5.2、针对 GPT-5.5 重新测试提示词与输出解析逻辑、在 API 调用里显式锁定（pin）模型版本以防下次'又被自动换掉'、并在迁移前而不是迁移后调整工作流。",
+      "key_quotes": [
+        "Existing conversations that were running on GPT-5.2 automatically continue on the corresponding GPT-5.5 model.",
+        "Different model versions can differ in tone, verbosity, formatting habits, refusal behavior."
+      ],
+      "significance": "这是 OpenAI 模型生命周期管理日益'快速迭代、快速退役'的又一个缩影：当版本号一年要翻好几番，企业把模型当成稳定基础设施的假设正在被打破。对所有把 OpenAI API 嵌进生产系统的团队而言，这次静默迁移是一记提醒——不显式 pin 版本，就要随时准备好被悄悄换掉模型、并承受由此带来的行为漂移。",
+      "links": [
+        "https://www.techtimes.com/articles/318345/20260613/openai-retires-gpt-52-moves-everyone-gpt-55-what-changes-chatgpt-users-developers.htm"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-5.5", "GPT-5.2", "模型退役", "API"],
+      "category": "product_operators"
+    },
+    {
+      "id": "5",
+      "title": "经典超算 + 量子机'合体'上线：意大利 CINECA 把 IQM 54 量子比特接进 Leonardo 超算",
+      "source": "CINECA / IQM",
+      "source_name": "olegov Digital Anthropology Digest",
+      "source_url": "https://olegov.substack.com/p/ai-economics-geopolitics-newsletter-june-13-2026",
+      "story_key": "cineca-iqm-quantum-hpc",
+      "event_date": "2026-06-11",
+      "summary": "意大利超算中心 CINECA 于 6 月 11 日启用芬兰 IQM 的 54 量子比特 Radiance 量子计算机，并将其与 Leonardo 超级计算机集成，构建经典-量子混合的 HPC/AI 工作流。",
+      "detail": "意大利国家超算中心 CINECA 宣布启用 IQM 公司的 54 量子比特 Radiance 量子计算机，并把它直接接入欧洲顶级超算之一的 Leonardo，形成一套经典与量子混合的计算流水线。这种'超算 + 量子机'的紧耦合架构，目标是让研究者在同一个工作流里，把适合量子加速的子任务（如某些优化、量子化学、采样问题）交给量子处理单元，其余仍跑在经典 GPU/CPU 超算上。\n\n对 AI 而言，这类混合 HPC 平台的意义在于探索量子计算能否为机器学习中的特定环节（优化、采样、模拟）提供加速路径。虽然现阶段 54 量子比特仍属于'有噪声中等规模量子'（NISQ）阶段、离实用化通用量子计算尚远，但欧洲把量子机直接并入旗舰超算、向科研社区开放，是在为'后摩尔时代'的算力基础设施提前布局，也契合本周 G7 上欧洲强调'技术主权'的大基调。",
+      "key_quotes": [
+        "Italy's CINECA activates IQM's 54-qubit Radiance quantum computer integrated with the Leonardo supercomputer for hybrid classical-quantum workflows."
+      ],
+      "significance": "在所有人都盯着 GPU 算力荒的时候，量子-经典混合超算是一条被低估的长线。欧洲率先把量子机并入旗舰超算并向科研开放，既是技术布局，也是'AI/算力主权'叙事的一部分——与本周 G7 上欧洲力推减少对美依赖、自建关键基础设施的主线相互呼应。",
+      "links": [
+        "https://olegov.substack.com/p/ai-economics-geopolitics-newsletter-june-13-2026"
+      ],
+      "tags": ["量子计算", "超算", "CINECA", "IQM", "欧洲"],
+      "category": "news"
+    }
+  ]
+}
