@@ -1,0 +1,197 @@
+{
+  "date": "2026-06-16",
+  "total_candidates": 21,
+  "kept": 6,
+  "dropped": 15,
+  "decisions": [
+    {
+      "story_key": "qualcomm-tenstorrent-acquisition",
+      "event_date": "2026-06-15",
+      "title_en": "Qualcomm in talks to acquire Jim Keller's Tenstorrent for $8-10B",
+      "source": "The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Reported Monday June 15 by The Information; Qualcomm in talks to buy AI chip startup Tenstorrent (founded by Jim Keller) at $8B-$10B to push into data-center/AI chips."
+    },
+    {
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-15",
+      "title_en": "At Evian G7, leaders frame AI model concentration as systemic risk; Carney compares Fable 5 shutdown to 2008",
+      "source": "Euronews / buildfastwithai",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-06-12 (CEOs attending) and 2026-06-15 (AI-sovereignty split). New info: with summit underway (day 1-2), leaders are debating AI infrastructure concentration as a financial-stability/systemic risk, with Canada's Carney explicitly comparing over-reliance on Mythos/Fable models to 2008 crisis structural vulnerabilities and pushing for diversification + common safety standards."
+    },
+    {
+      "story_key": "openai-partner-network",
+      "event_date": "2026-06-15",
+      "title_en": "OpenAI launches $150M Partner Network to certify 300,000 consultants",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Announced June 15: OpenAI's first formal partner program, $150M, target 300k certified consultants by year-end, launch cohort Accenture/Bain/BCG/McKinsey/PwC, three tiers, plus Forward Deployed Experts pilot."
+    },
+    {
+      "story_key": "anthropic-agent-sdk-billing",
+      "event_date": "2026-06-15",
+      "title_en": "Anthropic splits Agent SDK / claude -p usage into separate metered credit pool effective June 15",
+      "source": "The New Stack",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Effective June 15: Agent SDK, claude -p, Claude Code GitHub Actions and third-party agent usage move off subscription limits onto a separate monthly Agent SDK credit ($20 Pro/$100 Max5x/$200 Max20x) metered at full API rates, no rollover; heavy automation users face large effective cost increases."
+    },
+    {
+      "story_key": "meta-superintelligence-reorg",
+      "event_date": "2026-06-12",
+      "title_en": "Zuckerberg admits 'mistakes' in Meta AI restructuring, rules out more 2026 layoffs",
+      "source": "the-decoder / Cryptopolitan",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback (distinct from meta-ai-cost-controls which is about token limits). June 12 internal memo: Zuckerberg concedes mistakes in AI reorg under Alexandr Wang's Superintelligence Labs, no more company-wide layoffs in 2026, restoring offsets/desks/hackathon and seeking new roles for model-training staff."
+    },
+    {
+      "story_key": "ace-robotics-kairos-world-model",
+      "event_date": "2026-06-15",
+      "title_en": "Shanghai's ACE Robotics open-sources Kairos world model, tops 4 embodied-AI benchmarks",
+      "source": "Manila Times / Yahoo Finance",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. June 15: ACE Robotics (Shanghai) says its open-source Kairos world model ranked #1 across RoboTwin 2.0, LIBERO-Plus, WorldModelBench Robot and DreamGen as of June 12; hybrid SSM + VLA backbone, real-time generative world model (Kairos 3.0-4B), available on GitHub/HF/ModelScope."
+    },
+    {
+      "story_key": "ai-bioweapons-dna-screening-letter",
+      "event_date": "2026-06-03",
+      "title_en": "Altman, Amodei, Hassabis, Suleyman urge Congress to mandate synthetic DNA screening",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-03/05 is >5 days before 2026-06-16."
+    },
+    {
+      "story_key": "nvidia-ising-quantum",
+      "event_date": "2026-04-14",
+      "title_en": "NVIDIA launches Ising, first open AI models for quantum computing",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced April 2026, far outside 5-day window."
+    },
+    {
+      "story_key": "humanoid-robot-halfmarathon",
+      "event_date": "2026-04-19",
+      "title_en": "Honor's Lightning robot runs Beijing half-marathon in 50:26",
+      "source": "NPR",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Event April 19, 2026, outside window."
+    },
+    {
+      "story_key": "openai-hiro-acquisition",
+      "event_date": "2026-04-15",
+      "title_en": "OpenAI acquires personal-finance startup Hiro",
+      "source": "American Banker",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Acquisition reported April 2026, outside window."
+    },
+    {
+      "story_key": "cognition-series-d",
+      "event_date": "2026-05-28",
+      "title_en": "Cognition raises $1B at $26B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Round closed May 27-28, 2026, outside 5-day window."
+    },
+    {
+      "story_key": "legora-series-d",
+      "event_date": "2026-03-10",
+      "title_en": "Legora raises $550M Series D at $5.55B for legal AI",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced March 10, 2026, outside window."
+    },
+    {
+      "story_key": "anthropic-series-h-65b",
+      "event_date": "2026-05-26",
+      "title_en": "Anthropic $65B Series H at $965B valuation",
+      "source": "Crunchbase News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Late-May round, outside window (and already widely covered)."
+    },
+    {
+      "story_key": "novo-nordisk-openai",
+      "event_date": "2026-04-14",
+      "title_en": "Novo Nordisk partners with OpenAI across operations",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced April 14, 2026, outside window."
+    },
+    {
+      "story_key": "boston-dynamics-deepmind-spot",
+      "event_date": "2026-04-15",
+      "title_en": "Boston Dynamics integrates Gemini Robotics-ER 1.6 into Spot",
+      "source": "The Robot Report",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Integration announced April 2026 (partnership at CES Jan 2026), outside window."
+    },
+    {
+      "story_key": "australia-ai-infrastructure",
+      "event_date": "2026-04-23",
+      "title_en": "Microsoft $18B + OpenAI A$7B Australia AI infrastructure",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Microsoft deal April 2026, OpenAI deal Dec 2025; the 'June $18B deals' framing conflates older commitments. Outside window."
+    },
+    {
+      "story_key": "greyvibe-ai-cyberattack",
+      "event_date": "2026-05-29",
+      "title_en": "Russia-linked GREYVIBE uses ChatGPT+Gemini against Ukraine",
+      "source": "The Hacker News / WithSecure",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "WithSecure report late May / early June 2; outside 5-day window."
+    },
+    {
+      "story_key": "karpathy-voice-mode-gap",
+      "event_date": "2026-04-10",
+      "title_en": "Karpathy/Willison flag ChatGPT voice mode runs older GPT-4o model",
+      "source": "simonwillison.net",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Observation dated April 10, 2026, outside window."
+    },
+    {
+      "story_key": "gemma4-bedrock",
+      "event_date": "2026-04-02",
+      "title_en": "Google Gemma 4 open model (now on AWS Bedrock)",
+      "source": "Google Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Gemma 4 released April 2, 2026; June 15 is only Bedrock availability, a minor distribution update."
+    },
+    {
+      "story_key": "gemini-3-5-pro-release",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini 3.5 Pro still pending (expected before June 30)",
+      "source": "TechTimes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at I/O May 19; still not shipped as of June 16, so no new dateable development this week."
+    },
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-16",
+      "title_en": "Fable 5 remains offline, day 5 of export-control shutdown",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-06-09 (Fable 5 launch) and 2026-06-13 (export-control shutdown). 'Still offline, license applications filed' is status continuation with no substantive new development."
+    }
+  ]
+}
