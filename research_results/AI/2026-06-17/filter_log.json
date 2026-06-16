@@ -1,0 +1,116 @@
+{
+  "date": "2026-06-17",
+  "total_candidates": 12,
+  "kept": 5,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "spacex-cursor-acquisition",
+      "event_date": "2026-06-16",
+      "title_en": "SpaceX to acquire Cursor maker Anysphere for $60B all-stock",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. SpaceX signed merger agreement June 16 to buy Anysphere/Cursor for $60B all-stock to bolster xAI/Grok coding; largest fresh story of the day."
+    },
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-15",
+      "title_en": "Anthropic sends Frontier Red Team to Washington to lift Fable 5 export ban; jailbreak details public",
+      "source": "POLITICO / Fortune",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 06-13 (export-control order + global shutdown). New info on 06-15: Anthropic dispatched top safety/research staff to DC; Tom Brown met Lutnick & Cairncross; Frontier Red Team briefed Commerce's CAISI; Amazon's guardrail-bypass warning revealed as the trigger; jailbreak (multi-agent pack hunt extracting exploit + drug-synthesis route) now public."
+    },
+    {
+      "story_key": "zhipu-glm-5.2",
+      "event_date": "2026-06-13",
+      "title_en": "Z.ai/Zhipu GLM-5.2 open-weights beats GPT-5.5 on coding at 1/6 cost, MIT weights on HF",
+      "source": "VentureBeat",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. 744B-param MoE (40B active), 1M context, MIT weights live on Hugging Face (zai-org/GLM-5.2), edges GPT-5.5 on FrontierSWE/Terminal-Bench at ~1/6 the cost. event_date 06-13 is 4 days old (within 5-day window)."
+    },
+    {
+      "story_key": "chatgpt-1-billion-mau",
+      "event_date": "2026-06-12",
+      "title_en": "ChatGPT crosses 1 billion monthly active users, fastest app ever",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. ChatGPT reached 1B monthly app users (announced 06-12), fastest app in history to the milestone (Google Maps took ~5yr). event_date 06-12 is exactly 5 days (not >5), eligible."
+    },
+    {
+      "story_key": "moonshot-kimi-k27-code",
+      "event_date": "2026-06-15",
+      "title_en": "Moonshot adds HighSpeed Mode to Kimi K2.7-Code, up to 6x faster throughput",
+      "source": "TechTimes",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 06-12 (K2.7-Code open-sourced). New info on 06-15: HighSpeed Mode delivering up to 6x faster token throughput; but skips independent benchmark submission."
+    },
+    {
+      "story_key": "spacex-nvidia-skhynix-memory",
+      "event_date": "2026-06-07",
+      "title_en": "NVIDIA and SK hynix announce multiyear AI-memory partnership",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-07 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "naver-nvidia-ai-factory",
+      "event_date": "2026-06-07",
+      "title_en": "NAVER and NVIDIA to build gigawatt-scale AI factories in South Korea",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-07 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-sora-shutdown",
+      "event_date": "2026-04-26",
+      "title_en": "OpenAI discontinues Sora; burned $15M/day vs $2.1M lifetime revenue",
+      "source": "unrot.co",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying shutdown event 2026-04-26 far outside the 5-day window; resurfacing in a June roundup does not reset event_date."
+    },
+    {
+      "story_key": "unitree-gd01-mecha",
+      "event_date": "2026-05-12",
+      "title_en": "Unitree unveils GD01 manned transforming mecha at 3.9M yuan",
+      "source": "Global Times",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced 2026-05-12, well outside the 5-day window."
+    },
+    {
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-17",
+      "title_en": "G7 Evian summit concludes; AI on the leaders' agenda",
+      "source": "Consilium",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-12 and 06-15. Summit concludes today but no concrete new AI communique/decision facts available yet to distinguish from prior coverage."
+    },
+    {
+      "story_key": "prometheus-bezos-physical-ai",
+      "event_date": "2026-06-11",
+      "title_en": "Bezos's Prometheus raises $12B at $41B valuation",
+      "source": "TechTimes",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-11 with full $12B/$41B details. No substantively new information."
+    },
+    {
+      "story_key": "hhs-aero-medicaid-audit",
+      "event_date": "2026-05-21",
+      "title_en": "HHS AERO uses ChatGPT to audit 50 states' Medicaid programs",
+      "source": "unrot.co",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced 2026-05-21, outside the 5-day window."
+    }
+  ]
+}
