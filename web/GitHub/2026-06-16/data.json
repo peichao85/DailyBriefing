@@ -1,0 +1,552 @@
+{
+  "date": "2026-06-16",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-06-16",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "Ponytail：让 AI 像最懒资深工程师一样克制",
+          "source": "@DietrichGebert",
+          "source_name": "GitHub",
+          "summary": "一套面向 AI 编码 agent 的技能与规则集，核心理念是「最好的代码是你从未写过的代码」，引导模型遵循 YAGNI、克制过度工程。",
+          "detail": "Ponytail 把「最懒的资深工程师」思路固化成 agent 技能与 prompt 规则，让模型在动手前先质疑需求、避免过度设计。项目声称兼容 Claude Code、Cursor 等 13 种 agent，以 MIT 许可发布，主打 prompt engineering 与 YAGNI 实践。",
+          "significance": "发布数日即收获 16,335 stars，位列本周新晋热门第一。",
+          "links": [
+            "https://github.com/DietrichGebert/ponytail"
+          ],
+          "image": "assets/github-avatars/DietrichGebert-ponytail.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "AI",
+            "Agent",
+            "prompt engineering",
+            "开源"
+          ],
+          "stars": 16335,
+          "stars_gained": null,
+          "language": "JavaScript",
+          "forks": 680,
+          "owner": "DietrichGebert",
+          "repo": "ponytail"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "MiMo Code：小米推出的终端原生编码助手",
+          "source": "@XiaomiMiMo",
+          "source_name": "GitHub",
+          "summary": "小米开源的终端原生 AI 编码 agent，可读写代码、执行命令、管理 Git，并通过持久记忆系统在多次会话间保持对项目的深度理解。",
+          "detail": "MiMoCode 是一个在终端运行的 AI 编码助手，支持读写代码、运行命令与 Git 操作，并内置持久记忆系统以跨会话维持对项目的理解，同时持续自我改进。内置 MiMo Auto 作为限时免费通道，可零配置上手，主打「模型与 Agent 协同进化」。",
+          "significance": "发布约一周即收获 9,009 stars，是本周新晋热门第二名。",
+          "links": [
+            "https://github.com/XiaomiMiMo/MiMo-Code"
+          ],
+          "image": "assets/github-avatars/XiaomiMiMo-MiMo-Code.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "Agent",
+            "命令行",
+            "开源"
+          ],
+          "stars": 9009,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 791,
+          "owner": "XiaomiMiMo",
+          "repo": "MiMo-Code"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "improve：用强模型审计代码、写计划交给弱模型执行",
+          "source": "@shadcn",
+          "source_name": "GitHub",
+          "summary": "一个 agent 技能：用最强模型审计代码库并撰写实施计划，再交由更便宜的模型去执行，自身从不直接写代码。",
+          "detail": "improve 的思路是让最强模型负责「智能复利」的部分——理解代码库、判断什么值得做、写出规格说明，而把执行交给廉价模型。它输出的计划是自包含的 markdown 文件，任何支持 Agent Skills 格式的 agent（或人类）都能接手实现，可通过 npx skills add shadcn/improve 安装。",
+          "significance": "发布约一周即收获 4,870 stars，跻身本周新晋热门前列。",
+          "links": [
+            "https://github.com/shadcn/improve"
+          ],
+          "image": "assets/github-avatars/shadcn-improve.jpg",
+          "image_type": "logo",
+          "tags": [
+            "AI",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 4870,
+          "stars_gained": null,
+          "language": null,
+          "forks": 167,
+          "owner": "shadcn",
+          "repo": "improve"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "Omnigent：统一各家 AI agent 的元框架",
+          "source": "@omnigent-ai",
+          "source_name": "GitHub",
+          "summary": "为 Claude Code、Codex、Pi 及自研 agent 提供统一抽象层，可自由切换或组合不同 harness，并加上策略、沙箱与实时协作。",
+          "detail": "Omnigent 是一个「元 harness」，在多种 AI agent 之上提供通用层：无需改写即可切换或组合 Claude Code、Codex、Pi 等 harness，用策略和沙箱进行约束，并支持多设备实时协作同一会话。项目用 Python 编写，并提供 macOS 桌面应用下载。",
+          "significance": "发布数日即收获 1,900 stars，进入本周新晋热门榜。",
+          "links": [
+            "https://github.com/omnigent-ai/omnigent"
+          ],
+          "image": "assets/github-avatars/omnigent-ai-omnigent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 1900,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 229,
+          "owner": "omnigent-ai",
+          "repo": "omnigent"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "kage：把网站克隆成离线可看的纯静态副本",
+          "source": "@tamnd",
+          "source_name": "GitHub",
+          "summary": "用真实无头 Chrome 渲染网页后剥离全部 JavaScript，将站点克隆为可离线浏览、不运行任何代码的本地文件夹。",
+          "detail": "kage（影）用真实无头 Chrome 打开每个页面，等待渲染稳定后快照人类所见的 DOM，再删除全部 JavaScript，并把 CSS、图片、字体下载到本地路径。落盘的内容看起来与线上一致但不执行任何代码，适合长期保存网页。项目用 Go 编写，提供命令行、打包与双击应用等多种用法。",
+          "significance": "发布仅两天即收获 1,524 stars，登上本周新晋热门榜。",
+          "links": [
+            "https://github.com/tamnd/kage"
+          ],
+          "image": "assets/github-avatars/tamnd-kage.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "命令行",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 1524,
+          "stars_gained": null,
+          "language": "Go",
+          "forks": 35,
+          "owner": "tamnd",
+          "repo": "kage"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "人味儿写作：让 AI 改稿不抹掉文字背后的人",
+          "source": "@orange2ai",
+          "source_name": "GitHub",
+          "summary": "一个 AI agent 技能，专为自己写完或口述后让 AI 改稿的场景设计，目标是在润色的同时保留「人味儿」与作者的存在感。",
+          "detail": "作者发现即便用最贵的模型改稿，文字也会一遍比一遍缺人味儿，于是把讨论出的写作「心法」做成了技能。仓库包含 SKILL.md 心法本体、改稿后的检查清单（参考 Wikipedia「AI 写作迹象」并做中文适配），以及一份完整的失败解剖案例。开源个人用途免费，闭源商用需授权。",
+          "significance": "发布数日即收获 669 stars，进入本周新晋热门榜。",
+          "links": [
+            "https://github.com/orange2ai/renwei-writing"
+          ],
+          "image": "assets/github-avatars/orange2ai-renwei-writing.jpg",
+          "image_type": "logo",
+          "tags": [
+            "AI",
+            "Agent",
+            "写作",
+            "开源"
+          ],
+          "stars": 669,
+          "stars_gained": null,
+          "language": null,
+          "forks": 64,
+          "owner": "orange2ai",
+          "repo": "renwei-writing"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "boo：基于 libghostty 的终端多路复用器",
+          "source": "@coder",
+          "source_name": "GitHub",
+          "summary": "用 Zig 编写、构建在 libghostty 之上的 GNU screen 风格终端多路复用器，能精确掌握每个会话的屏幕状态。",
+          "detail": "boo 把每个会话的输出都通过 Ghostty 的终端模拟内核解析，因此始终掌握每个会话的精确屏幕状态：内容、样式、光标、回滚缓冲与终端模式。这些状态用于在重新连接时还原终端、回答终端查询等。项目由 Coder 团队用 Zig 编写。",
+          "significance": "发布约一周即收获 598 stars，登上本周新晋热门榜。",
+          "links": [
+            "https://github.com/coder/boo"
+          ],
+          "image": "assets/github-avatars/coder-boo.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Zig",
+            "命令行",
+            "终端",
+            "开源"
+          ],
+          "stars": 598,
+          "stars_gained": null,
+          "language": "Zig",
+          "forks": 15,
+          "owner": "coder",
+          "repo": "boo"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "FanBox：vibe coding 的本地驾驶舱",
+          "source": "@alchaincyf",
+          "source_name": "GitHub",
+          "summary": "面向编码 agent 的本地桌面驾驶舱：左侧浏览文件，右侧内嵌真实终端跑 Claude Code 或 Codex，中间看清每一次改动。",
+          "detail": "FanBox 让你一边浏览、预览、编辑本地文件，一边在内嵌的真实终端里运行 Claude Code 或任意 coding agent。agent 每改一个文件，对应卡片就会亮起——「找回文件 → 运行 agent → 看清改动」在一个窗口完成。基于 Electron，主打 local-first，可随时接手 agent 的工作。",
+          "significance": "发布约一周即收获 574 stars，进入本周新晋热门榜。",
+          "links": [
+            "https://github.com/alchaincyf/fanbox"
+          ],
+          "image": "assets/github-avatars/alchaincyf-fanbox.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "AI",
+            "Agent",
+            "Electron",
+            "开源"
+          ],
+          "stars": 574,
+          "stars_gained": null,
+          "language": "JavaScript",
+          "forks": 81,
+          "owner": "alchaincyf",
+          "repo": "fanbox"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "Pixel2Motion：把位图 logo 转成 SVG 动效的技能",
+          "source": "@nolangz",
+          "source_name": "GitHub",
+          "summary": "一个开源的 Codex / Claude 技能，把 PNG、JPG 等位图 logo 转成平滑的 SVG，并生成 logo 动画、HTML 动效演示与 GIF/视频预览。",
+          "detail": "Pixel2Motion 把光栅 logo 重建为干净、适合做动效的 SVG，再导出 logo 动画 HTML、GIF/视频预览以及 motion QA 证据。适用于 logo reveal、品牌 motion、像素到矢量重建等设计与开发场景，强调可审查的矢量拟合与可复用的 SVG 结构。",
+          "significance": "发布数日即收获 473 stars，登上本周新晋热门榜。",
+          "links": [
+            "https://github.com/nolangz/pixel2motion"
+          ],
+          "image": "assets/github-avatars/nolangz-pixel2motion.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "设计工具",
+            "开源"
+          ],
+          "stars": 473,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 39,
+          "owner": "nolangz",
+          "repo": "pixel2motion"
+        },
+        {
+          "id": "new_hot-10",
+          "title": "architect-loop：Fable 5 当架构师、Codex 当建造者",
+          "source": "@DanMcInerney",
+          "source_name": "GitHub",
+          "summary": "一套跨厂商 agent 协作技能：Claude Fable 5 负责规划与评审，GPT-5.5 Codex 负责实现与研究，仓库本身充当记忆。",
+          "detail": "architect-loop 用两个 Claude Code 技能把分工接成一个以仓库为中心的循环：先写好规格与验收门槛，Codex 在全新上下文中实现，Fable 在集成前审查证据。默认无需 API key，跑在你已有的订阅上——需要任意付费版 Claude Code 与登录 ChatGPT 的 Codex CLI。",
+          "significance": "发布数日即收获 453 stars，进入本周新晋热门榜。",
+          "links": [
+            "https://github.com/DanMcInerney/architect-loop"
+          ],
+          "image": "assets/github-avatars/DanMcInerney-architect-loop.jpg",
+          "image_type": "logo",
+          "tags": [
+            "HTML",
+            "AI",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 453,
+          "stars_gained": null,
+          "language": "HTML",
+          "forks": 34,
+          "owner": "DanMcInerney",
+          "repo": "architect-loop"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "ECC：面向 agent harness 的性能优化系统",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "为 Claude Code、Codex、Opencode、Cursor 等 agent 提供技能、本能、记忆、安全与「研究优先」的开发体系。",
+          "detail": "ECC 是一套跨 harness 的 agent 性能优化系统，覆盖 skills、instincts、memory、security 与 research-first 开发方法，并提供 ecc-universal、ecc-agentshield 等 npm 包与 GitHub App。项目特别提醒只从官方渠道安装，警惕第三方镜像。",
+          "significance": "本周新增约 3,000 stars，星数增速位列上升之星榜首。",
+          "links": [
+            "https://github.com/affaan-m/ECC"
+          ],
+          "image": "assets/github-avatars/affaan-m-ECC.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "AI",
+            "Agent",
+            "MCP",
+            "开源"
+          ],
+          "stars": 216152,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 33220,
+          "owner": "affaan-m",
+          "repo": "ECC"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "Hermes Agent：Nous Research 的成长型 agent",
+          "source": "@NousResearch",
+          "source_name": "GitHub",
+          "summary": "Nous Research 推出的 AI agent，定位为「与你一起成长的 agent」，支持桌面端并兼容主流模型生态。",
+          "detail": "Hermes Agent 由 Nous Research 开发，提供 Web 与桌面版（Hermes Desktop），并配有完整文档与 Discord 社区。从 topics 可见它围绕 Claude、Codex、OpenAI 等多种模型与 agent 生态，采用 MIT 许可，用 Python 编写。",
+          "significance": "本周新增约 3,000 stars，与 ECC 并列上升之星增速最快之列。",
+          "links": [
+            "https://github.com/NousResearch/hermes-agent"
+          ],
+          "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "LLM",
+            "开源"
+          ],
+          "stars": 194441,
+          "stars_gained": 3000,
+          "language": "Python",
+          "forks": 34093,
+          "owner": "NousResearch",
+          "repo": "hermes-agent"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "OpenClaw：跨平台的个人 AI 助手",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "一个可在任意操作系统与平台运行的个人 AI 助手，强调「拥有自己的数据」，以龙虾为吉祥物。",
+          "detail": "OpenClaw 定位为属于你自己的个人 AI 助手，支持任意 OS 与平台，主打 own-your-data 的本地优先理念。项目用 TypeScript 编写，配有完整 CI 与发布流程，社区氛围鲜明（口号「EXFOLIATE!」）。",
+          "significance": "本周新增约 1,776 stars，是上升之星榜上增速最快的项目之一。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "assets/github-avatars/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "助手",
+            "开源"
+          ],
+          "stars": 378882,
+          "stars_gained": 1776,
+          "language": "TypeScript",
+          "forks": 79273,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "yt-dlp：功能丰富的命令行音视频下载器",
+          "source": "@yt-dlp",
+          "source_name": "GitHub",
+          "summary": "支持数千个站点的命令行音视频下载器，是 youtube-dl 的分支，长期保持活跃维护。",
+          "detail": "yt-dlp 是一个功能丰富的命令行音视频下载工具，基于已停滞的 youtube-dlc，对 youtube-dl 做了大量扩展。它支持数千网站、SponsorBlock、地理限制绕过、丰富的视频筛选与文件系统选项，用 Python 编写。",
+          "significance": "本周新增约 1,687 stars，老牌工具依旧稳居上升之星榜。",
+          "links": [
+            "https://github.com/yt-dlp/yt-dlp"
+          ],
+          "image": "assets/github-avatars/yt-dlp-yt-dlp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "命令行",
+            "下载器",
+            "开源"
+          ],
+          "stars": 170833,
+          "stars_gained": 1687,
+          "language": "Python",
+          "forks": 14400,
+          "owner": "yt-dlp",
+          "repo": "yt-dlp"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "n8n：原生 AI 能力的工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "面向技术团队的 fair-code 工作流自动化平台，融合可视化搭建与自定义代码，支持自托管或云端、400+ 集成。",
+          "detail": "n8n 让技术团队兼得代码的灵活与无代码的速度：可编写 JavaScript/Python、添加 npm 包，也可用可视化界面搭建。它基于 LangChain 构建 AI agent 工作流，支持自托管的 fair-code 许可，提供企业级权限、SSO 与气隙部署，集成超过 400 个服务。",
+          "significance": "本周新增约 1,187 stars，持续位列上升之星榜。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "assets/github-avatars/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "自动化",
+            "MCP",
+            "开源"
+          ],
+          "stars": 192672,
+          "stars_gained": 1187,
+          "language": "TypeScript",
+          "forks": 58574,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "Dify：生产级 agentic 工作流开发平台",
+          "source": "@langgenius",
+          "source_name": "GitHub",
+          "summary": "面向生产环境的 agentic 工作流开发平台，支持低代码/无代码编排，集成 RAG、多模型与 MCP。",
+          "detail": "Dify 是一个生产就绪的平台，用于开发 agentic 工作流，提供云端与自托管两种部署方式。它围绕 LLM 编排、RAG、低代码/无代码界面构建，支持 OpenAI、Gemini、GPT-4 等多种模型以及 MCP，前端基于 Next.js。",
+          "significance": "本周新增约 998 stars，稳居上升之星榜。",
+          "links": [
+            "https://github.com/langgenius/dify"
+          ],
+          "image": "assets/github-avatars/langgenius-dify.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "RAG",
+            "MCP",
+            "开源"
+          ],
+          "stars": 145349,
+          "stars_gained": 998,
+          "language": "TypeScript",
+          "forks": 22861,
+          "owner": "langgenius",
+          "repo": "dify"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "Ollama：本地运行各类开源大模型",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "让你在本地快速跑起 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等开源模型。",
+          "detail": "Ollama 用极简命令即可在 macOS、Windows、Linux 与 Docker 上下载并运行开源大模型，并提供 ollama-python、ollama-js 等库。它可作为本地模型服务接入现有 agent，用 Go 编写，覆盖 DeepSeek、Qwen、Gemma、Llama、Mistral 等众多模型。",
+          "significance": "本周新增约 744 stars，持续位列上升之星榜。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "assets/github-avatars/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "LLM",
+            "本地部署",
+            "开源"
+          ],
+          "stars": 174259,
+          "stars_gained": 744,
+          "language": "Go",
+          "forks": 16635,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "VS Code：微软开源的代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软与社区共同开发的开源代码编辑器 Code - OSS，以 MIT 许可向所有人开放源代码。",
+          "detail": "该仓库是微软开发 Visual Studio Code 产品的地方，代码、issue、路线图、月度迭代计划与收尾计划都在此公开。源代码以标准 MIT 许可对所有人开放，用 TypeScript 编写。",
+          "significance": "本周新增约 401 stars，依旧出现在上升之星榜上。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "assets/github-avatars/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 186347,
+          "stars_gained": 401,
+          "language": "TypeScript",
+          "forks": 40442,
+          "owner": "microsoft",
+          "repo": "vscode"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "prompts.chat：开源的社区 prompt 库",
+          "source": "@f",
+          "source_name": "GitHub",
+          "summary": "原 Awesome ChatGPT Prompts，现为可分享、发现与收藏 prompt 的开源社区库，可自托管以保障隐私。",
+          "detail": "prompts.chat 自称全球最大的开源 AI prompt 库，可分享、发现并收藏社区提交的 prompt，兼容 ChatGPT、Claude、Gemini、Llama、Mistral 等。项目免费开源，组织可自托管以获得完整隐私，前端用 TypeScript/Next.js 实现。",
+          "significance": "本周新增约 396 stars，持续位列上升之星榜。",
+          "links": [
+            "https://github.com/f/prompts.chat"
+          ],
+          "image": "assets/github-avatars/f-prompts.chat.jpg",
+          "image_type": "logo",
+          "tags": [
+            "HTML",
+            "AI",
+            "prompt engineering",
+            "开源"
+          ],
+          "stars": 163779,
+          "stars_gained": 396,
+          "language": "HTML",
+          "forks": 21239,
+          "owner": "f",
+          "repo": "prompts.chat"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "Langflow：搭建与部署 AI agent 工作流的平台",
+          "source": "@langflow-ai",
+          "source_name": "GitHub",
+          "summary": "一个强大的可视化平台，用于构建与部署 AI 驱动的 agent 和工作流，并内置 API 与 MCP 服务。",
+          "detail": "Langflow 为开发者同时提供可视化的编排体验与内置的 API、MCP 服务器，把每个工作流变成可被任意框架应用调用的工具。它支持多 agent、生成式 AI 与大语言模型，基于 react-flow，用 Python 编写。",
+          "significance": "本周新增约 352 stars，登上上升之星榜。",
+          "links": [
+            "https://github.com/langflow-ai/langflow"
+          ],
+          "image": "assets/github-avatars/langflow-ai-langflow.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "MCP",
+            "开源"
+          ],
+          "stars": 149716,
+          "stars_gained": 352,
+          "language": "Python",
+          "forks": 9276,
+          "owner": "langflow-ai",
+          "repo": "langflow"
+        }
+      ]
+    }
+  ]
+}
