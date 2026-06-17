@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-18",
+  "total_candidates": 16,
+  "kept": 8,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "apple-memory-price-hike",
+      "event_date": "2026-06-17",
+      "title_en": "Tim Cook says Apple price increases 'unavoidable' due to AI-driven memory crunch",
+      "source": "WSJ",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. WSJ exclusive: Cook confirms AI datacenter demand has made memory/storage shortages a 'hundred-year flood', forcing substantial Apple price hikes."
+    },
+    {
+      "story_key": "odyssey-world-models-funding",
+      "event_date": "2026-06-17",
+      "title_en": "World model startup Odyssey raises $310M at $1.45B, backed by Amazon and AMD",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New Series B $310M, Amazon/AMD/GV; AWS preferred cloud + Trainium; pivots away from prior Nvidia backing."
+    },
+    {
+      "story_key": "openai-deployment-simulation",
+      "event_date": "2026-06-16",
+      "title_en": "OpenAI introduces Deployment Simulation to catch model drift before release",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Replays ~1.3M real (de-identified) conversations through candidate models to predict misalignment/reward-hacking pre-launch."
+    },
+    {
+      "story_key": "openai-gpt56-launch",
+      "event_date": "2026-06-16",
+      "title_en": "GPT-5.6 imminent; chief scientist Pachocki calls it a 'meaningful improvement'",
+      "source": "Tech Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New internal comms from Jakub Pachocki, leaked specs (1.5M context), sub-60-day release cadence; Polymarket ~83% June 22-28."
+    },
+    {
+      "story_key": "us-ai-sovereign-wealth-fund",
+      "event_date": "2026-06-17",
+      "title_en": "Sanders' American AI Sovereign Wealth Fund Act: one-time 50% stock tax on big AI firms",
+      "source": "The Hill",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bill formally surfaced Jun 17 with concrete $200M-revenue threshold, stock-paid 50% tax, federal board seats/voting shares."
+    },
+    {
+      "story_key": "unreal-engine-6-ai",
+      "event_date": "2026-06-17",
+      "title_en": "Epic's Unreal Engine 6 to integrate Claude and Gemini, unify UE5 + Fortnite editor",
+      "source": "Epic Games",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Epic announces UE6 (late 2027) embedding frontier LLMs (Claude, Gemini) directly into the engine; consolidates editors."
+    },
+    {
+      "story_key": "xai-grok-product-updates",
+      "event_date": "2026-06-16",
+      "title_en": "xAI ships Grok Skills, Agent Dashboard for Build, and 'Go' shopping assistant",
+      "source": "xAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Cluster of Grok product launches: persistent Skills, multi-session coding Agent Dashboard, and Gopuff 'Go' shopping agent."
+    },
+    {
+      "story_key": "anthropic-claude-design",
+      "event_date": "2026-06-17",
+      "title_en": "Anthropic upgrades Claude Design with design-system imports + bidirectional Claude Code",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Claude Design adds design-system imports, two-way Claude Code integration, improved token efficiency."
+    },
+    {
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "title_en": "Andrej Karpathy joins Anthropic pre-training team",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is ~30 days old (>5 day limit)."
+    },
+    {
+      "story_key": "openai-sora-shutdown",
+      "event_date": "2026-04-26",
+      "title_en": "OpenAI discontinues Sora video app",
+      "source": "Variety",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Sora web/app discontinued 2026-04-26 (>5 day limit); only resurfaced in weekly recaps."
+    },
+    {
+      "story_key": "nvidia-skhynix-memory",
+      "event_date": "2026-06-07",
+      "title_en": "NVIDIA and SK hynix sign multiyear next-gen memory pact",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-07 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "nvidia-naver-sovereign-ai",
+      "event_date": "2026-06-07",
+      "title_en": "NAVER to scale sovereign AI on NVIDIA DSX at GAK Sejong",
+      "source": "NVIDIA",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-07 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "gemini-35-pro-launch",
+      "event_date": "2026-05-19",
+      "title_en": "Gemini 3.5 Pro still in limited preview, GA expected 'next month'",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "No concrete dated development; last hard event was the May 19 I/O announcement (>5 days). Still preview as of mid-June, no GA."
+    },
+    {
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-17",
+      "title_en": "G7 Evian summit concludes with AI on the agenda",
+      "source": "ts2.tech",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published Jun 12 and Jun 15 (g7-ai-ceos-summit). No specific new AI communiqué/outcome found for Jun 16-17 beyond prior coverage."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek V4 open-source model",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-24 (>5 day limit); surfaced only as context in China open-source roundups."
+    },
+    {
+      "story_key": "microsoft-mai-coding-models",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft unveils MAI-Code-1-Flash and MAI-Thinking-1",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-02 is 16 days old (>5 day limit)."
+    }
+  ]
+}
