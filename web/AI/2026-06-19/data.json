@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-19",
+  "category": "AI",
+  "title": "OpenAI 上市前财报外泄：$385 亿净亏中 $415 亿是改制纸面账，真实经营亏 $209 亿；G7 午餐桌上 Amodei、Hassabis 当面向 Trump 提议'美国领衔、排除中国'的 AI 联盟，峰会只签下不具约束力的未成年人安全承诺；AI 代理把 GitHub 写崩，微软被迫向死对头 AWS 借产能",
+  "items": [
+    {
+      "id": "1",
+      "title": "把账本摊开给 IPO 看：OpenAI 2025 年净亏 $385 亿，但其中 $415 亿是'改制'纸面亏损，真实经营亏 $209 亿",
+      "source": "Ed Zitron / FT",
+      "source_name": "Financial Times",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/openai-2025-financials-leaked-38-121508294.html",
+      "story_key": "openai-2025-financials-leak",
+      "event_date": "2026-06-16",
+      "summary": "经独立博主 Ed Zitron 披露、《金融时报》核实的 OpenAI 2025 经审计财报显示：全年营收 $130.7 亿（同比翻三倍），总成本 $340 亿，经营亏损 $209 亿，净亏损高达 $385 亿——但其中约 $415 亿是非营利转营利改制带来的非现金账面亏损。",
+      "detail": "一份据称经过审计的 OpenAI 2025 年财报本周（6 月 16 日）外泄，由独立博主 Ed Zitron 首发、《金融时报》独立核实。核心数字：2025 年营收 $130.7 亿，较 2024 年的 $37 亿增长逾两倍；但总成本与费用达 $340 亿，其中研发 $191.8 亿、销售与市场 $57.3 亿，全年经营亏损 $209 亿。\n\n真正抓眼球的是 $385 亿的净亏损——但拆开看，这并非全是真金白银烧掉的钱：其中约 $415 亿来自公司从非营利转为营利实体过程中，可转换权益与认股权负债的公允价值变动，属于一次性、非现金的账面计提。换言之，市场看到的'史上最惨亏损'里，大头是会计科目而非现金流出；真实的经营性失血是 $209 亿这个量级。报道还点出 OpenAI 对单一云供应商的高度依赖——仅 Azure 相关承诺一项就涉及约 $170 亿。\n\n这份数据外泄正值敏感时点：OpenAI 已向 SEC 秘密递交 S-1，由 Goldman Sachs 与 Morgan Stanley 操盘，目标 Q4 2026 上市、估值逼近万亿美元。投资者第一次得以在招股书正式公开前，看清这家最受瞩目的 AI 公司'营收高速增长'与'巨额持续失血'并存的真实财务底色。",
+      "key_quotes": [
+        "Revenue reached $13.07 billion in 2025, more than tripling from $3.7 billion in 2024.",
+        "Much of the headline loss consisted of non-cash accounting charges rather than actual cash outflows."
+      ],
+      "significance": "这是 OpenAI 上市前第一份被外界看清的完整财务画像。它一面证明商业化能力（营收翻三倍、年化逼近百亿级），一面暴露出对 Azure 等单一供应商的深度绑定与高昂的研发/算力开销。把 $385 亿净亏损与 $209 亿真实经营亏损区分开，对理性评估 OpenAI 的造血能力、以及万亿估值 IPO 的合理性，都是关键的一课。",
+      "links": [
+        "https://finance.yahoo.com/markets/stocks/articles/openai-2025-financials-leaked-38-121508294.html",
+        "https://www.techtimes.com/articles/318496/20260616/openai-lost-385-billion-2025-audited-financials-expose-17b-azure-dependency.htm",
+        "https://www.wheresyoured.at/exclusive-openai-financials/",
+        "https://businessmodelanalyst.com/openai-leaked-financials-38b-loss-cap-table/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "OpenAI",
+        "财报",
+        "IPO",
+        "净亏损",
+        "Azure"
+      ],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "G7 午餐桌定调：Amodei、Hassabis 当面向 Trump 提议组'美国领衔 AI 联盟'，峰会只签下一份不具约束力的'未成年人安全'承诺",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-17",
+      "summary": "6 月 17 日 G7 的 AI 工作午餐落幕：Anthropic 的 Dario Amodei 与 Google DeepMind 的 Demis Hassabis 当着 Trump 等领导人，呼吁建立'美国领衔的 AI 联盟'，主张前沿模型的'结构化访问'与一条把中国排除在外的芯片/关键部件贸易链；峰会最终只就'未成年人安全'达成一份自愿、不具约束力的承诺。",
+      "detail": "随着 Évian 峰会进入收尾，6 月 17 日的 AI 工作午餐给出了实质结论。Sam Altman（OpenAI）、Dario Amodei（Anthropic）、Demis Hassabis（Google DeepMind）等约十余位科技高管与 Trump 等各国领导人同桌。Amodei 在发言中明确呼吁组建一个'美国领衔的 AI 联盟'，把国际合作锁定在两件事上：对前沿模型的'结构化访问'（structured access），以及一条把中国排除在外的芯片与关键部件贸易安排；Hassabis 同声附和。法国 Mistral 的 Arthur Mensch 也到场，代表欧洲'AI 主权'立场。\n\n但峰会的正式产出远比 CEO 们的雄心克制：领导人最终只就保护未成年人、特别是针对未成年人的 AI 生成内容，达成一份自愿、不具约束力（voluntary, non-binding）的承诺包；在数据中心可持续性等更硬的议题上，因美方对基建约束的顾虑而被'稀释'，结果被普遍评价为低于欧洲成员国的预期。加拿大总理 Carney 则继续拿仍处下线状态的 Fable 5 当反面教材，强调对少数大模型的过度依赖蕴含系统性风险。\n\n背景回顾：G7 在法国 Évian 于 6 月 15 日开幕，AI 首次成为首脑议程核心，三大前沿实验室掌门人同时与会，但开场即暴露美欧加在'AI 主权'上的公开分裂。",
+      "key_quotes": [
+        "Amodei said areas of international cooperation should include structured access to frontier models, and trade of chips and critical components that excludes China.",
+        "The G7 agreed a voluntary, non-binding package prioritizing youth safety."
+      ],
+      "significance": "这标志着 AI 治理从'要不要谈'进入'谈成了什么'。前沿实验室 CEO 们公开把'美国领衔 + 排除中国'的阵营化思路摆上首脑桌，意味着 AI 正被纳入地缘战略框架；而峰会只产出一份不具约束力的未成年人安全承诺，则暴露西方在硬性多边规则上的乏力——产业话语权正盖过政府监管意愿。",
+      "links": [
+        "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+        "https://stocktwits.com/news-articles/markets/equity/anthropic-open-ai-ipo-watch-ai-chiefs-sam-altman-dario-amodei-others-reportedly-join-trump-at-g7-summit/cZK0sGTR7IL",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-17-2026"
+      ],
+      "tags": [
+        "G7",
+        "AI治理",
+        "Anthropic",
+        "Google DeepMind",
+        "OpenAI",
+        "地缘政治"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "AI 代理把 GitHub 写崩了：微软被迫把流量分流给死对头 AWS，可用率一度跌到 88.4%",
+      "source": "Tech Times",
+      "source_name": "Tech Times",
+      "source_url": "https://www.techtimes.com/articles/318481/20260616/githubs-ai-agent-crisis-forces-microsoft-tap-aws-outages-break-enterprise-slas.htm",
+      "story_key": "github-aws-capacity-crisis",
+      "event_date": "2026-06-16",
+      "summary": "微软 6 月 16 日确认，因 AI 编程代理把 GitHub 的负载推到极限（每周 2.75 亿次提交、5 月九次宕机、可用率一度跌到 88.4%、低于企业 99.9% SLA），它不得不把部分 GitHub 流量分流到最大云竞争对手 AWS 上。",
+      "detail": "微软于 6 月 16 日证实，正在把 GitHub 的部分流量路由到亚马逊 AWS——也就是它在云市场最大的对手——以缓解一场由 AI 编程代理引爆的容量危机。导火索是 AI agent 写代码的爆炸式增长：GitHub 当前每周提交量已达 2.75 亿次，2026 年全年提交量预计冲到 140 亿次（2025 年仅 10 亿次）；5 月接连发生九次宕机，6 月可用率一度跌至 88.4%，远低于企业客户合同约定的 99.9% SLA 红线。\n\n这件事之所以刺眼，是因为它把'AI 基建容量危机'从抽象担忧变成了具体的、连微软都扛不住的现实：连自家最该有备无患的明星产品，都得向竞争对手借机房。它也不是孤例——同一周的报道还包括 Google 以约 $9.2 亿/月（约 $30 亿总额、约 11 万张 GPU）租用 SpaceX 的 Colossus 算力到 2029 年，以及 Anthropic 以 $12.5 亿/月整租 Colossus 1。与此同时，全美 2026 年规划的数据中心近半被取消或延期，12 GW 的 AI 数据中心产能中仅约 5 GW 在建，其余卡在电网、电气元件短缺与社区反对上。AI 需求的增速，已经跑赢了这些'准备最充分'的巨头的规划周期。",
+      "key_quotes": [
+        "GitHub commits are on pace to reach 14 billion in 2026, up from 1 billion in 2025.",
+        "AI agent demand has outrun planning cycles at organizations that were, by conventional measures, among the best-prepared in the world."
+      ],
+      "significance": "这是 AI 算力/基建短缺第一次具体到'连微软都得向 AWS 借产能'的程度，把抽象的'容量危机'坐实为可量化的服务降级。它说明 AI 代理带来的负载是阶跃式的、远超传统容量规划，谁能拿到电力与机房，谁就握住了 AI 落地的真正瓶颈。",
+      "links": [
+        "https://www.techtimes.com/articles/318481/20260616/githubs-ai-agent-crisis-forces-microsoft-tap-aws-outages-break-enterprise-slas.htm",
+        "https://www.techradar.com/pro/microsoft-forced-to-turn-to-aws-to-boost-github-cloud-capacity-following-ai-demand-surge",
+        "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html"
+      ],
+      "image": "assets/logos/github-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "GitHub",
+        "微软",
+        "AWS",
+        "算力危机",
+        "AI代理",
+        "数据中心"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "黄仁勋的'劝用论'：society 需要为 AI 立'新社会规范'，而他给的解法是'所有人都去用它'",
+      "source": "Associated Press",
+      "source_name": "Associated Press",
+      "source_url": "https://www.yahoo.com/news/politics/articles/ap-exclusive-nvidias-jensen-huang-200608744.html",
+      "story_key": "jensen-huang-ai-social-norms",
+      "event_date": "2026-06-16",
+      "summary": "Nvidia CEO 黄仁勋在 6 月 16 日的 AP 独家专访中称，社会需要为 AI 时代'创造新的社会规范'，并主张'人人都该用 AI'，认为全面拥抱 AI 能缩小技术鸿沟、让普通人无需编程也能做高阶工作；同时他也承认需要政府监管与安全标准。",
+      "detail": "在 6 月 16 日的美联社独家专访中，身为全球 AI 芯片霸主掌门人的黄仁勋，罕见地正面回应了围绕 AI 的公众焦虑。他的核心观点是：社会要随 AI 到来而改变，'我们需要创造新的社会规范'，并直白地'建议每个人都去用 AI'。他举例说，AI 已能帮人做网站、分析复杂文件、指导前沿研究乃至规划厨房改造——这种'不会写代码也能做高阶工作'的能力，正在缩小美国的技术鸿沟。\n\n面对外界对失业与'威胁人类'的批评，黄仁勋坦言自己作为 AI 系统制造方'有义务回应'，并强调 AI 需要政府监管与安全标准，把国家安全列为优先项。不过也有评论（如 PC Gamer）尖锐指出，他给出的'应对社会规范问题'的具体方案，本质上仍是一句'那就去用它'——把适应成本更多地推给了个人与社会，而非技术本身。这番表态正值 AI 就业冲击、监管与算力短缺同时发酵的敏感期，来自产业链最上游的'劝用'声音因此格外引人侧目。",
+      "key_quotes": [
+        "We need to create new social norms.",
+        "I would advocate that everybody use AI."
+      ],
+      "significance": "这是 AI 算力链最上游的人，对'AI 与社会如何相处'给出的公开姿态。黄仁勋把适应 AI 的责任框定为'全民拥抱 + 新社会规范'，既是为需求端持续扩张背书，也回避了对失业、依赖等结构性代价的正面解法——这种'劝用论'本身，正是观察产业如何为自身扩张提供叙事的一个样本。",
+      "links": [
+        "https://www.yahoo.com/news/politics/articles/ap-exclusive-nvidias-jensen-huang-200608744.html",
+        "https://www.clickorlando.com/news/politics/2026/06/16/ap-exclusive-nvidias-jensen-huang-says-society-needs-new-social-norms-in-the-age-of-ai/",
+        "https://www.pcgamer.com/software/ai/nvidia-ceo-jensen-huang-says-we-need-to-deal-with-social-norms-surrounding-ai-but-apparently-that-means-just-go-engage-it/"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "Nvidia",
+        "黄仁勋",
+        "AI社会影响",
+        "监管",
+        "观点"
+      ],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "Gemini CLI 今天'退役'：Google 把命令行强行迁到 Antigravity CLI，开发者得连夜改 CI/CD",
+      "source": "Google",
+      "source_name": "Google",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-17-2026",
+      "story_key": "google-antigravity-cli-migration",
+      "event_date": "2026-06-18",
+      "summary": "6 月 18 日起，Google 正式停用旧的 Gemini CLI（覆盖 AI Pro、Ultra 与免费层，仅企业版 Code Assist 保留），开发者必须迁移到以 Gemini 3.5 Flash 为默认模型的新 Antigravity CLI，并相应改造 CI/CD 流水线与自动化脚本。",
+      "detail": "Google 把命令行工具的'换代'做成了硬切换：自 6 月 18 日起，面向 AI Pro、AI Ultra 及免费层用户的旧版 Gemini CLI 停止服务，只有企业版 Code Assist 仍可继续使用；所有人需迁移到新的 Antigravity CLI。新 CLI 背后默认跑的是 Gemini 3.5 Flash——这款在 5 月 I/O 上发布的'小号'模型，首次在编程与代理任务上反超了上一代 Pro 档，输出速度约 280 token/秒、约为同级前沿模型的 4 倍，并带 100 万 token 上下文。\n\n对依赖命令行做自动化的团队来说，这不是一次可选升级而是一道截止线：凡是把 Gemini CLI 嵌进 CI/CD、构建脚本或定时任务里的工作流，都得在切换日前完成迁移，否则自动化会直接断掉。与此配套，Google 还排了一串模型下线时间表——6 月 25 日停用 gemini-3.1-flash-image-preview、gemini-3-pro-image-preview，6 月 30 日停用相关视频生成模型（迁往 Veo 3.1）。整体看，这是 Google 把开发者工具线统一收束到 Antigravity 品牌与 Gemini 3.5 Flash 之下的一步。",
+      "key_quotes": [
+        "Access for AI Pro, AI Ultra, and free-tier users ends June 18, 2026, with only Enterprise Code Assist keeping it.",
+        "Google's new Antigravity CLI replaces Gemini CLI effective June 18; developers must migrate CI/CD pipelines and automated workflows."
+      ],
+      "significance": "对每天靠命令行调用 Gemini 的开发者而言，这是一次有硬截止日的强制迁移，处理不及时会直接打断自动化流水线。它也反映 Google 正把零散的开发者工具统一收编到 Antigravity 品牌与 Gemini 3.5 Flash 默认模型之下——平台方用'退役旧 CLI'的方式，加速把生态推向新的代理化工具栈。",
+      "links": [
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-17-2026",
+        "https://mareklecian.cz/en/google-i-o-2026-gemini-3-5-flash-antigravity-cli-and-antigravity-2-0-through-a-developers-eyes/",
+        "https://medium.com/google-developer-experts/google-antigravity-2-0-gemini-3-5-flash-the-ai-that-codes-tests-and-ships-without-you-24dc2dc2ba47"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "Google",
+        "Gemini CLI",
+        "Antigravity",
+        "Gemini 3.5 Flash",
+        "开发者工具"
+      ],
+      "category": "builders"
+    }
+  ]
+}

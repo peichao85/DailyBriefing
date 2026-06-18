@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-19",
+  "total_candidates": 16,
+  "kept": 5,
+  "dropped": 11,
+  "decisions": [
+    {
+      "story_key": "openai-2025-financials-leak",
+      "event_date": "2026-06-16",
+      "title_en": "Leaked audited OpenAI 2025 financials show $38.5B net loss on $13B revenue",
+      "source": "Financial Times / Ed Zitron",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Audited 2025 numbers (verified by FT) surfaced June 16: $13.07B revenue, $34B costs, $20.9B operating loss, $38.5B net loss inflated by ~$41.5B non-cash for-profit conversion charge."
+    },
+    {
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-17",
+      "title_en": "G7 working lunch concludes: Amodei/Hassabis pitch US-led AI coalition; G7 adopts voluntary youth-safety commitments",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Published 06-12 (CEOs attending) and 06-15 (sovereignty splits). New on 06-17: the working lunch with Trump concluded; Amodei & Hassabis explicitly called for a US-led AI coalition with structured frontier-model access and China-excluding chip trade; G7 agreed a package of voluntary (non-binding) youth-safety commitments."
+    },
+    {
+      "story_key": "github-aws-capacity-crisis",
+      "event_date": "2026-06-16",
+      "title_en": "Microsoft routes GitHub through rival AWS as AI coding-agent load breaks enterprise SLAs",
+      "source": "Tech Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Microsoft confirmed June 16 it is routing GitHub traffic to AWS after AI agent commits (275M/week, on pace for 14B in 2026) pushed availability below the 99.9% enterprise SLA."
+    },
+    {
+      "story_key": "google-antigravity-cli-migration",
+      "event_date": "2026-06-18",
+      "title_en": "Google retires the Gemini CLI, forcing developers onto the new Antigravity CLI",
+      "source": "Google",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. June 18 is the hard cutoff retiring the legacy Gemini CLI for Pro/Ultra/free tiers; developers must migrate CI/CD and automation to Antigravity CLI (Gemini 3.5 Flash default)."
+    },
+    {
+      "story_key": "jensen-huang-ai-social-norms",
+      "event_date": "2026-06-16",
+      "title_en": "Jensen Huang AP interview: society needs 'new social norms' for AI, urges everyone to use it",
+      "source": "Associated Press",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. AP exclusive June 16: Huang says 'we need to create new social norms,' advocates universal AI use to close the tech divide, while conceding need for government regulation and safety standards."
+    },
+    {
+      "story_key": "anthropic-mythos-glasswing-japan",
+      "event_date": "2026-06-03",
+      "title_en": "Japan government and 3 megabanks granted access to Anthropic's restricted Claude Mythos",
+      "source": "The Japan Times",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying access decision was reported by The Japan Times on 2026-06-03 (conveyed by Treasury's Bessent in Tokyo); >5 days old. June reblogs are rehashes, no concrete new dated development."
+    },
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-16",
+      "title_en": "Anthropic leadership meets White House over Fable 5 export ban; dispute over jailbreak severity",
+      "source": "unrot.co",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-13 (export ban imposed) and 06-15 (Frontier Red Team flown to DC, Amazon warning revealed). June 16 meeting is incremental — no resolution, only a reported disagreement on jailbreak severity. Not substantive enough for a third day."
+    },
+    {
+      "story_key": "google-spacex-compute-deal",
+      "event_date": "2026-06-05",
+      "title_en": "Google to pay SpaceX $920M/month (~$30B) for ~110k-GPU AI compute through 2029",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Deal signed June 5 (>5 days). Resurfaced June 16 as context in capacity-crisis coverage; folded as background into the github-aws-capacity-crisis item rather than published standalone."
+    },
+    {
+      "story_key": "softbank-france-ai-datacenters",
+      "event_date": "2026-05-31",
+      "title_en": "SoftBank to invest up to €75B (€45B firm) in 5GW of French AI data centers",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at Choose France summit on 2026-05-30/31; >5 days old. June 17 roundup mentions are rehashes."
+    },
+    {
+      "story_key": "sap-priorlabs-acquisition",
+      "event_date": "2026-05-20",
+      "title_en": "SAP acquires Prior Labs, commits €1B+ to build a European frontier AI lab for structured data",
+      "source": "SAP News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced May 2026 (news.sap.com/2026/05); >5 days old."
+    },
+    {
+      "story_key": "gemini-35-flash-release",
+      "event_date": "2026-05-19",
+      "title_en": "Google ships Gemini 3.5 Flash, first Flash to beat the prior Pro tier",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released at Google I/O on 2026-05-19; >5 days old."
+    },
+    {
+      "story_key": "spacex-cursor-acquisition",
+      "event_date": "2026-06-16",
+      "title_en": "Cursor's pre-acquisition $2B a16z round at $50B valuation",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "The SpaceX $60B all-stock acquisition was already published 06-16. The earlier a16z funding round is superseded background, no new development."
+    },
+    {
+      "story_key": "northwestern-printed-neurons",
+      "event_date": "2026-04-15",
+      "title_en": "Northwestern prints artificial neurons that communicate with living brain cells",
+      "source": "Nature Nanotechnology",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Published in Nature Nanotechnology April 15, 2026; >5 days old (recirculated in June science roundups)."
+    },
+    {
+      "story_key": "deepseek-v4-release",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek releases open-source V4 model integrated with Huawei chips",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released April 24, 2026; >5 days old."
+    },
+    {
+      "story_key": "microsoft-mai-models",
+      "event_date": "2026-06-02",
+      "title_en": "Microsoft launches MAI-Thinking-1 and MAI-Code-1-Flash to reduce OpenAI reliance",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced June 2-3, 2026; >5 days old."
+    },
+    {
+      "story_key": "rhoda-ai-launch",
+      "event_date": "2026-06-01",
+      "title_en": "Rhoda AI exits stealth with $450M Series A and FutureVision robotic platform",
+      "source": "aiomnifeed",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Vague/early-June launch with no confirmed date within the 5-day window; insufficient corroboration."
+    }
+  ]
+}
