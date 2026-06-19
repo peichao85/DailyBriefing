@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-20",
+  "category": "AI",
+  "researched_at": "2026-06-19T23:01:21Z",
+  "sources_checked": ["@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang", "@mntruell", "@karpathy", "@DrJimFan", "@ylecun", "WIRED", "Washington Post", "404 Media", "Tom's Guide", "BleepingComputer", "Varonis", "TechCrunch", "CNBC", "Android Central", "Anthropic Blog", "arXiv"],
+  "items": [
+    {
+      "id": "1",
+      "title": "断供进入'今天'：Fable 5 退款大限到，300+ 安全大佬联署逼宫，Anthropic 一边在首尔重开战线一边喊'几天内回来'",
+      "source": "freefable.org",
+      "source_name": "WIRED",
+      "source_url": "https://www.wired.com/story/anthropic-fable-mythos-export-ban/",
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-19",
+      "summary": "Fable 5 / Mythos 5 断供进入兑现期：6 月 20 日是付费用户退款最后期限，300 多位网络安全领袖在 freefable.org 联署要求撤销禁令，触发禁令的真正导火索（白宫将 Anthropic 股东 SK Telecom 列为'涉华风险'、Amazon 上报模型越狱）首次曝光；Anthropic 则一边在首尔开新办公室、签政府 MOU，一边对外放话'模型几天内就能恢复'。",
+      "detail": "围绕 Anthropic 两款顶配模型被美国出口管制叫停的风波，6 月 17–19 日集中爆出多项新进展，把这件事从'已下线'推进到'有人付了钱该怎么办'的兑现阶段：\n\n第一，时间线落到具体日子。6 月 20 日（今天）是为 Fable 5 付费购买额度、却因断供无法使用的用户的退款处理大限；Anthropic 同时透露正在搭建身份验证系统（预计 7 月 8 日前后上线），以便在解禁后只向'美国人'开放部分访问。\n\n第二，触发禁令的真正机制首次被还原。据 Washington Post 与 WIRED 报道，这并非一步到位：白宫先是把 Anthropic 的投资方、韩国最大运营商 SK Telecom（向 Anthropic 投资约 $1 亿）认定为'涉华安全风险'、要求收回其对 Mythos 5 的访问；与此同时 Amazon 的研究人员上报了 Fable 5 的越狱漏洞（被指可用一句'Fix this code'类指令绕过防护）。两件事叠加，才把'收回单一客户访问'升级成'对所有外国人全面断供'。\n\n第三，安全圈公开反水。超过 300 位网络安全领袖在 freefable.org 联署公开信要求撤销禁令，签署者包括 Alex Stamos、Bruce Schneier、Bugcrowd 创始人 Casey Ellis、社工专家 Rachel Tobac 等；Zoom、Sophos、Vercel、Nvidia、Adobe 等公司亦表态支持恢复供应。他们的核心论点是：要求一个模型做到'零越狱'在技术上根本不可能，用为芯片设计的出口管制工具去卡一个已商用的大模型是误用。据报道，White House AI 顾问 David Sacks 曾给 Anthropic 下'要么修好越狱、要么自行下线'的最后通牒，被 Dario Amodei 当场拒绝。\n\n第四，Anthropic 没有困守，而是把战线开到了亚太。它在首尔汝矣岛 Conrad 酒店设立第三个亚太办公室，与韩国科学技术信息通信部签署安全评估 MOU，并拿下 NAVER、Samsung SDS、LG CNS、Nexon、Hanwha 等一批企业部署；公司国际业务负责人 Chris Ciauri 在首尔发布会上罕见给出明确信号：'我们很有信心，模型会在未来几天内重新可用。'\n\n背景回顾：6 月 13 日美国商务部以国家安全为由，要求 Anthropic 对全球外国人断供发布仅 3 天的 Fable 5 / Mythos 5，这是美国首次拿出口管制工具叫停一个已上线的大模型。",
+      "key_quotes": [
+        "We are very confident that in the coming days, the models will become available again. — Chris Ciauri, Anthropic Managing Director, International",
+        "A zero-jailbreak requirement is technically impossible. — freefable.org open letter (300+ signatories)"
+      ],
+      "significance": "新进展的意义在于：这场断供第一次有了'可核查的代价和退路'。退款大限与身份验证系统说明 Anthropic 已在为'部分解禁、仅限美国人'的现实方案做工程准备，而不是死等政策松动；300+ 安全专家公开反水，把'出口管制能不能管大模型'从企业与政府的私下博弈，变成了一场行业层面的合法性之争；而 SK Telecom 这条导火索的曝光，则揭示了一个让所有外资 AI 股东不安的先例——你的股东国籍，可能直接决定你的模型能不能上线。",
+      "links": [
+        "https://www.wired.com/story/anthropic-fable-mythos-export-ban/",
+        "https://www.washingtonpost.com/technology/2026/06/18/anthropic-fable-mythos-export-control/",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "出口管制", "Fable 5", "网络安全", "AI 治理"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "13 个词就能把 AI 搜索带沟里：Cornell 'WARP'攻击让 ChatGPT Deep Research、Gemini 给你推荐根本不存在的产品",
+      "source": "404 Media",
+      "source_name": "404 Media",
+      "source_url": "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/",
+      "story_key": "warp-ai-search-poisoning",
+      "event_date": "2026-06-18",
+      "summary": "Cornell Tech 团队公布名为 WARP（Web Agent Retrieval Poisoning）的攻击：只需在 Reddit 等用户生成内容里塞进约 13 个单词，就能让 ChatGPT 的 Deep Research、Google Gemini 等'深度研究'AI 代理把用户引向骗局或根本不存在的产品，单条成功率 38–51%，多帖叠加可达 62%。",
+      "detail": "Cornell Tech 的 Tingwei Zhang、Harold Triedman 与 Vitaly Shmatikov 公布了一种针对'深度研究'类 AI 代理的投毒攻击，并在 6 月 18–19 日获得主流媒体广泛报道。攻击的核心令人不安地简单：在 Reddit 评论这类普通的用户生成内容里，插入短至约 13 个单词的'毒句'，就能悄悄操纵 ChatGPT Deep Research、Google Gemini 等工具的检索与推理，把用户导向虚假商家、诈骗链接或压根不存在的产品。\n\n研究团队给这套方法起名 WARP（Web Agent Retrieval Poisoning）。实测中，单条投毒评论的引导成功率在 38–51% 之间，若在多个帖子里铺设，成功率可升至约 62%。要害在于这些 AI 代理的'食材'来源：研究显示，这类系统抓取的网页里约有 17–23% 来自 Reddit、Wikipedia、Quora、YouTube 这类任何人都能编辑发帖的 UGC 站点——也就是说，攻击面是公开且廉价的。\n\n为避免真实伤害，团队在沙盒中复现攻击，并仅对三个开源深度研究代理（STORM、Co-STORM、OmniThink）做了端到端验证，称这是研究此类问题'唯一符合伦理'的方式。论文预印本已挂上 arXiv。",
+      "key_quotes": [
+        "As few as thirteen words, slipped into an ordinary Reddit comment, can quietly steer tools like ChatGPT's Deep Research and Google's Gemini toward scams and products that do not exist."
+      ],
+      "significance": "'深度研究'正被当作可信赖的二手大脑来用——它替你读几十个网页再给结论，用户往往不会回头核对来源。WARP 证明：当 AI 代理把开放 UGC 当作权威信源照单全收时，污染它的成本可以低到'一条 13 个词的评论'。这把 SEO 时代的'刷排名'直接升级成了'刷 AI 结论'，对依赖 AI 调研做采购、投资、医疗决策的人是实打实的风险，也给所有做检索增强（RAG）的产品提了个醒：信源可信度必须被当成一等公民来防。",
+      "links": [
+        "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/",
+        "https://www.tomsguide.com/ai/a-13-word-reddit-comment-can-trick-ai-search-into-recommending-scams-researchers-find",
+        "https://arxiv.org/html/2605.24245"
+      ],
+      "tags": ["AI 安全", "搜索投毒", "Deep Research", "RAG", "Cornell"],
+      "category": "research"
+    },
+    {
+      "id": "3",
+      "title": "Snap 把编程 Agent 戴上了脸：$2,195 的 SPECS AR 眼镜内置 Claude Code、Codex 和 Cursor",
+      "source": "Snap",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/06/16/snap-specs-ar-glasses/",
+      "story_key": "snap-specs-ar-glasses",
+      "event_date": "2026-06-16",
+      "summary": "Snap 于 6 月 16 日发布消费级 AR 眼镜 SPECS，定价 $2,195（$200 可退定金），计划 2026 年秋季在美英法上市；最大看点是把 Claude Code、Codex、Cursor 等编程 Agent 以及 OpenAI/Gemini API 直接集成进眼镜。",
+      "detail": "Snap 在 6 月 16 日正式发布其消费级 AR 眼镜 SPECS：售价 $2,195、附 $200 可退定金，预计 2026 年秋季在美国、英国、法国开售。硬件规格上，SPECS 采用双 Qualcomm Snapdragon 芯片、51 度视场角（FOV）、47mm 镜框、整机重约 132 克。\n\n真正让它在一众 AR 眼镜里显出差异的，是软件侧的 AI 集成：Snap 不只是塞了个语音助手，而是把 Claude Code、Codex、Cursor 等面向开发者的编程 Agent，以及 OpenAI、Gemini 的 API 直接接入眼镜，意在让'空间计算 + AI 代理'成为卖点。Snap 还放出了自家的 Spatial Benchmark（空间能力基准），称 GPT-5.5 在该基准上拿下头名。\n\n这意味着 Snap 想讲的故事，已经从'拍照滤镜'转向'戴在脸上的 AI 终端'——把大模型的多模态与代理能力，放进一个第一人称、随身在场的外形里。",
+      "key_quotes": [],
+      "significance": "AR 眼镜过去几年最大的尴尬是'有硬件、没刚需'。Snap 这次押的注是：让眼镜成为 AI Agent 的'身体'——当编程助手、视觉模型和空间感知都长在你眼前，眼镜才第一次有了非它不可的场景。$2,195 的定价说明它还在早期发烧友阶段，但把 Claude Code / Codex 这类生产力 Agent 直接搬上脸，是对'下一代 AI 终端长什么样'的一次明确表态，也让 Meta、Apple、Google 的同类布局多了一个参照系。",
+      "links": [
+        "https://techcrunch.com/2026/06/16/snap-specs-ar-glasses/",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-18-2026"
+      ],
+      "image": "assets/logos/snapchat-logo.png",
+      "image_type": "logo",
+      "tags": ["Snap", "AR 眼镜", "AI 终端", "Claude Code", "空间计算"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "'Agentjacking'专打 AI 程序员：一条假的 Sentry 报错，就能劫持 Claude Code、Cursor、Codex，成功率 85%",
+      "source": "@security_researchers",
+      "source_name": "The Hacker News",
+      "source_url": "https://thehackernews.com/2026/06/agentjacking-coding-agents.html",
+      "story_key": "agentjacking-coding-agents",
+      "event_date": "2026-06-17",
+      "summary": "安全研究者披露一类名为'Agentjacking'的新攻击：通过伪造的 Sentry 错误信息向 AI 编程代理注入恶意指令，可劫持 Claude Code、Cursor、Codex 等工具，实测成功率高达 85%，已知有 2,388 家组织暴露在风险中。",
+      "detail": "继 WARP 投毒之后，针对 AI 代理的攻击面又添一例——这次直接打向开发者每天都在用的 AI 编程工具。安全研究者披露了一类被称为 'Agentjacking' 的攻击：攻击者把恶意指令藏进看似正常的 Sentry 错误信息（开发者常用的报错监控）里，当 AI 编程代理读取这些报错、试图'帮你修 bug'时，就会把其中夹带的提示词当成真实指令执行，从而被劫持。\n\n据报道，该攻击对 Claude Code、Cursor、Codex 等主流代理的实测利用成功率高达 85%，已确认有 2,388 家组织处于暴露状态。其本质仍是间接提示注入（indirect prompt injection），但巧妙之处在于选择了一个开发者几乎不会设防、且 AI 代理被默认信任去读取的入口——错误日志。\n\n与此同时，行业对 AI 时代漏洞洪峰的预期也在升高：FIRST 组织预测 2026 年全年披露的 CVE 数量将达约 6.6 万个，是历史平均水平的两倍。",
+      "key_quotes": [],
+      "significance": "这是本周'AI 安全三连'里最贴近开发者日常的一记：WARP 攻击的是研究型搜索，SearchLeak 打的是办公套件，而 Agentjacking 直接瞄准了正在被大规模采用的 AI 编程代理。它揭示了 agentic coding 的一个结构性软肋——代理为了'自动修 bug'必须主动读取外部内容（报错、日志、issue、依赖），而这些入口几乎都没有被当作不可信输入来处理。85% 的成功率和 2,388 家暴露组织说明，这不是理论威胁，而是企业把编程 Agent 接入 CI/CD 后必须立刻面对的现实风险。",
+      "links": [
+        "https://thehackernews.com/2026/06/agentjacking-coding-agents.html",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-18-2026"
+      ],
+      "tags": ["AI 安全", "提示注入", "Claude Code", "Cursor", "Codex"],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "点一下链接，邮箱和日历就被搬空：微软 365 Copilot 曝'SearchLeak'漏洞，三步链条绕过所有防护",
+      "source": "Varonis",
+      "source_name": "BleepingComputer",
+      "source_url": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
+      "story_key": "copilot-searchleak-cve",
+      "event_date": "2026-06-15",
+      "summary": "Varonis 研究者 6 月 15 日披露微软 365 Copilot 的'SearchLeak'漏洞（CVE-2026-42824）：受害者只要点一下恶意链接，攻击者就能让 Copilot 搜索并外泄其邮箱、日历、OneDrive 和 SharePoint 内容。微软已在 6 月初服务端静默修复。",
+      "detail": "Varonis 安全团队于 6 月 15 日公开披露了微软 365 Copilot Enterprise 的一处信息泄露漏洞，编号 CVE-2026-42824，攻击代号 'SearchLeak'。它实现了所谓'一键数据窃取'：受害者只需点击一条精心构造的恶意 URL，该链接就会指示 Copilot 去搜索特定数据（例如邮件内容、文档标题），并把结果悄悄外泄。\n\n这是一条三阶段攻击链：先用 URL 参数完成'参数到提示词'的注入（parameter-to-prompt injection），再利用 HTML 渲染的竞态条件（race condition），最后借助 Bing 的服务端请求伪造（SSRF）绕过内容安全策略（CSP）。三步叠加，使得攻击能从 Copilot 可访问的邮箱、日历事件、OneDrive 与 SharePoint 文件中抽取数据。\n\n微软在公开披露前、于 6 月初就已部署服务端补丁，用户无需任何客户端更新或管理员操作。Varonis 公布了概念验证（PoC），并表示在披露时未发现野外被利用的证据。",
+      "key_quotes": [],
+      "significance": "SearchLeak 是把'提示注入'从聊天框玩法升级为企业级数据外泄的范例：当 Copilot 被授予对整个 Microsoft 365 租户的读取权限，它本身就成了一个高价值的'被动内鬼'——只要能从外部喂给它一句指令，它的权限就成了攻击者的权限。它和本周的 WARP、Agentjacking 共同指向同一个结论：把大模型接进企业核心系统时，真正的攻击面不是模型会不会'说错话'，而是它'被信任去访问什么、被诱导去做什么'。好在这次微软先修后曝，给了'负责任披露'一个正面样本。",
+      "links": [
+        "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
+        "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["微软", "Copilot", "网络安全", "CVE", "提示注入"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "时隔六年再做音箱：Google 把 Gemini 装进 $99 的 Home Speaker，开启预订",
+      "source": "Google",
+      "source_name": "Android Central",
+      "source_url": "https://www.androidcentral.com/accessories/smart-home/google-home-speaker-launched",
+      "story_key": "google-home-speaker-gemini",
+      "event_date": "2026-06-17",
+      "summary": "Google 推出时隔六年的首款全新智能音箱 Home Speaker：原生内置 Gemini for Home，支持自然多轮对话与智能家居控制，售价 $99.99，6 月 17 日开启预订、6 月 25 日发货。",
+      "detail": "Google 于 6 月 17 日开启新款 Home Speaker 的预订，这是它自 2020 年以来第一款全新设计的智能音箱，将于 6 月 25 日发货，起售价 $99.99，提供 Hazel、Porcelain、Jade、Berry 四种颜色。\n\n与老款最大的不同是，这台音箱从底层就是围绕 Gemini 打造的'Gemini 终端'。它搭载 Gemini for Home，主打自然的多步对话和更直觉的智能家居控制——你可以像聊天一样连续追问、下达复合指令，而不再是过去那种'一问一答、听不懂就重来'的命令式交互。机身配有一圈底部呼吸灯环，用柔光提示设备正在聆听、思考还是回应。\n\n这款产品早在 2025 年 10 月的 Made by Google 发布会上就已亮相、定位为 Gemini 的家庭入口，如今正式落地零售。它同时把战火重新点燃：Amazon 正在用 Alexa Nova 重写助手，Apple 也在给搭载新 Siri 的 HomePod 升级。",
+      "key_quotes": [],
+      "significance": "智能音箱品类沉寂多年，本质是因为'语音助手不够聪明'——能定闹钟、放音乐，但听不懂复杂意图。把 Gemini 这样的前沿大模型原生塞进 $99 的家用硬件，是三大厂同时在赌的一件事：大模型能不能让音箱从'遥控器'变回'家庭助理'。对 Google 而言，这也是把 Gemini 从手机 App 推向'全屋在场'的关键一步；谁能让客厅里那台一直在听的设备真正好用，谁就握住了消费级 AI 最高频的入口之一。",
+      "links": [
+        "https://www.androidcentral.com/accessories/smart-home/google-home-speaker-launched",
+        "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini", "智能音箱", "智能家居", "消费电子"],
+      "category": "product_operators"
+    },
+    {
+      "id": "7",
+      "title": "把'和平队'搬进 AI：Anthropic 推 Claude Corps，招募年轻人用 AI 做社区公益",
+      "source": "Anthropic",
+      "source_name": "Anthropic Blog",
+      "source_url": "https://www.anthropic.com/news/claude-corps",
+      "story_key": "anthropic-claude-corps",
+      "event_date": "2026-06-18",
+      "summary": "Anthropic 推出 Claude Corps——一个面向早期职业阶段美国人的全国性奖学金计划，结构上对标 Peace Corps / AmeriCorps，旨在把 AI 应用到社区与公共服务场景。",
+      "detail": "在与华盛顿就出口管制激烈博弈的同时，Anthropic 也在打另一张牌：把自己塑造成'对美国有用'的公共机构。6 月 18 日前后，公司推出 Claude Corps——一个面向早期职业阶段美国人的全国性奖学金/服务计划，明确对标 Peace Corps（和平队）与 AmeriCorps 的组织模式。\n\n该计划的核心理念是：招募并资助一批年轻人，让他们把 AI（尤其是 Claude）带进社区组织、非营利机构和公共服务一线，去解决具体的本地问题，而不是只服务于商业客户。换句话说，Anthropic 想用一套'国家服务'的叙事，把'用 AI 做好事'制度化、人才化。\n\n这与公司近期一系列动作一脉相承：从把 Frontier Red Team 送进华盛顿做安全演示，到在政策圈密集发声，Claude Corps 是其'负责任 AI + 服务国家利益'公关与人才战略的又一块拼图。",
+      "key_quotes": [],
+      "significance": "在被出口管制卡脖子、又被指模型有安全风险的当口，Anthropic 选择主动讲一个'AI 为公众服务'的故事，时机耐人寻味。Claude Corps 的真正意义不只在公益本身，而在于它试图把'谁在受益于前沿 AI'的叙事，从'硅谷和大企业'扩展到'社区和普通美国人'——这既是一种软性的政策游说，也是抢人才、抢心智的长线布局。如果它能跑通，等于为 AI 公司开辟了一条'国家服务'式的人才管道，把使用 AI 的能力下沉到公共部门。",
+      "links": [
+        "https://www.anthropic.com/news/claude-corps",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude Corps", "AI 公益", "人才", "公共服务"],
+      "category": "frontier_leaders"
+    }
+  ]
+}

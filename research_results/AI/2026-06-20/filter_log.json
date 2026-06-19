@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-20",
+  "total_candidates": 14,
+  "kept": 7,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-19",
+      "title_en": "Fable 5 ban: today is refund deadline, 300+ security experts revolt, Anthropic pushes Seoul reopening and says models back 'in days'",
+      "source": "freefable.org / WIRED / Washington Post",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 06-13 (initial export-ban) and 06-15 (Frontier Red Team to DC / Amazon trigger). Substantively new: (1) the trigger detail now public — White House flagged SK Telecom (a $100M Anthropic investor) as China-risk + Amazon-reported Fable jailbreak via 'Fix this code'; (2) 300+ cybersecurity leaders (Stamos, Schneier, Casey Ellis, Rachel Tobac) signed freefable.org open letter; (3) David Sacks' fix-or-de-deploy ultimatum to Dario revealed; (4) June 20 refund cutoff + identity-verification system (~July 8) for US-person access; (5) Anthropic MD Chris Ciauri says models return 'in days'. All new since 06-15."
+    },
+    {
+      "story_key": "warp-ai-search-poisoning",
+      "event_date": "2026-06-18",
+      "title_en": "Cornell WARP attack: 13 words in a Reddit comment can steer ChatGPT Deep Research and Gemini toward scams",
+      "source": "404 Media / Tom's Guide / arXiv",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Cornell Tech (Zhang, Triedman, Shmatikov) WARP poisoning of deep-research agents hit mainstream coverage June 18-19; 38-62% redirection success with ~13-word poisoned UGC."
+    },
+    {
+      "story_key": "snap-specs-ar-glasses",
+      "event_date": "2026-06-16",
+      "title_en": "Snap unveils $2,195 SPECS AR glasses with Claude Code, Codex and Cursor built in",
+      "source": "Snap / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Consumer AR-glasses launch June 16 with deep AI coding-agent integration; dual Snapdragon, 51° FOV, fall-2026 ship."
+    },
+    {
+      "story_key": "agentjacking-coding-agents",
+      "event_date": "2026-06-17",
+      "title_en": "Agentjacking: fake Sentry errors hijack Claude Code, Cursor and Codex with 85% success, 2,388 orgs exposed",
+      "source": "security researchers / The Hacker News",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New prompt-injection-via-error-message attack class against agentic coding tools; 85% exploitation rate, 2,388 organizations exposed."
+    },
+    {
+      "story_key": "copilot-searchleak-cve",
+      "event_date": "2026-06-15",
+      "title_en": "Microsoft 365 Copilot 'SearchLeak' (CVE-2026-42824): one click silently exfiltrates mailbox, calendar and files",
+      "source": "Varonis / BleepingComputer",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Varonis-disclosed three-stage SearchLeak chain (prompt injection + HTML race + Bing SSRF CSP bypass); public disclosure 06-15 (exactly 5 days, within window), server-side patched early June."
+    },
+    {
+      "story_key": "google-home-speaker-gemini",
+      "event_date": "2026-06-17",
+      "title_en": "Google's first smart speaker in 6 years: $99 Gemini Home Speaker opens pre-orders",
+      "source": "Google / Android Central",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Pre-orders opened 06-17 (ships 06-25, $99.99); Gemini-for-Home native conversational speaker, first Google speaker since 2020."
+    },
+    {
+      "story_key": "anthropic-claude-corps",
+      "event_date": "2026-06-18",
+      "title_en": "Anthropic launches Claude Corps, a Peace-Corps-style fellowship for early-career Americans applying AI to community work",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. National fellowship modeled on AmeriCorps/Peace Corps for civic AI deployment, launched amid Anthropic's policy push."
+    },
+    {
+      "story_key": "openai-astral-acquisition",
+      "event_date": "2026-03-19",
+      "title_en": "OpenAI acquires Astral (uv, ruff, ty) to boost Codex",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced March 19 2026; ~93 days old, far beyond 5-day window. Resurfaced in June recaps but underlying event is March."
+    },
+    {
+      "story_key": "minimax-m3-open-weight",
+      "event_date": "2026-06-01",
+      "title_en": "MiniMax M3 open-weight model tops SWE-Bench Pro vs GPT-5.5",
+      "source": "MiniMax",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Launched June 1 2026; 19 days old, beyond 5-day window."
+    },
+    {
+      "story_key": "spacex-ai1-orbital-datacenter",
+      "event_date": "2026-06-08",
+      "title_en": "SpaceX unveils AI1 orbital data-center satellite",
+      "source": "SpaceX / Tom's Hardware",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Unveiled June 8-9 2026; 11-12 days old, beyond 5-day window."
+    },
+    {
+      "story_key": "gemini-35-pro-launch",
+      "event_date": "2026-06-19",
+      "title_en": "Gemini 3.5 Pro still pending public launch",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "No actual launch event — still limited Vertex preview as of 06-19, only Polymarket odds and speculation. No shippable development to report."
+    },
+    {
+      "story_key": "g7-ai-ceos-summit",
+      "event_date": "2026-06-17",
+      "title_en": "Amodei and Hassabis call for US-led AI coalition at G7",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 06-17 (g7-ai-ceos-summit) with the same US-led AI coalition / structured access / China-excluding chip trade content. No new info."
+    },
+    {
+      "story_key": "chatgpt-us-adult-adoption",
+      "event_date": "2026-06-18",
+      "title_en": "ChatGPT now reaches 44% of US adults",
+      "source": "buildfastwithai recap",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Adoption stat with no clear dated primary survey release this week; overlaps prior chatgpt-1-billion-mau milestone coverage. Insufficient fresh, verifiable hook."
+    },
+    {
+      "story_key": "amazon-custom-silicon-runrate",
+      "event_date": "2026-06-17",
+      "title_en": "Amazon custom silicon (Trainium/Graviton/Nitro) tops $20B run rate",
+      "source": "recap aggregation",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Ongoing run-rate stat without a clear dated announcement this week; no single authoritative primary event in the 5-day window."
+    }
+  ]
+}
