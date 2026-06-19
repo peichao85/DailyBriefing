@@ -1,0 +1,555 @@
+{
+  "date": "2026-06-19",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-06-19",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "vercel/eve：Vercel 推出的 Agent 构建框架",
+          "source": "@vercel",
+          "source_name": "GitHub",
+          "summary": "Vercel 官方开源的 Agent 构建框架，面向需要可靠运行、可编排工作流的 AI Agent 开发者。",
+          "detail": "eve 是 Vercel 推出的 \"构建 Agent 的框架\"，以 TypeScript/JavaScript 编写，已发布到 npm。围绕 harness、sandbox、workflows 等概念组织，支持用 Markdown 描述任务与流程。作为 Vercel 出品的官方项目，它延续了该公司在前端与边缘运行时上的工程风格。",
+          "significance": "发布约 3 天即收获 1,359 stars，位列本周新晋热门第一，Vercel 的品牌号召力是主要推力。",
+          "links": [
+            "https://github.com/vercel/eve"
+          ],
+          "image": "assets/github-avatars/vercel-eve.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "Agent",
+            "框架",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 1359,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 82,
+          "owner": "vercel",
+          "repo": "eve"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "Plaer1/junction：本地 AI 编码 Agent 的 VS Code 侧边栏",
+          "source": "@Plaer1",
+          "source_name": "GitHub",
+          "summary": "一个 VS Code 聊天侧边栏，把编辑器接到本机运行的多种本地 AI 编码 Agent。",
+          "detail": "Junction 通过统一界面连接多达 7 种本地 Agent 后端，包括 OpenClaw、Hermes、Souveraine、MiMoCode、Goose 等，用户无需改变工作流即可在它们之间切换。面板带有工作区上下文感知与动画启动画面，采用 MIT 许可证开源。",
+          "significance": "上线两天即获 508 stars，本地编码 Agent 的统一接入需求带动了它的快速走红。",
+          "links": [
+            "https://github.com/Plaer1/junction"
+          ],
+          "image": "assets/github-avatars/Plaer1-junction.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "VSCode",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 508,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 5,
+          "owner": "Plaer1",
+          "repo": "junction"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "mrtooher/fable-mode：让模型模仿 Fable 式分阶段执行的 Claude 技能",
+          "source": "@mrtooher",
+          "source_name": "GitHub",
+          "summary": "一个 Claude skill，为大型任务强制施加分阶段执行纪律：写计划、并行委派、逐阶段验证、交付前自审。",
+          "detail": "fable-mode 通过提示词塑造模型在复杂任务上的\"流程\"：先分解再行动，在支持子 Agent 的运行时下并行委派独立子任务，每个阶段都用可失败的检查而非感觉来验证，并在交付前做一次怀疑式自审。作者明确指出它不改变底层模型能力——长任务的连贯性与真正的自我纠错存在于模型权重中，而非提示词里。",
+          "significance": "发布约 6 天收获 495 stars，蹭上 Fable 5 与 Agent 工作流热度引发广泛关注。",
+          "links": [
+            "https://github.com/mrtooher/fable-mode"
+          ],
+          "image": "assets/github-avatars/mrtooher-fable-mode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Claude",
+            "Agent",
+            "提示工程",
+            "开源"
+          ],
+          "stars": 495,
+          "stars_gained": null,
+          "language": null,
+          "forks": 56,
+          "owner": "mrtooher",
+          "repo": "fable-mode"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "fivetaku/fablize：让 Opus 像 Fable 一样跑完任务的 Claude Code 插件",
+          "source": "@fivetaku",
+          "source_name": "GitHub",
+          "summary": "一个 Claude Code 插件，把\"带证据和验证地把任务做到底\"变成可复现的流程，而非靠运气。",
+          "detail": "作者在 Fable 5 发布后做了 Fable 5 与 Opus 4.8 的对照实验（19 组 A/B 加 26 次真实工作会话、约 1,500 次工具调用），发现在有明确答案的封闭任务上两者基本持平，差距只出现在开放式工作上。fablize 只把那次对照中被证明\"可迁移\"的部分做成插件——即完成度、证据与验证的过程纪律，承认开放式深度属于模型能力本身、无法用 harness 迁移。",
+          "significance": "发布约 5 天收获 475 stars，其基于真实 A/B 实验的方法论叙述引发开发者共鸣。",
+          "links": [
+            "https://github.com/fivetaku/fablize"
+          ],
+          "image": "assets/github-avatars/fivetaku-fablize.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Claude",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 475,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 72,
+          "owner": "fivetaku",
+          "repo": "fablize"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "royalbhati/sqltoerdiagram：纯浏览器运行的 SQL 转 ER 图工具",
+          "source": "@royalbhati",
+          "source_name": "GitHub",
+          "summary": "粘贴 CREATE TABLE 语句即可得到干净的交互式 ER 图，100% 在浏览器本地运行、零上传。",
+          "detail": "它是一个单页静态应用，解析 MySQL/Postgres/SQL-Server 风格的 CREATE TABLE 与 ALTER TABLE DDL，用 canvas 配合位图缓存与视口裁剪渲染，号称在 300 张表、593 个外键下缩放仍保持约 120fps。外键连线默认柔化，悬停某张表时高亮其关联，专门为密集 schema 减负。数据不离开本机，无服务器、无需注册。",
+          "significance": "发布约 5 天收获 467 stars，\"免费、本地、好看\"的定位精准击中了付费/笨重竞品的痛点。",
+          "links": [
+            "https://github.com/royalbhati/sqltoerdiagram"
+          ],
+          "image": "assets/github-avatars/royalbhati-sqltoerdiagram.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "数据库",
+            "开发工具",
+            "可视化",
+            "开源"
+          ],
+          "stars": 467,
+          "stars_gained": null,
+          "language": "JavaScript",
+          "forks": 38,
+          "owner": "royalbhati",
+          "repo": "sqltoerdiagram"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "rebel0789/codexpro：把 ChatGPT 开发者模式当作本地编码 Agent",
+          "source": "@rebel0789",
+          "source_name": "GitHub",
+          "summary": "通过 MCP 让 ChatGPT 网页版看到你的仓库上下文，并像本地编码 Agent 一样操作代码。",
+          "detail": "CodexPro 借助 MCP 协议，把 ChatGPT 网页的开发者模式接入本地 Codex 风格的仓库上下文，让网页端 AI 能感知并操作你的代码库。项目以 TypeScript 编写、已发布到 npm，并支持 Cloudflare Tunnel、ngrok 等隧道方案打通本地与网页端。",
+          "significance": "发布约 3 天收获 389 stars，\"让 ChatGPT 网页直接编码\"的玩法吸引了大量尝鲜者。",
+          "links": [
+            "https://github.com/rebel0789/codexpro"
+          ],
+          "image": "assets/github-avatars/rebel0789-codexpro.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "MCP",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 389,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 35,
+          "owner": "rebel0789",
+          "repo": "codexpro"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "dzcmemory-web/bazi-ziwei-skill：算法精准排盘的 AI 命理 Skill",
+          "source": "@dzcmemory-web",
+          "source_name": "GitHub",
+          "summary": "遵循 SKILL.md 标准的八字与紫微斗数排盘 Skill，由内置算法排盘而非让 LLM 猜，附三种分析模式。",
+          "detail": "该 Skill 用内置算法库计算八字四柱、紫微十二宫与大运流年，避免纯 LLM 排盘常见的日柱、日主、格局算错问题；并在排盘之上补一层格局、旺衰、调候、刑冲合害等算法供 LLM 做有依据的分析。核心增量是把八字与紫微两套体系做交叉印证，并可一键生成水墨风 HTML 命盘海报。排盘核心源自 MIT 开源项目 Yiqi，兼容 Claude、Codex、Cursor 等支持 SKILL.md 的 Agent。",
+          "significance": "发布约 6 天收获 384 stars，把传统命理与 AI Skill 标准结合的新颖玩法在中文社区迅速传播。",
+          "links": [
+            "https://github.com/dzcmemory-web/bazi-ziwei-skill"
+          ],
+          "image": "assets/github-avatars/dzcmemory-web-bazi-ziwei-skill.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "Claude",
+            "Skill",
+            "开源"
+          ],
+          "stars": 384,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 43,
+          "owner": "dzcmemory-web",
+          "repo": "bazi-ziwei-skill"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "duolahypercho/fusion-fable：多模型融合出一份 Fable 级答案",
+          "source": "@duolahypercho",
+          "source_name": "GitHub",
+          "summary": "一个 Claude Code skill，用\"专家组→评审\"流水线把多个前沿模型的独立回答融合成一份高质量答案。",
+          "detail": "Fusion-Fable 把同一道难题并行分发给多个模型，每个模型带 web 搜索和 bash 独立作答、互不可见，再由 Opus 4.8 评审所有答案，产出包含共识、矛盾、部分覆盖、独特见解、盲点的结构化分析，并据此写出最终答案。其机制是\"先独立、后综合\"——多样性是被收割而非制造的，即便同一模型两次冷启动也会产生足够分化的推理路径与来源。",
+          "significance": "发布约 6 天收获 366 stars，\"模型面板 + 评审\"的集成思路契合当下对多模型协作的探索热情。",
+          "links": [
+            "https://github.com/duolahypercho/fusion-fable"
+          ],
+          "image": "assets/github-avatars/duolahypercho-fusion-fable.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Shell",
+            "Claude",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 366,
+          "stars_gained": null,
+          "language": "Shell",
+          "forks": 56,
+          "owner": "duolahypercho",
+          "repo": "fusion-fable"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "privatenumber/mac-ocr：基于 Apple Vision 的 macOS OCR 命令行",
+          "source": "@privatenumber",
+          "source_name": "GitHub",
+          "summary": "一个 macOS 命令行工具，用 Apple Vision 框架做 OCR 并生成可搜索 PDF，全程本地、零上传。",
+          "detail": "mac-ocr 调用 Apple 的 Vision 框架在本机识别图片和 PDF 中的文字，可批量处理图片、按页流式输出 PDF 文本（支持 jsonl 格式），并把图片转成可搜索 PDF。项目用 Swift 编写、通过 Node.js 分发，并附带一个 skill——AI Agent 可本地免费调用它读取文档，省下视觉 token。",
+          "significance": "发布约 6 天收获 360 stars，\"给 Agent 省视觉 token\"的卖点让它在 AI 工具圈走红。",
+          "links": [
+            "https://github.com/privatenumber/mac-ocr"
+          ],
+          "image": "assets/github-avatars/privatenumber-mac-ocr.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Swift",
+            "命令行",
+            "OCR",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 360,
+          "stars_gained": null,
+          "language": "Swift",
+          "forks": 16,
+          "owner": "privatenumber",
+          "repo": "mac-ocr"
+        },
+        {
+          "id": "new_hot-10",
+          "title": "bjarneo/ku：键盘驱动的 Kubernetes 终端界面",
+          "source": "@bjarneo",
+          "source_name": "GitHub",
+          "summary": "一个快速、键盘驱动的 Kubernetes TUI，可浏览任意资源、编辑对象、跟踪日志并进入 Pod shell。",
+          "detail": "ku（取自 Kubernetes，也是挪威语\"牛\"）让你无需离开终端即可浏览任意资源、读取与编辑对象、跟踪日志并打开 Pod 内的 shell，灵感来自 k9s、Lens 和 lazygit。项目用 Go 编写、基于 Bubble Tea 等 charm 库构建，提供一键安装脚本和 go install 等多种安装方式。",
+          "significance": "发布约 6 天收获 339 stars，DevOps 群体对轻量 k9s 替代品的持续需求推动了它的上升。",
+          "links": [
+            "https://github.com/bjarneo/ku"
+          ],
+          "image": "assets/github-avatars/bjarneo-ku.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "Kubernetes",
+            "命令行",
+            "DevOps",
+            "开源"
+          ],
+          "stars": 339,
+          "stars_gained": null,
+          "language": "Go",
+          "forks": 13,
+          "owner": "bjarneo",
+          "repo": "ku"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "affaan-m/ECC：跨 Agent 的 harness 性能优化系统",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "面向 Claude Code、Codex、Opencode、Cursor 等的 Agent harness 性能优化系统，覆盖技能、记忆、安全与研究优先开发。",
+          "detail": "ECC 把 skills、instincts、memory、security 与 research-first 开发整合成一套跨 Agent 的 harness 优化系统，配套 ecc-universal、ecc-agentshield 等 npm 包及 GitHub App 与插件。README 特别警示只从官方渠道安装，提醒用户警惕第三方镜像与未经审核的转载。提供英、中、日、韩等十余种语言文档。",
+          "significance": "本周新增约 3,000 stars，多 Agent 运行时优化的热度叠加其多语言推广带来持续增长。",
+          "links": [
+            "https://github.com/affaan-m/ECC"
+          ],
+          "image": "assets/github-avatars/affaan-m-ECC.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "AI",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 217772,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 33412,
+          "owner": "affaan-m",
+          "repo": "ECC"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "NousResearch/hermes-agent：会随你成长的 AI Agent",
+          "source": "@NousResearch",
+          "source_name": "GitHub",
+          "summary": "Nous Research 推出的\"会随你成长\"的 AI Agent，提供网页端与桌面端，兼容主流模型生态。",
+          "detail": "Hermes Agent 是 Nous Research 的开源 Agent 项目，以 Python 编写、采用 MIT 许可证，提供 Hermes Agent 网页与 Hermes Desktop 桌面应用及完整文档站。其 topics 覆盖 Anthropic、OpenAI、Claude Code、Codex、OpenClaw 等，定位为可对接广泛模型与工具生态的个人 Agent。",
+          "significance": "本周新增约 3,000 stars，作为知名开源团队 Nous Research 的旗舰 Agent 持续受到关注。",
+          "links": [
+            "https://github.com/NousResearch/hermes-agent"
+          ],
+          "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "Agent",
+            "LLM",
+            "开源"
+          ],
+          "stars": 197004,
+          "stars_gained": 3000,
+          "language": "Python",
+          "forks": 34789,
+          "owner": "NousResearch",
+          "repo": "hermes-agent"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "openclaw/openclaw：跨平台的个人 AI 助手",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "一个跨操作系统、跨平台的个人 AI 助手，主打数据自有、以\"龙虾\"为吉祥物的开源项目。",
+          "detail": "OpenClaw 是一个用 TypeScript 编写的个人 AI 助手，强调\"own your data\"——任意操作系统、任意平台皆可运行。项目带有完整 CI 与发布流程，topics 包括 assistant、own-your-data、personal 等。凭借鲜明的龙虾品牌形象和\"自有数据\"理念聚集了庞大社区。",
+          "significance": "本周新增约 1,730 stars，作为本榜星数最高的开源助手之一，社区活跃度推动其稳定上升。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "assets/github-avatars/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "助手",
+            "开源"
+          ],
+          "stars": 379410,
+          "stars_gained": 1730,
+          "language": "TypeScript",
+          "forks": 79422,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "yt-dlp/yt-dlp：功能丰富的命令行音视频下载器",
+          "source": "@yt-dlp",
+          "source_name": "GitHub",
+          "summary": "支持数千个站点的命令行音视频下载器，是 youtube-dl 的活跃分支。",
+          "detail": "yt-dlp 是一个功能丰富的命令行音视频下载工具，支持数千个站点，由已停止维护的 youtube-dlc 衍生而来，是 youtube-dl 的事实标准接班者。它提供从网络选项、地理限制、视频筛选到缩略图、字幕、SponsorBlock 等极为细致的下载控制选项。",
+          "significance": "本周新增约 1,610 stars，作为长青下载工具，其持续更新与广泛站点支持带来稳定的星数增长。",
+          "links": [
+            "https://github.com/yt-dlp/yt-dlp"
+          ],
+          "image": "assets/github-avatars/yt-dlp-yt-dlp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "命令行",
+            "下载器",
+            "开源"
+          ],
+          "stars": 171417,
+          "stars_gained": 1610,
+          "language": "Python",
+          "forks": 14446,
+          "owner": "yt-dlp",
+          "repo": "yt-dlp"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "open-webui/open-webui：可离线运行的自托管 AI 界面",
+          "source": "@open-webui",
+          "source_name": "GitHub",
+          "summary": "可完全离线运行的可扩展自托管 AI 平台，支持 Ollama 与 OpenAI 兼容 API。",
+          "detail": "Open WebUI 是一个可扩展、功能丰富的自托管 AI 平台，能完全离线运行。它支持 Ollama 等本地 LLM 运行器及 OpenAI 兼容 API，内置推理引擎可做 RAG，并提供 MCP 支持。面向希望在本地掌控数据与部署的用户与团队，同时提供面向企业的定制主题、SLA、LTS 等增强能力。",
+          "significance": "本周新增约 1,141 stars，本地化、可离线的 LLM 前端需求旺盛，推动其持续走高。",
+          "links": [
+            "https://github.com/open-webui/open-webui"
+          ],
+          "image": "assets/github-avatars/open-webui-open-webui.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "AI",
+            "LLM",
+            "RAG",
+            "开源"
+          ],
+          "stars": 142177,
+          "stars_gained": 1141,
+          "language": "Python",
+          "forks": 20427,
+          "owner": "open-webui",
+          "repo": "open-webui"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "n8n-io/n8n：带原生 AI 能力的工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "面向技术团队的公平代码（fair-code）工作流自动化平台，集成 400+ 服务并具备原生 AI 能力。",
+          "detail": "n8n 把代码的灵活性与无代码的速度结合，提供 400+ 集成、原生 AI 能力与可视化构建界面。它支持用 JavaScript/Python 编写逻辑、添加 npm 包，可基于 LangChain 构建 AI Agent 工作流，并提供 MCP 客户端与服务端能力。采用 fair-code 许可证，可自托管或用官方云，面向企业提供高级权限、SSO 与气隙部署。",
+          "significance": "本周新增约 1,105 stars，AI Agent 工作流编排的火热让这一老牌自动化平台再获关注。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "assets/github-avatars/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "自动化",
+            "工作流",
+            "开源"
+          ],
+          "stars": 193073,
+          "stars_gained": 1105,
+          "language": "TypeScript",
+          "forks": 58654,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "langgenius/dify：生产级 Agentic 工作流开发平台",
+          "source": "@langgenius",
+          "source_name": "GitHub",
+          "summary": "面向生产环境的 agentic 工作流开发平台，集成低代码编排、RAG 与多模型支持。",
+          "detail": "Dify 是一个生产级的 agentic 工作流开发平台，提供云端与自托管两种形态。它支持 OpenAI、Gemini、GPT-4 等多模型，整合 RAG、low-code/no-code 编排与 MCP，用 TypeScript 与 Python 构建，覆盖从 Agent 编排到工作流自动化的完整链路。",
+          "significance": "本周新增约 960 stars，企业级 Agent 平台需求旺盛带动其稳步上升。",
+          "links": [
+            "https://github.com/langgenius/dify"
+          ],
+          "image": "assets/github-avatars/langgenius-dify.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "Agent",
+            "RAG",
+            "开源"
+          ],
+          "stars": 145749,
+          "stars_gained": 960,
+          "language": "TypeScript",
+          "forks": 22914,
+          "owner": "langgenius",
+          "repo": "dify"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "ollama/ollama：本地运行开源大模型的利器",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "让你在本地快速上手 Kimi-K2.6、GLM-5.1、DeepSeek、gpt-oss、Qwen、Gemma 等开源大模型。",
+          "detail": "Ollama 用 Go 编写，提供 macOS、Windows、Linux 与 Docker 的一键安装，让用户在本地启动并运行各类开源模型。它支持 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、Qwen、Gemma 等众多模型，并提供 ollama-python、ollama-js 等官方库，可对接现有 Agent 工作流。",
+          "significance": "本周新增约 704 stars，新模型的密集上架与本地推理需求让它保持稳定增长。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "assets/github-avatars/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "LLM",
+            "本地推理",
+            "开源"
+          ],
+          "stars": 174482,
+          "stars_gained": 704,
+          "language": "Go",
+          "forks": 16675,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "microsoft/vscode：微软开源代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软与社区共同开发的开源代码编辑器，即广为人知的 Visual Studio Code。",
+          "detail": "该仓库（Code - OSS）是微软与社区共同开发 Visual Studio Code 的所在地，不仅开发代码与处理 issue，还在此公布路线图、月度迭代计划与收尾计划。源代码以标准 MIT 许可证向所有人开放，采用 TypeScript 与 Electron 构建。",
+          "significance": "本周新增约 469 stars，作为长期占据榜首的国民级编辑器，其增长来自庞大而持续的开发者基础。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "assets/github-avatars/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 186542,
+          "stars_gained": 469,
+          "language": "TypeScript",
+          "forks": 40532,
+          "owner": "microsoft",
+          "repo": "vscode"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "f/prompts.chat：全球最大的开源提示词库",
+          "source": "@f",
+          "source_name": "GitHub",
+          "summary": "前身为 Awesome ChatGPT Prompts 的社区提示词库，可分享、发现与收藏提示词，并支持自托管。",
+          "detail": "prompts.chat（前身 Awesome ChatGPT Prompts）自称世界最大的开源 AI 提示词库，可分享、发现并收藏来自社区的提示词。它兼容 ChatGPT、Claude、Gemini、Llama、Mistral 等多种模型，采用 Next.js 构建，免费开源，并可为组织完全自托管以保障隐私。",
+          "significance": "本周新增约 374 stars，提示工程的长期热度让这一老牌资源库保持稳定吸星能力。",
+          "links": [
+            "https://github.com/f/prompts.chat"
+          ],
+          "image": "assets/github-avatars/f-prompts.chat.jpg",
+          "image_type": "logo",
+          "tags": [
+            "HTML",
+            "AI",
+            "提示工程",
+            "开源"
+          ],
+          "stars": 163894,
+          "stars_gained": 374,
+          "language": "HTML",
+          "forks": 21252,
+          "owner": "f",
+          "repo": "prompts.chat"
+        }
+      ]
+    }
+  ]
+}
