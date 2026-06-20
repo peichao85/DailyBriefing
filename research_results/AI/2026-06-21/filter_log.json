@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-21",
+  "total_candidates": 14,
+  "kept": 9,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "jumper-deepmind-to-anthropic",
+      "event_date": "2026-06-20",
+      "title_en": "Nobel laureate John Jumper leaves DeepMind for rival Anthropic",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. AlphaFold co-creator and 2024 Nobel chemistry laureate departing DeepMind for Anthropic, announced Fri 2026-06-20."
+    },
+    {
+      "story_key": "amazon-trainium-external-sales",
+      "event_date": "2026-06-18",
+      "title_en": "Amazon in talks to sell Trainium AI chips externally to challenge Nvidia",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. AWS reversing internal-only chip strategy; Bloomberg-sourced, exec quotes (DeSantis, Jassy $50B run-rate)."
+    },
+    {
+      "story_key": "reliance-jio-ai-everywhere",
+      "event_date": "2026-06-19",
+      "title_en": "Ambani: Reliance to put AI in every call, app and home, $110B infra",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Reliance AGM AI product slate + $110B, Google/Meta/Nvidia partners, 500M+ Jio users."
+    },
+    {
+      "story_key": "general-intuition-funding",
+      "event_date": "2026-06-18",
+      "title_en": "General Intuition in talks to raise $300M at ~$2B valuation",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Game-clip world-model startup, Bezos/Schmidt/Khosla/General Catalyst, 8 months after $134M seed."
+    },
+    {
+      "story_key": "microsoft-deepseek-copilot",
+      "event_date": "2026-06-18",
+      "title_en": "Microsoft mulls using DeepSeek V4 to power cheaper Copilot",
+      "source": "The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Microsoft considering DeepSeek V4 as cheaper enterprise option for Copilot."
+    },
+    {
+      "story_key": "whittaker-chatbots-not-friends",
+      "event_date": "2026-06-20",
+      "title_en": "Signal's Meredith Whittaker: AI chatbots are not your friends",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg interview; warns agent-everywhere access is a privacy backdoor (cites Suleyman Copilot vision)."
+    },
+    {
+      "story_key": "in-the-weights-ai-search",
+      "event_date": "2026-06-20",
+      "title_en": "In the Weights: AI-centric vanity search measures LLM fame",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Ex-OpenAI/Global Illumination founders; scores how strongly a person is encoded across LLMs."
+    },
+    {
+      "story_key": "asml-top-tool-in-china",
+      "event_date": "2026-06-19",
+      "title_en": "US says ASML's top chip tool may be in China",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. US alleges ASML's most advanced lithography tool may have reached China, contradicting ASML; chip-war escalation."
+    },
+    {
+      "story_key": "elastic-acquires-deductive-ai",
+      "event_date": "2026-06-18",
+      "title_en": "Elastic acquires Deductive AI for ~$85M",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Elastic buys CRV-backed AI root-cause/observability startup for ~$85M."
+    },
+    {
+      "story_key": "anthropic-claude-fable-5",
+      "event_date": "2026-06-19",
+      "title_en": "Is the US Anthropic Fable 5 ban accidentally helping the brand?",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "story_key heavily covered in lookback (06-13/06-15/06-19). 06-19 pieces are opinion/podcast commentary with no substantive new development beyond the refund-deadline story already published 06-19."
+    },
+    {
+      "story_key": "amazon-mgm-drops-altman-movie",
+      "event_date": "2026-06-19",
+      "title_en": "Amazon MGM Studio drops the Sam Altman/OpenAI movie",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Novel and within freshness window, but only headline-level facts available (paywalled); insufficient verified detail to write an accurate card. Dropped for quality."
+    },
+    {
+      "story_key": "accenture-ai-consulting-warning",
+      "event_date": "2026-06-19",
+      "title_en": "Accenture stock falls ~18% on weak guidance amid AI disruption",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Notable but is primarily a markets/earnings story; could not verify AI-disruption causal detail. Belongs in US-stocks briefing rather than AI briefing."
+    },
+    {
+      "story_key": "snap-dotmo-spinout",
+      "event_date": "2026-06-18",
+      "title_en": "Snap spins out video creation team as independent company Dotmo",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Marginal AI relevance (corporate restructuring); only headline-level facts available. Dropped for quality/relevance."
+    },
+    {
+      "story_key": "general-intuition-funding-secondary",
+      "event_date": "2026-06-18",
+      "title_en": "Founders Fund bet on humanely killed fish / misc small rounds",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Not AI-significant; out of scope for the AI briefing."
+    }
+  ]
+}
