@@ -1,0 +1,541 @@
+{
+  "date": "2026-06-20",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-06-20",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "kage：网站离线快照工具，剥离全部 JavaScript",
+          "source": "@tamnd",
+          "source_name": "GitHub",
+          "summary": "用真实无头 Chrome 渲染网页后保存为可离线浏览的静态副本，并删除所有脚本，适合长期归档网页。",
+          "detail": "kage（影）用无头 Chrome 打开每个页面，等待渲染完成后快照 DOM，再删除全部 JavaScript，并把 CSS、图片、字体下载到本地路径。落盘的副本外观与在线站点一致，但不执行任何代码，并提供克隆、打包、双击运行的原生窗口等命令。",
+          "significance": "发布一周即收获 2,096 stars，位列本周新晋热门第一。",
+          "links": [
+            "https://github.com/tamnd/kage"
+          ],
+          "image": "assets/github-avatars/tamnd-kage.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "开发工具",
+            "离线",
+            "开源"
+          ],
+          "stars": 2096,
+          "stars_gained": null,
+          "language": "Go",
+          "forks": 62,
+          "owner": "tamnd",
+          "repo": "kage"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "Vercel eve：构建 AI Agent 的 TypeScript 框架",
+          "source": "@vercel",
+          "source_name": "GitHub",
+          "summary": "Vercel 推出的开源 Agent 开发框架，提供工作流、沙箱与 harness，用 TypeScript/Markdown 搭建智能体。",
+          "detail": "eve 是 Vercel 出品的 Agent 构建框架，以 npm 包形式发布，围绕 sandbox、workflows 与 harness 等组件组织代码，支持用 TypeScript 和 Markdown 定义智能体的行为与流程。",
+          "significance": "发布数天即收获 1,641 stars，位列本周新晋热门第二。",
+          "links": [
+            "https://github.com/vercel/eve"
+          ],
+          "image": "assets/github-avatars/vercel-eve.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "Agent",
+            "框架",
+            "开源"
+          ],
+          "stars": 1641,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 106,
+          "owner": "vercel",
+          "repo": "eve"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "DevSpace：把 ChatGPT 变成 Codex 式编码助手",
+          "source": "@Waishnav",
+          "source_name": "GitHub",
+          "summary": "为 ChatGPT 带来 Codex 风格的编码工作流，让网页版 ChatGPT 也能像本地编码 agent 一样处理代码任务。",
+          "detail": "DevSpace 以 npm 包 @waishnav/devspace 形式发布，把 Codex 风格的编码流程引入 ChatGPT，使其具备面向仓库、可连续推进的编码体验。",
+          "significance": "发布一周收获 1,389 stars，位列本周新晋热门第三。",
+          "links": [
+            "https://github.com/Waishnav/devspace"
+          ],
+          "image": "assets/github-avatars/Waishnav-devspace.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "ChatGPT",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 1389,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 123,
+          "owner": "Waishnav",
+          "repo": "devspace"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "Junction：连接本地 AI 编码 Agent 的 VS Code 侧边栏",
+          "source": "@Plaer1",
+          "source_name": "GitHub",
+          "summary": "一个 VS Code 聊天侧边栏，用统一界面连接 OpenClaw、Hermes、Goose 等多种本地 AI 编码 agent。",
+          "detail": "Junction 在 VS Code 中提供聊天面板，通过统一接口对接运行在本机的多种 agent 后端，包括 OpenClaw、Hermes、Souveraine、MiMoCode、Goose 等共 7 种，可在不改变工作流的情况下自由切换，并具备工作区上下文感知，采用 MIT 许可。",
+          "significance": "发布几天即收获 512 stars，跻身本周新晋热门。",
+          "links": [
+            "https://github.com/Plaer1/junction"
+          ],
+          "image": "assets/github-avatars/Plaer1-junction.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "VSCode",
+            "Agent",
+            "开源"
+          ],
+          "stars": 512,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 6,
+          "owner": "Plaer1",
+          "repo": "junction"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "fablize：让 Opus 像 Fable 一样执行的 Claude Code 插件",
+          "source": "@fivetaku",
+          "source_name": "GitHub",
+          "summary": "一个 Claude Code 插件，通过流程化的完成、取证与验证约束，让 Opus 等 Claude 模型把任务可靠地做到底。",
+          "detail": "作者基于 Fable 5 与 Opus 4.8 的对照实验（19 组 A/B 加 26 次真实会话、约 1,500 次工具调用）提炼可迁移的做法，把“带证据和验证地把任务做完”固化为流程而非偶然。插件只收录被对比实验证明可迁移的部分。",
+          "significance": "发布一周收获 502 stars，反映社区对 Fable 与 Opus 工作方式差异的关注。",
+          "links": [
+            "https://github.com/fivetaku/fablize"
+          ],
+          "image": "assets/github-avatars/fivetaku-fablize.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Claude Code",
+            "Agent",
+            "开源"
+          ],
+          "stars": 502,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 73,
+          "owner": "fivetaku",
+          "repo": "fablize"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "SQL to ER Diagram：纯浏览器端的 ER 图生成器",
+          "source": "@royalbhati",
+          "source_name": "GitHub",
+          "summary": "粘贴 CREATE TABLE 语句即可生成整洁、可交互的 ER 关系图，全程在浏览器本地运行、不上传任何数据。",
+          "detail": "该工具是一个单页静态应用，解析 MySQL、Postgres、SQL Server 风格的 CREATE TABLE / ALTER TABLE DDL，在 canvas 上渲染表结构，借助位图缓存与视口裁剪在数百张表时仍保持流畅（实测约 120fps 缩放 300 表 / 593 个外键）。开源且 100% 本地运行。",
+          "significance": "发布一周收获 483 stars，凭“免费、本地、不上传”切中开发者痛点。",
+          "links": [
+            "https://github.com/royalbhati/sqltoerdiagram"
+          ],
+          "image": "assets/github-avatars/royalbhati-sqltoerdiagram.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "数据库",
+            "可视化",
+            "开源"
+          ],
+          "stars": 483,
+          "stars_gained": null,
+          "language": "JavaScript",
+          "forks": 39,
+          "owner": "royalbhati",
+          "repo": "sqltoerdiagram"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "CodexPro：用 MCP 让 ChatGPT 看见并操作本地仓库",
+          "source": "@rebel0789",
+          "source_name": "GitHub",
+          "summary": "通过 MCP，把 ChatGPT 开发者模式变成能读取仓库上下文、像本地编码 agent 一样行动的工具。",
+          "detail": "CodexPro 以 npm 包形式发布，借助 MCP、Cloudflare Tunnel 或 ngrok 把本地 Codex 风格的仓库上下文暴露给 ChatGPT 网页端，使其能感知代码并执行编码操作。",
+          "significance": "发布数天收获 435 stars，延续了“把网页版 ChatGPT 接入本地仓库”的热点。",
+          "links": [
+            "https://github.com/rebel0789/codexpro"
+          ],
+          "image": "assets/github-avatars/rebel0789-codexpro.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "MCP",
+            "ChatGPT",
+            "开源"
+          ],
+          "stars": 435,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 40,
+          "owner": "rebel0789",
+          "repo": "codexpro"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "司南 COMPASS：面向 AI Agent 的个性化任务总控 Skills",
+          "source": "@dongshuyan",
+          "source_name": "GitHub",
+          "summary": "为 AI 编码 agent 提供任务澄清、仓库本地任务记忆、对话交接与本地协作画像四个本地 Skill。",
+          "detail": "COMPASS Skills 通过 npx 安装，给 Claude Code、Codex 等 agent 增加四个 SKILL.md 技能：task-clarifier 在高风险工作前对齐目标、范围与验收标准，task-forest 维护仓库本地的任务森林，另含 AI 对话交接提示与本地协作画像。项目同时是一份搭建本地 Skill 生态的实践教程。",
+          "significance": "发布一周收获 340 stars，体现 SKILL.md 技能生态的快速升温。",
+          "links": [
+            "https://github.com/dongshuyan/compass-skills"
+          ],
+          "image": "assets/github-avatars/dongshuyan-compass-skills.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Agent",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 340,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 27,
+          "owner": "dongshuyan",
+          "repo": "compass-skills"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "Three.js Game Skills：用 Agent 技能打造网页 3D 游戏",
+          "source": "@majidmanzarpour",
+          "source_name": "GitHub",
+          "summary": "一套 Codex 与 Claude Code 技能，帮助 agent 构建可玩且精致的 Three.js 浏览器游戏，覆盖玩法、画面、UI、QA 等环节。",
+          "detail": "安装技能后只需让 agent 使用 threejs-game-director，它便会在玩法、图形、UI、素材生成、音频、调试与发布验证之间自动路由，无需手动挑选具体技能。包内附带 SKILL.md、参考资料、清单、提示模板、辅助脚本以及 Vite + TypeScript + Three.js 脚手架，并可选用 AI 生成 3D、图片与音频素材。",
+          "significance": "发布一周收获 340 stars，展示 Agent Skills 在游戏开发上的应用潜力。",
+          "links": [
+            "https://github.com/majidmanzarpour/threejs-game-skills"
+          ],
+          "image": "assets/github-avatars/majidmanzarpour-threejs-game-skills.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Three.js",
+            "游戏",
+            "开源"
+          ],
+          "stars": 340,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 35,
+          "owner": "majidmanzarpour",
+          "repo": "threejs-game-skills"
+        },
+        {
+          "id": "new_hot-10",
+          "title": "FableCodex：像 Fable 一样规划的 Codex 工作流",
+          "source": "@baskduf",
+          "source_name": "GitHub",
+          "summary": "为 Codex 提供基于证据的工作流闸门，让编码 agent 在规划阶段就像 Fable 一样审慎推进。",
+          "detail": "FableCodex 将“基于证据的工作流闸门”引入 Codex，借助上下文工程与提示工程，让编码 agent 在执行前完成规划与验证。项目采用 AGPL-3.0 许可。",
+          "significance": "发布一周收获 315 stars，是本周多个“让模型像 Fable 一样工作”项目之一。",
+          "links": [
+            "https://github.com/baskduf/FableCodex"
+          ],
+          "image": "assets/github-avatars/baskduf-FableCodex.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Codex",
+            "工作流",
+            "开源"
+          ],
+          "stars": 315,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 41,
+          "owner": "baskduf",
+          "repo": "FableCodex"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "Superpowers：为编码 Agent 打造的技能与方法论框架",
+          "source": "@obra",
+          "source_name": "GitHub",
+          "summary": "一套可组合的技能加初始指令，构成完整的软件开发方法论，让编码 agent 自动遵循规范流程。",
+          "detail": "Superpowers 在一组可组合 skills 之上构建了完整的软件开发方法论，并通过初始指令确保 agent 主动使用这些技能。它支持 Claude Code、Codex、Cursor、Gemini CLI、GitHub Copilot CLI 等众多 agent，从开始构建的那一刻起引导 agent 先规划再动手。",
+          "significance": "本周新增约 3,000 stars，累计已达 23.3 万，持续领跑 Agent 技能框架赛道。",
+          "links": [
+            "https://github.com/obra/superpowers"
+          ],
+          "image": "assets/github-avatars/obra-superpowers.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Shell",
+            "Agent",
+            "skills",
+            "开源"
+          ],
+          "stars": 233337,
+          "stars_gained": 3000,
+          "language": "Shell",
+          "forks": 20724,
+          "owner": "obra",
+          "repo": "superpowers"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "ECC：跨 agent 的 harness 性能优化系统",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "集技能、本能、记忆、安全与“研究优先”开发于一体的 agent harness 优化方案，适配 Claude Code、Codex、Cursor 等。",
+          "detail": "ECC 面向 Claude Code、Codex、Opencode、Cursor 等多种 agent，提供技能、本能、记忆与安全等模块，并强调研究优先的开发方式。项目以 ecc-universal、ecc-agentshield 等 npm 包及 GitHub App、插件形式分发，并提醒用户仅从官方渠道安装。",
+          "significance": "本周新增约 3,000 stars，累计 21.8 万，是增长最快的 agent harness 项目之一。",
+          "links": [
+            "https://github.com/affaan-m/ECC"
+          ],
+          "image": "assets/github-avatars/affaan-m-ECC.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "Agent",
+            "MCP",
+            "开源"
+          ],
+          "stars": 218278,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 33483,
+          "owner": "affaan-m",
+          "repo": "ECC"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "Hermes Agent：会随你成长的 AI 智能体",
+          "source": "@NousResearch",
+          "source_name": "GitHub",
+          "summary": "Nous Research 出品的 AI agent，提供桌面端与多模型接入，可对接 Claude、Codex、OpenClaw 等生态。",
+          "detail": "Hermes Agent 由 Nous Research 开发，提供 Hermes Agent 与 Hermes Desktop 两种形态，强调随使用不断成长。项目对接 Anthropic、OpenAI 等多家模型及 Claude Code、Codex、OpenClaw 等 agent，采用 MIT 许可。",
+          "significance": "本周新增约 3,000 stars，累计 19.7 万，热度紧追头部 agent 项目。",
+          "links": [
+            "https://github.com/NousResearch/hermes-agent"
+          ],
+          "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Agent",
+            "LLM",
+            "开源"
+          ],
+          "stars": 197649,
+          "stars_gained": 3000,
+          "language": "Python",
+          "forks": 34989,
+          "owner": "NousResearch",
+          "repo": "hermes-agent"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "yt-dlp：功能丰富的命令行音视频下载器",
+          "source": "@yt-dlp",
+          "source_name": "GitHub",
+          "summary": "支持数千个站点的命令行音视频下载工具，是 youtube-dl 的活跃分支，内置 SponsorBlock 等增强功能。",
+          "detail": "yt-dlp 是基于已停更的 youtube-dlc 的 youtube-dl 分支，支持数千个网站的音视频下载，提供丰富的网络、地域限制、视频选择、文件系统与缩略图等选项。",
+          "significance": "本周新增 1,729 stars，作为老牌工具仍保持旺盛人气。",
+          "links": [
+            "https://github.com/yt-dlp/yt-dlp"
+          ],
+          "image": "assets/github-avatars/yt-dlp-yt-dlp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "命令行",
+            "下载器",
+            "开源"
+          ],
+          "stars": 171787,
+          "stars_gained": 1729,
+          "language": "Python",
+          "forks": 14484,
+          "owner": "yt-dlp",
+          "repo": "yt-dlp"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "OpenClaw：跨平台、数据自有的个人 AI 助手",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "一个可运行在任意操作系统与平台的开源个人 AI 助手，强调“拥有自己的数据”。",
+          "detail": "OpenClaw（🦞）是一个跨平台的个人 AI 助手，主打“自有数据、自我掌控”，可在任意 OS 与平台上运行，配有完整的 CI 与版本发布流程。",
+          "significance": "本周新增 1,671 stars，累计高达 37.9 万，是星标体量最大的个人 AI 助手项目。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "assets/github-avatars/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI",
+            "助手",
+            "开源"
+          ],
+          "stars": 379530,
+          "stars_gained": 1671,
+          "language": "TypeScript",
+          "forks": 79457,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "n8n：自带 AI 能力的工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "面向技术团队的 fair-code 工作流自动化平台，兼具可视化搭建与自定义代码，内置 AI 与 400+ 集成。",
+          "detail": "n8n 让技术团队既能用无代码的速度搭建自动化，也能写 JavaScript/Python、引入 npm 包。平台原生支持基于 LangChain 的 AI agent 工作流，可自托管或用云服务，提供权限、SSO 与气隙部署等企业能力，拥有 400+ 集成与 900+ 模板。",
+          "significance": "本周新增 1,109 stars，累计 19.3 万，工作流自动化热度不减。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "assets/github-avatars/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "自动化",
+            "工作流",
+            "开源"
+          ],
+          "stars": 193211,
+          "stars_gained": 1109,
+          "language": "TypeScript",
+          "forks": 58672,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "Open WebUI：可离线运行的自托管 AI 界面",
+          "source": "@open-webui",
+          "source_name": "GitHub",
+          "summary": "功能丰富、对用户友好的自托管 AI 平台，支持 Ollama 与 OpenAI 兼容 API，可完全离线运行。",
+          "detail": "Open WebUI 是可扩展的自托管 AI 平台，支持 Ollama 及各种 OpenAI 兼容 API，内置用于 RAG 的推理引擎，设计为可完全离线运行。同时提供企业版的定制主题、SLA 与长期支持等能力。",
+          "significance": "本周新增 1,109 stars，累计 14.2 万，是自托管 LLM 界面的代表项目。",
+          "links": [
+            "https://github.com/open-webui/open-webui"
+          ],
+          "image": "assets/github-avatars/open-webui-open-webui.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "LLM",
+            "自托管",
+            "开源"
+          ],
+          "stars": 142291,
+          "stars_gained": 1109,
+          "language": "Python",
+          "forks": 20454,
+          "owner": "open-webui",
+          "repo": "open-webui"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "Dify：生产级的 Agentic 工作流开发平台",
+          "source": "@langgenius",
+          "source_name": "GitHub",
+          "summary": "面向生产环境的智能体工作流开发平台，融合 RAG、编排与低代码，支持 GPT、Gemini 等多种模型。",
+          "detail": "Dify 提供生产就绪的 agentic workflow 开发能力，覆盖 RAG、编排、低代码/无代码搭建，支持 OpenAI、Gemini 等模型并集成 MCP，提供云服务与自托管两种部署方式。",
+          "significance": "本周新增 944 stars，累计 14.6 万，持续位居 LLM 应用开发平台前列。",
+          "links": [
+            "https://github.com/langgenius/dify"
+          ],
+          "image": "assets/github-avatars/langgenius-dify.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "RAG",
+            "Agent",
+            "开源"
+          ],
+          "stars": 145851,
+          "stars_gained": 944,
+          "language": "TypeScript",
+          "forks": 22934,
+          "owner": "langgenius",
+          "repo": "dify"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "Ollama：一行命令在本地运行开源大模型",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "让用户在 macOS、Windows、Linux 上快速运行 Kimi-K2.6、GLM-5.1、DeepSeek、Qwen、Gemma 等开源模型。",
+          "detail": "Ollama 提供一行安装脚本，在 macOS、Windows、Linux 与 Docker 上启动并运行众多开源模型，配套 ollama-python、ollama-js 等库，可对接现有 agent。",
+          "significance": "本周新增 706 stars，累计 17.5 万，是本地大模型运行的事实标准之一。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "assets/github-avatars/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "LLM",
+            "本地模型",
+            "开源"
+          ],
+          "stars": 174561,
+          "stars_gained": 706,
+          "language": "Go",
+          "forks": 16684,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "VS Code：微软开源的代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软与社区共同开发的开源代码编辑器，源码以 MIT 许可公开，路线图与迭代计划同样开放。",
+          "detail": "该仓库（Code - OSS）是微软与社区共同开发 Visual Studio Code 的地方，不仅处理代码与 issue，还公开路线图、月度迭代计划与收尾计划。源码以标准 MIT 许可向所有人开放。",
+          "significance": "本周新增 429 stars，作为头部编辑器仍稳定吸引关注。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "assets/github-avatars/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "Electron",
+            "开源"
+          ],
+          "stars": 186549,
+          "stars_gained": 429,
+          "language": "TypeScript",
+          "forks": 40562,
+          "owner": "microsoft",
+          "repo": "vscode"
+        }
+      ]
+    }
+  ]
+}
