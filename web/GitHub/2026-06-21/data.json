@@ -1,0 +1,541 @@
+{
+  "date": "2026-06-21",
+  "category": "GitHub",
+  "title": "GitHub 趋势 · 2026-06-21",
+  "sections": [
+    {
+      "id": "new_hot",
+      "label": "新晋热门",
+      "subtitle": "过去 7 天新建仓库按星数排序",
+      "items": [
+        {
+          "id": "new_hot-1",
+          "title": "Vercel eve：面向 Agent 的构建框架",
+          "source": "@vercel",
+          "source_name": "GitHub",
+          "summary": "Vercel 推出的开源 Agent 构建框架，用 TypeScript 把工作流、沙箱与 harness 组合成可运行的智能体。",
+          "detail": "eve 是 Vercel 官方发布的 Agent 框架，已上架 npm。它围绕工作流（workflows）、沙箱（sandbox）和 harness 等原语设计，让开发者用 TypeScript/JavaScript 编排智能体的执行逻辑。框架强调与 Vercel 生态的衔接，并以 Markdown 驱动配置。",
+          "significance": "发布约一周即收获 1,866 stars，位列本周新晋热门第一，显示出大厂入场 Agent 框架赛道的号召力。",
+          "links": [
+            "https://github.com/vercel/eve"
+          ],
+          "image": "assets/github-avatars/vercel-eve.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "Agent",
+            "框架",
+            "开源"
+          ],
+          "stars": 1866,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 120,
+          "owner": "vercel",
+          "repo": "eve"
+        },
+        {
+          "id": "new_hot-2",
+          "title": "Loop Engineering 橙皮书：通俗指南",
+          "source": "@alchaincyf",
+          "source_name": "GitHub",
+          "summary": "面向大众的 Loop Engineering 通俗指南，中英双语 PDF 免费下载，解释 2026 年 6 月爆火的「循环工程」概念。",
+          "detail": "这是花叔（HuaShu）推出的「橙皮书」系列，用大白话讲解 Loop Engineering。书中引用 Peter Steinberger、Anthropic 的 Boris Cherny 与 Google 的 Addy Osmani 在 2026 年 6 月同时指向的趋势：不要再做给 Agent 写提示词的人，而要设计能自动替你完成工作的系统。提供中英双语 PDF，完全免费。",
+          "significance": "发布一周即收获 716 stars，借 Loop Engineering 概念的爆红登上本周新晋第二。",
+          "links": [
+            "https://github.com/alchaincyf/loop-engineering-orange-book"
+          ],
+          "image": "assets/github-avatars/alchaincyf-loop-engineering-orange-book.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Loop Engineering",
+            "AI",
+            "文档",
+            "开源"
+          ],
+          "stars": 716,
+          "stars_gained": null,
+          "language": null,
+          "forks": 62,
+          "owner": "alchaincyf",
+          "repo": "loop-engineering-orange-book"
+        },
+        {
+          "id": "new_hot-3",
+          "title": "CodexPro：把 ChatGPT 变本地编码 Agent",
+          "source": "@rebel0789",
+          "source_name": "GitHub",
+          "summary": "通过 MCP 让 ChatGPT 开发者模式读取本地仓库上下文，充当本地编码 Agent 的工具。",
+          "detail": "CodexPro 让 ChatGPT 网页端能够看到你本地 Codex 风格的仓库上下文，并像本地编码 Agent 一样工作。它借助 MCP 协议，并配合 ngrok 或 Cloudflare Tunnel 打通本地与 ChatGPT 的连接，已发布为 npm 包。",
+          "significance": "发布数日即获 538 stars，体现开发者对「复用 ChatGPT 订阅做本地编码」需求的热度。",
+          "links": [
+            "https://github.com/rebel0789/codexpro"
+          ],
+          "image": "assets/github-avatars/rebel0789-codexpro.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "MCP",
+            "命令行",
+            "开源"
+          ],
+          "stars": 538,
+          "stars_gained": null,
+          "language": "JavaScript",
+          "forks": 46,
+          "owner": "rebel0789",
+          "repo": "codexpro"
+        },
+        {
+          "id": "new_hot-4",
+          "title": "Agent Apprenticeship：Agent 学习生态",
+          "source": "@Forsy-AI",
+          "source_name": "GitHub",
+          "summary": "一个让 AI Agent 从真实工作中学习的开放生态，通过迭代工作流循环沉淀可复用经验与训练信号。",
+          "detail": "Agent Apprenticeship 提出「Agent 学徒制」：真实且有经济价值的任务执行会产生训练信号，这些信号改进后续工作，而后续工作又为生态创造新的可复用经验，形成复利式的经验交换。项目通过 npx agent-apprenticeship init 一键接入，面向长周期、可创造价值的 Agent 工作场景。",
+          "significance": "上线仅两天便获 523 stars，踩中强化学习与 Agent 经济的热点话题。",
+          "links": [
+            "https://github.com/Forsy-AI/agent-apprenticeship"
+          ],
+          "image": "assets/github-avatars/Forsy-AI-agent-apprenticeship.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Agent",
+            "强化学习",
+            "AI",
+            "开源"
+          ],
+          "stars": 523,
+          "stars_gained": null,
+          "language": null,
+          "forks": 0,
+          "owner": "Forsy-AI",
+          "repo": "agent-apprenticeship"
+        },
+        {
+          "id": "new_hot-5",
+          "title": "Junction：本地 AI 编码 Agent 的 VS Code 侧栏",
+          "source": "@Plaer1",
+          "source_name": "GitHub",
+          "summary": "一个 VS Code 聊天侧栏，用统一界面连接本机上运行的多种本地 AI 编码 Agent。",
+          "detail": "Junction 是 VS Code 的聊天面板，通过统一接口对接多种本地 Agent 后端，可在 OpenClaw、Hermes、Souveraine、MiMoCode、Goose 等运行时之间切换而无需改变工作流。它具备工作区上下文感知，支持 7 种后端，采用 MIT 许可证开源。",
+          "significance": "发布数日收获 516 stars，反映开发者希望在编辑器内统一管理本地 Agent 的强需求。",
+          "links": [
+            "https://github.com/Plaer1/junction"
+          ],
+          "image": "assets/github-avatars/Plaer1-junction.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "VSCode",
+            "Agent",
+            "开源"
+          ],
+          "stars": 516,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 7,
+          "owner": "Plaer1",
+          "repo": "junction"
+        },
+        {
+          "id": "new_hot-6",
+          "title": "司南 COMPASS：个性化 AI 任务总控 Skills",
+          "source": "@dongshuyan",
+          "source_name": "GitHub",
+          "summary": "面向 AI Agent 的个性化任务总控 Skills 系统，用 Skill.md 把个人偏好与对齐规则注入编码 Agent。",
+          "detail": "司南（COMPASS）是一套个人对齐的 Skills 操作系统，适配 Claude Code、OpenAI Codex 等编码 Agent。它以本地优先（local-first）方式管理 Agent 记忆、技能与任务，通过 skill-md 规范组织提示词与工作流自动化，帮助 Agent 按个人化的方式执行任务。项目当前处于 alpha 阶段。",
+          "significance": "一周内获得 397 stars，搭上 Claude/Codex Skills 生态快速扩张的热度。",
+          "links": [
+            "https://github.com/dongshuyan/compass-skills"
+          ],
+          "image": "assets/github-avatars/dongshuyan-compass-skills.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Skills",
+            "Agent",
+            "开源"
+          ],
+          "stars": 397,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 34,
+          "owner": "dongshuyan",
+          "repo": "compass-skills"
+        },
+        {
+          "id": "new_hot-7",
+          "title": "PolyEdge：Polymarket 自动化交易机器人",
+          "source": "@MstKail",
+          "source_name": "GitHub",
+          "summary": "面向 Polymarket 预测市场的全栈 SaaS，提供跟单、套利、对冲、做市四类自动化交易策略。",
+          "detail": "PolyEdge 是一个针对 Polymarket CLOB 的全栈 SaaS 平台，内置四种自动化策略，每种都围绕具体可重复的「edge」设计，支持纸面交易、实盘执行、盯市组合跟踪与逐笔透明记录。技术栈包括 Next.js、TypeScript 与 Prisma，目标是把机构级工具带给预测市场散户。",
+          "significance": "发布数日获 353 stars 与逾 700 forks，显示预测市场量化交易工具的活跃需求。",
+          "links": [
+            "https://github.com/MstKail/polymarket-trading-bot-services-polyedge365"
+          ],
+          "image": "assets/github-avatars/MstKail-polymarket-trading-bot-services-polyedge365.jpg",
+          "image_type": "logo",
+          "tags": [
+            "交易机器人",
+            "Polymarket",
+            "套利",
+            "开源"
+          ],
+          "stars": 353,
+          "stars_gained": null,
+          "language": null,
+          "forks": 710,
+          "owner": "MstKail",
+          "repo": "polymarket-trading-bot-services-polyedge365"
+        },
+        {
+          "id": "new_hot-8",
+          "title": "Boogu-Image：高效开源图像生成模型",
+          "source": "@boogu-project",
+          "source_name": "GitHub",
+          "summary": "Apache-2.0 开源的图像生成与编辑模型家族，号称用少一个数量级的数据逼近闭源模型表现。",
+          "detail": "Boogu-Image-0.1 是一个统一的多模态理解与生成开源模型，定位于「图像生成 + 编辑」。项目宣称在显著更少的训练数据下接近闭源模型性能，提供 Hugging Face、ModelScope 权重以及 base/edit/turbo 多个在线 Demo。官方目前不提供任何付费 API 或订阅。",
+          "significance": "发布数日获 352 stars，契合开源多模态生成模型的关注热潮。",
+          "links": [
+            "https://github.com/boogu-project/Boogu-Image"
+          ],
+          "image": "assets/github-avatars/boogu-project-Boogu-Image.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "图像生成",
+            "多模态",
+            "开源"
+          ],
+          "stars": 352,
+          "stars_gained": null,
+          "language": "Python",
+          "forks": 15,
+          "owner": "boogu-project",
+          "repo": "Boogu-Image"
+        },
+        {
+          "id": "new_hot-9",
+          "title": "Webernetes：浏览器里的 Kubernetes",
+          "source": "@ngrok",
+          "source_name": "GitHub",
+          "summary": "ngrok 出品的实验项目，把 Kubernetes 的一个子集移植到浏览器，无需任何后端即可启动集群。",
+          "detail": "Webernetes 将 Kubernetes 的部分能力移植到浏览器，使集群可以在前端直接启动而无需后端服务组件。ngrok 打造它是为了制作可视化、可交互且免维护的 Kubernetes 教学内容——因为没有真实基础设施，这类内容可以长期存活。项目目前非常实验性，API 可能随时变动。",
+          "significance": "发布数日获 351 stars，凭借「浏览器跑 K8s」的脑洞吸引大量关注。",
+          "links": [
+            "https://github.com/ngrok/webernetes"
+          ],
+          "image": "assets/github-avatars/ngrok-webernetes.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "Kubernetes",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 351,
+          "stars_gained": null,
+          "language": "TypeScript",
+          "forks": 22,
+          "owner": "ngrok",
+          "repo": "webernetes"
+        },
+        {
+          "id": "new_hot-10",
+          "title": "FormCMS：AI 驱动的全栈应用平台",
+          "source": "@nnecrkvenuOX",
+          "source_name": "GitHub",
+          "summary": "基于 ASP.NET Core 与 React 的开源无头 CMS，可由 AI Agent 用自然语言生成全栈应用。",
+          "detail": "FormCMS 是一个开源无头 CMS / 应用平台，能把自然语言转化为包含 schema、API、UI 与部署的全栈应用。它内置 MCP Server，可让 Antigravity、Cursor、Codex 等 AI Agent 直接连接来设计表结构、填充数据并部署；同时提供 REST、GraphQL 与 GrapesJS 页面设计器，宣称 P95 延迟低于 200ms、吞吐超 2,400 QPS。",
+          "significance": "发布数日获 334 stars，体现 AI 原生全栈开发平台的关注度。",
+          "links": [
+            "https://github.com/nnecrkvenuOX/formcms"
+          ],
+          "image": "assets/github-avatars/nnecrkvenuOX-formcms.jpg",
+          "image_type": "logo",
+          "tags": [
+            "C#",
+            "CMS",
+            "MCP",
+            "开源"
+          ],
+          "stars": 334,
+          "stars_gained": null,
+          "language": "C#",
+          "forks": 218,
+          "owner": "nnecrkvenuOX",
+          "repo": "formcms"
+        }
+      ]
+    },
+    {
+      "id": "rising_stars",
+      "label": "上升之星",
+      "subtitle": "过去 7 天星数增长最快",
+      "items": [
+        {
+          "id": "rising_stars-1",
+          "title": "Superpowers：Agent 技能框架与开发方法论",
+          "source": "@obra",
+          "source_name": "GitHub",
+          "summary": "为编码 Agent 打造的完整软件开发方法论，由一套可组合的 Skills 与引导指令构成。",
+          "detail": "Superpowers 是一套面向编码 Agent 的开发方法论，建立在可组合的 Skills 之上，并配有初始指令确保 Agent 真正使用这些技能。它从你启动 Agent 的那一刻起介入，引导其不要急于动手，而是先规划。支持 Claude Code、Antigravity、Codex、Cursor、Gemini CLI、Copilot CLI 等众多 Agent。",
+          "significance": "本周新增约 3,000 stars，总星数已达 23.4 万，持续领跑 Agent Skills 生态。",
+          "links": [
+            "https://github.com/obra/superpowers"
+          ],
+          "image": "assets/github-avatars/obra-superpowers.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Shell",
+            "Skills",
+            "AI",
+            "开源"
+          ],
+          "stars": 234228,
+          "stars_gained": 3000,
+          "language": "Shell",
+          "forks": 20790,
+          "owner": "obra",
+          "repo": "superpowers"
+        },
+        {
+          "id": "rising_stars-2",
+          "title": "ECC：Agent harness 性能优化系统",
+          "source": "@affaan-m",
+          "source_name": "GitHub",
+          "summary": "面向 Claude Code、Codex、Cursor 等的 Agent harness 性能优化系统，整合技能、记忆与安全能力。",
+          "detail": "ECC 是一个 Agent harness 性能优化系统，提供 Skills、instincts、记忆、安全与「研究优先」的开发流程，适配 Claude Code、Codex、Opencode、Cursor 等多种 Agent。项目提供 ecc-universal、ecc-agentshield 等 npm 包及 GitHub App，并反复提醒用户仅从官方渠道安装。文档支持十余种语言。",
+          "significance": "本周新增约 3,000 stars，总数攀升至 21.9 万，成为 Agent 增强工具中的热门之选。",
+          "links": [
+            "https://github.com/affaan-m/ECC"
+          ],
+          "image": "assets/github-avatars/affaan-m-ECC.jpg",
+          "image_type": "logo",
+          "tags": [
+            "JavaScript",
+            "Agent",
+            "MCP",
+            "开源"
+          ],
+          "stars": 218850,
+          "stars_gained": 3000,
+          "language": "JavaScript",
+          "forks": 33557,
+          "owner": "affaan-m",
+          "repo": "ECC"
+        },
+        {
+          "id": "rising_stars-3",
+          "title": "Hermes Agent：与你共同成长的 Agent",
+          "source": "@NousResearch",
+          "source_name": "GitHub",
+          "summary": "Nous Research 出品的个人 AI Agent，主打「与你共同成长」，提供桌面端与丰富生态集成。",
+          "detail": "Hermes Agent 是 Nous Research 推出的 AI Agent，提供 Web 与桌面版本，强调随使用而成长。它面向 Claude、ChatGPT、Codex、OpenClaw 等多种模型与 Agent 生态，采用 MIT 许可证，并配有完整文档与活跃的 Discord 社区。",
+          "significance": "本周新增约 3,000 stars，总数接近 19.8 万，是上升之星中增长最快的项目之一。",
+          "links": [
+            "https://github.com/NousResearch/hermes-agent"
+          ],
+          "image": "assets/github-avatars/NousResearch-hermes-agent.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "Agent",
+            "LLM",
+            "开源"
+          ],
+          "stars": 198303,
+          "stars_gained": 3000,
+          "language": "Python",
+          "forks": 35173,
+          "owner": "NousResearch",
+          "repo": "hermes-agent"
+        },
+        {
+          "id": "rising_stars-4",
+          "title": "yt-dlp：功能丰富的命令行音视频下载器",
+          "source": "@yt-dlp",
+          "source_name": "GitHub",
+          "summary": "支持数千个站点的命令行音视频下载器，是 youtube-dl 的活跃分支。",
+          "detail": "yt-dlp 是一款功能丰富的命令行音视频下载工具，支持数千个站点，是已停更的 youtube-dl 与 youtube-dlc 的分支。它在网络选项、地理限制绕过、视频选择、字幕与缩略图、SponsorBlock 等方面提供大量可配置选项，是下载领域的事实标准工具。",
+          "significance": "本周新增 1,775 stars，作为长期老牌工具仍保持极高活跃度与人气。",
+          "links": [
+            "https://github.com/yt-dlp/yt-dlp"
+          ],
+          "image": "assets/github-avatars/yt-dlp-yt-dlp.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "命令行",
+            "下载器",
+            "开源"
+          ],
+          "stars": 172081,
+          "stars_gained": 1775,
+          "language": "Python",
+          "forks": 14505,
+          "owner": "yt-dlp",
+          "repo": "yt-dlp"
+        },
+        {
+          "id": "rising_stars-5",
+          "title": "OpenClaw：跨平台个人 AI 助手",
+          "source": "@openclaw",
+          "source_name": "GitHub",
+          "summary": "可在任意操作系统与平台运行的开源个人 AI 助手，主打数据自主可控的「龙虾之道」。",
+          "detail": "OpenClaw 是一个跨平台的个人 AI 助手，强调「拥有你自己的数据」（own-your-data），可在任意操作系统与平台部署。项目采用 TypeScript 开发，配有完整 CI 流程与发布版本，社区文化鲜明（🦞 龙虾梗），并被众多本地 Agent 工具作为后端集成。",
+          "significance": "本周新增 1,635 stars，总数已突破 37.9 万，稳居开源个人助手的头部位置。",
+          "links": [
+            "https://github.com/openclaw/openclaw"
+          ],
+          "image": "assets/github-avatars/openclaw-openclaw.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "AI助手",
+            "AI",
+            "开源"
+          ],
+          "stars": 379672,
+          "stars_gained": 1635,
+          "language": "TypeScript",
+          "forks": 79484,
+          "owner": "openclaw",
+          "repo": "openclaw"
+        },
+        {
+          "id": "rising_stars-6",
+          "title": "Open WebUI：自托管的友好 AI 界面",
+          "source": "@open-webui",
+          "source_name": "GitHub",
+          "summary": "可完全离线运行的自托管 AI 平台，支持 Ollama 与 OpenAI 兼容 API，内置 RAG 推理引擎。",
+          "detail": "Open WebUI 是一个可扩展、功能丰富的自托管 AI 平台，设计目标是完全离线运行。它支持 Ollama 与各类 OpenAI 兼容 API，内置用于 RAG 的推理引擎，并提供企业级的自定义主题、SLA 与 LTS 等增强能力。是私有化部署 LLM 界面的主流选择。",
+          "significance": "本周新增 1,114 stars，总数超 14.2 万，持续受自托管 AI 用户青睐。",
+          "links": [
+            "https://github.com/open-webui/open-webui"
+          ],
+          "image": "assets/github-avatars/open-webui-open-webui.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Python",
+            "LLM",
+            "RAG",
+            "开源"
+          ],
+          "stars": 142419,
+          "stars_gained": 1114,
+          "language": "Python",
+          "forks": 20476,
+          "owner": "open-webui",
+          "repo": "open-webui"
+        },
+        {
+          "id": "rising_stars-7",
+          "title": "n8n：原生 AI 的工作流自动化平台",
+          "source": "@n8n-io",
+          "source_name": "GitHub",
+          "summary": "面向技术团队的 fair-code 工作流自动化平台，具备原生 AI 能力与 400+ 集成。",
+          "detail": "n8n 是一个工作流自动化平台，把代码的灵活性与无代码的速度结合起来，提供 400+ 集成。它支持基于 LangChain 构建 AI Agent 工作流、可自托管（fair-code 许可），并具备高级权限、SSO 与气隙部署等企业能力，让团队在自动化的同时完全掌控数据。",
+          "significance": "本周新增 1,094 stars，总数超 19.3 万，是工作流自动化领域增长稳健的领头羊。",
+          "links": [
+            "https://github.com/n8n-io/n8n"
+          ],
+          "image": "assets/github-avatars/n8n-io-n8n.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "自动化",
+            "AI",
+            "开源"
+          ],
+          "stars": 193352,
+          "stars_gained": 1094,
+          "language": "TypeScript",
+          "forks": 58696,
+          "owner": "n8n-io",
+          "repo": "n8n"
+        },
+        {
+          "id": "rising_stars-8",
+          "title": "Dify：生产级 Agent 工作流开发平台",
+          "source": "@langgenius",
+          "source_name": "GitHub",
+          "summary": "面向生产环境的 agentic 工作流开发平台，集成 RAG、编排与多模型支持。",
+          "detail": "Dify 是一个生产就绪的 agentic 工作流开发平台，支持低代码/无代码方式编排 AI 应用。它整合 RAG、工作流编排、MCP，以及 OpenAI、Gemini、GPT-4 等多模型，提供云端与自托管两种部署，技术栈涵盖 Python 与 Next.js。",
+          "significance": "本周新增 978 stars，总数接近 14.6 万，持续是 LLM 应用开发平台的热门。",
+          "links": [
+            "https://github.com/langgenius/dify"
+          ],
+          "image": "assets/github-avatars/langgenius-dify.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "Agent",
+            "RAG",
+            "开源"
+          ],
+          "stars": 145968,
+          "stars_gained": 978,
+          "language": "TypeScript",
+          "forks": 22955,
+          "owner": "langgenius",
+          "repo": "dify"
+        },
+        {
+          "id": "rising_stars-9",
+          "title": "Ollama：本地运行开源大模型",
+          "source": "@ollama",
+          "source_name": "GitHub",
+          "summary": "一键在本地运行 Kimi-K2.6、GLM-5.1、DeepSeek、Qwen、Gemma 等开源模型的工具。",
+          "detail": "Ollama 让用户在 macOS、Windows、Linux 与 Docker 上快速运行开源大模型，覆盖 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等。它用 Go 编写，提供 Python/JS 库及命令行入口，可与现有 Agent 连接，是本地 LLM 部署的主流方案。",
+          "significance": "本周新增 662 stars，总数超 17.4 万，随开源模型更新持续吸引新用户。",
+          "links": [
+            "https://github.com/ollama/ollama"
+          ],
+          "image": "assets/github-avatars/ollama-ollama.jpg",
+          "image_type": "logo",
+          "tags": [
+            "Go",
+            "LLM",
+            "命令行",
+            "开源"
+          ],
+          "stars": 174613,
+          "stars_gained": 662,
+          "language": "Go",
+          "forks": 16700,
+          "owner": "ollama",
+          "repo": "ollama"
+        },
+        {
+          "id": "rising_stars-10",
+          "title": "VS Code：微软开源代码编辑器",
+          "source": "@microsoft",
+          "source_name": "GitHub",
+          "summary": "微软与社区共同开发的开源代码编辑器，采用 MIT 许可证，是最流行的开发工具之一。",
+          "detail": "Visual Studio Code（Code - OSS）是微软在 GitHub 上与社区共同开发的开源编辑器，路线图、月度迭代计划与收尾计划均公开发布。基于 Electron 与 TypeScript 构建，源代码以标准 MIT 许可证向所有人开放。",
+          "significance": "本周新增 409 stars，作为头部老牌项目仍保持稳定的人气增长。",
+          "links": [
+            "https://github.com/microsoft/vscode"
+          ],
+          "image": "assets/github-avatars/microsoft-vscode.jpg",
+          "image_type": "logo",
+          "tags": [
+            "TypeScript",
+            "编辑器",
+            "开发工具",
+            "开源"
+          ],
+          "stars": 186572,
+          "stars_gained": 409,
+          "language": "TypeScript",
+          "forks": 40581,
+          "owner": "microsoft",
+          "repo": "vscode"
+        }
+      ]
+    }
+  ]
+}
