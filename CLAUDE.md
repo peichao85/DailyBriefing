@@ -8,33 +8,34 @@ DailyBriefing is an automated daily Tech & AI news briefing system. It researche
 
 ## Pipeline Architecture
 
-Three independent briefings, each its own cron job and entry script. Shared bash
-lives in `scripts/briefing-common.sh` (env setup, `run_stage`, `commit_and_push`
-with manifest rebuild + rebase-safe push). Each script rebuilds `web/manifest.json`
+Only the AI briefing runs on a daily cron. GitHub trending and US-stocks recap
+scripts still exist and are fully functional, but are intentionally not
+scheduled — run them manually when needed. Shared bash lives in
+`scripts/briefing-common.sh` (env setup, `run_stage`, `commit_and_push` with
+manifest rebuild + rebase-safe push). Each script rebuilds `web/manifest.json`
 from disk and commits/pushes its own outputs.
 
 ```
 run-ai-briefing.sh:   Research ($20) ──→ PDF Builder ($7)  ──→ commit & push  (web/AI, pdf/AI, research_results/AI)
                                       └─→ Web Builder ($5) ──┘
-run-github-trending.sh: GitHub Trending ($3) ─────────────→ commit & push  (web/GitHub, research_results/GitHub)
-run-us-stocks-briefing.sh: --check-only guard → US Stocks ($15) → commit & push  (web/USStocks, research_results/USStocks)
+run-github-trending.sh (manual only): GitHub Trending ($3) ─→ commit & push  (web/GitHub, research_results/GitHub)
+run-us-stocks-briefing.sh (manual only): --check-only guard → US Stocks ($15) → commit & push  (web/USStocks, research_results/USStocks)
 ```
 
 - In the AI script, **Research** must finish before the PDF/Web builders, which run in parallel.
-- GitHub and US-stocks are best-effort and run on their own schedules (see `scripts/setup-cron.sh`).
 - The US-stocks pre-flight (`fetch_market_data.py --check-only`, exit 3) skips weekends/holidays/same-day re-runs.
 - Each stage is a Claude Code skill in `skills/`.
+- All stages run with `--model opus` (see `run_stage` in `scripts/briefing-common.sh`).
 
 ## Commands
 
 ```bash
 # Run an individual briefing end-to-end (research/build → commit & push)
 ./scripts/run-ai-briefing.sh
-./scripts/run-github-trending.sh
-./scripts/run-us-stocks-briefing.sh
+./scripts/run-github-trending.sh       # manual only, not scheduled
+./scripts/run-us-stocks-briefing.sh    # manual only, not scheduled
 
-# Install the daily cron jobs (AI 06:58 SH, GitHub 08:30 SH,
-# US-stocks 11:00 SH Apr–Oct / 12:00 SH Nov–Mar ≈ 7h after US close)
+# Install the daily cron job (AI briefing only, 06:58 SH)
 ./scripts/setup-cron.sh
 
 # Run individual skill stages by hand
