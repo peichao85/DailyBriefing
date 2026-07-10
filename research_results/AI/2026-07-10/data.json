@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-10",
+  "category": "AI",
+  "researched_at": "2026-07-10T10:45:00Z",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@DanielaAmodei", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@geoffreyhinton", "@AndrewYNg", "@karpathy",
+    "@julien_c", "@ScottWu46", "@alighodsi", "@JonathanRoss321",
+    "@lexfridman", "@garrytan", "@DrJimFan",
+    "TechCrunch", "CNBC", "UN News", "Chicago Sun-Times", "The New Stack", "OpenAI Newsroom", "xAI", "Meta AI Blog", "Bloomberg", "Engadget"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "AI模型\"扎堆发布日\":OpenAI、xAI、Meta同日甩出旗舰新模型",
+      "source": "OpenAI / xAI / Meta",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "story_key": "frontier-ai-simultaneous-launches",
+      "event_date": "2026-07-09",
+      "summary": "7月9日,OpenAI的GPT-5.6 Sol、xAI的Grok 4.5与Meta的Muse Spark 1.1三款旗舰级模型同日全面开放访问,行业分析称这是自6月对华芯片出口管制生效以来,五大前沿实验室首次同时拥有可公开访问的旗舰模型。",
+      "detail": "7月9日成为2026年AI模型史上最密集的一天。OpenAI的GPT-5.6 Sol结束了此前长达12天、仅面向约20家经政府审查机构开放的\"白宫关卡\"测试期,正式面向所有ChatGPT用户、Codex及API开发者开放,标准定价为每百万输入/输出Token 5美元/30美元,主打更强的前沿推理、长链条agentic工作与新的\"Ultra模式\"。与Sol同期开放的还有定位均衡的Terra与主打极速低价的Luna,三档模型形成完整的价位梯队。\n\n同一天,xAI发布Grok 4.5——其首款专为编程与agentic任务打造的模型,基于1.5万亿参数的V9基础架构(混合专家而非稠密Transformer),并直接使用真实Cursor开发者会话数据训练。在Artificial Analysis智能指数上,Grok 4.5排名第四,超过所有开源权重模型及Gemini系列,定价仅为Claude Opus 4.8或GPT-5.5的四成不到(每百万Token 2美元/6美元),且平均单任务耗费的输出Token数远低于Opus 4.8。\n\nMeta同日推出Muse Spark 1.1并首次开放付费API——这是Meta Superintelligence Labs首次向开发者收费使用自家模型,单价为每百万输入/输出Token 1.25美元/4.25美元,主打百万级上下文窗口与多模态agentic能力,被外界视为对标GPT-5.5、Claude Opus 4.8和Gemini 3.1 Pro的正面竞争产品。\n\n三大发布叠加此前已上线的Fable 5与Sonnet 5,意味着五大前沿实验室首次同时拥有可公开访问的旗舰级模型。",
+      "key_quotes": [
+        "Sol brings stronger frontier reasoning, long-horizon agentic work, new max reasoning effort, and ultra mode for faster complex tasks. — OpenAI",
+        "For the first time since the Fable 5 export control ban began on June 12, every major frontier AI lab has a publicly available model simultaneously."
+      ],
+      "significance": "这标志着前沿模型竞争正式进入\"多强并存、价格透明可比\"的新阶段。Meta首次对外收费出售自家模型,说明其\"变现agentic能力\"的战略已从内部试验转向真金白银的市场检验;而Grok 4.5用不到四成的价格实现接近顶尖水平的表现,进一步印证了\"够用就好\"的路由策略正在挤压顶级模型的溢价空间。对开发者而言,议价能力和模型可替代性在这一天发生了实质性跃升。",
+      "links": [
+        "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "https://x.ai/news/grok-4-5",
+        "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+        "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["GPT-5.6 Sol", "Grok 4.5", "Muse Spark 1.1", "OpenAI", "xAI", "Meta", "前沿模型"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "中国开源模型攻占美国企业预算:GLM-5.2把OpenAI、Anthropic逼到墙角",
+      "source": "Z.ai / Zhipu",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+      "story_key": "chinese-open-models-enterprise-share",
+      "event_date": "2026-07-07",
+      "summary": "CNBC报道,受访美国企业30%至46%的AI Token用量已流向中国大模型,智谱(Z.ai)开源的GLM-5.2凭借接近前沿水准的性能与约为美国同类模型一成的成本,成为企业\"够用就好\"路由策略中的最大赢家。",
+      "detail": "GLM-5.2在SWE-bench Pro上取得62.1分,超过OpenAI GPT-5.5的58.6分,跻身可与西方前沿模型正面竞争的行列,而其定价仅为对标美国模型约15%的水平,开源版本更可比闭源竞品便宜六到九成。据Vercel数据,GLM-5.2上线首周日均Token调用量增长约27倍,使用客户数增长约80倍,是Vercel在2026年追踪到的所有模型中采用速度最快的一款。\n\nCNBC援引行业人士表示,当某项任务并不需要\"最好的模型\"时,企业团队正开始把它路由给\"足够用、够便宜\"的选项,而近期一波中国模型正在赢下这场博弈——这一趋势与前一天(7月9日)Grok 4.5以四成不到的价格挤入第一梯队的逻辑相互印证。",
+      "key_quotes": [
+        "When a task doesn't need the best model, teams are beginning to route it to the cheapest one that's good enough, and the recent wave of models coming out of China is winning that trade."
+      ],
+      "significance": "这一数据表明,美国的芯片出口管制虽限制了先进算力流向中国,却未能阻止中国开源模型反向渗透美国企业的软件预算,对OpenAI、Anthropic等厂商的高端定价策略构成结构性压力。\"开源+极低价格\"正从边缘选项变成主流企业采购策略的组成部分,可能倒逼美国厂商加快下探定价梯队。",
+      "links": [
+        "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+        "https://www.cnbc.com/2026/06/26/china-zhipu-z-ai-open-source-anthropic-openai.html"
+      ],
+      "image": "img/zhipu-ai-logo.png",
+      "image_type": "logo",
+      "tags": ["GLM-5.2", "智谱", "Z.ai", "中国AI", "开源模型", "企业采用"],
+      "category": "trending"
+    },
+    {
+      "id": "3",
+      "title": "伊利诺伊州签署全美最严AI安全法:强制年度独立审计、72小时内报告事故",
+      "source": "Gov. JB Pritzker",
+      "source_name": "Chicago Sun-Times",
+      "source_url": "https://chicago.suntimes.com/politics/2026/07/06/ai-regulations-illinois-law-pritzker-signed",
+      "story_key": "illinois-ai-safety-law",
+      "event_date": "2026-07-06",
+      "summary": "伊利诺伊州州长Pritzker于7月6日签署SB 315《人工智能安全措施法》,要求大型AI开发商发布\"灾难性风险\"识别框架并接受全美首创的第三方年度独立审计,成为目前美国最严格的州级AI监管法律。",
+      "detail": "该法要求大型模型开发商公开披露其识别、评估\"灾难性风险\"的框架——法律将其定义为可能导致50人以上死亡或伤害、或超过100万美元财产损失的事件。法案首创性地要求由无利益冲突的合格专家对受监管AI系统进行年度独立第三方安全审计,并规定开发商须在发现可能造成本州伤害的事故后72小时内报告,若存在死亡或严重人身伤害的紧迫风险则须缩短至24小时,同时为举报安全隐患的员工提供保护。\n\n截至7月1日,美国各州已累计通过109项AI相关法律与28项数据中心相关法律,伊利诺伊州的立法被视为这一浪潮中约束力最强的一例,发生在联邦层面仍以自愿框架为主导的背景下。",
+      "key_quotes": [],
+      "significance": "在联邦AI监管仍停留在企业自愿承诺阶段之际,伊利诺伊州率先以具法律约束力的形式强制前沿模型开发商接受独立安全审计与事故报告义务,可能成为其他州效仿的模板,并直接推高AI公司在美运营的合规成本;这也与同期联合国日内瓦对话呼吁的\"国际协调\"形成对照——真正的约束力目前更多来自各国、各州的国内立法,而非多边宣言。",
+      "links": [
+        "https://chicago.suntimes.com/politics/2026/07/06/ai-regulations-illinois-law-pritzker-signed",
+        "https://www.transparencycoalition.ai/news/illinois-gov-pritzker-signs-landmark-ai-safety-measures-act-into-law"
+      ],
+      "image": "img/jb-pritzker.jpg",
+      "image_type": "logo",
+      "tags": ["AI监管", "伊利诺伊州", "SB315", "AI安全法", "Pritzker"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "169国齐聚日内瓦:联合国首届AI治理对话警示\"灾难性伤害\"风险",
+      "source": "Yoshua Bengio",
+      "source_name": "UN News",
+      "source_url": "https://news.un.org/en/story/2026/07/1167862",
+      "story_key": "un-global-ai-governance-dialogue",
+      "event_date": "2026-07-07",
+      "summary": "联合国首届\"全球AI治理对话\"于7月6日至7日在日内瓦举行,来自169个国家的代表与会,图灵奖得主Yoshua Bengio警告称AI能力正在多个领域逼近乃至超越人类水平,其演进速度已超出科学理解与各国监管能力所能跟上的范围。",
+      "detail": "这是联合国层面首次专门就AI治理召开的全球对话,聚焦各国如何协调应对前沿AI技术带来的跨境风险。Bengio在会上强调,AI正在加速逼近甚至超越人类在多个专业领域的能力边界,而这种演进速度已经超出了当前科学界对其工作机制的理解程度,也超出了各国政府现有监管体系的适应能力。\n\n舆论普遍将此次对话视为一个更宏观趋势的体现:全球AI治理的话语正从此前偏软性的\"伦理倡议\"转向要求具备实际约束力的法律义务——这一趋势与同期伊利诺伊州通过的强制性AI安全法遥相呼应,但相比伊利诺伊州法律的具体条款,169国对话目前仍停留在原则性呼吁层面,尚未形成可执行的跨国规则。",
+      "key_quotes": [
+        "AI is approaching or surpassing human capabilities in many domains and is outpacing both scientific understanding and governments' ability to adapt. — Yoshua Bengio"
+      ],
+      "significance": "首届联合国级别AI治理对话的召开,释放出国际社会加快推进跨国监管协调的信号,但历史经验表明,多边对话若无法转化为具约束力的规则,实际治理效果仍将主要取决于美、中、欧等主要力量各自的国内立法与执行力度。",
+      "links": [
+        "https://news.un.org/en/story/2026/07/1167862"
+      ],
+      "image": null,
+      "image_type": null,
+      "tags": ["AI治理", "联合国", "Bengio", "国际合作"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "涨价引发用户反弹,Anthropic紧急延长Claude Fable 5免费窗口至7月12日",
+      "source": "Anthropic",
+      "source_name": "The New Stack",
+      "source_url": "https://thenewstack.io/anthropic-extends-fable-5/",
+      "story_key": "anthropic-fable5-billing-change",
+      "event_date": "2026-07-07",
+      "summary": "Anthropic原定7月7日结束Claude Fable 5的免费使用额度、转为每百万输出Token 50美元的按量计费,在遭遇用户强烈反弹后,公司宣布将现有订阅用户的免费窗口延长至7月12日,并重申无意将其长期作为付费附加项。",
+      "detail": "按原计划,Pro、Max、Team及部分Enterprise订阅用户此前可在每周用量上限的50%以内免费使用Fable 5,该福利本应于7月7日到期,之后需购买Anthropic使用额度、按每百万输入/输出Token 10美元/50美元计费——这一价格恰好是Claude Opus 4.8的两倍,也是Anthropic迄今为已上线模型开出的最高定价。\n\n消息公布后,大量用户在社交平台表达不满,认为在毫无预兆的情况下将一项订阅内福利变为高价按量付费,形同变相涨价。Anthropic随后宣布,现有Claude订阅用户可继续免费使用Fable 5至7月12日太平洋时间晚11:59:59,并表示这只是权宜的容量安排,一旦算力充足,公司仍打算让Fable 5重新成为订阅套餐的标准组成部分而非需额外付费的附加项。",
+      "key_quotes": [
+        "Anthropic does not intend to keep Fable 5 as a permanent paid add-on, and aims to restore Fable as a standard part of subscriptions as soon as capacity allows."
+      ],
+      "significance": "定价政策的\"一日游\"式反复,侧面反映出Anthropic在明星模型Fable 5背后的算力仍然吃紧,也说明其付费用户对隐性提价异常敏感。在GPT-5.6 Sol、Grok 4.5、Muse Spark 1.1同期扎堆发布、价格竞争加剧的当口,任何形似涨价的举动都可能加速用户向其他厂商迁移,凸显出算力约束正在成为Anthropic产品策略的隐性瓶颈。",
+      "links": [
+        "https://thenewstack.io/anthropic-extends-fable-5/",
+        "https://www.androidauthority.com/claude-fable-5-free-extension-3685103/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude Fable 5", "定价", "算力"],
+      "category": "product_operators"
+    }
+  ]
+}

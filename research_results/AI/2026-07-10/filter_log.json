@@ -1,0 +1,107 @@
+{
+  "date": "2026-07-10",
+  "total_candidates": 11,
+  "kept": 5,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "frontier-ai-simultaneous-launches",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI GPT-5.6 Sol, xAI Grok 4.5, and Meta Muse Spark 1.1 all go GA on the same day",
+      "source": "TechCrunch / OpenAI / xAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback (lookback empty, no briefing published in last 7 days). event_date 2026-07-09 is 1 day old."
+    },
+    {
+      "story_key": "chinese-open-models-enterprise-share",
+      "event_date": "2026-07-07",
+      "title_en": "CNBC: Chinese open models (GLM-5.2) now 30-46% of US enterprise AI token usage",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. event_date 2026-07-07 is 3 days old."
+    },
+    {
+      "story_key": "illinois-ai-safety-law",
+      "event_date": "2026-07-06",
+      "title_en": "Illinois Gov. Pritzker signs SB 315, nation's strictest state AI safety law",
+      "source": "Chicago Sun-Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. event_date 2026-07-06 is 4 days old."
+    },
+    {
+      "story_key": "un-global-ai-governance-dialogue",
+      "event_date": "2026-07-07",
+      "title_en": "UN's first Global Dialogue on AI Governance opens in Geneva with 169 countries, Bengio warns of catastrophic harm",
+      "source": "UN News",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. event_date 2026-07-07 (closing day of two-day dialogue) is 3 days old."
+    },
+    {
+      "story_key": "anthropic-fable5-billing-change",
+      "event_date": "2026-07-07",
+      "title_en": "Anthropic extends Claude Fable 5 free-tier access to July 12 after pricing backlash",
+      "source": "The New Stack",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. event_date 2026-07-07 is 3 days old."
+    },
+    {
+      "story_key": "meta-ai-restructuring-layoffs",
+      "event_date": "2026-07-02",
+      "title_en": "Zuckerberg tells town hall Meta's AI reorg 'hasn't really accelerated' as expected",
+      "source": "24/7 Wall St.",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-02 is 8 days old (>5 day limit). Original layoff wave was May 2026, already stale."
+    },
+    {
+      "story_key": "five-eyes-ai-cyber-warning",
+      "event_date": "2026-06-23",
+      "title_en": "Five Eyes intelligence alliance warns frontier AI cyberattack capability is 'months, not years' away",
+      "source": "CNN",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-23 is 17 days old (>5 day limit)."
+    },
+    {
+      "story_key": "jadepuffer-agentic-ransomware",
+      "event_date": "2026-07-01",
+      "title_en": "Sysdig documents JADEPUFFER, first fully agentic end-to-end AI ransomware operation",
+      "source": "Sysdig",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 (original Sysdig disclosure) is 9 days old (>5 day limit). Later media pickups (July 4-7) are re-reporting of the same finding, not a new development."
+    },
+    {
+      "story_key": "together-ai-series-c",
+      "event_date": "2026-07-01",
+      "title_en": "Together AI raises $800M Series C led by Aramco Ventures at $8.3B valuation",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "linqalpha-series-a",
+      "event_date": "2026-07-02",
+      "title_en": "LinqAlpha raises $22M Series A for hedge-fund research agents",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-02 is 8 days old (>5 day limit)."
+    },
+    {
+      "story_key": "white-house-voluntary-ai-framework",
+      "event_date": "2026-07-03",
+      "title_en": "FT: White House nears voluntary frontier-model release standards deal with OpenAI, Google, Anthropic",
+      "source": "Financial Times",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-03 (FT scoop) is 7 days old (>5 day limit); no finalized announcement found as of research time, so no fresher event_date available. Folded as brief background context into the frontier-ai-simultaneous-launches item instead (GPT-5.6 Sol's 12-day government-vetted gate is a concrete instance of this framework already operating), since that reference is anchored to the 07-09 event, not re-litigated as a standalone item."
+    }
+  ]
+}
