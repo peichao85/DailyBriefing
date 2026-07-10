@@ -1,0 +1,174 @@
+{
+  "date": "2026-07-11",
+  "category": "AI",
+  "title": "AI内存成资本新宠:SK海力士265亿美元刷新美股募资纪录,美光加码2500亿美元;OpenAI推ChatGPT Work智能体全量免费",
+  "items": [
+    {
+      "id": "1",
+      "title": "AI内存红利变现:SK海力士登陆纳斯达克,265亿美元刷新外国公司美股募资纪录",
+      "source": "SK Hynix",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-10/sk-hynix-indicated-to-climb-17-after-26-5-billion-adr-offering",
+      "story_key": "sk-hynix-nasdaq-debut",
+      "event_date": "2026-07-10",
+      "summary": "韩国存储芯片巨头SK海力士以美国存托凭证(ADR)形式登陆纳斯达克,募资265亿美元,超越阿里巴巴2014年的250亿美元,成为史上外国公司在美募资规模最大的一次IPO,上市首日一度大涨17%。",
+      "detail": "SK海力士于7月9日定价、7月10日在纳斯达克挂牌交易,以每份149美元发行1.779亿份ADR(每10份ADR对应1股普通股),合计募资约265亿美元,一举超过阿里巴巴2014年250亿美元的纪录,成为有史以来外国公司在美国资本市场规模最大的一次股票发行。上市首日,SK海力士以临时代码SKHYV开盘后一度飙升约17%至174.5美元附近,收盘仍上涨逾13%,正式代码SKHY将于下周一生效。\n\n此次发行认购火爆,定价前订单已覆盖发售股份约7倍。公司表示募资将用于扩建韩国本土产能、采购包括EUV极紫外光刻机在内的先进设备。SK海力士是全球高带宽内存(HBM)市场的绝对领导者,份额高达56.4%,是英伟达AI加速卡的核心供应商。三大HBM厂商(SK海力士、三星、美光)均为英伟达供货,而此次赴美上市首次为美国投资者提供了直接押注AI内存产业链龙头的通道。",
+      "key_quotes": [
+        "SK Hynix leads the HBM field with a 56.4% share, and all three HBM makers supply Nvidia.",
+        "Orders reportedly covered seven times the shares on offer before pricing."
+      ],
+      "significance": "AI算力竞赛的瓶颈正从GPU本身转向HBM等高端内存,而SK海力士是这一环节最关键的卡位者。这笔刷新纪录的巨额IPO,既是资本市场对AI内存需求长期性的一次集中定价,也标志着AI基础设施投资热潮从美国本土科技巨头,进一步蔓延到亚洲供应链核心环节。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-07-10/sk-hynix-indicated-to-climb-17-after-26-5-billion-adr-offering",
+        "https://www.forbes.com/sites/tylerroush/2026/07/10/sk-hynix-surges-17-in-record-setting-us-debut-heres-what-regular-investors-should-know/",
+        "https://www.cnbc.com/2026/07/09/meet-sk-hynix-the-trillion-dollar-chipmaker-debuting-on-us-markets-.html"
+      ],
+      "image": "assets/logos/sk-hynix-logo.svg",
+      "image_type": "logo",
+      "tags": ["SK海力士", "HBM", "芯片", "IPO", "英伟达"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "ChatGPT变身\"工作操作系统\":OpenAI合并Codex、推出ChatGPT Work智能体",
+      "source": "@sama",
+      "source_name": "TechTimes",
+      "source_url": "https://www.techtimes.com/articles/320087/20260710/chatgpt-work-free-every-plan-what-openais-codex-merger-changes-you.htm",
+      "story_key": "openai-chatgpt-work-superapp",
+      "event_date": "2026-07-09",
+      "summary": "OpenAI于7月9日将Codex并入全新的ChatGPT桌面应用,并推出由GPT-5.6驱动的ChatGPT Work智能体——Chat、Work、Codex三种模式统一在一个应用中,且对包括免费用户在内的所有套餐开放。",
+      "detail": "7月9日,OpenAI在开放GPT-5.6模型的同时,对产品形态做了一次重大整合:macOS与Windows版桌面应用把传统对话(Chat)、编程(Codex)和全新的ChatGPT Work智能体收编到同一个应用中,并向包括Free在内的所有套餐开放。ChatGPT Work被定位为一个能\"连续工作数小时\"的自主智能体——它接收一个目标,跨Slack、Notion、Microsoft 365、Google Drive等应用抓取上下文,把复杂项目拆解成小步骤后独立完成,最终直接产出可用的文档、表格和演示稿。\n\n对开发者而言,Codex并未消失,而是作为桌面应用内与Chat、Work并列的专用编程视图保留,并新增了内联diff编辑、侧栏内的Pull Request审查、更快的GPT-5.6版Computer Use以及多仓库项目支持。这一系列动作把OpenAI进一步推向企业知识工作腹地,而这恰恰是外界公认由Anthropic领跑的战场。\n\n背景回顾:7月9日OpenAI的GPT-5.6(Sol/Terra/Luna)与xAI Grok 4.5、Meta Muse Spark同日开放访问,被称为\"AI模型扎堆发布日\"。",
+      "key_quotes": [
+        "ChatGPT Work can \"stay with a project for hours\" and turn goals into finished output across apps and files.",
+        "Chat, Work, and Codex are available on every plan, including Free."
+      ],
+      "significance": "这标志着OpenAI的竞争重心从\"更强的模型\"转向\"能干活的智能体产品\"。把编程、对话与自主办公整合进单一\"工作操作系统\",并全量免费开放,是OpenAI直接冲击Anthropic企业知识工作阵地、抢占日常生产力入口的关键一步。",
+      "links": [
+        "https://www.techtimes.com/articles/320087/20260710/chatgpt-work-free-every-plan-what-openais-codex-merger-changes-you.htm",
+        "https://cryptobriefing.com/chatgpt-work-launches-with-gpt-5-6-as-openai-merges-codex-into-desktop-app/",
+        "https://www.digitalapplied.com/blog/chatgpt-work-openai-agent-launch-2026"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "ChatGPT Work", "Codex", "AI智能体", "GPT-5.6"],
+      "category": "product_operators"
+    },
+    {
+      "id": "3",
+      "title": "纽约时报要求法院制裁OpenAI:指其隐瞒已私下检索训练语料的证据",
+      "source": "NYT",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "story_key": "nyt-openai-copyright-sanctions",
+      "event_date": "2026-07-09",
+      "summary": "以《纽约时报》为首的媒体联盟7月9日请求法院制裁OpenAI,指控其在版权诉讼中隐瞒关键证据——一名工程师的证词显示,OpenAI早已私下检索过训练语料并建立了约7800万条对话的内部数据库。",
+      "detail": "7月9日,《纽约时报》与《纽约每日新闻》牵头,请求主审法官对OpenAI施加制裁,指其在长达两年的版权诉讼中扰乱证据开示进程、隐瞒关键证据。案件核心是OpenAI被控未经授权用媒体版权内容训练生成式模型,并在用户输出中复现这些报道。\n\n此前OpenAI一直辩称,自己\"无法检索\"庞大的训练语料库,并称检索或提供海量ChatGPT对话在技术上极为繁重、且涉及用户隐私。然而在今年4月一场法院强制的证词中,OpenAI数据隐私工程师Vinnie Monaco据称承认:公司其实早已对训练语料进行过内部检索与评估以查找受版权保护的新闻作品;更关键的是,早在《纽约时报》提起诉讼之前,OpenAI就已积累了约7800万条经去标识化处理的ChatGPT对话,用于内部评估自身侵权程度。原告据此认为OpenAI此前关于\"技术不可行\"的说法与事实不符,要求法院据此惩戒。",
+      "key_quotes": [
+        "OpenAI had already amassed a database of about 78 million de-identified ChatGPT conversations that it was using internally to determine how much it was infringing on others' works.",
+        "The NYT and Daily News accuse OpenAI of lying about its ability to search customer chat log data and training datasets."
+      ],
+      "significance": "这起诉讼是AI训练数据版权争议的标志性案件,而\"是否隐瞒证据\"直接关系到法院对OpenAI可信度的判断。若制裁成立,不仅会重塑本案走向,也可能为整个行业\"用版权内容训练模型\"的合法边界与举证义务树立先例。",
+      "links": [
+        "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+        "https://www.washingtonpost.com/business/2026/07/09/openai-new-york-times-ai-copyright-lawsuit/1f749fa0-7ba4-11f1-b194-f872dd4ec5aa_story.html",
+        "https://news.bloomberglaw.com/privacy-and-data-security/new-york-times-seeks-sanctions-against-openai-in-copyright-case"
+      ],
+      "tags": ["OpenAI", "版权诉讼", "纽约时报", "训练数据", "法律"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "美光把美国投资加码到2500亿美元:AI内存需求驱动本土建厂竞赛",
+      "source": "Micron",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/09/micron-stock-us-chipmaking.html",
+      "story_key": "micron-us-chip-investment",
+      "event_date": "2026-07-09",
+      "summary": "美光科技7月9日宣布,将其美国本土投资计划上调至2035年前超过2500亿美元,较去年6月的2000亿美元大幅加码,同时在纽约新厂浇筑首方混凝土。",
+      "detail": "7月9日,美光科技(Micron)宣布把面向2035年的美国本土投资计划从2000亿美元上调至超过2500亿美元,消息公布后股价一度上涨近5%。公司同日宣布位于纽约的新晶圆厂正式浇筑首方混凝土,并计划在爱达荷州Boise新建第二座先进存储芯片工厂、扩建弗吉尼亚州Manassas厂区。\n\n除主体投资外,美光还将额外投入30亿美元强化美国半导体供应链,其中5亿美元用于支持GlobalWafers在德州Sherman的300毫米原生硅晶圆制造。此番加码背后,是AI时代对存储芯片(尤其HBM)需求的爆发式增长,以及特朗普政府对芯片本土制造的强力扶持。美光是全球三大HBM供应商之一,与同日登陆纳斯达克的SK海力士同为英伟达AI加速卡的关键内存供货商。",
+      "key_quotes": [
+        "Micron raised its U.S. investment plan to more than $250 billion through 2035, up from $200 billion announced last June.",
+        "The plan includes a second advanced memory fab in Boise and expansions in Manassas, Virginia."
+      ],
+      "significance": "美光的加码与SK海力士的赴美上市互为印证:AI内存已成为半导体产业最炙手可热的战略高地。在地缘政治与本土制造政策推动下,存储巨头正把巨额资本押注美国本土产能,以卡位AI基础设施长期需求。",
+      "links": [
+        "https://www.cnbc.com/2026/07/09/micron-stock-us-chipmaking.html",
+        "https://finance.yahoo.com/technology/articles/micron-invest-3-billion-us-123435996.html",
+        "https://www.globenewswire.com/news-release/2026/07/09/3324807/14450/en/Micron-Accelerates-U-S-Investments-Pours-First-Concrete-at-New-York-Fab.html"
+      ],
+      "tags": ["美光", "Micron", "芯片", "HBM", "本土制造"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "Claude Cowork上手机:120万次会话揭示——九成用户根本不用它写代码",
+      "source": "@DanielaAmodei",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "story_key": "anthropic-cowork-mobile",
+      "event_date": "2026-07-07",
+      "summary": "Anthropic于7月7日将Claude Cowork扩展到手机和网页端,先向Max订阅用户开放。更引人注目的是其披露的使用数据:在120万次会话中,软件开发仅占8.7%,九成以上用途是业务运营与内容创作。",
+      "detail": "7月7日,Anthropic把此前仅限桌面的Claude Cowork智能体扩展到手机和网页端,以每月100美元的Max套餐用户为起点,分批灰度推出。移动化后,用户可以在工位上发起任务,即使合上笔记本,Cowork也能在后台继续运行,并通过手机推送进度、在需要决策时征询用户,最终让人\"离开工位也能拿到成品\"。为配合此次上线,Anthropic把Cowork翻倍的用量额度延长至8月5日。\n\n真正值得玩味的是Anthropic同步公布的一份使用画像:在覆盖超过60万家机构的120万次Cowork会话样本中,软件开发仅占8.7%;占比最高的是业务流程类工作(33.4%),例如把零散更新汇总成报告、核对电子表格,其次是内容创作与文案(16.4%)。这组数据说明,所谓\"编程智能体\"的实际使用早已溢出到普通办公场景。",
+      "key_quotes": [
+        "In a sample of 1.2 million Cowork sessions across more than 600,000 organizations, software development accounted for just 8.7% of use.",
+        "The largest category, at 33.4%, was business process work, followed by content creation at 16.4%."
+      ],
+      "significance": "这组数据挑战了\"AI智能体主要用于写代码\"的行业惯性认知:企业真正的高频需求是自动化日常业务流程与文书工作。移动化叠加\"后台自主运行\"的形态,正把AI智能体从开发者工具推向面向全体白领的通用生产力入口。",
+      "links": [
+        "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+        "https://9to5mac.com/2026/07/07/anthropic-expanding-claude-cowork-to-mobile-and-web-details-here/",
+        "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-launches-mobile-access-for-claude-cowork/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude Cowork", "AI智能体", "移动端", "企业办公"],
+      "category": "product_operators"
+    },
+    {
+      "id": "6",
+      "title": "挑战英伟达的推理芯片新贵:SambaNova融资10亿美元,估值110亿并拿下摩根大通",
+      "source": "SambaNova",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "story_key": "sambanova-series-f",
+      "event_date": "2026-07-08",
+      "summary": "AI芯片厂商SambaNova于7月8日完成10亿美元Series F首轮交割,投后估值达110亿美元,距上一轮仅5个月。摩根大通已选定其作为推理基础设施合作伙伴,为银行提供本地化AI推理。",
+      "detail": "7月8日,专注AI训练与推理硬件的SambaNova宣布完成10亿美元Series F战略融资的首轮交割,投后估值110亿美元——距其3.5亿美元Series E仅过去5个月。本轮由General Atlantic领投,Seligman Ventures、T. Rowe Price、Capital Group,以及BlackRock、Intel Capital、卡塔尔投资局(QIA)、Vista Equity等新老投资者跟投。CEO Rodrigo Liang表示,未来几周还将有投资者加入,第二轮交割有望完成。\n\n最具分量的进展是客户侧:摩根大通已选定SambaNova作为推理基础设施合作伙伴,将用其SN40L与SN50系统在银行内部支撑安全的本地化AI推理。这为SambaNova提供了对抗英伟达的关键背书——在企业和主权AI客户对私有化、低成本推理需求高涨的背景下,资金将用于扩产能、加速产品迭代并扩大在neo-cloud与主权AI市场的部署。",
+      "key_quotes": [
+        "SambaNova completed the first close of $1 billion at an $11 billion valuation, just five months after its last round.",
+        "JPMorgan Chase selected SambaNova as an inference-infrastructure partner for secure, on-premises AI inference."
+      ],
+      "significance": "推理(而非训练)正成为AI芯片竞争的新主战场,也是英伟达之外挑战者最有机会突围的环节。摩根大通这样对安全与合规要求极高的金融巨头选择本地化推理专用硬件,显示企业级市场对\"非英伟达、可私有部署\"方案的真实需求正在放量。",
+      "links": [
+        "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+        "https://www.generalatlantic.com/media-article/sambanova-completes-first-close-of-1-billion-financing-at-11-billion-valuation/",
+        "https://theaiinsider.tech/2026/07/08/sambanova-secures-b-at-11b-valuation-lands-jpmorgan-chase-as-inference-partner/"
+      ],
+      "tags": ["SambaNova", "AI芯片", "推理", "融资", "摩根大通"],
+      "category": "builders"
+    },
+    {
+      "id": "7",
+      "title": "AI能否啃下\"费马大定理\"?帝国理工用自动形式化挑战数学最难证明",
+      "source": "Imperial College London",
+      "source_name": "Xena Project",
+      "source_url": "https://xenaproject.wordpress.com/2026/05/15/formalizing-fermat-workshop/",
+      "story_key": "ai-fermat-formalization",
+      "event_date": "2026-07-06",
+      "summary": "帝国理工学院于7月6日至10日在伦敦举办工作坊,尝试用AI\"自动形式化\"(autoformalization)技术,把费马大定理这一史上最复杂证明之一编码为机器可验证的Lean形式。",
+      "detail": "7月6日至10日,帝国理工学院的Kevin Buzzard团队在伦敦举办工作坊,推进一项由EPSRC资助、在Lean证明助手中形式化费马大定理(Fermat's Last Theorem)的宏大工程。该项目要形式化的是一个思路可追溯到Khare的更现代版本证明,而本次工作坊的特别之处在于:AI公司Logos Research出资赞助,并提议直接实验——让AI来形式化证明所需的前置引理,乃至部分主证明思路本身。\n\n与常规做法\"挑选AI擅长的目标\"相反,研究者先锁定费马大定理这一目标,再反过来追问自动形式化在多大程度上适用。他们预期:那些定义繁复、概念密集的部分对AI仍是难点;而那些依赖已在mathlib中就位的定义、且文献里有翔实证明的部分,则可能被AI较好地处理。这项工作实质是在为\"AI辅助形式化数学\"划定当前能力的边界。",
+      "key_quotes": [
+        "Logos Research is funding the workshop and has proposed experimenting with getting AI to formalize the prerequisites needed for the proof, and potentially the main proof ideas themselves.",
+        "They chose the target first and then asked whether autoformalization is appropriate for it."
+      ],
+      "significance": "把AI用于形式化数学最艰深的证明之一,是检验大模型\"严谨推理\"能力的绝佳试金石。与生成自然语言\"看似正确\"的证明不同,Lean形式化要求每一步机器可验证——这为衡量AI真正的数学推理边界提供了不会\"说谎\"的标尺。",
+      "links": [
+        "https://xenaproject.wordpress.com/2026/05/15/formalizing-fermat-workshop/",
+        "https://github.com/ImperialCollegeLondon/FLT",
+        "https://www.sciencenews.org/article/math-disrupted-by-ai-verify-proofs"
+      ],
+      "tags": ["自动形式化", "费马大定理", "Lean", "AI推理", "帝国理工"],
+      "category": "research"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-11",
+  "total_candidates": 15,
+  "kept": 7,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "sk-hynix-nasdaq-debut",
+      "event_date": "2026-07-10",
+      "title_en": "SK Hynix raises $26.5B in record Nasdaq ADR debut",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Largest-ever U.S. listing by a foreign company ($26.5B), priced July 9, debuted July 10; directly tied to the AI HBM memory buildup."
+    },
+    {
+      "story_key": "openai-chatgpt-work-superapp",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI merges Codex into ChatGPT desktop app, launches ChatGPT Work",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct product story (app consolidation + ChatGPT Work agent) separate from the 07-09 'frontier-ai-simultaneous-launches' model-access story."
+    },
+    {
+      "story_key": "nyt-openai-copyright-sanctions",
+      "event_date": "2026-07-09",
+      "title_en": "NYT-led publishers ask court to sanction OpenAI for hiding evidence",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New July 9 court filing alleging OpenAI concealed internal corpus searches and a 78M-conversation database."
+    },
+    {
+      "story_key": "micron-us-chip-investment",
+      "event_date": "2026-07-09",
+      "title_en": "Micron raises U.S. investment plan to $250B through 2035",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 9 announcement lifting plan from $200B to $250B, first concrete poured at NY fab."
+    },
+    {
+      "story_key": "anthropic-cowork-mobile",
+      "event_date": "2026-07-07",
+      "title_en": "Anthropic brings Claude Cowork to mobile and web; 90% of usage isn't coding",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 7 mobile/web rollout plus striking usage data from 1.2M sessions (only 8.7% software dev)."
+    },
+    {
+      "story_key": "sambanova-series-f",
+      "event_date": "2026-07-08",
+      "title_en": "SambaNova raises $1B at $11B valuation, wins JPMorgan as inference partner",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 8 Series F first close, General Atlantic-led, JPMorgan on-prem inference deal."
+    },
+    {
+      "story_key": "ai-fermat-formalization",
+      "event_date": "2026-07-06",
+      "title_en": "Imperial College workshop tests AI autoformalization on Fermat's Last Theorem",
+      "source": "Xena Project",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 6-10 workshop, Logos Research-funded, probing whether AI can formalize FLT prerequisites in Lean."
+    },
+    {
+      "story_key": "openai-record-funding-round",
+      "event_date": "2026-03-31",
+      "title_en": "OpenAI closes $122B round at $852B valuation",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-31 is 102 days old (>5 day limit). Only resurfacing in July recaps."
+    },
+    {
+      "story_key": "together-ai-series-c",
+      "event_date": "2026-07-01",
+      "title_en": "Together AI raises $800M at $8.3B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "reflection-ai-compute-lease",
+      "event_date": "2026-07-01",
+      "title_en": "Reflection AI activates $6.3B Colossus 2 compute lease",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "amazon-custom-silicon-runrate",
+      "event_date": "2026-04-30",
+      "title_en": "Amazon custom silicon business tops $20B run rate",
+      "source": "The Register",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying event is the Q1 2026 earnings call (Apr 30), 72 days old (>5 day limit). July coverage is re-reporting."
+    },
+    {
+      "story_key": "meta-ai-layoffs",
+      "event_date": "2026-05-20",
+      "title_en": "Meta lays off 8,000 in AI restructuring; Zuckerberg says AI 'hasn't accelerated'",
+      "source": "NPR",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Layoffs event dates to May 2026 (>5 days). July 2 town-hall remark is a minor follow-up, not a substantive new development."
+    },
+    {
+      "story_key": "whitehouse-voluntary-ai-standards",
+      "event_date": "2026-06-02",
+      "title_en": "White House nears voluntary frontier AI release standards",
+      "source": "Mintz",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "No concrete July event; grounded in June 2 Executive Order 14409, and standards remain in 'advanced talks' with no announcement yet."
+    },
+    {
+      "story_key": "israeli-brain-bleed-ai",
+      "event_date": "2026-07-10",
+      "title_en": "Israeli AI detects brain bleeding before doctors",
+      "source": "Calcalist",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "No discrete July 10 event; the capability (Aidoc ICH detection) is evergreen, already-deployed tech resurfacing in a roundup rather than fresh news."
+    },
+    {
+      "story_key": "frontier-ai-simultaneous-launches",
+      "event_date": "2026-07-10",
+      "title_en": "Grok 4.5 benchmark rankings and token-efficiency claims",
+      "source": "Artificial Analysis",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-09 as 'AI模型扎堆发布日' covering GPT-5.6 Sol, Grok 4.5, Muse Spark. July 10 benchmark placements are incremental scoring, not a substantive new development."
+    }
+  ]
+}
