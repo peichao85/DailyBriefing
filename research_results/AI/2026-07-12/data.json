@@ -1,0 +1,194 @@
+{
+  "date": "2026-07-12",
+  "category": "AI",
+  "researched_at": "2026-07-12T07:00:00+08:00",
+  "sources_checked": ["@sama", "@demishassabis", "@elonmusk", "@DanielaAmodei", "@ilyasut", "@alexandr_wang", "@mntruell", "@mikeyk", "@JeffDean", "@ylecun", "@karpathy", "@DrJimFan", "@garrytan", "CNBC", "TechCrunch", "SCMP", "TechTimes", "Bloomberg", "European Commission", "Axios"],
+  "items": [
+    {
+      "id": "1",
+      "title": "苹果反手起诉OpenAI窃密,并官宣新Siri改用Google Gemini而非ChatGPT",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "story_key": "apple-openai-trade-secret-suit",
+      "event_date": "2026-07-10",
+      "summary": "苹果7月10日在加州北区联邦法院起诉OpenAI,指控其通过挖角与面试苹果员工系统性窃取商业机密以开发自有消费硬件;同日苹果确认,今秋改版的Siri将改用Google Gemini驱动,而非此前合作的ChatGPT。",
+      "detail": "苹果于7月10日正式向加州北区联邦法院提交诉状,指控OpenAI盗用其知识产权,用于开发自家消费级硬件设备。苹果称OpenAI的窃密\"发生在每一个层级\",大量指控围绕已离职、转投或正在面试OpenAI的前苹果员工展开。诉状点名OpenAI硬件负责人、前苹果副总裁Tang Tan,称其在面试环节要求受访的苹果在职员工透露公司机密。\n\n更具冲击力的是同日曝光的另一条消息:苹果确认今年秋季推出的新版Siri将基于Google Gemini模型构建,而非OpenAI的技术。这标志着两家公司自2024年高调达成\"ChatGPT集成进iPhone操作系统\"合作以来的戏剧性反转。此前5月已有报道称OpenAI因Siri合作\"关系紧张\"而考虑对苹果采取法律行动,如今苹果抢先出手,把矛盾彻底摆上台面。诉讼时点也颇为微妙——正值OpenAI筹备IPO的窗口期。",
+      "key_quotes": [
+        "Apple alleged the scheme was 'at every level.'",
+        "Apple's updated Siri, coming this fall, is based on Google's Gemini AI models instead of OpenAI's technology."
+      ],
+      "significance": "这是两大科技巨头从合作走向对簿公堂的分水岭事件:一方面暴露了AI人才与硬件路线之争的激烈程度,商业机密诉讼可能牵连OpenAI的消费硬件计划;另一方面,Siri弃用ChatGPT转投Gemini,是Google在消费端AI分发上对OpenAI的一次重大战略胜利,也重塑了苹果、OpenAI、Google三方的力量格局。",
+      "links": [
+        "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+        "https://aitoolsrecap.com/Blog/apple-sues-openai-trade-secret-theft-siri-gemini-2026"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "OpenAI", "Google Gemini", "Siri", "商业机密诉讼"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "语音AI进入\"全双工\"时代:OpenAI推出GPT-Live,可边听边说、实时接话",
+      "source": "@sama",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "story_key": "openai-gpt-live-voice",
+      "event_date": "2026-07-08",
+      "summary": "OpenAI于7月8日发布新一代语音模型GPT-Live,采用\"全双工\"(full-duplex)架构,能够同时聆听与说话,可在对话中用\"嗯\"\"对\"等词回应、快速你来我往,或在你思考时保持安静,让与AI对话更接近真人交流。",
+      "detail": "OpenAI于7月8日推出GPT-Live,主打\"让与AI说话真正像和人聊天\"。其核心是全双工架构:模型可以在你说话的同时聆听并给出回应,而非传统语音助手\"你说完它再答\"的回合制。GPT-Live会用\"mhmm\"\"yeah\"等短语表示在认真听,能进行快速的你来我往,也懂得在你需要停顿思考时保持沉默。\n\n对于需要联网搜索、深度推理或更复杂任务的问题,GPT-Live会在幕后委派给最新的前沿模型处理,待结果就绪后再自然地带回对话中。此次共推出两个版本:GPT-Live-1作为付费用户的默认语音模型,GPT-Live-1 mini面向免费用户,已在全球范围内向ChatGPT用户滚动发布。OpenAI表示后续将把它们接入API。",
+      "key_quotes": [
+        "GPT-Live can listen and speak at the same time.",
+        "For questions that require web search or deeper reasoning, it delegates to the latest frontier model behind the scenes."
+      ],
+      "significance": "全双工是语音交互体验的一次代际跃迁,直接瞄准打断、抢话、停顿等真人对话的自然节奏,是ChatGPT从\"问答工具\"向\"随身对话伙伴\"演进的关键一步,也进一步拉高了语音AI赛道(含各类AI语音硬件、通话agent)的体验门槛。",
+      "links": [
+        "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+        "https://openai.com/index/introducing-gpt-live/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-Live", "语音AI", "全双工", "ChatGPT"],
+      "category": "product_operators"
+    },
+    {
+      "id": "3",
+      "title": "全球首例:中国\"拟人化AI\"新规7月15日生效,字节、阿里连夜下线AI伴侣功能",
+      "source": "SCMP",
+      "source_name": "South China Morning Post",
+      "source_url": "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom",
+      "story_key": "china-anthropomorphic-ai-rules",
+      "event_date": "2026-07-10",
+      "summary": "为迎接7月15日生效的《人工智能拟人化交互服务管理暂行办法》,字节跳动豆包与阿里巴巴通义千问相继下线可定制的\"拟人化\"AI智能体功能:千问的自定义拟人agent已于7月10日停用,豆包的agent功能将于7月15日关闭。",
+      "detail": "随着中国针对拟人化AI交互服务的新规将于7月15日生效,字节跳动的豆包与阿里巴巴的通义千问纷纷下线相关功能。豆包已于7月5日通知用户,其agent功能将在7月15日下线,理由是\"产品功能调整\",相关用户数据在10月15日后将无法访问;千问也于7月6日发布类似公告,称其拟人化交互agent与用户自建agent功能于7月10日停用,更广泛的agent服务将在7月15日关闭。\n\n此前两款应用都提供了由平台和用户共同创建的agent池,可按特定任务、技能和说话风格定制;用户还能自建agent,把通用聊天机器人变成有固定人设与语气的助手、导师、角色扮演形象或情感陪伴。新规全称《人工智能拟人化交互服务管理暂行办法》,覆盖那些\"模拟人类性格特征、思维模式和沟通风格以提供持续情感\"交互的系统,直指极端思想、隐私泄露、身心健康损害以及依赖成瘾等风险。",
+      "key_quotes": [
+        "The framework covers systems that 'simulate human personality traits, thinking patterns and communication styles to provide sustained emotional' interaction.",
+        "Doubao notified users its agent feature will go offline on July 15, citing 'product function adjustments.'"
+      ],
+      "significance": "这是全球首个专门针对\"拟人化/情感陪伴型AI\"的国家级监管落地,与近期海外围绕AI伴侣心理风险的争议形成呼应。它为高速增长的AI companion赛道划出明确红线,可能成为其他司法辖区效仿的范本,也迫使中国大厂重新设计其消费级agent产品形态。",
+      "links": [
+        "https://www.scmp.com/tech/big-tech/article/3359482/bytedance-and-alibaba-disable-humanlike-ai-custom-agents-new-rules-loom",
+        "https://qz.com/bytedance-alibaba-ai-companion-chatbot-china-rules-070626"
+      ],
+      "image": "assets/logos/qwen-logo.png",
+      "image_type": "logo",
+      "tags": ["中国监管", "拟人化AI", "AI伴侣", "字节跳动", "阿里巴巴", "通义千问"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "推翻重练:Google把Gemini 3.5 Pro推迟到7月17日,弃用2.5 Pro架构从零重建",
+      "source": "@demishassabis",
+      "source_name": "TechTimes",
+      "source_url": "https://www.techtimes.com/articles/319877/20260708/gemini-35-pro-targets-july-17-deepseeks-july-24-deadline-hits-developers-now.htm",
+      "story_key": "gemini-35-pro-delay",
+      "event_date": "2026-07-08",
+      "summary": "据7月8日多方报道,Google DeepMind把Gemini 3.5 Pro的正式发布推迟至7月17日,并直接放弃原有的2.5 Pro架构,选择完全重新预训练、从零重建模型,以补齐数学推理、编码与长任务上的短板。",
+      "detail": "Google DeepMind将旗舰模型Gemini 3.5 Pro的正式可用(GA)时间推迟到7月17日,并做出一个激进决定:彻底放弃原本基于2.5 Pro的基础架构,改为完全重新预训练、\"从头重建\"。据报道,企业测试者反馈其编码性能存在差距、token效率不佳、长任务推理未达Google对旗舰级模型的标准,促使团队推倒重来。\n\n此次重建聚焦数学推理、SVG场景生成与图像质量的提升,目标直指对标OpenAI的GPT-5.6与Anthropic的Fable 5。新模型据称将引入200万token上下文窗口、用于复杂问题求解的\"Deep Think推理层\"以及自主工作流能力。背景上,Sundar Pichai曾在5月19日的Google I/O上让观众\"再等一个月\",但模型并未如期在6月到来。这次延期也叠加了近期DeepMind多名资深研究员出走的内部动荡。",
+      "key_quotes": [
+        "Google scrapped the existing 2.5 Pro architecture for a complete rebuild.",
+        "Enterprise testers reported coding performance gaps, token-efficiency issues, and long-task reasoning that fell short of Google standards."
+      ],
+      "significance": "在OpenAI、xAI、Anthropic旗舰模型密集开放访问之际,Google宁可再度延期也要推倒重练,反映出前沿竞赛下\"不能拿半成品旗舰应战\"的压力;能否在7月17日交出一个真正对标GPT-5.6与Fable 5的模型,将直接决定Google在这一轮前沿卡位战中的位置。",
+      "links": [
+        "https://www.techtimes.com/articles/319877/20260708/gemini-35-pro-targets-july-17-deepseeks-july-24-deadline-hits-developers-now.htm",
+        "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google DeepMind", "Gemini 3.5 Pro", "模型发布", "延期", "前沿竞赛"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "5",
+      "title": "Grok 4.5独立评测出炉:token效率碾压对手,但幻觉率飙升到54%",
+      "source": "Artificial Analysis",
+      "source_name": "TechTimes",
+      "source_url": "https://www.techtimes.com/articles/320038/20260709/grok-45-cuts-coding-agent-cost-80-near-frontier-speed-higher-hallucinations.htm",
+      "story_key": "frontier-ai-simultaneous-launches",
+      "event_date": "2026-07-10",
+      "summary": "发布后首批独立评测显示,xAI的Grok 4.5在Artificial Analysis智能指数上排名第四(得分54),token效率大幅领先——每题输出token比Opus 4.8少逾六成,SWE-bench Pro任务用量甚至只有对手的约四分之一;但其幻觉率从Grok 4.3的25%飙升至54%。",
+      "detail": "Grok 4.5正式\"下场\"后,第三方评测和一场围绕政治偏见的病毒式争论随之而来。在Artificial Analysis智能指数上,Grok 4.5以54分位列第四,落后于Claude Fable 5(第一)、GPT-5.5(第二)与Claude Opus 4.8(第三);在SWE-bench Pro上取得64.7%,超过GPT-5.5的58.6%,但不及Opus 4.8的69.2%。\n\n其最鲜明的优势是token效率:每道智能指数任务约用14,000个输出token,比Opus 4.8少60%以上;xAI宣称在SWE-bench Pro上平均每题15,954个输出token,而Opus 4.8 max为67,020,相当于少用4.2倍,直接改写高频agentic工作负载的成本账。代价则是可靠性:幻觉率由Grok 4.3的25%跃升至54%——模型\"知道得更多\"(准确率从35%升至52%),但出错时也\"更自信地说错\"。\n\n背景回顾:7月9日,OpenAI的GPT-5.6、xAI的Grok 4.5与Meta的Muse Spark 1.1同日全面开放,被称为三大实验室史上首次同日发布旗舰模型。",
+      "key_quotes": [
+        "Grok 4.5 uses around 14,000 output tokens per task, more than 60% fewer than Opus 4.8.",
+        "The hallucination rate jumped from 25% on Grok 4.3 to 54% on Grok 4.5."
+      ],
+      "significance": "首批独立数据把\"扎堆发布\"的营销叙事拉回现实:Grok 4.5用极致的token效率在高频agent场景中打出成本优势,却以显著更高的幻觉率为代价——这把\"便宜且快\"与\"可信\"之间的权衡重新摆到企业选型的核心,也说明单看排行榜名次已不足以判断一个模型是否可用。",
+      "links": [
+        "https://www.techtimes.com/articles/320038/20260709/grok-45-cuts-coding-agent-cost-80-near-frontier-speed-higher-hallucinations.htm",
+        "https://kingy.ai/blog/grok-4-5-benchmarks-pricing-context-window/"
+      ],
+      "image": "assets/logos/grok-logo.png",
+      "image_type": "logo",
+      "tags": ["xAI", "Grok 4.5", "基准测试", "token效率", "幻觉率"],
+      "category": "research"
+    },
+    {
+      "id": "6",
+      "title": "去中心化训练走向企业级:Prime Intellect完成1.3亿美元A轮,估值10亿美元",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "story_key": "prime-intellect-series-a",
+      "event_date": "2026-07-08",
+      "summary": "开源去中心化AI训练与强化学习基础设施平台Prime Intellect于7月8日完成1.3亿美元A轮融资,估值达10亿美元,由Radical Ventures领投,NVIDIA Ventures、Intel Capital、Dell Technologies Capital等参投,累计融资超1.5亿美元。",
+      "detail": "总部位于旧金山的Prime Intellect完成1.3亿美元A轮融资,一跃成为估值10亿美元的独角兽。本轮由Radical Ventures领投,NVIDIA Ventures、Intel Capital、Dell Technologies Capital及多家现有机构参投;Aravind Srinivas(Perplexity)、Aaron Levie(Box)、Winston Weinberg(Harvey)、Jeff Wang(Cognition)等知名天使也参与其中。\n\n公司由联合创始人兼CEO Johannes Hagemann领衔,主打\"开放超级智能栈\"(Open Superintelligence Stack)——一套让企业用先进的后训练循环、自动化沙箱与安全执行环境来训练、优化和部署自有开源模型的基础设施。目前Prime Intellect拥有约6,000家客户(涵盖AI初创、新兴实验室与企业),年化营收超过1亿美元。新资金将用于扩展分布式算力集群、支持大规模强化学习(RL)训练,并加速下一代递归语言模型(RLM)与持续学习部署系统的研发。",
+      "key_quotes": [
+        "Prime Intellect is building the 'Open Superintelligence Stack.'",
+        "The company has 6,000 customers and generates over $100 million in annualized revenue."
+      ],
+      "significance": "在闭源前沿实验室主导叙事的当下,一家专注去中心化、开源训练栈的公司拿到NVIDIA、Intel、Dell三大硬件资本背书并跨入独角兽行列,说明\"企业自训、自有开源模型\"路线正获得资本与生态的实质押注,是对集中式大模型垄断的一种结构性对冲。",
+      "links": [
+        "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+        "https://siliconangle.com/2026/07/08/prime-intellect-raises-130m-1b-valuation-ai-training-platform/"
+      ],
+      "tags": ["Prime Intellect", "去中心化训练", "开源", "融资", "强化学习"],
+      "category": "builders"
+    },
+    {
+      "id": "7",
+      "title": "赶在AI法案透明度条款前:欧盟发布《网络安全与人工智能行动计划》",
+      "source": "European Commission",
+      "source_name": "European Commission",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "story_key": "eu-cybersecurity-ai-action-plan",
+      "event_date": "2026-07-07",
+      "summary": "欧盟委员会于7月7日发布《网络安全与人工智能行动计划》,提出一套协调机制,帮助成员国、企业和公共部门应对最先进AI模型带来的网络安全与韧性挑战,时点恰在AI法案透明度规则将于8月生效之前。",
+      "detail": "欧盟委员会于7月7日正式提出《欧盟网络安全与人工智能行动计划》(EU Action Plan on Cybersecurity and Artificial Intelligence),旨在以协调一致的方式,协助成员国、企业与公共机构应对最先进AI模型所带来的网络安全与系统韧性风险。\n\n该行动计划的时点颇具深意:欧盟《AI法案》的透明度规则将于2026年8月生效。此前春季达成的\"数字综合法案\"(Digital Omnibus)临时协议已推迟了若干高风险义务——基于用途的高风险系统获得了超出原定8月期限的额外时间,受产品法规约束的高风险系统的更晚期限也被延后。与此同时,大西洋对岸的美国方向相反:2025年12月的一项行政令要求联邦机构推行统一的国家政策,并挑战各州被视为不一致的AI法律,司法部、商务部与FTC已据此展开行动。",
+      "key_quotes": [
+        "The action plan sets out a coordinated approach to address cybersecurity and resilience challenges posed by the most advanced AI models.",
+        "The AI Act's transparency rules will come into effect in August 2026."
+      ],
+      "significance": "在AI法案关键条款落地的节点,欧盟把\"网络安全\"与\"AI治理\"绑定推进,凸显其试图以监管框架塑造前沿AI部署方式的一贯路线;这与美国\"去监管、挑战州法\"的方向形成鲜明对照,跨国AI厂商将不得不同时应对两套背道而驰的合规环境。",
+      "links": [
+        "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "https://artificialintelligenceact.eu/"
+      ],
+      "tags": ["欧盟", "AI法案", "网络安全", "AI监管", "合规"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "让AI读懂法规:合规智能体公司Norm AI融资1.2亿美元,估值12亿",
+      "source": "Khosla Ventures",
+      "source_name": "Tech Startups",
+      "source_url": "https://techstartups.com/2026/07/07/venture-capital-startup-funding-roundup-july-7-2026/",
+      "story_key": "norm-ai-series-c",
+      "event_date": "2026-07-07",
+      "summary": "AI合规初创公司Norm AI于7月7日完成1.2亿美元C轮融资,由Khosla Ventures领投,这家成立仅三年的公司估值达12亿美元,专注用AI智能体自动化企业的监管合规流程。",
+      "detail": "Norm AI于7月7日宣布完成1.2亿美元C轮融资,由Khosla Ventures领投,公司估值达到12亿美元。这家成立仅三年的初创公司,主打把复杂的监管条文转化为可被AI智能体执行的合规工作流,帮助金融等强监管行业自动完成合规审查与风险识别。\n\n这笔融资是本周一系列AI基础设施与企业应用融资中的一笔:同期SambaNova完成10亿美元F轮(估值110亿)、Prime Intellect完成1.3亿美元A轮(估值10亿)、8090 Solutions在Salesforce Ventures领投下完成1.35亿美元A轮。据PitchBook,2026年上半年美国风险投资交易额达4,127亿美元,其中AI公司吸走3,559亿美元,约占每一美元风险投资的86%,\"合规自动化\"正是资本押注的企业级落地方向之一。",
+      "key_quotes": [
+        "Norm AI closed a $120 million Series C led by Khosla Ventures, valuing the 3-year-old startup at $1.2 billion.",
+        "AI companies took 86% of every venture dollar spent in the first half of 2026."
+      ],
+      "significance": "在全球AI监管趋严(欧盟AI法案、中国拟人化新规、美国州法之争)的大背景下,\"用AI来做合规\"成为一个被资本快速验证的刚需赛道;Norm AI跻身独角兽,反映出企业正把监管复杂度本身当作AI可以变现的机会点。",
+      "links": [
+        "https://techstartups.com/2026/07/07/venture-capital-startup-funding-roundup-july-7-2026/",
+        "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-biotech-joulent/"
+      ],
+      "tags": ["Norm AI", "合规", "AI智能体", "融资", "Khosla Ventures"],
+      "category": "builders"
+    }
+  ]
+}

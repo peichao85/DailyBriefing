@@ -1,0 +1,179 @@
+{
+  "date": "2026-07-12",
+  "total_candidates": 19,
+  "kept": 8,
+  "dropped": 11,
+  "decisions": [
+    {
+      "story_key": "apple-openai-trade-secret-suit",
+      "event_date": "2026-07-10",
+      "title_en": "Apple sues OpenAI for trade secret theft; confirms Siri will switch to Google Gemini",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. CNBC confirmed the suit filed 2026-07-10 in N.D. Cal alleging OpenAI solicited Apple secrets via employee interviews; Apple also confirmed the fall Siri revamp runs on Google Gemini, not ChatGPT."
+    },
+    {
+      "story_key": "openai-gpt-live-voice",
+      "event_date": "2026-07-08",
+      "title_en": "OpenAI launches GPT-Live full-duplex voice models",
+      "source": "@sama / TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. GPT-Live and GPT-Live mini launched 2026-07-08 with full-duplex listen-and-speak architecture."
+    },
+    {
+      "story_key": "china-anthropomorphic-ai-rules",
+      "event_date": "2026-07-10",
+      "title_en": "ByteDance and Alibaba disable humanlike AI companion agents ahead of China's July 15 anthropomorphic-AI rules",
+      "source": "SCMP",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Qwen disabled humanlike agents 2026-07-10; Doubao offline 07-15; new Interim Measures on Anthropomorphic Interaction Services take effect 07-15."
+    },
+    {
+      "story_key": "gemini-35-pro-delay",
+      "event_date": "2026-07-08",
+      "title_en": "Google delays Gemini 3.5 Pro to July 17, scraps base model for full rebuild",
+      "source": "TechTimes / BigGo",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Reported 2026-07-08: GA slips to 07-17, 2.5 Pro architecture scrapped for a from-scratch rebuild targeting math/coding gaps."
+    },
+    {
+      "story_key": "frontier-ai-simultaneous-launches",
+      "event_date": "2026-07-10",
+      "title_en": "Grok 4.5 independent benchmarks: token-efficiency win but hallucination rate jumps to 54%",
+      "source": "TechTimes / Artificial Analysis",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Published 2026-07-09 as 'AI模型扎堆发布日' covering same-day flagship launches. New info: post-launch independent benchmarks — Grok 4.5 ranks #4 on Intelligence Index, uses ~4x fewer tokens than Opus 4.8, but hallucination rose from 25% to 54%. Title/summary constrained to this new reception."
+    },
+    {
+      "story_key": "prime-intellect-series-a",
+      "event_date": "2026-07-08",
+      "title_en": "Prime Intellect raises $130M Series A at $1B for decentralized open-training stack",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $130M Series A led by Radical Ventures (NVIDIA Ventures, Intel Capital participating), $1B valuation, ~$100M ARR, 'Open Superintelligence Stack'."
+    },
+    {
+      "story_key": "eu-cybersecurity-ai-action-plan",
+      "event_date": "2026-07-07",
+      "title_en": "European Commission presents EU Action Plan on Cybersecurity and AI",
+      "source": "European Commission",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. EC presented the plan 2026-07-07, ahead of AI Act transparency rules taking effect August 2026."
+    },
+    {
+      "story_key": "norm-ai-series-c",
+      "event_date": "2026-07-07",
+      "title_en": "Norm AI raises $120M Series C at $1.2B for AI regulatory-compliance agents",
+      "source": "Khosla Ventures / Tech Startups",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $120M Series C led by Khosla Ventures, $1.2B valuation for a 3-year-old regulatory-compliance AI startup; event 2026-07-07 (5 days, within window)."
+    },
+    {
+      "story_key": "meta-compute-cloud",
+      "event_date": "2026-07-01",
+      "title_en": "Meta launches Meta Compute cloud unit",
+      "source": "Yahoo Finance",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "claude-azure-foundry-ga",
+      "event_date": "2026-06-29",
+      "title_en": "Claude reaches GA on Azure AI Foundry via NVIDIA GB300",
+      "source": "Microsoft Azure Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-29 is 13 days old (>5 day limit)."
+    },
+    {
+      "story_key": "mistral-leanstral-15",
+      "event_date": "2026-07-02",
+      "title_en": "Mistral open-sources Leanstral 1.5 formal-verification model",
+      "source": "MarkTechPost",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-02/03 is 9-10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-microsoft-maia",
+      "event_date": "2026-05-21",
+      "title_en": "Anthropic in talks with Microsoft to run Claude on Maia 200",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-21 far outside 5-day window; no new signed deal reported this week."
+    },
+    {
+      "story_key": "openai-ipo-confidential-s1",
+      "event_date": "2026-06-08",
+      "title_en": "OpenAI confidentially files S-1 for IPO",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-08 is >30 days old."
+    },
+    {
+      "story_key": "google-anthropic-talent-exodus",
+      "event_date": "2026-06-24",
+      "title_en": "Four senior Gemini researchers leave Google for Anthropic",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date late June, outside 5-day window."
+    },
+    {
+      "story_key": "together-ai-series-c",
+      "event_date": "2026-07-01",
+      "title_en": "Together AI closes $800M Series C",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "sambanova-series-f",
+      "event_date": "2026-07-08",
+      "title_en": "SambaNova closes $1B Series F at $11B valuation",
+      "source": "General Atlantic",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-08 as sambanova-series-f. No substantively new information."
+    },
+    {
+      "story_key": "anthropic-30b-broadcom-compute",
+      "event_date": "2026-04-06",
+      "title_en": "Anthropic tops $30B run rate, expands Google/Broadcom compute to 3.5GW",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Aggregators recirculated this on 07-11, but the underlying revenue figure and 3.5GW deal were announced early April 2026 (>90 days)."
+    },
+    {
+      "story_key": "sk-hynix-nasdaq-debut",
+      "event_date": "2026-07-11",
+      "title_en": "SK Hynix closes +13% on Nasdaq debut day",
+      "source": "AIToolsRecap",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-10 as sk-hynix-nasdaq-debut. First-day close is market reaction to already-covered IPO; no substantive new development."
+    },
+    {
+      "story_key": "anthropic-claude-corps",
+      "event_date": "2026-07-08",
+      "title_en": "Anthropic announces Claude Corps nonprofit fellowship",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Low significance program announcement; deprioritized to keep the day focused on higher-impact items."
+    }
+  ]
+}
