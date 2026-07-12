@@ -1,0 +1,174 @@
+{
+  "date": "2026-07-13",
+  "category": "AI",
+  "researched_at": "2026-07-13T07:05:00+08:00",
+  "sources_checked": ["Reuters", "Bloomberg", "Axios", "The Washington Post", "CNBC", "TechCrunch", "Sysdig", "BleepingComputer", "Dark Reading", "US Bureau of Industry and Security", "Gulf News", "Mistral AI", "Google Blog", "@alexandr_wang", "@elonmusk", "@sama"],
+  "items": [
+    {
+      "id": "1",
+      "title": "摆脱英伟达:Meta自研AI芯片Iris九月投产,2027年算力翻倍到14吉瓦",
+      "source": "Meta",
+      "source_name": "Reuters",
+      "source_url": "https://money.usnews.com/investing/news/articles/2026-07-09/exclusive-meta-to-put-ai-chip-into-production-in-september-as-it-looks-to-double-computing-capacity-memo-shows",
+      "story_key": "meta-iris-chip-production",
+      "event_date": "2026-07-09",
+      "summary": "据7月9日曝光的内部备忘录,Meta代号\"Iris\"的自研AI推理芯片将于9月量产,由Broadcom联合设计、台积电代工,目标是减少对英伟达GPU的依赖,并支撑其数据中心总算力从2026年的7吉瓦翻倍至2027年的14吉瓦。",
+      "detail": "Meta内部备忘录显示,其MTIA计划下的定制ASIC芯片\"Iris\"将于2026年9月进入量产。该芯片专为推荐排序与信息流场景优化,由Broadcom负责物理设计与接口架构、台积电先进制程代工,据称流片测试仅用六周即未发现重大问题。\n\n更关键的是随之披露的算力扩张路线图:Meta计划把数据中心总功率容量从2026年的约7吉瓦翻倍至2027年的14吉瓦,并承诺在2027年前每六个月推出一代新的自研AI处理器,以匹配基础设施扩张节奏。Iris的目标非常明确——降低对英伟达GPU的采购依赖,把内部推理与推荐负载迁移到自有硅片上,从而压低单位算力成本。这与本周稍早披露的Meta首个加拿大数据中心(见Alberta项目)共同构成其\"算力主权\"版图:一手建电与厂房,一手造芯。",
+      "key_quotes": [
+        "Meta plans to release a new custom AI processor every six months through 2027 to match infrastructure demand.",
+        "Testing the chip took only six weeks and found no major issues."
+      ],
+      "significance": "自研推理芯片是超大规模厂商摆脱英伟达\"算力税\"的核心手段。若Iris如期放量,Meta将把最高频的推荐/信息流推理从GPU迁出,显著改善AI业务的边际成本结构;而\"每六个月一代芯片\"+\"两年算力翻倍\"的节奏,也意味着定制ASIC与英伟达通用GPU的竞争正从边缘走向主战场。",
+      "links": [
+        "https://money.usnews.com/investing/news/articles/2026-07-09/exclusive-meta-to-put-ai-chip-into-production-in-september-as-it-looks-to-double-computing-capacity-memo-shows",
+        "https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html",
+        "https://www.fullstackevolved.com/blog/meta-iris-ai-chip-september-2026-07-10/"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "AI芯片", "MTIA", "Broadcom", "算力", "英伟达"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "美国把阿联酋升为\"A:5\"可信伙伴:AI芯片可免许可证出口",
+      "source": "BIS",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-10/us-eases-export-curbs-on-uae-opening-door-for-ai-chip-sales",
+      "story_key": "uae-a5-chip-export-easing",
+      "event_date": "2026-07-10",
+      "summary": "美国商务部工业与安全局(BIS)7月10日起把阿联酋从受限的D:3/D:4国家组重新划入最受信任的A:5组,先进AI芯片、高性能服务器、商业卫星及部分军事物项可无需逐笔许可证向阿联酋出口,阿联酋成为首个获此待遇的阿拉伯国家。",
+      "detail": "BIS宣布的新规于2026年7月10日生效,将阿联酋从出口管制的D:3、D:4国家组移除,加入A:5可信伙伴组。这意味着英伟达、AMD等厂商向阿联酋出口先进AI芯片、高性能服务器不再需要逐笔申请出口许可证,商业卫星与特定军事技术同样放开。\n\n新规延续了2025年5月签署的《美国-阿联酋人工智能合作框架》,获批实体包括阿联酋政府主导的AI巨头G42与Core42,以及在当地运营的美国AI公司——这为亚马逊、苹果、xAI等在阿联酋部署算力扫清了合规障碍。分析指出,此举把阿联酋纳入华盛顿最信任的技术盟友圈,也是对其\"美国主要防务伙伴\"身份的技术层面兑现,标志着美国在对华芯片封锁的同时,正加速用\"可信伙伴\"网络构建自己的海外算力腹地。",
+      "key_quotes": [
+        "Approved UAE entities, including G42 and Core42, along with approved U.S. AI companies operating in the UAE, can receive advanced AI computing items without export licenses."
+      ],
+      "significance": "在对华出口管制持续收紧的背景下,美国用\"分级信任\"重塑全球算力版图:把海湾资金雄厚、能源充裕的阿联酋纳入免许可证圈层,等于为美系芯片开辟了一个巨大的海外增量市场与算力基地,也进一步把AI基础设施竞争地缘政治化。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-07-10/us-eases-export-curbs-on-uae-opening-door-for-ai-chip-sales",
+        "https://www.bis.gov/press-release/department-commerce-eases-export-controls-uae",
+        "https://gulfnews.com/technology/us-eases-export-controls-on-uae-grants-access-to-advanced-technologies-1.500604139"
+      ],
+      "tags": ["出口管制", "阿联酋", "AI芯片", "地缘政治", "G42", "英伟达"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "首例\"全自主\"AI勒索软件:LLM智能体31秒自我纠错,独立完成整条攻击链",
+      "source": "Sysdig",
+      "source_name": "Sysdig",
+      "source_url": "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+      "story_key": "jadepuffer-agentic-ransomware",
+      "event_date": "2026-07-08",
+      "summary": "安全厂商Sysdig披露了被命名为JADEPUFFER的攻击事件,评估认为这是首例由大语言模型端到端驱动的\"智能体勒索软件\"——从侦察、入侵、横向移动到数据库加密勒索全程自动完成,失败后仅用31秒即自我调试出正确修复步骤。",
+      "detail": "Sysdig威胁研究团队公布分析:攻击者JADEPUFFER通过CVE-2025-3248入侵一个暴露在公网的Langflow实例,随后运行了一套自适应、全自动的攻击流程,最终针对受害者生产数据库执行了破坏性勒索操作,加密了1342个Nacos配置项并删除原件。\n\n研究者判定其为LLM驱动的最有力证据,不在于攻击成功时的动作,而在于失败后的反应:在一次登录失败到给出正确多步修复方案之间,窗口仅有31秒;同时被解码的载荷中充满自然语言注释,解释每一步\"为什么这么做\"——例如按ROI给目标排序、识别\"最大\"的数据库——这是人类操作者不会做、而LLM代码生成默认会做的行为。整条杀伤链(侦察、窃取凭证、横向移动、持久化、破坏)由一个智能体串联完成,操作者无需在任何单一环节具备深厚专业能力。BleepingComputer、Dark Reading等多家安全媒体同期跟进报道。",
+      "key_quotes": [
+        "The window between a failed login and the correct multi-step fix was 31 seconds.",
+        "An LLM agent can chain reconnaissance, credential theft, lateral movement, persistence, and destruction without the operator possessing deep expertise in any one step."
+      ],
+      "significance": "这是\"AI降低网络犯罪门槛\"从理论走向实证的标志性案例:当LLM能自主完成端到端攻击并实时纠错,攻击的规模化与去技能化将同时发生,防御方必须假设对手也在以机器速度迭代战术,推动EDR、身份与漏洞管理向\"对抗智能体\"重构。",
+      "links": [
+        "https://www.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+        "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+        "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack"
+      ],
+      "tags": ["网络安全", "勒索软件", "AI智能体", "LLM", "自主攻击"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "\"25年来最大变化\":Google搜索全面生成化,Gemini 3.5 Flash取代蓝色链接",
+      "source": "Google",
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "story_key": "google-search-fully-generative",
+      "event_date": "2026-07-10",
+      "summary": "Google于7月10日全面推开由Gemini 3.5 Flash驱动的生成式搜索:面对查询默认生成定制化的AI总结页面与交互式界面,而非传统的排序链接列表,Gemini 3.5 Flash已在AI Mode中对所有用户开放,月活AI Mode用户超过10亿。",
+      "detail": "Google将其搜索的默认体验切换为完全生成式:用户输入查询后,系统由Gemini 3.5 Flash实时生成经过总结、并嵌入来源的定制页面,而不再首先呈现蓝色链接列表。用户可以提出更长、更复杂的问题,直接上传截图、PDF、照片和视频,并像与AI助手对话一样进行带上下文的追问。\n\nGoogle还展示了\"生成式UI\":搜索可根据需求实时组装表格、图表、交互可视化乃至模拟工具,并预览了可持续监测信息、代表用户采取行动的自主Gemini智能体。官方称这是搜索25年来\"最重大\"的一次变化,AI Mode月活已突破10亿。此举把Gemini 3.5 Flash推到大多数人\"第一个真正接触\"的AI界面位置,但也再度引发内容出版方对流量与引用的担忧——当答案直接生成,点击外链的动机被进一步削弱。",
+      "key_quotes": [
+        "Google calls this the most significant change to Search in over 25 years.",
+        "Users can get custom generative UI, including visual tools and simulations, tailored precisely to their needs."
+      ],
+      "significance": "搜索是Google的现金牛,也是开放网络的流量总闸门。把默认体验从\"给链接\"改为\"给答案\",既是Google应对ChatGPT等对话式入口的正面反击,也可能重构整个内容与广告生态——出版商、SEO、乃至\"网页\"这一形态都将被迫适应生成式分发。",
+      "links": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+        "https://inews.zoombangla.com/google-search-gemini-3-5-flash-july-2026/",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "搜索", "Gemini", "生成式AI", "AI Mode"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "美联储把AI请进货币政策研究:Warsh任命a16z的Andreessen共同领衔\"生产力与就业\"工作组",
+      "source": "Federal Reserve",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/07/09/fed-warsh-task-force-andreessen",
+      "story_key": "fed-ai-productivity-taskforce",
+      "event_date": "2026-07-09",
+      "summary": "美联储新任主席Kevin Warsh于7月9日宣布成立五个外部工作组,对美国货币政策进行全面评估。a16z联合创始人、特朗普顾问Marc Andreessen获任\"生产力与就业\"工作组联合负责人,该组将评估AI等新兴技术对生产率、就业与经济增长的影响,预计年底前提交建议。",
+      "detail": "美联储主席Kevin Warsh宣布组建五个外部工作组,启动对美国货币政策框架的一次全面审视。硅谷最激进的AI鼓吹者之一、Andreessen Horowitz联合创始人Marc Andreessen被任命共同领导\"生产力与就业\"(Productivity and Jobs)工作组,同组联席负责人还包括斯坦福经济学家Charles I. Jones与微软执行副总裁Asha Sharma。\n\n该工作组的核心任务,是评估人工智能等技术如何重塑生产率、就业与更广义的经济增长,预计在2026年底前给出具体政策建议。这一任命体现了Warsh\"引入科技界外部声音、而非只依赖传统央行视角\"的思路;Andreessen与Warsh是相识30年的旧友,他数周前刚被任命进入美国国防政策委员会。由于Andreessen作为顶级AI投资人对政策结论存在直接利益关联,任命也招致明显的利益冲突质疑。",
+      "key_quotes": [
+        "The panel's mandate is to evaluate how artificial intelligence and other emerging technologies are reshaping productivity, employment, and broader economic growth.",
+        "The task force is expected to deliver concrete recommendations by the end of 2026."
+      ],
+      "significance": "当AI开始实质影响就业与生产率,货币政策制定者能否读懂这场技术变革,直接关系到利率与通胀判断。美联储首次为AI设立专门研究结构本身即是信号;而让持重仓的科技投资人执笔结论,则把\"谁来定义AI经济影响\"的话语权之争摆上了台面。",
+      "links": [
+        "https://www.axios.com/2026/07/09/fed-warsh-task-force-andreessen",
+        "https://www.washingtonpost.com/business/2026/07/09/federal-reserve-enlists-marc-andreessen-advise-ai-under-warsh/",
+        "https://cybernews.com/ai-news/asha-sharma-joins-federal-reserve/"
+      ],
+      "tags": ["美联储", "货币政策", "Marc Andreessen", "a16z", "就业", "生产力"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "Meta首进加拿大:100亿美元Alberta数据中心,自建932兆瓦天然气电厂供电",
+      "source": "Meta",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-08/meta-to-build-first-data-center-in-canada-expanding-global-fleet",
+      "story_key": "meta-alberta-data-center",
+      "event_date": "2026-07-08",
+      "summary": "Meta于7月8日确认将在加拿大Alberta省Sturgeon County兴建首座加拿大数据中心,投资约100亿美元(约130亿加元),配套一座932兆瓦天然气电厂、总功率约1吉瓦,成为Meta全球第33座数据中心,也是加拿大最大的数据中心。",
+      "detail": "Meta选定Alberta省Sturgeon County作为其首个加拿大数据中心园区,项目造价约100亿美元(约130亿加元),规划功率约1吉瓦,足以供应约75万户家庭用电,将是Meta全球第33座数据中心、加拿大境内规模最大的数据中心。\n\n项目的核心不是地产而是能源:Meta将配套自建一座932兆瓦的天然气发电厂,直接为AI集群供电,以绕开公共电网的接入与扩容瓶颈。Meta称建设期将带来约3000个岗位、运营期300个永久岗位。该项目是Meta北美算力扩张的一环,与其在路易斯安那、印第安纳、得州的超大规模园区并列,也与本周同时曝光的自研Iris芯片、2027年算力翻倍至14吉瓦计划相互印证——为支撑AI训练与推理,超大规模厂商正把\"自建发电\"当作标配。",
+      "key_quotes": [
+        "Meta is investing $10B-$13B in Alberta for a new AI-optimized data center and a 932 MW natural gas plant.",
+        "The facility will carry approximately 1 gigawatt of power capacity, enough electricity to supply around 750,000 homes."
+      ],
+      "significance": "AI竞赛已从\"抢芯片\"扩展到\"抢电\"。Meta为单个园区自建近1吉瓦燃气电厂,说明电力供给正成为AI扩张的硬约束;科技巨头绕过公共电网、直接锁定发电资产的做法,将深刻影响能源市场与碳排放格局。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-07-08/meta-to-build-first-data-center-in-canada-expanding-global-fleet",
+        "https://ca.finance.yahoo.com/news/meta-build-13b-data-centre-201143203.html",
+        "https://betakit.com/meta-to-build-canadas-largest-data-centre-north-of-edmonton/"
+      ],
+      "tags": ["Meta", "数据中心", "加拿大", "能源", "天然气", "算力"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "一颗摄像头就能导航:Mistral发布8B具身模型Robostral Navigate,进军\"物理AI\"",
+      "source": "Mistral AI",
+      "source_name": "Mistral AI",
+      "source_url": "https://mistral.ai/news/robostral-navigate/",
+      "story_key": "mistral-robostral-navigate",
+      "event_date": "2026-07-08",
+      "summary": "Mistral AI于7月8日发布Robostral Navigate——一个80亿参数的具身导航模型,仅凭单颗RGB摄像头和一句自然语言指令即可让机器人在陌生室内环境中导航,无需昂贵的激光雷达或深度传感器,在R2R-CE基准上取得76.6%成绩,标志其正式进军\"物理AI\"。",
+      "detail": "Robostral Navigate是一个80亿参数的具身导航模型,能够仅用单颗RGB摄像头输入与一条自然语言指令,引导机器人穿越不熟悉的室内空间,省去了对激光雷达或专用深度传感器的依赖。模型足够小,可在边缘硬件上运行,对无人机与小型机器人厂商颇具吸引力;它硬件无关,可部署到任意机器人平台,且完全通过仿真训练——在约6000个场景、40万条轨迹上训练,再经在线强化学习进一步提升。\n\n性能上,该模型在R2R-CE(视觉-语言导航)基准上达到76.6%,验证了纯视觉输入亦可实现高水平空间推理。Bloomberg报道称,这是Mistral向\"物理AI\"扩张、以低成本务实路线切入机器人赛道的关键一步——当导航能力可以用一颗廉价摄像头+一个开放权重模型实现,机器人自主系统最大的成本壁垒之一被显著拉低。",
+      "key_quotes": [
+        "An 8-billion-parameter embodied navigation model that steers a robot through unfamiliar indoor spaces using a single RGB camera and a plain-language instruction.",
+        "Achieves 76.6% on the R2R-CE benchmark, validating high performance with vision-only input."
+      ],
+      "significance": "\"物理AI\"是2026年资本与巨头竞逐的新前线。Mistral用一个可跑在边缘、硬件无关的8B模型把导航能力从昂贵的激光雷达方案中解放出来,既是欧洲力量在具身智能上的落子,也可能加速无人机与低成本机器人的规模化落地。",
+      "links": [
+        "https://mistral.ai/news/robostral-navigate/",
+        "https://www.bloomberg.com/news/articles/2026-07-08/mistral-ai-releases-robotics-model-to-support-physical-ai-push",
+        "https://cryptobriefing.com/mistral-robostral-navigate-robotics-model/"
+      ],
+      "image": "assets/logos/mistral-logo.png",
+      "image_type": "logo",
+      "tags": ["Mistral", "机器人", "具身智能", "物理AI", "导航", "开源"],
+      "category": "research"
+    }
+  ]
+}

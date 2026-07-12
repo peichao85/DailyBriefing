@@ -1,0 +1,152 @@
+{
+  "date": "2026-07-13",
+  "total_candidates": 16,
+  "kept": 7,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "meta-iris-chip-production",
+      "event_date": "2026-07-09",
+      "title_en": "Meta puts custom 'Iris' AI chip into production, doubling compute to 14GW",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Reuters exclusive July 9 memo: Iris ASIC (Broadcom/TSMC) enters mass production in Sept to reduce Nvidia reliance, compute doubling 7GW->14GW by 2027."
+    },
+    {
+      "story_key": "uae-a5-chip-export-easing",
+      "event_date": "2026-07-10",
+      "title_en": "US reclassifies UAE to Country Group A:5, allowing license-free AI chip exports",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. BIS effective July 10 moved UAE from D:3/D:4 to A:5, enabling license-free advanced AI chips to G42/Core42."
+    },
+    {
+      "story_key": "jadepuffer-agentic-ransomware",
+      "event_date": "2026-07-08",
+      "title_en": "Sysdig documents JADEPUFFER, first fully autonomous AI-agent ransomware attack",
+      "source": "Sysdig",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Sysdig report (widely reported ~July 7-8) on first end-to-end LLM-driven extortion; event_date 2026-07-08 within 5-day window."
+    },
+    {
+      "story_key": "google-search-fully-generative",
+      "event_date": "2026-07-10",
+      "title_en": "Google Search goes fully generative, Gemini 3.5 Flash replaces link lists",
+      "source": "Google",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 10 rollout: Gemini 3.5 Flash now powers AI Mode / generative default across Search."
+    },
+    {
+      "story_key": "fed-ai-productivity-taskforce",
+      "event_date": "2026-07-09",
+      "title_en": "Fed's Warsh names Marc Andreessen to co-lead AI Productivity & Jobs task force",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 9 Fed announcement of five external task forces; a16z's Andreessen co-leads Productivity & Jobs panel."
+    },
+    {
+      "story_key": "meta-alberta-data-center",
+      "event_date": "2026-07-08",
+      "title_en": "Meta to build first Canadian data center, $10B in Alberta with 932MW gas plant",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg July 8: Meta's first Canadian DC in Sturgeon County, ~1GW, powered by dedicated natural gas."
+    },
+    {
+      "story_key": "mistral-robostral-navigate",
+      "event_date": "2026-07-08",
+      "title_en": "Mistral releases Robostral Navigate, 8B single-camera robot navigation model",
+      "source": "Mistral AI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 8 launch of vision-only embodied navigation model, Mistral's physical-AI push."
+    },
+    {
+      "story_key": "openai-ipo-filing",
+      "event_date": "2026-06-08",
+      "title_en": "OpenAI confidentially files for IPO targeting September at $730-850B",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Confidential S-1 filing was June 8, 2026 (>5 days old). July digests rehashed it; no new July development."
+    },
+    {
+      "story_key": "nvidia-5-trillion-marketcap",
+      "event_date": "2026-04-24",
+      "title_en": "Nvidia holds above $5 trillion market cap",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Nvidia first crossed $5T in April 2026 and $5.5T in May; July 10 ~$5.11T is not a discrete fresh milestone."
+    },
+    {
+      "story_key": "apple-openai-trade-secret-suit",
+      "event_date": "2026-07-11",
+      "title_en": "Apple formally files trade-secret complaint vs OpenAI citing 400 ex-employees",
+      "source": "AIToolsRecap",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-10 as '苹果反手起诉OpenAI窃密,并官宣新Siri改用Google Gemini'. July 11 formal filing adds only the 400-employee figure; no substantive new development."
+    },
+    {
+      "story_key": "openai-chatgpt-work-superapp",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI ChatGPT Work / Codex merge, Atlas deprecation",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-09 as the ChatGPT 'work OS' story. Nothing substantively new."
+    },
+    {
+      "story_key": "frontier-ai-simultaneous-launches",
+      "event_date": "2026-07-09",
+      "title_en": "Grok 4.5 pricing/coding recap",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Grok 4.5 / simultaneous flagship launches already published 07-09 and 07-10 (incl. independent evals). No new info."
+    },
+    {
+      "story_key": "openai-deployco-consulting",
+      "event_date": "2026-05-11",
+      "title_en": "OpenAI launches DeployCo, acquires Tomoro consulting firm",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "DeployCo launched May 11, 2026 (>5 days old). Surfaced in July partnership searches but not a July development."
+    },
+    {
+      "story_key": "crusoe-3b-raise",
+      "event_date": "2026-07-02",
+      "title_en": "Crusoe in talks to raise $3B, tripling valuation to ~$30B",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Bloomberg reported the talks July 2, 2026 (>5 days old)."
+    },
+    {
+      "story_key": "hhs-aero-chatgpt-audits",
+      "event_date": "2026-05-21",
+      "title_en": "HHS deploys ChatGPT (AERO) to scan Medicaid/Medicare audits",
+      "source": "TechTimes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "AERO initiative launched May 21, 2026 (>5 days old). July 10 digest was a rehash."
+    },
+    {
+      "story_key": "agility-robotics-spac",
+      "event_date": "2026-06-24",
+      "title_en": "Agility Robotics to go public via $2.5B SPAC (Churchill Capital XI)",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "SPAC deal announced June 24, 2026 (>5 days old). Unitree's Shanghai registration cleared 'early July' but no firm dated event in window."
+    }
+  ]
+}
