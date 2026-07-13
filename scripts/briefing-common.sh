@@ -56,7 +56,7 @@ run_stage() {
   log "$name started"
   if timeout 1800 claude -p "$prompt" \
     --dangerously-skip-permissions \
-    --model opus \
+    --model claude-opus-4-8 \
     --max-budget-usd "$budget" \
     >> "$LOG" 2>&1; then
     log "$name finished successfully"

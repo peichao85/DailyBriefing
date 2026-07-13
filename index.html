@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>每日简报 | Daily Briefing</title>
+  <title>每日AI简报 | Daily AI Briefing</title>
   <link rel="stylesheet" href="web/css/style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
         </svg>
         <span>GitHub</span>
       </a>
-      <h1>每日<span class="accent">简报</span></h1>
+      <h1>每日<span class="accent">AI简报</span></h1>
 
       <!-- Tab Bar (top-level: AI / GitHub) -->
       <nav class="tab-bar" x-show="categories.length > 1">
@@ -393,7 +393,7 @@
     </div>
 
     <!-- Footer -->
-    <footer>&copy; 2026 Daily Briefing</footer>
+    <footer>&copy; 2026 Daily AI Briefing</footer>
   </div>
 
   <script src="web/js/alpine.min.js" defer></script>
@@ -609,10 +609,15 @@
             if (!resp.ok) throw new Error('无法加载数据清单');
             this.manifest = await resp.json();
             const cats = this.manifest.categories || {};
-            this.categories = Object.entries(cats).map(([key, val]) => ({
-              key,
-              label: val.label || key,
-            }));
+            // GitHub/US-Stocks briefings are paused; hide their tabs without touching
+            // the underlying data. Add 'GitHub' / 'USStocks' back here to restore.
+            const visibleCategoryKeys = ['AI'];
+            this.categories = Object.entries(cats)
+              .filter(([key]) => visibleCategoryKeys.includes(key))
+              .map(([key, val]) => ({
+                key,
+                label: val.label || key,
+              }));
             if (!this.categories.length) {
               this.loading = false;
               this.error = '暂无可用的简报数据';
