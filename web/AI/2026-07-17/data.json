@@ -1,0 +1,204 @@
+{
+  "date": "2026-07-17",
+  "category": "AI",
+  "title": "Google发布Gemini 3.5 Pro:2M上下文+Deep Think压轴登场;习近平首次亲临WAIC力推WAICO,三大实验室罕见共识\"前沿AI需监管\";华为Atlas 950超节点对标英伟达",
+  "items": [
+    {
+      "id": "1",
+      "title": "推倒重练终于交卷:Google发布Gemini 3.5 Pro,2M上下文+Deep Think正面硬刚GPT-5.6",
+      "source": "Google DeepMind",
+      "source_name": "TechTimes",
+      "source_url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+      "story_key": "gemini-35-pro-delay",
+      "event_date": "2026-07-17",
+      "summary": "Google DeepMind于7月17日正式发布迄今最强模型Gemini 3.5 Pro,带来200万token上下文窗口、面向$250 Ultra订阅的Deep Think推理模式,以及在编程和长程推理上的显著提升。",
+      "detail": "经历了从底层架构推倒重来的波折后,Google DeepMind终于在7月17日如期交付Gemini 3.5 Pro。新模型配备高达200万token的上下文窗口,可将复杂任务自主拆解为子任务并以最小人工干预逐步执行;面向每月$250的Ultra订阅用户开放\"Deep Think\"深度推理模式,并在编程、递归工具调用与长程推理任务上做了针对性强化。API定价约为每百万token输入$1.25、输出$10,与一周前发布的OpenAI GPT-5.6、九天前的xAI Grok 4.5形成正面竞争。值得一提的是,Gemini 3.5 Pro被外界视为当前唯一不受政府访问限制的主流前沿模型。\n\n背景回顾:7月12日本简报曾报道Google因发现原架构在递归工具调用和SVG生成上存在结构性缺陷,弃用Gemini 2.5 Pro架构、从零重启预训练,把发布日推迟到7月17日。",
+      "key_quotes": [
+        "2-million token context window, Deep Think reasoning on the $250-per-month Ultra tier, and significant improvements in coding and long-horizon reasoning tasks."
+      ],
+      "significance": "推迟不仅没有削弱声势,反而让Gemini 3.5 Pro以\"重造后的完全体\"姿态在GPT-5.6、Grok 4.5扎堆发布的窗口期压轴登场。200万token上下文与Deep Think的组合,把前沿模型的竞争焦点从单纯的基准分数进一步推向长上下文与自主智能体能力,也让2026下半年的旗舰之争彻底进入白热化。",
+      "links": [
+        "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+        "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+        "https://startupfortune.com/google-delays-gemini-35-pro-launch-to-july-17-after-scrapping-its-base-model/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "Google",
+        "Gemini",
+        "前沿模型",
+        "长上下文"
+      ],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "习近平首次现身世界人工智能大会:中国力推WAICO,争夺全球AI治理话语权",
+      "source": "SCMP",
+      "source_name": "South China Morning Post",
+      "source_url": "https://www.scmp.com/tech/article/3360404/xi-jinping-attend-world-ai-conference-first-time-china-elevates-tech-push",
+      "story_key": "waic-2026-xi-keynote",
+      "event_date": "2026-07-17",
+      "summary": "2026世界人工智能大会(WAIC)7月17日在上海开幕,习近平自2018年该会创办以来首次亲自出席并发表主旨演讲,系统阐述中国的AI发展与治理主张,并推动在上海设立\"世界人工智能合作组织\"(WAICO)。",
+      "detail": "7月17日至20日,2026世界人工智能大会暨全球人工智能治理高级别会议在上海举行。据中国外交部宣布,习近平将出席开幕式并发表主旨演讲——这是他自2018年WAIC创办以来首次亲临现场,被普遍解读为北京把AI提升为驱动经济增长、技术竞争与全球规则制定的头等国家战略的信号。外交部称,演讲将\"系统阐述中国关于人工智能发展与治理的政策、立场、愿景和主张\",分析人士将这一表述读作一份正式宣告:中国要做AI规则的制定者,而非被动接受者。\n\n本届大会规模空前,设逾140场论坛、约1400名嘉宾、1100家参展商,超过300款产品全球首发。其中最具制度意义的,是中国去年首倡、如今力推落户上海的\"世界人工智能合作组织\"(WAICO),被视为面向全球南方、与西方治理框架分庭抗礼的机构安排。联合国秘书长古特雷斯、哈萨克斯坦总统托卡耶夫、泰国总理等国际政要亦出席。",
+      "key_quotes": [
+        "Xi's address will systematically elaborate on China's policies, position, visions and propositions on AI development and governance.",
+        "China intends to be a rule-maker in AI, not a rule-taker."
+      ],
+      "significance": "在美国AI巨头集体呼吁本国主导治理框架的同一周,习近平以国家元首身份为WAIC站台,并推出面向全球南方的WAICO,把AI治理之争摆上了地缘政治桌面。这标志着2026年AI竞赛已明确成为中美\"两个超级大国\"的双线较量——不仅比拼模型与算力,更比拼谁能定义全球规则。",
+      "links": [
+        "https://www.scmp.com/tech/article/3360404/xi-jinping-attend-world-ai-conference-first-time-china-elevates-tech-push",
+        "https://www.techtimes.com/articles/320680/20260716/xi-jinping-steps-onstage-china-pushes-rival-ai-governance-body-global-south.htm",
+        "https://georgechen.substack.com/p/preview-waic-2026-showcases-xis-keynote"
+      ],
+      "tags": [
+        "WAIC",
+        "中国",
+        "AI治理",
+        "习近平",
+        "地缘政治"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "FAA、FINRA还是IAEA?三大AI掌门人罕见同框,争论如何给前沿模型上\"紧箍咒\"",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/07/16/ai-regulations-openai-anthropic-google",
+      "story_key": "ai-labs-regulation-convergence",
+      "event_date": "2026-07-16",
+      "summary": "继Hassabis 7月14日抛出\"AI版FINRA\"标准机构提案后,一周内Google DeepMind、OpenAI、Anthropic三家掌门人罕见就\"前沿AI需要被监管\"达成共识,却在具体机制上各执一词:Amodei主张FAA式硬权、Hassabis主张FINRA式行业自律、Altman主张IAEA式国际论坛。",
+      "detail": "7月14日,Google DeepMind CEO Demis Hassabis发文提议成立一个仿照FINRA(美国金融业监管局)的AI标准机构:由行业出资、联邦监督,前沿实验室在模型发布前最多提前30天自愿送检,重点排查危险的网络、生物与\"欺骗\"能力,目标是在年底前让该机构运转起来。这篇获800万浏览量的帖子罕见地赢得了跨阵营好评,连Sam Altman、微软CEO纳德拉乃至Elon Musk都公开点赞。\n\n到7月16日,三大实验室掌门人已就\"前沿需要监管\"形成共识,但路线分歧明显:Anthropic的Dario Amodei主张\"AI版FAA\"——一个有权立即叫停模型发布的联邦机构;Hassabis主张\"AI版FINRA\"——行业出资、联邦监督的标准机构;Altman则主张\"AI版IAEA\"——美国主导、认证各国与企业安全标准的国际论坛。Meta的扎克伯格据报也在起草自己的备忘录。多方消息称,Hassabis与Amodei上月已在G7会议上呼吁建立美国主导的AI规则联盟。",
+      "key_quotes": [
+        "Amodei proposes an FAA for AI; Hassabis proposes a FINRA for AI; Altman proposes an IAEA for AI.",
+        "This is where the industry needs to go. — Demis Hassabis"
+      ],
+      "significance": "一向内斗不休的三大前沿实验室,首次在\"该被监管\"这一根本问题上公开站到一起,反映出上月美国政府对Anthropic模型的临时封禁给全行业敲响了警钟。分歧的核心不再是\"要不要管\",而是\"由谁来管、管到多硬\"——这将直接决定未来数年前沿模型发布节奏与合规成本的走向。",
+      "links": [
+        "https://www.axios.com/2026/07/16/ai-regulations-openai-anthropic-google",
+        "https://www.axios.com/2026/07/14/demis-hassabis-ai-regulation-google-deepmind",
+        "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/"
+      ],
+      "tags": [
+        "AI监管",
+        "Hassabis",
+        "Amodei",
+        "Altman",
+        "政策"
+      ],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "4",
+      "title": "对标英伟达整柜方案:华为WAIC发布Atlas 950超节点,8192卡互联冲1 EFLOPS",
+      "source": "DigiTimes",
+      "source_name": "DigiTimes",
+      "source_url": "https://www.digitimes.com/news/a20260714VL214/huawei-ascend-atlas-infrastructure-display.html",
+      "story_key": "huawei-atlas-950-superpod",
+      "event_date": "2026-07-17",
+      "summary": "华为在WAIC 2026发布新一代旗舰超节点Atlas 950 SuperPoD:单节点1024颗AI加速卡、FP8算力1 EFLOPS、256TB虚拟地址空间,并可通过自研UnifiedBus(灵衢)协议扩展至8192卡互联,正面挑战英伟达的整机柜方案。",
+      "detail": "在习近平出席开幕的WAIC 2026上,华为亮出下一代旗舰超节点\"Atlas 950 SuperPoD\"。单个超节点集成1024颗AI加速卡,FP8计算性能达1 EFLOPS,配备256TB虚拟地址空间、TB级NPU互联带宽和3微秒(RTT)超低时延,采用华为自研的\"灵衢\"(UnifiedBus)互联协议,可高速扩展至8192张NPU卡。更大规模上,64个超节点可互联组成Atlas 950 SuperCluster,集成超过52万颗Ascend 950DT芯片,计划于2026年第四季度供货。同台亮相的还有ZTE子公司努比亚与字节跳动合作的\"AI智能体手机\"等一批国产AI软硬件。",
+      "key_quotes": [
+        "The Atlas 950 features 1024 AI accelerators in a supernode configuration, with FP8 computing performance of 1 EFLOPS and can scale up to 8,192 NPU cards."
+      ],
+      "significance": "在先进制程受限的背景下,华为选择用\"超节点+超集群\"的系统级堆叠与自研互联协议,绕开单芯片劣势、以规模换性能,直接对标英伟达的整机柜方案。把这样一款硬件放在Xi亲临的WAIC上首发,既是技术宣示,也是中国\"自主算力\"路线的政治表态。",
+      "links": [
+        "https://www.digitimes.com/news/a20260714VL214/huawei-ascend-atlas-infrastructure-display.html",
+        "https://www.huaweicentral.com/huawei-to-announce-new-ascend-ai-chip-solutions-at-waic-2026/",
+        "https://news.futunn.com/en/post/75623231/huawei-atlas-950-hardware-to-debut-at-waic-has-domestic"
+      ],
+      "image": "assets/logos/huawei-logo.svg",
+      "image_type": "logo",
+      "tags": [
+        "华为",
+        "Atlas 950",
+        "AI芯片",
+        "算力",
+        "WAIC"
+      ],
+      "category": "builders"
+    },
+    {
+      "id": "5",
+      "title": "成立一年即独角兽:印度AI编程新贵Emergent完成1.3亿美元C轮,估值15亿",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+      "story_key": "emergent-series-c-unicorn",
+      "event_date": "2026-07-15",
+      "summary": "印度AI编程创业公司Emergent于7月15日完成1.3亿美元C轮融资,投后估值15亿美元,成立仅一年出头即跻身独角兽。本轮由私募Creaegis领投,Khosla、软银愿景基金二期、Lightspeed、YC等老股东跟投。",
+      "detail": "印度AI编程创业公司Emergent在7月15日宣布完成1.3亿美元C轮融资,投后估值达15亿美元,成为成立仅一年多就迈入独角兽行列的又一案例。本轮由私募股权机构Creaegis领投,新投资方包括MNI Ventures-Claypond和Sentinel Global,老股东Khosla Ventures、软银愿景基金二期、Lightspeed和Y Combinator继续跟投。Emergent瞄准AI辅助/自主编程赛道,与Cursor、Cognition、以及本周同样融资的印度及全球编程新贵同处高热度赛道。",
+      "key_quotes": [
+        "Emergent raised $130 million in a Series C at a $1.5 billion post-money valuation, led by Creaegis."
+      ],
+      "significance": "AI编程仍是2026年资本最拥挤的赛道之一,Emergent以一年出头的速度冲到15亿美元估值,既印证了\"AI写代码\"需求的真实与旺盛,也显示这波红利正快速外溢到印度等美国之外的市场,全球编程智能体竞争进一步升级。",
+      "links": [
+        "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"
+      ],
+      "tags": [
+        "Emergent",
+        "AI编程",
+        "融资",
+        "独角兽",
+        "印度"
+      ],
+      "category": "builders"
+    },
+    {
+      "id": "6",
+      "title": "Spotify创始人的健康赌注:AI体检公司Neko Health融资7亿美元",
+      "source": "Tech Startups",
+      "source_name": "Tech Startups",
+      "source_url": "https://techstartups.com/2026/07/15/venture-capital-startup-funding-roundup-july-15-2026-accel-crv-greylock-goldman-sachs-khosla-ventures-m13-and-nava-ventures/",
+      "story_key": "neko-health-series-c",
+      "event_date": "2026-07-15",
+      "summary": "由Spotify创始人Daniel Ek联合创办、用AI做非侵入式全身扫描的预防性健康公司Neko Health,于7月15日完成7亿美元C轮融资,由Lightspeed和O.G. Venture Partners领投。",
+      "detail": "7月15日,主打\"科技赋能预防医学\"的Neko Health宣布完成7亿美元C轮融资,由Lightspeed Venture Partners与O.G. Venture Partners领投。Neko由Spotify创始人Daniel Ek联合创立,利用AI对人体进行非侵入式全身扫描与诊断,试图把\"体检\"从被动的疾病发现转向主动的健康监测。这笔巨额融资是当日8家AI创业公司合计逾10亿美元融资中最大的一笔,横跨医疗、基础设施、身份认证、语音AI、编程平台等赛道。",
+      "key_quotes": [
+        "Neko Health raised a $700 million Series C with lead investors Lightspeed Venture Partners and O.G. Venture Partners."
+      ],
+      "significance": "7亿美元的C轮把AI预防医疗推到聚光灯下:当大模型竞赛之外,资本正加速押注\"AI+医疗硬件\"这类需要长期投入、又直接触达消费者的应用场景。Daniel Ek从流媒体跨界健康的号召力,也让Neko成为AI落地实体经济的标志性样本。",
+      "links": [
+        "https://techstartups.com/2026/07/15/venture-capital-startup-funding-roundup-july-15-2026-accel-crv-greylock-goldman-sachs-khosla-ventures-m13-and-nava-ventures/"
+      ],
+      "tags": [
+        "Neko Health",
+        "AI医疗",
+        "融资",
+        "Daniel Ek",
+        "预防医学"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "又一位OpenAI核心研究员出走:Miles Wang筹建AI药物发现公司,估值20亿美元",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "story_key": "openai-researcher-drug-discovery-startup",
+      "event_date": "2026-07-14",
+      "summary": "据TechCrunch 7月14日报道,OpenAI研究员Miles Wang正洽谈以约20亿美元估值为一家新AI药物发现创业公司融资约2亿美元,Lightspeed据传将领投。",
+      "detail": "OpenAI研究员Miles Wang正在筹建一家专注AI药物发现的创业公司,据TechCrunch 7月14日报道,他正就约2亿美元融资展开洽谈,对应约20亿美元估值,Lightspeed Venture Partners据传正商讨领投本轮。这是近期又一位从顶尖前沿实验室出走、投身AI垂直科学应用的核心研究员,延续了\"明星研究员离职创业、资本抢先高估值下注\"的行业模式。",
+      "key_quotes": [
+        "An OpenAI researcher is in talks to raise about $200 million at a $2 billion valuation for a new AI drug discovery startup, with Lightspeed discussing to lead."
+      ],
+      "significance": "顶尖研究员携光环出走、在几乎没有产品时就拿到10位数美元估值,说明市场对\"AI+科学发现\"(尤其是制药)的想象力被彻底点燃。人才与资本正从通用大模型向能产生真实科学价值的垂直领域快速分流,可能重塑下一阶段AI创业的版图。",
+      "links": [
+        "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "OpenAI",
+        "AI制药",
+        "融资",
+        "Miles Wang",
+        "人才流动"
+      ],
+      "category": "news"
+    }
+  ]
+}

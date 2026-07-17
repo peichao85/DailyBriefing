@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-17",
+  "total_candidates": 12,
+  "kept": 7,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "gemini-35-pro-delay",
+      "event_date": "2026-07-17",
+      "title_en": "Google finally ships Gemini 3.5 Pro after full rebuild",
+      "source": "Google DeepMind",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-07-12 as the DELAY story ('推翻重练:Google把Gemini 3.5 Pro推迟到7月17日'). New info: the model actually launched today (2026-07-17) with confirmed 2M context window, Deep Think on the $250 Ultra tier, and API pricing (~$1.25 in / $10 out). Title/summary must cover the launch, not the delay."
+    },
+    {
+      "story_key": "waic-2026-xi-keynote",
+      "event_date": "2026-07-17",
+      "title_en": "Xi Jinping attends WAIC in person for first time; China pushes WAICO governance body",
+      "source": "SCMP",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. WAIC opens 2026-07-17 in Shanghai; Xi delivers his first-ever in-person WAIC keynote and China pushes a Shanghai-headquartered World AI Cooperation Organization (WAICO)."
+    },
+    {
+      "story_key": "ai-labs-regulation-convergence",
+      "event_date": "2026-07-16",
+      "title_en": "Hassabis, Amodei, Altman all publish frontier-AI regulation proposals",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Hassabis published FINRA-for-AI proposal 07-14; by 07-16 Amodei (FAA), Altman (IAEA) and industry praise converged, Zuckerberg reportedly drafting his own memo."
+    },
+    {
+      "story_key": "huawei-atlas-950-superpod",
+      "event_date": "2026-07-17",
+      "title_en": "Huawei debuts Atlas 950 SuperPoD at WAIC, 8192-card interconnect",
+      "source": "DigiTimes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Huawei unveils Atlas 950 SuperPoD at WAIC 2026: 1024 accelerators/node, 1 EFLOPS FP8, scaling to 8192 NPUs; distinct hardware angle from the WAIC governance story."
+    },
+    {
+      "story_key": "emergent-series-c-unicorn",
+      "event_date": "2026-07-15",
+      "title_en": "Indian AI coding startup Emergent becomes unicorn with $130M Series C",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $130M Series C at $1.5B post-money, led by Creaegis, ~1 year after launch."
+    },
+    {
+      "story_key": "neko-health-series-c",
+      "event_date": "2026-07-15",
+      "title_en": "Neko Health raises $700M Series C for AI preventive body scanning",
+      "source": "Tech Startups",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $700M Series C led by Lightspeed for Daniel Ek's AI preventive-health scanning company."
+    },
+    {
+      "story_key": "openai-researcher-drug-discovery-startup",
+      "event_date": "2026-07-14",
+      "title_en": "OpenAI researcher Miles Wang in talks to launch $2B AI drug discovery startup",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Miles Wang raising ~$200M at $2B valuation, Lightspeed in talks to lead."
+    },
+    {
+      "story_key": "anthropic-jspace-global-workspace",
+      "event_date": "2026-07-06",
+      "title_en": "Anthropic finds a 'global workspace' J-space inside Claude",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-06 is 11 days old (>5-day limit). No new development within window."
+    },
+    {
+      "story_key": "openai-government-stake",
+      "event_date": "2026-07-02",
+      "title_en": "OpenAI proposes giving US government a 5% stake",
+      "source": "CNN/FT",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-02 is 15 days old (>5-day limit); July-17 mentions merely recap the July-2 proposal, no fresh development found."
+    },
+    {
+      "story_key": "openai-mega-funding-round",
+      "event_date": "2026-03-01",
+      "title_en": "OpenAI closes record $122B round at $852B valuation",
+      "source": "Reuters",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Round closed in March 2026; far outside 5-day window."
+    },
+    {
+      "story_key": "china-anthropomorphic-ai-rules",
+      "event_date": "2026-07-15",
+      "title_en": "China AI agent / anthropomorphic rules take effect July 15",
+      "source": "AI Governance Weekly",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-12 ('中国拟人化AI新规7月15日生效'), which explicitly named the July-15 effective date. Effectiveness milestone adds no substantively new facts."
+    },
+    {
+      "story_key": "ftc-ai-accuracy-policy",
+      "event_date": "2026-07-10",
+      "title_en": "FTC seeks comment on policy statement addressing AI accuracy",
+      "source": "FTC",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Weak/uncertain event date and regulatory angle already covered editorially by ai-labs-regulation-convergence; dropped to avoid a thin duplicate regulatory card."
+    }
+  ]
+}
