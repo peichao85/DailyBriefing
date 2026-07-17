@@ -1,0 +1,179 @@
+{
+  "date": "2026-07-18",
+  "total_candidates": 19,
+  "kept": 10,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-16",
+      "title_en": "Moonshot AI releases Kimi K3, largest open-weight model ever at 2.8T params",
+      "source": "Moonshot AI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New flagship: 2.8T-param open MoE, tops Frontend Code Arena, #3 on GDPval-AA v2 ahead of Claude Opus 4.8, weights promised by July 27."
+    },
+    {
+      "story_key": "tsmc-q2-2026-earnings",
+      "event_date": "2026-07-17",
+      "title_en": "TSMC posts record Q2 profit +77%, raises 2026 capex to $60-64B on AI demand",
+      "source": "TSMC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Q2 net profit $22.4B (+77% YoY), revenue $40.2B, capex raised from $52-56B to $60-64B, extra $100B for Arizona."
+    },
+    {
+      "story_key": "thinking-machines-inkling",
+      "event_date": "2026-07-15",
+      "title_en": "Mira Murati's Thinking Machines ships first open-weight model Inkling",
+      "source": "Thinking Machines Lab",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. 975B-param MoE (41B active), Apache 2.0, full weights on Hugging Face, live for fine-tuning on Tinker; bet on customizable over one-size-fits-all."
+    },
+    {
+      "story_key": "fireworks-series-d",
+      "event_date": "2026-07-16",
+      "title_en": "Fireworks AI raises $1.5B Series D at $17.5B valuation",
+      "source": "Fireworks AI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $1.505B led by Atreides/Index/TCV, Nvidia participating; crossed $1B ARR (5x growth), 40T+ tokens/day."
+    },
+    {
+      "story_key": "china-h200-import-thaw",
+      "event_date": "2026-07-14",
+      "title_en": "First Nvidia H200 shipments reach China as Beijing approves imports for 10 firms",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. US confirms first official H200 shipments to China; ~10 firms (Alibaba, Tencent, ByteDance, JD, DeepSeek) cleared, up to 75k chips each, but volumes still 'trivial'."
+    },
+    {
+      "story_key": "gemini-notebook-rename",
+      "event_date": "2026-07-16",
+      "title_en": "Google renames NotebookLM to Gemini Notebook, adds cloud code execution",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Rebrand at 30M users/600k orgs; ships a secure cloud computer that writes and runs code against uploaded sources, live for AI Ultra users."
+    },
+    {
+      "story_key": "boston-dynamics-gemini-spot",
+      "event_date": "2026-07-14",
+      "title_en": "Boston Dynamics integrates Gemini Robotics-ER 1.6 into Spot",
+      "source": "Google DeepMind",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Partnership with Google Cloud/DeepMind puts Gemini Robotics-ER 1.6 into Spot and Orbit for spatial reasoning and autonomous decisions in industrial settings."
+    },
+    {
+      "story_key": "unitree-star-ipo",
+      "event_date": "2026-07-14",
+      "title_en": "Unitree wins STAR Market IPO approval, seeks ~$619M",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Shanghai STAR Market IPO approval, ~$619M raise for better AI models and new robots; first humanoid maker forced to publish real cost/reliability numbers."
+    },
+    {
+      "story_key": "unitree-gd01-mecha",
+      "event_date": "2026-07-15",
+      "title_en": "Unitree unveils $650k transforming wall-smashing mecha GD01",
+      "source": "Unitree",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $650k transforming mecha statement piece, same week as its IPO approval; signals move up-market from cheap dogs/humanoids."
+    },
+    {
+      "story_key": "ai-security-ma-surge-h1",
+      "event_date": "2026-07-15",
+      "title_en": "AI-security M&A tripled in H1 2026 as cybersecurity dealmaking surges",
+      "source": "Crunchbase",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. 219 cybersecurity acquisitions in H1 2026, AI-specific security deals tripled to 29 — consolidation wave as agentic threats rise."
+    },
+    {
+      "story_key": "gemini-35-pro-delay",
+      "event_date": "2026-07-17",
+      "title_en": "Google launches Gemini 3.5 Pro",
+      "source": "Google DeepMind",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-17 with full launch coverage (2M context, Deep Think). No substantively new development for 07-18."
+    },
+    {
+      "story_key": "waic-2026-xi-keynote",
+      "event_date": "2026-07-17",
+      "title_en": "Xi Jinping WAIC keynote and WAICO",
+      "source": "Xinhua",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-17. No new development beyond the keynote already covered."
+    },
+    {
+      "story_key": "huawei-atlas-950-superpod",
+      "event_date": "2026-07-17",
+      "title_en": "Huawei Atlas 950 SuperPoD at WAIC",
+      "source": "Huawei",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-17 with full spec coverage. No new information."
+    },
+    {
+      "story_key": "ai-labs-regulation-convergence",
+      "event_date": "2026-07-16",
+      "title_en": "AI lab chiefs converge on frontier regulation",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-16. White House voluntary-standards talks are a continuation; no concrete new announcement yet (expected 'next week')."
+    },
+    {
+      "story_key": "emergent-series-c-unicorn",
+      "event_date": "2026-07-15",
+      "title_en": "Emergent becomes unicorn with $130M Series C",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-15. No new development."
+    },
+    {
+      "story_key": "neko-health-series-c",
+      "event_date": "2026-07-15",
+      "title_en": "Neko Health raises $700M Series C",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-15. No new development."
+    },
+    {
+      "story_key": "openai-atlas-shutdown",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI discontinues Atlas browser, folds into ChatGPT super-app",
+      "source": "9to5Mac",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announcement dated 2026-07-09, 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-30b-runrate",
+      "event_date": "2026-04-06",
+      "title_en": "Anthropic surpasses $30B run-rate revenue",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "The $30B milestone dates to April 2026 (run-rate already $47B by late May). Recirculated in July recaps but underlying event is stale (>5 days)."
+    },
+    {
+      "story_key": "deepseek-v4-stable",
+      "event_date": "2026-04-24",
+      "title_en": "DeepSeek V4 stable release targeted for July 24",
+      "source": "DeepSeek",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "V4 Pro shipped 2026-04-24 (stale); the 'stable' release is a scheduled July 24 event that has not happened yet. No concrete new development within the window."
+    }
+  ]
+}
