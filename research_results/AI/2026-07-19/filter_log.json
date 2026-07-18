@@ -1,0 +1,170 @@
+{
+  "date": "2026-07-19",
+  "total_candidates": 18,
+  "kept": 8,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "apple-overtakes-nvidia-mcap",
+      "event_date": "2026-07-17",
+      "title_en": "Apple briefly overtakes Nvidia as world's most valuable company",
+      "source": "Forbes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Apple hit $4.88T on 07-17, briefly passing Nvidia amid AI-trade rotation."
+    },
+    {
+      "story_key": "anthropic-meta-compute-lease",
+      "event_date": "2026-07-17",
+      "title_en": "Anthropic in early talks to lease $10B of compute from Meta",
+      "source": "New York Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. NYT/CNBC 07-17 report on ~$10B, 2-year compute lease; rival becomes infra provider."
+    },
+    {
+      "story_key": "databricks-188b-round",
+      "event_date": "2026-07-16",
+      "title_en": "Databricks raising strategic round at $188B valuation",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Coatue-led ~$3B term sheet at $188B, up from $134B earlier in 2026."
+    },
+    {
+      "story_key": "microsoft-project-perception",
+      "event_date": "2026-07-17",
+      "title_en": "Microsoft to launch Project Perception AI security tool rivaling Anthropic Mythos",
+      "source": "The Information",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Multi-model (MS/OpenAI/Anthropic) router-based vuln-fixing tool aimed at undercutting Mythos on cost."
+    },
+    {
+      "story_key": "deepseek-74b-star-ipo",
+      "event_date": "2026-07-15",
+      "title_en": "DeepSeek eyes $74B valuation raise ahead of STAR Market IPO",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Seeking ~50B yuan at 500B yuan ($74B) valuation, prepping onshore Shanghai listing."
+    },
+    {
+      "story_key": "walden-robotics-stealth",
+      "event_date": "2026-07-15",
+      "title_en": "Toyota-backed Walden Robotics exits stealth with $300M at $1.1B",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. MIT/Russ Tedrake spinout from Toyota Research; robot already doing 8-hr shifts at a Toyota plant."
+    },
+    {
+      "story_key": "pixverse-aisphere-series-c",
+      "event_date": "2026-07-14",
+      "title_en": "Alibaba leads $439M Series C for AI video startup PixVerse/AIsphere",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. $439M round pushes valuation past $2B; Chinese giants racing into interactive world models."
+    },
+    {
+      "story_key": "suno-source-code-leak",
+      "event_date": "2026-07-15",
+      "title_en": "Hacked Suno source code reveals mass song scraping",
+      "source": "404 Media",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. 404 Media published 07-15; leaked code details scraping of 2M+ songs from YouTube/Deezer/Genius."
+    },
+    {
+      "story_key": "gpt-5-6-sol-terra-luna",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI ships GPT-5.6 Sol/Terra/Luna broadly",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-09 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "grok-4-5-release",
+      "event_date": "2026-07-08",
+      "title_en": "xAI releases Grok 4.5, tops Terminal-Bench",
+      "source": "xAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-08 is 11 days old (>5 day limit)."
+    },
+    {
+      "story_key": "meta-muse-spark-11",
+      "event_date": "2026-07-09",
+      "title_en": "Meta launches Muse Spark 1.1 and first paid Model API",
+      "source": "Meta AI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-09 is 10 days old (>5 day limit)."
+    },
+    {
+      "story_key": "oracle-stargate-layoffs",
+      "event_date": "2026-03-31",
+      "title_en": "Oracle cut ~30,000 jobs to fund Stargate buildout",
+      "source": "Forbes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-03-31 is ~110 days old; July coverage is analysis rehash."
+    },
+    {
+      "story_key": "together-ai-series-c",
+      "event_date": "2026-07-01",
+      "title_en": "Together AI raises $800M at $8.3B",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 18 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-ipo-filing",
+      "event_date": "2026-06-01",
+      "title_en": "Anthropic confidential S-1, secondary markets imply $1T",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Confidential filing was 2026-06-01 (~48 days old); $1T is secondary-market analysis, not a discrete new event."
+    },
+    {
+      "story_key": "apple-openai-siri-legal",
+      "event_date": "2026-05-14",
+      "title_en": "OpenAI weighs legal action against Apple over Siri deal",
+      "source": "9to5Mac",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-14 is ~66 days old; no fresh mid-July development."
+    },
+    {
+      "story_key": "fireworks-series-d",
+      "event_date": "2026-07-16",
+      "title_en": "Fireworks AI $1.5B Series D at $17.5B",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-16 with title about Fireworks $1.5B D round. No new information."
+    },
+    {
+      "story_key": "meta-hyperion-louisiana",
+      "event_date": "2026-07-13",
+      "title_en": "Meta expands Louisiana Hyperion data center to $50B; hires AWS's Dave Brown",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Core $50B expansion reported 2026-07-13 (6 days, >5 day limit); Meta Compute angle covered as context in anthropic-meta-compute-lease."
+    },
+    {
+      "story_key": "xai-grok-csam-lawsuit",
+      "event_date": "2026-07-07",
+      "title_en": "Amended CSAM class action adds plaintiffs and Stability AI against xAI",
+      "source": "Lieff Cabraser",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Amended complaint filed 2026-07-07 is 12 days old (>5 day limit)."
+    }
+  ]
+}
