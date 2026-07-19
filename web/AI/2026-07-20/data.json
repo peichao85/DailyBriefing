@@ -1,0 +1,124 @@
+{
+  "date": "2026-07-20",
+  "category": "AI",
+  "title": "WAIC 2026掀具身智能落地潮:29国签约成立WAICO、机器人开无人超市、意念操控机械臂;Anthropic把Fable 5塞回Max套餐却整体砍额33%",
+  "items": [
+    {
+      "id": "1",
+      "title": "反悔了:Anthropic把最强模型Fable 5塞回Max套餐,但限额砍半、整体用量再降33%",
+      "source": "Anthropic",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
+      "story_key": "anthropic-fable5-subscription",
+      "event_date": "2026-07-20",
+      "summary": "Anthropic于7月20日起把最强模型Claude Fable 5重新纳入所有Max与Team Premium套餐,但仅按50%限额提供;Pro与Team Standard用户改为按用量额度(usage credits)调用,并获一次性100美元额度补偿。同日,此前的额外用量福利期结束,所有模型的常规限额一并下调约33%。",
+      "detail": "Anthropic在7月20日对Claude付费订阅做出一次颇为拧巴的调整。核心变化有三:其一,最强模型Fable 5被重新写入所有Max与Team Premium套餐,但只能用到套餐限额的50%;其二,Pro与Team Standard用户不再包含在套餐内,而是通过按量计费的usage credits访问Fable,并一次性获得100美元额度作为过渡补偿;其三,与之同步,此前临时开放的额外用量福利期(bonus usage)在同一天结束,意味着所有模型的常规使用限额被再削减约33%。\n\n换句话说,订阅者一边迎回了旗舰模型,一边被砍掉了整体额度——Fable 5被限制在半程,而池子本身也缩小了三分之一。Anthropic给出的理由是:需求极难预测、恰好有新增算力可用,以及希望让订阅者对'套餐究竟包含什么'有更明确的预期。值得注意的是,这次调整实际上是对更早方案的一次回撤:此前Anthropic计划把Fable 5完全移出订阅、只留API通道,而50%封顶被当作一种折中——既把模型放回套餐,又能借此管住算力开销。对重度用户而言,'旗舰回归'的好消息与'额度缩水'的坏消息几乎同时到账。",
+      "key_quotes": [
+        "Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans at 50 percent of limits.",
+        "Anthropic said demand was difficult to predict, additional compute capacity became available, and it wanted to give subscribers more certainty about what their plans include."
+      ],
+      "significance": "这是继近期多轮限额与定价风波后,Anthropic再一次在'把最强模型放进订阅'与'控制算力成本'之间艰难走钢丝。50%封顶+整体降额+把轻量档用户推向按量计费,反映出前沿实验室在算力紧张下,正把订阅制从'无限畅用'重新定义为'额度经济'——旗舰模型正在成为需要精打细算的稀缺资源,而非套餐里的默认口粮。",
+      "links": [
+        "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
+        "https://www.dawn.com/news/2016483",
+        "https://windowsforum.com/threads/claude-fable-5-returns-july-20-with-50-max-and-team-premium-limits.439254/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "Claude", "Fable 5", "订阅", "算力"],
+      "category": "product_operators"
+    },
+    {
+      "id": "2",
+      "title": "WAICO正式成立:29国签署创始章程,却无一西方主要民主国家,总部永久落沪",
+      "source": "WAIC",
+      "source_name": "Tech Times",
+      "source_url": "https://www.techtimes.com/articles/320812/20260717/china-launches-rival-ai-governance-bloc-waic-2026-opens-300-product-debuts.htm",
+      "story_key": "waic-2026-xi-keynote",
+      "event_date": "2026-07-18",
+      "summary": "在WAIC 2026期间,29个国家的外长正式签署'世界人工智能合作组织'(WAICO)创始章程,组织为政府间机构、永久总部设于上海。签署国包括俄罗斯、古巴、巴西、委内瑞拉、巴基斯坦、印尼等,却无一西方主要民主国家。习近平称其为'AI发展史上的重要里程碑',并承诺向发展中国家提供5000个AI培训名额。",
+      "detail": "从'倡议'落到'签字':WAICO由过去的口头推动变为具有法律形式的政府间组织。29国外长在上海签署创始章程,确立WAICO为独立的政府间机构,永久总部设于上海。创始成员涵盖俄罗斯、古巴、巴西、委内瑞拉、巴基斯坦、印尼等,分析人士指其设计明确面向全球南方、对所有主权国家开放,但没有任何一个西方主要民主国家加入。习近平在会上称WAICO是'AI发展史上的重要里程碑',并承诺向发展中国家提供5000个AI培训名额。这一安排把WAIC 2026从一个技术展会,升格为中国主导、与西方现有治理框架分庭抗礼的多边机制平台。\n\n背景回顾:7月17日WAIC 2026开幕,习近平自该会2018年创办以来首次亲自出席并发表主旨演讲,系统阐述中国AI主张并推动设立WAICO。",
+      "key_quotes": [
+        "Twenty-nine governments put their foreign ministers' signatures on a founding charter establishing an intergovernmental organization with Shanghai as its permanent seat.",
+        "Xi Jinping called the new body \"an important milestone in the history of AI development\"."
+      ],
+      "significance": "此前只是'习近平呼吁设立'的构想,如今已成为有29国签字、总部落沪的实体组织——这是新发展的关键:全球AI治理正从单一西方主导,走向出现一个以中国为核心、面向全球南方的平行阵营。成员名单中西方主要民主国家的集体缺席,意味着未来AI标准、算力准入与安全规则很可能沿地缘政治阵营分叉,而非收敛为一套全球通用框架。",
+      "links": [
+        "https://www.techtimes.com/articles/320812/20260717/china-launches-rival-ai-governance-bloc-waic-2026-opens-300-product-debuts.htm",
+        "https://en.wikipedia.org/wiki/World_Artificial_Intelligence_Cooperation_Organization",
+        "https://www.ir-ia.com/news/china-launches-world-ai-cooperation-organization-as-29-countries-sign-founding-agreement-in-shanghai/"
+      ],
+      "tags": ["WAIC", "WAICO", "AI治理", "中国", "地缘政治"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "智元四款新品登WAIC:A3 Ultra夺唯一具身智能'镇馆之宝',出海占三成却绕不开中国情报法",
+      "source": "AGIBOT",
+      "source_name": "Tech Times",
+      "source_url": "https://www.techtimes.com/articles/320899/20260718/agibot-debuts-four-robots-waic-2026-global-export-push-meets-chinas-spy-law-obligation.htm",
+      "story_key": "agibot-waic-robots",
+      "event_date": "2026-07-18",
+      "summary": "智元机器人(AGIBOT)7月18日在WAIC 2026一口气发布四款新品:全尺寸人形A3 Ultra、教育平台X2 Edu、重载工业机器人G2 Max、灵巧手OmniHand 3 Ultra-M。其中A3 Ultra被组委会评为今年十件'镇馆之宝'中唯一的具身智能产品。公司称海外业务今年已占三成以上,但作为中国企业仍受《国家情报法》约束。",
+      "detail": "智元在WAIC 2026把四款新品一并推出,阵容覆盖人形、教育、工业与灵巧手四条线。旗舰A3 Ultra身高1.74米、体重60公斤,拥有51个主动自由度、单臂负载5公斤、综合续航最长约8小时;算力上采用英伟达Thor芯片、自研三层异构计算架构、峰值700 TOPS;定位系统融合GPS、RTK与UWB,可在室内外维持厘米级精度。它被WAIC组委会列为十件'镇馆之宝'之一,也是其中唯一的具身智能产品。\n\n出海是这次的主线叙事。联合创始人彭志辉(稚晖君)表态称,中国应承担大国责任、把技术与产品推向全球,并披露公司海外业务今年占比已超过30%。但报道同时点出绕不开的敏感点:根据中国《国家情报法》,无论智元机器人部署在何处,制造它的公司都负有依法配合国家情报工作的义务——这为其全球扩张蒙上了数据与安全信任的问号。",
+      "key_quotes": [
+        "\"China should take on the responsibility of a major country and export its technologies and products globally.\" — Peng Zhihui, AGIBOT co-founder",
+        "The A3 Ultra was designated a \"Gem of the Exhibition\" — the only embodied AI product among the ten items selected this year."
+      ],
+      "significance": "智元用一场四款齐发的产品秀,展示了中国人形机器人从demo走向量产级产品线的速度,以及'技术出海'的明确野心。但《国家情报法》的义务同时说明:中国具身智能的全球化,注定要在硬件性价比与'可信任度'之间正面碰撞——这正是西方对中国机器人设防的核心理由,也预示海外市场准入将越来越像一场地缘政治博弈。",
+      "links": [
+        "https://www.techtimes.com/articles/320899/20260718/agibot-debuts-four-robots-waic-2026-global-export-push-meets-chinas-spy-law-obligation.htm",
+        "https://www.roboticstomorrow.com/news/2026/07/19/agibot-unveils-four-new-products-at-waic-2026-showcasing-embodied-ai-in-real-world-operations/26859/",
+        "https://www.globaltimes.cn/page/202607/1366238.shtml"
+      ],
+      "image": "img/agibot-a3.jpg",
+      "image_type": "logo",
+      "tags": ["智元", "AGIBOT", "人形机器人", "具身智能", "WAIC"],
+      "category": "trending"
+    },
+    {
+      "id": "4",
+      "title": "'意念'控制机器人:BrainCo在WAIC发布全球首个脑机-机器人一体化研发平台,响应低于200毫秒",
+      "source": "BrainCo",
+      "source_name": "South China Morning Post",
+      "source_url": "https://www.scmp.com/tech/tech-trends/article/3360893/brainco-unveils-brain-controlled-robot-platform-chinas-world-ai-conference",
+      "story_key": "brainco-brain-to-robot",
+      "event_date": "2026-07-17",
+      "summary": "中国脑机接口公司BrainCo在WAIC 2026发布其称为'全球首个'的脑机-机器人一体化研发平台:用户佩戴非侵入式EEG头环,AI算法把脑电信号解码为机器人指令,全过程低于200毫秒,可操控机械臂、人形机器人与机器狗。公司同时推出采集操作者脑电的具身AI数据采集方案。",
+      "detail": "BrainCo在WAIC 2026现场演示了一套'想什么、机器人做什么'的系统:用户戴上轻量EEG头环,设备在体外捕捉脑电信号,AI算法将其解码为动作指令并下发给机器人,整条链路耗时不到200毫秒。与需要开颅植入的侵入式脑机接口不同,EEG方案无需手术、即戴即用。现场演示中,一名佩戴头环者只是'想着去抓杯子',机械臂便伸出并完成抓取;平台可兼容机械臂、人形机器人、机器狗等多类硬件,官方宣称'10分钟即可上手'的图形化一站式研发流程。\n\n更具想象力的是同场发布的'具身AI数据采集方案':它基于自研的双臂轮式采集平台与高精度数据采集手套,不仅记录人手在做什么,还同步采集操作者的EEG——也就是说,它捕捉的是'大脑在如何指挥这双手'。这为训练具身智能提供了一层此前稀缺的'意图级'数据。",
+      "key_quotes": [
+        "Users wear an EEG headset that captures brain signals, and AI algorithms decode those signals into commands for robots — all in under 200 milliseconds.",
+        "It records not just what a person's hands are doing, but what their brain is telling those hands to do."
+      ],
+      "significance": "把非侵入式脑机接口与具身智能训练打通,BrainCo指向了一条新的数据护城河:机器人学习不再只靠'看动作',还能对齐人类的操作意图。若这类'意图级'数据规模化,可能显著提升机器人在陌生任务上的泛化与人机协作自然度,也让脑机接口从医疗康复走向更广的工业与消费具身场景。",
+      "links": [
+        "https://www.scmp.com/tech/tech-trends/article/3360893/brainco-unveils-brain-controlled-robot-platform-chinas-world-ai-conference",
+        "https://www.techradar.com/ai-platforms-assistants/chinese-company-brainco-unveils-first-brain-to-robot-interface-for-controlling-robots-with-your-thoughts",
+        "https://autonews.gasgoo.com/articles/market-industry/waic-2026-unlock-mind-control-of-a-robot-in-10-minutes-brainco-to-debut-new-platform-2078354575194038272"
+      ],
+      "tags": ["BrainCo", "脑机接口", "EEG", "具身智能", "WAIC"],
+      "category": "research"
+    },
+    {
+      "id": "5",
+      "title": "机器人开的无人超市:商汤SenseMart Go让人形机器人独立经营门店",
+      "source": "SenseTime",
+      "source_name": "Global Times",
+      "source_url": "https://www.globaltimes.cn/page/202607/1366139.shtml",
+      "story_key": "sensetime-sensemart-go",
+      "event_date": "2026-07-18",
+      "summary": "商汤科技在WAIC 2026展示了具身智能零售方案SenseMart Go:由人形机器人独立经营一家可实际运营的门店,自主完成取货、理货、盘点与异常处理,把具身智能从舞台演示推向端到端的商业闭环。",
+      "detail": "在WAIC 2026超过300款首发产品、208款具身智能终端的密集展台中,商汤的SenseMart Go以'一整家店都交给机器人'的完整度脱颖而出。方案里,人形机器人不再只做单点动作展示,而是独立经营一家可运营的门店:自主拣选商品、整理货架、清点库存,并处理缺货、错位等各类异常。相较于'抓杯子''叠衣服'这类单任务演示,SenseMart Go试图证明具身智能能够撑起一条真实业务流的端到端闭环。\n\n这与本届WAIC的整体基调一致——从'能对话'走向'能办事',从更大的模型转向更能落地的系统。商汤把自身的视觉与多模态能力嵌入零售场景,既是技术秀,也是对'具身智能何时能真正省人力'这一商业问题的一次正面回应。",
+      "key_quotes": [
+        "SenseMart Go features humanoid robots independently managing an operational retail store — picking products, organizing shelves, conducting inventory, and processing exceptions."
+      ],
+      "significance": "零售是具身智能商业化最现实的试金石之一:高频、标准化、可量化人力成本。SenseMart Go把机器人从'单任务表演'推向'整店运营',标志着行业叙事正从能力展示转向ROI验证。若门店级自主运营可复制,具身智能将第一次拥有清晰的付费场景,而不再只是发布会上的惊叹号。",
+      "links": [
+        "https://www.globaltimes.cn/page/202607/1366139.shtml",
+        "https://www.techtimes.com/articles/320812/20260717/china-launches-rival-ai-governance-bloc-waic-2026-opens-300-product-debuts.htm"
+      ],
+      "tags": ["商汤", "SenseTime", "具身智能", "零售", "WAIC"],
+      "category": "trending"
+    }
+  ]
+}

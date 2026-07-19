@@ -1,0 +1,188 @@
+{
+  "date": "2026-07-20",
+  "total_candidates": 20,
+  "kept": 5,
+  "dropped": 15,
+  "decisions": [
+    {
+      "story_key": "anthropic-fable5-subscription",
+      "event_date": "2026-07-20",
+      "title_en": "Anthropic reverses course, returns Claude Fable 5 to Max/Team Premium at 50% limits, cuts overall limits 33%",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh event 2026-07-20: Fable 5 included in Max/Team Premium at 50% of limits; Pro/Team Standard get usage credits plus a one-time $100 credit; bonus-usage phase ends same day, cutting regular limits 33%; reversal of earlier plan to pull Fable from subscriptions."
+    },
+    {
+      "story_key": "waic-2026-xi-keynote",
+      "event_date": "2026-07-18",
+      "title_en": "WAICO formally established: 29 countries sign founding charter, no major Western democracy, Shanghai permanent seat",
+      "source": "WAIC",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-07-17 as 'Xi keynote pushing to establish WAICO'. New development: the founding charter is now actually signed by 29 governments (Russia, Cuba, Brazil, Venezuela, Pakistan, Indonesia among them; no major Western democracy), Shanghai named permanent seat, Xi pledges 5,000 AI training slots for developing nations. Concrete diplomatic outcome beyond the prior 'called for' framing."
+    },
+    {
+      "story_key": "agibot-waic-robots",
+      "event_date": "2026-07-18",
+      "title_en": "AGIBOT debuts four robots at WAIC; A3 Ultra named only embodied-AI 'Gem of the Exhibition'; export push meets China intelligence-law obligation",
+      "source": "AGIBOT",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh event 2026-07-18: A3 Ultra (1.74m, 60kg, 51 DOF, NVIDIA Thor 700 TOPS, GPS+RTK+UWB), X2 Edu, G2 Max, OmniHand 3 Ultra-M; overseas business >30%; National Intelligence Law angle."
+    },
+    {
+      "story_key": "brainco-brain-to-robot",
+      "event_date": "2026-07-17",
+      "title_en": "BrainCo unveils world's first integrated brain-to-robot R&D platform at WAIC, EEG mind-control in under 200ms",
+      "source": "BrainCo",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh event 2026-07-17: non-invasive EEG headset decodes brain signals into robot commands in <200ms; controls arms, humanoids, robot dogs; also Embodied AI Data Collection Solution that records operator EEG."
+    },
+    {
+      "story_key": "sensetime-sensemart-go",
+      "event_date": "2026-07-18",
+      "title_en": "SenseTime's SenseMart Go: humanoid robots autonomously run a retail store at WAIC",
+      "source": "SenseTime",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh event 2026-07-18: humanoid robots independently pick products, organize shelves, do inventory and handle exceptions in an operational store."
+    },
+    {
+      "story_key": "south-korea-880b-investment",
+      "event_date": "2026-06-29",
+      "title_en": "South Korea unveils $880B chips/AI/robotics investment plan",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "President Lee announced June 29, 2026; 21 days old, far beyond 5-day limit."
+    },
+    {
+      "story_key": "gpt56-release",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI ships GPT-5.6 Sol/Terra/Luna to the public",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Public rollout July 9, 2026; 11 days old."
+    },
+    {
+      "story_key": "chatgpt-work-launch",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI launches ChatGPT Work agent",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Launched July 9, 2026; 11 days old."
+    },
+    {
+      "story_key": "apple-openai-trade-secrets",
+      "event_date": "2026-07-10",
+      "title_en": "Apple sues OpenAI over hardware trade-secret theft",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Suit filed July 10, 2026; 10 days old and no substantively new development found in the 07-18/20 window."
+    },
+    {
+      "story_key": "chai-discovery-series-c",
+      "event_date": "2026-07-14",
+      "title_en": "Chai Discovery raises $400M Series C at $3.8B for AI drug design",
+      "source": "SiliconANGLE",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced July 14, 2026; 6 days old, just past the 5-day limit."
+    },
+    {
+      "story_key": "neura-robotics-series-c",
+      "event_date": "2026-06-10",
+      "title_en": "Neura Robotics raises up to $1.4B Series C",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced June 10, 2026; far past 5-day limit."
+    },
+    {
+      "story_key": "cerebras-ipo",
+      "event_date": "2026-05-14",
+      "title_en": "Cerebras completes Nasdaq IPO",
+      "source": "Businesswire",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "IPO completed May 2026; a July 19 recap resurfaced it erroneously. Stale."
+    },
+    {
+      "story_key": "meta-nebius-deal",
+      "event_date": "2026-03-16",
+      "title_en": "Meta signs $27B AI infrastructure deal with Nebius",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Disclosed March 16, 2026; far past limit."
+    },
+    {
+      "story_key": "anthropic-ipo-s1",
+      "event_date": "2026-06-01",
+      "title_en": "Anthropic confidentially files draft S-1 for IPO",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Draft S-1 submitted June 1, 2026; far past limit."
+    },
+    {
+      "story_key": "minimax-m3",
+      "event_date": "2026-06-01",
+      "title_en": "MiniMax M3 multimodal model (showcased at WAIC)",
+      "source": "MiniMax",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "M3 launched June 1, 2026; merely showcased at WAIC, not a new release."
+    },
+    {
+      "story_key": "nvidia-servicenow-project-arc",
+      "event_date": "2026-05-01",
+      "title_en": "NVIDIA + ServiceNow launch Project Arc desktop agent",
+      "source": "NVIDIA Blog",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at Knowledge 2026 in May; a July 19 roundup resurfaced it. Stale."
+    },
+    {
+      "story_key": "grok-45-release",
+      "event_date": "2026-07-08",
+      "title_en": "xAI/SpaceX releases Grok 4.5",
+      "source": "PYMNTS",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced July 8, 2026; 12 days old."
+    },
+    {
+      "story_key": "ai-labs-regulation-convergence",
+      "event_date": "2026-07-16",
+      "title_en": "Altman/Hassabis/Amodei converge on frontier-AI regulation",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-16 (ai-labs-regulation-convergence). No substantively new development in the 07-18/20 window; only rehashes of the three proposals."
+    },
+    {
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-16",
+      "title_en": "Moonshot Kimi K3 tops Frontend Code Arena",
+      "source": "Global Times",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-16 (moonshot-kimi-k3). Restated in WAIC coverage with no new facts."
+    },
+    {
+      "story_key": "huawei-atlas-950-superpod",
+      "event_date": "2026-07-17",
+      "title_en": "Huawei Atlas 950 SuperPoD debuts at WAIC",
+      "source": "Huawei",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-17 (huawei-atlas-950-superpod). No new information."
+    }
+  ]
+}
