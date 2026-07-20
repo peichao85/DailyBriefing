@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-21",
+  "total_candidates": 15,
+  "kept": 9,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "eu-google-dma-android-ai",
+      "event_date": "2026-07-16",
+      "title_en": "EU orders Google to open Android and share search data with AI rivals",
+      "source": "European Commission",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Binding DMA decision issued 2026-07-16 (5 days ago, within limit). Major regulatory action."
+    },
+    {
+      "story_key": "alibaba-qwen38-max",
+      "event_date": "2026-07-19",
+      "title_en": "Alibaba previews Qwen3.8-Max, 2.4T-param multimodal model, 'second only to Fable 5'",
+      "source": "Alibaba Qwen",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Previewed 2026-07-19 at WAIC. Distinct from Kimi K3 (separate model)."
+    },
+    {
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-20",
+      "title_en": "Moonshot pauses new Kimi K3 subscriptions as demand overwhelms GPU capacity",
+      "source": "Moonshot AI",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Published 2026-07-16 (K3 release / leaderboard win). New development on 07-20: 48-hour demand surge forced Moonshot to halt new sign-ups (existing users unaffected), tied to funding/HK-listing push."
+    },
+    {
+      "story_key": "sap-prior-labs-acquisition",
+      "event_date": "2026-07-17",
+      "title_en": "SAP completes Prior Labs acquisition, commits €1B+ over four years to tabular AI lab",
+      "source": "SAP News Center",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Deal closed 2026-07-17 (4 days ago)."
+    },
+    {
+      "story_key": "current-ai-public-fund",
+      "event_date": "2026-07-19",
+      "title_en": "Nonprofit Current AI passes $400M committed to build free public-interest AI",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. TechCrunch feature 2026-07-19; $400M committed (France $100M seed + Ford/MacArthur/DeepMind/Salesforce), aiming for $2.5B over 5 years."
+    },
+    {
+      "story_key": "japan-frontia-physical-ai",
+      "event_date": "2026-07-16",
+      "title_en": "Japan launches FRONTia physical-AI project, ¥1T over 5 years, 27,500 Nvidia Rubin GPUs",
+      "source": "The Japan Times",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. METI launched FRONTia 2026-07-16 (5 days, within limit). Noetra/SoftBank/Sony/NEC/Honda; sovereign physical-AI model."
+    },
+    {
+      "story_key": "etched-20b-valuation",
+      "event_date": "2026-07-17",
+      "title_en": "Etched negotiating back-to-back rounds at $10B and $20B for transformer inference ASIC",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. As of 2026-07-17 Etched in talks for a Jane Street-led $20B round plus a Sequoia-led $10B round; $1B in signed orders."
+    },
+    {
+      "story_key": "cuspai-series-b",
+      "event_date": "2026-07-20",
+      "title_en": "CuspAI raises $450M Series B at $2.6B for AI materials discovery",
+      "source": "Tech Startups",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. UK materials-discovery startup; Kleiner Perkins, NEA, Bezos fund, AMD Ventures; $2.6B valuation."
+    },
+    {
+      "story_key": "bristol-myers-nvidia-rubin",
+      "event_date": "2026-07-20",
+      "title_en": "Bristol Myers Squibb becomes first pharma to buy Nvidia Vera Rubin supercomputer",
+      "source": "Tech Startups",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First pharma buyer of Vera Rubin system; claims 20-30% faster drug production."
+    },
+    {
+      "story_key": "together-ai-series-c",
+      "event_date": "2026-07-01",
+      "title_en": "Together AI raises $800M Series C at $8.3B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 20 days old (>5-day limit)."
+    },
+    {
+      "story_key": "oracle-stargate-layoffs",
+      "event_date": "2026-03-31",
+      "title_en": "Oracle cuts ~30,000 jobs to fund Stargate AI data centers",
+      "source": "Capacity",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying layoffs occurred 2026-03-31; July coverage is retrospective analysis, no new event within 5 days."
+    },
+    {
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "title_en": "Andrej Karpathy joins Anthropic pre-training team",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is >5 days old; surfaced in a stale aggregator roundup."
+    },
+    {
+      "story_key": "nvidia-cosmos3-groot",
+      "event_date": "2026-05-31",
+      "title_en": "NVIDIA releases Cosmos 3 / Isaac GR00T physical-AI models",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Cosmos 3 released 2026-05-31, GR00T reference at GTC Taipei early June; >5 days old."
+    },
+    {
+      "story_key": "gemini-35-pro-delay",
+      "event_date": "2026-07-20",
+      "title_en": "Reports say Google delayed Gemini 3.5 Pro after missing internal targets",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 2026-07-17 as 'Gemini 3.5 Pro released'. New coverage claiming a multi-month delay directly contradicts prior reporting; conflicting/unverified, no clean new development to publish."
+    },
+    {
+      "story_key": "databricks-188b-round",
+      "event_date": "2026-07-16",
+      "title_en": "Databricks strategic round at $188B valuation",
+      "source": "Databricks",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-16 with the $188B valuation. No substantively new information."
+    }
+  ]
+}

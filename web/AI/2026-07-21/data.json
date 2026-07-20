@@ -1,0 +1,220 @@
+{
+  "date": "2026-07-21",
+  "category": "AI",
+  "title": "欧盟出手强拆Google护城河;中国开源大模型军备竞赛白热化,Kimi K3两天卖断货、阿里预览2.4万亿参数Qwen3.8-Max",
+  "items": [
+    {
+      "id": "1",
+      "title": "欧盟对Google动真格:强制Android向AI助手开放、并把搜索数据分给对手",
+      "source": "European Commission",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/16/google-required-to-open-up-to-ai-search-engine-rivals-under-eu-mandated-changes.html",
+      "story_key": "eu-google-dma-android-ai",
+      "event_date": "2026-07-16",
+      "summary": "欧盟委员会依据《数字市场法》(DMA)于7月16日下达具约束力的决定:Google必须允许第三方AI助手接入Android的11项系统能力(语音唤醒、跨应用操作等),并向合规的搜索引擎和AI聊天机器人共享匿名化搜索数据。",
+      "detail": "欧盟委员会7月16日依据DMA对Google开出两项具约束力的整改令,被业界评为今年最具杀伤力的AI监管动作,因为它同时撬动了让Google近乎不可撼动的两大资产:Android分发渠道与搜索数据护城河。\n\n第一项针对Android:Google须开放11项系统级能力,让竞争性AI助手能够通过语音指令完成叫车、回复消息等跨应用任务,并支持并发唤醒词。相关改造须随Android 18于2027年8月1日前落地,并发唤醒词支持须在2028年8月前到位。第二项针对搜索:Google须自2027年1月起,把用于优化搜索的匿名化数据共享给符合条件的第三方搜索引擎和AI聊天机器人。\n\n这意味着Anthropic、OpenAI的聊天机器人未来有望直接'操作'安卓手机,法国Mistral等本土玩家也被视为潜在赢家。Google安卓业务总裁Sameer Samat公开抨击欧盟'方向错了',称改动会危及用户隐私与安全。两项决定虽不含罚款,但一旦不合规,欧盟可按Google全球年营收最高10%处罚。",
+      "key_quotes": [
+        "The most consequential regulatory action in AI this year, because it attacks the two assets that make Google nearly unbeatable.",
+        "Google's Android president Sameer Samat said the Commission is 'on the wrong track'."
+      ],
+      "significance": "监管开始从'反垄断罚款'升级为'强制拆护城河'。把Android入口和搜索数据向AI对手开放,可能直接改写移动端AI助手的分发格局,让OpenAI、Anthropic、Mistral绕过Google触达数亿欧洲用户——这是搜索与助手之争中,分发权第一次被制度性地重新分配。",
+      "links": [
+        "https://www.cnbc.com/2026/07/16/google-required-to-open-up-to-ai-search-engine-rivals-under-eu-mandated-changes.html",
+        "https://www.semafor.com/article/07/17/2026/eu-orders-google-to-open-android-ai-system-to-rivals",
+        "https://dataconomy.com/2026/07/20/eu-orders-google-open-android-search-data-ai-services/"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "欧盟", "DMA", "监管", "Android"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "阿里也来抢'开源王座':预览2.4万亿参数Qwen3.8-Max,自称仅次于Fable 5",
+      "source": "Alibaba Qwen",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+      "story_key": "alibaba-qwen38-max",
+      "event_date": "2026-07-19",
+      "summary": "阿里Qwen团队7月19日在WAIC期间预览新旗舰Qwen3.8-Max:2.4万亿参数的稀疏MoE多模态模型,支持文本/图像/视频/文档、100万token上下文,官方称其性能'仅次于Anthropic Fable 5',开放权重承诺'很快'放出。",
+      "detail": "就在月之暗面Kimi K3开放权重发布数日后,阿里巴巴7月19日在上海世界人工智能大会(WAIC)期间预览了下一代旗舰模型Qwen3.8-Max-Preview,把中国开源大模型的军备竞赛推向2万亿参数级别的新高。\n\n该模型为稀疏MoE架构,参数量达2.4万亿,原生多模态(文本、图像、视频、文档),上下文窗口100万token,官方称在其自测基准中'仅次于Fable 5'。但这一说法目前缺乏支撑:预览未附任何技术文档,没有benchmark数据、没有model card,也未公布激活参数量。\n\n模型已作为Qwen3.8-Max-Preview上线,可通过阿里Token Plan、Qoder与QoderWork调用,预览期按标准价格的10%计费;开放权重承诺'很快'放出,但暂无具体日期和Hugging Face页面。这是一周内中国厂商第二次在开源/开放权重赛道向Anthropic、OpenAI的闭源旗舰发起正面挑战。",
+      "key_quotes": [
+        "The Qwen team describes it as a 2.4 trillion-parameter model, 'second only to Fable 5' among the systems it benchmarked.",
+        "The preview arrived without any supporting technical documentation — no benchmark data, no model card, no activated-parameter count."
+      ],
+      "significance": "继Kimi K3之后,阿里紧跟着把'2万亿参数+多模态+承诺开放权重'打包成又一记重拳,显示中国厂商正把'超大规模开放模型'当成对抗西方闭源旗舰的主战略。但无技术文档、无benchmark的'预览即发布'也暴露了这轮竞赛的营销成分——抢发速度正开始压过可验证性。",
+      "links": [
+        "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+        "https://dataconomy.com/2026/07/20/qwen3-8-24t-parameters-alibaba-ai-model-launch/",
+        "https://qz.com/alibaba-qwen38-preview-anthropic-fable-5-072026"
+      ],
+      "image": "assets/logos/qwen-logo.png",
+      "image_type": "logo",
+      "tags": ["Alibaba", "Qwen", "开源模型", "多模态", "WAIC"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "太火了反而'卖断货':Kimi K3两天挤爆算力,月之暗面被迫暂停新订阅",
+      "source": "Moonshot AI",
+      "source_name": "Euronews",
+      "source_url": "https://www.euronews.com/next/2026/07/20/chinese-ai-model-kimi-k3-halts-new-signups-amid-skyrocketing-demand",
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-20",
+      "summary": "月之暗面(Moonshot AI)7月20日暂停Kimi K3新用户订阅:上线后48小时需求激增,把GPU算力推到近满载。老用户不受影响,公司称将'分批'逐步扩容后再恢复注册。",
+      "detail": "Kimi K3上线仅两天就'卖断货'。月之暗面7月20日宣布暂停新订阅:连续48小时的用量暴涨把可用算力推到接近满载,只得先关闭新注册,待'分批'扩容后再逐步放开;现有订阅用户不受影响。\n\n这一算力瓶颈来得颇不是时候——公司正值新一轮融资、并在筹备潜在的香港上市。爆火验证了需求,却也暴露出中国AI公司在高端GPU供给受限背景下的扩容天花板:模型再强,也要有卡才能接住流量。Kimi K3为2.8万亿参数、100万token上下文,官方称其为'全球首个开放的3T级模型',完整权重仍计划在7月27日前放出。\n\n背景回顾:月之暗面7月16日发布参数量最大的开放权重模型Kimi K3,并在前端编程竞技场登顶、多项基准超越Claude Opus 4.8与GPT-5.5。",
+      "key_quotes": [
+        "Two days of surging usage strained its GPU resources to near capacity.",
+        "New signups are paused until Moonshot can add more capacity, which it says will happen gradually, 'in batches'."
+      ],
+      "significance": "'暂停注册'把这轮开源狂欢的另一面摆上台面:对中国厂商而言,真正的护城河或瓶颈不是模型本身,而是能不能拿到足够的卡去承接需求。在赴港上市与融资的关键窗口,算力短缺既是热度的证明,也是估值故事里最现实的风险点。",
+      "links": [
+        "https://www.euronews.com/next/2026/07/20/chinese-ai-model-kimi-k3-halts-new-signups-amid-skyrocketing-demand",
+        "https://finance.yahoo.com/technology/ai/articles/chinas-moonshot-pauses-kimi-subscriptions-080317250.html",
+        "https://www.pymnts.com/news/artificial-intelligence/2026/moonshot-halts-new-kimi-k3-subscriptions-demand-overwhelms-compute/"
+      ],
+      "tags": ["Moonshot", "Kimi K3", "算力", "GPU", "中国AI"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "赌'表格'而非'聊天':SAP完成对Prior Labs收购,四年砸超10亿欧元建欧洲前沿AI实验室",
+      "source": "SAP News Center",
+      "source_name": "SAP News Center",
+      "source_url": "https://news.sap.com/2026/07/sap-completes-prior-labs-acquisition/",
+      "story_key": "sap-prior-labs-acquisition",
+      "event_date": "2026-07-17",
+      "summary": "SAP于7月17日完成对表格基础模型(Tabular Foundation Model)先驱Prior Labs的收购,承诺未来四年投入超10亿欧元,将其打造成聚焦企业结构化数据的欧洲前沿AI实验室;交易金额未披露。",
+      "detail": "SAP 7月17日宣布完成对Prior Labs的收购。这家公司成立仅18个月,是'表格基础模型'(TFM)的开创者——不同于处理文本的大语言模型,TFM专门用于分析电子表格和数据库这类结构化数据。其TabPFN系列模型发表于《Nature》,在数百项独立学术研究中刷新了表格数据基准的SOTA。\n\nSAP承诺未来四年投入超过10亿欧元,把Prior Labs扩建为'服务全球企业结构化数据的世界级前沿AI实验室',并让其作为独立实体继续运营。SAP称此举将加速其从SAP-RPT-1起步的TFM布局,把全球顶尖的表格模型研究团队纳入麾下。收购价格即使在交割后仍未公开。\n\n这笔交易与同期市场对'聊天式'大模型的追捧形成鲜明对比:SAP押注的是企业里真正跑业务的那些表格和数据库,而非又一个通用聊天机器人。",
+      "key_quotes": [
+        "SAP committed to investing more than €1 billion over the next four years to scale it into a globally leading frontier AI lab.",
+        "Prior Labs' TabPFN model series, published in Nature, set the state-of-the-art on tabular benchmarks."
+      ],
+      "significance": "在所有人追逐通用聊天大模型时,SAP用超10亿欧元押注一个'反潮流'方向:企业价值大量沉淀在表格和数据库里,而非自然语言。这既是欧洲少见的前沿AI建制动作,也提示企业AI的下一战场可能是结构化数据的基础模型,而非又一个对话助手。",
+      "links": [
+        "https://news.sap.com/2026/07/sap-completes-prior-labs-acquisition/",
+        "https://tech.eu/2026/07/17/sap-acquires-prior-labs-just-18-months-after-launch-in-eur1b-deal/",
+        "https://thenextweb.com/news/sap-prior-labs-tabular-ai-deal-closed"
+      ],
+      "image": "assets/logos/sap-logo.svg",
+      "image_type": "logo",
+      "tags": ["SAP", "Prior Labs", "表格基础模型", "企业AI", "收购"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "要建'AI界的万维网':非营利组织Current AI募资破4亿美元,做人人可用的公共AI",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "story_key": "current-ai-public-fund",
+      "event_date": "2026-07-19",
+      "summary": "TechCrunch 7月19日报道,非营利组织Current AI已获超4亿美元承诺资金,要构建免费、公共的AI基础设施,作为大厂闭源模型之外的另一选择。法国政府出资1亿美元领投,福特基金会、MacArthur基金会、DeepMind、Salesforce等跟进,目标五年内动员25亿美元。",
+      "detail": "非营利组织Current AI正试图打造'AI界的万维网'——一套免费、开放、面向公共利益的AI基础设施,作为大厂闭源模型的替代方案。据TechCrunch 7月19日报道,该组织已获得超过4亿美元的资金承诺。\n\n资金结构颇具象征意义:法国政府以1亿美元种子资金牵头,福特基金会、MacArthur基金会、Google DeepMind、Salesforce等相继加入。Current AI定位为连接政府、企业与慈善机构的'公私合营'组织,目标在五年内动员25亿美元,用于资助公共利益导向的AI技术。\n\n在OpenAI、Anthropic等闭源巨头主导话语权的当下,这一由政府和慈善资本撑腰的'公共AI'尝试,试图回答一个越来越尖锐的问题:AI这样的基础能力,是否应该完全掌握在少数私营公司手里。",
+      "key_quotes": [
+        "Current AI, a nonprofit backed by France, DeepMind and Salesforce with $400m committed, is building a free, public alternative to Big Tech's AI models.",
+        "The group says it is aiming to mobilise $2.5bn over five years."
+      ],
+      "significance": "这是'公共AI'路线第一次拿到接近私营巨头量级的资金承诺。它把AI定位成类似互联网的公共基础设施,而非纯商业资产,若能兑现25亿美元目标,或将为受制于闭源巨头的政府、研究机构和发展中国家提供一条不同的技术路径。",
+      "links": [
+        "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+        "https://thenextweb.com/news/current-ai-public-open-ai-alternative-400-million",
+        "https://www.currentai.org/"
+      ],
+      "tags": ["Current AI", "非营利", "公共AI", "开放AI", "法国"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "日本要造'主权物理AI':FRONTia项目五年砸1万亿日元,采购2.75万块英伟达Rubin",
+      "source": "The Japan Times",
+      "source_name": "The Japan Times",
+      "source_url": "https://www.japantimes.co.jp/news/2026/07/01/japan/japan-ai-plans/",
+      "story_key": "japan-frontia-physical-ai",
+      "event_date": "2026-07-16",
+      "summary": "日本经济产业省7月16日正式启动'FRONTia项目',研发面向机器人与制造现场的国产多模态'物理AI'基础模型。政府计划五年内投入约1万亿日元(约62亿美元),2026财年首年补贴约3873亿日元;英伟达将提供约2.75万块下一代Rubin GPU。",
+      "detail": "日本经济产业省(METI)7月16日正式启动'FRONTia项目'——一项研发国产多模态'物理AI'基础模型的国家级工程。所谓物理AI,是指在真实世界中运行的AI,如机器人和制造现场里的智能系统。\n\n资金与规模都不小:政府计划自2026财年起五年内提供约1万亿日元(约62亿美元)支持,首年(2026财年)补贴约3873亿日元(约24亿美元)。研发主体是由44家企业共同出资的AI公司Noetra,核心投资方包括SoftBank、Sony、NEC与本田,并联合日本产业技术综合研究所(AIST);美国英伟达则提供大规模算力,包括约2.75万块下一代'Rubin' GPU。\n\n战略目标更长远:到2040年,在餐饮、食品制造、医疗等18个行业部署1000万台搭载AI的机器人。这是各国竞相发展'主权AI'、以减少对美中技术过度依赖的又一案例——只不过日本把重心明确压在了'物理AI'和机器人上。",
+      "key_quotes": [
+        "The Japanese government expects to provide support totaling approximately ¥1 trillion over the five years starting from fiscal year 2026.",
+        "The government is targeting 10 million AI-equipped robots deployed across 18 sectors by 2040."
+      ],
+      "significance": "在主权AI普遍聚焦语言模型时,日本把国家级资源压在'物理AI+机器人'这一它最有产业积累的方向,试图用差异化路线绕开与美中在通用大模型上的正面竞争。2.75万块Rubin的采购规模,也再次说明'主权AI'目前仍高度依赖英伟达的算力供给。",
+      "links": [
+        "https://www.japantimes.co.jp/news/2026/07/01/japan/japan-ai-plans/",
+        "https://finance.biggo.com/news/924f5824-8b55-4265-8f71-67ced97d96ef",
+        "https://www.ceoinsightsasia.com/news/japan-supercharges-ai-and-robotics-with-61-billion-plan-nwid-14693.html"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["日本", "主权AI", "物理AI", "机器人", "英伟达"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "'背靠背'融资玩到极致:AI推理芯片公司Etched同时谈两轮,估值奔向200亿美元",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
+      "story_key": "etched-20b-valuation",
+      "event_date": "2026-07-17",
+      "summary": "AI推理芯片公司Etched据报正同时洽谈两轮融资:一轮由Jane Street领投、估值约200亿美元,另一轮由红杉领投、估值约100亿美元。截至7月17日两笔均未落定。其Transformer专用推理芯片Sohu号称吞吐量达英伟达H100的20倍,已握约10亿美元订单。",
+      "detail": "圣何塞AI芯片公司Etched把这轮AI投资周期里的'背靠背融资'玩到了极致——同时推进两笔估值天差地别的融资:一轮由老股东Jane Street领投、估值约200亿美元;另一轮由红杉(Sequoia)领投、估值约100亿美元。较高的200亿美元估值将把公司此前估值直接翻两番。截至7月17日,两笔交易均未完成,条款仍可能变动。\n\nEtched专注于Transformer推理专用芯片(ASIC),而非训练。其Sohu芯片基于台积电N4P工艺,声称在跑已部署的AI模型时吞吐量可达英伟达H100的20倍。公司此前退出隐身状态时已募资约8亿美元,并握有约10亿美元的已签订单。\n\n所谓'背靠背融资'——先以一个估值出让股份,几乎紧接着又以高得多的价格再融一轮——已成为当前AI投资周期的标志性现象。",
+      "key_quotes": [
+        "Etched is simultaneously negotiating two venture funding rounds that would value the company at $10 billion and $20 billion respectively.",
+        "The transformer inference ASIC runs on TSMC N4P silicon and claims 20x throughput over Nvidia H100 GPUs."
+      ],
+      "significance": "推理需求正把'专用芯片'从概念推向百亿美元级估值:当越来越多算力花在跑模型而非训模型上,挑战英伟达通用GPU的Transformer ASIC开始被资本重注。同时谈两轮、估值一倍差的'背靠背'打法,则是这轮AI资本狂热最直观的温度计。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-06-30/ai-chip-startup-etched-says-jane-street-tsmc-linked-vc-invested",
+        "https://www.pymnts.com/news/artificial-intelligence/2026/ai-chip-startup-etched-eyes-20-billion-valuation/",
+        "https://www.marketscale.com/industries/software-and-technology/etched-targets-a-20-billion-valuation-with-back-to-back-rounds-as-inference-chip-demand-hits-1-billion"
+      ],
+      "tags": ["Etched", "推理芯片", "ASIC", "融资", "英伟达"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "用AI找新材料:CuspAI完成4.5亿美元B轮,估值26亿,贝索斯与AMD入局",
+      "source": "Tech Startups",
+      "source_name": "Tech Startups",
+      "source_url": "https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/",
+      "story_key": "cuspai-series-b",
+      "event_date": "2026-07-20",
+      "summary": "英国AI材料发现公司CuspAI完成4.5亿美元B轮融资,投后估值26亿美元。本轮由Kleiner Perkins、NEA领投,贝索斯的基金与AMD Ventures等参投,资金用于用AI加速新材料的发现与设计。",
+      "detail": "英国AI创业公司CuspAI于7月20日前后完成4.5亿美元B轮融资,投后估值达26亿美元。CuspAI用AI来加速材料发现——从碳捕集、能源到先进制造所需的新材料,试图把传统上耗时数年的试错过程压缩到AI驱动的快速筛选与设计。\n\n本轮由Kleiner Perkins和NEA领投,参投方阵容颇具分量:包括杰夫·贝索斯(Jeff Bezos)旗下的投资基金,以及AMD Ventures。硬件巨头与顶级科技投资人同时押注,显示'AI for Science'尤其是材料科学方向,正从实验室概念走向被资本认真对待的商业赛道。",
+      "key_quotes": [
+        "CuspAI (British AI startup) completed a $450 million Series B at a $2.6 billion valuation.",
+        "Investors include Kleiner Perkins, NEA, Jeff Bezos' fund, and AMD Ventures."
+      ],
+      "significance": "AI正从'写代码、聊天'向'做科学发现'纵深扩张。材料是能源、芯片、制造等硬科技的共同底座,CuspAI在贝索斯与AMD背书下拿到26亿美元估值,标志着'AI找材料'从边缘研究议题变成主流资本愿意重注的方向。",
+      "links": [
+        "https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/"
+      ],
+      "tags": ["CuspAI", "AI材料", "AI for Science", "融资", "AMD"],
+      "category": "news"
+    },
+    {
+      "id": "9",
+      "title": "药厂也开始买'超算':百时美施贵宝成首家采购英伟达Vera Rubin系统的制药公司",
+      "source": "Tech Startups",
+      "source_name": "Tech Startups",
+      "source_url": "https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/",
+      "story_key": "bristol-myers-nvidia-rubin",
+      "event_date": "2026-07-20",
+      "summary": "百时美施贵宝(Bristol Myers Squibb)成为首家采购英伟达Vera Rubin架构超算系统的制药公司,用于加速药物研发。公司称该系统有望把新药生产所需时间缩短约20%–30%。",
+      "detail": "百时美施贵宝(BMS)7月20日前后宣布成为首家采购英伟达Vera Rubin架构超级计算机的制药企业,把最前沿的AI算力直接搬进药物研发流程。公司称,该系统有望把新药生产所需的时间缩短约20%至30%。\n\n这是AI基础设施向传统行业纵向渗透的又一信号:过去砸重金买顶级英伟达系统的多是云厂商和AI实验室,如今制药巨头也开始直接采购整套超算,用于分子模拟、蛋白质结构预测和药物筛选等计算密集环节。对英伟达而言,Vera Rubin这类新架构的买家正从'AI原生公司'扩展到手握真实产业需求与现金流的传统龙头。",
+      "key_quotes": [
+        "Bristol Myers Squibb becomes the first pharmaceutical company to purchase a Vera Rubin architecture system.",
+        "The system could 'reduce the time required to produce medicines by roughly 20% to 30%'."
+      ],
+      "significance": "AI算力的买家版图正在扩大:从云厂商、AI实验室蔓延到制药这样的传统重资产行业。药企愿意直接采购整套Vera Rubin超算,说明AI在药物研发中的价值已具体到可量化的时间与成本节省,也为英伟达最新架构打开了实验室之外的产业级需求。",
+      "links": [
+        "https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["英伟达", "Vera Rubin", "制药AI", "百时美施贵宝", "药物研发"],
+      "category": "news"
+    }
+  ]
+}
