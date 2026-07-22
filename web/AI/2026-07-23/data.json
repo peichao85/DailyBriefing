@@ -1,0 +1,194 @@
+{
+  "date": "2026-07-23",
+  "category": "AI",
+  "title": "旗舰难产、大厂转攻'走量+安全款':Google连发三款Gemini Flash并切出政府专供安全模型,OpenAI把智能体做成驻场生意",
+  "items": [
+    {
+      "id": "1",
+      "title": "旗舰难产,就靠'走量'和'安全款'续命:Google一口气发三款Gemini Flash,还开跑Gemini 4",
+      "source": "Google",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "story_key": "google-gemini-flash-cyber",
+      "event_date": "2026-07-21",
+      "summary": "Google于7月21日发布三款新Gemini模型:主力Gemini 3.6 Flash、超低延迟的3.5 Flash-Lite,以及仅向政府和可信伙伴开放的安全专用模型3.5 Flash Cyber;同时透露已启动'迄今最雄心'的Gemini 4预训练。旗舰3.5 Pro却仍迟迟未发。",
+      "detail": "在拖了又拖的旗舰Gemini 3.5 Pro仍未交付的背景下,Google DeepMind选择把火力集中到'走量'的Flash档:\n\n• Gemini 3.6 Flash——被定位为'主力工作马'(workhorse),在编程、知识工作和多模态上均有提升,同时把输出token用量最多压低17%。价格上,输出从每百万token 9.00美元降到7.50美元,输入维持1.50美元;知识截止日期也从2025年1月推进到2026年3月。\n\n• Gemini 3.5 Flash-Lite——面向高吞吐、低延迟场景(智能体搜索、文档处理),定价激进:输入每百万0.30美元、输出2.50美元。\n\n• Gemini 3.5 Flash Cyber——一款安全微调模型,专门用于更快地发现、验证并修补软件漏洞。它只以'受限访问试点'形式向政府和可信伙伴开放,不对公众发售,直接对标Anthropic的安全系模型与微软即将推出的安全产品。\n\n与此同时,Google宣布已经启动'迄今最雄心'的Gemini 4预训练,却始终没给旗舰3.5 Pro一个明确发布日。这一取舍本身就是信号:当旗舰迟迟难产,厂商正把竞争主战场从'最聪明'的前沿模型,转向便宜、够快、能规模化跑智能体的Flash档,以及能拿去卖给政府的安全专用款。",
+      "key_quotes": [
+        "Gemini 3.6 Flash reduces output tokens by up to 17% and is cheaper than its predecessor.",
+        "Gemini 3.5 Flash Cyber is exclusively available to governments and trusted partners as part of a limited access pilot."
+      ],
+      "significance": "旗舰缺席、却密集更新Flash档并单独切出一款'政府专供'的安全模型,说明大厂的价值重心正从'谁家模型最强'转向'谁能把够用的智能便宜地铺满、并做成受控的政企/国家安全生意'。安全专用、限访问的AI正在成为一个由厂商自愿分级门控的新品类。",
+      "links": [
+        "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+        "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+        "https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini", "模型发布", "AI安全", "推理成本"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "先拿自家客服开刀:OpenAI推企业级智能体平台Presence,已替它接下75%来电",
+      "source": "OpenAI",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots",
+      "story_key": "openai-presence-agents",
+      "event_date": "2026-07-22",
+      "summary": "OpenAI于7月22日发布企业级智能体平台Presence,让公司以策略、护栏、仿真、评测和'已批准动作'为约束,部署实时语音与聊天智能体。它已在OpenAI自家英文电话客服线上运行,独立解决75%的来电。",
+      "detail": "OpenAI把Presence定位为'可信企业智能体'的运行底座:企业可以在带策略约束、护栏、仿真、评测、'已批准动作'清单的框架下,跨语音和聊天渠道部署智能体,并用Codex驱动的反馈回路在上线后持续改进。\n\n最有说服力的是OpenAI拿自己当样板:Presence已经在其英文电话客服线上生产运行,无需人工介入即可解决75%的来电;上线10天内,Codex驱动的反馈回路把'转人工'的比例又压低了15个百分点。\n\n发布形态是'有限正式可用'(limited GA)——不是自助注册的产品,而是由OpenAI的'前沿部署工程师'(Forward Deployed Engineers)带着落地。首批客户包括BBVA墨西哥、软银(SoftBank Corp.)和澳大利亚的Retail Insurance(IAG)。这条路线明显在向Palantir式的'派工程师驻场交付'靠拢,瞄准的是把智能体真正嵌进大企业工作流的高价值合同,而非又一个开发者API。",
+      "key_quotes": [
+        "Presence resolves 75% of inbound calls without human intervention on OpenAI's own support line.",
+        "A Codex-powered feedback loop reduced human handoffs by 15 percentage points within 10 days."
+      ],
+      "significance": "这是OpenAI从'卖模型/卖API'向'卖可落地的企业智能体解决方案'转身的又一步:强调护栏、审批动作与驻场交付,直击企业对智能体'不可控'的最大顾虑,也把战线推进到Salesforce、微软和一众客服/CX厂商的腹地。",
+      "links": [
+        "https://venturebeat.com/orchestration/openai-unveils-presence-a-new-platform-that-lets-enterprises-launch-and-manage-realtime-voice-agents-and-chatbots",
+        "https://openai.com/index/introducing-openai-presence/",
+        "https://www.helpnetsecurity.com/2026/07/22/openai-presence-ai-agent-platform/"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "AI智能体", "企业级", "语音AI", "Codex"],
+      "category": "product_operators"
+    },
+    {
+      "id": "3",
+      "title": "智能体把终端搞乱了,就有人来卖'终端保险':Glow带1.8亿美元出关,估值12亿",
+      "source": "Glow",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+      "story_key": "glow-endpoint-security-stealth",
+      "event_date": "2026-07-22",
+      "summary": "网络安全新公司Glow于7月22日结束隐身,带着1.8亿美元融资、12亿美元估值出关,主打为'AI智能体时代'重做终端安全(endpoint security),由Sequoia、Cyberstarts、Greenoaks与Redpoint领投。",
+      "detail": "当AI智能体开始自己动手在员工电脑、浏览器和身份体系里执行动作,传统以'检测已知威胁'为核心的终端安全(EDR)显得越来越吃力。Glow就冲着这个缺口来:它主张'预防优先',用AI智能体做资产盘点(asset intelligence)、软件管控和对威胁的自主修复,把安全从'事后告警'推向'事前收口'。\n\n创始团队履历硬核:CEO Roi Tiger在Meta干了九年、最近担任工程副总裁;CTO Omer Singer曾是Snowflake的网络安全战略负责人;研发副总裁Ophir Arie来自工控安全公司Claroty。本轮1.8亿美元由Sequoia、Cyberstarts、Greenoaks、Redpoint领投,Index、Lux Capital等跟投,资金将用于扩张美国市场团队并壮大其研究部门Glow Labs。\n\n这也是本周第二家在同一赛道高调亮相的公司——AI既在制造新的攻击面(会自己干活的软件),也在催生一波'给智能体装刹车'的安全创业与并购潮。",
+      "key_quotes": [
+        "Glow emerges from stealth with $180 million at a $1.2 billion valuation to advance a prevention-first approach to endpoint security."
+      ],
+      "significance": "巨额种子/A轮、明星团队与顶级VC同时押注,印证了一个正在成形的判断:AI智能体大规模进入企业后,终端与身份将成为新的主战场,'为智能体做的安全'正被资本当成下一个CrowdStrike级机会。",
+      "links": [
+        "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/",
+        "https://www.securityweek.com/endpoint-security-firm-glow-launches-with-180m-in-funding-at-1-2b-valuation/",
+        "https://www.helpnetsecurity.com/2026/07/22/glow-launches-with-180-million-funding/"
+      ],
+      "tags": ["融资", "网络安全", "AI智能体", "终端安全", "Sequoia"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "AI实验室的游说钱首次压过芯片巨头:Anthropic单季197万美元砸华盛顿,超英伟达",
+      "source": "Anthropic/OpenAI",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
+      "story_key": "ai-labs-q2-lobbying-record",
+      "event_date": "2026-07-21",
+      "summary": "7月21日披露的联邦游说报告显示:2026年二季度,Anthropic游说支出达197万美元(环比+26%),OpenAI为120万美元(环比+18%),两家合计317万美元创纪录,Anthropic的单季开销已超过英伟达。",
+      "detail": "最新一季的美国联邦游说披露显示,AI实验室正以前所未有的力度砸钱进华盛顿:\n\n• Anthropic二季度游说支出197万美元,环比大涨26%,不仅超过英伟达,还逼近甲骨文的约200万美元;其2026上半年累计已超350万美元,一举超过它2025全年310万美元的总和。\n\n• OpenAI二季度支出120万美元,环比增约18%。\n\n• 两家合计317万美元,环比增约23%,均创各自纪录;同比看,基本是2025年同期的两倍。\n\n它们申报的游说议题集中在网络安全、版权、云计算与国防采购。作为对比,Meta、亚马逊、Google、微软、英伟达五家老牌科技巨头本季合计游说支出2125万美元,与上季基本持平——Meta以599万美元居首。也就是说,老牌巨头的政治开支在'原地踏步',而年轻的AI实验室正在急速加码。",
+      "key_quotes": [
+        "Anthropic's quarterly tab came to $1.97 million, a 26% jump from Q1, out-spending Nvidia.",
+        "The two companies together outlaid $3.17 million from April through June, up 23% from Q1."
+      ],
+      "significance": "在白宫前沿模型审查框架、版权诉讼和国防采购等一系列政策悬而未决之际,AI实验室的游说开支首次盖过部分芯片与云巨头,标志着它们正从'技术公司'转型为'政策玩家',要在即将成形的AI监管规则里争夺话语权。",
+      "links": [
+        "https://www.cnbc.com/2026/07/21/openai-anthropic-ai-lobbying-spending-q2-2026.html",
+        "https://www.axios.com/2026/07/21/anthropic-ramps-up-lobbying-spending-ai-policy-fights",
+        "https://finance.yahoo.com/technology/ai/articles/openai-anthropic-break-q2-2026-171718646.html"
+      ],
+      "tags": ["政策", "游说", "Anthropic", "OpenAI", "AI监管"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "自夸审核比人准13%,却把经营多年的账号误杀:Meta的AI内容治理翻车",
+      "source": "Meta",
+      "source_name": "AI News",
+      "source_url": "https://www.artificialintelligence-news.com/",
+      "story_key": "meta-ai-moderation-deletions",
+      "event_date": "2026-07-21",
+      "summary": "Meta称其自动化内容审核的准确率比人工高出约13%,但同期大量Instagram、Facebook用户投诉:苦心经营多年的账号被AI误删,包括一个近百万粉丝的账号,在记者介入后才得以恢复。",
+      "detail": "7月21日,Meta对外宣称其AI内容审核系统的表现已比人工审核员高出约13%,以此为大规模用自动化取代人工背书。但现实给出了尴尬的对照:大量Instagram和Facebook用户投诉,自己经营多年、甚至已成谋生工具的账号被系统无端封禁、删除。\n\n据报道,部分被误删的账号——包括一个坐拥近百万粉丝的账号——只有在记者出面质询后,Meta才予以恢复。这暴露出'AI审核+缺乏有效申诉通道'的组合下,普通创作者几乎没有救济手段:算法一旦判错,账号背后的社群、生计和多年积累可能瞬间清零,而人工复核只对'闹得够大'的个案生效。\n\n这与同日另一条新闻形成呼应:Substack接入了AI检测工具Pangram,但研究显示其对经过润色的文本漏检率高达18%——AI治理工具的能力上限,正被越来越多真实案例戳破。",
+      "key_quotes": [
+        "Meta reports its AI moderation performs about 13% better than humans.",
+        "Some erroneously deleted accounts — including one with nearly 1 million followers — were restored only after journalists intervened."
+      ],
+      "significance": "当平台以'比人更准'为由把治理权大规模交给AI,误判的代价却由缺乏申诉渠道的个体承担。这凸显了自动化内容治理的核心矛盾:整体准确率的提升,并不能替代对个案的可解释性、可申诉性和问责机制。",
+      "links": [
+        "https://www.artificialintelligence-news.com/",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "内容审核", "AI治理", "平台", "创作者"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "把AI算力铺进欧洲:微软与Mistral扩大合作,砸数十亿建Vera Rubin数据中心",
+      "source": "Microsoft",
+      "source_name": "Microsoft",
+      "source_url": "https://releasebot.io/updates/openai",
+      "story_key": "microsoft-mistral-europe-compute",
+      "event_date": "2026-07-21",
+      "summary": "微软与法国AI公司Mistral于7月21日宣布扩大战略合作,联合投入数十亿美元,在欧洲用英伟达Vera Rubin系统扩建GPU数据中心产能。",
+      "detail": "微软与Mistral宣布把此前的合作大幅升级为'扩大版战略伙伴关系',核心是联合出资数十亿美元,在欧洲本土扩建以GPU为底座的数据中心产能,采用英伟达下一代Vera Rubin系统。\n\n对Mistral而言,这解决的是欧洲AI公司最棘手的'算力主权'焦虑——既能拿到前沿硬件,又不必把全部命脉押在美国云上;对微软而言,则是在欧盟日益强调数字主权、且对美国云厂商监管趋严的环境下,用'本地建产能+扶持本地冠军'的姿态巩固Azure在欧洲的地位。这与近来日本FRONTia、韩国NAVER×英伟达等一连串'主权AI基础设施'动作同频:2026年的算力竞赛,正从单纯堆卡,变成各国/各区域争相在本土落地前沿算力。",
+      "key_quotes": [
+        "Microsoft and Mistral announced an expanded strategic partnership with multibillion-dollar joint investments to grow GPU-backed data center capacity in Europe using Nvidia Vera Rubin systems."
+      ],
+      "significance": "这是'算力主权'叙事在欧洲的又一次落地:美国云巨头正通过与本地AI冠军深度绑定、在当地砸钱建产能,来应对欧盟的数字主权诉求与监管压力,同时锁定英伟达最新一代硬件的部署份额。",
+      "links": [
+        "https://releasebot.io/updates/openai",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["微软", "Mistral", "算力", "欧洲", "英伟达", "数据中心"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "Meta给Muse Spark补上'会用电脑'和百万上下文:1.1版本悄然升级",
+      "source": "Meta",
+      "source_name": "buildfastwithai.com",
+      "source_url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-21-2026",
+      "story_key": "meta-muse-spark",
+      "event_date": "2026-07-21",
+      "summary": "Meta于7月21日发布Muse Spark 1.1点更新,为该模型加入'计算机使用'(computer use)的智能体能力,并把上下文窗口扩展到100万token。",
+      "detail": "Meta对其Muse Spark模型推出1.1版本更新,重点补齐两项当下最抢手的能力:一是'计算机使用'(computer use),让模型能像智能体一样操作图形界面、跨应用执行任务;二是把上下文窗口一举扩展到100万token,以便处理长文档、代码库和长程任务。\n\n这两项恰是当前模型竞争的标配战场——从Google的Flash档到各家开源旗舰,'能自己动手用软件'和'超长上下文'几乎成了新模型的入场券。Meta以一个点更新(1.1)而非大版本的方式补上,显示它在被开源(Kimi K3、DeepSeek V4)和闭源(Gemini、GPT-5.6)两头夹击下,选择用高频小步迭代来保持产品竞争力。",
+      "key_quotes": [
+        "Meta's Muse Spark 1.1 adds computer use and a million-token context window."
+      ],
+      "significance": "'会用电脑'的智能体能力与百万级上下文正迅速从卖点变成标配。Meta以快速点更新补齐短板,反映在开源与闭源双向挤压下,主流厂商必须靠高频迭代才能守住模型的相关性。",
+      "links": [
+        "https://www.buildfastwithai.com/blogs/ai-news-today-july-21-2026"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "Muse Spark", "计算机使用", "长上下文", "模型更新"],
+      "category": "research"
+    },
+    {
+      "id": "8",
+      "title": "让AI智能体拥有自己的'工号'和签名:Jack Dorsey的Block开源Buzz,叫板Slack",
+      "source": "Block",
+      "source_name": "SiliconANGLE",
+      "source_url": "https://siliconangle.com/2026/07/21/block-launches-buzz-open-source-workspace-humans-ai-agents/",
+      "story_key": "block-buzz-nostr-agents",
+      "event_date": "2026-07-21",
+      "summary": "Jack Dorsey旗下的Block于7月21日发布开源协作平台Buzz:建在去中心化的Nostr协议上,把团队聊天、代码仓库与自动化工作流合而为一,让每个人和AI智能体都拥有各自的加密身份,以'平等成员'而非'命令机器人'的身份参与。",
+      "detail": "Block(Jack Dorsey)推出的Buzz,想同时挑战Slack和GitHub:它把群聊、代码仓库和自动化工作流整合进一个界面,核心创新是给每一个人类和每一个AI智能体都分配一个基于加密的身份与权限,并为智能体的每一步动作留下'可签名的责任链'(signed chain of custody)——谁(或哪个智能体)做了什么,都可追溯、可验证。\n\n技术上,Buzz跑在去中心化的Nostr协议上,主打'模型无关、去中心化、自主可控、开源'。它通过开放的Agent Client Protocol,能与Anthropic的Claude Code、OpenAI的Codex以及Block自家的goose框架协同。代码以Apache 2.0许可发布在github.com/block/buzz,当前版本0.4.21,已提供macOS/Windows/Linux桌面端,移动端在开发中。\n\n定位上它仍是早期软件——Block选择先开源、而非包装成商业产品,更像是为'人与智能体平权协作'立一个开放标准的探路之作。",
+      "key_quotes": [
+        "Buzz gives every human and agent a cryptographic identity with its own permissions.",
+        "Built to reduce our dependency on Slack and GitHub — model-agnostic, decentralized, self-sovereign, and open source."
+      ],
+      "significance": "当AI智能体开始像同事一样参与工作,'身份、权限与责任归属'成了绕不开的基础设施问题。Buzz用加密身份+可签名动作链给出一种去中心化解法,预示协作工具的下一战可能不只是功能,而是'如何安全地让人与智能体平权共事'。",
+      "links": [
+        "https://siliconangle.com/2026/07/21/block-launches-buzz-open-source-workspace-humans-ai-agents/",
+        "https://www.cryptopolitan.com/jack-dorseys-block-launches-buzz-ai-agent/",
+        "https://www.techtimes.com/articles/321242/20260722/block-launches-buzz-open-source-workspace-where-ai-agents-sign-their-own-work.htm"
+      ],
+      "tags": ["Block", "Jack Dorsey", "AI智能体", "开源", "Nostr", "协作工具"],
+      "category": "builders"
+    }
+  ]
+}

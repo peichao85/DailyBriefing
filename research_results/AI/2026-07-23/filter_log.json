@@ -1,0 +1,152 @@
+{
+  "date": "2026-07-23",
+  "total_candidates": 16,
+  "kept": 8,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "google-gemini-flash-cyber",
+      "event_date": "2026-07-21",
+      "title_en": "Google ships Gemini 3.6 Flash, 3.5 Flash-Lite and government-only 3.5 Flash Cyber, teases Gemini 4",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Google released three new Flash-tier models incl. a security-specialized 'Cyber' variant gated to governments, and revealed it has begun its most ambitious Gemini 4 pretraining run — all while flagship Gemini 3.5 Pro remains unshipped."
+    },
+    {
+      "story_key": "openai-presence-agents",
+      "event_date": "2026-07-22",
+      "title_en": "OpenAI launches Presence, an enterprise voice/chat AI-agent platform with guardrails",
+      "source": "VentureBeat",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New enterprise product (limited GA); already resolves 75% of OpenAI's own inbound support calls, Codex feedback loop cut human handoffs 15pt in 10 days."
+    },
+    {
+      "story_key": "glow-endpoint-security-stealth",
+      "event_date": "2026-07-22",
+      "title_en": "Glow exits stealth with $180M at $1.2B valuation to reinvent endpoint security for the AI-agent era",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Ex-Meta VP Roi Tiger + ex-Snowflake security head; Sequoia/Cyberstarts/Greenoaks/Redpoint led."
+    },
+    {
+      "story_key": "ai-labs-q2-lobbying-record",
+      "event_date": "2026-07-21",
+      "title_en": "OpenAI and Anthropic break Q2 lobbying records; Anthropic ($1.97M) out-spends Nvidia",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Q2 federal disclosures: Anthropic $1.97M (+26% QoQ), OpenAI $1.2M (+18%); combined AI-lab spend $3.17M (+23% QoQ)."
+    },
+    {
+      "story_key": "meta-ai-moderation-deletions",
+      "event_date": "2026-07-21",
+      "title_en": "Meta says AI moderation beats humans by 13%, but wrongful account deletions mount",
+      "source": "artificialintelligence-news.com",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Meta touts AI moderation accuracy while users report years-old accounts erroneously deleted; some (incl. ~1M-follower account) restored only after journalists intervened."
+    },
+    {
+      "story_key": "microsoft-mistral-europe-compute",
+      "event_date": "2026-07-21",
+      "title_en": "Microsoft and Mistral expand partnership with multibillion GPU data-center buildout in Europe on Nvidia Vera Rubin",
+      "source": "Microsoft",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Expanded strategic partnership; joint multibillion-dollar investment in European GPU-backed capacity using Nvidia Vera Rubin systems."
+    },
+    {
+      "story_key": "meta-muse-spark",
+      "event_date": "2026-07-21",
+      "title_en": "Meta's Muse Spark 1.1 adds computer use and a million-token context window",
+      "source": "buildfastwithai.com",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New Muse Spark 1.1 point release adds agentic computer-use and 1M-token context."
+    },
+    {
+      "story_key": "block-buzz-nostr-agents",
+      "event_date": "2026-07-21",
+      "title_en": "Jack Dorsey's Block launches Buzz, an open-source Slack/GitHub rival where AI agents are first-class members on Nostr",
+      "source": "SiliconANGLE",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Apache-2.0 workspace on decentralized Nostr; every human and agent gets a cryptographic identity; works with Claude Code, Codex and goose via Agent Client Protocol."
+    },
+    {
+      "story_key": "france-ai-agents-concentration",
+      "event_date": "2026-07-17",
+      "title_en": "French competition authority: OpenAI, Google, Anthropic hold 84% of AI agents, flags lock-in risk",
+      "source": "Autorite de la concurrence",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Opinion No. 26-A-05 published 2026-07-17; event_date is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "shield-ai-series-g",
+      "event_date": "2026-03-26",
+      "title_en": "Shield AI raises $1.5B Series G at $12.7B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "A July-21 roundup mislabeled this as new, but the Series G actually closed 2026-03-26 — far outside the 5-day window."
+    },
+    {
+      "story_key": "whitehouse-frontier-ai-framework",
+      "event_date": "2026-07-21",
+      "title_en": "White House said to finalize voluntary frontier-AI review framework before Aug 1",
+      "source": "buildfastwithai.com",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-20 ('白宫拟设发布前30天国家安全审查,独缺Meta'). No substantive new development — framework still pending, no new signatories or terms disclosed."
+    },
+    {
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-20",
+      "title_en": "Moonshot suspends Kimi K3 subscriptions amid demand overload",
+      "source": "buildfastwithai.com",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-20 (subscription suspension). No new info; weights still promised July 27."
+    },
+    {
+      "story_key": "openai-model-sandbox-escape",
+      "event_date": "2026-07-20",
+      "title_en": "Analysis of OpenAI model sandbox-escape incident",
+      "source": "buildfastwithai.com",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-20. July-21 coverage is commentary/analysis, no new facts."
+    },
+    {
+      "story_key": "google-frozen-v2-chip",
+      "event_date": "2026-07-21",
+      "title_en": "Google's Frozen v2 chip claims 6-10x efficiency over TPUs",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-21. Same report, no new development."
+    },
+    {
+      "story_key": "blomkamp-nightborne-ai-film",
+      "event_date": "2026-07-19",
+      "title_en": "Blomkamp releases fully AI-generated short film Nightborne",
+      "source": "buildfastwithai.com",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-19. No new development."
+    },
+    {
+      "story_key": "pixverse-aisphere-series-c",
+      "event_date": "2026-07-14",
+      "title_en": "AIsphere/PixVerse raises $439M Series C led by Alibaba",
+      "source": "buildfastwithai.com",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Already published 2026-07-14 and event_date is 9 days old (>5 day limit)."
+    }
+  ]
+}
