@@ -1,0 +1,134 @@
+{
+  "date": "2026-07-24",
+  "total_candidates": 14,
+  "kept": 9,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "alphabet-q2-2026-capex",
+      "event_date": "2026-07-22",
+      "title_en": "Alphabet Q2 beats but lifts 2026 capex to $205B, stock drops",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Q2 revenue $119.8B (+24%), Cloud +82%; capex guidance raised from $180-190B to $195-205B, shares fell ~6-7%."
+    },
+    {
+      "story_key": "whitehouse-moonshot-distillation",
+      "event_date": "2026-07-22",
+      "title_en": "White House OSTP accuses Moonshot of distilling Anthropic's Fable to build Kimi K3",
+      "source": "buildfastwithai",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "New story_key. OSTP Director Kratsios alleged covert distillation + GB300 access via Thailand; Redwood's Greenblatt published cross-entropy evidence K3 disproportionately IDs as Claude. Distinct from prior moonshot-kimi-k3 release coverage."
+    },
+    {
+      "story_key": "openai-camellia-georgia-datacenter",
+      "event_date": "2026-07-22",
+      "title_en": "OpenAI unveils $30B 3.2GW Project Camellia data center in Georgia",
+      "source": "DataCenterDynamics",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First self-built OpenAI campus, 3.2GW via Georgia Power 25-yr deal, OpenAI covers all grid infrastructure cost."
+    },
+    {
+      "story_key": "amd-helios-rack-launch",
+      "event_date": "2026-07-23",
+      "title_en": "AMD launches Helios rack-scale AI system + MI400 to challenge Nvidia",
+      "source": "Forbes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First AMD rack-scale system, 72 MI455X + EPYC Venice, ~2.9 EF inference, Microsoft as new customer, ships 2H2026."
+    },
+    {
+      "story_key": "microsoft-mai-image-poweredpoint",
+      "event_date": "2026-07-23",
+      "title_en": "Microsoft replaces OpenAI image models in PowerPoint with own MAI-Image-2.5, ~84% cheaper",
+      "source": "llm-stats",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. MAI-Image-2.5 now in production in PowerPoint, cutting GPU cost up to ~84% vs GPT-Image-2; marks Microsoft reducing OpenAI dependency."
+    },
+    {
+      "story_key": "psibot-world-model-funding",
+      "event_date": "2026-07-23",
+      "title_en": "China's PsiBot hits $1.48B valuation, Chery-led round for world models",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Raising ~$100M at $1.48B, led by carmaker Chery, world-model embodied AI startup."
+    },
+    {
+      "story_key": "humanoid-series-a-unicorn",
+      "event_date": "2026-07-23",
+      "title_en": "European industrial humanoid startup Humanoid raises EUR133M at EUR1.1B",
+      "source": "EU-Startups",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. EUR133M ($152M) Series A at EUR1.1B valuation, partners SAP/NVIDIA/Bosch/Siemens."
+    },
+    {
+      "story_key": "bfl-flux3-mimic",
+      "event_date": "2026-07-23",
+      "title_en": "Black Forest Labs launches FLUX 3 + FLUX-mimic video-action robotics model",
+      "source": "Decrypt",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. FLUX 3 multimodal (image/video/audio/action); FLUX-mimic fine-tunes robot tasks in 30 min vs 30+ hrs, tested at Audi."
+    },
+    {
+      "story_key": "alphabet-anthropic-stake-value",
+      "event_date": "2026-07-23",
+      "title_en": "Alphabet's Anthropic stake worth ~$124.3B per filing",
+      "source": "llm-stats",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Alphabet 10-Q disclosed its Anthropic stake at ~$124.3B of unrealized private-company gains as of June 30 - striking implied Anthropic value."
+    },
+    {
+      "story_key": "openai-presence-agents",
+      "event_date": "2026-07-22",
+      "title_en": "OpenAI launches Presence enterprise agent platform",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-22 with title about Presence handling 75% of OpenAI's own calls. No substantively new info today."
+    },
+    {
+      "story_key": "ai-labs-regulation-convergence",
+      "event_date": "2026-07-23",
+      "title_en": "Elon Musk warns on AI risk, endorses Hassabis FINRA-style body",
+      "source": "Stocktwits",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Convergence on frontier regulation already published 2026-07-16 (ai-labs-regulation-convergence), including Musk/Altman praise for Hassabis proposal. Musk restating support adds no substantive new development."
+    },
+    {
+      "story_key": "nvidia-rtx-spark-windows-ai",
+      "event_date": "2026-06-01",
+      "title_en": "NVIDIA + Microsoft RTX Spark AI PCs",
+      "source": "NVIDIA Newsroom",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at Computex on 2026-06-01; Jensen's July 22 visit was a commissioning event, not new news. event_date 2026-06-01 is >5 days old."
+    },
+    {
+      "story_key": "anthropic-opus5-release",
+      "event_date": "2026-07-23",
+      "title_en": "Anthropic expected to launch Claude Opus 5 on July 23",
+      "source": "BigGo/Polymarket",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Non-event: Polymarket surged to 88% but as of 2026-07-23 Anthropic did NOT announce Opus 5; newest remains Opus 4.8. No confirmed development to report."
+    },
+    {
+      "story_key": "deepseek-v4-legacy-retirement",
+      "event_date": "2026-07-24",
+      "title_en": "DeepSeek retires legacy model names July 24",
+      "source": "DeepSeek API Docs",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Routine API migration deadline (deepseek-chat/reasoner retired), not a new model or significant development. Below significance bar."
+    }
+  ]
+}
