@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-25",
+  "total_candidates": 15,
+  "kept": 6,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "ai-kill-switch-act",
+      "event_date": "2026-07-23",
+      "title_en": "Lieu and Moran introduce bipartisan AI Kill Switch Act granting DHS shutdown authority",
+      "source": "@RepTedLieu",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel bipartisan federal bill (introduced 2026-07-23) requiring covered AI developers to maintain a shutdown capability and authorizing DHS to force slowdowns/shutdowns, with penalties up to $20M/day. Builds on but is distinct from the 07-20 openai-model-sandbox-escape story."
+    },
+    {
+      "story_key": "moonshot-ipo-funding",
+      "event_date": "2026-07-22",
+      "title_en": "Moonshot to start pre-IPO round in August at $50B valuation, Hong Kong IPO within six months",
+      "source": "@Kimi_Moonshot",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback (prior coverage was moonshot-kimi-k3 about the model launch/pause). New development: distinct capital-markets story - final pre-IPO round at ~$50B (up from current $31.5B round), $300M ARR by June, HK listing within six months."
+    },
+    {
+      "story_key": "google-atlas-report",
+      "event_date": "2026-07-23",
+      "title_en": "Google publishes ATLAS v1.0 mapping 15M Gemini conversations across the economy",
+      "source": "Google",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. First AI & Economy ATLAS report (2026-07-23) built from 15M anonymized conversations; AI touches 68% of occupations but fully automates <10% of tasks."
+    },
+    {
+      "story_key": "musk-ai-peer-review",
+      "event_date": "2026-07-23",
+      "title_en": "Musk proposes rival labs peer-review each other's frontier models before release",
+      "source": "@elonmusk",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. In an Economist interview (2026-07-23) Musk proposed frontier-lab peer review and regular safety calls, with government intervention only as a last resort."
+    },
+    {
+      "story_key": "samsung-rx-robotics",
+      "event_date": "2026-07-21",
+      "title_en": "Samsung launches RX robotics division with factory-tested Shallow-pi VLA model",
+      "source": "Samsung",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Samsung created the CEO-controlled Robotics eXperience (RX) division on 2026-07-21, arriving with its factory-tested Shallow-pi VLA robot-brain model and a large physical-AI investment."
+    },
+    {
+      "story_key": "deepseek-v4-ga",
+      "event_date": "2026-07-24",
+      "title_en": "DeepSeek V4 stable GA; legacy API aliases retire, V4-Flash undercuts frontier pricing",
+      "source": "@deepseek_ai",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. On 2026-07-24 DeepSeek retired legacy deepseek-chat/deepseek-reasoner aliases, forcing migration to stable V4; V4-Flash output at $0.28/M sets a new open-weight price floor."
+    },
+    {
+      "story_key": "deepseek-74b-star-ipo",
+      "event_date": "2026-07-23",
+      "title_en": "DeepSeek reportedly eyeing $71B Shanghai STAR listing by Q2 2027",
+      "source": "@deepseek_ai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-15 as deepseek-74b-star-ipo ('DeepSeek seeking ~$74B raise and STAR Market IPO prep'). New chatter (~$71B, Q2 2027 target) is essentially the same story with no substantive new development."
+    },
+    {
+      "story_key": "psibot-world-model-funding",
+      "event_date": "2026-07-23",
+      "title_en": "China's PsiBot hits $1.48B valuation in round led by Chery",
+      "source": "PsiBot",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-23 as psibot-world-model-funding. Same round, same facts."
+    },
+    {
+      "story_key": "openai-presence-agents",
+      "event_date": "2026-07-22",
+      "title_en": "OpenAI Presence enterprise agent platform with forward-deployed engineers",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-22 as openai-presence-agents. Follow-up coverage adds no new facts."
+    },
+    {
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-23",
+      "title_en": "Kimi K3 hits $300M ARR while pausing new subscriptions",
+      "source": "@Kimi_Moonshot",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "K3 launch and subscription pause already published 2026-07-16 (moonshot-kimi-k3) and 2026-07-20 (moonshot-kimi-k3). Revenue figure rolled into the kept moonshot-ipo-funding item instead."
+    },
+    {
+      "story_key": "stellantis-wayve-uber-robotaxi",
+      "event_date": "2026-06-17",
+      "title_en": "Stellantis, Wayve and Uber sign MoU to deploy Level 4 robotaxis globally",
+      "source": "Stellantis",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-17 is 38 days old (>5 day limit)."
+    },
+    {
+      "story_key": "southkorea-ai-chip-investment",
+      "event_date": "2026-06-29",
+      "title_en": "South Korea unveils $880B Samsung/SK Hynix AI-chip investment plan",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-29 is 26 days old (>5 day limit)."
+    },
+    {
+      "story_key": "karpathy-joins-anthropic",
+      "event_date": "2026-05-19",
+      "title_en": "Andrej Karpathy joins Anthropic's pre-training team",
+      "source": "@karpathy",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-19 is 67 days old (>5 day limit)."
+    },
+    {
+      "story_key": "terafab-intel-chip",
+      "event_date": "2026-04-07",
+      "title_en": "Intel joins Musk's $25B Terafab chip megaproject in Texas",
+      "source": "Intel",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-04-07 (Intel joining) is far outside the 5-day window; Terafab unveiled 2026-03-21."
+    },
+    {
+      "story_key": "cerebras-ipo",
+      "event_date": "2026-05-14",
+      "title_en": "Cerebras Systems begins trading on Nasdaq under CBRS",
+      "source": "Cerebras",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Cerebras IPO priced 2026-05-13 and began trading 2026-05-14 - already public, event >5 days old."
+    }
+  ]
+}
