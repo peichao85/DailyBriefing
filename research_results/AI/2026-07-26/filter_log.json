@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-26",
+  "total_candidates": 12,
+  "kept": 6,
+  "dropped": 6,
+  "decisions": [
+    {
+      "story_key": "anthropic-opus5-release",
+      "event_date": "2026-07-24",
+      "title_en": "Anthropic launches Claude Opus 5 with effort toggle at half Fable 5's cost",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New frontier model released 2026-07-24; within 5-day window."
+    },
+    {
+      "story_key": "etched-20b-valuation",
+      "event_date": "2026-07-23",
+      "title_en": "Etched closes $300M Series C at $10.3B, led by Sequoia",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-07-17 as speculation of parallel rounds (~$20B Jane Street / ~$10B Sequoia). New info: round CLOSED at $10.3B, $300M raised, led by Sequoia with a16z, Jane Street, SK Hynix; valuation doubled from $5B in Dec."
+    },
+    {
+      "story_key": "amd-cerebras-inference",
+      "event_date": "2026-07-23",
+      "title_en": "AMD and Cerebras announce disaggregated inference solution (Helios + WSE)",
+      "source": "AMD Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct from amd-helios-rack-launch: this is a specific AMD+Cerebras partnership for disaggregated inference, 5x tokens/watt, Cerebras Cloud H2 2026."
+    },
+    {
+      "story_key": "intel-q2-2026-earnings",
+      "event_date": "2026-07-23",
+      "title_en": "Intel Q2 2026: revenue +25%, Data Center AI +59%, capex raised past $20B",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Fastest revenue growth in 15+ years driven by AI; event 2026-07-23."
+    },
+    {
+      "story_key": "samsung-unpacked-galaxy-glasses",
+      "event_date": "2026-07-24",
+      "title_en": "Samsung Unpacked: first Galaxy Glasses (Warby Parker/Gentle Monster) + Z Fold8 Ultra",
+      "source": "Samsung Newsroom",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. First AI smart-glasses entry; event 2026-07-24."
+    },
+    {
+      "story_key": "japan-noestra-consortium",
+      "event_date": "2026-07-24",
+      "title_en": "Japan forms Noestra consortium of 44 companies for sovereign physical AI",
+      "source": "Tech Startups",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct from japan-frontia-physical-ai (government METI program, 2026-07-16): this is an industry-led 44-company consortium; event 2026-07-24."
+    },
+    {
+      "story_key": "alphabet-q2-2026-capex",
+      "event_date": "2026-07-24",
+      "title_en": "Google raises 2026 capex to $195-205B, reports negative free cash flow",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-22 ('Alphabet财报双超预期,却因把2026资本开支飙到2050亿美元遭抛售'). Same capex guidance and story; negative-FCF detail is minor and not substantively new."
+    },
+    {
+      "story_key": "moonshot-ipo-funding",
+      "event_date": "2026-07-24",
+      "title_en": "Moonshot AI in talks to raise at up to $50B ahead of HK IPO",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-22 ('月之暗面启动Pre-IPO,冲500亿美元估值'). No substantive new information."
+    },
+    {
+      "story_key": "ai-kill-switch-act",
+      "event_date": "2026-07-23",
+      "title_en": "Bipartisan AI Kill Switch Act would let DHS shut down advanced AI",
+      "source": "Tech Startups",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-23 in full. No new development."
+    },
+    {
+      "story_key": "ai-ceo-regulation-convergence",
+      "event_date": "2026-07-14",
+      "title_en": "Hassabis/Altman/Amodei converge on frontier-AI regulation (FINRA-style body)",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying events (Hassabis proposal 2026-07-14, Axios convergence piece 2026-07-16) are 10-12 days old; exceeds 5-day limit."
+    },
+    {
+      "story_key": "openai-ipo-filing",
+      "event_date": "2026-06-08",
+      "title_en": "OpenAI confidentially files for IPO",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Confidential filing was May/June 2026; far outside 5-day window."
+    },
+    {
+      "story_key": "diffusiongemma-release",
+      "event_date": "2026-07-08",
+      "title_en": "Google DeepMind DiffusionGemma reaches 1000+ tokens/sec on single H100",
+      "source": "ThursdAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released ~2026-07-08; more than 5 days old."
+    }
+  ]
+}

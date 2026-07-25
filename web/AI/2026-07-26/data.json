@@ -1,0 +1,174 @@
+{
+  "date": "2026-07-26",
+  "category": "AI",
+  "title": "Anthropic不涨价把Opus 5打进近旗舰,推理芯片战全面点燃:Etched估值翻倍破百亿、AMD联手Cerebras拆解英伟达,Intel靠AI创15年最快增长",
+  "items": [
+    {
+      "id": "1",
+      "title": "Anthropic把'旗舰级'价格打对折:Opus 5逼近Fable 5,还给用户装了'努力档位'旋钮",
+      "source": "Anthropic",
+      "source_name": "Anthropic Blog",
+      "source_url": "https://www.anthropic.com/news/claude-opus-5",
+      "story_key": "anthropic-opus5-release",
+      "event_date": "2026-07-24",
+      "summary": "Anthropic于7月24日发布Claude Opus 5,称其在多数任务上逼近旗舰Fable 5的智能,但价格只有其一半;并首次让用户通过'努力档位'(low/medium/high)在成本与能力之间自由权衡。",
+      "detail": "Anthropic在7月24日正式推出Claude Opus 5,把它定位为'会主动验证、迭代、自我纠错'的干活型模型,而非只会应答的对话机。官方称在编程与知识工作评测上,Opus 5在Frontier-Bench与GDPval-AA上刷新SOTA,在CursorBench上与最强的Fable 5差距仅0.5%,却只需其一半的调用成本;在ARC-AGI 3上的解题得分是竞品的3倍,Zapier AutomationBench通过率提升1.5倍,OSWorld 2.0(电脑操作)上以三分之一成本反超Fable 5,有机化学(+10.2分)与蛋白质分析(+7.7分)也有明显进步。唯一仍落后的是网络安全任务,那里由专攻安全的Mythos 5领跑。\n\n最受关注的产品变化是新增的'努力档位'(effort)开关:用户可显式选择让模型投入low/medium/high不同的思考量,从而在'更聪明'与'更省token、更快、更便宜'之间自行取舍;同时提供2.5倍速的Fast mode。定价维持与前代Opus 4.8完全相同的每百万输入5美元、输出25美元——等于用不涨价换来一次能力跃迁。Opus 5即刻登陆Claude API、Claude.ai、Claude Code与Claude Cowork,并成为Claude Max的新默认模型、Claude Pro上可用的最强模型。",
+      "key_quotes": [
+        "Claude Opus 5 approaches Fable-level performance at half the cost. Within Devin, it also shows particular strength on difficult debugging and root-cause analysis tasks."
+      ],
+      "significance": "这是把'近旗舰能力'从奢侈品变成日常口粮的一步:同样的价格拿到大幅更强的模型,再叠加可调努力档位,意味着企业能按任务价值精细分配算力预算,而不必为每一次简单调用都付旗舰价。它也重塑了Anthropic自家的产品阶梯——Opus 5成为多数办公场景的默认选择,把更贵的Fable 5挤向少数极限任务。",
+      "links": [
+        "https://www.anthropic.com/news/claude-opus-5",
+        "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5",
+        "https://fortune.com/2026/07/24/anthropic-debuts-claude-opus-5-with-feature-that-lets-users-toggle-between-cost-and-capability/"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "Anthropic",
+        "Claude Opus 5",
+        "模型发布",
+        "推理成本"
+      ],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "'背靠背融资'尘埃落定:Etched拍板3亿美元C轮、估值103亿,红杉领投赌'干掉推理层的英伟达'",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "story_key": "etched-20b-valuation",
+      "event_date": "2026-07-23",
+      "summary": "Transformer专用推理芯片公司Etched于7月23日敲定3亿美元C轮融资,估值103亿美元,由红杉领投,a16z、Jane Street、SK Hynix等参投——七个月内估值翻倍。",
+      "detail": "此前同时洽谈两轮、估值众说纷纭的Etched,7月23日尘埃落定:实际完成一轮3亿美元C轮融资,投后估值103亿美元,由红杉资本领投,Andreessen Horowitz、Jane Street、Diffusion与内存大厂SK Hynix参投,天使名单还包括Peter Thiel、Andrej Karpathy、Dylan Field、Amjad Masad等。公司由三位哈佛辍学生于2022年创办,去年12月的一轮估值还只有50亿美元,七个月内翻倍。\n\nEtched的核心产品是Sohu——一款在台积电4nm工艺上、把Transformer架构直接固化进硅片的专用ASIC。公司宣称其推理吞吐可达英伟达H100的约20倍,并称已握有超过10亿美元的已签客户合同。这轮资金将用于扩产前沿推理集群,把这套'只跑Transformer'的赌注真正推向商用。\n\n背景回顾:7月17日曾传出Etched同时在谈两轮融资(一轮由Jane Street领投、估值约200亿美元,另一轮由红杉领投、估值约100亿美元),当时两笔均未落定。",
+      "key_quotes": [
+        "Etched develops frontier inference clusters and its Sohu chip, purpose-built to make running AI models significantly faster, more cost-effective, and more power-efficient than traditional general-purpose GPUs."
+      ],
+      "significance": "融资从传闻走向落定,给了'专用推理芯片能否撼动英伟达'这个命题一个明确的资本答案:红杉领投、SK Hynix入股,说明产业链愿意为'把架构焊进硅片换极致能效'的路线押注。在推理成本成为AI商业化生死线的当下,Etched代表了绕开通用GPU、直取推理层的一种可行威胁。",
+      "links": [
+        "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+        "https://mlq.ai/news/etched-raises-300m-series-c-at-103b-valuation-to-scale-gpu-free-inference-chips/"
+      ],
+      "tags": [
+        "Etched",
+        "推理芯片",
+        "融资",
+        "红杉",
+        "Sohu"
+      ],
+      "category": "builders"
+    },
+    {
+      "id": "3",
+      "title": "'拆开来打'英伟达:AMD拉Cerebras搞分离式推理,Helios管吞吐、晶圆引擎管低延迟,每瓦token翻5倍",
+      "source": "AMD",
+      "source_name": "AMD Newsroom",
+      "source_url": "https://newsroom.amd.com/news/aai-2026-cerebras-inference/",
+      "story_key": "amd-cerebras-inference",
+      "event_date": "2026-07-23",
+      "summary": "AMD与Cerebras于7月23日宣布技术合作,推出'分离式(disaggregated)'推理方案:用AMD Helios机架处理高吞吐prompt、用Cerebras晶圆级引擎(WSE)负责超低延迟解码,号称每瓦token吞吐最高提升5倍。",
+      "detail": "在Advancing AI 2026大会上,AMD与晶圆级芯片公司Cerebras于7月23日联合发布一套'分离式推理'架构:把推理的两个阶段拆开交给各自最擅长的硬件——AMD Helios机架级系统充当'高吞吐prompt引擎',负责批量处理海量复杂请求;Cerebras的Wafer-Scale Engine(WSE)则专司'解码'环节,以超低延迟实时吐出token。两者组合据July 2026建模测算,相比仅用Cerebras WSE的配置,每瓦每秒token吞吐最高可提升5倍。\n\n该联合方案预计2026下半年先通过Cerebras Cloud上线,主打软件开发、自主智能体、机器人与科学发现等对响应时延敏感的场景。这是继AMD此前拿下微软作为Helios客户之后,又一次围绕自家机架系统扩充推理生态的动作;消息公布当日AMD股价一度下跌约3%。",
+      "key_quotes": [
+        "AMD Helios provides the high-throughput prompt engine and rack-scale efficiency, while Cerebras Wafer-Scale Engine provides the ultra-low-latency decode performance needed to return tokens in real time."
+      ],
+      "significance": "'分离式推理'把预填充(prefill)与解码(decode)拆到不同硬件,是应对推理经济学的关键工程思路——两个阶段的算力/带宽特征天差地别,用一种芯片通吃并不划算。AMD与Cerebras联手,等于用'组合拳'在推理层向英伟达的一体化方案发起挑战,也让Cerebras的晶圆级路线找到了规模化落地的载体。",
+      "links": [
+        "https://newsroom.amd.com/news/aai-2026-cerebras-inference/",
+        "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference"
+      ],
+      "image": "assets/logos/amd-logo.png",
+      "image_type": "logo",
+      "tags": [
+        "AMD",
+        "Cerebras",
+        "推理",
+        "分离式架构",
+        "Helios"
+      ],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "'掉队'的Intel靠AI翻身:单季营收暴涨25%创15年最快,数据中心AI飙59%,资本开支加码破200亿",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+      "story_key": "intel-q2-2026-earnings",
+      "event_date": "2026-07-23",
+      "summary": "Intel于7月23日公布二季度财报:营收161亿美元、同比增25%,为15年多来最快增速;其中数据中心AI业务同比大涨59%,占总营收约七成来自AI相关业务。公司同时把2026年资本开支从约180亿上调至逾200亿美元。",
+      "detail": "长期被视为'AI掉队者'的Intel交出一份让市场意外的成绩单:二季度营收161亿美元、同比增长25%,调整后每股收益0.42美元,均超华尔街预期;CEO陈立武(Lip-Bu Tan)称这是公司15年多来最快的营收增速。拉动增长的正是此前的短板——数据中心AI业务收入达63亿美元,环比增24%、同比暴增59%,AI驱动的各项业务整体同比增长超70%,合计约占总营收的七成。非GAAP毛利率跳升至41.8%,高出指引280个基点。\n\n乘着这股需求,Intel把2026年资本开支指引从约180亿美元上调至逾200亿美元,主要用于Intel 3、18A与18A-P制程的产能与设备投入,并暗示2027年投入可能再度显著抬升。财报公布后,盘后股价一度反弹。",
+      "key_quotes": [
+        "Revenue growth was the strongest in more than 15 years. — Intel CEO Lip-Bu Tan"
+      ],
+      "significance": "在英伟达、AMD、乃至Etched这类新贵轮番抢镜的当口,Intel用一份'AI拉动的强财报'证明自己仍在牌桌上——数据中心AI增速59%说明它的机架与代工需求确实被AI热潮点燃。资本开支破200亿并预告2027再加码,也再次印证:AI基础设施的军备竞赛已从模型公司蔓延到每一家芯片与代工厂,谁都不敢在产能上落后。",
+      "links": [
+        "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+        "https://finance.biggo.com/news/US_INTC_2026-07-23"
+      ],
+      "tags": [
+        "Intel",
+        "财报",
+        "数据中心",
+        "资本开支",
+        "AI需求"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "手机厂商集体'上脸':三星Unpacked端出首款Galaxy Glasses,联手Warby Parker与Gentle Monster",
+      "source": "Samsung",
+      "source_name": "Samsung Newsroom",
+      "source_url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+      "story_key": "samsung-unpacked-galaxy-glasses",
+      "event_date": "2026-07-24",
+      "summary": "三星在7月24日伦敦Galaxy Unpacked上一口气发布六款新品,首次推出自家AI智能眼镜Galaxy Glasses(与Warby Parker、Gentle Monster合作),并带来顶配折叠机Galaxy Z Fold8 Ultra。",
+      "detail": "三星电子7月24日在伦敦举办Galaxy Unpacked,发布第八代折叠系列及穿戴新品共六款:Galaxy Z Fold8、Z Fold8 Ultra、Z Flip8、Galaxy Watch9、Watch Ultra2,以及公司首款智能眼镜Galaxy Glasses。其中最受关注的是Galaxy Glasses——三星分别与时尚眼镜品牌Warby Parker和Gentle Monster推出两个联名款,主打把AI助手'戴上脸',但官方尚未公布价格、上市地区与确切发售日期。\n\n硬件旗舰Galaxy Z Fold8 Ultra定位'一机三用'(手机+平板工作区+创作设备):展开为8英寸主屏,外屏6.5英寸可当普通手机用,配2亿像素主摄与3倍光变长焦,起售价2099.99美元(256GB),美国8月7日开卖。",
+      "key_quotes": [
+        "Two stylish smart glasses collaborations between Samsung and leading eyewear brands Warby Parker and Gentle Monster were announced."
+      ],
+      "significance": "在Meta的Ray-Ban智能眼镜跑通'AI+时尚眼镜'路线之后,三星以联名方式高调入局,标志着安卓阵营头部厂商正把AI硬件的主战场从手机延伸到'脸上'。智能眼镜被普遍视为承接AI助手的下一代终端形态,三星的加入会加速这一品类从极客玩具走向主流消费。",
+      "links": [
+        "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+        "https://www.itp.net/digital-culture/samsung-unpacked-2026-galaxy-z-fold8-ultra-flip8-watch9-and-ai-glasses-unveiled"
+      ],
+      "image": "assets/logos/samsung-logo.svg",
+      "image_type": "logo",
+      "tags": [
+        "Samsung",
+        "智能眼镜",
+        "Galaxy Glasses",
+        "AI硬件",
+        "折叠屏"
+      ],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "44家企业抱团造'主权物理AI':日本成立Noestra联盟,要把本土工业数据攥在自己手里",
+      "source": "Tech Startups",
+      "source_name": "Tech Startups",
+      "source_url": "https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/",
+      "story_key": "japan-noestra-consortium",
+      "event_date": "2026-07-24",
+      "summary": "日本44家企业于7月24日前后组建'Noestra'产业联盟,聚焦面向机器人与制造现场的'物理AI',目标是把本土专有工业数据、机器人经验与自主可控算力结合,减少对外国技术的依赖。",
+      "detail": "继日本政府主导的FRONTia项目之后,产业界也开始抱团:44家日本企业组建名为'Noestra'的联盟,把'主权AI'的重心明确放在机器人与物理AI上。联盟的核心逻辑是把三样东西攥在本国手里——各家积累的专有工业数据、深厚的机器人与制造工艺经验,以及可自主掌控的本地算力,进而训练出服务于工厂现场的国产物理AI基础模型。\n\n这是日本'把公共与私人资本导向半导体、AI等战略产业'大盘子里的一环,意在减少对外国AI技术与算力的依赖,同时支撑本土先进制造。与政府端的FRONTia(五年1万亿日元、采购英伟达Rubin GPU)形成一上一下的呼应:政府出资金与算力底座,产业联盟出数据与落地场景。",
+      "key_quotes": [
+        "Japan is organizing a sovereign AI push around robotics, combining proprietary industrial data, robotics expertise and locally controlled computing resources."
+      ],
+      "significance": "'物理AI'与'主权AI'两股潮流在日本合流,揭示了后发经济体的一条差异化路径:不与美中在通用大模型上硬拼,而是用本国最强的制造业与工业数据护城河,去卡位机器人和工厂场景。44家企业联合行动,也说明数据与场景的碎片化正倒逼产业以联盟形式集中资源。",
+      "links": [
+        "https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/"
+      ],
+      "tags": [
+        "日本",
+        "主权AI",
+        "物理AI",
+        "机器人",
+        "产业联盟"
+      ],
+      "category": "news"
+    }
+  ]
+}
