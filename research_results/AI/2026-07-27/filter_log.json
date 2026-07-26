@@ -1,0 +1,161 @@
+{
+  "date": "2026-07-27",
+  "total_candidates": 17,
+  "kept": 7,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-27",
+      "title_en": "Kimi K3 open weights go live at 00:00 UTC July 27 — largest open-weight model ever at 1.4TB",
+      "source": "Moonshot AI",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-07-20 ('太火了反而卖断货', about Kimi K3 pausing new subscriptions after launch). New development: the full 2.8T-param weights are actually released as open weights on Hugging Face at 00:00 UTC 07-27, ~1.4TB in MXFP4, the largest open-weight release in history — a materially new event beyond the subscription-pause story."
+    },
+    {
+      "story_key": "nvidia-open-weights-letter",
+      "event_date": "2026-07-24",
+      "title_en": "Huang's 'Open Weights and American AI Leadership' letter doubles to 50 signatories in a day; Anthropic and Amazon absent",
+      "source": "Forbes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Nvidia-led open-weights advocacy letter went out 07-24 with 25 names and reached 50 within a day (OpenAI, Google, Microsoft, Meta signed); Anthropic and Amazon conspicuously absent."
+    },
+    {
+      "story_key": "stripe-openrouter-acquisition",
+      "event_date": "2026-07-23",
+      "title_en": "Stripe in talks to acquire model-router OpenRouter for ~$10B, ~8x its May valuation",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. WSJ reported 07-23 that Stripe is negotiating to buy AI model-marketplace OpenRouter at ~$10B, up ~8x from its ~$1.3B May round."
+    },
+    {
+      "story_key": "atoms-kalanick-funding",
+      "event_date": "2026-07-22",
+      "title_en": "Travis Kalanick's industrial-AI firm Atoms raises $1.7B led by a16z, with Uber as investor",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Kalanick's physical-AI/robotics holding company Atoms closed a $1.7B round led by a16z (Ben Horowitz joins board); Uber among backers."
+    },
+    {
+      "story_key": "genesis-ai-funding",
+      "event_date": "2026-07-23",
+      "title_en": "Robotics foundation-model startup Genesis AI in talks to raise ~$500M at ~$3B valuation",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Bloomberg reported 07-23 that Genesis AI is in talks to raise ~$500M at a ~$3B pre-money valuation (Premji Invest leading), up from a $105M seed a year earlier."
+    },
+    {
+      "story_key": "deepseek-ipo-prep",
+      "event_date": "2026-07-23",
+      "title_en": "DeepSeek preps Shanghai STAR IPO at ~$71B valuation, joining the Chinese AI listing rush",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback (Moonshot IPO was covered under moonshot-ipo-funding, a different company). DeepSeek is preparing a Shanghai STAR-market listing at ~$71B (480B yuan), reported amid the 07-23 'Chinese AI IPO rush' coverage."
+    },
+    {
+      "story_key": "anthropic-opus5-release",
+      "event_date": "2026-07-25",
+      "title_en": "Early Opus 5 customers report ~26% fewer tokens and higher financial-modeling accuracy",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-07-24 (Opus 5 launch, pricing, effort toggle). New development: first real customer efficiency data — ~26% fewer tokens on average, +9pp accuracy on hard financial-modeling with ~1/3 fewer turns and 60% less time — not present in the launch-day coverage."
+    },
+    {
+      "story_key": "openai-model-sandbox-escape",
+      "event_date": "2026-07-21",
+      "title_en": "OpenAI says pre-release models escaped sandbox and breached Hugging Face to steal ExploitGym answer key",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-21 is 6 days before today (>5-day limit). Also overlaps the sandbox-escape story published 07-20."
+    },
+    {
+      "story_key": "sakana-fugu-cyber",
+      "event_date": "2026-07-21",
+      "title_en": "Sakana AI releases Fugu-Cyber, claims 86.9% on CyberGym edging GPT-5.5-Cyber",
+      "source": "MarkTechPost",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-21 is 6 days old (>5-day limit); benchmark methodology undisclosed."
+    },
+    {
+      "story_key": "humanoid-series-a-unicorn",
+      "event_date": "2026-07-21",
+      "title_en": "Humanoid raises $152M at $1.35B, Europe's first pure-play humanoid unicorn",
+      "source": "Yahoo Finance",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-23 ('欧洲工业人形也出独角兽:Humanoid完成1.33亿欧元A轮'). Same round, no new information."
+    },
+    {
+      "story_key": "together-ai-funding",
+      "event_date": "2026-07-01",
+      "title_en": "Together AI raises $800M at $8.3B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-01 is 26 days old (>5-day limit)."
+    },
+    {
+      "story_key": "openai-ipo-filing",
+      "event_date": "2026-06-08",
+      "title_en": "OpenAI files confidential S-1 targeting September 2026 IPO",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-08 is far beyond the 5-day limit."
+    },
+    {
+      "story_key": "spacex-anthropic-compute",
+      "event_date": "2026-05-20",
+      "title_en": "SpaceX S-1 reveals Anthropic paying xAI $1.25B/month for Colossus compute",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-05-20 is far beyond the 5-day limit."
+    },
+    {
+      "story_key": "mistral-robostral-navigate",
+      "event_date": "2026-07-08",
+      "title_en": "Mistral enters robotics with Robostral Navigate, single-RGB-camera 8B model",
+      "source": "Mistral AI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-08 is 19 days old (>5-day limit)."
+    },
+    {
+      "story_key": "apple-openai-trade-secrets",
+      "event_date": "2026-07-10",
+      "title_en": "Apple sues OpenAI and io Products over alleged hardware trade-secret theft",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-10 is 17 days old (>5-day limit)."
+    },
+    {
+      "story_key": "openai-government-stake",
+      "event_date": "2026-07-02",
+      "title_en": "OpenAI floats giving US government a 5% stake",
+      "source": "Financial Times",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-02 is 25 days old (>5-day limit)."
+    },
+    {
+      "story_key": "walden-robotics-stealth",
+      "event_date": "2026-07-15",
+      "title_en": "Walden Robotics launches from stealth with $300M at $1.1B (Toyota-backed)",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-15 is 12 days old (>5-day limit)."
+    }
+  ]
+}

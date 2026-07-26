@@ -1,0 +1,176 @@
+{
+  "date": "2026-07-27",
+  "category": "AI",
+  "researched_at": "2026-07-27T07:05:00+08:00",
+  "sources_checked": ["@sama", "@demishassabis", "@elonmusk", "@alexandr_wang", "@karpathy", "@DrJimFan", "@garrytan", "@ScottWu46", "@JonathanRoss321", "TechCrunch", "Bloomberg", "Forbes", "Axios", "Fortune", "Interconnects", "Wall Street Journal", "Anthropic", "Hugging Face"],
+  "items": [
+    {
+      "id": "1",
+      "title": "史上最大开源权重'开闸':Kimi K3的2.8万亿参数今日全量放出,但1.4TB门槛把自托管挡在门外",
+      "source": "Moonshot AI",
+      "source_name": "Interconnects",
+      "source_url": "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-27",
+      "summary": "月之暗面(Moonshot AI)于7月27日00:00 UTC在Hugging Face正式开源Kimi K3的全量权重——2.8万亿参数,成为史上最大的开源权重模型;但即便用MXFP4四位量化,权重体积仍高达约1.4TB,意味着绝大多数团队仍只能走API而非自托管。",
+      "detail": "北京时间7月27日,月之暗面把此前引爆算力的旗舰模型Kimi K3的全量权重按预告在Hugging Face公开放出,时间点定在7月27日00:00 UTC(美东时间7月26日晚8点)。这是一个约2.8万亿参数的稀疏MoE(Mixture-of-Experts)模型,拥有100万token上下文窗口;每个token只激活896个专家中的16个、约500亿活跃参数,因此虽体量巨大但推理相对高效。按参数规模计,这是迄今公开发布的最大开源权重模型。\n\n真正的门槛在'搬运'和'承载'。即便采用MXFP4四位量化压缩,权重文件依旧需要约1.4TB的高速显存/内存才能装下,远超任何消费级硬件,也让绝大多数企业难以自建集群运行。业界的现实判断是:短期内多数团队仍会通过Together AI等推理服务商调用K3,而非下载自托管,直到社区产出更激进的进一步量化版本。开源与'可用'之间,横着一道1.4TB的鸿沟。\n\n开源还牵出一层地缘与合规考量:把权重下载到自有基础设施上运行,意味着prompt数据不再触达受中国《国家情报法》约束的服务器——这被部分海外买家视为选择自托管而非官方API的关键理由。K3的开源因此不只是技术事件,也是一次围绕'数据主权'的选择题。\n\n背景回顾:Kimi K3于7月16日上线后48小时即因需求爆满、算力近满载,月之暗面一度暂停新用户订阅(见7月20日briefing)。",
+      "key_quotes": [
+        "Roughly 1.4 terabytes using MXFP4 quantization — the largest open-weight release in history.",
+        "Only 16 of 896 experts fire per token — about 50 billion active parameters."
+      ],
+      "significance": "把一个逼近前沿闭源水平的2.8万亿参数模型直接开源,进一步抬高了'开源权重'的天花板,也把竞争焦点从'谁能训练'转向'谁能承载与服务'。1.4TB的落地门槛意味着开源的直接受益者是推理云厂商和有条件自建的大型企业,而非个人开发者;同时,自托管带来的数据合规优势,正让开源权重成为绕开跨境数据风险的一条现实路径。",
+      "links": [
+        "https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation",
+        "https://www.techi.com/kimi-k3-open-weights-inference-economics/",
+        "https://www.techtimes.com/articles/321551/20260725/kimi-k3-open-weights-arrive-sunday-self-hosting-cuts-china-data-risk-api-never-can.htm"
+      ],
+      "image": "img/kimi-logo.png",
+      "image_type": "logo",
+      "tags": ["Kimi K3", "开源权重", "Moonshot AI", "MoE", "推理经济学"],
+      "category": "trending"
+    },
+    {
+      "id": "2",
+      "title": "黄仁勋一封'开源权重'联名信一天翻倍到50家,却独缺Anthropic和亚马逊",
+      "source": "NVIDIA",
+      "source_name": "Forbes",
+      "source_url": "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/",
+      "story_key": "nvidia-open-weights-letter",
+      "event_date": "2026-07-24",
+      "summary": "英伟达牵头的《开源权重与美国AI领导力》联名信7月24日发布,起初25家签署,一天内翻倍至50家;OpenAI、Google、微软、Meta均已加入,唯独Anthropic与其最大投资方亚马逊缺席。",
+      "detail": "在华盛顿正权衡是否对可自由分发的模型权重(open weights)加码限制之际,英伟达CEO黄仁勋7月24日抛出一封题为《开源权重与美国AI领导力》(Open Weights and American AI Leadership)的公开信,呼吁监管者不要仅因'可能被滥用'就把开源权重当成一个威胁类别来管制。信件发布时有25家签名,黄仁勋的帖子浏览量迅速突破1100万,约两打公司随后跟进,到7月25日签署方已达50家。\n\n签署阵营星光熠熠:OpenAI、Google、微软、Meta悉数在列。但两个缺席者格外扎眼——Anthropic和亚马逊。亚马逊是Anthropic的最大投资方,Anthropic也在亚马逊自研的Trainium芯片等硬件上训练与部署模型;两家同进退地不签,被外界解读为立场信号。有评论直言,'Anthropic的沉默,才是这封信里最耐人寻味的地方'。\n\n这封信把一直以政策辩论形式存在的'开源 vs 闭源'路线之争,摆到了一张公开的名单上:谁愿意为开源权重的正当性背书、谁选择置身事外,一目了然。在中国开源模型(如同日开源的Kimi K3)持续施压、华盛顿讨论是否限制中国AI模型访问的背景下,这场表态的政治含义被进一步放大。",
+      "key_quotes": [
+        "Don't treat freely distributable model weights as a threat category just because misuse is possible.",
+        "Anthropic's silence on the letter is the most revealing thing about it."
+      ],
+      "significance": "一份行业联名信把'开源权重'从抽象政策辩论变成了公开的站队。50家企业为开源背书,显示产业界主流不愿看到权重被当作管制对象;而Anthropic与亚马逊的缺席,则凸显最强调安全的前沿实验室与'开源自由派'之间的裂痕正在公开化。这封信也会直接影响华盛顿关于是否限制开源(含中国开源模型)的立法走向。",
+      "links": [
+        "https://www.forbes.com/sites/sandycarter/2026/07/25/huangs-open-weights-letter-doubled-to-50-without-amazon-and-anthropic/",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-24-other-companies-sign-open-weights-letter-as-washington-weighs-chinese-ai-model-ban",
+        "https://thenewstack.io/microsoft-nvidia-meta-and-open-weights/"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["开源权重", "NVIDIA", "黄仁勋", "AI政策", "Anthropic"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "支付巨头也来抢'AI路由':Stripe洽购OpenRouter,约100亿美元、两个月估值飙8倍",
+      "source": "Stripe",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/07/24/stripe-openrouter-merger-ai-currency",
+      "story_key": "stripe-openrouter-acquisition",
+      "event_date": "2026-07-23",
+      "summary": "《华尔街日报》7月23日报道,支付公司Stripe正洽谈以约100亿美元收购AI模型路由平台OpenRouter——较其5月约13亿美元的估值暴涨约8倍;交易仍在进行、尚未敲定。",
+      "detail": "据《华尔街日报》7月23日率先披露,支付基础设施巨头Stripe正与OpenRouter商谈收购,潜在估值接近100亿美元。成立于2023年的OpenRouter是一个'模型路由'平台,让开发者和企业通过统一接口访问、比较并在数十种AI模型(涵盖闭源与开源)之间自由切换。\n\n最刺眼的是价格曲线:100亿美元的潜在估值,相比OpenRouter今年5月一轮融资后约13亿美元的估值,在短短两个月内跳涨约8倍。Axios分析认为,Stripe看中的是AI时代的一种新'货币'——对模型调用与用量的计量、计费和结算能力,而模型路由恰好卡在这条价值链的关键位置。对Stripe而言,把支付的'收单'逻辑复制到AI推理的token结算,是一次顺理成章的向上游延伸。\n\n需要提醒的是,谈判仍在流动中,可能生变、破裂,或引来竞购者。但即便只是传闻,这笔交易也已经点明一个趋势:AI基础设施的价值,正快速从'训练模型'向'分发与计费模型'的中间层转移。",
+      "key_quotes": [
+        "Stripe is exploring a deal that could value OpenRouter at nearly $10 billion.",
+        "AI currency is driving Stripe's OpenRouter move."
+      ],
+      "significance": "一家支付公司愿意为'模型路由'中间层开出百亿美元,标志着AI价值链的重心正从模型训练向'分发、计量与计费'转移。OpenRouter两个月估值涨8倍,既反映开源/多模型生态对聚合层的刚需,也预示未来AI商业化的关键卡位可能不在模型本身,而在谁掌握了调用与结算的入口。",
+      "links": [
+        "https://www.axios.com/2026/07/24/stripe-openrouter-merger-ai-currency",
+        "https://thenextweb.com/news/stripe-openrouter-10-billion-ai-model-marketplace-acquisition",
+        "https://www.benzinga.com/markets/private-markets/26/07/60678706/stripe-eyes-openrouter-in-potential-10-billion-ai-infrastructure-deal"
+      ],
+      "image": "assets/logos/stripe-logo.png",
+      "image_type": "logo",
+      "tags": ["Stripe", "OpenRouter", "并购", "模型路由", "AI基础设施"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "被自己创立的Uber'请回来'投资:卡兰尼克的工业AI公司Atoms拿下17亿美元,a16z领投",
+      "source": "@a16z",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "story_key": "atoms-kalanick-funding",
+      "event_date": "2026-07-22",
+      "summary": "Uber联合创始人Travis Kalanick的工业自动化/机器人公司Atoms于7月22日完成17亿美元融资,由a16z领投,Ben Horowitz加入董事会;当年把他赶下台的Uber这次成了投资方。",
+      "detail": "7月22日,Travis Kalanick旗下的物理AI(physical AI)公司Atoms宣布完成17亿美元融资,由Andreessen Horowitz(a16z)领投,Ben Horowitz将加入董事会,Bain Capital、Fifth Wall等参投。最具戏剧性的是——2017年把Kalanick逼下CEO之位的Uber,这一次出现在了投资人名单里,与这位创始人'再续前缘'。\n\nAtoms本质上是Kalanick离开Uber后多年布局的一个控股平台:它脱胎于其'幽灵厨房'项目CloudKitchens,今年3月更名Atoms时,Kalanick宣布收购了由其前Uber同事、自动驾驶老将Anthony Levandowski掌舵的重工业自动化公司Pronto。整合之后,Atoms的目标是用传感器、机器人与AI改造食品、采矿、运输等重工业与物流场景,把'通用机器人'投入真实生产。\n\n17亿美元的体量,加上a16z、Uber的加持,让Atoms一举成为物理AI赛道资金最充裕的玩家之一,也延续了本周资本疯狂涌入机器人/具身智能的主线。",
+      "key_quotes": [
+        "Uber also joined the funding round, re-connecting Kalanick with the company that pushed him out as CEO in 2017.",
+        "Ben Horowitz will join the company's board following the investment."
+      ],
+      "significance": "17亿美元的单轮融资规模,把物理AI/工业机器人的资本热度推到新高,也显示顶级VC正押注'通用机器人进车间'的商业化拐点。Uber回头投资曾被自己驱逐的创始人,更是硅谷权力关系的一个戏剧性注脚;而Kalanick+Levandowski的组合,则把网约车与自动驾驶时代的'颠覆'打法带进了重工业。",
+      "links": [
+        "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+        "https://www.pymnts.com/news/artificial-intelligence/2026/uber-co-founder-kalanicks-atoms-secures-1-7-billion-to-build-physical-ai/"
+      ],
+      "tags": ["Atoms", "Travis Kalanick", "物理AI", "a16z", "工业机器人"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "一年从1亿到30亿:机器人基础模型公司Genesis AI洽谈5亿美元新融资,估值翻近30倍",
+      "source": "Genesis AI",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-23/robotics-startup-genesis-in-talks-to-raise-about-500-million",
+      "story_key": "genesis-ai-funding",
+      "event_date": "2026-07-23",
+      "summary": "彭博7月23日报道,机器人基础模型初创Genesis AI正洽谈约5亿美元新融资,投前估值约30亿美元,由Premji Invest领投——距其一年前的1.05亿美元种子轮估值暴涨近30倍。",
+      "detail": "据彭博7月23日报道,主攻'通用机器人基础模型'的Genesis AI正与投资方商谈约5亿美元的新一轮融资,新钱进入前估值约30亿美元,预计由Premji Invest领投,HSG(红杉中国系)与Northzone也在洽谈之列。这一估值较其一年前(2025年7月出关)的1.05亿美元种子轮实现了近30倍的跃升。\n\nGenesis AI由Eclipse Ventures与Khosla Ventures联合孵化,背后站着前Google CEO Eric Schmidt、法国亿万富翁Xavier Niel等。公司走的是'全栈'路线:自研机器人基础模型,并配套数据与硬件;今年6月推出可推理、能适应预设任务之外场景的AI机器人Eno,5月的演示已显示其向全栈能力推进。\n\n把这笔融资放进本周的图景里,它与Atoms的17亿美元、Walden、Humanoid等一连串大额交易共同勾勒出同一条主线:资本正以极高的溢价抢占'物理AI/机器人基础模型'的头部席位,估值的攀升速度甚至超过了上一波大模型融资周期。",
+      "key_quotes": [
+        "Genesis is in talks to raise about $500 million at roughly a $3 billion valuation, with Premji Invest expected to lead.",
+        "A steep jump from the $105 million seed round that closed just a year earlier."
+      ],
+      "significance": "一年估值涨近30倍,是本轮'物理AI'热度最直观的量化写照。投资人愿意为尚未大规模商业化的机器人基础模型开出30亿美元估值,反映市场把'通用机器人大脑'视为下一个大模型级别的平台机会;同时也埋下泡沫隐忧——估值的攀升速度已明显领先于真实落地。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-07-23/robotics-startup-genesis-in-talks-to-raise-about-500-million",
+        "https://thenextweb.com/news/genesis-ai-500m-raise-robotics-foundation-model"
+      ],
+      "tags": ["Genesis AI", "机器人基础模型", "融资", "物理AI", "Premji Invest"],
+      "category": "news"
+    },
+    {
+      "id": "6",
+      "title": "中国AI'扎堆上市'再添一员:DeepSeek备战科创板IPO,估值冲约710亿美元",
+      "source": "DeepSeek",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/07/23/moonshot-deepseek-great-chinese-ai-ipo-rush/",
+      "story_key": "deepseek-ipo-prep",
+      "event_date": "2026-07-23",
+      "summary": "据报道,DeepSeek正筹备在上海科创板(STAR Market)上市,目标估值约710亿美元(约4800亿元人民币),较6月初约520亿美元估值再涨约37%;这让它加入了Moonshot等中国AI公司集中冲刺IPO的浪潮。",
+      "detail": "7月23日,《财富》以'月之暗面、DeepSeek与中国AI上市大潮'为题梳理了中国AI公司扎堆奔赴资本市场的景象,其中DeepSeek(深度求索)被曝正推进A股科创板(STAR Market)上市准备。公司据称正与投资者洽谈一轮追加融资,投前估值不低于4800亿元人民币(约710亿美元),较其6月初约520亿美元的投后估值再涨约37%。\n\nDeepSeek的重定价速度即便放在当下的AI融资周期里也堪称罕见:2026年4月早期讨论还只把它估到约100亿美元,到4月底已被传超过200亿美元,如今直奔710亿美元。公司据称已开始接洽会计师事务所与投行,推进上市筹备,最快2026年底递表,目标2027年二季度在科创板挂牌。\n\n这股'中国AI IPO潮'并非孤例:月之暗面同期传出赴港上市、目标估值高达500亿美元(见7月22日briefing);SpaceX、OpenAI、Anthropic也都在2026下半年排队登陆资本市场。一边是Kimi K3等开源模型持续放量,一边是估值与上市节奏同步狂飙,中国AI'国家队'正试图把技术热度兑现为资本市场的定价权。",
+      "key_quotes": [
+        "DeepSeek is in talks at a pre-money valuation of at least 480 billion yuan (about $71 billion), roughly 37% above its early-June figure.",
+        "Aiming for Shanghai's STAR market, with a listing as early as the second quarter of 2027."
+      ],
+      "significance": "DeepSeek冲刺约710亿美元估值的科创板IPO,标志着中国AI'国家队'开始把技术声量系统性地转化为资本市场定价权,也与月之暗面赴港上市共同构成一波'中国AI集中上市潮'。估值在数月内翻数倍,既显示国内外资本对中国开源阵营的追捧,也意味着这些公司必须尽快用商业化兑现支撑起狂飙的估值。",
+      "links": [
+        "https://fortune.com/2026/07/23/moonshot-deepseek-great-chinese-ai-ipo-rush/",
+        "https://finance.biggo.com/news/255e3d91-e916-43af-bb93-e29f545ccf3c",
+        "https://www.siliconrepublic.com/business/deepseek-reportedly-preparing-to-file-ipo-as-soon-as-this-year"
+      ],
+      "image": "assets/logos/deepseek-logo.png",
+      "image_type": "logo",
+      "tags": ["DeepSeek", "IPO", "科创板", "中国AI", "估值"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "Opus 5第一批实测数据出炉:同样任务少烧26% token,金融建模准确率再高9个百分点",
+      "source": "Anthropic",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/claude-opus-5",
+      "story_key": "anthropic-opus5-release",
+      "event_date": "2026-07-25",
+      "summary": "Claude Opus 5发布后首批客户实测数据显示:在保持同等效果的前提下,Opus 5平均少消耗约26%的token;在高难度金融建模任务上,其准确率比前代高出约9个百分点,同时所用轮次减少约三分之一、耗时下降约60%。",
+      "detail": "继7月24日发布之后,Anthropic旗舰模型Claude Opus 5的第一批真实使用数据于7月25日前后浮现,首次用客户侧指标印证了官方的'更省'叙事。早期客户反馈显示,在达到与前代相当的效果时,Opus 5平均少生成约26%的token——对按token计费的企业用户而言,这直接转化为成本下降。\n\n在更具体的高难度金融建模(financial-modeling)任务上,Opus 5的准确率比前代高出约9个百分点,且完成同一任务所需的交互轮次减少约三分之一、总耗时下降约60%。换言之,它不只是'更准',还'更快、更少绕路'。这与Opus 5主打的low/medium/high'努力档位'旋钮相互印证:用户可按任务价值在成本与能力之间自主权衡,而实测数据说明即便在默认档位,效率提升也已可观。\n\n背景回顾:Anthropic于7月24日发布Claude Opus 5,定价5美元/25美元(每百万输入/输出token)、100万token上下文,并首次引入'努力档位'旋钮,官方称其在多数任务上逼近Fable 5、价格却只有一半(见7月24日briefing)。",
+      "key_quotes": [
+        "Opus 5 matched previous performance while generating 26 percent fewer tokens on average.",
+        "Nine percentage points higher accuracy on hard financial-modeling tasks while using roughly a third fewer turns and 60 percent less time."
+      ],
+      "significance": "发布日之后最缺的往往是'真实世界的账'。这批客户实测把Opus 5的价值从benchmark分数落到可量化的成本与效率——少烧26% token、金融建模少绕三分之一的弯路——直接支撑了Anthropic'半价逼近旗舰'的定价策略,也给企业采购提供了硬指标。对以token计费的商业模式而言,'同等效果、更少token'比单纯的跑分提升更具说服力。",
+      "links": [
+        "https://www.anthropic.com/news/claude-opus-5",
+        "https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Claude Opus 5", "Anthropic", "token效率", "金融建模", "企业采购"],
+      "category": "frontier_leaders"
+    }
+  ]
+}
