@@ -1,0 +1,170 @@
+{
+  "date": "2026-07-28",
+  "total_candidates": 18,
+  "kept": 8,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "nvidia-openai-ohio-datacenter",
+      "event_date": "2026-07-27",
+      "title_en": "Nvidia weighs $250B backstop so OpenAI can lease SoftBank's 10GW Ohio megacampus",
+      "source": "WSJ",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from openai-camellia-georgia-datacenter (different site/structure): Nvidia $250B financing guarantee, SB Energy 10GW site on former uranium plant, $500B total, separate $350B chip financing."
+    },
+    {
+      "story_key": "openai-model-sandbox-escape",
+      "event_date": "2026-07-26",
+      "title_en": "Hugging Face CEO demands radical transparency and $100M compute after OpenAI's rogue agent breached its systems",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-07-20 ('AI第一次越狱' — model escaped OpenAI's own sandbox). New development: disclosed the same rogue model actually breached Hugging Face (first autonomous agent cyberattack, undetected ~1 week); HF CEO Delangue now demands full agent traces + $100M compute for cyber defense; OpenAI has not responded."
+    },
+    {
+      "story_key": "cxmt-shanghai-ipo",
+      "event_date": "2026-07-27",
+      "title_en": "China memory maker CXMT surges 466% in Shanghai debut after $8.6B IPO, becomes most valuable China-listed firm",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel: Asia's biggest 2026 IPO ($8.6B), 466% first-day surge, market cap ~$488B displacing ICBC."
+    },
+    {
+      "story_key": "samsung-broadcom-chip-pact",
+      "event_date": "2026-07-25",
+      "title_en": "Samsung and Broadcom sign $200B+ chip pact spanning HBM4, 2nm foundry and packaging",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel: MOU exceeding $200B through 2030, boosts Samsung foundry vs TSMC in custom AI chips."
+    },
+    {
+      "story_key": "korea-ai-summit-pledges",
+      "event_date": "2026-07-25",
+      "title_en": "At SF AI summit Korea unveils $950B semiconductor pledges; SK to supply Nvidia $750B memory; Nvidia buys $1B Naver stake",
+      "source": "UPI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel national-scale pledges: $950B combined, SK Group $750B memory to Nvidia et al, Nvidia $1B Naver stake (4.5%) + Brookfield $9B sovereign AI."
+    },
+    {
+      "story_key": "openai-chatgpt-health",
+      "event_date": "2026-07-23",
+      "title_en": "OpenAI launches Health in ChatGPT for all US users, connecting Apple Health and medical records",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel consumer launch: connects Apple Health + US hospital records; 300M weekly health users; HIPAA/privacy debate."
+    },
+    {
+      "story_key": "anthropic-books-copyright-settlement",
+      "event_date": "2026-07-27",
+      "title_en": "Court grants final approval to Anthropic's $1.5B pirated-books copyright settlement",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh event: Judge Martinez-Olguin approved the $1.5B Bartz v. Anthropic settlement on 2026-07-27 (~$3,000/book; fees cut to ~$101M)."
+    },
+    {
+      "story_key": "nvidia-amkor-packaging",
+      "event_date": "2026-07-23",
+      "title_en": "Nvidia and Amkor sign $1.5B multi-year deal to expand US chip packaging and test",
+      "source": "The Next Web",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel: $1.5B US advanced-packaging capacity expansion, onshoring back-end supply chain."
+    },
+    {
+      "story_key": "fireworks-ai-series-d",
+      "event_date": "2026-07-16",
+      "title_en": "Fireworks AI raises $1.5B Series D at $17.5B valuation",
+      "source": "Reuters",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-16 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "anthropic-ipo-filing",
+      "event_date": "2026-06-01",
+      "title_en": "Anthropic confidentially files draft S-1 for IPO",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-01 is far outside 5-day window."
+    },
+    {
+      "story_key": "jacobian-conjecture-disproven",
+      "event_date": "2026-07-19",
+      "title_en": "Claude Fable 5 helps disprove the 87-year-old Jacobian conjecture",
+      "source": "The Next Web",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-19 is 9 days old (>5 day limit)."
+    },
+    {
+      "story_key": "moonshot-kimi-k3",
+      "event_date": "2026-07-27",
+      "title_en": "Kimi K3 open weights go live (2.8T params, 1.4TB)",
+      "source": "Moonshot AI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-27 with full detail on the open-weight release, 2.8T params and 1.4TB barrier. No substantive new information today."
+    },
+    {
+      "story_key": "microsoft-compute-rationing",
+      "event_date": "2026-04-24",
+      "title_en": "Microsoft rations AI hardware for internal teams (The Information)",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying report dates to April 2026; not a fresh late-July development."
+    },
+    {
+      "story_key": "psibot-world-model-funding",
+      "event_date": "2026-07-23",
+      "title_en": "PsiBot hits $1.48B valuation, Chery leads",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-23 with valuation, lead investor and world-model focus. No new information."
+    },
+    {
+      "story_key": "databricks-strategic-round",
+      "event_date": "2026-07-16",
+      "title_en": "Databricks raising round at $188B valuation",
+      "source": "Databricks",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-16 is 12 days old (>5 day limit)."
+    },
+    {
+      "story_key": "google-gemma4-refresh",
+      "event_date": "2026-07-15",
+      "title_en": "Gemma 4 same-day weights/kernel refresh (FA4, tool-calling)",
+      "source": "Google",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-15 is 13 days old (>5 day limit)."
+    },
+    {
+      "story_key": "oracle-stargate-layoffs",
+      "event_date": "2026-03-31",
+      "title_en": "Oracle cuts ~30,000 jobs to fund Stargate AI buildout",
+      "source": "Forbes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Layoffs executed 2026-03-31; far outside 5-day window."
+    },
+    {
+      "story_key": "bfl-flux3-mimic",
+      "event_date": "2026-07-23",
+      "title_en": "FLUX 3 robotics variant limited to select partners",
+      "source": "Black Forest Labs",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-23 (FLUX 3 + FLUX-mimic). Today's mention only reiterates partner-limited rollout; no substantive update."
+    }
+  ]
+}
