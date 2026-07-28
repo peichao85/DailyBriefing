@@ -1,0 +1,188 @@
+{
+  "date": "2026-07-29",
+  "total_candidates": 20,
+  "kept": 8,
+  "dropped": 12,
+  "decisions": [
+    {
+      "story_key": "altman-decelerate-pacing",
+      "event_date": "2026-07-28",
+      "title_en": "Sam Altman says AI may need to 'pace' its development; frontier labs back 'Pacing the Frontier' petition",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. New: Altman reverses his prior anti-slowdown stance after the Hugging Face incident; OpenAI and Anthropic both publicly endorse an employee 'Pacing the Frontier' petition."
+    },
+    {
+      "story_key": "amd-core-scientific-datacenter",
+      "event_date": "2026-07-28",
+      "title_en": "AMD secures up to 2.5GW of AI datacenter capacity from Core Scientific in $14B, 15-year deal",
+      "source": "AMD",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from amd-helios-rack-launch and amd-cerebras-inference; this is a compute-capacity/real-estate deal (529MW now, expandable to 2.5GW)."
+    },
+    {
+      "story_key": "agility-robotics-spac",
+      "event_date": "2026-07-28",
+      "title_en": "Agility Robotics to go public via Churchill Capital XI SPAC at $2.5B, opens Fremont Physical AI hub",
+      "source": "Agility Robotics",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh business-combination agreement + new 60,000 sqft development hub."
+    },
+    {
+      "story_key": "enigma-robotics-seed",
+      "event_date": "2026-07-27",
+      "title_en": "Enigma emerges from stealth with $71M seed to build robotics foundation models, launches robots.online",
+      "source": "Enigma",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Novel stealth exit; Index Ventures + Ribbit led; angels from OpenAI/Anthropic/DeepMind/xAI."
+    },
+    {
+      "story_key": "mcp-stateless-spec",
+      "event_date": "2026-07-28",
+      "title_en": "MCP 2026-07-28 spec ships: stateless core, OAuth/OIDC, 400M monthly downloads; comes to Claude",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major protocol revision + Claude Enterprise admin analytics; distinct from prior Anthropic items."
+    },
+    {
+      "story_key": "coding-agent-guardrail-bypass",
+      "event_date": "2026-07-26",
+      "title_en": "IssueTrojanBench finds 66.5% of coding agents (incl. Cursor, Claude Code) bypass their own guardrails",
+      "source": "IssueTrojanBench",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh benchmark result within 5 days; ties into agentic-safety theme."
+    },
+    {
+      "story_key": "ai-singularity-debate",
+      "event_date": "2026-07-28",
+      "title_en": "Altman says 'we're in the singularity,' Musk says we've crossed it, Hassabis 'foothills' — billionaires debate timeline",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct discourse item on AGI timeline predictions, separate from the pacing-policy story."
+    },
+    {
+      "story_key": "byd-humanoid-reveal",
+      "event_date": "2026-07-28",
+      "title_en": "BYD confirms it will unveil its first humanoid robot in August at 'Di Space'",
+      "source": "BYD",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh confirmation of an August reveal from a major automaker."
+    },
+    {
+      "story_key": "meshy-3d-series-b",
+      "event_date": "2026-07-21",
+      "title_en": "Meshy raises ~$400M Series B at $1.5B valuation, largest AI-3D round ever",
+      "source": "Meshy",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-21 is 8 days before 2026-07-29 (>5 day limit)."
+    },
+    {
+      "story_key": "hassabis-ai-watchdog",
+      "event_date": "2026-07-14",
+      "title_en": "Demis Hassabis proposes FINRA-style US-led frontier AI watchdog before year end",
+      "source": "@demishassabis",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-14 (essay published) is 15 days old (>5 day limit)."
+    },
+    {
+      "story_key": "cognition-poke-acquisition",
+      "event_date": "2026-07-23",
+      "title_en": "Cognition acquires The Interaction Company (Poke iMessage assistant)",
+      "source": "Cognition",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-23 is 6 days before 2026-07-29 (>5 day limit)."
+    },
+    {
+      "story_key": "florida-openai-child-lawsuit",
+      "event_date": "2026-06-01",
+      "title_en": "Florida AG sues OpenAI and Altman over ChatGPT child-safety risks",
+      "source": "Florida AG",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-01 is nearly two months old (>5 day limit)."
+    },
+    {
+      "story_key": "great-american-ai-act",
+      "event_date": "2026-06-04",
+      "title_en": "Obernolte and Trahan release Great American AI Act discussion draft",
+      "source": "US House",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-04 is far outside the 5-day window."
+    },
+    {
+      "story_key": "qualcomm-tenstorrent",
+      "event_date": "2026-06-16",
+      "title_en": "Qualcomm reportedly circling Tenstorrent for $8-10B",
+      "source": "The Register",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-16 (>5 day limit); CEO Jim Keller later denied talks, no fresh confirmation."
+    },
+    {
+      "story_key": "anthropic-samsung-chip",
+      "event_date": "2026-07-02",
+      "title_en": "Anthropic in talks with Samsung for custom 2nm AI chip",
+      "source": "The Information",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-02 is 27 days old (>5 day limit)."
+    },
+    {
+      "story_key": "servicenow-nvidia-project-arc",
+      "event_date": "2026-05-05",
+      "title_en": "NVIDIA and ServiceNow launch Project Arc autonomous desktop agent",
+      "source": "NVIDIA",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announced at Knowledge 2026 in May; far outside 5-day window."
+    },
+    {
+      "story_key": "midjourney-medical",
+      "event_date": "2026-06-17",
+      "title_en": "Midjourney enters healthcare with 60-second full-body ultrasound scanner",
+      "source": "Midjourney",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-17 (>5 day limit)."
+    },
+    {
+      "story_key": "nvidia-sk-hynix-500b",
+      "event_date": "2026-07-24",
+      "title_en": "Nvidia and SK Hynix memory supply deal worth up to $500B",
+      "source": "NVIDIA",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already covered by korea-ai-summit-pledges (2026-07-25), which described SK supplying ~$750B to Nvidia et al. No substantively new facts."
+    },
+    {
+      "story_key": "china-ai-model-pressure",
+      "event_date": "2026-07-26",
+      "title_en": "Chinese labs (Moonshot, Alibaba, DeepSeek) keep beating US labs on cost",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Covered across moonshot-kimi-k3, moonshot-ipo-funding, deepseek-ipo-prep, whitehouse-moonshot-distillation. Roundup with no new development."
+    },
+    {
+      "story_key": "meta-microsoft-q2-earnings",
+      "event_date": "2026-07-29",
+      "title_en": "Meta and Microsoft report Q2 2026 earnings today; AI capex in focus",
+      "source": "S&P Global",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Only a preview at research time; both report after market close on 2026-07-29 so no actual results/material figures available yet."
+    }
+  ]
+}
