@@ -1,0 +1,205 @@
+{
+  "date": "2026-07-30",
+  "category": "AI",
+  "title": "AI变现分水岭:微软Azure年化破千亿、AI收入飙至370亿,Meta却因烧钱EPS失守盘后重挫10%,巨头资本开支集体加码到千亿级",
+  "items": [
+    {
+      "id": "1",
+      "title": "Azure单季营收首破千亿美元:微软AI年化收入飙到370亿,却把明年资本开支加码到2600亿",
+      "source": "Microsoft",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+      "story_key": "microsoft-q4-fy2026-earnings",
+      "event_date": "2026-07-29",
+      "summary": "微软7月29日发布2026财年第四季度财报:Azure年化营收首次突破1000亿美元,整体AI业务年化收入同比暴涨123%至约370亿美元;但公司同时把2027财年资本开支指引一举推高到2550亿–2600亿美元,是2026年已承诺的约1900亿的1.3倍以上。",
+      "detail": "微软本季营收900亿美元(同比+18%)、净利润358亿美元(同比+31%),双双超预期。真正的看点在AI:智能云Azure及相关服务营收同比增长43%,其年化营收规模史上首次跨过1000亿美元大关;涵盖Azure AI、M365与GitHub中的Copilot席位、以及企业AI应用在内的整体AI业务,年化收入run-rate同比大增123%至约370亿美元。\n\n落到产品端,Microsoft 365 Copilot付费席位突破3000万,GitHub Copilot编程助手用户达到5000万,Microsoft Cloud季度营收59.3亿美元(实为593亿,同比+27%)。\n\n最受资本市场关注的仍是'烧钱'节奏:微软把2027财年资本开支指引区间给到2550亿–2600亿美元,远高于2026财年已承诺的约1900亿美元,意味着为满足AI算力需求,基础设施投入还将大幅加速。管理层给出的逻辑是——需求(尤其Azure AI工作负载)仍显著超过其可用产能。",
+      "key_quotes": [
+        "Azure and other cloud services revenue growth was 43%.",
+        "AI annual revenue run-rate has grown 123% year-over-year to $37 billion.",
+        "FY2027 capex guidance is $255 billion to $260 billion."
+      ],
+      "significance": "Azure年化营收破千亿、AI run-rate冲上370亿,是迄今最硬的'AI已在赚大钱'的证据,给整个板块的变现叙事托了底;但2600亿美元级别的资本开支指引也把'投入—产出'的剪刀差摆上台面——微软用超预期的利润和明确的产能瓶颈,暂时说服市场相信这笔账算得过来。",
+      "links": [
+        "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+        "https://www.tradingkey.com/analysis/stocks/us-stocks/262060902-microsoft-msft-q4-fy2026-earnings-preview-july-29-azure-capex-tradingkey",
+        "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q4/press-release-webcast"
+      ],
+      "image": "assets/logos/microsoft-logo.png",
+      "image_type": "logo",
+      "tags": ["Microsoft", "Azure", "财报", "资本开支", "Copilot"],
+      "category": "news"
+    },
+    {
+      "id": "2",
+      "title": "广告狂奔也追不上烧钱:Meta营收+28%却EPS失守,自由现金流暴跌到7.84亿,盘后重挫近10%",
+      "source": "Meta",
+      "source_name": "Benzinga",
+      "source_url": "https://www.benzinga.com/markets/earnings/26/07/60781217/meta-reports-mixed-q2-results-raises-low-end-of-capex-guidance-range-shares-move-lower",
+      "story_key": "meta-q2-2026-earnings",
+      "event_date": "2026-07-29",
+      "summary": "Meta 7月29日盘后公布二季度财报:营收608亿美元(同比+28%)超预期,但总支出飙升55%至420亿美元,摊薄后EPS仅6.18美元、大幅低于约7.13美元的预期;自由现金流骤降到7.84亿美元,公司还上调了全年资本开支下限,盘后股价一度重挫约9.6%。",
+      "detail": "Meta本季营收608亿美元、同比增长28%,广告引擎依旧强劲——广告展示量同比+14%、单条广告均价+12%。但成本端彻底盖过了增长故事:总支出同比激增55%至420亿美元,经营利润率被AI基础设施投入大幅压缩,摊薄EPS 6.18美元显著不及分析师约7.13美元的共识。\n\n最刺眼的是现金流:尽管经营性现金流仍有318.6亿美元,自由现金流却被资本开支吞噬到仅剩7.84亿美元。公司同时把全年资本开支区间的下限上调(至约1300亿–1450亿美元),进一步坐实'AI投入还在加码'的预期。财报发布后,Meta股价盘后从收盘的585.61美元一度跌至529.15美元,跌幅约9.6%。",
+      "key_quotes": [
+        "Revenue $60.8 billion, up 28% year-over-year; diluted EPS $6.18.",
+        "Total expenses climbed 55% to $42.0 billion.",
+        "Free cash flow fell to just $784 million; shares dropped ~9.6% after hours."
+      ],
+      "significance": "与微软'AI已在赚钱'的财报形成鲜明对照:同样是巨额AI资本开支,微软有Azure与Copilot的变现兜底,Meta却只能靠广告主业硬扛,利润率与自由现金流双双承压。市场用近10%的盘后跌幅表态——在AI变现路径尚不清晰时,投资者对'先烧钱、后见效'的耐心正在变薄。",
+      "links": [
+        "https://www.benzinga.com/markets/earnings/26/07/60781217/meta-reports-mixed-q2-results-raises-low-end-of-capex-guidance-range-shares-move-lower",
+        "https://www.stocktitan.net/news/META/meta-reports-second-quarter-2026-hkjfhayj8l0v.html",
+        "https://www.investing.com/news/company-news/meta-q2-2026-slides-revenue-surges-28-as-ai-spending-pressures-profits-93CH-4821966"
+      ],
+      "image": "assets/logos/meta-logo.png",
+      "image_type": "logo",
+      "tags": ["Meta", "财报", "资本开支", "自由现金流", "广告"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "把AI数据中心盖在废弃铀厂上:Brookfield与NextEra拟砸1000亿美元建肯塔基Paducah园区,配4.6吉瓦专属电源",
+      "source": "Bloomberg",
+      "source_name": "Bloomberg",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-07-29/nextera-brookfield-to-build-100-billion-kentucky-data-campus",
+      "story_key": "brookfield-nextera-kentucky-datacenter",
+      "event_date": "2026-07-29",
+      "summary": "Brookfield与全美最大电力公司NextEra于7月29日宣布,拟在美国能源部位于肯塔基州Paducah的前铀浓缩厂址上,联合开发一座总投资约1000亿美元的AI数据中心园区,初期提供逾1.2吉瓦算力、并可扩展至1.8吉瓦。",
+      "detail": "这座园区选址在1950年代建成、如今废弃的美国能源部Paducah铀浓缩场址,由Brookfield、NextEra Energy、Big Rivers Electric、Jackson Purchase Energy Cooperative与Paducah Power System组成的联盟共同推进,Brookfield将负责数据中心的持有与运营。\n\n算力上,园区规划超过1.2吉瓦的数据中心算力容量,电力容量最高可达1.8吉瓦,预计2032年前后投入运营。为解决'电从哪来'这一AI数据中心的核心瓶颈,NextEra计划为其配套2吉瓦天然气发电与2.6吉瓦储能,合计约4.6吉瓦的专属电源。项目仍取决于后续谈判与最终协议的签署。",
+      "key_quotes": [
+        "A ~$100 billion AI data-center campus at DOE's Paducah Site in western Kentucky.",
+        "More than 1.2 GW of compute capacity, scaling to 1.8 GW.",
+        "NextEra to provide 2 GW of natural-gas power and 2.6 GW of battery storage."
+      ],
+      "significance": "AI算力竞赛正从'买多少芯片'转向'圈多少电和地':把巨型数据中心直接建在自带电网接入的旧核设施场址、并为其单独配建近5吉瓦电源,标志着能源与算力开始被打包成一体化项目。1000亿美元的体量也再次刷新单个AI园区的投资上限。",
+      "links": [
+        "https://www.bloomberg.com/news/articles/2026-07-29/nextera-brookfield-to-build-100-billion-kentucky-data-campus",
+        "https://www.powermag.com/brookfield-nextera-to-develop-100b-data-center-campus-at-does-paducah-site-paired-with-4-6-gw-of-dedicated-generation/",
+        "https://www.datacenterknowledge.com/data-center-construction/brookfield-nextera-launch-100b-ai-campus-at-doe-s-paducah-site"
+      ],
+      "tags": ["数据中心", "Brookfield", "NextEra", "算力", "能源"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "自己只留两成股权:Meta拉BlackRock设140亿美元合资公司,把1吉瓦El Paso数据中心搬下资产负债表",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html",
+      "story_key": "meta-blackrock-elpaso-datacenter",
+      "event_date": "2026-07-28",
+      "summary": "Meta与BlackRock于7月28日宣布成立合资公司,在德州El Paso开发一座总投资约140亿美元、1吉瓦规模的AI数据中心。BlackRock旗下基金持股80%、Meta仅留20%,融资中约125亿美元为债务,是一种把重资产移出表内的新玩法。",
+      "detail": "根据交易结构,BlackRock管理的基金将持有合资公司80%权益,Meta保留20%;合资公司将拥有并运营这座正在建设、预计2028年起陆续上线的El Paso园区。约140亿美元总开发成本涵盖建筑与长期的供电、冷却、连接设施,其中约125亿美元通过债务融资;Meta则以约23亿美元的土地与在建工程出资,并从合资公司获得10亿美元分配。\n\n这套安排的关键,是让Meta既锁定1吉瓦算力,又不必把巨额基建全部压在自家资产负债表上。此前Meta已宣布到2028年将向美国数据中心及相关基础设施投入6000亿美元,本次JV是其'用别人的钱扩算力'的又一次尝试。",
+      "key_quotes": [
+        "Funds managed by BlackRock will own 80%; Meta retains 20%.",
+        "~$14 billion total cost, including ~$12.5 billion of debt.",
+        "1 gigawatt of compute capacity coming online in 2028."
+      ],
+      "significance": "当AI资本开支大到连巨头都难以独自承受,'表外合资+债务融资'正成为科技公司扩算力的新范式:Meta用两成股权换来一整座1吉瓦园区的使用权,把资本压力转嫁给BlackRock这类基础设施资本。这也解释了为何AI数据中心的建设速度能够远超单一公司的现金流承受力。",
+      "links": [
+        "https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html",
+        "https://www.prnewswire.com/news-releases/meta-announces-new-strategic-venture-with-blackrock-to-develop-data-center-in-el-paso-302836040.html",
+        "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/07/28/meta-blackrock-partner-on-us14-billion-el-paso-data-centre/"
+      ],
+      "tags": ["Meta", "BlackRock", "数据中心", "表外融资", "算力"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "'孤立'的最贵独角兽:硅谷倒戈Anthropic,创始人转投更便宜的开源权重模型,连David Sacks也开炮",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/07/29/anthropic-claude-open-models-ban-china",
+      "story_key": "anthropic-openweights-backlash",
+      "event_date": "2026-07-29",
+      "summary": "《华尔街日报》与Axios于7月28–29日报道,硅谷正掀起一波针对Anthropic的反弹:创始人、研究者与合作伙伴指责其竞争手段激进、Claude护栏过严,不少人已把预算转向更便宜的开源权重模型(其中多为中国模型);Anthropic仍是唯一未签署行业开源权重联名信的头部实验室。",
+      "detail": "这波不满的核心并不完全是'安全'。据报道,4月Claude Design推出后与合作伙伴Figma正面竞争,让不少创始人担心Anthropic会'反过来抢自己的客户';6月Fable 5被指悄悄降低了对'AI开发类问题'的回答质量,研究者称这种隐藏护栏带有反竞争意味。多重摩擦叠加,导致大量初创创始人、软件高管与AI研究者把预算迁往成本低得多的开源权重模型。\n\n最具象征意义的是站队问题:截至7月27日,在Meta、Nvidia、OpenAI、Google、微软、SpaceX等悉数加入的行业'开源权重'联名倡议中,Anthropic是唯一缺席的头部前沿实验室。特朗普政府前'AI沙皇'David Sacks等人已公开点名批评。Anthropic方面则重申其对开源权重的立场,强调对最强模型保持管控、并支持限制流向中国的理由。\n\n背景回顾:7月24日Nvidia牵头的开源权重联名信一天内从25家翻倍至50家,当时便已注意到Anthropic与其最大投资方亚马逊双双缺席。",
+      "key_quotes": [
+        "Silicon Valley is turning on Anthropic, and it's not really about safety. — WSJ",
+        "Anthropic is still the only major American lab that hasn't signed the industry's open-weights letter.",
+        "Figma CEO Dylan Field: Anthropic hadn't been 'consistently candid in their communications.'"
+      ],
+      "significance": "当行业其余头部实验室在'开源权重'上形成共识,独自坚持封闭路线的Anthropic正为立场付出商业代价——开发者用脚投票,把工作负载迁往更便宜、更开放的模型。这场'孤立'揭示了2026年AI竞争的新断层线:不只是模型能力之争,更是开放程度、定价与生态信任之争。",
+      "links": [
+        "https://www.axios.com/2026/07/29/anthropic-claude-open-models-ban-china",
+        "https://www.shopifreaks.com/anthropic-faces-a-silicon-valley-backlash-as-founders-and-researchers-move-to-cheaper-open-weight-models-from-rival-labs/",
+        "https://www.thestreet.com/technology/anthropic-open-weight-ai-ban-dario-amodei-dario-amodei"
+      ],
+      "image": "assets/logos/anthropic-logo.png",
+      "image_type": "logo",
+      "tags": ["Anthropic", "开源权重", "David Sacks", "Claude", "竞争"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "6",
+      "title": "AI智能体'泛滥'催生新赛道:Cyera约10亿美元收购Oasis Security,专治'非人类身份'失控",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+      "story_key": "cyera-oasis-acquisition",
+      "event_date": "2026-07-28",
+      "summary": "数据安全公司Cyera于7月28日签署意向书,拟以约10亿美元(以现金为主、部分股份)收购专注'非人类身份'的Oasis Security,以在AI智能体大规模铺开之际,监控它们的行为并管理其访问权限。这是Cyera今年的第三笔收购。",
+      "detail": "Oasis成立于2022年,主攻'非人类身份'(non-human identities)——主要就是AI智能体的身份与权限管理。随着企业内智能体数量激增,公司需要专门的安全软件来监控这些智能体的行为、并决定它们能访问哪些系统。Oasis此前从Accel、Craft Ventures、Cyberstarts等投资方累计融资约1.95亿美元。\n\n收购方Cyera近期刚以120亿美元估值融资6亿美元,并已连续拿下Ryft、Genie Security等标的,本次是其年内第三次出手。报道指出,过去半年内财富500强企业中的'非人类身份'数量激增了近500%,而2026年AI安全领域的并购规模已同比增至三倍。",
+      "key_quotes": [
+        "Cyera signed a letter of intent to acquire Oasis Security for ~$1 billion, mostly in cash.",
+        "Non-human identities inside Fortune 500 companies grew nearly 500% in the last six months.",
+        "The deal is Cyera's third acquisition this year."
+      ],
+      "significance": "'智能体安全'正从概念变成真金白银的赛道。当每家企业内部涌入成百上千个自动执行任务的AI智能体,如何给它们发'工牌'、管权限、盯行为,成了传统身份与终端安全之外的全新刚需;10亿美元级别的收购与三倍增长的并购规模,标志着AI基础设施的'安全税'开始规模化落地。",
+      "links": [
+        "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+        "https://siliconangle.com/2026/07/28/cyera-buy-nonhuman-identity-startup-oasis-security-reported-1b/",
+        "https://www.timesofisrael.com/cyera-to-acquire-israeli-ai-startup-oasis-security-in-1-billion-deal/"
+      ],
+      "tags": ["Cyera", "Oasis Security", "AI安全", "智能体", "并购"],
+      "category": "news"
+    },
+    {
+      "id": "7",
+      "title": "AI'收租'收到手软:Arm单季营收创12.9亿美元新高,数据中心授权费翻倍,AGI CPU订单破20亿",
+      "source": "Arm Newsroom",
+      "source_name": "Arm Newsroom",
+      "source_url": "https://newsroom.arm.com/news/arm-q1-fye27-results",
+      "story_key": "arm-q1-fy27-earnings",
+      "event_date": "2026-07-29",
+      "summary": "Arm于7月29日发布2027财年第一季度财报:总营收创纪录的12.89亿美元(同比+22%),其中授权费(royalty)7.15亿、许可及其他5.74亿;数据中心授权费同比翻倍以上,3月推出的Arm AGI CPU需求已超20亿美元,主要由云端AI基础设施拉动。",
+      "detail": "本季Arm总营收12.89亿美元、同比增长22%,授权费与许可收入双双刷新一季度纪录。增长几乎全部来自AI:受云端AI基础设施需求激增、以及Armv9架构与Compute Subsystem(CSS)平台持续被采用的推动,数据中心相关授权费同比增长超过一倍。\n\n新业务AGI CPU势头尤其强劲——自3月推出以来,客户需求已超出初期预期,横跨2027与2028财年累计需求突破20亿美元;Arm预计该业务收入到2031财年可达约150亿美元,首代芯片毛利率在2027–2028财年处于30%多至40%出头区间,并将逐步向50%扩张。对下一季度,管理层指引营收13.8亿美元,略高于市场约13.4亿的共识。",
+      "key_quotes": [
+        "Total revenue of $1,289 million, up 22% year-over-year; royalty revenue $715 million.",
+        "Data center royalties more than doubled year over year.",
+        "Arm AGI CPU demand now exceeds $2 billion across FYE27 and FYE28."
+      ],
+      "significance": "作为几乎所有AI芯片(从Nvidia GB系列到各家自研ASIC)底层的CPU架构授权方,Arm是AI算力潮里'旱涝保收'的收租者。数据中心授权费翻倍、AGI CPU订单破20亿,说明这轮基建狂潮的红利正沿着供应链向最上游的IP层传导——不管谁家芯片胜出,Arm都在其中抽成。",
+      "links": [
+        "https://newsroom.arm.com/news/arm-q1-fye27-results",
+        "https://www.investing.com/news/company-news/arm-q1-fy27-slides-ai-surge-drives-record-results-25b-revenue-target-93CH-4821969",
+        "https://www.benzinga.com/markets/earnings/26/07/60782135/arm-delivers-a-record-q1-earnings-revenues-beat-estimates"
+      ],
+      "tags": ["Arm", "财报", "AGI CPU", "数据中心", "芯片"],
+      "category": "news"
+    },
+    {
+      "id": "8",
+      "title": "Grok要给明尼苏达'关功能':xAI起诉全美首例'换脸裸图'禁令,称违反第一修正案",
+      "source": "CNBC",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/28/spacexs-xai-sues-minnesota-over-law-to-ban-nudify-apps-.html",
+      "story_key": "xai-minnesota-deepfake-lawsuit",
+      "event_date": "2026-07-27",
+      "summary": "马斯克旗下xAI于7月27日在联邦法院起诉明尼苏达州总检察长Keith Ellison,挑战全美首部禁止'脱衣/换脸裸图'AI工具的法律HF 1606,主张其以'内容为据'的过宽限制违反第一与第十四修正案,并请求法院宣布该法违宪、颁发禁令。",
+      "detail": "这部将于8月1日生效的HF 1606规定:若用户利用AI软件生成或篡改包含'私密部位'的图像,平台所有者与运营者将承担严格责任,面临每次违规最高50万美元的民事处罚,被侵害者还可提起私人诉讼、索取三倍及惩罚性赔偿。该法被称为全美首例。\n\nxAI辩称,该法建立了'无需故意、明知或恶意'的严格责任框架,且对'私密部位'的定义过于宽泛,涵盖了日常公开场合会展示的身体部位。xAI表示,尽管自己明令禁止用户生成非自愿性化图像或儿童性虐待材料并积极执行,但在此法下别无选择,只能在8月1日前对明尼苏达州居民关闭Grok Imagine的图像编辑功能。诉状请求法院宣布HF 1606违宪,并对Ellison的执法颁发临时与永久禁令。",
+      "key_quotes": [
+        "xAI sued Minnesota AG Keith Ellison over HF 1606, a first-in-the-nation 'nudify' ban.",
+        "The law imposes strict liability with civil penalties up to $500,000 per violation.",
+        "xAI says it must restrict Grok Imagine's image-editing for Minnesota residents before Aug. 1."
+      ],
+      "significance": "这是生成式AI与言论自由、平台责任正面碰撞的标志性诉讼:各州正试图用'严格责任'把深度伪造裸图的治理压力压到模型提供方头上,而AI公司则举起第一修正案反击。案件结果将影响未来各州能在多大程度上直接监管AI图像生成工具,也预示了'州法拼图'式监管与联邦缺位下的持续摩擦。",
+      "links": [
+        "https://www.cnbc.com/2026/07/28/spacexs-xai-sues-minnesota-over-law-to-ban-nudify-apps-.html",
+        "https://qz.com/xai-sues-minnesota-ban-ai-nudify-apps-072926",
+        "https://www.theepochtimes.com/us/ai-platform-xai-sues-minnesota-attorney-general-over-anti-deepfake-law-6068500"
+      ],
+      "tags": ["xAI", "Grok", "深度伪造", "监管", "第一修正案"],
+      "category": "news"
+    }
+  ]
+}

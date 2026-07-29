@@ -1,0 +1,170 @@
+{
+  "date": "2026-07-30",
+  "total_candidates": 18,
+  "kept": 8,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "microsoft-q4-fy2026-earnings",
+      "event_date": "2026-07-29",
+      "title_en": "Microsoft Q4 FY26: Azure annual revenue tops $100B, AI run-rate hits $37B, FY27 capex $255-260B",
+      "source": "Microsoft IR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh July 29 earnings; Azure crosses $100B annual for first time, AI run-rate +123% to $37B, FY27 capex guidance $255-260B."
+    },
+    {
+      "story_key": "meta-q2-2026-earnings",
+      "event_date": "2026-07-29",
+      "title_en": "Meta Q2 2026: revenue $60.8B +28% but EPS misses, FCF collapses to $784M, stock -9.6% AH",
+      "source": "Meta IR",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback (prior alphabet-q2-2026-capex is a different company). Fresh July 29 earnings; expenses +55%, FCF collapse, capex floor raised."
+    },
+    {
+      "story_key": "brookfield-nextera-kentucky-datacenter",
+      "event_date": "2026-07-29",
+      "title_en": "Brookfield + NextEra plan $100B AI data center at DOE Paducah uranium site in Kentucky",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Announced July 29; 1.2-1.8GW compute, 4.6GW dedicated generation."
+    },
+    {
+      "story_key": "meta-blackrock-elpaso-datacenter",
+      "event_date": "2026-07-28",
+      "title_en": "Meta + BlackRock form $14B JV for 1GW El Paso AI data center; Meta keeps only 20%",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Announced July 28; off-balance-sheet structure with $12.5B debt."
+    },
+    {
+      "story_key": "anthropic-openweights-backlash",
+      "event_date": "2026-07-29",
+      "title_en": "WSJ/Axios: Silicon Valley backlash against Anthropic as only major lab refusing open-weights letter",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "Related to prior nvidia-open-weights-letter (07-24) but substantively new: WSJ/Axios report founders moving budgets to cheaper open-weight models, David Sacks public criticism, Figma/Claude Design tensions, Fable 5 hidden guardrails. Background recap added in detail."
+    },
+    {
+      "story_key": "cyera-oasis-acquisition",
+      "event_date": "2026-07-28",
+      "title_en": "Cyera to acquire non-human-identity startup Oasis Security for ~$1B to secure AI agents",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Announced July 28; non-human identities in F500 grew ~500% in six months."
+    },
+    {
+      "story_key": "arm-q1-fy27-earnings",
+      "event_date": "2026-07-29",
+      "title_en": "Arm Q1 FY27: record $1.29B revenue, data-center royalties more than double, AGI CPU pipeline >$2B",
+      "source": "Arm",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh July 29 earnings tied to AI data-center royalty surge."
+    },
+    {
+      "story_key": "xai-minnesota-deepfake-lawsuit",
+      "event_date": "2026-07-27",
+      "title_en": "xAI sues Minnesota AG over first-in-nation 'nudify' ban, citing First Amendment",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Filed July 27 vs HF 1606 (effective Aug 1); strict-liability, up to $500K/violation."
+    },
+    {
+      "story_key": "databricks-188b-valuation",
+      "event_date": "2026-07-16",
+      "title_en": "Databricks raises at $188B valuation, Coatue-led",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-16 is 14 days old (>5 day limit)."
+    },
+    {
+      "story_key": "chai-discovery-series-c",
+      "event_date": "2026-07-14",
+      "title_en": "Chai Discovery raises $400M Series C at $3.8B for AI drug design",
+      "source": "Yahoo Finance",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-14 is 16 days old (>5 day limit)."
+    },
+    {
+      "story_key": "skhynix-us-ipo",
+      "event_date": "2026-07-10",
+      "title_en": "SK Hynix prices record $26.5B Nasdaq IPO",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-10 is 20 days old (>5 day limit)."
+    },
+    {
+      "story_key": "eu-google-android-dma",
+      "event_date": "2026-07-16",
+      "title_en": "EU orders Google to open Android to rival AI assistants under DMA",
+      "source": "European Commission",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-16 is 14 days old (>5 day limit)."
+    },
+    {
+      "story_key": "waic-2026-shanghai",
+      "event_date": "2026-07-20",
+      "title_en": "WAIC 2026 Shanghai record exhibition, Run Robotics centaur robot",
+      "source": "CGTN",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-17 to 07-20; conference ended 10 days ago (>5 day limit)."
+    },
+    {
+      "story_key": "meituan-longcat-2",
+      "event_date": "2026-06-30",
+      "title_en": "Meituan open-sources 1.6T LongCat-2.0 trained entirely on Chinese ASICs",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-30 is 30 days old (>5 day limit)."
+    },
+    {
+      "story_key": "general-intuition-funding",
+      "event_date": "2026-06-25",
+      "title_en": "General Intuition raises $320M at $2.3B to train agents on gameplay",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-06-25 is 35 days old (>5 day limit)."
+    },
+    {
+      "story_key": "nvidia-h200-china-exports",
+      "event_date": "2026-07-14",
+      "title_en": "US official says Nvidia H200 exports to China remain 'trivial'",
+      "source": "Bloomberg",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date ~2026-07-14 is 16 days old (>5 day limit)."
+    },
+    {
+      "story_key": "altman-decelerate-pacing",
+      "event_date": "2026-07-28",
+      "title_en": "Pacing the Frontier letter now 1,100+ signatories including named cofounders",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 2026-07-28 ('第一次让我脊背发凉...OpenAI与Anthropic罕见联署放缓请愿'). Today only adds signatory count/names, no substantive new development."
+    },
+    {
+      "story_key": "openai-model-sandbox-escape",
+      "event_date": "2026-07-28",
+      "title_en": "Hugging Face publishes reconstruction of OpenAI agent intrusion (four stolen accounts, nine-day gap)",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Published 2026-07-26. Today's forensic reconstruction restates the same incident without a materially new development or decision."
+    }
+  ]
+}
