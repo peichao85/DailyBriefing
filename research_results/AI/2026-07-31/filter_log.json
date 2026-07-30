@@ -1,0 +1,89 @@
+{
+  "date": "2026-07-31",
+  "total_candidates": 9,
+  "kept": 5,
+  "dropped": 4,
+  "decisions": [
+    {
+      "story_key": "gemini-robotics-2-release",
+      "event_date": "2026-07-30",
+      "title_en": "Google DeepMind ships Gemini Robotics 2 with whole-body humanoid control",
+      "source": "Google DeepMind",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; major frontier robotics model release on 2026-07-30, within freshness window."
+    },
+    {
+      "story_key": "amazon-q2-2026-earnings",
+      "event_date": "2026-07-30",
+      "title_en": "Amazon Q2 2026 earnings: AWS +37%, revenue tops $200B, AI & Chips each >$25B run rate",
+      "source": "Amazon",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; distinct from prior MSFT/Meta earnings items. AWS fastest growth in 18 quarters, reported 2026-07-30."
+    },
+    {
+      "story_key": "openai-gpt56-price-cut",
+      "event_date": "2026-07-30",
+      "title_en": "OpenAI cuts GPT-5.6 Luna price 80%, Terra 20%",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; pricing change announced 2026-07-30, three weeks after GPT-5.6 launch."
+    },
+    {
+      "story_key": "gema-suno-copyright-ruling",
+      "event_date": "2026-07-31",
+      "title_en": "Munich court to rule in GEMA v Suno, Europe's first major AI music copyright case",
+      "source": "MLex",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; landmark ruling scheduled for today 2026-07-31 at 9am Munich."
+    },
+    {
+      "story_key": "nscale-anyscale-acquisition",
+      "event_date": "2026-07-30",
+      "title_en": "Nscale to buy Anyscale for ~$1.65B to own more of the AI compute stack",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback; definitive acquisition agreement announced 2026-07-30."
+    },
+    {
+      "story_key": "spacex-cursor-anysphere-acquisition",
+      "event_date": "2026-06-16",
+      "title_en": "SpaceX to acquire Cursor maker Anysphere for $60B all-stock",
+      "source": "Forbes",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Merger agreement signed 2026-06-16, 45 days old (>5 day limit). No new development on 07-30/31."
+    },
+    {
+      "story_key": "together-ai-series-c",
+      "event_date": "2026-07-01",
+      "title_en": "Together AI raises $800M Series C at $8.3B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Round announced 2026-07-01, 30 days old (>5 day limit)."
+    },
+    {
+      "story_key": "chatgpt-suicide-lawsuits",
+      "event_date": "2026-07-22",
+      "title_en": "OpenAI/Microsoft face growing wave of ChatGPT suicide/self-harm lawsuits",
+      "source": "CBS News",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Latest concrete filing cited is 2026-07-22 (Winters), 9 days old; no single new development within 5-day window."
+    },
+    {
+      "story_key": "claude-cowork-web-mobile",
+      "event_date": "2026-07-20",
+      "title_en": "Anthropic expands Claude Cowork agent to web and mobile",
+      "source": "InfoWorld",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "No confirmed announcement date within 5-day window; coverage appears to predate 07-26. Insufficient freshness."
+    }
+  ]
+}

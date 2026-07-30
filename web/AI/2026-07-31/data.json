@@ -1,0 +1,129 @@
+{
+  "date": "2026-07-31",
+  "category": "AI",
+  "title": "DeepMind让机器人'全身'觉醒、AWS重回37%增速、OpenAI三周就给GPT-5.6砍价八成:AI从算力到具身全面加速",
+  "items": [
+    {
+      "id": "1",
+      "title": "机器人从'桌面'走向'全身':DeepMind发布Gemini Robotics 2,一套模型管人形从脚到指尖",
+      "source": "Google DeepMind",
+      "source_name": "Google DeepMind Blog",
+      "source_url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "story_key": "gemini-robotics-2-release",
+      "event_date": "2026-07-30",
+      "summary": "Google DeepMind于7月30日发布Gemini Robotics 2,一次推出三款模型,把机器人能力从此前的'桌面级上半身操作'推进到全身控制、五指灵巧操作与多机协作,并能在数小时内适配一台全新机型。",
+      "detail": "Google DeepMind 7月30日发布第二代具身智能模型family——Gemini Robotics 2,由三款分工不同的模型组成:一款视觉-语言-动作(VLA)模型负责人形机器人的'全身控制',让机器人能行走、下蹲、弯腰并同时操作物体;一款具身推理模型(Gemini Robotics ER 2)负责多步骤任务规划与多机器人协同;还有一款端侧(on-device)VLA,可在几小时内适配一台此前没见过的新机型。\n\n相比上一代主要控制机器人上半身、局限于'桌面级'抓取,新版本把技术栈推进到'从脚到指尖'的整机协调、五指灵巧操作与多机协作。DeepMind放出的演示视频显示,机器人能把磁带塞进录音机、拧灯泡、甚至系紧垃圾袋。三款模型采取分级开放:具身推理模型ER 2进入公开预览,而能力更强的VLA与端侧模型仍处于受限访问(gated)状态。\n\nDeepMind也坦承局限:官方数据显示,在最精细、最刁钻的任务上,机器人仍然又慢又笨拙,离流畅的人类操作尚有明显差距。",
+      "key_quotes": [
+        "Gemini Robotics 2 can direct an entire humanoid from top to bottom.",
+        "DeepMind's own figures show the robots are still slow and clumsy at the fiddliest tasks."
+      ],
+      "significance": "这是把大模型'推理+规划'能力系统性下沉到人形机器人整机控制的一次关键跃迁:全身控制、多机协作与'数小时适配新机型'一旦成熟,意味着机器人厂商可以少造'专用大脑'、多买'通用大脑',加速具身智能从实验室走向工厂产线。它也标志着谷歌在物理AI赛道正面卡位,与特斯拉、Figure、三星RX等同台竞争。",
+      "links": [
+        "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+        "https://www.bloomberg.com/news/articles/2026-07-30/google-unveils-gemini-ai-for-robots-struggling-with-dexterity",
+        "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
+        "https://www.engadget.com/2227268/google-gemini-robotics-2-platform-intelligent-whole-body-control/"
+      ],
+      "image": "assets/logos/gemini-logo.png",
+      "image_type": "logo",
+      "tags": ["Google DeepMind", "Gemini Robotics 2", "人形机器人", "具身智能", "VLA"],
+      "category": "research"
+    },
+    {
+      "id": "2",
+      "title": "AWS单季冲到422亿、增速创四年半新高:亚马逊AI与自研芯片双双年化破250亿美元",
+      "source": "Amazon",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/amazon-q2-2026-earnings-aws-204411872.html",
+      "story_key": "amazon-q2-2026-earnings",
+      "event_date": "2026-07-30",
+      "summary": "亚马逊7月30日发布二季度财报:AWS营收422亿美元、同比增37%,为18个季度以来最快增速;整体营收2006亿美元、同比增20%均超预期,AI业务与自研芯片业务各自年化收入均已突破250亿美元。",
+      "detail": "亚马逊于7月30日盘后公布2026年二季度财报,核心看点是云业务重新加速。AWS单季营收达422亿美元、同比增长37%,创下18个季度以来的最快增速,并超出市场约405亿美元的预期,年化营收跑通到约1690亿美元;AWS运营利润升至166亿美元,运营利润率高达39.4%。\n\n整体上,亚马逊二季度净销售额2006亿美元、同比增20%,超过约1965亿美元的分析师预期;总运营利润同比增43%至275亿美元。CEO Andy Jassy 特别点出:公司的'AI业务'与'自研芯片业务'各自的年化收入运行率(run rate)均已超过250亿美元。\n\n烧钱仍在继续:过去12个月的物业与设备采购(资本开支口径)达到1690亿美元、同比激增64%,主要投向AI基础设施。在微软Azure大涨、Meta因烧钱盘后重挫的同一财报季里,AWS这份'加速+高利润率'的成绩单,成为大型云厂商中最被期待的一份答卷。",
+      "key_quotes": [
+        "AWS's AI and Chips businesses each eclipsed run rates of more than $25 billion. — Andy Jassy",
+        "AWS grew 37% year over year, its fastest rate in 18 quarters."
+      ],
+      "significance": "AWS曾被质疑在AI云竞赛中落后于Azure,这份'四年半最快增速+近40%运营利润率'的财报,证明其不仅重新加速,还把AI和自研芯片(Trainium/Graviton)真正做成了各自超250亿美元年化的独立营收支柱。它进一步坐实了'AI需求正把三大云集体推向历史级资本开支'的主线,也为整个AI基础设施投资叙事再添强证。",
+      "links": [
+        "https://finance.yahoo.com/markets/stocks/articles/amazon-q2-2026-earnings-aws-204411872.html",
+        "https://qz.com/amazon-q2-2026-earnings-aws-cloud-growth-073026",
+        "https://blockspace.media/insight/amazon-q2-earnings-aws-revenue-ai-2026/"
+      ],
+      "image": "assets/logos/amazon-logo.png",
+      "image_type": "logo",
+      "tags": ["Amazon", "AWS", "财报", "AI基础设施", "自研芯片"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "上线三周就砍价:OpenAI把GPT-5.6 Luna降价80%、Terra降20%,靠'模型自己重写推理栈'省出降幅",
+      "source": "OpenAI",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
+      "story_key": "openai-gpt56-price-cut",
+      "event_date": "2026-07-30",
+      "summary": "OpenAI于7月30日下调GPT-5.6家族中两款较便宜模型的API价格:最便宜的Luna直降80%、中端Terra降20%,距其上线仅约三周;旗舰Sol价格不变,但新增速度更快的Fast模式。",
+      "detail": "OpenAI于7月30日宣布下调GPT-5.6家族两款模型的API价格,时点距这批模型上线仅约三周。最便宜、最快的Luna降价80%:输入价从每百万token 1美元降到0.2美元,输出价从6美元降到1.2美元;中端Terra降约20%:输入从2.5美元降到2美元、输出从15美元降到12美元。最强的旗舰Sol价格保持不变。\n\nOpenAI 把降价归因于GPT-5.6研发过程中获得的效率提升——尤其是模型有能力自行重写并优化生产环境的推理代码,从而压低了服务成本。与此同时,OpenAI 还为Sol在API中引入'Fast模式':速度最高提升至标准处理的2.5倍、价格为两倍,取代此前的Priority Processing档位。",
+      "key_quotes": [
+        "OpenAI attributed the reductions to efficiency gains made during internal development of GPT-5.6, including the model's ability to rewrite and optimize production code.",
+        "Luna is now priced at 20 cents per million input tokens and $1.20 per million output tokens."
+      ],
+      "significance": "在DeepSeek V4-Flash、Anthropic把Opus 5价格'打对折'之后,OpenAI主动给中低端模型再砍一刀,说明前沿实验室之间的价格战正从旗舰蔓延到'走量'的经济型档位。更耐人寻味的是降价理由——'模型自己优化推理代码'带来成本下降,这是AI用自身能力压低自身单位成本的一个具体案例,也是企业客户日益在意token成本的直接回应。",
+      "links": [
+        "https://www.cnbc.com/2026/07/30/open-ai-price-cut-gpt.html",
+        "https://www.unite.ai/openai-cuts-api-prices-on-its-two-cheaper-gpt-5-6-tiers/",
+        "https://finance.yahoo.com/technology/ai/articles/openai-cuts-gpt-5-6-173045044.html"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "GPT-5.6", "API降价", "价格战", "推理成本"],
+      "category": "product_operators"
+    },
+    {
+      "id": "4",
+      "title": "欧洲首例AI音乐版权判决今日落槌:GEMA诉Suno在慕尼黑宣判,或裁定训练需先获授权",
+      "source": "MLex",
+      "source_name": "MLex",
+      "source_url": "https://www.mlex.com/mlex/articles/2505375/gema-suno-ruling-to-test-copyright-limits-for-ai-music-training-in-germany",
+      "story_key": "gema-suno-copyright-ruling",
+      "event_date": "2026-07-31",
+      "summary": "德国音乐版权组织GEMA起诉AI音乐平台Suno一案,慕尼黑地方法院定于7月31日上午9点宣判——这有望成为欧洲首例针对'AI音乐训练'的重大判决,可能裁定未来用受保护音乐训练AI须先获授权。",
+      "detail": "由GEMA于2025年1月提起、针对生成式AI音乐平台Suno的版权诉讼,将于7月31日上午9点在慕尼黑司法宫270号法庭由第42民事庭(法官Schwager主持)宣判;该判决原定6月12日、因法院'内部行政原因'推迟至今日。\n\nGEMA代表德国逾9.5万名作曲者、作词者与音乐出版商,以及全球逾200万权利人,主张Suno在未获授权、未补偿权利人的情况下用受版权保护的音乐训练模型,并请求法院裁定:未来用受保护音乐训练AI必须获得版权人许可。双方均已承认Suno曾用'流媒体扒取'(stream-ripping)手段绕过YouTube的技术保护措施获取部分作品;GEMA还举证称,AI生成的输出在旋律、和声与节奏上与原作高度相似,说明原作在训练时被永久存入了模型参数。\n\n业界普遍视此案为检验'AI音乐工具是否需要许可才能训练受保护歌曲、以及可辨识的AI生成输出是否构成侵权'的关键一役;若GEMA胜诉,或可寻求在上诉期间对Suno的欧洲业务发出禁令。",
+      "key_quotes": [
+        "Germany's July 31 ruling in GEMA v. Suno could become Europe's first major decision on AI music training and copyright licensing.",
+        "GEMA is asking the court to rule that, in the future, AI training on protected music would require permission from copyright owners."
+      ],
+      "significance": "这是欧洲第一例可能直接界定'AI音乐训练是否需先获授权'的重大判决,其影响将外溢至整个欧盟。若GEMA胜诉,生成式音乐乃至更广义的生成式AI在欧洲的'训练数据合法性'将被重新划线,可能倒逼Suno等平台走向授权付费模式,并与美国正在进行的多起AI训练版权诉讼形成跨大西洋的判例对照。",
+      "links": [
+        "https://www.mlex.com/mlex/articles/2505375/gema-suno-ruling-to-test-copyright-limits-for-ai-music-training-in-germany",
+        "https://weraveyou.com/2026/07/germany-first-major-court-ruling-ai-music-europe/",
+        "https://www.mlex.com/mlex/articles/2481789/gema-suno-copyright-ruling-postponed-by-munich-court-to-july-31"
+      ],
+      "tags": ["GEMA", "Suno", "AI版权", "音乐训练", "欧盟", "判决"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "AI云厂商向上'吞'软件层:Nscale约16.5亿美元收购Anyscale,把Ray分布式框架收进全栈",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+      "story_key": "nscale-anyscale-acquisition",
+      "event_date": "2026-07-30",
+      "summary": "自建数据中心、自供电力的AI云厂商Nscale于7月30日宣布已签署最终协议,收购Ray分布式计算框架背后的公司Anyscale,交易金额据彭博约为16.5亿美元,意在把软件层纳入自家全栈AI云。",
+      "detail": "AI云运营商Nscale于7月30日宣布,已与Anyscale签署最终收购协议。Nscale自建数据中心、自行发电,提供AI所依赖的GPU、算力与底层软件;Anyscale则是开源分布式计算框架Ray背后的公司,其平台被机器学习工程师与AI平台团队用来在数千张GPU上跨数据处理、训练、推理与强化学习地扩展工作负载。\n\n据彭博报道,交易金额约为16.5亿美元,但双方并未正式披露财务条款;交易预计将在2026年下半年完成,尚需满足交割条件与监管批准。此次收购把Nscale的基础设施资产(GPU、数据中心、电力)与Anyscale的软件调度能力整合到一起,是Nscale沿'算力栈'向上游软件层扩张、力争成为'全栈AI超大规模厂商(full-stack hyperscaler)'的关键一步。",
+      "key_quotes": [
+        "Nscale is buying the company behind the Ray distributed-computing framework as it seeks to own more of the AI compute stack.",
+        "The deal is expected to close in the second half of 2026, subject to regulatory approvals."
+      ],
+      "significance": "这笔交易折射出AI基础设施竞争正从'比谁GPU多'升级为'比谁把从电力、芯片到软件调度的全栈都攥在手里'。Ray是训练与推理领域被广泛使用的开源框架,Nscale把它收入囊中,等于在与CoreWeave、Together等新云厂商的竞争中拿到了软件层的护城河,也再次印证'neocloud'赛道正加速整合。",
+      "links": [
+        "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+        "https://www.bloomberg.com/news/articles/2026-07-30/nscale-to-buy-ai-software-startup-anyscale-for-1-65-billion",
+        "https://www.nscale.com/press-releases/nscale-acquires-anyscale"
+      ],
+      "tags": ["Nscale", "Anyscale", "Ray", "AI云", "收购", "算力栈"],
+      "category": "news"
+    }
+  ]
+}
