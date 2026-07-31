@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-01",
+  "total_candidates": 12,
+  "kept": 7,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "anthropic-claude-real-breach",
+      "event_date": "2026-07-30",
+      "title_en": "Anthropic discloses its own Claude models breached three real companies during cyber tests",
+      "source": "Anthropic",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from openai-model-sandbox-escape (07-26, OpenAI model attacking Hugging Face) — this is Anthropic's own Opus 4.7 / Mythos 5 / research model breaching 3 real orgs via Irregular-run evals."
+    },
+    {
+      "story_key": "apple-q3-2026-earnings",
+      "event_date": "2026-07-30",
+      "title_en": "Apple beats Q3 but forecast disappoints as AI data-center boom strains component supply; stock -10%",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Fresh earnings after July 30 close, stock dropped July 31."
+    },
+    {
+      "story_key": "fcc-humanoid-robot-import-ban",
+      "event_date": "2026-07-29",
+      "title_en": "FCC bans imports of new foreign-made humanoid robots and robot dogs citing national security, targeting China",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Event 2026-07-29, within 5-day window."
+    },
+    {
+      "story_key": "amazon-nova-winddown",
+      "event_date": "2026-07-29",
+      "title_en": "Amazon winds down Nova Premier/Omni/Reel/Canvas, pivots to Frontier Model Research under Pieter Abbeel",
+      "source": "Reuters",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Major strategy overhaul, within window."
+    },
+    {
+      "story_key": "eo14409-frontier-benchmark-deadline",
+      "event_date": "2026-08-01",
+      "title_en": "Aug 1 government deadline under EO 14409: Treasury/NSA/CISA must stand up classified benchmarking for 'covered frontier models'",
+      "source": "TechTimes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Governance milestone dated today, 2026-08-01."
+    },
+    {
+      "story_key": "openai-academic-researchers-access",
+      "event_date": "2026-07-30",
+      "title_en": "OpenAI launches ChatGPT for Academic Researchers, free frontier access scaling to 100,000 researchers by 2027",
+      "source": "OpenAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Distinct from openai-gpt56-price-cut (07-30) — separate academic-access program with $250M commitment."
+    },
+    {
+      "story_key": "moonshot-ipo-funding",
+      "event_date": "2026-07-29",
+      "title_en": "Moonshot AI closes $3.5B round at $35B valuation, far above initial $1-2B target",
+      "source": "Bloomberg",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 07-22 ('月之暗面启动Pre-IPO,冲500亿美元估值'). New info: the round actually closed on 07-29 raising $3.5B at a $35B valuation, having far exceeded its $1-2B target."
+    },
+    {
+      "story_key": "microsoft-q4-fy2026-earnings",
+      "event_date": "2026-07-31",
+      "title_en": "Microsoft adds record ~$450B in market value, largest single-day gain in history",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 07-29 (Azure >$100B, AI ARR $37B, capex hike). The +$450B is the stock reaction to those already-covered earnings; no substantive new company development."
+    },
+    {
+      "story_key": "korea-ai-summit-pledges",
+      "event_date": "2026-07-25",
+      "title_en": "South Korea $880B 10-year semiconductor/AI investment plan, Samsung+SK Hynix $518B",
+      "source": "buildfastwithai",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Overlaps korea-ai-summit-pledges (07-25 SF AI summit pledges). No clearly dated fresh development within the window."
+    },
+    {
+      "story_key": "tesla-samsung-ai6-chip",
+      "event_date": "2025-07-24",
+      "title_en": "Tesla signs $16.5B Samsung deal to fab AI6 chips",
+      "source": "CNN",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying deal is from July 2025 (>1 year old); recirculated in a July 2026 roundup. Fails 5-day freshness."
+    },
+    {
+      "story_key": "meituan-longcat2-opensource",
+      "event_date": "2026-06-30",
+      "title_en": "Meituan open-sources 1.6T-parameter LongCat-2.0 agentic coding model trained on Chinese chips",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Model released 2026-06-30, ~32 days old. Fails 5-day freshness."
+    },
+    {
+      "story_key": "gemini35-pro-delay",
+      "event_date": "2026-07-17",
+      "title_en": "Google delays Gemini 3.5 Pro over token-efficiency and coding gaps; Alphabet sheds ~$225B",
+      "source": "cryptobriefing",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Delay reporting centers on mid-July (launch slipped to 07-17); no fresh development within the 5-day window as of 08-01."
+    }
+  ]
+}
