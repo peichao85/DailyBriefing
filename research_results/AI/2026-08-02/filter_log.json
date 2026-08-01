@@ -1,0 +1,143 @@
+{
+  "date": "2026-08-02",
+  "total_candidates": 15,
+  "kept": 5,
+  "dropped": 10,
+  "decisions": [
+    {
+      "story_key": "deepseek-v4-flash-release",
+      "event_date": "2026-07-31",
+      "title_en": "DeepSeek ships official V4-Flash-0731, beats own V4-Pro flagship on nine agent benchmarks",
+      "source": "@DeepSeek",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Official V4-Flash-0731 exited preview on 2026-07-31: same 284B MoE / 1M ctx arch, but post-training pushed Terminal-Bench 2.1 to 82.7 and DeepSWE to 54.4, beating DeepSeek's own V4-Pro-Preview on all 9 published agent/coding benchmarks; also natively speaks OpenAI Responses API for Codex."
+    },
+    {
+      "story_key": "eu-ai-act-gpai-enforcement",
+      "event_date": "2026-08-02",
+      "title_en": "EU AI Act GPAI enforcement powers and high-risk obligations take effect Aug 2",
+      "source": "EU AI Office",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. As of 2026-08-02 the Commission/AI Office enforcement powers over GPAI providers switch on, high-risk obligations apply, Article 101 fines up to 3% global turnover / €15M activate, systemic-risk duties trigger above 10^25 FLOPs. Distinct from the 2026-08-01 US EO 14409 deadline item."
+    },
+    {
+      "story_key": "gema-suno-copyright-ruling",
+      "event_date": "2026-07-31",
+      "title_en": "Munich court rules against Suno, rejects TDM exception, orders damages",
+      "source": "Munich Regional Court",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Published 2026-07-31 as a preview ('定于7月31日上午9点宣判...可能裁定训练需先获授权'). New info: the actual verdict landed — court found Suno infringed US+German copyright, explicitly rejected the §44b TDM exception, and ordered Suno to cease reproduction, stop using works for training, disclose revenue and pay damages."
+    },
+    {
+      "story_key": "qualcomm-modular-acquisition",
+      "event_date": "2026-07-29",
+      "title_en": "Qualcomm completes acquisition of AI-infra software maker Modular",
+      "source": "Qualcomm",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Qualcomm announced on 2026-07-29 it closed its acquisition of Modular (Chris Lattner's Mojo/MAX AI-native software stack), pairing its compute with a hardware-agnostic deploy layer for generative/agentic workloads."
+    },
+    {
+      "story_key": "openai-model-sandbox-escape",
+      "event_date": "2026-08-01",
+      "title_en": "Hugging Face CEO calls for developer accountability for rogue models, rules out suing OpenAI",
+      "source": "@julien_c",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Story published 2026-07-26 (Delangue flies to SF, demands transparency + $100M compute). New development: in a 2026-08-01 CNN interview Delangue publicly ruled out legal action ('tiny startup with 200 people'), and reframed the fight around a legal-accountability regime for companies whose models 'go rogue' — a new policy angle beyond the original hack disclosure."
+    },
+    {
+      "story_key": "black-forest-labs-series-b",
+      "event_date": "2025-12-01",
+      "title_en": "Black Forest Labs raises $300M Series B at $3.25B",
+      "source": "Black Forest Labs",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Round closed 2025-12-01 (surfaced as a false 'August' match); event >5 days old."
+    },
+    {
+      "story_key": "five-eyes-agentic-ai-guidance",
+      "event_date": "2026-05-01",
+      "title_en": "Five Eyes issue 'Careful Adoption of Agentic AI Services' guidance",
+      "source": "CISA/NSA",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Joint guidance published 2026-05-01; event >5 days old."
+    },
+    {
+      "story_key": "china-open-source-ai-summit",
+      "event_date": "2026-07-08",
+      "title_en": "China pitches open-source AI to Global South at UN AI for Good summit",
+      "source": "Semafor",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Geneva AI for Good summit was early July (2026-07-08); event >5 days old."
+    },
+    {
+      "story_key": "meta-nuclear-power-deals",
+      "event_date": "2026-01-09",
+      "title_en": "Meta signs 6.6GW nuclear deals with TerraPower, Oklo, Vistra for Prometheus",
+      "source": "Meta",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Deals announced 2026-01-09; event >5 days old."
+    },
+    {
+      "story_key": "byd-humanoid-reveal",
+      "event_date": "2026-07-28",
+      "title_en": "BYD confirms first humanoid robot will debut in August",
+      "source": "@BYD",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-28 ('计划于8月...发布首款人形机器人'). No actual debut has occurred yet; today's coverage merely restates the August plan."
+    },
+    {
+      "story_key": "gemini-4-pretraining",
+      "event_date": "2026-07-21",
+      "title_en": "Google DeepMind confirms Gemini 4 in pre-training",
+      "source": "Google DeepMind",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Confirmed 2026-07-21; event >5 days old and no new specs/date since."
+    },
+    {
+      "story_key": "grok-imagine-deepfake",
+      "event_date": "2025-08-04",
+      "title_en": "Grok Imagine generates non-consensual celebrity content",
+      "source": "@xai",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Search dates are muddled with the August 2025 Grok Imagine controversy; no verifiable fresh 2026 event within window."
+    },
+    {
+      "story_key": "openai-chatgpt-work",
+      "event_date": "2026-07-09",
+      "title_en": "OpenAI launches ChatGPT Work + broad GPT-5.6 rollout",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Launched 2026-07-09; event >5 days old."
+    },
+    {
+      "story_key": "openai-gpt56-price-cut",
+      "event_date": "2026-07-30",
+      "title_en": "OpenAI cuts GPT-5.6 Luna 80% / Terra 20%",
+      "source": "OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-30 with the same price-cut facts; no new information."
+    },
+    {
+      "story_key": "claude-sonnet5-pricing-end",
+      "event_date": "2026-08-01",
+      "title_en": "Claude Sonnet 5 intro pricing ends Sept 1 ($2->$3/M)",
+      "source": "Anthropic",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Minor pricing-schedule note; not a significant standalone development worth publishing."
+    }
+  ]
+}
