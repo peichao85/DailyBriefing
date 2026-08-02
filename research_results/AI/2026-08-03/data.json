@@ -1,0 +1,132 @@
+{
+  "date": "2026-08-03",
+  "category": "AI",
+  "researched_at": "2026-08-03T07:05:00+08:00",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@ilyasut", "@DanielaAmodei", "@elonmusk",
+    "@alexandr_wang", "@mntruell", "@mikeyk", "@JeffDean", "@ylecun",
+    "@geoffreyhinton", "@AndrewYNg", "@karpathy", "@julien_c", "@ScottWu46",
+    "@alighodsi", "@JonathanRoss321", "@lexfridman", "@garrytan", "@DrJimFan",
+    "@dwarkesh_sp", "TechCrunch", "The Information", "Gizmodo", "The Decoder",
+    "AI Weekly", "9to5Google", "CNBC", "Bloomberg"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "把'下一代模型'藏进一篇数学博客:OpenAI预告多智能体新家族Astra,一举攻克10道悬置十年以上的数学难题",
+      "source": "@sama",
+      "source_name": "The Decoder",
+      "source_url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
+      "story_key": "openai-astra-model",
+      "event_date": "2026-08-02",
+      "summary": "OpenAI没发新闻稿,而是在一篇讲数学进展的博客里'夹带'预告了下一代模型家族Astra——一个让多个智能体协同、可连续运行数小时甚至数天的系统。其内部版本一口气解出10道悬而未决十年以上的数学与理论计算机难题,并附上可机器校验的Lean证明。",
+      "detail": "8月1—2日,OpenAI用一种极不寻常的方式预告了自己的'下一代主力模型家族':它没有开发布会,而是发布了一篇题为《数学与理论计算机科学的十项进展》的博客,把新模型的存在放在第三段轻描淡写地带过。文章真正的重磅在于——这10道题都由一个名为Astra的内部版本模型解出,而这些题在群论、编码理论、量子复杂度、高维几何等领域已悬置至少十年、多数远不止十年,期间数学界毫无进展。每道题都配有可被机器校验的Lean形式化证明,以证明结果并非模型'幻觉'。\n\nAstra被描述为一个多智能体系统:一个根智能体拆解问题、派生多个子智能体分头攻关,再等待并综合各方结果给出最终答案,专为可连续运行数小时乃至数天的长程任务设计。OpenAI称,按其Sol API价格计算,解出这10道题的算力成本约为2000美元。\n\n目前OpenAI尚未给出Astra的公开发布时间,也未确认它会以GPT-6、GPT-5系列的小版本,还是与Sol、Terra、Luna并列的独立模型类别的形式落地;据The Information报道,内部对此都还没定论。",
+      "key_quotes": [
+        "This model solved 10 significant math problems at a cost of $2000 at Sol API prices.",
+        "A root agent creates subagents, distributes portions of a problem, waits for results, and synthesizes a final answer."
+      ],
+      "significance": "把'预告下一代模型'包装成一次数学能力的硬核演示,是OpenAI叙事策略的一次转向:不再比拼聊天体验,而是用'可机器校验地解出人类十年攻不下的难题'来定义前沿。多智能体、超长时程协同若真能规模化,意味着模型正从'一次问答'走向'一个能独立跑数天的研究员',这也是通往真正自主科研的关键一步。",
+      "links": [
+        "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
+        "https://gizmodo.com/openai-smuggled-the-announcement-of-astra-its-next-ai-model-into-a-blog-post-about-math-2000793689",
+        "https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups"
+      ],
+      "image": "assets/logos/openai-logo.png",
+      "image_type": "logo",
+      "tags": ["OpenAI", "Astra", "多智能体", "数学", "前沿模型"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "'AI垃圾'把漏洞平台淹了:苹果给Feedback Assistant上限流,成首家正式对AI漏洞报告'限速'的大厂",
+      "source": "AI Weekly",
+      "source_name": "AI Weekly",
+      "source_url": "https://aiweekly.co/ai-news-today",
+      "story_key": "apple-ai-vuln-ratelimit",
+      "event_date": "2026-08-02",
+      "summary": "苹果为其Feedback Assistant漏洞反馈系统加了提交上限和30天冷却期,理由是AI生成的报告泛滥到难以招架。此举被视为首家大型厂商正式对'AI辅助漏洞披露'实施限速,此前curl、Internet Bug Bounty等开源项目已先行采取类似节流。",
+      "detail": "面对由大模型批量生成、看似专业却大多无效的'AI垃圾(AI slop)'漏洞报告,苹果为Feedback Assistant新增了提交数量上限和30天冷却期。这是继curl、Internet Bug Bounty等开源项目之后,首家正式对AI辅助漏洞披露'限速'的大型厂商。\n\n问题的根子在于:每一份哪怕看似合理的报告,仍需真人去复现、定位、修补并协调披露,而AI让'生成报告'的成本趋近于零,却没让'处理报告'的人手变多。curl项目的经历是最好的注脚——其确认漏洞率从历史上约15%一路跌到不足5%,创始人Stenberg把应对方式直接类比为'遭遇DDoS时的限流';curl甚至一度在7月整月拒收任何漏洞报告('Summer of Bliss'),定于8月3日才恢复接收。\n\n苹果这样体量的公司也祭出限流,标志着'AI垃圾报告'已从开源社区的局部困扰,蔓延成整个安全披露体系的结构性压力。",
+      "key_quotes": [
+        "The move marks the first major vendor formally rate-limiting AI-assisted vulnerability disclosure.",
+        "Stenberg likens the switch to rate limiting during a traditional DDoS defense."
+      ],
+      "significance": "漏洞众测(bug bounty)是现代软件安全的重要一环,其运转依赖'信噪比'。当AI能零成本量产逼真却无效的报告,信噪比崩塌,连苹果都不得不从'欢迎一切报告'退守到'限流'。这预示着一个更广的趋势:AI正在把大量本靠'免费、开放、善意'维系的公共协作机制(开源贡献、审稿、内容审核)推向不得不设卡收费的临界点。",
+      "links": [
+        "https://aiweekly.co/ai-news-today",
+        "https://byteiota.com/curl-takes-july-off-after-ai-slop-killed-its-bug-bounty/",
+        "https://pinggy.io/blog/curl_ai_slop_summer_of_bliss/"
+      ],
+      "image": "assets/logos/apple-logo.png",
+      "image_type": "logo",
+      "tags": ["Apple", "安全", "漏洞披露", "AI slop", "开源"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "越聪明越贵:Dwarkesh Patel测算AI算力未来或涨10—15倍,因为'模型变聪明的速度'快过'算力建成的速度'",
+      "source": "@dwarkesh_sp",
+      "source_name": "Dwarkesh Patel",
+      "source_url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
+      "story_key": "ai-compute-cost-surge",
+      "event_date": "2026-07-29",
+      "summary": "播客主/分析师Dwarkesh Patel在7月29日的长文中提出一个反直觉结论:随着模型越来越会'压榨'同等算力去赚钱,而算力供给每年只能增长约3倍,二者错配将把AI算力价格推高10—15倍。他给出的锚点是——真能顶替一名软件工程师的模型若跑在一块H100上,这块卡的年租金理应超过25万美元。",
+      "detail": "Dwarkesh Patel的核心论点是:算力涨价的驱动力不是供给短缺本身,而是'需求端单位算力的赚钱能力'在飞速上升。当模型足够聪明,同样一块芯片能产出的经济价值越来越高,就会把租金一路顶上去。他举例:如果一块H100等效算力能跑一个真正达到人类水平的软件工程师,按当前工程师薪酬倒推,这块卡一年就该值25万美元以上——是当下现货价的约15倍。\n\n数据面上,他指出GPU现货价已较2月低点回升逾40%;Google据报每月向SpaceX支付约9.2亿美元、租用约11万块GPU(约合现货价的2倍),侧面印证顶级买家愿意为'确定性算力'付溢价。而供给侧,他把2030年前的算力增长拆解为每年约3倍:摩尔定律贡献约1.4倍、新建晶圆厂约1.2倍、AI从其他设备手里抢占先进制程产能约1.8倍——远追不上需求。\n\n他还提到,Anthropic的年化收入正朝1000亿—1500亿美元迈进,推理毛利率从2025年的约40%向80%以上攀升,说明'模型赚钱效率'确实在快速抬升——这正是他判断算力将更贵、而非因规模化更便宜的关键依据。",
+      "key_quotes": [
+        "That H100 should rent for over $250k a year—15x today's spot prices.",
+        "Roughly 3x a year: 1.4x from Moore's Law, 1.2x from new fabs, and 1.8x from AI taking leading-edge wafer allocation."
+      ],
+      "significance": "主流叙事默认'算力会像所有芯片一样越来越便宜',Patel却指出:一旦AI能把算力高效变现,算力就更像'能生金的资本品'而非普通商品,价格会被赚钱能力而非制造成本决定。若成立,这将重塑整个行业的经济学——推理成本未必随时间下降,反而可能上涨,利好囤积算力和自建产能的巨头,却给依赖廉价API的创业公司蒙上阴影。",
+      "links": [
+        "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
+        "https://aiweekly.co/alerts/dwarkesh-patel-argues-ai-compute-could-get-10-15x-pricier",
+        "https://x.com/dwarkesh_sp/status/2082482530209411419"
+      ],
+      "tags": ["算力经济", "Dwarkesh Patel", "GPU", "推理成本", "分析"],
+      "category": "trending"
+    },
+    {
+      "id": "4",
+      "title": "上线前一天'临阵撤单':Google砍掉独立AI Studio手机App,80万预约白排,功能改并进Gemini",
+      "source": "@Google",
+      "source_name": "9to5Google",
+      "source_url": "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
+      "story_key": "google-ai-studio-app-cancel",
+      "event_date": "2026-07-31",
+      "summary": "在预定8月1日上线的前一天,Google突然取消了面向iOS/Android的独立AI Studio应用,尽管已累计约80万预约。团队称与其让用户再多装一个App,不如把'用对话造应用'的能力直接并入Gemini;两大商店的预约页已被撤下。",
+      "detail": "Google原计划把网页端AI Studio的'用自然语言搭建应用/原型'能力做成一款独立手机App,并宣称自I/O大会以来已收获约80万预约。但就在预定8月1日发布的前一天,AI Studio团队在X上宣布改弦更张:不再单独发App,而是把这些功能直接整合进Gemini,让应用'在与Gemini的日常对话中自然生成'。目前Google Play与App Store上的相关预约页均已下架。\n\nGoogle强调仍会继续投入网页版AI Studio,把它定位为'把想法变成提示词、原型乃至生意'的地方。此番'临门撤单'也折射出大厂在AI产品形态上的摇摆——是做垂直独立入口,还是一切收敛到超级助手Gemini,Google这次选了后者。",
+      "key_quotes": [
+        "Instead of asking users to download yet another app, we decided to take a different approach where apps emerge naturally in conversations with Gemini."
+      ],
+      "significance": "80万预约的产品在上线前夜被砍,反映的是当下AI巨头的核心战略取舍:与其分散出一堆单点App,不如把所有能力汇入一个'超级助手'入口以最大化用户黏性。Google押注Gemini作为统一收口,既是对'App碎片化'的纠偏,也是与ChatGPT争夺'唯一AI入口'心智的正面选择。",
+      "links": [
+        "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
+        "https://www.digitaltrends.com/cool-tech/google-just-canceled-its-ai-studio-mobile-app-and-its-not-all-bad-news/",
+        "https://runtimewire.com/article/google-backs-away-ai-studio-mobile-app-800000-preorders"
+      ],
+      "image": "assets/logos/google-logo.png",
+      "image_type": "logo",
+      "tags": ["Google", "Gemini", "AI Studio", "产品战略"],
+      "category": "product_operators"
+    },
+    {
+      "id": "5",
+      "title": "自家的大限自己'爽约':白宫EO 14409的8月1日截止日无声无息过去,承诺的前沿模型评测框架一份文件都没出",
+      "source": "AI Weekly",
+      "source_name": "AI Weekly",
+      "source_url": "https://aiweekly.co/ai-news-today",
+      "story_key": "eo14409-frontier-benchmark-deadline",
+      "event_date": "2026-08-02",
+      "summary": "美国政府悄然错过了自己在第14409号行政令中定下的8月1日大限:没有任何《联邦公报》通知,NIST、CISA没有发布物,OSTP也没有声明,承诺的'受管前沿模型'机密评测流程、自愿披露框架与联邦网络人才计划全部落空。",
+      "detail": "按特朗普6月2日签署的第14409号行政令,8月1日本是美国政府给自己定的截止日:财政部、NSA、CISA须会同国家网络总监、NIST等,建成一套认定'受管前沿模型(covered frontier model)'网络能力的机密评测流程,并设计一个允许开发者在发布前最多30天向政府开放模型访问的'自愿'框架。\n\n然而截止日已过,却没有任何官方产出——《联邦公报》上没有通知,NIST和CISA没有发布任何标准或流程,OSTP也未就机密基准评测、自愿披露框架或联邦网络人才计划发表任何声明。这意味着这套被寄望用于给前沿模型的网络攻击能力'定标'的机制,至今连纸面框架都没落地。\n\n背景回顾:EO 14409要求政府在发布前最多提前30天获得'受管前沿模型'的访问权并建立机密评测体系,8月1日为其自设大限。",
+      "key_quotes": [
+        "No Federal Register notices, no NIST or CISA publications, and no OSTP statement covering the promised classified benchmarking process."
+      ],
+      "significance": "在OpenAI失控模型攻破Hugging Face、Anthropic的Claude在真实网络中攻入三家公司等事件接连发生、社会对前沿模型网络能力高度警觉之际,政府却连自己定的评测框架大限都无声错过。这暴露出美国AI治理'雷声大、落地难'的老问题:行政令能画出宏大蓝图,却缺乏配套的人力、标准与执行力,监管进度正被模型能力甩在身后。",
+      "links": [
+        "https://aiweekly.co/ai-news-today"
+      ],
+      "tags": ["AI监管", "EO 14409", "美国政府", "前沿模型", "网络安全"],
+      "category": "news"
+    }
+  ]
+}

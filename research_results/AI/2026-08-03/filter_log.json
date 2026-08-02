@@ -1,0 +1,98 @@
+{
+  "date": "2026-08-03",
+  "total_candidates": 10,
+  "kept": 5,
+  "dropped": 5,
+  "decisions": [
+    {
+      "story_key": "openai-astra-model",
+      "event_date": "2026-08-02",
+      "title_en": "OpenAI teases next major model family 'Astra', solves 10 decade-old math problems",
+      "source": "@sama",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. OpenAI previewed a new multi-agent model family named Astra by publishing 10 machine-checkable Lean proofs of long-unsolved math problems; big frontier development."
+    },
+    {
+      "story_key": "apple-ai-vuln-ratelimit",
+      "event_date": "2026-08-02",
+      "title_en": "Apple caps AI-generated bug reports in Feedback Assistant, first major vendor to rate-limit AI vuln disclosure",
+      "source": "AI Weekly",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Apple added a submission cap plus 30-day cool-off for Feedback Assistant, following curl / Internet Bug Bounty throttles; framed as first major vendor formally rate-limiting AI-assisted vuln disclosure."
+    },
+    {
+      "story_key": "ai-compute-cost-surge",
+      "event_date": "2026-07-29",
+      "title_en": "Dwarkesh Patel argues AI compute could get 10-15x more expensive as lab revenue outpaces build-out",
+      "source": "@dwarkesh_sp",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. July 29 essay; event_date exactly 5 days before today, within freshness limit. Novel analysis with concrete data (spot +40%, Google-SpaceX $920M/mo, 3x/yr compute build)."
+    },
+    {
+      "story_key": "google-ai-studio-app-cancel",
+      "event_date": "2026-07-31",
+      "title_en": "Google cancels standalone AI Studio mobile app one day before launch despite 800K preorders",
+      "source": "@Google",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Google scrapped the iOS/Android AI Studio app right before its Aug 1 release, folding features into Gemini; listings already pulled."
+    },
+    {
+      "story_key": "eo14409-frontier-benchmark-deadline",
+      "event_date": "2026-08-02",
+      "title_en": "US government blows past its own EO 14409 Aug 1 deadline with no publications",
+      "source": "AI Weekly",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Published 2026-08-01 describing the Aug 1 deadline itself. New development: the government missed the deadline entirely — no Federal Register notices, no NIST/CISA publications, no OSTP statement on the classified benchmarking or voluntary disclosure framework."
+    },
+    {
+      "story_key": "tsimerman-openai-safety",
+      "event_date": "2026-07-23",
+      "title_en": "Fields Medalist Jacob Tsimerman joins OpenAI for AI safety",
+      "source": "WSJ",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Announcement made at ICM Philadelphia on 2026-07-23, 11 days before today (>5 day limit). WSJ profile ran Aug 2 but underlying event is stale."
+    },
+    {
+      "story_key": "eu-ai-act-gpai-enforcement",
+      "event_date": "2026-08-02",
+      "title_en": "EU AI Office enforcement powers over GPAI begin",
+      "source": "AI Weekly",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-08-02 with full detail on the Aug 2 enforcement start and 3% turnover fines. No substantively new information."
+    },
+    {
+      "story_key": "fireworks-series-d",
+      "event_date": "2026-07-15",
+      "title_en": "Fireworks AI raises $1.5B Series D at $17.5B valuation",
+      "source": "SiliconANGLE",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Round announced 2026-07-15/16, 18-19 days old (>5 day limit)."
+    },
+    {
+      "story_key": "thinking-machines-inkling",
+      "event_date": "2026-07-15",
+      "title_en": "Thinking Machines releases Inkling open-weights model",
+      "source": "Thinking Machines Lab",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Released 2026-07-15, 19 days old (>5 day limit)."
+    },
+    {
+      "story_key": "ai-training-data-pollution",
+      "event_date": "2026-08-01",
+      "title_en": "The clean web text that powered LLMs is drying up and getting polluted by AI output",
+      "source": "AI Weekly",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Trend/essay piece with no discrete dated event or news peg; too generic to publish as a briefing item."
+    }
+  ]
+}
