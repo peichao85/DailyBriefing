@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-04",
+  "category": "AI",
+  "researched_at": "2026-08-04T07:10:00+08:00",
+  "sources_checked": [
+    "@sama", "@demishassabis", "@ilyasut", "@elonmusk", "@alexandr_wang",
+    "@mntruell", "@JeffDean", "@ylecun", "@AndrewYNg", "@karpathy",
+    "@julien_c", "@ScottWu46", "@DrJimFan", "@garrytan",
+    "SCMP", "The Decoder", "MarkTechPost", "CNBC", "Axios", "The Information",
+    "Construction Dive", "Autodesk News", "Calcalist/CTech", "Tricentis",
+    "The Wire China", "AIwire/HPCwire", "TechCrunch", "Bloomberg", "Reuters"
+  ],
+  "items": [
+    {
+      "id": "1",
+      "title": "把'开源'当武器抵近前沿:阿里发布2.4万亿参数Qwen3.8-Max,能自主干上好几天,视觉推理与电脑操作反超GPT-5.6与Fable 5",
+      "source": "@Alibaba",
+      "source_name": "South China Morning Post",
+      "source_url": "https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release",
+      "story_key": "qwen38-max-release",
+      "event_date": "2026-08-03",
+      "summary": "阿里巴巴8月3日推出迄今最强模型Qwen3.8-Max:2.4万亿参数MoE(激活约950亿)、支持文本/图像/视频输入与100万上下文,主打'连续自主运行数天'的长程智能体任务。官方称其在多项基准上与GPT-5.6 Sol、Claude Fable 5打成平手,并在视觉推理与'智能体电脑操作'两项上反超两家旗舰;下周将以开源权重(open-weight)形式放出。",
+      "detail": "阿里通义千问(Qwen)团队于8月3日发布新一代旗舰Qwen3.8-Max,并在开源权重正式放出前先向全球用户开放使用。这是一款2.4万亿参数的混合专家(MoE)模型,但每次推理只激活约950亿参数,因此实际算力开销远小于总参数量所暗示的规模;模型可接收文本、图像与视频输入、输出文本,上下文窗口达100万token(约合75万字)。\n\n与近期大多数发布不同,Qwen3.8-Max把卖点押在'长时程、自主'的智能体能力上:官方称它能在'极少人工介入'下,自主完成跨越数天的复杂任务。在演示中,模型自主编写并交付了软件、复现并改进了一篇研究论文的结果,还独立运营了一家模拟电商。团队称训练特意覆盖了多天工作流、嵌套目录结构(而非单个文件)以及多种智能体脚手架(agent harness)。\n\n阿里公布的测试显示,Qwen3.8-Max在多项基准上与OpenAI的GPT-5.6 Sol、Anthropic的Fable 5'你追我赶',并在两项上实现反超——一项是视觉推理,另一项是'智能体电脑操作'(agentic computer use)。阿里明确把它定位为开源权重模型,允许开发者获取并修改权重用于研究、定制与部署,并预告下周正式开放下载。\n\n这一发布落在'中国开源模型逼近前沿'的大背景下:几天前月之暗面的Kimi K3刚以开源权重形式把中国模型推到接近前沿的位置,如今阿里紧随其后。近月来,关于中国在AI竞赛中可能取得领先的担忧持续升温,而其中相当一部分压力,正来自这些足以平替OpenAI、Anthropic昂贵产品、却免费开放的中国开源模型。",
+      "key_quotes": [
+        "complete complex tasks on its own over multiple days with minimal human involvement",
+        "neck-and-neck with GPT-5.6 Sol and Fable 5 on several benchmarks, and surpasses them on two: one for visual reasoning and another for agentic computer use"
+      ],
+      "significance": "Qwen3.8-Max把'开源权重'和'能自主跑好几天的长程智能体'两件事叠在一起,直接冲着西方最贵的闭源旗舰去。当一款可自由下载、可自部署的中国模型在视觉推理与电脑操作上反超GPT-5.6 Sol和Fable 5,'前沿=闭源=美国'的默认叙事被再一次动摇——它压缩的不只是性能差距,更是闭源厂商赖以收费的定价权。对企业而言,这意味着把最强能力搬进自己机房、绕开API的选项正变得越来越真实。",
+      "links": [
+        "https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release",
+        "https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/",
+        "https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/",
+        "https://fortune.com/2026/08/03/alibaba-qwen3-8-max-china-next-top-ai-model/"
+      ],
+      "image": "assets/logos/qwen-logo.png",
+      "image_type": "logo",
+      "tags": ["Qwen", "Alibaba", "开源权重", "智能体", "MoE", "中国AI"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "AI写代码鼻祖'被收编':Tricentis收购Tabnine,赌注押在'让智能体看懂代码'而非'再多生成代码'",
+      "source": "Tricentis",
+      "source_name": "Calcalist",
+      "source_url": "https://www.calcalistech.com/ctechnews/article/1o1nf7vd3",
+      "story_key": "tricentis-tabnine-acquisition",
+      "event_date": "2026-07-30",
+      "summary": "测试自动化厂商Tricentis于7月30日宣布收购以色列AI编程平台Tabnine——最早一批AI代码补全工具的先驱之一,交易额据估在'数千万美元'量级。Tricentis将把Tabnine的'企业上下文引擎'并入其智能体质量工程平台,理由是:限制智能体软件质量的不是模型能力,而是智能体'看不懂'它要测试的系统。",
+      "detail": "7月30日,以测试自动化起家的Tricentis宣布已收购Tabnine。后者是一家以色列初创,也是Copilot问世之前最早做AI代码补全的先驱之一,曾以'安全、贴合企业上下文'的定位在开发者工具市场占据一席之地。据Calcalist报道,交易未披露具体金额,但估计在'数千万美元'量级——对一家曾被视为AI编程代表之一的公司而言,这更像是一场'被收编',而非高光退出。\n\nTricentis的算盘不在'生成更多代码',而在'看懂已有系统'。它将把Tabnine的'企业上下文引擎(Enterprise Context Engine)'并入自家的智能体质量工程(Agentic Quality Engineering)平台。该引擎会为一家机构的各类系统构建一张持续更新的结构化知识图谱。Tricentis的核心论点是:如今制约'智能体做软件质量'的瓶颈,已经不是模型本身的能力,而是AI智能体无法可靠地测试、验证和修复它并不真正理解的软件。",
+      "key_quotes": [
+        "The constraint on agentic software quality is not model capability, but that AI agents cannot reliably test, validate, or remediate software they do not fully understand."
+      ],
+      "significance": "Tabnine的落幕给'独立AI编程助手'这条赛道敲了一记警钟:当代码生成本身沦为大模型的通用能力、人人可得,单纯'补全/生成'已不再是护城河。真正稀缺的,是让智能体理解一家企业错综复杂的既有系统——上下文、知识图谱、可验证性。价值正从'写得出'向'看得懂、测得准'迁移,而这一转移也在重塑AI编程工具的并购逻辑:被并入测试与质量平台,而非独立做大。",
+      "links": [
+        "https://www.calcalistech.com/ctechnews/article/1o1nf7vd3",
+        "https://www.tricentis.com/news/tricentis-acquires-tabnine",
+        "https://www.businesswire.com/news/home/20260730388427/en/Tricentis-Acquires-Tabnine-to-Further-Scale-Agentic-Quality-Engineering-for-the-Enterprise"
+      ],
+      "tags": ["Tabnine", "Tricentis", "AI编程", "并购", "智能体测试"],
+      "category": "builders"
+    },
+    {
+      "id": "3",
+      "title": "36亿美元买下'工厂车间':Autodesk完成收购MaintainX,把AI从'设计'一路铺到'运维'",
+      "source": "Autodesk",
+      "source_name": "Autodesk News",
+      "source_url": "https://adsknews.autodesk.com/en/news/welcoming-maintainx/",
+      "story_key": "autodesk-maintainx-acquisition",
+      "event_date": "2026-08-03",
+      "summary": "设计软件巨头Autodesk于8月3日完成对运维/维护软件公司MaintainX约36亿美元的全现金收购(并购协议5月28日签署)。Autodesk借此成立'Autodesk Operations Solutions(AOS)',要把'设计—制造—运维'打通成一条连续的数据与AI闭环,正式把触角伸向工厂车间。",
+      "detail": "Autodesk于8月3日宣布完成对MaintainX的收购,交易为全现金、总额约36亿美元,并购协议早在5月28日签署,通过其全资子公司Matterhorn Acquisition Corp.完成。MaintainX主打面向工业与基础设施客户的资产与维护管理(CMMS)软件,长于'工厂车间'一侧的运维数据与工单流程。\n\n此次收购后,Autodesk将相关能力整合为新设的'Autodesk Operations Solutions(AOS)',并把公司战略进一步押在'设计(design)—制造(make)—运维(operate)'一体化上:让数据与洞察在整个生命周期里无缝流动。对一家长期以设计工具(如AutoCAD)著称的公司而言,花36亿美元向下游运维扩张,是把AI叙事从'画图纸'推进到'管资产、修设备'的关键一步。",
+      "key_quotes": [
+        "Autodesk's strategy is to converge design, make, and operate workflows, ensuring data and insights flow seamlessly in a continuous lifecycle."
+      ],
+      "significance": "这是当日体量最大的一笔AI相关并购。它折射出工业软件的一条主线:AI的价值不止在'设计端'生成方案,更在'运维端'把海量资产、工单、传感数据变成可行动的洞察。Autodesk用36亿美元把'工厂车间'纳入自家平台,意在打造贯穿全生命周期的数据闭环——谁掌握了从设计到运维的连续数据,谁就掌握了工业AI落地的地基。",
+      "links": [
+        "https://adsknews.autodesk.com/en/news/welcoming-maintainx/",
+        "https://www.constructiondive.com/news/autodesk-maintainx-acquire-contech-data-ai/821895/",
+        "https://pulse2.com/autodesk-acquires-maintainx-in-3-6-billion-deal-to-expand-operations-platform-and-ai-capabilities/"
+      ],
+      "image": "img/autodesk-logo.svg",
+      "image_type": "logo",
+      "tags": ["Autodesk", "MaintainX", "并购", "工业AI", "运维"],
+      "category": "news"
+    },
+    {
+      "id": "4",
+      "title": "存储'一哥'趁热扩产:长鑫存储再建北京第二厂,并洽谈新一轮融资冲产能",
+      "source": "The Wire China",
+      "source_name": "The Wire China",
+      "source_url": "https://www.thewirechina.com/2026/08/03/the-daily-roundup-august-3-2026/",
+      "story_key": "cxmt-shanghai-ipo",
+      "event_date": "2026-08-03",
+      "summary": "据8月3日报道,中国存储芯片厂商长鑫存储(CXMT)计划在北京再建一座芯片工厂,并正就新一轮融资进行洽谈,以在AI基础设施拉动的全球芯片紧缺中扩大产能。",
+      "detail": "8月3日,有报道称长鑫存储(CXMT)正筹划在北京兴建第二座芯片工厂,并就相关融资进行谈判。公司此举意在乘AI热潮扩大DRAM等存储产能——当前由AI基础设施支出驱动的全球芯片紧缺,让存储厂商的每一分新增产能都成了稀缺资源。\n\n这一扩产动作,与中国近期在半导体自主化上的整体推进相互呼应:从国产沉浸式DUV光刻机传出量产消息,到存储厂商加码建厂,国产供应链正试图把'从设备到芯片'的链条一段段补齐,以减少对海外的依赖、并就近喂饱国内AI算力需求。\n\n背景回顾:长鑫存储7月27日在上海科创板上市首日暴涨466%,募资约86亿美元,创2026年亚洲最大IPO,市值一度反超工商银行。",
+      "key_quotes": [
+        "CXMT plans a second chip plant in Beijing and is in talks on its funding to boost production amid a global chip shortage driven by AI infrastructure spending."
+      ],
+      "significance": "IPO募到的巨额资金,正快速转化为实打实的产能扩张。长鑫存储在完成亚洲最大IPO仅一周后就传出'再建一厂+新融资',说明中国存储的目标不止是'上市套现',而是趁AI存储紧缺的窗口把产能规模拉起来。若国产DUV光刻与国产存储扩产两条线同时跑通,中国AI算力'从设备到内存'的自给链条将进一步收紧,对海外存储三巨头构成更直接的份额压力。",
+      "links": [
+        "https://www.thewirechina.com/2026/08/03/the-daily-roundup-august-3-2026/"
+      ],
+      "tags": ["CXMT", "长鑫存储", "存储芯片", "扩产", "中国半导体"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "对话式AI也走SPAC路:Yellow.ai拟以5.5亿美元借壳上市",
+      "source": "AIwire",
+      "source_name": "AIwire",
+      "source_url": "https://www.hpcwire.com/aiwire/2026/08/03/yellow-ai-to-go-public-via-550m-merger-with-bluerock-acquisition-corp/",
+      "story_key": "yellowai-spac-merger",
+      "event_date": "2026-08-03",
+      "summary": "企业级对话式AI平台Yellow.ai于8月3日宣布,将通过与Bluerock Acquisition Corp.合并、以约5.5亿美元估值借壳(SPAC)上市。该公司此前被Forrester评为2026年二季度'客服对话式AI平台'报告中的Strong Performer。",
+      "detail": "8月3日,主打企业客服自动化的对话式AI公司Yellow.ai与SPAC公司Bluerock Acquisition Corp.签署最终合并协议,拟通过借壳方式上市,交易对应估值约5.5亿美元。Yellow.ai近期被Forrester《The Forrester Wave: Conversational AI Platforms for Customer Service, Q2 2026》评为Strong Performer,定位于用AI智能体承接企业客服与交互场景。\n\n在大模型把'对话'变成通用能力、客服自动化竞争空前激烈之际,借道SPAC上市既是这类垂直AI厂商获取资金与曝光的捷径,也反映出对话式AI赛道正进入整合与'找出口'的阶段。",
+      "key_quotes": [
+        "Yellow.ai announced a definitive Business Combination Agreement with Bluerock Acquisition Corp. to go public via a $550 million merger."
+      ],
+      "significance": "这笔交易本身规模不大,却是一个信号:随着通用大模型把'会对话'变成人人可得的能力,专注客服的对话式AI厂商正被迫加速寻找资本出口与差异化定位。SPAC借壳成为这类中型垂直AI公司在竞争与烧钱压力下的一条现实路径,也预示对话式AI赛道将迎来更多整合与洗牌。",
+      "links": [
+        "https://www.hpcwire.com/aiwire/2026/08/03/yellow-ai-to-go-public-via-550m-merger-with-bluerock-acquisition-corp/"
+      ],
+      "image": "img/yellowai-logo.png",
+      "image_type": "logo",
+      "tags": ["Yellow.ai", "SPAC", "对话式AI", "上市", "客服"],
+      "category": "news"
+    }
+  ]
+}

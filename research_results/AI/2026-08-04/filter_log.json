@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-04",
+  "total_candidates": 13,
+  "kept": 5,
+  "dropped": 8,
+  "decisions": [
+    {
+      "story_key": "qwen38-max-release",
+      "event_date": "2026-08-03",
+      "title_en": "Alibaba releases Qwen3.8-Max, a 2.4T-parameter open-weight MoE with near-frontier agentic performance",
+      "source": "@Alibaba",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. New flagship model announced 2026-08-03, distinct from Kimi K3 (moonshot) and DeepSeek V4 stories."
+    },
+    {
+      "story_key": "tricentis-tabnine-acquisition",
+      "event_date": "2026-07-30",
+      "title_en": "Tricentis acquires AI-coding pioneer Tabnine to feed its testing agents enterprise context",
+      "source": "Tricentis",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Announced 2026-07-30 (within 5-day window). Notable consolidation of a standalone AI coding assistant."
+    },
+    {
+      "story_key": "autodesk-maintainx-acquisition",
+      "event_date": "2026-08-03",
+      "title_en": "Autodesk completes $3.6B all-cash acquisition of MaintainX, forms Autodesk Operations Solutions",
+      "source": "Autodesk",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Deal completed 2026-08-03; largest AI-adjacent M&A of the day."
+    },
+    {
+      "story_key": "cxmt-shanghai-ipo",
+      "event_date": "2026-08-03",
+      "title_en": "CXMT plans a second Beijing memory-chip plant and is in funding talks to scale output",
+      "source": "The Wire China",
+      "action": "KEEP",
+      "filter": "returning_story_with_update",
+      "reason": "Previously published 2026-07-27 (record Shanghai STAR IPO, 466% pop). New info on 08-03: CXMT plans a SECOND Beijing fab and is in talks on new funding to boost capacity — a fresh expansion development not present in prior coverage."
+    },
+    {
+      "story_key": "yellowai-spac-merger",
+      "event_date": "2026-08-03",
+      "title_en": "Yellow.ai to go public via $550M SPAC merger with Bluerock Acquisition Corp",
+      "source": "AIwire",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Announced 2026-08-03. Enterprise conversational-AI vendor going public."
+    },
+    {
+      "story_key": "grok-voice-think-fast-2",
+      "event_date": "2026-07-29",
+      "title_en": "xAI launches Grok Voice Think Fast 2.0 speech-to-speech model",
+      "source": "@xai",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-29 is 6 days before 2026-08-04 (>5 day limit). Default-alias switch on 08-05 is not a new substantive event."
+    },
+    {
+      "story_key": "china-duv-lithography-selloff",
+      "event_date": "2026-07-29",
+      "title_en": "Report of China mass-producing immersion DUV lithography wipes ~$1.3T off chip stocks",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Underlying report + selloff peaked 2026-07-27 to 07-29 (>5 days old). No substantively new development within the 5-day window; 08-02 coverage was recap only."
+    },
+    {
+      "story_key": "hut8-beacon-point-lease",
+      "event_date": "2026-07-29",
+      "title_en": "Hut 8 commercializes phase 2 of 1GW Beacon Point via $9.8B lease",
+      "source": "Hut 8",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-29 is 6 days old (>5 day limit)."
+    },
+    {
+      "story_key": "meta-muse-spark-11",
+      "event_date": "2026-07-09",
+      "title_en": "Meta Muse Spark 1.1 low-cost agentic coding model",
+      "source": "Meta",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-09 is 26 days old. Aug-3 roundups re-mentioned it but no new development."
+    },
+    {
+      "story_key": "openai-astra-model",
+      "event_date": "2026-08-01",
+      "title_en": "Astra solved 10 open math/TCS problems, Gowers would recommend a proof to a top journal",
+      "source": "@OpenAI",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-08-02 (openai-astra-model) covering the 10 open problems, machine-checkable Lean proofs, and multi-agent Astra family. No substantive new info."
+    },
+    {
+      "story_key": "huawei-codearts-agent",
+      "event_date": "2026-07-24",
+      "title_en": "Huawei Cloud opens CodeArts Agent public beta in Thailand",
+      "source": "Huawei Cloud",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Launched at Huawei Cloud Summit Thailand ~2026-07-24 (>5 days old)."
+    },
+    {
+      "story_key": "eu-ai-act-gpai-enforcement",
+      "event_date": "2026-08-02",
+      "title_en": "EU AI Act Article 50 watermarking obligations take effect (C2PA + SynthID)",
+      "source": "EU AI Act Guide",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "The Aug-2 GPAI enforcement / EU AI Act milestone was already published 2026-08-02 (eu-ai-act-gpai-enforcement). Watermarking is a sub-clause of the same effective date; no distinct new development."
+    },
+    {
+      "story_key": "fda-autonomous-diagnostic-ai",
+      "event_date": "2026-08-03",
+      "title_en": "FDA reportedly approves a new 'Autonomous Diagnostic AI' device class",
+      "source": "unclear",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Could not verify with any primary/authoritative source; only surfaced in one aggregator summary. Dropped for lack of confirmation rather than a listed filter."
+    }
+  ]
+}
