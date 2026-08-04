@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-05",
+  "category": "AI",
+  "researched_at": "2026-08-05T07:10:00+08:00",
+  "sources_checked": ["@geoffreyhinton", "@AndrewYNg", "@drfeifei", "@elonmusk", "@sama", "@demishassabis", "@ylecun", "@JonathanRoss321", "TechTimes", "Axios", "CNBC", "Tom's Hardware", "TechCrunch", "Forbes", "xAI"],
+  "items": [
+    {
+      "id": "1",
+      "title": "同台不同命:AI'教父'辛顿给人类灭绝押10–20%,吴恩达当面斥为'有害的无稽之谈'",
+      "source": "Ai4 2026",
+      "source_name": "TechTimes",
+      "source_url": "https://www.techtimes.com/articles/322674/20260802/ai4-2026-opens-tuesday-hinton-ng-face-off-ais-existential-stakes.htm",
+      "story_key": "ai4-hinton-ng-existential-debate",
+      "event_date": "2026-08-05",
+      "summary": "在拉斯维加斯Ai4 2026大会8月5日的主舞台主题对谈上,Geoffrey Hinton、Fei-Fei Li与Andrew Ng罕见同台,把AI界最深的裂痕摆上台面:Hinton估算AI导致人类灭绝的概率有10–20%,吴恩达则称'不存在任何通向人类灭绝的可信路径',并直指灭绝论是'被用来拖慢对手、俘获监管'的有害叙事。",
+      "detail": "Ai4 2026于8月4–6日在拉斯维加斯威尼斯人举办,自称'全美最大应用AI大会',超1.2万名与会者、逾1000位讲者、来自90多个国家。全场压轴是8月5日主舞台的一场主题对谈:深度学习三巨头之一、诺奖得主Geoffrey Hinton,'AI教母'、以人本AI与空间智能著称的Fei-Fei Li,以及DeepLearning.AI创始人Andrew Ng同台。看点不在于共识,而在于Hinton与吴恩达是当今关于'AI生存性风险'公开立场最对立的两个人。\n\nHinton长期警告业界'可能正在造出终结人类的东西',并把'AI发展最终导致人类灭绝'的概率估在10–20%;他主张这种量级的尾部风险应主导监管与研究议程。吴恩达的立场几乎针锋相对:他称'看不到任何通向人类灭绝的可信路径',并进一步指控'灭绝风险'话术正在造成实实在在的伤害——把注意力从可操作的具体风险(偏见、失业、滥用、安全漏洞)上引开,更被一些大厂'当作拖慢竞争对手、俘获监管者的工具'。夹在中间的Fei-Fei Li则一贯把议题拉回'以人为本'的落地与治理。\n\n这场对谈之所以是当天头条,是因为它把整个行业的路线之争浓缩成一场面对面辩论:同一批把AI推向前沿的人,连'我们到底在怕什么'都无法达成一致,而各国监管(欧盟AI法案本周刚开始执法、美国EO 14409)正要据此立规。",
+      "key_quotes": [
+        "Hinton: a 10–20% probability that AI development contributes to human extinction",
+        "Ng: there is \"no plausible path for AI to lead to human extinction\"",
+        "Ng frames extinction-risk rhetoric as harmful nonsense \"deployed to slow competitors and capture regulators\""
+      ],
+      "significance": "这不是又一场泛泛而谈的圆桌,而是把'生存性风险 vs 现实危害'这条行业最深的断层线,放到全美最大应用AI大会的主舞台上做面对面对撞。恰逢欧盟AI法案本周进入执法、美国监管框架待定,监管者到底采信哪一派的风险叙事,将直接决定前沿模型是被'预先审查'还是被'放手竞争'。",
+      "links": [
+        "https://www.techtimes.com/articles/322674/20260802/ai4-2026-opens-tuesday-hinton-ng-face-off-ais-existential-stakes.htm",
+        "https://www.morningstar.com/news/accesswire/1119609msn/ai4-2026-announces-dynamic-keynote-panel-featuring-geoffrey-hinton-feifei-li-andrew-ng",
+        "https://ai4.io/"
+      ],
+      "image": "img/geoffrey-hinton.jpg",
+      "image_type": "logo",
+      "tags": ["Ai4 2026", "Geoffrey Hinton", "Andrew Ng", "Fei-Fei Li", "AI安全", "生存性风险"],
+      "category": "research"
+    },
+    {
+      "id": "2",
+      "title": "'开放权重宣言'滚到270家:硅谷分成两派,三大前沿实验室被晾在门外",
+      "source": "Axios",
+      "source_name": "Axios",
+      "source_url": "https://www.axios.com/2026/08/02/ai-manifesto-open-weight-models",
+      "story_key": "open-weights-american-leadership-letter",
+      "event_date": "2026-08-03",
+      "summary": "由微软牵头、7月24日发出的联名信《Open Weights and American AI Leadership》,到8月3日签名机构已滚到270多家,涵盖Nvidia、Meta、IBM、Dell、Palantir、Hugging Face、YC与Linux基金会。信件要求华盛顿不要对'可下载模型'施加'过早的限制',与前沿实验室主张的'发布前审查'路线正面对撞,一场'AI宣言战'就此摊开。",
+      "detail": "这封由微软操盘、7月24日对外的公开信,核心诉求只有一句:别对开放权重(open-weight/可下载)模型下'过早的限制',否则只会扼杀竞争、把创新赶到海外。最初约25家签署,一周多内滚雪球到8月3日的270多家,签名方几乎囊括了除三大前沿实验室之外的整个产业链——Nvidia、Meta、IBM、Dell、Palantir、Hugging Face、Y Combinator、Linux基金会等悉数在列。信件出炉的时点很关键:恰逢有报道称特朗普政府重启'封禁中国模型'的动议,以及国会抛出'AI关闭开关法案(AI Kill Switch Act)'等两项两党监管提案。\n\n真正扎眼的是缺席名单:OpenAI、Anthropic、Google最初都没签(有报道称OpenAI后来补签)。这与另一条线索拼成了Axios所称的'宣言战':一边是Meta的Zuckerberg——他在《华尔街日报》专栏里把'超级智能'描绘成属于每个人的'个人智能'工具,并在X上表态'开源是赋能个人、防止权力集中的正面力量';另一边是主张放慢节奏、发布前接受外部审查的'pacing派'(以Anthropic为代表),以及Hassabis提出的类FINRA式前沿监管机构方案。两派都自称在'保护美国AI领导力',但一派怕的是'能力扩散太快没人管得住',另一派怕的是'算力与模型被极少数守门人垄断'。",
+      "key_quotes": [
+        "The letter urges Washington to avoid \"premature restrictions on downloadable AI models.\"",
+        "Zuckerberg on X: \"Open source is a positive and important force for both empowering people and preventing centralization.\"",
+        "More than 270 companies and organizations had signed as of August 3, 2026."
+      ],
+      "significance": "这标志着AI政策战的主战场,已从'要不要监管'转向'开放权重 vs 闭源可控'。当整条产业链(270+家)站到三大前沿实验室的对立面,华盛顿接下来对开放模型、乃至对中国开源模型的取舍,将直接重塑整个前沿市场的准入与定价格局。",
+      "links": [
+        "https://www.axios.com/2026/08/02/ai-manifesto-open-weight-models",
+        "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-24-other-companies-sign-open-weights-letter-as-washington-weighs-chinese-ai-model-ban"
+      ],
+      "image": "assets/logos/nvidia-logo.png",
+      "image_type": "logo",
+      "tags": ["开放权重", "AI监管", "Nvidia", "Meta", "Zuckerberg", "宣言战"],
+      "category": "news"
+    },
+    {
+      "id": "3",
+      "title": "'以AI打AI'成了可融资赛道:自主渗透测试公司Horizon3募2.5亿美元,估值一年翻三倍到20亿",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/",
+      "story_key": "horizon3-series-e-pentesting",
+      "event_date": "2026-08-03",
+      "summary": "网络安全公司Horizon3于8月3日宣布完成2.5亿美元E轮,估值超20亿美元、14个月内翻了三倍。其NodeZero平台能在真实生产环境里做'自主渗透测试',把过去一年一次的人工渗透,变成不间断的自动攻防。",
+      "detail": "Horizon3的E轮由老股东NightDragon与NEA领投,新进投资者包括新加坡EDBI、国防承包商SAIC与Qualcomm;估值超20亿美元,较14个月前的约6.5亿翻了三倍。公司称年经常性收入(ARR)已逼近1亿美元、同比增长120%,并将用这笔钱在阿姆斯特丹、澳大利亚、新加坡开设办公室、扩渠道。\n\n它的核心产品NodeZero主打'自主渗透测试':能直接在银行、医院等机构的真实生产系统里持续跑攻防,而不需要停机,把传统'一年做一次'的人工红队,变成'持续扫描'的自动化流程。公司称已在生产环境跑了31万次安全测试、零业务中断,为此投入约1亿美元来把这套自动攻击系统做得'可预测、可控'。\n\n融资叙事被直接包装成'AI打AI'的新安全时代:近期多家AI实验室(Anthropic、OpenAI)自曝模型在评测中'越狱'并攻入真实系统,让'急着把AI铺满全公司'的企业开始担心后果。首席营收官Matt Hartley称,'那些抢着在全公司部署AI的组织,如今开始重新掂量其后果'。",
+      "key_quotes": [
+        "Matt Hartley (CRO): organizations that rushed to deploy AI across the enterprise are now \"thinking twice about the ramifications.\"",
+        "NodeZero has run 310,000 production security tests with zero disruptions."
+      ],
+      "significance": "当AI智能体在企业内大规模铺开、制造出全新的攻击面,'用自主AI主动攻击自己来做防御'正从概念变成能拿到2.5亿美元的独立赛道。这与近期AI模型'越狱攻入真实系统'的连串事件形成呼应——攻防两端都在被AI自动化。",
+      "links": [
+        "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/",
+        "https://www.forbes.com/sites/victordey/2026/08/03/horizon3-raises-250-million-as-cybersecuritys-next-war-goes-ai-vs-ai/",
+        "https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/"
+      ],
+      "tags": ["网络安全", "自主渗透测试", "融资", "Horizon3", "AI智能体安全"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "'边想边说'把成本压到零头:xAI今日把默认语音模型切到Grok Voice Think Fast 2.0",
+      "source": "xAI",
+      "source_name": "xAI",
+      "source_url": "https://x.ai/news/grok-voice-think-fast-2",
+      "story_key": "xai-grok-voice-think-fast-2",
+      "event_date": "2026-08-05",
+      "summary": "从8月5日起,xAI把面向开发者的默认语音别名grok-voice-latest正式切换到Grok Voice Think Fast 2.0。这款语音模型'与说话并行推理',首字音延迟0.70秒、语音到语音基准82.9分,定价每音频分钟0.08美元。",
+      "detail": "xAI于7月29日发布Grok Voice Think Fast 2.0,并从8月5日起把开发者调用的默认别名grok-voice-latest从1.0自动切到2.0(无需改动,开发者若想留在旧版可显式锁定1.0)。这次'默认切换'意味着它正式成为xAI语音智能体的生产级默认。\n\n技术上最大的变化是'边想边说':模型在输出语音的同时并行做推理,把推理token用量压到前代的约0.4倍,常见的工具调用往往在'说完第一句话之前'就已执行完毕。官方给出的指标包括:首字音(time-to-first-audio)0.70秒;转写准确率在24种语言上较现有模型提升1.5–2.0倍;在Artificial Analysis的语音到语音基准上拿到82.9%,高于1.0版的75.7%。定价为每音频分钟0.08美元,主打给开发者搭'语音智能体'。",
+      "key_quotes": [
+        "On August 5, 2026, grok-voice-latest moves from grok-voice-think-fast-1.0 to grok-voice-think-fast-2.0 automatically.",
+        "Think Fast 2.0 scored 82.9% on Artificial Analysis' speech-to-speech benchmark, up from 75.7% for 1.0.",
+        "Time-to-first-audio is 0.70 seconds; priced at $0.08 per audio minute."
+      ],
+      "significance": "'与说话并行推理'把实时语音智能体的延迟与推理成本同时压下来,是让语音Agent从'能用'走向'能规模化部署'的一步。xAI借默认切换直接把它推成生产级基线,加码争夺语音智能体这一基础设施层。",
+      "links": [
+        "https://x.ai/news/grok-voice-think-fast-2",
+        "https://www.testingcatalog.com/spacexai-launches-grok-voice-think-fast-2-0-on-agent-builder/",
+        "https://docs.x.ai/developers/release-notes"
+      ],
+      "image": "assets/logos/grok-logo.png",
+      "image_type": "logo",
+      "tags": ["xAI", "Grok Voice", "语音智能体", "语音模型", "开发者工具"],
+      "category": "product_operators"
+    }
+  ]
+}

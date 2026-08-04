@@ -1,0 +1,125 @@
+{
+  "date": "2026-08-05",
+  "total_candidates": 13,
+  "kept": 4,
+  "dropped": 9,
+  "decisions": [
+    {
+      "story_key": "ai4-hinton-ng-existential-debate",
+      "event_date": "2026-08-05",
+      "title_en": "Hinton, Fei-Fei Li and Andrew Ng face off on AI existential risk at Ai4 2026 keynote",
+      "source": "TechTimes",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Rare joint main-stage keynote at Ai4 2026 (Las Vegas, Aug 4-6) on Aug 5 where Hinton (10-20% extinction) and Ng ('no plausible path to extinction') directly clash."
+    },
+    {
+      "story_key": "open-weights-american-leadership-letter",
+      "event_date": "2026-08-03",
+      "title_en": "'Open Weights and American AI Leadership' letter passes 270 signatories as manifesto war heats up",
+      "source": "Axios",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. Distinct from anthropic-openweights-backlash (Jul 29, which was about Anthropic being isolated). This is the coordinated pro-open-weight policy letter (Microsoft/Nvidia-shepherded) reaching 270+ signatories by Aug 3, plus Zuckerberg's WSJ op-ed and the Axios 'manifesto war' framing."
+    },
+    {
+      "story_key": "horizon3-series-e-pentesting",
+      "event_date": "2026-08-03",
+      "title_en": "Horizon3 raises $250M Series E at $2B valuation for autonomous AI penetration testing",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. $250M Series E, $2B valuation (tripled in 14 months), NodeZero autonomous pentesting, 'AI vs AI' cybersecurity framing tied to recent AI-lab containment breaches."
+    },
+    {
+      "story_key": "xai-grok-voice-think-fast-2",
+      "event_date": "2026-08-05",
+      "title_en": "xAI's grok-voice-latest becomes Grok Voice Think Fast 2.0 by default on Aug 5",
+      "source": "xAI",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. On Aug 5 the production grok-voice-latest alias flips to Think Fast 2.0 (launched Jul 29): parallel reasoning-with-speech, 0.70s first-audio, 82.9% speech-to-speech benchmark, $0.08/min. Event_date is the Aug 5 default/GA switch."
+    },
+    {
+      "story_key": "shield-ai-series-g",
+      "event_date": "2026-03-26",
+      "title_en": "Shield AI raises $1.5B Series G at $12.7B valuation",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Core funding event was March 26, 2026 (~132 days old, >5 day limit). A Jul 29 businesswire item only notes an investor participating; no new material development."
+    },
+    {
+      "story_key": "openai-astra-model",
+      "event_date": "2026-08-03",
+      "title_en": "Astra disproves Erdos unit distance conjecture; Fields Medalist Gowers endorses proof",
+      "source": "Forbes",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-08-02 ('OpenAI预告多智能体新家族Astra...一举攻克10道悬置十年以上的数学难题,并附上可机器校验的Lean证明'). The unit-distance-conjecture detail is a sub-item of that same achievement, and the disproof itself was first announced in May 2026. No substantively new story."
+    },
+    {
+      "story_key": "qwen38-max-release",
+      "event_date": "2026-08-03",
+      "title_en": "Alibaba Qwen3.8-Max 2.4T-parameter model",
+      "source": "American Bazaar",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-08-03. Searches only surfaced the same launch, no new development."
+    },
+    {
+      "story_key": "eu-ai-act-gpai-enforcement",
+      "event_date": "2026-08-02",
+      "title_en": "EU AI Act high-risk and GPAI enforcement takes effect",
+      "source": "llm-stats",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-08-02 with full detail on GPAI enforcement powers and penalties. Roundups only rehash it."
+    },
+    {
+      "story_key": "cxmt-shanghai-ipo",
+      "event_date": "2026-07-27",
+      "title_en": "CXMT shares surge 466% on Shanghai IPO debut",
+      "source": "Fortune",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "CXMT is already tracked (published 2026-08-03 about a second Beijing plant and new funding). The 466% IPO debut event was July 27 (>5 days) and adds no new development beyond what was published."
+    },
+    {
+      "story_key": "openai-frontier-agent-platform",
+      "event_date": "2026-02-05",
+      "title_en": "OpenAI Frontier enterprise agent platform",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "An aggregator mis-dated this to Aug 4, but OpenAI Frontier actually launched February 5, 2026 (~181 days old)."
+    },
+    {
+      "story_key": "hassabis-finra-ai-regulator",
+      "event_date": "2026-07-14",
+      "title_en": "Hassabis proposes FINRA-style frontier AI regulator; wins cross-industry praise",
+      "source": "Axios",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Essay published July 14 (~22 days old). The recent development (industry convergence/split) is captured under open-weights-american-leadership-letter; the proposal itself is stale as a standalone item."
+    },
+    {
+      "story_key": "perplexity-teammate-coding-tool",
+      "event_date": "2026-05-01",
+      "title_en": "Perplexity secretly building 'Teammate' AI coding agent",
+      "source": "BigGo Finance",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Internal project reportedly in use since May 2026; no dated launch event within the last 5 days."
+    },
+    {
+      "story_key": "cisco-agentic-ai-security-keynote",
+      "event_date": "2026-08-04",
+      "title_en": "Cisco CPO Jeetu Patel Ai4 keynote on scaling and securing agentic AI",
+      "source": "Cisco",
+      "action": "DROP",
+      "filter": "novel_story",
+      "reason": "Within window and novel, but a promotional conference keynote with no substantive announcement or verifiable detail available. Dropped for quality (thin), not freshness."
+    }
+  ]
+}
