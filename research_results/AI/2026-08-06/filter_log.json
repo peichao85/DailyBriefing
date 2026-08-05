@@ -1,0 +1,98 @@
+{
+  "date": "2026-08-06",
+  "total_candidates": 10,
+  "kept": 7,
+  "dropped": 3,
+  "decisions": [
+    {
+      "story_key": "amd-q2-2026-earnings",
+      "event_date": "2026-08-04",
+      "title_en": "AMD Q2 data-center revenue up 107%, lands 2GW Anthropic MI450 deal",
+      "source": "AMD",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in lookback. AMD Q2 2026 data-center revenue $6.7B (+107% YoY); Anthropic strategic agreement to deploy up to 2 GW of Instinct MI450 in Helios racks."
+    },
+    {
+      "story_key": "anthropic-volta-compute-deal",
+      "event_date": "2026-08-04",
+      "title_en": "Anthropic signs $10B six-year compute deal with six-month-old startup Volta",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. 121MW Nvidia Vera Rubin capacity at Bitdeer's Tydal, Norway hydropower site; JPMorgan credit backstop."
+    },
+    {
+      "story_key": "perplexity-amazon-cfaa-ruling",
+      "event_date": "2026-08-04",
+      "title_en": "Ninth Circuit vacates Amazon injunction against Perplexity Comet agent under CFAA",
+      "source": "Courthouse News",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Landmark ruling: users, not Perplexity, access servers under CFAA; rule of lenity applied. Narrow but precedent-setting for AI agents."
+    },
+    {
+      "story_key": "meta-muse-code-launch",
+      "event_date": "2026-08-05",
+      "title_en": "Meta debuts first coding agent Muse Code to chase Anthropic and OpenAI",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Pay-as-you-go, $1.25/M input and $4.25/M output, matching Muse Spark 1.1 pricing."
+    },
+    {
+      "story_key": "anthropic-custom-chip-team",
+      "event_date": "2026-08-05",
+      "title_en": "Anthropic building custom AI chip design team, scouting Samsung",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Anthropic to co-design hardware and models; Samsung reportedly scouted as fabrication partner."
+    },
+    {
+      "story_key": "microsoft-token-budget",
+      "event_date": "2026-08-04",
+      "title_en": "Microsoft caps engineer AI token budgets: 'tokenmaxxing is not what we optimize for'",
+      "source": "The Register",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. EVP Jay Parikh sets division-level token budget targets, GPT-5.6 as default internal model; engineers were burning hundreds to thousands of dollars monthly."
+    },
+    {
+      "story_key": "palantir-q2-2026-earnings",
+      "event_date": "2026-08-03",
+      "title_en": "Palantir stock jumps 29% on 93% revenue growth, AI sovereignty demand",
+      "source": "CNBC",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Q2 revenue $1.94B (+93% YoY); commercial +149% to $764M, government +90% to $809M."
+    },
+    {
+      "story_key": "nvidia-open-secure-ai-alliance",
+      "event_date": "2026-07-27",
+      "title_en": "Nvidia launches Open Secure AI Alliance with Microsoft, IBM, SpaceX",
+      "source": "CNBC",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-27 is 10 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "openai-presence-launch",
+      "event_date": "2026-07-22",
+      "title_en": "OpenAI unveils Presence enterprise voice/chat agent platform",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-22 is 15 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "deepseek-custom-chip",
+      "event_date": "2026-07-08",
+      "title_en": "DeepSeek developing own inference AI chip to cut Nvidia/Huawei reliance",
+      "source": "Taipei Times",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-08 is 29 days before today (>5 day limit)."
+    }
+  ]
+}
