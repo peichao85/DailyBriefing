@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-07",
+  "category": "AI",
+  "researched_at": "2026-08-07T07:05:00+08:00",
+  "sources_checked": ["@demishassabis", "@JeffDean", "@sundarpichai", "@mntruell", "@sama", "Fortune", "TechCrunch", "Bloomberg", "Axios", "Time", "MarkTechPost", "Data Center Dynamics", "VentureBeat", "The AI Insider"],
+  "items": [
+    {
+      "id": "1",
+      "title": "Gemini 3.5跳票逼出一场大改组:Hassabis退居董事长,CTO Kavukcuoglu接管前沿模型直接向Pichai汇报",
+      "source": "Google DeepMind",
+      "source_name": "Fortune",
+      "source_url": "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/",
+      "story_key": "google-deepmind-leadership-reshuffle",
+      "event_date": "2026-08-05",
+      "summary": "Google于8月5日大改组AI领导层:DeepMind联合创始人、执掌十余年的CEO Demis Hassabis退出日常管理、转任Google DeepMind董事长兼Alphabet首席科学家,CTO Koray Kavukcuoglu升任高级副总裁、接管Gemini模型开发与前沿研究并直接向CEO Sundar Pichai汇报。",
+      "detail": "8月5日,Google宣布对其AI核心部门Google DeepMind进行重大领导层重组。执掌DeepMind十余年、被视为公司AI灵魂人物的联合创始人Demis Hassabis将卸下日常运营职责,转任Google DeepMind董事长,并新增Alphabet首席科学家头衔,同时继续掌管AI制药子公司Isomorphic Labs。原CTO Koray Kavukcuoglu升任高级副总裁,接手'离客户、开发者和Google产品线最近'的那部分工作——Gemini模型研发、前沿研究,以及Gemini消费级与开发者产品背后的团队,并直接向CEO Sundar Pichai汇报。\n\n这次调整被普遍解读为Google在与OpenAI、Anthropic的模型竞赛中'追赶'的组织动作:此前旗舰Gemini 3.5一再跳票,把最看重上市节奏的产品和模型条线单独拎出来、交给更偏工程和交付的Kavukcuoglu,意在提速。Hassabis则被安排去做更长线的科研与战略。资本市场对高层震荡给出负面反应,消息公布后Alphabet股价一度下挫约5%。这也与同日曝出的另一条重磅——首席科学家Jeff Dean带队出走创业——叠加发酵。",
+      "key_quotes": [
+        "Kavukcuoglu takes over the work that matters most to customers, developers, and Google's own product groups: Gemini model development, frontier research, and the teams behind Gemini's consumer and developer offerings."
+      ],
+      "significance": "这是Google DeepMind自2023年DeepMind与Google Brain合并以来最大的一次权力重排。把Gemini条线从科研体系里剥离、交给工程型高管直接对CEO负责,等于承认'研究驱动'的旧节奏跟不上竞赛速度,开始向'产品交付优先'倾斜。创始人退居二线、明星科学家出走,则暴露出顶级AI人才争夺战下,即便是DeepMind也难稳住阵脚。",
+      "links": [
+        "https://fortune.com/2026/08/05/demis-hassabis-steps-down-google-deepmind-ai-shakeup/",
+        "https://www.bloomberg.com/news/articles/2026-08-05/google-deepmind-boss-hassabis-moves-to-chair-role-in-shakeup",
+        "https://time.com/article/2026/08/06/google-deepmind-ai-demis-hassabis/",
+        "https://www.axios.com/2026/08/06/googles-ai-leadership-shuffle"
+      ],
+      "image": "img/demis-hassabis.jpg",
+      "image_type": "logo",
+      "tags": ["Google DeepMind", "Demis Hassabis", "Koray Kavukcuoglu", "组织重组", "Gemini"],
+      "category": "frontier_leaders"
+    },
+    {
+      "id": "2",
+      "title": "'把科学方法本身自动化':Jeff Dean结束27年Google生涯,拉队创办Discovery Loop,Google反过来当投资人",
+      "source": "TechCrunch",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "story_key": "jeff-dean-discovery-loop",
+      "event_date": "2026-08-05",
+      "summary": "Google首席科学家Jeff Dean与Sanjay Ghemawat等资深研究员于8月5日离职,联合创办公益性公司Discovery Loop,目标是用AI把'提出想法—做实验—评估—迭代'的科研全流程自动化;Google以创始投资人和云合作方身份参与。",
+      "detail": "与DeepMind领导层改组同日,Google证实首席科学家、在职27年的Jeff Dean,连同同为传奇工程师的Sanjay Ghemawat,以及Oriol Vinyals、Quoc Le等人一起离职创业。新公司名为Discovery Loop,注册为独立的'公益benefit公司',主打方向不是再造一个消费级聊天机器人,而是'把科学与工程研究的过程本身自动化'——让AI系统帮科学家和工程师生成假设、设计并运行实验、评估结果、快速迭代,压缩科研的试错周期。Google没有把这批人当竞争对手清场,而是以创始投资人和云算力提供方的身份留了一手。\n\nJeff Dean是Google基础设施与AI的奠基人物之一,MapReduce、Bigtable、TensorFlow乃至早期大模型体系背后都有他的名字,业内常戏称他'一个人顶一支团队'。GeekWire称,能说服这样一位'华盛顿大学计算机名宿'在27年后离开Google的,是这个'自动化科研'的创业命题。\n\n背景回顾:同日Google宣布Demis Hassabis退居Google DeepMind董事长、CTO Kavukcuoglu接管前沿模型,Alphabet股价当日一度跌约5%。",
+      "key_quotes": [
+        "Discovery Loop plans to build systems that automate the research process itself — helping scientists and engineers generate ideas, run experiments, evaluate results, and iterate much faster."
+      ],
+      "significance": "'AI for Science'过去多是大厂内部项目,如今被顶级系统科学家拆出来单独创业,且以公益公司形态运作,标志着'自动化科研'正成为一条独立的、可融资的赛道。Google宁愿投资也不阻拦,反映出大厂在留人无望时的新策略:与其硬留,不如把关系变成股权与算力绑定。对Google而言,基础设施灵魂人物的离开,是继模型竞赛失速之后的又一记人才警报。",
+      "links": [
+        "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+        "https://www.unite.ai/jeff-dean-leaves-google-to-automate-the-scientific-method-with-discovery-loop/",
+        "https://www.geekwire.com/2026/the-startup-idea-that-convinced-a-uw-computer-science-legend-to-leave-google-after-27-years/",
+        "https://qz.com/jeff-dean-google-chief-scientist-discovery-loop-startup-080526"
+      ],
+      "image": "img/jeff-dean.jpg",
+      "image_type": "logo",
+      "tags": ["Jeff Dean", "Discovery Loop", "AI for Science", "Google", "创业"],
+      "category": "research"
+    },
+    {
+      "id": "3",
+      "title": "训练慢在'通信'不在算力:Cursor开源Mixture-of-Kittens巨核,把MoE收发算合成一个确定性内核,训练提速2.37倍",
+      "source": "Cursor",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+      "story_key": "cursor-mixture-of-kittens",
+      "event_date": "2026-08-04",
+      "summary": "8月4日,Cursor以Apache-2.0开源了支撑自研编程模型Composer训练的MoE'巨核'Mixture-of-Kittens(MoK):它把混合专家的通信与计算融进单个完全确定性的内核,专为GB300 NVL72机架打造,较最强公开基线训练吞吐提升最高2.37倍。",
+      "detail": "AI编程公司Cursor于8月4日开源了一项底层训练技术Mixture-of-Kittens(MoK),这是驱动其智能体编程模型Composer训练的核心'巨核(megakernel)'。传统做法把混合专家(MoE)的通信(专家间数据收发)和计算当成两个分离阶段;而在NVL72这种超大规模机架上,团队发现真正的时间瓶颈不是浮点算力(FLOPs),而是MoE的通信。MoK的思路是把dispatch(分发)、专家计算、combine(汇总)全部融合进一个完全确定性(deterministic)的单一内核,从根上消除通信与计算的错配。\n\n官方数据显示,MoK较最强公开基线可带来最高2.37倍的吞吐提升;此前MoE层一度吃掉Composer端到端训练时间的一半以上,如今MoK已在数万块GPU的规模上支撑Composer训练。代码已在GitHub以Apache-2.0协议放出,但门槛不低:需要NVIDIA Blackwell SM100/SM103(即GB200/GB300 NVL72机架),并要求Python 3.12+、PyTorch 2.10+与CUDA 13.0+。",
+      "key_quotes": [
+        "MoK fuses all mixture-of-experts communication and computation into a single, fully deterministic kernel, and powers Composer training across tens of thousands of GPUs.",
+        "At NVL72 scale, MoE communication — not FLOPs — is where the time goes."
+      ],
+      "significance": "一家以产品(AI编辑器)见长的公司,罕见地把自家训练栈里最硬核的一块开源出来,等于向社区公开了'如何在Blackwell机架上高效训练MoE'的实战答案。它把行业对大模型训练瓶颈的认知从'堆算力'进一步推向'治通信',并且'确定性'内核还顺带解决了大规模训练难复现的老问题。对所有在NVL72上训练MoE的团队,这是可直接复用的真金白银。",
+      "links": [
+        "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+        "https://cursor.com/blog/mixture-of-kittens",
+        "https://github.com/cursor/mixture-of-kittens",
+        "https://alphasignal.ai/news/cursor-s-mixture-of-kittens-open-source-kernel-trains-ai-2-37x-faster"
+      ],
+      "image": "assets/logos/cursor-logo.png",
+      "image_type": "logo",
+      "tags": ["Cursor", "MoE", "开源", "Composer", "GPU训练", "NVL72"],
+      "category": "builders"
+    },
+    {
+      "id": "4",
+      "title": "光子芯片要绕开HBM:英国OLIX一年估值从10亿冲到33亿,3.12亿美元B轮为'光计算'下注",
+      "source": "Data Center Dynamics",
+      "source_name": "Data Center Dynamics",
+      "source_url": "https://www.datacenterdynamics.com/en/news/chip-startup-olix-raises-312m-at-33bn-valuation-backed-by-uk-govt-sovereign-ai-venture-fund/",
+      "story_key": "olix-photonic-chip-seriesb",
+      "event_date": "2026-08-03",
+      "summary": "8月3日,英国光子AI芯片创业公司OLIX(前身Flux Computing)宣布完成3.12亿美元B轮融资,估值达33亿美元,较年初约10亿美元翻了三倍多;其'光张量处理器(OTPU)'主打用光子做推理、绕开HBM,号称比GPU方案更快、更省电。",
+      "detail": "成立仅两年的英国芯片创业公司OLIX于8月3日宣布完成3.12亿美元B轮融资,估值定格33亿美元。这家公司今年1月刚从'Flux Computing'更名为OLIX,主打产品是自称'光张量处理器(Optical Tensor Processing Unit, OTPU)'的光子芯片:用传播更快、发热更低的光子来做AI推理运算,官方称这一路线比传统GPU集群'更快、更便宜、更节能',并有意绕开当前紧缺又昂贵的HBM高带宽内存。\n\n这轮融资阵容颇具分量:Arm、量化巨头Hudson River Trading、Netflix联合创始人Reed Hastings均参与,英国政府的'主权AI'风险基金也确认入股——这被视为英国迄今最大的半导体押注之一。估值增长曲线陡峭:公司2月才以约10亿美元估值募得2.2亿美元,半年内估值翻了三倍多。产品节奏上,芯片流片(tape-out)预计在2026年内,首批交付瞄准2027下半年。",
+      "key_quotes": [
+        "OLIX makes what it calls Optical Tensor Processing Units, using photons which travel faster and generate less heat — an approach it claims is faster, cheaper, and more energy-efficient than conventional GPU setups."
+      ],
+      "significance": "在GPU与HBM双双紧缺、AI算力成本被推高的当下,资本正加速涌向'绕开瓶颈'的非主流架构。OLIX一年内估值翻三倍、还拿到英国主权基金背书,说明光计算已从实验室概念变成国家级算力自主的下注对象。这也是英国罕见地在前沿硬件上集中下注,试图在被美中主导的AI芯片版图中挤出一条差异化路线。",
+      "links": [
+        "https://www.datacenterdynamics.com/en/news/chip-startup-olix-raises-312m-at-33bn-valuation-backed-by-uk-govt-sovereign-ai-venture-fund/",
+        "https://cryptobriefing.com/olix-312m-photonic-inference-chips/",
+        "https://www.techtimes.com/articles/322816/20260803/olix-raises-312m-photonic-ai-chip-that-ditches-hbm-britains-biggest-semiconductor-bet.htm",
+        "https://olix.com/news/company-raises-series-b"
+      ],
+      "tags": ["OLIX", "光子芯片", "融资", "AI硬件", "英国", "主权AI"],
+      "category": "news"
+    },
+    {
+      "id": "5",
+      "title": "让人形机器人少'被遥控':Avatar Robotics拿650万美元种子轮,主攻仓储工厂落地",
+      "source": "The AI Insider",
+      "source_name": "The AI Insider",
+      "source_url": "https://theaiinsider.tech/2026/08/05/avatar-robotics-raises-6-5m-in-seed-funding-to-develop-industrial-humanoid-robots/",
+      "story_key": "avatar-robotics-seed",
+      "event_date": "2026-08-05",
+      "summary": "8月5日,工业人形机器人创业公司Avatar Robotics宣布完成650万美元种子轮,用于在仓库和工厂扩大机器人部署、壮大机队,并开发能减少机器对远程人工操作依赖的软件。",
+      "detail": "8月5日,Avatar Robotics宣布获得650万美元种子轮融资。这家公司专注于工业场景的人形机器人,资金将用于三件事:在仓库和工厂里部署更多机器人、扩大现有机队规模,以及开发软件——目标是降低机器对'远程人工操作员(teleoperation)'的依赖,让机器人更多地自主完成任务。\n\n这笔金额在近期动辄上亿美元的人形机器人融资中并不显眼,却折射出赛道的分层:一边是欧洲的Humanoid(1.52亿美元A轮、13.5亿美元估值)、德国NEURA Robotics(传高达12亿欧元)这类重资本玩家,另一边是Avatar这样以'把机器人真正干进产线'为切口的早期公司。'减少遥控依赖'恰是行业公认的落地痛点——当下不少'自主'人形机器人背后仍站着远程操作员,谁能把这层人工拿掉,谁才算迈过商用门槛。",
+      "key_quotes": [
+        "Avatar Robotics will use the funding to deploy more humanoid robots in warehouses and factories, expand its fleet, and develop software that can reduce the machines' dependence on remote human operators."
+      ],
+      "significance": "人形机器人融资今年冷热并存:巨额A轮制造头条,但真正决定商用成败的是'能不能不靠人遥控'。Avatar把种子轮资金直接押在'去遥控化'软件上,点中了physical AI从演示走向产线的核心瓶颈。它也说明,在被大额融资主导的叙事之外,早期公司仍能靠'解决具体落地痛点'拿到入场券。",
+      "links": [
+        "https://theaiinsider.tech/2026/08/05/avatar-robotics-raises-6-5m-in-seed-funding-to-develop-industrial-humanoid-robots/",
+        "https://www.eu-startups.com/2026/07/new-unicorn-humanoid-secures-e133-million-at-e1-1-billion-valuation-to-scale-industrial-robotics-and-physical-ai/"
+      ],
+      "tags": ["Avatar Robotics", "人形机器人", "physical AI", "融资", "仓储自动化"],
+      "category": "news"
+    }
+  ]
+}

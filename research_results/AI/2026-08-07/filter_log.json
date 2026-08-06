@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-07",
+  "total_candidates": 12,
+  "kept": 5,
+  "dropped": 7,
+  "decisions": [
+    {
+      "story_key": "google-deepmind-leadership-reshuffle",
+      "event_date": "2026-08-05",
+      "title_en": "Hassabis moves to chairman; Kavukcuoglu takes over Gemini and DeepMind ops",
+      "source": "Fortune",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not seen in 7-day lookback. Demis Hassabis steps back to chairman of Google DeepMind + Alphabet chief scientist; CTO Koray Kavukcuoglu becomes SVP running Gemini and frontier research, reporting to Pichai. Alphabet stock fell ~5%."
+    },
+    {
+      "story_key": "jeff-dean-discovery-loop",
+      "event_date": "2026-08-05",
+      "title_en": "Jeff Dean leaves Google after 27 years to co-found Discovery Loop",
+      "source": "TechCrunch",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, Quoc Le leave to launch Discovery Loop, a public-benefit corp automating the scientific method; Google is investor and cloud partner."
+    },
+    {
+      "story_key": "cursor-mixture-of-kittens",
+      "event_date": "2026-08-04",
+      "title_en": "Cursor open-sources Mixture-of-Kittens MoE megakernel, 2.37x faster training",
+      "source": "MarkTechPost",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Cursor open-sourced (Apache-2.0) the deterministic MoE training megakernel behind Composer, fusing communication+compute for GB300 NVL72 racks; up to 2.37x throughput over public baseline."
+    },
+    {
+      "story_key": "olix-photonic-chip-seriesb",
+      "event_date": "2026-08-03",
+      "title_en": "UK photonic AI chip startup OLIX raises $312M at $3.3B valuation",
+      "source": "Data Center Dynamics",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. OLIX (formerly Flux Computing) raised $312M Series B at $3.3B for optical TPUs that ditch HBM; backed by Arm, Hudson River Trading, Reed Hastings and the UK Sovereign AI fund."
+    },
+    {
+      "story_key": "avatar-robotics-seed",
+      "event_date": "2026-08-05",
+      "title_en": "Avatar Robotics raises $6.5M seed for industrial humanoid robots",
+      "source": "The AI Insider",
+      "action": "KEEP",
+      "filter": "novel_story",
+      "reason": "story_key not in lookback. Avatar Robotics raised $6.5M seed to deploy warehouse/factory humanoids and build software reducing dependence on remote human operators."
+    },
+    {
+      "story_key": "thinking-machines-inkling",
+      "event_date": "2026-07-15",
+      "title_en": "Mira Murati's Thinking Machines ships first open-weights model Inkling",
+      "source": "TechCrunch",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-15 is 23 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "openai-presence-enterprise",
+      "event_date": "2026-07-22",
+      "title_en": "OpenAI launches Presence enterprise voice/chat agent platform",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date 2026-07-22 is 16 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "openai-georgia-datacenter",
+      "event_date": "2026-07-24",
+      "title_en": "OpenAI commits $30B to 3.2GW Georgia data center (Project Camellia)",
+      "source": "TechRadar",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "event_date ~2026-07-24 is 14 days before today (>5 day limit)."
+    },
+    {
+      "story_key": "groq-huggingface-inference",
+      "event_date": "2025-06-16",
+      "title_en": "Groq becomes a Hugging Face inference provider",
+      "source": "VentureBeat",
+      "action": "DROP",
+      "filter": "freshness",
+      "reason": "Original partnership dates to June 2025; not a fresh development."
+    },
+    {
+      "story_key": "qwen38-max-release",
+      "event_date": "2026-08-03",
+      "title_en": "Alibaba unveils 2.4T-parameter Qwen3.8-Max",
+      "source": "American Bazaar",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-08-03 with full detail on Qwen3.8-Max specs and benchmarks. No substantively new information found."
+    },
+    {
+      "story_key": "deepseek-v4-flash-release",
+      "event_date": "2026-07-31",
+      "title_en": "DeepSeek V4-Flash ultra-low-cost model",
+      "source": "American Bazaar",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "Already published 2026-07-31; today's coverage merely restates cost efficiency. Also outside freshness window."
+    },
+    {
+      "story_key": "ai4-hinton-ng-existential-debate",
+      "event_date": "2026-08-05",
+      "title_en": "Ai4 2026 conference wraps in Las Vegas",
+      "source": "Ai4",
+      "action": "DROP",
+      "filter": "returning_story_no_update",
+      "reason": "The marquee Ai4 story (Hinton/Ng existential-risk debate) already published 2026-08-05. Conference wrap-up on 08-06 adds no substantive new development."
+    }
+  ]
+}
